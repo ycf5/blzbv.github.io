@@ -1,0 +1,67 @@
+WEBVTT
+Kind: captions
+Language: pt-BR
+
+00:00:00.133 --> 00:00:04.667
+Podemos elevar "r" ao quadrado
+ou apenas usar a função RSQ
+
+00:00:04.700 --> 00:00:06.800
+para calcular o valor de "r²".
+
+00:00:06.833 --> 00:00:11.967
+Elevar "r" ao quadrado
+nos dá o valor de 0,9744.
+
+00:00:12.000 --> 00:00:14.767
+Lembre-se: quanto mais próximos
+os dados estiverem da reta,
+
+00:00:14.800 --> 00:00:17.533
+mais próximo o valor de "r²"
+será de 1.
+
+00:00:17.567 --> 00:00:21.200
+Se o valor for próximo de 0,
+a correlação será fraca.
+
+00:00:21.233 --> 00:00:25.167
+No nosso exemplo, a equação da reta
+é uma ótima representação dos dados
+
+00:00:25.200 --> 00:00:28.733
+e pode ser usada para prever valores
+médios para o número de chamados.
+
+00:00:28.767 --> 00:00:31.333
+Se tivéssemos um novo cliente
+com 600 funcionários,
+
+00:00:31.367 --> 00:00:33.967
+poderíamos estimar
+que a média de chamados é:
+
+00:00:34.000 --> 00:00:41.433
+y = 0,1833(600) - 11.0548,
+
+00:00:42.167 --> 00:00:44.800
+o que dá 98,92,
+
+00:00:44.833 --> 00:00:48.700
+ou uma média
+de 100 chamados por semana.
+
+00:00:48.733 --> 00:00:50.833
+Acabamos de criar
+nosso 1º modelo preditivo simples
+
+00:00:50.866 --> 00:00:54.100
+usando a regressão linear
+e validamos o resultado.
+
+00:00:54.133 --> 00:00:55.467
+*END*
+
+00:00:55.500 --> 00:00:56.800
+*CODE*
+

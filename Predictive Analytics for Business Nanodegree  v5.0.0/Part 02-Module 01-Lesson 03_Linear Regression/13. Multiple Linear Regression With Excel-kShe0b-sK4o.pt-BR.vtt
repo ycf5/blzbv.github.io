@@ -1,0 +1,92 @@
+WEBVTT
+Kind: captions
+Language: pt-BR
+
+00:00:00.100 --> 00:00:04.233
+Agora vamos mostrar um exemplo
+de regressão linear múltipla
+
+00:00:04.267 --> 00:00:07.200
+com o conjunto de dados que inclui
+a média de chamados,
+
+00:00:07.233 --> 00:00:10.233
+o número de funcionários
+e o valor dos contratos.
+
+00:00:10.267 --> 00:00:13.333
+Neste exemplo,
+vamos usar o Excel.
+
+00:00:13.367 --> 00:00:17.733
+Podemos fazer essas regressões no
+Google Sheets com a função PROJ.LIN,
+
+00:00:17.767 --> 00:00:20.067
+mas o Excel dá
+resultados mais ricos.
+
+00:00:20.100 --> 00:00:21.933
+Note que, para realizar
+este próximo passo,
+
+00:00:21.967 --> 00:00:26.700
+é preciso ter o pacote
+de análise de dados ativo no Excel.
+
+00:00:26.733 --> 00:00:29.967
+Para começar a análise,
+vá até a aba "Dados"
+
+00:00:30.000 --> 00:00:32.067
+e selecione
+"Análise de Dados".
+
+00:00:32.100 --> 00:00:34.900
+Selecione "Regressão"
+e clique em "OK".
+
+00:00:34.933 --> 00:00:38.767
+O intervalo de "Y" deve ser
+o intervalo de sua variável-alvo.
+
+00:00:38.800 --> 00:00:41.300
+Neste caso,
+a média de chamados.
+
+00:00:41.333 --> 00:00:45.433
+O intervalo de "X" é o intervalo
+de dados das variáveis preditivas.
+
+00:00:45.467 --> 00:00:49.533
+Neste caso, o número de funcionários
+e o valor do contrato.
+
+00:00:49.567 --> 00:00:53.400
+Clicar em "OK" fará o modelo
+funcionar e trará um resultado.
+
+00:00:53.433 --> 00:00:57.300
+Podemos ver os coeficientes
+da nossa equação linear,
+
+00:00:57.333 --> 00:00:58.633
+que geram a equação
+
+00:00:58.667 --> 00:01:10.300
+Y = -24,2667
++ 0,1019X1 + 0,00067X2,
+
+00:01:10.333 --> 00:01:12.300
+em que "x1"
+é o número de funcionários
+
+00:01:12.333 --> 00:01:14.733
+e "x2" é o valor do contrato.
+
+00:01:14.766 --> 00:01:16.100
+*END*
+
+00:01:16.133 --> 00:01:17.433
+*CODE*
+

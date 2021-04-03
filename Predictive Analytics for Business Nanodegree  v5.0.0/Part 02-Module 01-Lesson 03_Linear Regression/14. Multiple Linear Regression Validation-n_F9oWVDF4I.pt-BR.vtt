@@ -1,0 +1,60 @@
+WEBVTT
+Kind: captions
+Language: pt-BR
+
+00:00:00.868 --> 00:00:03.504
+Você se lembra do framework
+de resolução de problemas?
+
+00:00:03.537 --> 00:00:05.772
+Usamos o modelo
+com duas variáveis diferentes
+
+00:00:05.806 --> 00:00:07.608
+e obtivemos bons resultados.
+
+00:00:07.641 --> 00:00:11.979
+Depois, combinamos as variáveis
+e obtivemos melhores resultados.
+
+00:00:12.012 --> 00:00:15.614
+Repetir os passos de análise,
+modelagem e validação
+
+00:00:15.647 --> 00:00:17.885
+nos ajuda a criar
+melhores modelos.
+
+00:00:18.118 --> 00:00:21.121
+A principal lição é que você
+deve questionar seus dados
+
+00:00:21.154 --> 00:00:23.757
+e explorar opções
+para determinar o melhor modelo
+
+00:00:23.790 --> 00:00:26.426
+para os seus dados e seu caso.
+
+00:00:26.460 --> 00:00:30.664
+Acabamos de mostrar um exemplo
+de iteração do processo analítico
+
+00:00:30.697 --> 00:00:32.499
+para obtenção
+do melhor resultado.
+
+00:00:32.533 --> 00:00:35.102
+Usar ambas as variáveis preditivas
+neste exemplo
+
+00:00:35.135 --> 00:00:38.872
+gerou um modelo melhor
+com um nível alto de correlação.
+
+00:00:38.905 --> 00:00:40.240
+*END*
+
+00:00:40.274 --> 00:00:41.575
+*CODE*
+

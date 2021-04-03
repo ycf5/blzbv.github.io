@@ -1,0 +1,106 @@
+WEBVTT
+Kind: captions
+Language: pt-BR
+
+00:00:00.400 --> 00:00:04.567
+Começamos com uma equação simples
+para uma reta, y = mx + b,
+
+00:00:04.600 --> 00:00:06.533
+onde "m"
+é o coeficiente da variável
+
+00:00:06.567 --> 00:00:08.472
+e "b" é a intersecção de "y".
+
+00:00:09.066 --> 00:00:11.966
+Se você tiver mais dados que
+acredita terem uma ligação linear,
+
+00:00:11.999 --> 00:00:14.098
+você pode expandir a equação
+para...
+
+00:00:14.131 --> 00:00:20.200
+y = b0 + b1x1 + b2x2 + b3x3,
+
+00:00:20.233 --> 00:00:22.067
+e assim em diante.
+
+00:00:22.100 --> 00:00:25.567
+Nesta equação,
+"y" ainda é a variável-alvo.
+
+00:00:25.600 --> 00:00:29.100
+"b0" é a intersecção
+ou o valor base,
+
+00:00:29.133 --> 00:00:33.933
+"b1", "b2" e "b3" representam
+os coeficientes das variáveis
+
+00:00:33.967 --> 00:00:37.267
+"x1", "x2", "x3",
+e assim por diante.
+
+00:00:37.567 --> 00:00:42.700
+A regressão linear vai achar valores
+para "b0", "b1", "b2" e "b3",
+
+00:00:42.733 --> 00:00:46.167
+e esses valores representam
+a relação que observamos
+
+00:00:46.200 --> 00:00:49.407
+entre as variáveis preditivas
+e a variável-alvo.
+
+00:00:50.133 --> 00:00:52.400
+Este modelo
+é chamado de linear
+
+00:00:52.433 --> 00:00:55.533
+porque a expressão se baseia
+numa combinação linear,
+
+00:00:55.900 --> 00:00:58.667
+uma expressão construída
+a partir de um conjunto de termos.
+
+00:00:58.700 --> 00:01:01.467
+Cada um dos termos é multiplicado
+por uma constante,
+
+00:01:01.500 --> 00:01:03.800
+e os resultados
+depois são somados.
+
+00:01:04.667 --> 00:01:07.867
+Com este conjunto de dados,
+nossa equação seria assim:
+
+00:01:07.900 --> 00:01:13.233
+y = b0 + b1x1 + b2x2.
+
+00:01:13.467 --> 00:01:15.733
+Usando o Excel
+ou o Google Sheets,
+
+00:01:15.767 --> 00:01:18.000
+podemos calcular os valores
+dos coeficientes
+
+00:01:18.033 --> 00:01:20.200
+e conferir os coeficientes
+de correlação para ver
+
+00:01:20.233 --> 00:01:23.600
+se nosso modelo linear múltiplo
+faz previsões melhores.
+
+00:01:23.633 --> 00:01:24.967
+*END*
+
+00:01:25.000 --> 00:01:26.300
+*CODE*
+

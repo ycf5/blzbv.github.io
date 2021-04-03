@@ -1,0 +1,67 @@
+WEBVTT
+Kind: captions
+Language: pt-BR
+
+00:00:00.300 --> 00:00:02.169
+Agora que temos
+uma abordagem em mente
+
+00:00:02.202 --> 00:00:04.238
+para começarmos
+a trabalhar no problema,
+
+00:00:04.271 --> 00:00:06.006
+temos que preparar os dados.
+
+00:00:06.573 --> 00:00:10.577
+Isso geralmente exige
+reunir, limpar, formatar,
+
+00:00:10.611 --> 00:00:13.247
+mesclar e separar
+amostras dos dados.
+
+00:00:13.280 --> 00:00:15.749
+Nesta aula, vamos começar
+com um conjunto de dados
+
+00:00:15.782 --> 00:00:19.152
+que não precisa ser trabalhado
+e já está pronto para ser analisado.
+
+00:00:19.186 --> 00:00:22.422
+Vamos ter um curso completo
+de preparação de dados,
+
+00:00:22.456 --> 00:00:24.391
+então vamos pular isso aqui.
+
+00:00:24.424 --> 00:00:25.893
+Agora que temos
+nossos dados prontos,
+
+00:00:25.926 --> 00:00:27.995
+o próximo passo do framework
+de resolução de problemas
+
+00:00:28.028 --> 00:00:30.497
+é realizar a análise
+e criar um modelo.
+
+00:00:30.531 --> 00:00:34.101
+Dissemos que vamos usar um modelo
+de regressão linear neste problema.
+
+00:00:34.134 --> 00:00:37.137
+Mas, primeiro, vamos aprender
+um pouco sobre regressão linear
+
+00:00:37.171 --> 00:00:38.505
+antes de criar o modelo.
+
+00:00:39.006 --> 00:00:40.307
+*END*
+
+00:00:40.340 --> 00:00:41.642
+*CODE*
+

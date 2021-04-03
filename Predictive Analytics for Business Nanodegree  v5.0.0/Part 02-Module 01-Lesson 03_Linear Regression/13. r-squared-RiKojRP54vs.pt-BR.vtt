@@ -1,0 +1,50 @@
+WEBVTT
+Kind: captions
+Language: pt-BR
+
+00:00:00.100 --> 00:00:05.100
+Também vemos o valor de "r²",
+que é de 0,877,
+
+00:00:05.133 --> 00:00:09.600
+e um valor ajustado de "r²"
+de 0,863.
+
+00:00:09.633 --> 00:00:13.567
+O valor ajustado de "r²" deve ser
+usado na regressão linear múltipla
+
+00:00:13.600 --> 00:00:17.567
+devido a um fenômeno que ocorre ao
+acrescentarmos variáveis ao modelo.
+
+00:00:17.600 --> 00:00:20.433
+Resumindo, quanto mais variáveis
+são incluídas,
+
+00:00:20.467 --> 00:00:24.291
+maior será o valor de "r²",
+mesmo que não haja nenhuma relação
+
+00:00:24.324 --> 00:00:27.275
+entre as variáveis adicionais
+e a variável-alvo.
+
+00:00:27.308 --> 00:00:30.500
+Por isso, usamos o valor
+de "r²" ajustado.
+
+00:00:30.533 --> 00:00:33.000
+Para obter mais informações
+sobre o "r²" ajustado,
+
+00:00:33.033 --> 00:00:35.131
+por favor, consulte
+o material de referência.
+
+00:00:35.400 --> 00:00:36.700
+*END*
+
+00:00:36.733 --> 00:00:38.033
+*CODE*
+

@@ -1,0 +1,133 @@
+WEBVTT
+Kind: captions
+Language: pt-BR
+
+00:00:00.500 --> 00:00:04.033
+É um problema rico
+ou pobre em dados?
+
+00:00:04.200 --> 00:00:07.233
+Vamos recapitular a diferença
+entre rico e pobre em dados.
+
+00:00:07.267 --> 00:00:10.867
+Se temos dados anteriores sobre
+a variável que queremos prever,
+
+00:00:10.900 --> 00:00:12.733
+então somos ricos em dados.
+
+00:00:12.767 --> 00:00:15.204
+Senão, somos pobres em dados.
+
+00:00:15.800 --> 00:00:18.133
+Para determinar se somos ricos
+ou pobres em dados,
+
+00:00:18.167 --> 00:00:21.233
+precisamos analisar os dados
+para entendê-los melhor.
+
+00:00:21.734 --> 00:00:23.266
+Ao olhar para
+nosso conjunto de dados,
+
+00:00:23.299 --> 00:00:26.500
+vemos que temos as seguintes
+informações sobre cada cliente:
+
+00:00:26.533 --> 00:00:29.900
+a média de chamados
+que cada cliente faz por semana,
+
+00:00:29.933 --> 00:00:32.167
+o número de funcionários
+por cliente,
+
+00:00:32.200 --> 00:00:34.767
+o valor do contrato
+de cada cliente
+
+00:00:34.800 --> 00:00:37.367
+e o setor de atuação
+de cada cliente.
+
+00:00:37.767 --> 00:00:40.467
+Como temos o número de chamados
+de cada cliente,
+
+00:00:40.500 --> 00:00:42.367
+somos ricos em dados.
+
+00:00:42.833 --> 00:00:45.667
+Seguindo o fluxograma,
+agora temos que determinar
+
+00:00:45.700 --> 00:00:50.133
+se vamos usar um modelo numérico
+ou um modelo de classificação.
+
+00:00:50.167 --> 00:00:53.500
+O resultado que queremos prever
+é o número que indica
+
+00:00:53.533 --> 00:00:57.100
+a média de chamados que
+podemos esperar de cada cliente.
+
+00:00:57.133 --> 00:01:00.167
+Logo, devemos usar
+um modelo numérico.
+
+00:01:01.267 --> 00:01:04.533
+Agora estamos nos aproximando
+da escolha do modelo.
+
+00:01:04.567 --> 00:01:08.033
+Mas, primeiro, temos que determinar
+se um modelo contínuo ou temporal
+
+00:01:08.067 --> 00:01:10.433
+é apropriado para o problema.
+
+00:01:11.133 --> 00:01:13.100
+Queremos uma média por semana,
+
+00:01:13.133 --> 00:01:16.967
+então, à 1ª vista, podemos pensar
+que é um problema temporal.
+
+00:01:17.000 --> 00:01:20.533
+Se quiséssemos prever
+um número específico por semana
+
+00:01:20.567 --> 00:01:24.400
+para um período de várias semanas,
+estaríamos certos.
+
+00:01:24.433 --> 00:01:28.333
+No entanto, neste problema,
+só queremos uma média por semana
+
+00:01:28.367 --> 00:01:31.333
+e não estamos interessados
+em uma semana específica.
+
+00:01:31.367 --> 00:01:35.833
+Logo, vamos usar um modelo contínuo
+para solucionar o problema.
+
+00:01:35.867 --> 00:01:39.633
+Para o 1º modelo, vamos
+nos concentrar na regressão linear.
+
+00:01:39.667 --> 00:01:41.533
+Vamos falar sobre os outros
+mais tarde.
+
+00:01:41.566 --> 00:01:42.900
+*END*
+
+00:01:42.933 --> 00:01:44.233
+*CODE*
+

@@ -1,0 +1,328 @@
+<!-- udacity2.0 -->
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Interpreting Linear Regression Results</title>
+  <link rel="stylesheet" href="../assets/css/bootstrap.min.css">
+  <link rel="stylesheet" href="../assets/css/plyr.css">
+  <link rel="stylesheet" href="../assets/css/katex.min.css">
+  <link rel="stylesheet" href="../assets/css/jquery.mCustomScrollbar.min.css">
+  <link rel="stylesheet" href="../assets/css/styles.css">
+  <link rel="shortcut icon" type="image/png" href="../assets/img/udacimak.png" />
+</head>
+
+<body>
+  <div class="wrapper">
+    <nav id="sidebar">
+  <div class="sidebar-header">
+    <h3>Linear Regression</h3>
+  </div>
+
+  <ul class="sidebar-list list-unstyled CTAs">
+    <li>
+      <a href="../index.html" class="article">Back to Home</a>
+    </li>
+  </ul>
+
+  <ul class="sidebar-list list-unstyled components">
+    <li class="">
+      <a href="01. The Business Problem.html">01. The Business Problem</a>
+    </li>
+    <li class="">
+      <a href="02. Approaching the Business Problem.html">02. Approaching the Business Problem</a>
+    </li>
+    <li class="">
+      <a href="03. Data Understanding Quiz.html">03. Data Understanding Quiz</a>
+    </li>
+    <li class="">
+      <a href="04. Data Understanding Solution.html">04. Data Understanding Solution</a>
+    </li>
+    <li class="">
+      <a href="05. The Problem Solving Framework.html">05. The Problem Solving Framework</a>
+    </li>
+    <li class="">
+      <a href="06. Introduction to Linear Regression.html">06. Introduction to Linear Regression</a>
+    </li>
+    <li class="">
+      <a href="07. Linear Equations in Google Sheets.html">07. Linear Equations in Google Sheets</a>
+    </li>
+    <li class="">
+      <a href="08. Linear Regression Validation.html">08. Linear Regression Validation</a>
+    </li>
+    <li class="">
+      <a href="09. Simple Linear Regression Quiz.html">09. Simple Linear Regression Quiz</a>
+    </li>
+    <li class="">
+      <a href="10. Simple Linear Regression Solution.html">10. Simple Linear Regression Solution</a>
+    </li>
+    <li class="">
+      <a href="11. Introduction to Multiple Linear Regression.html">11. Introduction to Multiple Linear Regression</a>
+    </li>
+    <li class="">
+      <a href="12. Multiple Linear Regression Concepts.html">12. Multiple Linear Regression Concepts</a>
+    </li>
+    <li class="">
+      <a href="13. Multiple Linear Regression with Excel.html">13. Multiple Linear Regression with Excel</a>
+    </li>
+    <li class="">
+      <a href="14. Multiple Linear Regression Validation.html">14. Multiple Linear Regression Validation</a>
+    </li>
+    <li class="">
+      <a href="15. Linear Regression with Categorical Variables.html">15. Linear Regression with Categorical Variables</a>
+    </li>
+    <li class="">
+      <a href="16. Dummy Variable Quiz.html">16. Dummy Variable Quiz</a>
+    </li>
+    <li class="">
+      <a href="17. Introduction to Alteryx.html">17. Introduction to Alteryx</a>
+    </li>
+    <li class="">
+      <a href="18. Downloading Alteryx.html">18. Downloading Alteryx</a>
+    </li>
+    <li class="">
+      <a href="19. Alteryx Walkthrough.html">19. Alteryx Walkthrough</a>
+    </li>
+    <li class="">
+      <a href="20. Alteryx Tutorials.html">20. Alteryx Tutorials</a>
+    </li>
+    <li class="">
+      <a href="21. Building your First Model in Alteryx.html">21. Building your First Model in Alteryx</a>
+    </li>
+    <li class="">
+      <a href="22. Running the Model.html">22. Running the Model</a>
+    </li>
+    <li class="">
+      <a href="23. Interpreting Linear Regression Results.html">23. Interpreting Linear Regression Results</a>
+    </li>
+    <li class="">
+      <a href="24. Evaluating an Equation.html">24. Evaluating an Equation</a>
+    </li>
+    <li class="">
+      <a href="25. Evaluating an Equation Solution.html">25. Evaluating an Equation Solution</a>
+    </li>
+    <li class="">
+      <a href="26. Analysis Summary.html">26. Analysis Summary</a>
+    </li>
+    <li class="">
+      <a href="27. Course Recap.html">27. Course Recap</a>
+    </li>
+    <li class="">
+      <a href="28. Learning Summary.html">28. Learning Summary</a>
+    </li>
+  </ul>
+
+  <ul class="sidebar-list list-unstyled CTAs">
+    <li>
+      <a href="../index.html" class="article">Back to Home</a>
+    </li>
+  </ul>
+</nav>
+
+    <div id="content">
+      <header class="container-fluild header">
+        <div class="container">
+          <div class="row">
+            <div class="col-12">
+              <div class="align-items-middle">
+                <button type="button" id="sidebarCollapse" class="btn btn-toggle-sidebar">
+                  <div></div>
+                  <div></div>
+                  <div></div>
+                </button>
+
+                <h1 style="display: inline-block">23. Interpreting Linear Regression Results</h1>
+              </div>
+            </div>
+          </div>
+        </div>
+      </header>
+
+      <main class="container">
+        <div class="row">
+          <div class="col-12">
+            <div class="ud-atom">
+  <h3><p>Staart</p></h3>
+  <div>
+  <h1 id="interpreting-regression-results">Interpreting Regression Results</h1>
+<p>Below you see the results of a linear regression. Results are similarly reported by almost any regression tool. Do not be intimidated by the complexity of the presentation of the results; we’ll walk you through the most important values and how to interpret and apply them. For purposes of this exercise, the focus will be on three values that are of particular importance: the coefficient estimates, the p-values, and the R-squared. </p>
+<p><em>Note:</em> <a href="https://d17h27t6h515a5.cloudfront.net/topher/2017/February/589b742a_interpreting-regression-results/interpreting-regression-results.pdf" rel="noopener noreferrer" target="_blank">Here</a> is a PDF version this concept that you can download and use later. You can also find the PDF at the bottom of the page.</p>
+</div>
+
+</div>
+<div class="divider"></div><div class="ud-atom">
+  <h3><p>Results</p></h3>
+  <div>
+  <figure class="figure">
+    <img src="img/results.png" alt="" class="img img-fluid">
+    <figcaption class="figure-caption">
+      
+    </figcaption>
+  </figure>
+</div>
+
+
+</div>
+<div class="divider"></div><div class="ud-atom">
+  <h3><p>Coefficients</p></h3>
+  <div>
+  <h4 id="coefficient-estimates">Coefficient Estimates</h4>
+<p>Remember our regression equation? Y = B0+B1X1+B2X2…? These coefficients are the estimates of the B's. They represent the magnitude of the relationship between each predictor variable and the target variable. For example, the coefficient on the <strong>number.of.employees</strong> means that each additional employee will lead to roughly an additional 0.1 tickets, <em>holding all other variables constant</em>. A simpler way to think about this is that we can expect about 1 ticket for every 10 employees.</p>
+</div>
+
+</div>
+<div class="divider"></div><div class="ud-atom">
+  <h3><p>Coefficients</p></h3>
+  <div>
+  <figure class="figure">
+    <img src="img/pic4.png" alt="" class="img img-fluid">
+    <figcaption class="figure-caption">
+      
+    </figcaption>
+  </figure>
+</div>
+
+
+</div>
+<div class="divider"></div><div class="ud-atom">
+  <h3><p>Pvalue</p></h3>
+  <div>
+  <h4 id="p-value">P Value</h4>
+<p>The <em>p value</em> is the probability that observed results (the coefficient estimate) occurred by chance, and that there is no actual relationship between the predictor and target variable. In other words, the p-value is the probability that the coefficient is zero. The lower the p-value the higher the probability that a relationship exists between the predictor and target variable. If the p-value is high, we should not rely on the coefficient estimate. When a predictor variable has a p-value below 0.05, the relationship between it and the target variable is considered to be statistically significant. </p>
+<p><strong>Statistical Significance</strong> - "Statistical significance is a result that is not likely to occur randomly, but rather is likely to be attributable to a specific cause." - <em><a href="http://www.investopedia.com/terms/s/statistical-significance.asp#ixzz4FkclTfSz" rel="noopener noreferrer" target="_blank">Investopedia</a></em>. </p>
+<p>Apart from the p-value, the stars to the right indicate statistical significance as well. More *’s means more significance. In our example, we see that our predictor variables are significant, with the number of employees and the value of the contract being the most significant. Generally, we’ll want to remove variables from the model that are not statistically significant predictors of the target variable. </p>
+</div>
+
+</div>
+<div class="divider"></div><div class="ud-atom">
+  <h3><p>P</p></h3>
+  <div>
+  <figure class="figure">
+    <img src="img/pic1.png" alt="" class="img img-fluid">
+    <figcaption class="figure-caption">
+      
+    </figcaption>
+  </figure>
+</div>
+
+
+</div>
+<div class="divider"></div><div class="ud-atom">
+  <h3><p>rsq</p></h3>
+  <div>
+  <h4 id="r-squared">R-Squared</h4>
+<p>In our example, the R-squared value is 0.9651, and the adjusted R-squared value is 0.9558.  Therefore, we’ve been able to improve the model with the addition of the category.  In a real life problem, we might run the model with different predictor variables, or see if we had additional information to add to the model.</p>
+<p>Remember, R-squared ranges from 0 to 1 and represents the amount of variation in the target variable explained by the variation in the predictor variables. The higher the r-squared, the higher the explanatory power of the model. </p>
+<p>Now that we have a strong model, we can perform our analysis.</p>
+</div>
+
+</div>
+<div class="divider"></div><div class="ud-atom">
+  <h3></h3>
+  <div>
+  <figure class="figure">
+    <img src="img/r2.png" alt="" class="img img-fluid">
+    <figcaption class="figure-caption">
+      
+    </figcaption>
+  </figure>
+</div>
+
+
+</div>
+<div class="divider"></div>
+          </div>
+
+          <div class="col-12">
+            <p class="text-right">
+              <a href="24. Evaluating an Equation.html" class="btn btn-outline-primary mt-4" role="button">Next Concept</a>
+            </p>
+          </div>
+        </div>
+      </main>
+
+      <footer class="footer">
+        <div class="container">
+          <div class="row">
+            <div class="col-12">
+              <p class="text-center">
+                <a href="https://us-udacity.github.io/" target="_blank">【udacity2.0 】If you need more courses, please add wechat：udacity6</a>
+              </p>
+            </div>
+          </div>
+        </div>
+      </footer>
+    </div>
+  </div>
+
+
+  <script src="../assets/js/jquery-3.3.1.min.js"></script>
+  <script src="../assets/js/plyr.polyfilled.min.js"></script>
+  <script src="../assets/js/bootstrap.min.js"></script>
+  <script src="../assets/js/jquery.mCustomScrollbar.concat.min.js"></script>
+  <script src="../assets/js/katex.min.js"></script>
+  <script>
+    // Initialize Plyr video players
+    const players = Array.from(document.querySelectorAll('video')).map(p => new Plyr(p));
+
+    // render math equations
+    let elMath = document.getElementsByClassName('mathquill');
+    for (let i = 0, len = elMath.length; i < len; i += 1) {
+      const el = elMath[i];
+
+      katex.render(el.textContent, el, {
+        throwOnError: false
+      });
+    }
+
+    // this hack will make sure Bootstrap tabs work when using Handlebars
+    if ($('#question-tabs').length && $('#user-answer-tabs').length) {
+      $("#question-tabs a.nav-link").on('click', function () {
+        $("#question-tab-contents .tab-pane").hide();
+        $($(this).attr("href")).show();
+      });
+      $("#user-answer-tabs a.nav-link").on('click', function () {
+        $("#user-answer-tab-contents .tab-pane").hide();
+        $($(this).attr("href")).show();
+      });
+    } else {
+      $("a.nav-link").on('click', function () {
+        $(".tab-pane").hide();
+        $($(this).attr("href")).show();
+      });
+    }
+
+    // side bar events
+    $(document).ready(function () {
+      $("#sidebar").mCustomScrollbar({
+        theme: "minimal"
+      });
+
+      $('#sidebarCollapse').on('click', function () {
+        $('#sidebar, #content').toggleClass('active');
+        $('.collapse.in').toggleClass('in');
+        $('a[aria-expanded=true]').attr('aria-expanded', 'false');
+      });
+
+      // scroll to first video on page loading
+      if ($('video').length) {
+        $('html,body').animate({ scrollTop: $('div.plyr').prev().offset().top});
+      }
+
+      // auto play first video: this may not work with chrome/safari due to autoplay policy
+      if (players && players.length > 0) {
+        players[0].play();
+      }
+
+      // scroll sidebar to current concept
+      const currentInSideBar = $( "ul.sidebar-list.components li a:contains('23. Interpreting Linear Regression Results')" )
+      currentInSideBar.css( "text-decoration", "underline" );
+      $("#sidebar").mCustomScrollbar('scrollTo', currentInSideBar);
+    });
+  </script>
+</body>
+
+</html>

@@ -1,0 +1,65 @@
+WEBVTT
+Kind: captions
+Language: pt-BR
+
+00:00:00.233 --> 00:00:02.300
+E se tivermos
+mais dados disponíveis?
+
+00:00:02.333 --> 00:00:06.400
+Podemos saber se os dados adicionais
+vão gerar previsões melhores?
+
+00:00:06.433 --> 00:00:09.433
+Também temos dados que mostram
+o valor do contrato de cada cliente
+
+00:00:09.467 --> 00:00:12.367
+em relação à média de chamados.
+Usando o Google Sheets,
+
+00:00:12.400 --> 00:00:15.167
+podemos montar um gráfico
+com uma equação linear
+
+00:00:15.200 --> 00:00:17.033
+e um valor de "r²".
+
+00:00:17.067 --> 00:00:22.733
+Neste caso, temos uma equação linear
+com um valor de "r²" de 0,785.
+
+00:00:22.767 --> 00:00:25.233
+Esses novos dados são parecidos
+com os anteriores,
+
+00:00:25.267 --> 00:00:27.600
+se compararmos
+o valor de "r²",
+
+00:00:27.633 --> 00:00:29.665
+mas e se pudéssemos usar
+os dois conjuntos de dados
+
+00:00:29.698 --> 00:00:31.367
+para gerar
+uma previsão melhor?
+
+00:00:31.400 --> 00:00:33.667
+Vamos começar a usar
+regressões lineares múltiplas,
+
+00:00:33.700 --> 00:00:36.100
+que são mais complexas
+que as regressões lineares simples,
+
+00:00:36.133 --> 00:00:39.733
+pois usam mais dados para fortalecer
+o coeficiente de correlação.
+
+00:00:39.766 --> 00:00:41.133
+*END*
+
+00:00:41.167 --> 00:00:42.467
+*CODE*
+

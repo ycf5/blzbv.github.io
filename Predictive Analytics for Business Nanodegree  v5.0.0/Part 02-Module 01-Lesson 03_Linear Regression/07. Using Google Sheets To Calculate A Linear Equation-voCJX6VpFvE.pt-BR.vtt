@@ -1,0 +1,67 @@
+WEBVTT
+Kind: captions
+Language: pt-BR
+
+00:00:00.333 --> 00:00:03.500
+Usando o Google Sheets, vamos
+determinar a fórmula de uma reta,
+
+00:00:03.533 --> 00:00:05.733
+com os valores de "x" e "y"
+que temos.
+
+00:00:05.767 --> 00:00:10.434
+"X" é o número de funcionários
+e "Y" é a média de chamados.
+
+00:00:10.799 --> 00:00:13.267
+Primeiro, para calcular
+a inclinação da reta,
+
+00:00:13.300 --> 00:00:16.067
+usamos a função INCLINAÇÃO.
+
+00:00:16.100 --> 00:00:18.200
+Note que todas as funções
+usadas nesta aula
+
+00:00:18.233 --> 00:00:20.967
+são iguais às do Excel.
+
+00:00:21.000 --> 00:00:25.200
+A fórmula calcula a inclinação
+de 0,1833.
+
+00:00:25.233 --> 00:00:27.633
+Logo, para
+cada funcionário adicional,
+
+00:00:27.667 --> 00:00:31.900
+a média de chamados
+aumenta 0,1833.
+
+00:00:31.933 --> 00:00:34.667
+Agora vamos calcular
+a intersecção de "y".
+
+00:00:34.700 --> 00:00:37.267
+Para isso, vamos usar
+a função INTERCEPÇÃO.
+
+00:00:37.300 --> 00:00:41.100
+A intersecção de "y"
+é -11,055.
+
+00:00:41.133 --> 00:00:43.000
+Agora sabemos a equação
+da nossa reta.
+
+00:00:43.033 --> 00:00:48.967
+Y = 0,1833x - 11,055.
+
+00:00:49.000 --> 00:00:50.333
+*END*
+
+00:00:50.367 --> 00:00:51.667
+*CODE*
+

@@ -1,0 +1,346 @@
+<!-- udacity2.0 -->
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Dummy Variable Quiz</title>
+  <link rel="stylesheet" href="../assets/css/bootstrap.min.css">
+  <link rel="stylesheet" href="../assets/css/plyr.css">
+  <link rel="stylesheet" href="../assets/css/katex.min.css">
+  <link rel="stylesheet" href="../assets/css/jquery.mCustomScrollbar.min.css">
+  <link rel="stylesheet" href="../assets/css/styles.css">
+  <link rel="shortcut icon" type="image/png" href="../assets/img/udacimak.png" />
+</head>
+
+<body>
+  <div class="wrapper">
+    <nav id="sidebar">
+  <div class="sidebar-header">
+    <h3>Linear Regression</h3>
+  </div>
+
+  <ul class="sidebar-list list-unstyled CTAs">
+    <li>
+      <a href="../index.html" class="article">Back to Home</a>
+    </li>
+  </ul>
+
+  <ul class="sidebar-list list-unstyled components">
+    <li class="">
+      <a href="01. The Business Problem.html">01. The Business Problem</a>
+    </li>
+    <li class="">
+      <a href="02. Approaching the Business Problem.html">02. Approaching the Business Problem</a>
+    </li>
+    <li class="">
+      <a href="03. Data Understanding Quiz.html">03. Data Understanding Quiz</a>
+    </li>
+    <li class="">
+      <a href="04. Data Understanding Solution.html">04. Data Understanding Solution</a>
+    </li>
+    <li class="">
+      <a href="05. The Problem Solving Framework.html">05. The Problem Solving Framework</a>
+    </li>
+    <li class="">
+      <a href="06. Introduction to Linear Regression.html">06. Introduction to Linear Regression</a>
+    </li>
+    <li class="">
+      <a href="07. Linear Equations in Google Sheets.html">07. Linear Equations in Google Sheets</a>
+    </li>
+    <li class="">
+      <a href="08. Linear Regression Validation.html">08. Linear Regression Validation</a>
+    </li>
+    <li class="">
+      <a href="09. Simple Linear Regression Quiz.html">09. Simple Linear Regression Quiz</a>
+    </li>
+    <li class="">
+      <a href="10. Simple Linear Regression Solution.html">10. Simple Linear Regression Solution</a>
+    </li>
+    <li class="">
+      <a href="11. Introduction to Multiple Linear Regression.html">11. Introduction to Multiple Linear Regression</a>
+    </li>
+    <li class="">
+      <a href="12. Multiple Linear Regression Concepts.html">12. Multiple Linear Regression Concepts</a>
+    </li>
+    <li class="">
+      <a href="13. Multiple Linear Regression with Excel.html">13. Multiple Linear Regression with Excel</a>
+    </li>
+    <li class="">
+      <a href="14. Multiple Linear Regression Validation.html">14. Multiple Linear Regression Validation</a>
+    </li>
+    <li class="">
+      <a href="15. Linear Regression with Categorical Variables.html">15. Linear Regression with Categorical Variables</a>
+    </li>
+    <li class="">
+      <a href="16. Dummy Variable Quiz.html">16. Dummy Variable Quiz</a>
+    </li>
+    <li class="">
+      <a href="17. Introduction to Alteryx.html">17. Introduction to Alteryx</a>
+    </li>
+    <li class="">
+      <a href="18. Downloading Alteryx.html">18. Downloading Alteryx</a>
+    </li>
+    <li class="">
+      <a href="19. Alteryx Walkthrough.html">19. Alteryx Walkthrough</a>
+    </li>
+    <li class="">
+      <a href="20. Alteryx Tutorials.html">20. Alteryx Tutorials</a>
+    </li>
+    <li class="">
+      <a href="21. Building your First Model in Alteryx.html">21. Building your First Model in Alteryx</a>
+    </li>
+    <li class="">
+      <a href="22. Running the Model.html">22. Running the Model</a>
+    </li>
+    <li class="">
+      <a href="23. Interpreting Linear Regression Results.html">23. Interpreting Linear Regression Results</a>
+    </li>
+    <li class="">
+      <a href="24. Evaluating an Equation.html">24. Evaluating an Equation</a>
+    </li>
+    <li class="">
+      <a href="25. Evaluating an Equation Solution.html">25. Evaluating an Equation Solution</a>
+    </li>
+    <li class="">
+      <a href="26. Analysis Summary.html">26. Analysis Summary</a>
+    </li>
+    <li class="">
+      <a href="27. Course Recap.html">27. Course Recap</a>
+    </li>
+    <li class="">
+      <a href="28. Learning Summary.html">28. Learning Summary</a>
+    </li>
+  </ul>
+
+  <ul class="sidebar-list list-unstyled CTAs">
+    <li>
+      <a href="../index.html" class="article">Back to Home</a>
+    </li>
+  </ul>
+</nav>
+
+    <div id="content">
+      <header class="container-fluild header">
+        <div class="container">
+          <div class="row">
+            <div class="col-12">
+              <div class="align-items-middle">
+                <button type="button" id="sidebarCollapse" class="btn btn-toggle-sidebar">
+                  <div></div>
+                  <div></div>
+                  <div></div>
+                </button>
+
+                <h1 style="display: inline-block">16. Dummy Variable Quiz</h1>
+              </div>
+            </div>
+          </div>
+        </div>
+      </header>
+
+      <main class="container">
+        <div class="row">
+          <div class="col-12">
+            <div class="ud-atom">
+  <h3></h3>
+  <div>
+  <h3 id="evaluating-an-equation">Evaluating an Equation</h3>
+<p>Let’s do a manual calculation to demonstrate how it works. Let’s start with the following regression equation.</p>
+<p><strong><center> School exp = -468 + (0.067 <em>x</em> avg income) + (1349 <em>x</em> pct under 18) - (14.4 <em>x</em> midwest) - (9.3 <em>x</em> southeast) + (16.5 <em>x</em> west) </center></strong></p>
+<p>Now let’s say we have a state with an average income of 4011, % under 18 of 32.5%, and was in the northeast region. See below for the steps of the calculation.</p>
+<ol>
+<li><strong>School exp = -468 + (0.067 <em>x</em> avg income) + (1349 <em>x</em> pct under 18) - (14.4 <em>x</em> midwest) - (9.3 <em>x</em> southeast) + (16.5 <em>x</em> west)</strong></li>
+<li><strong>School exp = -468 + (0.067 <em>x</em> 4011) + (1349 <em>x</em> 0.325) - (14.4 <em>x</em> 0) - (9.3 <em>x</em> 0) + (16.5 <em>x</em> 0)</strong></li>
+<li><strong>School exp = -468 + 268.737 + 438.425 - 0 - 0 + 0</strong></li>
+<li>**School exp = 239.162 **</li>
+</ol>
+<p>We’d plug in the numeric values and multiply them by their respective coefficients like this. Then for the region dummy variables, we’d plug in zeros for each of them since the state is in the northeast. Solving the equation results in a predictive school expenditure of about 239.</p>
+<h3 id="interpreting-the-dummy-coefficient">Interpreting the Dummy Coefficient</h3>
+<p>One way to explaining the interpretation of the coefficient of one of the dummy variable above is that it represents the average difference between the state expenditures in one region, compared to states in the northeast region, assuming all other variables are held constant. If a state in the midwest has the same pct under 18 and avg income as a state in the northeast, then we’d predict it will spend 14.4 dollars less per student.</p>
+<p>Now it's your turn to try making a prediction on your own.</p>
+</div>
+
+</div>
+<div class="divider"></div><div class="ud-atom">
+  <h3><p>Question 1</p></h3>
+  <div>
+  <form>
+    <fieldset>
+      <legend><p>What is the predicted expenditures for a state with an average income of 5132, % under 18 of 33.4%, and is in the west region?</p></legend>
+    </fieldset>
+
+      <div>
+        <input type="radio" value="a1477535561119" name="198087" id="a1477535561119">
+        <label for="a1477535561119"><p>317.11</p></label>
+      </div>
+      <div>
+        <input type="radio" value="a1477535767662" name="198087" id="a1477535767662">
+        <label for="a1477535767662"><p>319.21</p></label>
+      </div>
+      <div>
+        <input type="radio" value="a1477535768126" name="198087" id="a1477535768126">
+        <label for="a1477535768126"><p>326.41</p></label>
+      </div>
+      <div>
+        <input type="radio" value="a1477535853140" name="198087" id="a1477535853140">
+        <label for="a1477535853140"><p>342.91</p></label>
+      </div>
+  </form>
+
+  <details>
+    <summary><strong>SOLUTION:</strong></summary>
+    342.91
+  </details>
+</div>
+
+</div>
+<div class="divider"></div><div class="ud-atom">
+  <h3><p>Question 2</p></h3>
+  <div>
+  <form>
+    <fieldset>
+      <legend><p>What is the predicted expenditures for a state with an average income of 5889, % under 18 of 31.8%, and is in the northeast region?</p></legend>
+    </fieldset>
+
+      <div>
+        <input type="radio" value="a1477535971997" name="198088" id="a1477535971997">
+        <label for="a1477535971997"><p>341.145</p></label>
+      </div>
+      <div>
+        <input type="radio" value="a1477535984445" name="198088" id="a1477535984445">
+        <label for="a1477535984445"><p>346.245</p></label>
+      </div>
+      <div>
+        <input type="radio" value="a1477535984893" name="198088" id="a1477535984893">
+        <label for="a1477535984893"><p>355.545</p></label>
+      </div>
+      <div>
+        <input type="radio" value="a1477535985478" name="198088" id="a1477535985478">
+        <label for="a1477535985478"><p>372.045</p></label>
+      </div>
+  </form>
+
+  <details>
+    <summary><strong>SOLUTION:</strong></summary>
+    355.545
+  </details>
+</div>
+
+</div>
+<div class="divider"></div><div class="ud-atom">
+  <h3></h3>
+  <div>
+  <h2 id="answers">Answers</h2>
+<p>Here is our linear regression formula</p>
+<p>School exp = -468 + (0.067 x avg income) + (1349 x pct under 18) - (14.4 x midwest) - (9.3 x southeast) + (16.5 x west)</p>
+<h4 id="question-1">Question 1</h4>
+<p>What is the predicted expenditures for a state with an average income of 5132, % under 18 of 33.4%, and is in the west region?</p>
+<p>Now we plug in these values into the formula to get our predicted expenditures</p>
+<p>School exp = -468 + (0.067 x 5132) + (1349 x 0.334) - (14.4 x 0) - (9.3 x 0) + (16.5 x 1)</p>
+<p>School exp = -468 + 343.844 + 450.566 - 0 - 0 + 16.5</p>
+<p>School exp = 342.91</p>
+<h4 id="question-2">Question 2</h4>
+<p>What is the predicted expenditures for a state with an average income of 5889, % under 18 of 31.8%, and is in the northeast region?</p>
+<p>Now we plug in these values into the formula to get our predicted expenditures<br />
+School exp = -468 + (0.067 x 5889) + (1349 x 0.318) - (14.4 x 0) - (9.3 x 0) + (16.5 x 0)</p>
+<p>School exp = -468 + 394.563 + 428.982 - 0 - 0 + 0</p>
+<p>School exp = 355.545</p>
+</div>
+
+</div>
+<div class="divider"></div>
+          </div>
+
+          <div class="col-12">
+            <p class="text-right">
+              <a href="17. Introduction to Alteryx.html" class="btn btn-outline-primary mt-4" role="button">Next Concept</a>
+            </p>
+          </div>
+        </div>
+      </main>
+
+      <footer class="footer">
+        <div class="container">
+          <div class="row">
+            <div class="col-12">
+              <p class="text-center">
+                <a href="https://us-udacity.github.io/" target="_blank">【udacity2.0 】If you need more courses, please add wechat：udacity6</a>
+              </p>
+            </div>
+          </div>
+        </div>
+      </footer>
+    </div>
+  </div>
+
+
+  <script src="../assets/js/jquery-3.3.1.min.js"></script>
+  <script src="../assets/js/plyr.polyfilled.min.js"></script>
+  <script src="../assets/js/bootstrap.min.js"></script>
+  <script src="../assets/js/jquery.mCustomScrollbar.concat.min.js"></script>
+  <script src="../assets/js/katex.min.js"></script>
+  <script>
+    // Initialize Plyr video players
+    const players = Array.from(document.querySelectorAll('video')).map(p => new Plyr(p));
+
+    // render math equations
+    let elMath = document.getElementsByClassName('mathquill');
+    for (let i = 0, len = elMath.length; i < len; i += 1) {
+      const el = elMath[i];
+
+      katex.render(el.textContent, el, {
+        throwOnError: false
+      });
+    }
+
+    // this hack will make sure Bootstrap tabs work when using Handlebars
+    if ($('#question-tabs').length && $('#user-answer-tabs').length) {
+      $("#question-tabs a.nav-link").on('click', function () {
+        $("#question-tab-contents .tab-pane").hide();
+        $($(this).attr("href")).show();
+      });
+      $("#user-answer-tabs a.nav-link").on('click', function () {
+        $("#user-answer-tab-contents .tab-pane").hide();
+        $($(this).attr("href")).show();
+      });
+    } else {
+      $("a.nav-link").on('click', function () {
+        $(".tab-pane").hide();
+        $($(this).attr("href")).show();
+      });
+    }
+
+    // side bar events
+    $(document).ready(function () {
+      $("#sidebar").mCustomScrollbar({
+        theme: "minimal"
+      });
+
+      $('#sidebarCollapse').on('click', function () {
+        $('#sidebar, #content').toggleClass('active');
+        $('.collapse.in').toggleClass('in');
+        $('a[aria-expanded=true]').attr('aria-expanded', 'false');
+      });
+
+      // scroll to first video on page loading
+      if ($('video').length) {
+        $('html,body').animate({ scrollTop: $('div.plyr').prev().offset().top});
+      }
+
+      // auto play first video: this may not work with chrome/safari due to autoplay policy
+      if (players && players.length > 0) {
+        players[0].play();
+      }
+
+      // scroll sidebar to current concept
+      const currentInSideBar = $( "ul.sidebar-list.components li a:contains('16. Dummy Variable Quiz')" )
+      currentInSideBar.css( "text-decoration", "underline" );
+      $("#sidebar").mCustomScrollbar('scrollTo', currentInSideBar);
+    });
+  </script>
+</body>
+
+</html>

@@ -1,0 +1,337 @@
+<!-- udacity2.0 -->
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Linear Regression with Categorical Variables</title>
+  <link rel="stylesheet" href="../assets/css/bootstrap.min.css">
+  <link rel="stylesheet" href="../assets/css/plyr.css">
+  <link rel="stylesheet" href="../assets/css/katex.min.css">
+  <link rel="stylesheet" href="../assets/css/jquery.mCustomScrollbar.min.css">
+  <link rel="stylesheet" href="../assets/css/styles.css">
+  <link rel="shortcut icon" type="image/png" href="../assets/img/udacimak.png" />
+</head>
+
+<body>
+  <div class="wrapper">
+    <nav id="sidebar">
+  <div class="sidebar-header">
+    <h3>Linear Regression</h3>
+  </div>
+
+  <ul class="sidebar-list list-unstyled CTAs">
+    <li>
+      <a href="../index.html" class="article">Back to Home</a>
+    </li>
+  </ul>
+
+  <ul class="sidebar-list list-unstyled components">
+    <li class="">
+      <a href="01. The Business Problem.html">01. The Business Problem</a>
+    </li>
+    <li class="">
+      <a href="02. Approaching the Business Problem.html">02. Approaching the Business Problem</a>
+    </li>
+    <li class="">
+      <a href="03. Data Understanding Quiz.html">03. Data Understanding Quiz</a>
+    </li>
+    <li class="">
+      <a href="04. Data Understanding Solution.html">04. Data Understanding Solution</a>
+    </li>
+    <li class="">
+      <a href="05. The Problem Solving Framework.html">05. The Problem Solving Framework</a>
+    </li>
+    <li class="">
+      <a href="06. Introduction to Linear Regression.html">06. Introduction to Linear Regression</a>
+    </li>
+    <li class="">
+      <a href="07. Linear Equations in Google Sheets.html">07. Linear Equations in Google Sheets</a>
+    </li>
+    <li class="">
+      <a href="08. Linear Regression Validation.html">08. Linear Regression Validation</a>
+    </li>
+    <li class="">
+      <a href="09. Simple Linear Regression Quiz.html">09. Simple Linear Regression Quiz</a>
+    </li>
+    <li class="">
+      <a href="10. Simple Linear Regression Solution.html">10. Simple Linear Regression Solution</a>
+    </li>
+    <li class="">
+      <a href="11. Introduction to Multiple Linear Regression.html">11. Introduction to Multiple Linear Regression</a>
+    </li>
+    <li class="">
+      <a href="12. Multiple Linear Regression Concepts.html">12. Multiple Linear Regression Concepts</a>
+    </li>
+    <li class="">
+      <a href="13. Multiple Linear Regression with Excel.html">13. Multiple Linear Regression with Excel</a>
+    </li>
+    <li class="">
+      <a href="14. Multiple Linear Regression Validation.html">14. Multiple Linear Regression Validation</a>
+    </li>
+    <li class="">
+      <a href="15. Linear Regression with Categorical Variables.html">15. Linear Regression with Categorical Variables</a>
+    </li>
+    <li class="">
+      <a href="16. Dummy Variable Quiz.html">16. Dummy Variable Quiz</a>
+    </li>
+    <li class="">
+      <a href="17. Introduction to Alteryx.html">17. Introduction to Alteryx</a>
+    </li>
+    <li class="">
+      <a href="18. Downloading Alteryx.html">18. Downloading Alteryx</a>
+    </li>
+    <li class="">
+      <a href="19. Alteryx Walkthrough.html">19. Alteryx Walkthrough</a>
+    </li>
+    <li class="">
+      <a href="20. Alteryx Tutorials.html">20. Alteryx Tutorials</a>
+    </li>
+    <li class="">
+      <a href="21. Building your First Model in Alteryx.html">21. Building your First Model in Alteryx</a>
+    </li>
+    <li class="">
+      <a href="22. Running the Model.html">22. Running the Model</a>
+    </li>
+    <li class="">
+      <a href="23. Interpreting Linear Regression Results.html">23. Interpreting Linear Regression Results</a>
+    </li>
+    <li class="">
+      <a href="24. Evaluating an Equation.html">24. Evaluating an Equation</a>
+    </li>
+    <li class="">
+      <a href="25. Evaluating an Equation Solution.html">25. Evaluating an Equation Solution</a>
+    </li>
+    <li class="">
+      <a href="26. Analysis Summary.html">26. Analysis Summary</a>
+    </li>
+    <li class="">
+      <a href="27. Course Recap.html">27. Course Recap</a>
+    </li>
+    <li class="">
+      <a href="28. Learning Summary.html">28. Learning Summary</a>
+    </li>
+  </ul>
+
+  <ul class="sidebar-list list-unstyled CTAs">
+    <li>
+      <a href="../index.html" class="article">Back to Home</a>
+    </li>
+  </ul>
+</nav>
+
+    <div id="content">
+      <header class="container-fluild header">
+        <div class="container">
+          <div class="row">
+            <div class="col-12">
+              <div class="align-items-middle">
+                <button type="button" id="sidebarCollapse" class="btn btn-toggle-sidebar">
+                  <div></div>
+                  <div></div>
+                  <div></div>
+                </button>
+
+                <h1 style="display: inline-block">15. Linear Regression with Categorical Variables</h1>
+              </div>
+            </div>
+          </div>
+        </div>
+      </header>
+
+      <main class="container">
+        <div class="row">
+          <div class="col-12">
+            <div class="ud-atom">
+  <h3></h3>
+  <div>
+  <h2 id="linear-regression-using-non-numeric-predictor-variables">Linear Regression using non-numeric predictor variables</h2>
+<p>So let’s talk about what happens in linear regression when you add a categorical variable to the mix of predictor variables. Here’s a general regression equation with two predictor variables.</p>
+<p><strong><center> Y = &beta; <sub>0</sub> + &beta;<sub>1</sub>X<sub>1</sub> + &beta;<sub>2</sub> X <sub>2</sub> </center></strong></p>
+<p>Like we discussed, the X's represent the values for each variable. These come directly from the data. The &beta;'s come from the linear regression model. &beta; <sub>0</sub> is the intercept. The other &beta;'s represent the relationship between the predictor variable X and the target variable Y.</p>
+<h4 id="adding-a-categorical-predictor-variable">Adding a Categorical Predictor Variable</h4>
+<p>Now let’s say you add a third variable that is a non-numeric, or categorical variable. Now putting in the actual value of a category into an equation wouldn’t work because you can't do math string variables, so we have to transform the variable somehow. An inexperienced analyst may simply assign a number to each category and plug it into the model. </p>
+<p><strong><center> Y = &beta; <sub>0</sub> + &beta;<sub>1</sub>X<sub>1</sub> + &beta;<sub>2</sub> X <sub>2</sub> + &beta;<sub>3</sub> X <sub>3</sub></center></strong> </p>
+<p>Let's spend a moment exploring the problem with this. In linear regression, the coefficient or slope on each predictor variable represents the relationship between it has with the target variable. So if you transform a category into a numeric variable, you are assuming a linear relationship exists between the target variable and the category number. Since the category number is generally assigned arbitrarily, this doesn't make sense. </p>
+<h4 id="transforming-categorical-variables---bad-example">Transforming Categorical Variables - Bad Example</h4>
+<p>Let’s look at an example. We have a dataset with some information for each of the 50 states in the United States.</p>
+</div>
+
+</div>
+<div class="divider"></div><div class="ud-atom">
+  <h3></h3>
+  <div>
+  <figure class="figure">
+    <img src="img/data-pre.png" alt="" class="img img-fluid">
+    <figcaption class="figure-caption">
+      
+    </figcaption>
+  </figure>
+</div>
+
+
+</div>
+<div class="divider"></div><div class="ud-atom">
+  <h3></h3>
+  <div>
+  <p>We want to predict the per pupil student expenditures in a state. To do so, we'll use three predictor variables: average income of that state, the % of the population under 18, and the region in which the state falls. Below is the regression equation that would result after building the model. Region is a categorical variable with four values: west, midwest, northeast, and southeast. You assign them the numbers 1, 2, 3, and 4 respectively, and run the model. The results give you the following equation:</p>
+<p><strong><center> Expenditures = -530 + 0.073 Avg_Income + 1406.36 Pct_Under_18 + 6.53 region</center></strong> </p>
+<p>Now let's briefly try and understand the coefficients:</p>
+<ul>
+<li>The coefficient on average income implies that for every one dollar of additional average income, that state spends 7.3 more cents per pupil.</li>
+<li>The coefficient on percent under 18 implies that for every one additional percentage point of the population under 18, the state spends about $14 more per pupil.</li>
+<li>The coefficient on region implies that for every increase in one region, the state spends about $6.52 more per pupil. Now this one doesn't make logical sense. There was no logical order in the numbers, and this format doesn't allow us to take into account enough of the variation among regions.</li>
+</ul>
+</div>
+
+</div>
+<div class="divider"></div><div class="ud-atom">
+  <h3></h3>
+  <div>
+  <h4 id="transforming-categorical-variables---good-example">Transforming Categorical Variables - Good Example</h4>
+<p>A much better way of using categorical variables in regression is to use what are called dummy variables. A dummy variable can only take on two values, generally zero or one. You would add one dummy variable for one less than the number of unique values in the categorical variable. So if the variable is binary, you'd add one dummy. If there are four categories, you'd add three dummy variables. </p>
+<p>Going back to our example, let's now use dummy variables to represent the categorical variable, region. To represent the four categories west, midwest, northeast, and southeast, you’ll need to add three dummy variables. Let’s create a dummy variable for midwest, southeast, and west. </p>
+<p><strong><center> Expenditures = &beta; <sub>0</sub> + &beta;<sub>1</sub> Avg_Income + &beta;<sub>2</sub> Pct_Under_18 + &beta;<sub>3</sub> midwest + &beta;<sub>4</sub> southeast + &beta;<sub>5</sub> west </center></strong>  </center></p>
+<p>Each of the variables takes on a value of either 1 or 0. If the state is in the southeast, then the value for the southeast variable would be 1 while the other two variables would be zero.  </p>
+<p>Now we didn't create a variable for northeast. That’s because the equation needs a baseline value that is not coded into a dummy variable. If a state is in the northeast, then the value for all three of the dummy variables would be zero. <em>You always create one less dummy variable than the number of categories</em> to make sure that one category is represented by zero values for the dummy variables. That one category, in this case the northeast region, becomes the category that others are compared to.</p>
+<p>Note: Many software tools, like Alteryx, will transform categorical variables into dummy variables automatically. If you were to do it manually, the data would now look like this:</p>
+</div>
+
+</div>
+<div class="divider"></div><div class="ud-atom">
+  <h3></h3>
+  <div>
+  <figure class="figure">
+    <img src="img/data-post.png" alt="" class="img img-fluid">
+    <figcaption class="figure-caption">
+      
+    </figcaption>
+  </figure>
+</div>
+
+
+</div>
+<div class="divider"></div><div class="ud-atom">
+  <h3><p>Number of Dummy Variables Quiz</p></h3>
+  <div>
+  <form>
+    <fieldset>
+      <legend><p>If the categorical variable <em>Industry</em> is used in a regression, and it has three unique values, manufacturing, services, and retail, how many dummy variables should you use in the regression?</p></legend>
+    </fieldset>
+
+      <div>
+        <input type="radio" value="a1477534053811" name="198081" id="a1477534053811">
+        <label for="a1477534053811"><p>1</p></label>
+      </div>
+      <div>
+        <input type="radio" value="a1477534159854" name="198081" id="a1477534159854">
+        <label for="a1477534159854"><p>2</p></label>
+      </div>
+      <div>
+        <input type="radio" value="a1477534160495" name="198081" id="a1477534160495">
+        <label for="a1477534160495"><p>3</p></label>
+      </div>
+  </form>
+
+  <details>
+    <summary><strong>SOLUTION:</strong></summary>
+    2
+  </details>
+</div>
+
+</div>
+<div class="divider"></div>
+          </div>
+
+          <div class="col-12">
+            <p class="text-right">
+              <a href="16. Dummy Variable Quiz.html" class="btn btn-outline-primary mt-4" role="button">Next Concept</a>
+            </p>
+          </div>
+        </div>
+      </main>
+
+      <footer class="footer">
+        <div class="container">
+          <div class="row">
+            <div class="col-12">
+              <p class="text-center">
+                <a href="https://us-udacity.github.io/" target="_blank">【udacity2.0 】If you need more courses, please add wechat：udacity6</a>
+              </p>
+            </div>
+          </div>
+        </div>
+      </footer>
+    </div>
+  </div>
+
+
+  <script src="../assets/js/jquery-3.3.1.min.js"></script>
+  <script src="../assets/js/plyr.polyfilled.min.js"></script>
+  <script src="../assets/js/bootstrap.min.js"></script>
+  <script src="../assets/js/jquery.mCustomScrollbar.concat.min.js"></script>
+  <script src="../assets/js/katex.min.js"></script>
+  <script>
+    // Initialize Plyr video players
+    const players = Array.from(document.querySelectorAll('video')).map(p => new Plyr(p));
+
+    // render math equations
+    let elMath = document.getElementsByClassName('mathquill');
+    for (let i = 0, len = elMath.length; i < len; i += 1) {
+      const el = elMath[i];
+
+      katex.render(el.textContent, el, {
+        throwOnError: false
+      });
+    }
+
+    // this hack will make sure Bootstrap tabs work when using Handlebars
+    if ($('#question-tabs').length && $('#user-answer-tabs').length) {
+      $("#question-tabs a.nav-link").on('click', function () {
+        $("#question-tab-contents .tab-pane").hide();
+        $($(this).attr("href")).show();
+      });
+      $("#user-answer-tabs a.nav-link").on('click', function () {
+        $("#user-answer-tab-contents .tab-pane").hide();
+        $($(this).attr("href")).show();
+      });
+    } else {
+      $("a.nav-link").on('click', function () {
+        $(".tab-pane").hide();
+        $($(this).attr("href")).show();
+      });
+    }
+
+    // side bar events
+    $(document).ready(function () {
+      $("#sidebar").mCustomScrollbar({
+        theme: "minimal"
+      });
+
+      $('#sidebarCollapse').on('click', function () {
+        $('#sidebar, #content').toggleClass('active');
+        $('.collapse.in').toggleClass('in');
+        $('a[aria-expanded=true]').attr('aria-expanded', 'false');
+      });
+
+      // scroll to first video on page loading
+      if ($('video').length) {
+        $('html,body').animate({ scrollTop: $('div.plyr').prev().offset().top});
+      }
+
+      // auto play first video: this may not work with chrome/safari due to autoplay policy
+      if (players && players.length > 0) {
+        players[0].play();
+      }
+
+      // scroll sidebar to current concept
+      const currentInSideBar = $( "ul.sidebar-list.components li a:contains('15. Linear Regression with Categorical Variables')" )
+      currentInSideBar.css( "text-decoration", "underline" );
+      $("#sidebar").mCustomScrollbar('scrollTo', currentInSideBar);
+    });
+  </script>
+</body>
+
+</html>

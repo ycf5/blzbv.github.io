@@ -1,0 +1,99 @@
+WEBVTT
+Kind: captions
+Language: pt-BR
+
+00:00:00.733 --> 00:00:03.600
+Primeiro, que decisão
+precisa ser tomada?
+
+00:00:03.633 --> 00:00:06.500
+A decisão que o gerente de vendas
+precisa fazer é:
+
+00:00:06.533 --> 00:00:08.567
+o suporte técnico
+tem capacidade
+
+00:00:08.600 --> 00:00:11.467
+de lidar com os chamados
+do novo cliente?
+
+00:00:11.500 --> 00:00:15.367
+E, se não, quantas pessoas
+precisamos acrescentar ao suporte
+
+00:00:15.400 --> 00:00:18.233
+para chegar
+à capacidade desejada?
+
+00:00:18.467 --> 00:00:22.633
+Depois, de que informação precisamos
+para embasar essa decisão?
+
+00:00:23.700 --> 00:00:27.500
+Precisamos calcular a média
+de chamados por cliente por semana.
+
+00:00:27.533 --> 00:00:30.767
+Então podemos agregar a média
+de chamados de cada cliente
+
+00:00:30.800 --> 00:00:33.367
+para obter o número total
+de chamados
+
+00:00:33.400 --> 00:00:35.900
+que prevemos que serão
+feitos por semana.
+
+00:00:36.200 --> 00:00:38.100
+Quando tivermos
+essa informação,
+
+00:00:38.133 --> 00:00:40.567
+temos que comparar
+o número de chamados previstos
+
+00:00:40.600 --> 00:00:43.067
+com a capacidade atual
+da equipe de suporte técnico,
+
+00:00:43.100 --> 00:00:47.700
+especificamente a média de chamados
+a que cada membro pode atender.
+
+00:00:47.733 --> 00:00:51.867
+Por fim, temos que determinar
+a abordagem analítica certa.
+
+00:00:52.233 --> 00:00:55.333
+Vamos usar nosso mapa metodológico
+para nos ajudar a determinar
+
+00:00:55.367 --> 00:00:59.533
+o tipo de análise que devemos usar
+para gerar a informação necessária
+
+00:00:59.567 --> 00:01:01.633
+para embasar a decisão.
+
+00:01:02.333 --> 00:01:04.900
+Queremos prever a média
+de chamados por semana
+
+00:01:04.933 --> 00:01:06.933
+que o novo cliente fará.
+
+00:01:06.967 --> 00:01:10.100
+Logo, queremos
+prever um resultado.
+
+00:01:10.133 --> 00:01:11.367
+Isso foi fácil.
+
+00:01:11.400 --> 00:01:12.733
+*END*
+
+00:01:12.767 --> 00:01:14.067
+*CODE*
+

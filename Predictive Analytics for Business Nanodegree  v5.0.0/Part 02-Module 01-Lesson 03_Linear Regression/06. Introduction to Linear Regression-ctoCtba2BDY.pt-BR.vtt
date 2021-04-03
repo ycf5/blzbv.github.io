@@ -1,0 +1,88 @@
+WEBVTT
+Kind: captions
+Language: pt-BR
+
+00:00:00.333 --> 00:00:03.467
+Imagine que temos os dados
+mostrados neste gráfico.
+
+00:00:03.500 --> 00:00:06.767
+Parece que existe uma relação linear
+entre o número de empregados
+
+00:00:06.800 --> 00:00:08.867
+e o número de chamados.
+
+00:00:08.900 --> 00:00:10.867
+A relação parece ser linear,
+
+00:00:10.900 --> 00:00:14.533
+pois podemos desenhar
+uma linha reta através dos dados.
+
+00:00:14.567 --> 00:00:16.700
+Se soubermos a equação
+que define essa reta,
+
+00:00:16.733 --> 00:00:21.600
+podemos prever o número de chamados
+a partir do número de funcionários.
+
+00:00:22.900 --> 00:00:26.900
+A equação simples para criar
+uma reta é y = mx + b,
+
+00:00:26.933 --> 00:00:31.233
+onde "m" é a inclinação da reta
+e "b" é a intersecção "y" da reta.
+
+00:00:31.500 --> 00:00:34.567
+No nosso exemplo,
+"y" é a média de chamados
+
+00:00:34.600 --> 00:00:37.100
+e pode ser chamado
+de variável-alvo,
+
+00:00:37.133 --> 00:00:40.100
+pois é a variável
+que estamos tentando prever.
+
+00:00:40.133 --> 00:00:44.333
+"X", ou o número de funcionários,
+é a variável preditiva,
+
+00:00:44.367 --> 00:00:46.700
+já que estamos tentando prever
+o número de chamados
+
+00:00:46.733 --> 00:00:48.910
+com base no número
+de funcionários.
+
+00:00:50.566 --> 00:00:53.467
+Para determinar a equação da reta,
+precisamos calcular
+
+00:00:53.500 --> 00:00:56.067
+a inclinação
+e a intersecção de "y".
+
+00:00:56.100 --> 00:00:59.633
+Com a equação, poderemos desenhar
+uma linha reta nos nossos dados.
+
+00:01:00.533 --> 00:01:03.300
+Neste exemplo, vamos usar
+o Google Sheets,
+
+00:01:03.333 --> 00:01:07.167
+mas a mesma função existe
+no Excel.
+
+00:01:07.200 --> 00:01:08.533
+*END*
+
+00:01:08.567 --> 00:01:09.867
+*CODE*
+

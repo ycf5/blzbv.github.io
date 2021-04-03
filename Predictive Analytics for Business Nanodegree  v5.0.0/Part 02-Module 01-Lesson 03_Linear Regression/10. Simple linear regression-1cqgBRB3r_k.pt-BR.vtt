@@ -1,0 +1,88 @@
+WEBVTT
+Kind: captions
+Language: pt-BR
+
+00:00:00.233 --> 00:00:04.700
+Primeiro, calculamos a inclinação
+da reta usando a função INCLINAÇÃO.
+
+00:00:04.733 --> 00:00:08.000
+Neste caso, a inclinação
+é de 0,1817,
+
+00:00:08.033 --> 00:00:10.667
+o que significa que, para cada
+funcionário que o cliente tenha,
+
+00:00:10.700 --> 00:00:14.633
+vamos receber
+0,1817 chamados adicionais.
+
+00:00:14.667 --> 00:00:17.267
+Depois, calculamos
+o ponto de intersecção de "y"
+
+00:00:17.300 --> 00:00:19.400
+usando a função INTERCEPÇÃO,
+
+00:00:19.933 --> 00:00:24.300
+o que nos dá um valor
+de -7,546.
+
+00:00:24.333 --> 00:00:29.067
+Por fim, calculamos o coeficiente
+de determinação ou "r²"
+
+00:00:29.100 --> 00:00:31.833
+usando a função RSQ,
+
+00:00:31.867 --> 00:00:36.967
+obtendo um valor de "r²"
+de 0,7862.
+
+00:00:37.000 --> 00:00:42.467
+Além disso, vamos gerar rapidamente
+um gráfico com uma reta e "r²".
+
+00:00:42.900 --> 00:00:46.564
+Usando o Google Sheets, calculamos
+que a equação linear deve ser
+
+00:00:46.597 --> 00:00:52.767
+y = 0,1817x - 7,546,
+
+00:00:52.800 --> 00:00:56.800
+com valor de "r²" de 0,7862.
+
+00:00:56.833 --> 00:00:59.600
+Para um novo cliente
+com 525 funcionários,
+
+00:00:59.633 --> 00:01:04.967
+podemos esperar 0,1817
+multiplicado por 525
+
+00:01:05.000 --> 00:01:07.567
+menos 7,546,
+
+00:01:07.600 --> 00:01:10.967
+ou 87,86 chamados por semana,
+
+00:01:11.000 --> 00:01:13.867
+o que dá cerca de 88 chamados
+por semana.
+
+00:01:13.900 --> 00:01:17.167
+O valor de "r²" não é tão bom
+quanto o do exemplo anterior.
+
+00:01:17.200 --> 00:01:21.600
+Podemos ver pelo gráfico
+que os pontos estão mais espalhados.
+
+00:01:21.633 --> 00:01:22.967
+*END*
+
+00:01:23.000 --> 00:01:24.300
+*CODE*
+

@@ -1,0 +1,148 @@
+WEBVTT
+Kind: captions
+Language: en
+
+00:00:00.000 --> 00:00:04.110
+Alteryx provides a platform for a line of business analyst that
+
+00:00:04.110 --> 00:00:08.050
+allows them to ingest any kind of data: big data,
+
+00:00:08.050 --> 00:00:10.290
+little data, structured, unstructured,
+
+00:00:10.290 --> 00:00:13.019
+data that's in the cloud or on the ground.
+
+00:00:13.019 --> 00:00:16.845
+It then allows them to standardize, normalize,
+
+00:00:16.845 --> 00:00:19.465
+create the perfect analytic data set and then to
+
+00:00:19.465 --> 00:00:22.080
+prosecute analytics across a wide array of
+
+00:00:22.080 --> 00:00:27.060
+analytic capabilities from arithmetic to algorithmic,
+
+00:00:27.060 --> 00:00:28.955
+to predictive, to spatial.
+
+00:00:28.955 --> 00:00:33.870
+And then, the ability in the single platform and in platform,
+
+00:00:33.870 --> 00:00:38.390
+the ability to share the output in metaphors that people can understand.
+
+00:00:38.390 --> 00:00:43.270
+Maybe it's to a Tableau dashboard as part of the Udacity nano degree,
+
+00:00:43.270 --> 00:00:46.260
+to power BI or the Qlik or to
+
+00:00:46.260 --> 00:00:49.060
+back the spreadsheets or back to an enterprise data warehouse.
+
+00:00:49.060 --> 00:00:54.285
+But it is a single platform that gets analysts their life back,
+
+00:00:54.285 --> 00:00:56.785
+makes them want to enjoy their job again.
+
+00:00:56.785 --> 00:01:02.210
+So, one of the challenges we see in business today is that we're living in
+
+00:01:02.210 --> 00:01:08.010
+this data hungry world where people are asking more questions of more content.
+
+00:01:08.010 --> 00:01:11.130
+We did a study last year and we asked the question,
+
+00:01:11.130 --> 00:01:14.655
+how many datasets does an analyst typically need access to
+
+00:01:14.655 --> 00:01:19.265
+get to any analytic outcome irrespective of use case or vertical industry?
+
+00:01:19.265 --> 00:01:20.880
+And what we found was pretty astonishing,
+
+00:01:20.880 --> 00:01:23.385
+62% of all analysts needed,
+
+00:01:23.385 --> 00:01:28.260
+no less than five different data sets and as many as 15 or more data sets,
+
+00:01:28.260 --> 00:01:30.140
+to get to any analytic outcome.
+
+00:01:30.140 --> 00:01:33.300
+And so Alteryx allows the ingestion of
+
+00:01:33.300 --> 00:01:37.620
+this disparate data to be done in a very easy to use platform,
+
+00:01:37.620 --> 00:01:39.210
+without writing a stitch of code,
+
+00:01:39.210 --> 00:01:42.150
+without writing a single CSQL statement and
+
+00:01:42.150 --> 00:01:47.105
+without having to live in Excel hell writing complex view lookups.
+
+00:01:47.105 --> 00:01:50.570
+We also uncovered some interesting statistics in just the last few weeks.
+
+00:01:50.570 --> 00:01:54.210
+We did a study to determine the size of the problem
+
+00:01:54.210 --> 00:01:58.155
+around line of business analyst living in Excel hell.
+
+00:01:58.155 --> 00:02:02.400
+We determined that there's 21 million disenfranchised data analysts
+
+00:02:02.400 --> 00:02:05.790
+who do the thankless task of data managing each and every day.
+
+00:02:05.790 --> 00:02:07.780
+In fact, the problem is enormous one.
+
+00:02:07.780 --> 00:02:09.615
+It's a $60 billion problem,
+
+00:02:09.615 --> 00:02:14.880
+where the average analyst spends 26 hours out of their 40 hour work week,
+
+00:02:14.880 --> 00:02:20.613
+doing the thankless task of prepping data and blending data inside of Excel,
+
+00:02:20.613 --> 00:02:22.980
+a tool that was never intended to do
+
+00:02:22.980 --> 00:02:26.700
+these kinds of things based on the scale of data today.
+
+00:02:26.700 --> 00:02:29.490
+So Alteryx is that perfect process to take
+
+00:02:29.490 --> 00:02:34.155
+the analyst out of that complex data managing world and as a result,
+
+00:02:34.155 --> 00:02:35.915
+they get all of their time back.
+
+00:02:35.915 --> 00:02:40.370
+And when they go through a class like Predictive Analytics for Business through Udacity,
+
+00:02:40.370 --> 00:02:43.140
+we can amplify human intelligence,
+
+00:02:43.140 --> 00:02:47.160
+so that this 26 hours can now be used to ask more important questions,
+
+00:02:47.160 --> 00:02:50.000
+more relevant questions to drive the business forward.
+

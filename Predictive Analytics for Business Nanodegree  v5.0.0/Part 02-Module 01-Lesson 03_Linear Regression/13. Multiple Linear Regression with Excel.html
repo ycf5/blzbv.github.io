@@ -1,0 +1,426 @@
+<!-- udacity2.0 -->
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Multiple Linear Regression with Excel</title>
+  <link rel="stylesheet" href="../assets/css/bootstrap.min.css">
+  <link rel="stylesheet" href="../assets/css/plyr.css">
+  <link rel="stylesheet" href="../assets/css/katex.min.css">
+  <link rel="stylesheet" href="../assets/css/jquery.mCustomScrollbar.min.css">
+  <link rel="stylesheet" href="../assets/css/styles.css">
+  <link rel="shortcut icon" type="image/png" href="../assets/img/udacimak.png" />
+</head>
+
+<body>
+  <div class="wrapper">
+    <nav id="sidebar">
+  <div class="sidebar-header">
+    <h3>Linear Regression</h3>
+  </div>
+
+  <ul class="sidebar-list list-unstyled CTAs">
+    <li>
+      <a href="../index.html" class="article">Back to Home</a>
+    </li>
+  </ul>
+
+  <ul class="sidebar-list list-unstyled components">
+    <li class="">
+      <a href="01. The Business Problem.html">01. The Business Problem</a>
+    </li>
+    <li class="">
+      <a href="02. Approaching the Business Problem.html">02. Approaching the Business Problem</a>
+    </li>
+    <li class="">
+      <a href="03. Data Understanding Quiz.html">03. Data Understanding Quiz</a>
+    </li>
+    <li class="">
+      <a href="04. Data Understanding Solution.html">04. Data Understanding Solution</a>
+    </li>
+    <li class="">
+      <a href="05. The Problem Solving Framework.html">05. The Problem Solving Framework</a>
+    </li>
+    <li class="">
+      <a href="06. Introduction to Linear Regression.html">06. Introduction to Linear Regression</a>
+    </li>
+    <li class="">
+      <a href="07. Linear Equations in Google Sheets.html">07. Linear Equations in Google Sheets</a>
+    </li>
+    <li class="">
+      <a href="08. Linear Regression Validation.html">08. Linear Regression Validation</a>
+    </li>
+    <li class="">
+      <a href="09. Simple Linear Regression Quiz.html">09. Simple Linear Regression Quiz</a>
+    </li>
+    <li class="">
+      <a href="10. Simple Linear Regression Solution.html">10. Simple Linear Regression Solution</a>
+    </li>
+    <li class="">
+      <a href="11. Introduction to Multiple Linear Regression.html">11. Introduction to Multiple Linear Regression</a>
+    </li>
+    <li class="">
+      <a href="12. Multiple Linear Regression Concepts.html">12. Multiple Linear Regression Concepts</a>
+    </li>
+    <li class="">
+      <a href="13. Multiple Linear Regression with Excel.html">13. Multiple Linear Regression with Excel</a>
+    </li>
+    <li class="">
+      <a href="14. Multiple Linear Regression Validation.html">14. Multiple Linear Regression Validation</a>
+    </li>
+    <li class="">
+      <a href="15. Linear Regression with Categorical Variables.html">15. Linear Regression with Categorical Variables</a>
+    </li>
+    <li class="">
+      <a href="16. Dummy Variable Quiz.html">16. Dummy Variable Quiz</a>
+    </li>
+    <li class="">
+      <a href="17. Introduction to Alteryx.html">17. Introduction to Alteryx</a>
+    </li>
+    <li class="">
+      <a href="18. Downloading Alteryx.html">18. Downloading Alteryx</a>
+    </li>
+    <li class="">
+      <a href="19. Alteryx Walkthrough.html">19. Alteryx Walkthrough</a>
+    </li>
+    <li class="">
+      <a href="20. Alteryx Tutorials.html">20. Alteryx Tutorials</a>
+    </li>
+    <li class="">
+      <a href="21. Building your First Model in Alteryx.html">21. Building your First Model in Alteryx</a>
+    </li>
+    <li class="">
+      <a href="22. Running the Model.html">22. Running the Model</a>
+    </li>
+    <li class="">
+      <a href="23. Interpreting Linear Regression Results.html">23. Interpreting Linear Regression Results</a>
+    </li>
+    <li class="">
+      <a href="24. Evaluating an Equation.html">24. Evaluating an Equation</a>
+    </li>
+    <li class="">
+      <a href="25. Evaluating an Equation Solution.html">25. Evaluating an Equation Solution</a>
+    </li>
+    <li class="">
+      <a href="26. Analysis Summary.html">26. Analysis Summary</a>
+    </li>
+    <li class="">
+      <a href="27. Course Recap.html">27. Course Recap</a>
+    </li>
+    <li class="">
+      <a href="28. Learning Summary.html">28. Learning Summary</a>
+    </li>
+  </ul>
+
+  <ul class="sidebar-list list-unstyled CTAs">
+    <li>
+      <a href="../index.html" class="article">Back to Home</a>
+    </li>
+  </ul>
+</nav>
+
+    <div id="content">
+      <header class="container-fluild header">
+        <div class="container">
+          <div class="row">
+            <div class="col-12">
+              <div class="align-items-middle">
+                <button type="button" id="sidebarCollapse" class="btn btn-toggle-sidebar">
+                  <div></div>
+                  <div></div>
+                  <div></div>
+                </button>
+
+                <h1 style="display: inline-block">13. Multiple Linear Regression with Excel</h1>
+              </div>
+            </div>
+          </div>
+        </div>
+      </header>
+
+      <main class="container">
+        <div class="row">
+          <div class="col-12">
+            <div class="ud-atom">
+  <h3><p>Data Prep</p></h3>
+  <div>
+  <h4>Initial Steps: Preparing and Understanding Your Data</h4>
+<p>Given any data set, we must make sure that the data is clean and not biased. In this demonstration, let's assume that the data we have has already been cleaned and does not have any bias to any of our variables. You can learn more about cleaning your data set in the <a href="https://classroom.udacity.com/courses/ud977/lessons/62614c2d-0e8c-45e6-a225-cdc34495e911/concepts/d200ff73-f9fa-4a16-b09b-4f1d1671984f" rel="noopener noreferrer" target="_blank">Creating an Analytical Dataset</a> course.</p>
+<p>Once we have a clean data set, the next step to prepare for your Multiple Linear Regression is to understand the relationship between each of your predictor variables and your target variable. We can do this visually by graphing a scatter-plot between each predictor variable and the target variable.</p>
+<p>Before we start, please download the file <strong>Linear Example Data.xlsx</strong> and explore what this data looks like. You can access the file at the bottom of the page.</p>
+<p><strong>Note</strong>: If you were to plot the histogram of Average Number of Tickets, you will see that the majority of the data is between the values of 0 and 100 and not normally distributed. Let's assume that this dataset represents all of the data we have in order to continue with this example in this part of the lesson.</p>
+</div>
+
+</div>
+<div class="divider"></div><div class="ud-atom">
+  <h3><p>Num Employees</p></h3>
+  <div>
+  <h4>Number of Employees</h4>
+<p>Let's first create a scatter-plot between the variables Number of Employees and Average Number of Tickets.</p>
+</div>
+
+</div>
+<div class="divider"></div><div class="ud-atom">
+  <h3><p>Number of Employees vs. Avg. Number of Tickets</p></h3>
+  <div>
+  <figure class="figure">
+    <img src="img/tickets-employees-plot.png" alt="" class="img img-fluid">
+    <figcaption class="figure-caption">
+      
+    </figcaption>
+  </figure>
+</div>
+
+
+</div>
+<div class="divider"></div><div class="ud-atom">
+  <h3><p>Value Contract</p></h3>
+  <div>
+  <p>We can see that as the Number of Employees increases, the Average Number of Tickets increases too at an approximate linear fashion. The trend line in this graph shows that the predictor variable: Number of Employees is a good potential predictor variable to use to create our multiple linear regression model.</p>
+<p><strong>Important</strong>: This is important because linear regression models assume that our numerical predictor variables should have a linear relationship with the target variable. It's good practice to analyze the individual variables first before you run your variables through the linear regression model.</p>
+<h4>Value of Contract</h4>
+<p>Let's now create a scatter-plot between the variables Value of Contract and Average Number of Tickets.</p>
+</div>
+
+</div>
+<div class="divider"></div><div class="ud-atom">
+  <h3><p>Value of Contract vs. Avg. Number of Tickets</p></h3>
+  <div>
+  <figure class="figure">
+    <img src="img/tickets-value-plot.png" alt="" class="img img-fluid">
+    <figcaption class="figure-caption">
+      
+    </figcaption>
+  </figure>
+</div>
+
+
+</div>
+<div class="divider"></div><div class="ud-atom">
+  <h3><p>Value Contract (False)</p></h3>
+  <div>
+  <p>Even though the contract values are made up of discrete numbers, we can still see a linear relationship between the contract value and the number of tickets. As the contract value increases, the number of tickets increases too.</p>
+<h4>Counter Example</h4>
+<p>Let's assume that there is no relationship between Value Contract and Average Number of Tickets. What would that look like on a scatter-plot?</p>
+</div>
+
+</div>
+<div class="divider"></div><div class="ud-atom">
+  <h3><p>Value Contract vs Average Number of Tickets (Counter)</p></h3>
+  <div>
+  <figure class="figure">
+    <img src="img/value-contract-no-linear-relationship.png" alt="" class="img img-fluid">
+    <figcaption class="figure-caption">
+      
+    </figcaption>
+  </figure>
+</div>
+
+
+</div>
+<div class="divider"></div><div class="ud-atom">
+  <h3><p>Multicollinearity</p></h3>
+  <div>
+  <p>In this counter example, as the value of the contract increases, we do not see a trend that the Average Number of Tickets will increase (or decrease). The trend-line in this graph is flat and we can conclude that Value Contract is not a good variable to initially explore for our multiple linear regression model.</p>
+</div>
+
+</div>
+<div class="divider"></div><div class="ud-atom">
+  <h3><p>categorical variables</p></h3>
+  <div>
+  <h4 id="what-about-categorical-variables">What about categorical variables?</h4>
+<p>Due to the nature of categorical variables, we cannot use a scatterplot or any other graph to see whether a linear relationship exists for categorical variables.</p>
+<p>The best way to check for a linear relationship is to run the categorical variables through the regression model and see if the coefficients turn out to be significant with a high multiple-R-squared.  If there is a linear relationship, then the coefficients should be significant and the multiple-R-squared should be relatively high (.70). You will learn how to do this in the concept called <em>Linear Regression with Categorical Variables</em>, so don't worry about this for now.</p>
+</div>
+
+</div>
+<div class="divider"></div><div class="ud-atom">
+  <h3><p>Finalizing Pre Steps</p></h3>
+  <div>
+  <h4>Finalizing Preparations</h4>
+<p>Therefore for our initial modeling exercise, we should use Number of Employees and Value Contract to initially build our multiple linear regression model.</p>
+</div>
+
+</div>
+<div class="divider"></div><div class="ud-atom">
+  <h3><p>Steps</p></h3>
+  <div>
+  <h4>Steps for Multiple Linear Regression in Excel</h4>
+<h5>Step 1</h5>
+<p>Make sure you have the Analysis ToolPak Add-In active in Microsoft Excel. You can find instructions <a href="https://support.office.com/en-us/article/Load-the-Analysis-ToolPak-305c260e-224f-4739-9777-2d86f1a5bd89" rel="noopener noreferrer" target="_blank">here.</a></p>
+<h5>Step 2</h5>
+<p>In Excel, select Data Analysis. Select Regression in the Pop-up window and select OK. </p>
+<h5>Step 3</h5>
+<p>The Input Y Range should be the range of your target variable, in this case the Average Number of Tickets. The Input X Range should be the range of data of your predictor variables, in this case the Number of Employees and the Value of the Contract because they each show potential to have a linear relationship between the Average Number of Tickets.</p>
+<h5>Step 4</h5>
+<p>Click OK to run the model and see the results. We can quickly see our coefficients of the linear equation, which results in:</p>
+<h5><center>Y = -24.2667 + 0.1019 X1 + 0.00067 X2</center></h5>
+<p>Where X1 is the Number of Employees and X2 is the Value of Contract.</p>
+</div>
+
+</div>
+<div class="divider"></div><div class="ud-atom">
+  <h3><p>Multiple Linear Regression With Excel</p></h3>
+  <video controls>
+  <source src="13. Multiple Linear Regression With Excel-kShe0b-sK4o.mp4" type="video/mp4">
+
+  <track default="false" kind="subtitles" srclang="zh-CN" src="13. Multiple Linear Regression With Excel-kShe0b-sK4o.zh-CN.vtt" label="zh-CN">
+  <track default="true" kind="subtitles" srclang="en" src="13. Multiple Linear Regression With Excel-kShe0b-sK4o.en.vtt" label="en">
+  <track default="false" kind="subtitles" srclang="pt-BR" src="13. Multiple Linear Regression With Excel-kShe0b-sK4o.pt-BR.vtt" label="pt-BR">
+</video>
+
+
+</div>
+<div class="divider"></div><div class="ud-atom">
+  <h3><p>adj r squared</p></h3>
+  <div>
+  <h4>R-Squared vs Adjusted R-Squared</h4>
+<p>The adjusted r-squared value should be used with multiple linear regressions due to a phenomenon that occurs when adding additional variables to the model.  In a nutshell, the more variables that are included, the higher the r-squared value will be - even if there is no relationship between the additional variables and the target variable. Therefore, we use the Adjusted R-squared value.  </p>
+<p>You can find more information on Adjusted R-squared <a href="https://en.wikipedia.org/wiki/Coefficient_of_determination#Adjusted_R2" rel="noopener noreferrer" target="_blank">here</a>. Note that 'explanatory variables' = 'predictor variables' in the linked article.</p>
+</div>
+
+</div>
+<div class="divider"></div><div class="ud-atom">
+  <h3><p>r-squared</p></h3>
+  <video controls>
+  <source src="13. r-squared-RiKojRP54vs.mp4" type="video/mp4">
+
+  <track default="false" kind="subtitles" srclang="zh-CN" src="13. r-squared-RiKojRP54vs.zh-CN.vtt" label="zh-CN">
+  <track default="true" kind="subtitles" srclang="en" src="13. r-squared-RiKojRP54vs.en.vtt" label="en">
+  <track default="false" kind="subtitles" srclang="pt-BR" src="13. r-squared-RiKojRP54vs.pt-BR.vtt" label="pt-BR">
+</video>
+
+
+</div>
+<div class="divider"></div><div class="ud-atom">
+  <h3><p>Applying the Regression Results</p></h3>
+  <div>
+  <form>
+    <fieldset>
+      <legend><p>The model above gave the following equation:  Tickets = -24.267 + 0.1019 * Number of Employees + 0.0007 * Value of Contract. What would the model predict for the number of tickets for a customer with 750 employees and a contract of $13,000</p></legend>
+    </fieldset>
+
+      <div>
+        <input type="radio" value="a1477539539825" name="199174" id="a1477539539825">
+        <label for="a1477539539825"><p>61</p></label>
+      </div>
+      <div>
+        <input type="radio" value="a1477539892968" name="199174" id="a1477539892968">
+        <label for="a1477539892968"><p>93</p></label>
+      </div>
+      <div>
+        <input type="radio" value="a1477539893481" name="199174" id="a1477539893481">
+        <label for="a1477539893481"><p>112</p></label>
+      </div>
+  </form>
+
+  <details>
+    <summary><strong>SOLUTION:</strong></summary>
+    61
+  </details>
+</div>
+
+</div>
+<div class="divider"></div><div class="ud-atom">
+  <h3></h3>
+  <div>
+  <p><strong>To Download Files below please right click on the link and select "Save Link As"</strong></p>
+</div>
+
+</div>
+<div class="divider"></div>
+          </div>
+
+          <div class="col-12">
+            <p class="text-right">
+              <a href="14. Multiple Linear Regression Validation.html" class="btn btn-outline-primary mt-4" role="button">Next Concept</a>
+            </p>
+          </div>
+        </div>
+      </main>
+
+      <footer class="footer">
+        <div class="container">
+          <div class="row">
+            <div class="col-12">
+              <p class="text-center">
+                <a href="https://us-udacity.github.io/" target="_blank">【udacity2.0 】If you need more courses, please add wechat：udacity6</a>
+              </p>
+            </div>
+          </div>
+        </div>
+      </footer>
+    </div>
+  </div>
+
+
+  <script src="../assets/js/jquery-3.3.1.min.js"></script>
+  <script src="../assets/js/plyr.polyfilled.min.js"></script>
+  <script src="../assets/js/bootstrap.min.js"></script>
+  <script src="../assets/js/jquery.mCustomScrollbar.concat.min.js"></script>
+  <script src="../assets/js/katex.min.js"></script>
+  <script>
+    // Initialize Plyr video players
+    const players = Array.from(document.querySelectorAll('video')).map(p => new Plyr(p));
+
+    // render math equations
+    let elMath = document.getElementsByClassName('mathquill');
+    for (let i = 0, len = elMath.length; i < len; i += 1) {
+      const el = elMath[i];
+
+      katex.render(el.textContent, el, {
+        throwOnError: false
+      });
+    }
+
+    // this hack will make sure Bootstrap tabs work when using Handlebars
+    if ($('#question-tabs').length && $('#user-answer-tabs').length) {
+      $("#question-tabs a.nav-link").on('click', function () {
+        $("#question-tab-contents .tab-pane").hide();
+        $($(this).attr("href")).show();
+      });
+      $("#user-answer-tabs a.nav-link").on('click', function () {
+        $("#user-answer-tab-contents .tab-pane").hide();
+        $($(this).attr("href")).show();
+      });
+    } else {
+      $("a.nav-link").on('click', function () {
+        $(".tab-pane").hide();
+        $($(this).attr("href")).show();
+      });
+    }
+
+    // side bar events
+    $(document).ready(function () {
+      $("#sidebar").mCustomScrollbar({
+        theme: "minimal"
+      });
+
+      $('#sidebarCollapse').on('click', function () {
+        $('#sidebar, #content').toggleClass('active');
+        $('.collapse.in').toggleClass('in');
+        $('a[aria-expanded=true]').attr('aria-expanded', 'false');
+      });
+
+      // scroll to first video on page loading
+      if ($('video').length) {
+        $('html,body').animate({ scrollTop: $('div.plyr').prev().offset().top});
+      }
+
+      // auto play first video: this may not work with chrome/safari due to autoplay policy
+      if (players && players.length > 0) {
+        players[0].play();
+      }
+
+      // scroll sidebar to current concept
+      const currentInSideBar = $( "ul.sidebar-list.components li a:contains('13. Multiple Linear Regression with Excel')" )
+      currentInSideBar.css( "text-decoration", "underline" );
+      $("#sidebar").mCustomScrollbar('scrollTo', currentInSideBar);
+    });
+  </script>
+</body>
+
+</html>

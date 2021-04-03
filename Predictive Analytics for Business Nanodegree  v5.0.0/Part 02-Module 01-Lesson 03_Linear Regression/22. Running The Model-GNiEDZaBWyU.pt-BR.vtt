@@ -1,0 +1,78 @@
+WEBVTT
+Kind: captions
+Language: pt-BR
+
+00:00:00.133 --> 00:00:03.000
+Agora vamos usar o modelo
+clicando na flecha verde
+
+00:00:03.033 --> 00:00:05.033
+localizada acima
+da paleta de ferramentas.
+
+00:00:05.067 --> 00:00:07.200
+Quando o Alteryx terminar
+de gerar o workflow,
+
+00:00:07.233 --> 00:00:09.500
+clique no botão "OK"
+para ver o resultado.
+
+00:00:09.533 --> 00:00:12.700
+Clique na ferramenta Browser
+para ver Configuration,
+
+00:00:12.733 --> 00:00:15.800
+que vai mostrar o relatório
+gerado pela regressão linear.
+
+00:00:15.833 --> 00:00:17.500
+Para abrir o relatório
+em uma nova janela,
+
+00:00:17.533 --> 00:00:20.733
+clique no menu
+acima do painel Configuration
+
+00:00:20.767 --> 00:00:23.800
+e selecione
+"New Window (All Records)".
+
+00:00:23.833 --> 00:00:26.733
+Agora podemos ler o relatório
+facilmente.
+
+00:00:26.766 --> 00:00:29.667
+A segunda tabela,
+chamada "Coefficients",
+
+00:00:29.700 --> 00:00:34.133
+tem os valores correspondentes
+às variáveis "b0", "b1" e "b2"
+
+00:00:34.167 --> 00:00:36.267
+na equação padrão
+que acabamos de mostrar.
+
+00:00:36.300 --> 00:00:38.967
+Os valores estão na coluna
+chamada "Estimate".
+
+00:00:39.000 --> 00:00:41.400
+A intersecção
+é o valor de "b0",
+
+00:00:41.433 --> 00:00:44.633
+e o resto dos coeficientes
+tem os rótulos das variáveis
+
+00:00:44.667 --> 00:00:47.867
+que teremos que combinar
+com os coeficientes.
+
+00:00:47.900 --> 00:00:49.233
+*END*
+
+00:00:49.267 --> 00:00:50.567
+*CODE*
+
