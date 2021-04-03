@@ -1,0 +1,79 @@
+WEBVTT
+Kind: captions
+Language: pt-BR
+
+00:00:00.300 --> 00:00:03.133
+Vamos explicar em mais detalhes
+como faríamos o controle
+
+00:00:03.167 --> 00:00:05.467
+com cada variável de controle.
+
+00:00:05.501 --> 00:00:08.033
+Para as características do usuário,
+o analista garantiria
+
+00:00:08.067 --> 00:00:10.599
+que todo tipo de pessoa tivesse
+chance de visitar o site
+
+00:00:10.632 --> 00:00:12.100
+durante o experimento.
+
+00:00:12.133 --> 00:00:15.367
+Não apenas aquelas que compram
+no meio do dia, por exemplo.
+
+00:00:15.400 --> 00:00:18.167
+Então o experimento seria feito
+por, pelo menos, 24h,
+
+00:00:18.200 --> 00:00:19.934
+mas seria bom que fosse
+feito por uma semana
+
+00:00:19.968 --> 00:00:22.701
+para também ter visitantes
+que acessam o site no fim de semana.
+
+00:00:22.734 --> 00:00:25.567
+Para controlar alguém que visitasse
+o site mais de uma vez,
+
+00:00:25.601 --> 00:00:28.033
+o analista garantiria
+que só estavam contando
+
+00:00:28.066 --> 00:00:30.567
+cada pessoa uma vez.
+
+00:00:30.601 --> 00:00:34.300
+É aqui que o endereço de IP
+ou o cookie entraria.
+
+00:00:34.334 --> 00:00:36.033
+No conjunto de dados
+que vamos usar,
+
+00:00:36.067 --> 00:00:38.100
+os usuários foram divididos
+com base no IP.
+
+00:00:38.667 --> 00:00:41.100
+Para controlar usuários
+que já têm uma conta,
+
+00:00:41.133 --> 00:00:43.968
+o analista removeria
+da análise todos os dados
+
+00:00:44.000 --> 00:00:45.933
+de pessoas que já têm
+uma conta.
+
+00:00:45.966 --> 00:00:47.133
+*END*
+
+00:00:47.167 --> 00:00:48.467
+*CODE*
+

@@ -1,0 +1,121 @@
+WEBVTT
+Kind: captions
+Language: pt-BR
+
+00:00:00.367 --> 00:00:03.367
+Agora que os dados foram
+preparados para a análise,
+
+00:00:03.400 --> 00:00:06.638
+é hora de ver que conclusões
+podemos tirar do experimento.
+
+00:00:07.869 --> 00:00:10.364
+Imagine que você percebeu
+que a média do grupo de tratamento
+
+00:00:10.397 --> 00:00:12.601
+é maior
+que a do grupo de controle.
+
+00:00:12.634 --> 00:00:15.400
+Como podemos garantir
+que o resultado não foi aleatório?
+
+00:00:15.434 --> 00:00:19.932
+Em outras palavras, como podemos
+garantir que a diferença que vimos
+
+00:00:19.965 --> 00:00:23.335
+realmente existe
+em toda a população?
+
+00:00:23.368 --> 00:00:25.199
+Um experimento
+com delineamento aleatório
+
+00:00:25.232 --> 00:00:29.100
+é analisado usando
+um teste de média.
+
+00:00:29.133 --> 00:00:32.234
+Um teste de média
+é um cálculo estatístico
+
+00:00:32.267 --> 00:00:35.567
+para saber se os valores
+dos grupos de controle e tratamento
+
+00:00:35.601 --> 00:00:37.434
+são os mesmos.
+
+00:00:37.467 --> 00:00:41.834
+Ou seja, será que há uma diferença
+estatística nos resultados ou não?
+
+00:00:42.767 --> 00:00:44.801
+A 1ª coisa
+que devemos procurar
+
+00:00:44.834 --> 00:00:49.234
+é a média da variável-alvo
+nos grupos de tratamento e controle.
+
+00:00:49.267 --> 00:00:53.701
+Isso vai nos dar uma ideia da
+magnitude do impacto do tratamento.
+
+00:00:53.734 --> 00:00:56.968
+Assim como na regressão linear,
+um teste de média
+
+00:00:57.000 --> 00:01:00.300
+inclui um teste t,
+que nos dá um valor-p.
+
+00:01:00.334 --> 00:01:04.033
+Como na regressão linear,
+o valor-p nos dá a probabilidade
+
+00:01:04.067 --> 00:01:06.801
+de a verdadeira diferença
+entre as médias ser 0.
+
+00:01:06.834 --> 00:01:10.133
+Normalmente, quando o valor-p
+fica abaixo de 0,05,
+
+00:01:10.167 --> 00:01:13.067
+indicando um intervalo
+de confiança de 95%,
+
+00:01:13.100 --> 00:01:16.834
+a diferença entre as médias
+é estatisticamente significante.
+
+00:01:16.868 --> 00:01:19.167
+Usar um teste t
+é especialmente importante
+
+00:01:19.200 --> 00:01:21.300
+quando trabalhamos
+com conjuntos de dados menores.
+
+00:01:21.334 --> 00:01:23.334
+Diferenças aparentemente maiores
+entre as médias
+
+00:01:23.367 --> 00:01:26.434
+costumam ser resultado
+de variações aleatórias
+
+00:01:26.467 --> 00:01:29.565
+em conjuntos de dados pequenos.
+Vamos ver um exemplo disso.
+
+00:01:29.598 --> 00:01:30.701
+*END*
+
+00:01:30.734 --> 00:01:32.033
+*CODE*
+

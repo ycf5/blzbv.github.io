@@ -1,0 +1,101 @@
+WEBVTT
+Kind: captions
+Language: pt-BR
+
+00:00:00.367 --> 00:00:03.734
+Na 1ª aula, falamos sobre
+como configurar um experimento
+
+00:00:03.767 --> 00:00:05.834
+identificando as variáveis
+e estabelecendo
+
+00:00:05.868 --> 00:00:07.901
+grupos de tratamento
+e de controle.
+
+00:00:07.934 --> 00:00:10.400
+Neste problema, você vai ter
+que descobrir
+
+00:00:10.434 --> 00:00:14.868
+se um dos seus clientes
+clicou no link para baixar o app.
+
+00:00:14.901 --> 00:00:17.834
+Vamos aplicar o que aprendemos
+à nova tarefa.
+
+00:00:17.868 --> 00:00:20.000
+A variável-alvo
+neste experimento
+
+00:00:20.033 --> 00:00:22.434
+é "será que um indivíduo
+clicou no link
+
+00:00:22.467 --> 00:00:25.701
+para visitar a página sobre o app
+e o programa de fidelidade?"
+
+00:00:25.734 --> 00:00:28.467
+É uma variável-alvo binária,
+"sim" ou "não".
+
+00:00:28.667 --> 00:00:31.667
+O experimento vai comparar
+a diferença na taxa de cliques
+
+00:00:31.701 --> 00:00:33.934
+para os grupos de controle
+e tratamento.
+
+00:00:33.968 --> 00:00:36.567
+A taxa de cliques mede
+a porcentagem de pessoas
+
+00:00:36.601 --> 00:00:39.273
+que clicam num link
+ou visitam uma página.
+
+00:00:39.834 --> 00:00:43.334
+A variável de tratamento
+é a página que eles veem.
+
+00:00:43.367 --> 00:00:45.801
+O grupo de tratamento verá
+a página modificada,
+
+00:00:45.834 --> 00:00:48.740
+e o grupo de controle
+verá a página original.
+
+00:00:49.400 --> 00:00:51.667
+Variáveis de controle
+em experimentos aleatórios
+
+00:00:51.701 --> 00:00:54.400
+são usadas para garantir que
+os grupos de tratamento e controle
+
+00:00:54.434 --> 00:00:57.067
+representam bem a população.
+
+00:00:57.100 --> 00:00:58.775
+Isso ajuda a gerar
+confiança de que,
+
+00:00:58.808 --> 00:01:01.579
+se a mudança fosse aplicada
+para toda a população,
+
+00:01:01.612 --> 00:01:05.599
+veríamos os mesmos resultados
+que observamos no experimento.
+
+00:01:05.632 --> 00:01:06.801
+*END*
+
+00:01:06.834 --> 00:01:08.133
+*CODE*
+

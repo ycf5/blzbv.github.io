@@ -1,0 +1,121 @@
+WEBVTT
+Kind: captions
+Language: pt-BR
+
+00:00:00.334 --> 00:00:02.801
+Quantas variáveis de controle
+devemos usar?
+
+00:00:02.834 --> 00:00:05.901
+Não existe uma regra rígida.
+Pode ser apenas uma
+
+00:00:05.934 --> 00:00:08.767
+ou cinco ou, às vezes, mais.
+
+00:00:08.801 --> 00:00:12.534
+Ter variáveis de controle demais
+costuma ser pior para o experimento
+
+00:00:12.567 --> 00:00:14.367
+do que ter variáveis de menos.
+
+00:00:14.400 --> 00:00:17.100
+Vamos falar do porquê quando
+falarmos sobre como unidades
+
+00:00:17.133 --> 00:00:20.501
+de tratamento e controle
+são selecionadas nas próximas aulas.
+
+00:00:20.767 --> 00:00:22.766
+Quando for escolher
+suas variáveis de controle,
+
+00:00:22.799 --> 00:00:26.701
+sempre pense na possibilidade
+de ela ser uma variável de confusão,
+
+00:00:26.734 --> 00:00:29.567
+também chamada
+de variável de confundimento.
+
+00:00:29.601 --> 00:00:32.567
+Uma variável de confundimento
+tem correlação alta
+
+00:00:32.601 --> 00:00:36.334
+com a variável-alvo
+e com outra variável de controle.
+
+00:00:36.367 --> 00:00:38.900
+Isso pode fazer você sobreponderar
+uma variável de controle
+
+00:00:38.933 --> 00:00:42.139
+ou incluir uma variável de controle
+que não é importante.
+
+00:00:42.667 --> 00:00:44.767
+Por exemplo, você pode
+olhar para dados
+
+00:00:44.801 --> 00:00:47.267
+e decidir que o consumo de sorvete
+está relacionado
+
+00:00:47.300 --> 00:00:49.934
+ao número de mortes
+por afogamento.
+
+00:00:49.968 --> 00:00:52.634
+Logo, você pode querer usar
+o consumo de sorvete
+
+00:00:52.667 --> 00:00:54.734
+como variável de controle.
+
+00:00:54.767 --> 00:00:57.133
+Na realidade, tanto
+o consumo de sorvete
+
+00:00:57.167 --> 00:00:59.467
+quanto o número de mortes
+por afogamento
+
+00:00:59.501 --> 00:01:01.200
+têm a ver com a temperatura.
+
+00:01:01.233 --> 00:01:04.467
+A temperatura é a variável
+de confundimento do exemplo.
+
+00:01:04.501 --> 00:01:07.033
+Quando controlar a temperatura,
+você pode observar
+
+00:01:07.067 --> 00:01:10.234
+que não há relação
+entre o consumo de sorvete
+
+00:01:10.267 --> 00:01:12.434
+e as mortes por afogamento.
+
+00:01:12.467 --> 00:01:15.267
+Em geral, variáveis de confundimento
+podem ser evitadas
+
+00:01:15.300 --> 00:01:17.868
+se você usar a lógica
+e dedicar certo tempo
+
+00:01:17.901 --> 00:01:20.000
+a pensar nas suas
+variáveis de controle.
+
+00:01:20.033 --> 00:01:21.234
+*END*
+
+00:01:21.267 --> 00:01:22.534
+*CODE*
+

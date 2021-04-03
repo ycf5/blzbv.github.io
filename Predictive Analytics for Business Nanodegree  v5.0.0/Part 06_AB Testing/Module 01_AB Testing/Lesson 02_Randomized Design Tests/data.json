@@ -1,0 +1,866 @@
+{
+  "data": {
+    "lesson": {
+      "id": 680862,
+      "key": "9070d0a0-78de-4816-9f14-6bf434f13463",
+      "title": "Randomized Design Tests",
+      "semantic_type": "Lesson",
+      "is_public": true,
+      "version": "1.0.0",
+      "locale": "en-us",
+      "summary": "Select test and control variables and understand the importance of sample size. Design a randomized design A/B test and analyze the results.",
+      "lesson_type": "Classroom",
+      "display_workspace_project_only": false,
+      "resources": {
+        "files": [
+          {
+            "name": "Videos Zip File",
+            "uri": "https://zips.udacity-data.com/9070d0a0-78de-4816-9f14-6bf434f13463/680862/1544455400576/Randomized+Design+Tests+Videos.zip"
+          },
+          {
+            "name": "Transcripts Zip File",
+            "uri": "https://zips.udacity-data.com/9070d0a0-78de-4816-9f14-6bf434f13463/680862/1544455396824/Randomized+Design+Tests+Subtitles.zip"
+          }
+        ],
+        "google_plus_link": null,
+        "career_resource_center_link": null,
+        "coaching_appointments_link": null,
+        "office_hours_link": null,
+        "aws_provisioning_link": null
+      },
+      "project": null,
+      "lab": null,
+      "concepts": [
+        {
+          "id": 185944,
+          "key": "acac0861-12e1-423b-a940-8473bb67e5b1",
+          "title": "Intro to Randomized Design",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "acac0861-12e1-423b-a940-8473bb67e5b1",
+            "completed_at": null,
+            "last_viewed_at": null,
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 187259,
+              "key": "f88cd8a3-a666-4ea3-87aa-03569e58d5ea",
+              "title": "Intro To Randomized Design",
+              "semantic_type": "VideoAtom",
+              "is_public": true,
+              "instructor_notes": "",
+              "video": {
+                "youtube_id": "TnRj9FU8iO0",
+                "china_cdn_id": "TnRj9FU8iO0.mp4"
+              }
+            }
+          ]
+        },
+        {
+          "id": 185945,
+          "key": "554eaf7a-bade-469a-95d9-caf1da5a9c57",
+          "title": "Selecting Variables in an Experiment",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "554eaf7a-bade-469a-95d9-caf1da5a9c57",
+            "completed_at": null,
+            "last_viewed_at": null,
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 187261,
+              "key": "16919ee6-e270-4326-acbb-638f223e481b",
+              "title": "Selecting Variables in an Experiment",
+              "semantic_type": "VideoAtom",
+              "is_public": true,
+              "instructor_notes": "",
+              "video": {
+                "youtube_id": "yyAMpk_tPt0",
+                "china_cdn_id": "yyAMpk_tPt0.mp4"
+              }
+            }
+          ]
+        },
+        {
+          "id": 185946,
+          "key": "763e499a-73d5-42c5-8a97-9e631c649e82",
+          "title": "Control Variables Quiz",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "763e499a-73d5-42c5-8a97-9e631c649e82",
+            "completed_at": null,
+            "last_viewed_at": null,
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 185947,
+              "key": "740d5d59-6c68-49dd-866d-a89c970b97a0",
+              "title": "Control Variables",
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "## Brainstorming Control Variables",
+              "instructor_notes": ""
+            },
+            {
+              "id": 185949,
+              "key": "eb29552c-4321-47db-9eab-3ebffd02ae91",
+              "title": "Business Problem",
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "### The Scenario: Grocery Store App Experiment\n\nYou are an analyst for a large grocery chain.  One of the company's main goals is to drive more customers to download their mobile app and register for their loyalty program.  One way of driving customers to download the app is via a link on the company website.  \n\nPage viewing statistics show that only 10% of people who visit the main page are clicking through to visit the page that describes the app and loyalty program.  \n\nYour manager has asked you set up an experiment to test whether changing the button of the page link to a picture would improve click through rates of visitors who visit the page that describes the app and loyalty program.\n",
+              "instructor_notes": ""
+            },
+            {
+              "id": 185950,
+              "key": "c1a5bdcf-b87e-4f82-9337-56b47b4040f3",
+              "title": "Quiz",
+              "semantic_type": "ReflectAtom",
+              "is_public": true,
+              "instructor_notes": null,
+              "user_state": {
+                "node_key": "c1a5bdcf-b87e-4f82-9337-56b47b4040f3",
+                "completed_at": null,
+                "last_viewed_at": null,
+                "unstructured": null
+              },
+              "question": {
+                "title": "Quiz",
+                "semantic_type": "TextQuestion",
+                "evaluation_id": null,
+                "text": "Please take a minute to write down possible control variables that you can think of for the grocery chain app experiment. If you need a refresher on the details of the experiment, you can find it written below the quiz."
+              },
+              "answer": {
+                "text": "Take a look at the next section to see the variables I thought of.",
+                "video": null
+              }
+            }
+          ]
+        },
+        {
+          "id": 185951,
+          "key": "391934a9-7dfd-4a01-91dc-96dbd4a9f595",
+          "title": "Control Variables Solution",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "391934a9-7dfd-4a01-91dc-96dbd4a9f595",
+            "completed_at": null,
+            "last_viewed_at": null,
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 187275,
+              "key": "bd00022b-ebfc-43c1-8f53-dc4aed933d75",
+              "title": "Control Variables",
+              "semantic_type": "VideoAtom",
+              "is_public": true,
+              "instructor_notes": "",
+              "video": {
+                "youtube_id": "0F2Po6Q4Zkw",
+                "china_cdn_id": "0F2Po6Q4Zkw.mp4"
+              }
+            }
+          ]
+        },
+        {
+          "id": 185952,
+          "key": "905c2aca-fded-441d-bd24-fd20c983bdb1",
+          "title": "Experiment Design and Setup",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "905c2aca-fded-441d-bd24-fd20c983bdb1",
+            "completed_at": null,
+            "last_viewed_at": null,
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 187262,
+              "key": "97e37162-b43f-48bc-b4d2-38eaef7932dd",
+              "title": "Experiment Design and Setup",
+              "semantic_type": "VideoAtom",
+              "is_public": true,
+              "instructor_notes": "",
+              "video": {
+                "youtube_id": "32Nl8YI8UYU",
+                "china_cdn_id": "32Nl8YI8UYU.mp4"
+              }
+            },
+            {
+              "id": 187473,
+              "key": "4ff8232d-76d7-4506-8c4b-308a3620ceb2",
+              "title": "Other A/B Testing Course",
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "### More Detail on Unit of Diversion Web Experiments\n\nUdacity has another course entire focused on web-based A/B tests. If you'd like to dive into more detail on unit of diversion, go [here](https://classroom.udacity.com/courses/ud257/lessons/4001558669/concepts/39700990000923).",
+              "instructor_notes": ""
+            }
+          ]
+        },
+        {
+          "id": 185953,
+          "key": "be1dff32-a75b-49e3-8d6e-7b6e7654253b",
+          "title": "Identify the Control Variables",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "be1dff32-a75b-49e3-8d6e-7b6e7654253b",
+            "completed_at": null,
+            "last_viewed_at": null,
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 187263,
+              "key": "c28b9569-d49a-45f8-bcfa-9e4e58009362",
+              "title": "Identify the Control Variables",
+              "semantic_type": "VideoAtom",
+              "is_public": true,
+              "instructor_notes": "",
+              "video": {
+                "youtube_id": "3PJtJwUkTqQ",
+                "china_cdn_id": "3PJtJwUkTqQ.mp4"
+              }
+            }
+          ]
+        },
+        {
+          "id": 185954,
+          "key": "ea0a36fb-1dc5-45a2-8612-44a50619085d",
+          "title": "Sample Size",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "ea0a36fb-1dc5-45a2-8612-44a50619085d",
+            "completed_at": null,
+            "last_viewed_at": null,
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 187264,
+              "key": "012465c8-fc64-4cd4-bb83-edc839ca1b7c",
+              "title": "Sample Size",
+              "semantic_type": "VideoAtom",
+              "is_public": true,
+              "instructor_notes": "",
+              "video": {
+                "youtube_id": "CBLlumsPGYk",
+                "china_cdn_id": "CBLlumsPGYk.mp4"
+              }
+            },
+            {
+              "id": 187480,
+              "key": "2b547e8e-66f9-4225-af98-075f1d86a219",
+              "title": "recap",
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "# Review\n\nTo review, here are the main questions you need to address to design a randomized experiment:\n\n1. What is the unit of diversion?\n2. What is the population of people we're targeting?\n3. What is the duration of the test?\n4. What is the size of our treatment and control groups?",
+              "instructor_notes": ""
+            }
+          ]
+        },
+        {
+          "id": 185955,
+          "key": "381c3951-ea6a-4964-b391-753fb19c157c",
+          "title": "Preparing the Data for Analysis",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "381c3951-ea6a-4964-b391-753fb19c157c",
+            "completed_at": null,
+            "last_viewed_at": null,
+            "unstructured": null
+          },
+          "resources": {
+            "files": [
+              {
+                "name": "GroceryWebsiteABTestData",
+                "uri": "http://video.udacity-data.com.s3.amazonaws.com/topher/2016/November/58214935_grocerywebsiteabtestdata/grocerywebsiteabtestdata.csv"
+              }
+            ],
+            "google_plus_link": null,
+            "career_resource_center_link": null,
+            "coaching_appointments_link": null,
+            "office_hours_link": null,
+            "aws_provisioning_link": null
+          },
+          "atoms": [
+            {
+              "id": 187265,
+              "key": "fd87bfa0-9432-4d26-a493-89accf11fa72",
+              "title": "Preparing the Data for Analysis",
+              "semantic_type": "VideoAtom",
+              "is_public": true,
+              "instructor_notes": "",
+              "video": {
+                "youtube_id": "nfOrJlDZT7A",
+                "china_cdn_id": "nfOrJlDZT7A.mp4"
+              }
+            },
+            {
+              "id": 1055212,
+              "key": "43f444ea-ee3c-482b-8301-50a7e56646b8",
+              "title": "Error Correction",
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "_Note: in the above video, servers 2 and 3 are referred to as the control group and server 1 as the treatment group, even though the previous video suggested servers 1 and 2 for control and 3 for treatment. If you’re following along with the workflow, go ahead and use the groupings suggested in this video._",
+              "instructor_notes": ""
+            },
+            {
+              "id": 1055213,
+              "key": "8506aa52-3efc-4cba-a45b-a9079f26590e",
+              "title": "Workflow Steps",
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "### Workflow Steps\n\n- Use the `Input` tool to import the grocery website A/B test data\n- Add a `Browse` tool and then run the workflow to take a look at the data\n- Use the `Select` tool to convert the `visit page flag` to type `int16`\n- Use the `Summarize` tool to group data by IP address, server ID, and the logged in flag, and sum the visit page flag field\n- Use the `Formula` tool to set up a formula such that “if the sum of the visit flag field != 0, then 1, otherwise 0”\n- Within the formula tool, create a new string field called `group`, with a formula such that “if server ID = 1, then treatment, otherwise control”\n- Use the `Filter` tool to filter for `Logged in flag != 1`\n- Add a `Browse` tool to the T output, and run the workflow",
+              "instructor_notes": ""
+            },
+            {
+              "id": 1055214,
+              "key": "60242628-f1b9-4922-b14d-a0b513bb9717",
+              "title": "Workflow",
+              "semantic_type": "ImageAtom",
+              "is_public": true,
+              "url": "https://video.udacity-data.com/topher/2020/August/5f3ecf9b_nd008t-c6-l2-c8/nd008t-c6-l2-c8.png",
+              "non_google_url": "https://s3.cn-north-1.amazonaws.com.cn/u-img/60242628-f1b9-4922-b14d-a0b513bb9717",
+              "caption": "",
+              "alt": "",
+              "width": 1164,
+              "height": 614,
+              "instructor_notes": null
+            }
+          ]
+        },
+        {
+          "id": 185956,
+          "key": "537dcf03-8ea2-4909-98e2-af2468b76e02",
+          "title": "Analyzing the Results",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "537dcf03-8ea2-4909-98e2-af2468b76e02",
+            "completed_at": null,
+            "last_viewed_at": null,
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 187266,
+              "key": "df6164ae-3829-4865-b29a-75ce29d90e26",
+              "title": "Analyzing the Results",
+              "semantic_type": "VideoAtom",
+              "is_public": true,
+              "instructor_notes": "",
+              "video": {
+                "youtube_id": "EOp0KiqWBZY",
+                "china_cdn_id": "EOp0KiqWBZY.mp4"
+              }
+            }
+          ]
+        },
+        {
+          "id": 185957,
+          "key": "596b4211-d693-49bd-a7a6-fc1538c0e991",
+          "title": "Analyzing the Results Example",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "596b4211-d693-49bd-a7a6-fc1538c0e991",
+            "completed_at": null,
+            "last_viewed_at": null,
+            "unstructured": null
+          },
+          "resources": {
+            "files": [
+              {
+                "name": "SuperHeroData",
+                "uri": "http://video.udacity-data.com.s3.amazonaws.com/topher/2016/September/57dc4044_superherodata/superherodata.xlsx"
+              }
+            ],
+            "google_plus_link": null,
+            "career_resource_center_link": null,
+            "coaching_appointments_link": null,
+            "office_hours_link": null,
+            "aws_provisioning_link": null
+          },
+          "atoms": [
+            {
+              "id": 187276,
+              "key": "18039063-a43b-480f-92d2-67a889b48b39",
+              "title": "Analyzing Results Example",
+              "semantic_type": "VideoAtom",
+              "is_public": true,
+              "instructor_notes": "",
+              "video": {
+                "youtube_id": "sZ4FI8HPsXU",
+                "china_cdn_id": "sZ4FI8HPsXU.mp4"
+              }
+            },
+            {
+              "id": 192567,
+              "key": "073f93f7-0773-415f-9e9c-1c8c013af752",
+              "title": "T-test types",
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "### T-Tests Types\nThere are three types of t-tests you can use: paired, the equal variance, or the unequal variance. In a random experiment you will usually assume that variances between the groups are different, so we’ll use an unequal variance t-test. You can read more here:\n\n* [Paired](http://www.statisticssolutions.com/manova-analysis-paired-sample-t-test/)\n* [Unequal Variance](http://www.real-statistics.com/students-t-distribution/two-sample-t-test-uequal-variances/)\n* [Equal Variance](http://www.real-statistics.com/students-t-distribution/two-sample-t-test-equal-variances/)",
+              "instructor_notes": ""
+            }
+          ]
+        },
+        {
+          "id": 185958,
+          "key": "233ad97f-aa6f-4960-b10a-2a683daaa0ad",
+          "title": "Performing a T-test Quiz",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "233ad97f-aa6f-4960-b10a-2a683daaa0ad",
+            "completed_at": null,
+            "last_viewed_at": null,
+            "unstructured": null
+          },
+          "resources": {
+            "files": [
+              {
+                "name": "Customer Support Time Study",
+                "uri": "http://video.udacity-data.com.s3.amazonaws.com/topher/2016/September/57d99de0_customersupporttimestudydata/customersupporttimestudydata.xlsx"
+              }
+            ],
+            "google_plus_link": null,
+            "career_resource_center_link": null,
+            "coaching_appointments_link": null,
+            "office_hours_link": null,
+            "aws_provisioning_link": null
+          },
+          "atoms": [
+            {
+              "id": 186788,
+              "key": "11252195-44c2-466d-9956-9bc8125812c0",
+              "title": "Quiz",
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "# Practice with T-Tests\nJoe and Nataly both work as managers in the customer service department for a company.  Joe and Nataly have very different styles of managing their employees, and your boss is interested in knowing if one style is leads to faster service times than the other. \n \nYour boss had a time study commissioned to shadow various customer service representatives at the company and record how long it took them to do several steps in their daily workflow.  Because both Joe and Nataly manage fairly large teams, only a handful of individuals were shadowed on each team.  Use the time study data to determine if there is evidence that manager style affects speed of service.  \n\nTo complete this quiz, please use the **Customer Support Time Study** file for the data.  For the t-test, please use a two-tailed test, and an unequal variance test in your analysis. Feel free to use any tool to complete this. ",
+              "instructor_notes": ""
+            },
+            {
+              "id": 187458,
+              "key": "c999e595-fda7-423e-b24d-28f54ff3d5b1",
+              "title": "Quiz",
+              "semantic_type": "RadioQuizAtom",
+              "is_public": true,
+              "instructor_notes": null,
+              "user_state": {
+                "node_key": "c999e595-fda7-423e-b24d-28f54ff3d5b1",
+                "completed_at": null,
+                "last_viewed_at": null,
+                "unstructured": null
+              },
+              "question": {
+                "prompt": "What is the p-value that results from the t-test that measures the statistical significance of the relationship of management style on service speed?",
+                "answers": [
+                  {
+                    "id": "rbk1",
+                    "text": "0.001",
+                    "is_correct": false
+                  },
+                  {
+                    "id": "rbk2",
+                    "text": "0.023",
+                    "is_correct": true
+                  },
+                  {
+                    "id": "rbk3",
+                    "text": "0.089",
+                    "is_correct": false
+                  },
+                  {
+                    "id": "rbk4",
+                    "text": "0.230",
+                    "is_correct": false
+                  }
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "id": 185959,
+          "key": "cdcd04a8-337e-4ee8-8d46-3dc4fca0874a",
+          "title": "Performing a T-test Solution",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "cdcd04a8-337e-4ee8-8d46-3dc4fca0874a",
+            "completed_at": null,
+            "last_viewed_at": null,
+            "unstructured": null
+          },
+          "resources": {
+            "files": [
+              {
+                "name": "Customer Support Time Study Solution",
+                "uri": "http://video.udacity-data.com.s3.amazonaws.com/topher/2016/September/57d99e2f_customersupporttimestudydata-solution/customersupporttimestudydata-solution.xlsx"
+              }
+            ],
+            "google_plus_link": null,
+            "career_resource_center_link": null,
+            "coaching_appointments_link": null,
+            "office_hours_link": null,
+            "aws_provisioning_link": null
+          },
+          "atoms": [
+            {
+              "id": 187450,
+              "key": "ee875c42-323d-4ee4-b9b9-662222f4c9cf",
+              "title": "Solution",
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "# Solution: Performing a T-test\n\nBelow is a quick walk-through of how to calculate the t-test. You can also reference the **Customer Support Time Study Data Solution** file in the resources tab. \n\nLooking at the data, we see that we have the time for each employee for each step in the process.",
+              "instructor_notes": ""
+            },
+            {
+              "id": 187451,
+              "key": "13c5345e-098f-49b2-8697-d20fb4807e4d",
+              "title": "P1",
+              "semantic_type": "ImageAtom",
+              "is_public": true,
+              "url": "https://video.udacity-data.com/topher/2016/September/57d9607c_l2-10-quiz1/l2-10-quiz1.png",
+              "non_google_url": "https://s3.cn-north-1.amazonaws.com.cn/u-img/13c5345e-098f-49b2-8697-d20fb4807e4d",
+              "caption": "",
+              "alt": null,
+              "width": 518,
+              "height": 101,
+              "instructor_notes": null
+            },
+            {
+              "id": 187454,
+              "key": "3caf5684-a821-4a5d-9ee5-f7f4a24ff3dc",
+              "title": "P2",
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "We are trying to determine if there is a difference in how each team is managed, therefore, we’ll start by calculating the sum of the time for each employee for all four steps of the process.",
+              "instructor_notes": ""
+            },
+            {
+              "id": 187452,
+              "key": "b3aa4b41-8fd6-4558-b9ce-9b7e5f397666",
+              "title": "P2",
+              "semantic_type": "ImageAtom",
+              "is_public": true,
+              "url": "https://video.udacity-data.com/topher/2016/September/57d9608e_l2-10-quiz2/l2-10-quiz2.png",
+              "non_google_url": "https://s3.cn-north-1.amazonaws.com.cn/u-img/b3aa4b41-8fd6-4558-b9ce-9b7e5f397666",
+              "caption": "",
+              "alt": null,
+              "width": 519,
+              "height": 122,
+              "instructor_notes": null
+            },
+            {
+              "id": 187455,
+              "key": "4ff53520-9f9c-4f74-bfc8-5105cbddd112",
+              "title": "P3",
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "Next, we’ll use the T.Test formula:",
+              "instructor_notes": ""
+            },
+            {
+              "id": 187453,
+              "key": "67ff9b8b-d9b3-4812-921a-dfd6e4c04622",
+              "title": "P3",
+              "semantic_type": "ImageAtom",
+              "is_public": true,
+              "url": "https://video.udacity-data.com/topher/2016/September/57d9609d_l2-10-quiz3/l2-10-quiz3.png",
+              "non_google_url": "https://s3.cn-north-1.amazonaws.com.cn/u-img/67ff9b8b-d9b3-4812-921a-dfd6e4c04622",
+              "caption": "",
+              "alt": null,
+              "width": 432,
+              "height": 42,
+              "instructor_notes": null
+            },
+            {
+              "id": 187456,
+              "key": "6ae5eede-30d1-4fbc-8462-a0db195fb404",
+              "title": "P3",
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "The calculated p-value is: 0.023.  Since the number is less than 0.05, we can be 95% certain that there is a statistical difference in the means.\n\nThe time study data confirms that there is evidence to say that a manager’s style affects  the speed of setting up a new customer.",
+              "instructor_notes": ""
+            }
+          ]
+        },
+        {
+          "id": 185960,
+          "key": "6f09dcd6-c2df-4f20-a39c-ef63992d4b3e",
+          "title": "Analyzing Results in Alteryx",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "6f09dcd6-c2df-4f20-a39c-ef63992d4b3e",
+            "completed_at": null,
+            "last_viewed_at": null,
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 187287,
+              "key": "d5aab489-a2e7-44bb-8849-7dd4f2efeb5e",
+              "title": "Analyzing Results in Alteryx",
+              "semantic_type": "VideoAtom",
+              "is_public": true,
+              "instructor_notes": "",
+              "video": {
+                "youtube_id": "c2eEsW3DOjA",
+                "china_cdn_id": "c2eEsW3DOjA.mp4"
+              }
+            },
+            {
+              "id": 1055211,
+              "key": "36f4ec2b-30fd-49f9-9179-4d3b50c41f9b",
+              "title": "Workflow Steps",
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "### Workflow Steps\n\n- Continuing from the workflow in the “Preparing the Data for Analysis” demo, add a `Test of Means` tool to the data stream\n    - Select `visit page flag` for the response field and `group` as the group identifier\n- Run the workflow and take a look at the resulting p-value\n- Use the `Summarize` tool to count the number of visits, grouped by treatment or control group and whether or not they clicked on a link\n- Run the workflow\n- Add and configure a `Cross-Tab` tool:\n    - Select `group` for the value to group data\n    - Select `visit flag` for the new column headers\n    - Select `count` for the value for new columns\n    - Select `sum` and `percent row` for the method for aggregating values\n- Run the workflow again to see the results",
+              "instructor_notes": ""
+            },
+            {
+              "id": 1055216,
+              "key": "541666f0-c093-43e3-9b02-80d68736a743",
+              "title": "Workflow",
+              "semantic_type": "ImageAtom",
+              "is_public": true,
+              "url": "https://video.udacity-data.com/topher/2020/August/5f3ecfa9_ndoo8t-c6-l2-c13/ndoo8t-c6-l2-c13.png",
+              "non_google_url": "https://s3.cn-north-1.amazonaws.com.cn/u-img/541666f0-c093-43e3-9b02-80d68736a743",
+              "caption": "",
+              "alt": "",
+              "width": 1250,
+              "height": 880,
+              "instructor_notes": null
+            }
+          ]
+        },
+        {
+          "id": 185961,
+          "key": "c1561f36-aca3-4155-abae-e4faea7e13eb",
+          "title": "Analyzing Results Quiz",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "c1561f36-aca3-4155-abae-e4faea7e13eb",
+            "completed_at": null,
+            "last_viewed_at": null,
+            "unstructured": null
+          },
+          "resources": {
+            "files": [
+              {
+                "name": "Customer Service AB Test Data",
+                "uri": "http://video.udacity-data.com.s3.amazonaws.com/topher/2016/September/57d0de98_customerserviceabtestdata/customerserviceabtestdata.csv"
+              },
+              {
+                "name": "Randomized Test Quiz",
+                "uri": "http://video.udacity-data.com.s3.amazonaws.com/topher/2017/February/58923112_randomizedtest-quiz/randomizedtest-quiz.zip"
+              }
+            ],
+            "google_plus_link": null,
+            "career_resource_center_link": null,
+            "coaching_appointments_link": null,
+            "office_hours_link": null,
+            "aws_provisioning_link": null
+          },
+          "atoms": [
+            {
+              "id": 185967,
+              "key": "23062571-6ca9-4d03-a7ba-132047bc2598",
+              "title": "Intro",
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "## Analyzing AB Test Results\n\nUse the data in **Customer Service AB Testing Data** file to perform an analysis on the following experiment and answer the questions that follows:\n\nA call center for a cable internet provider wants to see if implementing an automated answering system to collect some data from the caller while they are on hold will increase customer service scores vs the customer service representative collecting that data after the customer has waited on hold.  Twenty percent of the  callers for the week of the experiment were randomly assigned to the treatment group and the rest were assigned to the control group.  At the end of the call they were asked to fill out a one question survey.  The data for the 1000 callers who took the survey is in the provided file.  \n",
+              "instructor_notes": ""
+            },
+            {
+              "id": 185968,
+              "key": "65f43b92-3f0e-49bd-83d6-ac19894511ae",
+              "title": "Q1",
+              "semantic_type": "ReflectAtom",
+              "is_public": true,
+              "instructor_notes": null,
+              "user_state": {
+                "node_key": "65f43b92-3f0e-49bd-83d6-ac19894511ae",
+                "completed_at": null,
+                "last_viewed_at": null,
+                "unstructured": null
+              },
+              "question": {
+                "title": "Q1",
+                "semantic_type": "TextQuestion",
+                "evaluation_id": null,
+                "text": "Think about the description of the experiment.  Do you have any concerns about the setup of the experiment?"
+              },
+              "answer": {
+                "text": "The sample size is fairly small with only 1000 responses.  There could be some bias with voluntary responses.",
+                "video": null
+              }
+            },
+            {
+              "id": 185973,
+              "key": "073c1c30-3fc8-4127-bafb-f0a72cbff34d",
+              "title": "Q2",
+              "semantic_type": "RadioQuizAtom",
+              "is_public": true,
+              "instructor_notes": null,
+              "user_state": {
+                "node_key": "073c1c30-3fc8-4127-bafb-f0a72cbff34d",
+                "completed_at": null,
+                "last_viewed_at": null,
+                "unstructured": null
+              },
+              "question": {
+                "prompt": "Using an average value for any customers who called in more than once (as identified by their phone number), what is the p-value for the experiment? ",
+                "answers": [
+                  {
+                    "id": "rbk1",
+                    "text": "1.24e-12",
+                    "is_correct": false
+                  },
+                  {
+                    "id": "rbk2",
+                    "text": "0.056",
+                    "is_correct": true
+                  },
+                  {
+                    "id": "rbk3",
+                    "text": "128",
+                    "is_correct": false
+                  },
+                  {
+                    "id": "rbk4",
+                    "text": "5.56e-5",
+                    "is_correct": false
+                  }
+                ]
+              }
+            },
+            {
+              "id": 185974,
+              "key": "91f9cb0c-29be-49fa-a660-2060cb03e724",
+              "title": "Q3",
+              "semantic_type": "ReflectAtom",
+              "is_public": true,
+              "instructor_notes": null,
+              "user_state": {
+                "node_key": "91f9cb0c-29be-49fa-a660-2060cb03e724",
+                "completed_at": null,
+                "last_viewed_at": null,
+                "unstructured": null
+              },
+              "question": {
+                "title": "Q3",
+                "semantic_type": "TextQuestion",
+                "evaluation_id": null,
+                "text": "Given this p-value, what would you conclude from the experiment?"
+              },
+              "answer": {
+                "text": "The p-value is above .05, which suggests there isn’t enough evidence to say that the automated system affects the CS score.  However, due to the low sample size, I would suggest to conduct the experiment again for a longer period of time to gather more data.  ",
+                "video": null
+              }
+            }
+          ]
+        },
+        {
+          "id": 185963,
+          "key": "03814107-8ea3-4cee-8227-f4f6a9e7fe6f",
+          "title": "Conclusion",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "03814107-8ea3-4cee-8227-f4f6a9e7fe6f",
+            "completed_at": null,
+            "last_viewed_at": null,
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 187267,
+              "key": "ed18d7d8-43c7-48b0-9cf4-9bdf4fcd4446",
+              "title": "Conclusion",
+              "semantic_type": "VideoAtom",
+              "is_public": true,
+              "instructor_notes": "",
+              "video": {
+                "youtube_id": "eLAYJQD1o5c",
+                "china_cdn_id": "eLAYJQD1o5c.mp4"
+              }
+            }
+          ]
+        },
+        {
+          "id": 1055217,
+          "key": "cfce388d-25c6-4b50-8225-42b28ddc20b5",
+          "title": "Glossary",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "cfce388d-25c6-4b50-8225-42b28ddc20b5",
+            "completed_at": null,
+            "last_viewed_at": null,
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 1059443,
+              "key": "f47f9b2d-50f8-4429-8c00-e78d658bdd16",
+              "title": null,
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "## Glossary\n\n**Click-through rate:** How many users click on a given link, expressed as a percentage of total users who see the link.\n\n**Control group:** The set of units in an experiment that will receive a standard, unmodified experience, providing a baseline comparison for the treatment group.\n\n**Control variables:** Variables that are the most influential on the outcome of the target variable, used to make sure that treatment and control units are as similar as possible.\n\n**Duration:** How long an experiment will run for.\n\n**Lift:** Difference in observations from treatment to control group.\n\n**Linear regression:** A method of modeling the relationship between a target variable and one or more control variables using a linear equation.\n\n**Population:** The set of units to be used in an experiment.\n\n**P-value:** The likelihood that the actual difference in mean values between the treatment and control groups is 0. The closer the P-value is to 0, the higher the likelihood that an actual difference in means has been observed. A P-value of 0.05 or below (indicating 95% likelihood of difference in means) is considered statistically significant.\n\n**Randomized design:** An experimental setup in which units are assigned at random to either the treatment or control group. Used in scenarios with minimal opportunity to control variables, or in scenarios with a large enough volume and velocity of data to not be worried about bias.\n\n**Sample size:** The number of units needed in an experiment to make statistically significant inferences about a larger population.\n\n**Target variable:** What is being measured during an experiment.\n\n**Test of means:** Statistical calculation of whether the mean values of the treatment and control groups are the same or different.\n\n**Treatment:** The change made during an experiment, which will be given to units in the treatment group.\n\n**Treatment group:** The set of units in an experiment that will receive a modified or manipulated experience, relative to the control group.\n\n**Treatment variable:** The variable being changed to observe its effect on the target variable. Also called the experimental or independent variable.\n\n**T-test:** A type of test used to determine if the results of an experiment are statistically significant or not, resulting in a P-value.\n\n**Unit of diversion:** How units are assigned to either the treatment or control group.\n",
+              "instructor_notes": ""
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "_deprecated": [
+    {
+      "name": "non_google_url",
+      "reason": "(2016/8/18) Not sure, ask i18n team for reason"
+    },
+    {
+      "name": "non_google_url",
+      "reason": "(2016/8/18) Not sure, ask i18n team for reason"
+    },
+    {
+      "name": "non_google_url",
+      "reason": "(2016/8/18) Not sure, ask i18n team for reason"
+    },
+    {
+      "name": "non_google_url",
+      "reason": "(2016/8/18) Not sure, ask i18n team for reason"
+    },
+    {
+      "name": "non_google_url",
+      "reason": "(2016/8/18) Not sure, ask i18n team for reason"
+    }
+  ]
+}

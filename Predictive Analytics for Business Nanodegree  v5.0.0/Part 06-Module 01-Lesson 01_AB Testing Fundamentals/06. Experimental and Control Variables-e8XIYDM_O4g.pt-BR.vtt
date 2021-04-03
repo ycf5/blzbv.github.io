@@ -1,0 +1,170 @@
+WEBVTT
+Kind: captions
+Language: pt-BR
+
+00:00:00.434 --> 00:00:03.834
+Num experimento, também
+temos uma variável experimental,
+
+00:00:03.868 --> 00:00:05.901
+que também é chamada
+de variável de tratamento
+
+00:00:05.934 --> 00:00:08.033
+ou variável independente.
+
+00:00:08.067 --> 00:00:12.801
+Esta é a variável que mudamos para
+ver como ela afeta a variável-alvo.
+
+00:00:12.834 --> 00:00:16.133
+No experimento de introdução
+do novo produto que vamos montar,
+
+00:00:16.167 --> 00:00:19.801
+a variável experimental
+é a venda do novo produto.
+
+00:00:19.834 --> 00:00:22.734
+As outras variáveis, ou dados
+que temos sobre as unidades,
+
+00:00:22.767 --> 00:00:24.801
+são chamadas
+de variáveis de controle.
+
+00:00:24.834 --> 00:00:28.300
+Elas são análogas às variáveis
+preditivas na modelagem.
+
+00:00:28.334 --> 00:00:30.567
+Elas são as variáveis
+com maior influência
+
+00:00:30.601 --> 00:00:33.200
+no resultado da variável-alvo.
+
+00:00:33.234 --> 00:00:35.901
+No nosso experimento,
+pode haver outras informações
+
+00:00:35.934 --> 00:00:39.667
+sobre as lojas que estão disponíveis
+para os analistas.
+
+00:00:39.701 --> 00:00:42.801
+As outras variáveis ou dados
+que temos sobre cada loja,
+
+00:00:42.834 --> 00:00:46.801
+como as vendas, os dados
+dos clientes ou a localização,
+
+00:00:46.834 --> 00:00:49.367
+podem ser chamadas
+de variáveis de controle.
+
+00:00:49.400 --> 00:00:51.667
+Variáveis de controle são tratadas
+de um modo diferente
+
+00:00:51.701 --> 00:00:54.400
+das variáveis preditivas.
+Elas não serão usadas
+
+00:00:54.433 --> 00:00:57.901
+para criar uma equação para fazer
+uma previsão sobre um futuro valor.
+
+00:00:57.934 --> 00:01:01.234
+Já sabemos que não temos
+informação suficiente para isso.
+
+00:01:01.267 --> 00:01:04.167
+Em vez disso, variáveis de controle
+são usadas para garantir
+
+00:01:04.200 --> 00:01:06.267
+que as unidades de tratamento
+e de controle
+
+00:01:06.300 --> 00:01:09.100
+sejam parecidas umas com as outras
+o máximo possível.
+
+00:01:09.133 --> 00:01:11.601
+Isso permite que a comparação
+para a variável-alvo
+
+00:01:11.634 --> 00:01:14.033
+seja a mais precisa possível.
+
+00:01:14.300 --> 00:01:17.100
+Por exemplo, no nosso experimento,
+queremos saber
+
+00:01:17.133 --> 00:01:19.067
+o efeito de introduzir
+um novo produto
+
+00:01:19.100 --> 00:01:22.368
+no conjunto de produtos
+que a marca vende numa loja.
+
+00:01:22.401 --> 00:01:24.466
+Vamos observar o efeito
+da introdução do produto
+
+00:01:24.499 --> 00:01:26.868
+no conjunto de produtos
+que a marca tem,
+
+00:01:26.901 --> 00:01:28.900
+porque, se as pessoas
+comprarem o novo produto
+
+00:01:28.933 --> 00:01:31.100
+em vez de comprarem
+o que levariam antes,
+
+00:01:31.133 --> 00:01:33.167
+então o novo produto
+pode ter mais vendas
+
+00:01:33.200 --> 00:01:35.801
+ou causar prejuízo
+a outros produtos.
+
+00:01:35.834 --> 00:01:38.968
+Para comparar uma loja
+que vai vender o novo produto
+
+00:01:39.000 --> 00:01:40.467
+com outra que não vai,
+
+00:01:40.501 --> 00:01:43.734
+precisamos garantir que sejam
+extremamente parecidas.
+
+00:01:43.767 --> 00:01:47.100
+Por exemplo, queremos lojas
+com níveis de venda,
+
+00:01:47.133 --> 00:01:50.868
+geografias e características
+de clientes parecidas.
+
+00:01:50.901 --> 00:01:54.167
+Isso é muito importante porque
+queremos medir o impacto
+
+00:01:54.200 --> 00:01:57.300
+do lançamento do produto
+independentemente de outros fatores.
+
+00:01:57.334 --> 00:01:58.601
+*END*
+
+00:01:58.634 --> 00:01:59.934
+*CODE*
+

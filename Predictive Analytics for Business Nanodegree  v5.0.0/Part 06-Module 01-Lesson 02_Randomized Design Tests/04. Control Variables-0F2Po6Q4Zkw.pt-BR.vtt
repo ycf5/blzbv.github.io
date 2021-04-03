@@ -1,0 +1,70 @@
+WEBVTT
+Kind: captions
+Language: pt-BR
+
+00:00:00.200 --> 00:00:02.400
+Estas são as variáveis
+de controle em que pensei.
+
+00:00:02.434 --> 00:00:04.968
+Primeiro, o tipo de pessoas
+que visita a página
+
+00:00:05.000 --> 00:00:07.200
+pode ter um impacto no fato
+de clicarem ou não
+
+00:00:07.234 --> 00:00:09.133
+no link do programa
+de fidelidade.
+
+00:00:09.166 --> 00:00:13.467
+Depois, é importante assegurar que
+só vamos contar cada pessoa uma vez,
+
+00:00:13.501 --> 00:00:16.167
+mesmo que ela clique
+no site mais de uma vez.
+
+00:00:16.200 --> 00:00:19.767
+Por fim, o fato de terem ou não
+um cartão de fidelidade
+
+00:00:19.801 --> 00:00:22.602
+provavelmente vai influenciar
+o fato de clicarem no link.
+
+00:00:22.968 --> 00:00:27.300
+Logo, vamos usar estas 3 variáveis
+como variáveis de controle:
+
+00:00:27.334 --> 00:00:29.601
+o tipo de pessoa
+que visita a página -
+
+00:00:29.634 --> 00:00:33.801
+a situação social e econômica,
+os dados demográficos etc. -
+
+00:00:33.834 --> 00:00:38.868
+a frequência com que visitam o site
+e se já têm cartão de fidelidade.
+
+00:00:38.901 --> 00:00:41.965
+Vamos usar essa lista
+como exemplo daqui para frente,
+
+00:00:41.998 --> 00:00:45.367
+mas pense em como você incorporaria
+as variáveis em que pensou,
+
+00:00:45.400 --> 00:00:47.599
+enquanto analisamos
+o resto do experimento.
+
+00:00:47.632 --> 00:00:48.767
+*END*
+
+00:00:48.801 --> 00:00:50.100
+*CODE*
+

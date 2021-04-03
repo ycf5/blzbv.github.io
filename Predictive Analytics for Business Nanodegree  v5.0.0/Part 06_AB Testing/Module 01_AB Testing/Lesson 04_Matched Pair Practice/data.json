@@ -1,0 +1,1316 @@
+{
+  "data": {
+    "lesson": {
+      "id": 680864,
+      "key": "41cb1c8c-00cc-4478-95d2-3baa723b1129",
+      "title": "Matched Pair Practice",
+      "semantic_type": "Lesson",
+      "is_public": true,
+      "version": "1.0.0",
+      "locale": "en-us",
+      "summary": "Use trend and seasonality as control variables for a matched pair design A/B test.",
+      "lesson_type": "Classroom",
+      "display_workspace_project_only": false,
+      "resources": {
+        "files": [
+          {
+            "name": "Videos Zip File",
+            "uri": "https://zips.udacity-data.com/41cb1c8c-00cc-4478-95d2-3baa723b1129/680864/1544455263566/Matched+Pair+Practice+Videos.zip"
+          },
+          {
+            "name": "Transcripts Zip File",
+            "uri": "https://zips.udacity-data.com/41cb1c8c-00cc-4478-95d2-3baa723b1129/680864/1544455259707/Matched+Pair+Practice+Subtitles.zip"
+          },
+          {
+            "name": "Priceelasticityanalysis",
+            "uri": "https://video.udacity-data.com/topher/2020/February/5e386946_priceelasticityanalysis/priceelasticityanalysis.zip"
+          }
+        ],
+        "google_plus_link": null,
+        "career_resource_center_link": null,
+        "coaching_appointments_link": null,
+        "office_hours_link": null,
+        "aws_provisioning_link": null
+      },
+      "project": null,
+      "lab": null,
+      "concepts": [
+        {
+          "id": 187163,
+          "key": "67158aa6-c82a-47e0-8a1d-c67587588f94",
+          "title": "Introduction",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "67158aa6-c82a-47e0-8a1d-c67587588f94",
+            "completed_at": null,
+            "last_viewed_at": null,
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 187297,
+              "key": "375bd20f-6034-41cb-aecc-880559e8e5d9",
+              "title": "Introduction",
+              "semantic_type": "VideoAtom",
+              "is_public": true,
+              "instructor_notes": "",
+              "video": {
+                "youtube_id": "O65MhMq9XFo",
+                "china_cdn_id": "O65MhMq9XFo.mp4"
+              }
+            },
+            {
+              "id": 187634,
+              "key": "2d17c214-0b35-4375-ad16-3537b4554de8",
+              "title": "setup",
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "To help you get setup, you can download all of the files that you will need for this entire lesson in the Resources tab in the upper left hand corner.",
+              "instructor_notes": ""
+            }
+          ]
+        },
+        {
+          "id": 183320,
+          "key": "be44e686-d18b-4cd9-bfbf-7f03762d0929",
+          "title": "Pricing Elasticity Analysis Problem",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "be44e686-d18b-4cd9-bfbf-7f03762d0929",
+            "completed_at": null,
+            "last_viewed_at": null,
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 187298,
+              "key": "87dc0dfd-9ce3-4f71-b3b4-ac3ae1d6365e",
+              "title": "Pricing Elasticity Analysis Problem",
+              "semantic_type": "VideoAtom",
+              "is_public": true,
+              "instructor_notes": "",
+              "video": {
+                "youtube_id": "xogIdabm9Pw",
+                "china_cdn_id": "xogIdabm9Pw.mp4"
+              }
+            },
+            {
+              "id": 183321,
+              "key": "f1cad4ec-9036-48bb-8bd6-4a229681f14c",
+              "title": "Note",
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "### Pricing Elasticity\n\n\"Price elasticity of demand is a measure of the relationship between a change in the quantity demanded of a particular good and a change in its price. Price elasticity of demand is a term in economics often used when discussing price sensitivity.\" Investopedia.\n\nIf you'd like to read more about pricing elasticity, Investopedia has a good breakdown of the concept. Use this [link](http://www.investopedia.com/terms/p/priceelasticity.asp#ixzz4KDgCH9a0) - it's about a 3-4 minute read.",
+              "instructor_notes": ""
+            }
+          ]
+        },
+        {
+          "id": 187164,
+          "key": "5b289643-4fb5-4e72-9b59-0c09b7f8e637",
+          "title": "Select Treatment Units",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "5b289643-4fb5-4e72-9b59-0c09b7f8e637",
+            "completed_at": null,
+            "last_viewed_at": null,
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 187184,
+              "key": "de9ca7ed-c2bc-4476-aafe-2e206e2539a9",
+              "title": "Quiz Intro",
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "# Practice Selecting Treatment Units\n\nThe *AB Treatments* tool in Alteryx is designed to assist in identifying a representative set of treatment units from the pool of possible units. \n\nIn some cases, the treatment units are selected randomly, which is often the case with e-commerce. In this spa example, the treatment units were selected randomly.",
+              "instructor_notes": ""
+            },
+            {
+              "id": 187185,
+              "key": "5bf309a9-69dc-44a7-a6bf-d5f53f4165a0",
+              "title": "Q1",
+              "semantic_type": "RadioQuizAtom",
+              "is_public": true,
+              "instructor_notes": null,
+              "user_state": {
+                "node_key": "5bf309a9-69dc-44a7-a6bf-d5f53f4165a0",
+                "completed_at": null,
+                "last_viewed_at": null,
+                "unstructured": null
+              },
+              "question": {
+                "prompt": "What is the unit for this example? ",
+                "answers": [
+                  {
+                    "id": "rbk1",
+                    "text": "Facial",
+                    "is_correct": false
+                  },
+                  {
+                    "id": "rbk2",
+                    "text": "Store",
+                    "is_correct": true
+                  },
+                  {
+                    "id": "rbk3",
+                    "text": "Price",
+                    "is_correct": false
+                  },
+                  {
+                    "id": "rbk4",
+                    "text": "Customer",
+                    "is_correct": false
+                  }
+                ]
+              }
+            },
+            {
+              "id": 187186,
+              "key": "8935f4e6-5984-48d1-8f6c-4134acfc37bc",
+              "title": "Q2",
+              "semantic_type": "RadioQuizAtom",
+              "is_public": true,
+              "instructor_notes": null,
+              "user_state": {
+                "node_key": "8935f4e6-5984-48d1-8f6c-4134acfc37bc",
+                "completed_at": null,
+                "last_viewed_at": null,
+                "unstructured": null
+              },
+              "question": {
+                "prompt": "What treatment groups will you have for this experiment?",
+                "answers": [
+                  {
+                    "id": "rbk1",
+                    "text": "One treatment group for each service",
+                    "is_correct": false
+                  },
+                  {
+                    "id": "rbk2",
+                    "text": "One treatment group for each store",
+                    "is_correct": false
+                  },
+                  {
+                    "id": "rbk3",
+                    "text": "One treatment group for each price",
+                    "is_correct": true
+                  }
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "id": 187166,
+          "key": "60e09b14-8a81-4627-92d8-312c2c93d81f",
+          "title": "Select Discrete Control Variables",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "60e09b14-8a81-4627-92d8-312c2c93d81f",
+            "completed_at": null,
+            "last_viewed_at": null,
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 187299,
+              "key": "a96b6049-21f4-4424-b04f-76099d0edcd3",
+              "title": "Select Discrete Control Variables",
+              "semantic_type": "VideoAtom",
+              "is_public": true,
+              "instructor_notes": "To further clarify what I said at the end of this video, we're going to match treatment units with control units that share the same region.",
+              "video": {
+                "youtube_id": "r4sNsOgZY1w",
+                "china_cdn_id": "r4sNsOgZY1w.mp4"
+              }
+            }
+          ]
+        },
+        {
+          "id": 187167,
+          "key": "470dcdf8-cd14-4301-89b7-e06fab63490c",
+          "title": "Select Continuous Control Variables Quiz",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "470dcdf8-cd14-4301-89b7-e06fab63490c",
+            "completed_at": null,
+            "last_viewed_at": null,
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 187187,
+              "key": "f5b8b2f9-d02a-4b15-a6d2-104fdf3db0f4",
+              "title": "Intro",
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "# Selecting Control Variables\n\nIn the previous lesson, we learned that different continuous measures can be used to match control units to treatments units.  For example, we could match stores based on square footage, number of spa technicians, number of years in operation, etc.",
+              "instructor_notes": ""
+            },
+            {
+              "id": 187205,
+              "key": "e2dd21a7-0823-4e2e-8b96-ebdfd12c9f6f",
+              "title": "data",
+              "semantic_type": "ImageAtom",
+              "is_public": true,
+              "url": "https://video.udacity-data.com/topher/2016/September/57d8264c_l4-5-quiz/l4-5-quiz.png",
+              "non_google_url": "https://s3.cn-north-1.amazonaws.com.cn/u-img/e2dd21a7-0823-4e2e-8b96-ebdfd12c9f6f",
+              "caption": "",
+              "alt": null,
+              "width": 1600,
+              "height": 340,
+              "instructor_notes": null
+            },
+            {
+              "id": 187188,
+              "key": "58d2c640-1aab-40cb-b7a2-85254d4f5cc4",
+              "title": "Control variables",
+              "semantic_type": "ReflectAtom",
+              "is_public": true,
+              "instructor_notes": null,
+              "user_state": {
+                "node_key": "58d2c640-1aab-40cb-b7a2-85254d4f5cc4",
+                "completed_at": null,
+                "last_viewed_at": null,
+                "unstructured": null
+              },
+              "question": {
+                "title": "Control variables",
+                "semantic_type": "TextQuestion",
+                "evaluation_id": null,
+                "text": "Looking at the data available, what are some continuous control variables that may be useful for this experiment?  Note, you may have to aggregate or group data to calculate additional fields that you could use."
+              },
+              "answer": {
+                "text": "Take a look at the next section for some ideas.",
+                "video": null
+              }
+            }
+          ]
+        },
+        {
+          "id": 187168,
+          "key": "c6cfb306-95f1-4690-9884-312022f96680",
+          "title": "Select Continuous Control Variables Solution",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "c6cfb306-95f1-4690-9884-312022f96680",
+            "completed_at": null,
+            "last_viewed_at": null,
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 187189,
+              "key": "e68d89a2-e0b2-4ceb-9ee1-69fe9a549e7c",
+              "title": "Solution",
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "# Selecting Control Variables\n\nSome ideas for control variables for the spa example are:\n* **Average sales per store per month**.  Since we have transaction line item data, we could aggregate the data by invoice, then average by month and store to get the average sales amount per store per month.\n* We could use the **average number of invoices per month per store** as a control variable.\n* Using the **SKU Category** information, we could calculate the average number of facials and the average sales for facials per month.\n\nRemember the Problem Solving Framework?  You may have to try different combinations to find variable that give you the best matching results. If you're not familiar with the Problem Solving Framework, you are encouraged to take the [Problem Solving with Advanced Analytics](https://www.udacity.com/course/problem-solving-with-advanced-analytics--ud976) to help you think through a business problem.",
+              "instructor_notes": ""
+            }
+          ]
+        },
+        {
+          "id": 187169,
+          "key": "1408ac29-3964-4431-ae4d-5ba2dacafc04",
+          "title": "Select Continuous Control Variables",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "1408ac29-3964-4431-ae4d-5ba2dacafc04",
+            "completed_at": null,
+            "last_viewed_at": null,
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 187300,
+              "key": "64596a77-f8ed-442e-a449-97b38baa672d",
+              "title": "Select Continuous Control Variables",
+              "semantic_type": "VideoAtom",
+              "is_public": true,
+              "instructor_notes": "",
+              "video": {
+                "youtube_id": "atlzVKhXN-c",
+                "china_cdn_id": "atlzVKhXN-c.mp4"
+              }
+            },
+            {
+              "id": 348288,
+              "key": "be5f000f-0c1e-4a3c-b4d7-c256ff1c8d2e",
+              "title": "Untitled",
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "**Note:** It does say in the video 1 year plus a **minimum** of 6 periods, but if you look at the AB Trends tool documentation it indicates the rule of thumb is actually 12 periods (in addition to the year) if you are measuring weekly. Keep this in mind as we move forwards. \n\nAB Trends Tool Documentation: https://help.alteryx.com/2018.3/AB_Trend.htm",
+              "instructor_notes": ""
+            }
+          ]
+        },
+        {
+          "id": 187170,
+          "key": "397080d6-9a50-477e-bb25-2b12714a76d7",
+          "title": "Prepare for Test Quiz",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "397080d6-9a50-477e-bb25-2b12714a76d7",
+            "completed_at": null,
+            "last_viewed_at": null,
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 187190,
+              "key": "2345037e-9018-4a26-8271-60231b20ff8c",
+              "title": "Quiz Intro",
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "# Gathering Data\nWe have a great plan for our experiment, but before we get started, we need to think through a couple of items to ensure we gather the data we need.",
+              "instructor_notes": ""
+            },
+            {
+              "id": 187191,
+              "key": "d35b61c1-1aeb-48ff-8063-60e1b2a94474",
+              "title": "Q1",
+              "semantic_type": "RadioQuizAtom",
+              "is_public": true,
+              "instructor_notes": null,
+              "user_state": {
+                "node_key": "d35b61c1-1aeb-48ff-8063-60e1b2a94474",
+                "completed_at": null,
+                "last_viewed_at": null,
+                "unstructured": null
+              },
+              "question": {
+                "prompt": "Assuming a customer visits the spa about once every ten weeks, how long should our experiment last (how many weeks should we collect data)?",
+                "answers": [
+                  {
+                    "id": "rbk1",
+                    "text": "10",
+                    "is_correct": true
+                  },
+                  {
+                    "id": "rbk2",
+                    "text": "20",
+                    "is_correct": false
+                  },
+                  {
+                    "id": "rbk3",
+                    "text": "30",
+                    "is_correct": false
+                  },
+                  {
+                    "id": "rbk4",
+                    "text": "52",
+                    "is_correct": false
+                  }
+                ]
+              }
+            },
+            {
+              "id": 187192,
+              "key": "b3485afa-9b36-43ed-af82-046d18291ff5",
+              "title": "Q3",
+              "semantic_type": "RadioQuizAtom",
+              "is_public": true,
+              "instructor_notes": null,
+              "user_state": {
+                "node_key": "b3485afa-9b36-43ed-af82-046d18291ff5",
+                "completed_at": null,
+                "last_viewed_at": null,
+                "unstructured": null
+              },
+              "question": {
+                "prompt": "To use the A/B Analysis tool in Alteryx, we also need to ensure we have data available from a baseline period that we can compare to the experimental period to perform the analysis.  Based on the duration of our experiment, how many weeks of data should we have for our comparison period?",
+                "answers": [
+                  {
+                    "id": "rbk1",
+                    "text": "10",
+                    "is_correct": true
+                  },
+                  {
+                    "id": "rbk2",
+                    "text": "20",
+                    "is_correct": false
+                  },
+                  {
+                    "id": "rbk3",
+                    "text": "38",
+                    "is_correct": false
+                  },
+                  {
+                    "id": "rbk4",
+                    "text": "58",
+                    "is_correct": false
+                  }
+                ]
+              }
+            },
+            {
+              "id": 1055249,
+              "key": "1fa3f41f-3b07-4970-8bf1-94be60939c31",
+              "title": "Q2",
+              "semantic_type": "RadioQuizAtom",
+              "is_public": true,
+              "instructor_notes": null,
+              "user_state": {
+                "node_key": "1fa3f41f-3b07-4970-8bf1-94be60939c31",
+                "completed_at": null,
+                "last_viewed_at": null,
+                "unstructured": null
+              },
+              "question": {
+                "prompt": "We are going to use the A/B Trend tool in Alteryx to calculate trends and seasonality in our data. To do this, we need to make sure we have enough historical data available for the tool to use. How many weeks of historical data should we have?",
+                "answers": [
+                  {
+                    "id": "rbk1",
+                    "text": "10",
+                    "is_correct": false
+                  },
+                  {
+                    "id": "rbk2",
+                    "text": "20",
+                    "is_correct": false
+                  },
+                  {
+                    "id": "rbk3",
+                    "text": "58",
+                    "is_correct": false
+                  },
+                  {
+                    "id": "rbk4",
+                    "text": "64",
+                    "is_correct": true
+                  }
+                ]
+              }
+            },
+            {
+              "id": 187193,
+              "key": "31185117-1bc2-4694-98e1-2d918de8d419",
+              "title": "Q4",
+              "semantic_type": "RadioQuizAtom",
+              "is_public": true,
+              "instructor_notes": null,
+              "user_state": {
+                "node_key": "31185117-1bc2-4694-98e1-2d918de8d419",
+                "completed_at": null,
+                "last_viewed_at": null,
+                "unstructured": null
+              },
+              "question": {
+                "prompt": "If we are planning on starting data collection for our experiment on March 20th, 2014, and we have data from January 1st, 2013, do we have enough historical data for our analysis?",
+                "answers": [
+                  {
+                    "id": "rbk1",
+                    "text": "Yes",
+                    "is_correct": false
+                  },
+                  {
+                    "id": "rbk2",
+                    "text": "No",
+                    "is_correct": true
+                  }
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "id": 187172,
+          "key": "67599318-bd15-4dec-bb82-4238b5ccd5cf",
+          "title": "Run Test",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "67599318-bd15-4dec-bb82-4238b5ccd5cf",
+            "completed_at": null,
+            "last_viewed_at": null,
+            "unstructured": null
+          },
+          "resources": {
+            "files": [
+              {
+                "name": "Point of Sale Transactions",
+                "uri": "http://video.udacity-data.com.s3.amazonaws.com/topher/2016/October/5806e43d_pos-transactions/pos-transactions.yxdb"
+              },
+              {
+                "name": "Treatment Stores",
+                "uri": "http://video.udacity-data.com.s3.amazonaws.com/topher/2016/October/5806e467_treatment-stores/treatment-stores.xlsx"
+              }
+            ],
+            "google_plus_link": null,
+            "career_resource_center_link": null,
+            "coaching_appointments_link": null,
+            "office_hours_link": null,
+            "aws_provisioning_link": null
+          },
+          "atoms": [
+            {
+              "id": 187301,
+              "key": "f9273e55-4f04-4819-b331-483bb0993a2d",
+              "title": "Run Test",
+              "semantic_type": "VideoAtom",
+              "is_public": true,
+              "instructor_notes": "",
+              "video": {
+                "youtube_id": "HwMFACVa3nw",
+                "china_cdn_id": "HwMFACVa3nw.mp4"
+              }
+            },
+            {
+              "id": 187635,
+              "key": "17f94edf-64c4-455d-956e-de79443a9810",
+              "title": "overview",
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "# Overview\n\nHere is an overview of our plan:\n\n1. Prepare Data from two raw data files (found at the bottom of the page)\n\n - Point of Sales Transaction file\n - Treatment Stores file containing price levels and store identifiers\n\n2. Create three data files:\n\n Use these two raw data files to create 3 files. These files are:\n\n - Weekly store traffic data for A/B Trend Tool -> Produces our seasonality and trend indices to help us match our treatment and control stores\n - Store list data for A/B Controls tool -> Produces which control stores to match with our treatment stores along with results from the A/B Trend Tool\n - Sales data for A/B Analysis tool -> Produces the final results\n\n3. Use the three data files to match our treatment and control stores to calculate the sales lift.",
+              "instructor_notes": ""
+            },
+            {
+              "id": 187636,
+              "key": "3b981746-4e75-4b8b-a0c3-5538c6c6a7af",
+              "title": "desc",
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "Below is a rough workflow of how to take the raw data files to create the necessary data in order to use the A/B Analysis tool. This is **not a complete** Alteryx workflow, but just a diagram to help you understand what we'll be doing for the rest of this lesson.",
+              "instructor_notes": ""
+            },
+            {
+              "id": 187638,
+              "key": "dc32f6f7-7f75-4a16-ac07-af80aa325878",
+              "title": "workflow",
+              "semantic_type": "ImageAtom",
+              "is_public": true,
+              "url": "https://video.udacity-data.com/topher/2016/September/57db3d1f_capture/capture.png",
+              "non_google_url": "https://s3.cn-north-1.amazonaws.com.cn/u-img/dc32f6f7-7f75-4a16-ac07-af80aa325878",
+              "caption": "",
+              "alt": null,
+              "width": 842,
+              "height": 430,
+              "instructor_notes": null
+            }
+          ]
+        },
+        {
+          "id": 187173,
+          "key": "e93ee789-fb71-486c-8b0f-cd0de9b080e0",
+          "title": "Filter & Calculate Date Fields",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "e93ee789-fb71-486c-8b0f-cd0de9b080e0",
+            "completed_at": null,
+            "last_viewed_at": null,
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 187302,
+              "key": "6644845a-cdcc-4c53-a9b2-ff0828c38b01",
+              "title": "Filter & Calculate Date Fields",
+              "semantic_type": "VideoAtom",
+              "is_public": true,
+              "instructor_notes": "",
+              "video": {
+                "youtube_id": "ufajUmp_yK4",
+                "china_cdn_id": "ufajUmp_yK4.mp4"
+              }
+            },
+            {
+              "id": 1055250,
+              "key": "92d2f929-104a-45a9-8176-752a92d44f82",
+              "title": "Workflow Steps",
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "### Workflow Steps\n\n- Use the `Input` tool to import the point of sale transaction data\n- Use the `Select` tool to change the type of the invoice date field to a date, and change the number of decimal places in the gross margin and sales fields from 4 to 2\n- Use the `Filter` tool to filter for invoice dates from February 7, 2013 to May 28, 2014, and to filter out data where the `region` field is blank\n- Use the `Formula` tool to create four new fields: week number, week begin date, week end date, and a facial flag field (which will identify transactions that included a facial)\n",
+              "instructor_notes": ""
+            },
+            {
+              "id": 1055251,
+              "key": "01e18461-666f-48ee-9305-c17e5ed0bc0b",
+              "title": "Workflow",
+              "semantic_type": "ImageAtom",
+              "is_public": true,
+              "url": "https://video.udacity-data.com/topher/2020/August/5f3ecfa0_nd008t-c6-l4-c10/nd008t-c6-l4-c10.png",
+              "non_google_url": "https://s3.cn-north-1.amazonaws.com.cn/u-img/01e18461-666f-48ee-9305-c17e5ed0bc0b",
+              "caption": "",
+              "alt": "",
+              "width": 1461,
+              "height": 1021,
+              "instructor_notes": null
+            },
+            {
+              "id": 264550,
+              "key": "fbeb84b4-6d60-4cc1-86f3-3f3d7f149503",
+              "title": "Untitled",
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "### Formulas\n\nThe instructor uses a few complex formulas in the videos. You can find them below. A useful resource for functions in Alteryx can be found [here](https://help.alteryx.com/current/Reference/Functions.htm).\n\n#### Filtering the Data\n\nIn order to filter the data to include only the applicable date range, and to remove records with missing region information, the following formula is used:\n\n* !IsEmpty([Region]) **AND**   Invoice_Date **>=** '2013-02-07'   **AND**   Invoice_date  **<=** '2014-05-28'\n\nThe three criteria are divided by the AND operator, which means that records have to meet all three criteria to be included in the data.\n\n#### Creating a Week Variable\n\nThe following formula is used to create the week variable.\n\n* FLOOR(DateTimeDiff([Invoice_Date], \"2013-02-07\", 'days') / 7+1)\n* The **FLOOR** function Return largest integer less than or equal to value in the formula. \n* The **Date_Time_Diff** function calculates the difference between two dates.\n* Dividing by 7 will get us how many weeks gives us the number of weeks between the invoice date and the start of the date. Since the floor rounds the number down, adding 1 gives us the week number.",
+              "instructor_notes": ""
+            }
+          ]
+        },
+        {
+          "id": 187174,
+          "key": "03c60bb8-e334-49fb-bc94-5b31e29c64db",
+          "title": "Weekly Store Traffic Data",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "03c60bb8-e334-49fb-bc94-5b31e29c64db",
+            "completed_at": null,
+            "last_viewed_at": null,
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 187303,
+              "key": "3507b4d5-5d10-421f-b3e4-b7b4c6f80a1f",
+              "title": "Weekly Store Traffic Data",
+              "semantic_type": "VideoAtom",
+              "is_public": true,
+              "instructor_notes": "",
+              "video": {
+                "youtube_id": "6TfJrXq-dXY",
+                "china_cdn_id": "6TfJrXq-dXY.mp4"
+              }
+            },
+            {
+              "id": 1055260,
+              "key": "c8ee6f06-b1f5-4730-9625-e1cf98937229",
+              "title": "Workflow Steps",
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "### Workflow steps\n\n- Use the `Summarize` tool to count how many weeks of data each store has\n    - Group by store, and count the distinct number of weeks related to each store\n- Use the `Filter` tool to filter for stores that have 68 weeks of data available\n- Use the `Join` tool to add transaction data for the stores identified as having 68 weeks of data - join on the `store` field, and remove any fields that are not needed\n- Use the `Summarize` tool to aggregate data, resulting in one invoice per row\n    - Group the region, store, invoice number, and invoice date fields\n    - Sum the gross margin and sales fields\n    - Use `Count distinct non null` on the facial flag field - this will return a 1 for any invoice that included a facial, and a 0 for any invoice that did not include a facial\n- Use the `Summarize` tool to count the number of invoices per store per week\n- Drag an `Output` tool onto the canvas, and save the file for later use\n",
+              "instructor_notes": ""
+            },
+            {
+              "id": 1055255,
+              "key": "d2021250-fd94-471f-b660-1c836032af70",
+              "title": "Workflow",
+              "semantic_type": "ImageAtom",
+              "is_public": true,
+              "url": "https://video.udacity-data.com/topher/2020/August/5f3ecfa1_nd008t-c6-l4-c11/nd008t-c6-l4-c11.png",
+              "non_google_url": "https://s3.cn-north-1.amazonaws.com.cn/u-img/d2021250-fd94-471f-b660-1c836032af70",
+              "caption": "",
+              "alt": "",
+              "width": 1461,
+              "height": 1021,
+              "instructor_notes": null
+            }
+          ]
+        },
+        {
+          "id": 187175,
+          "key": "c287345a-1bd5-4165-b4bc-ba7f0a57dd1e",
+          "title": "Create Discrete Data Table",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "c287345a-1bd5-4165-b4bc-ba7f0a57dd1e",
+            "completed_at": null,
+            "last_viewed_at": null,
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 187304,
+              "key": "3323ad39-fc10-4eed-8836-fb45e12dfb58",
+              "title": "Create Discrete Data Table",
+              "semantic_type": "VideoAtom",
+              "is_public": true,
+              "instructor_notes": "",
+              "video": {
+                "youtube_id": "vj1Byzs4vXE",
+                "china_cdn_id": "vj1Byzs4vXE.mp4"
+              }
+            }
+          ]
+        },
+        {
+          "id": 187176,
+          "key": "18f048f5-d9ad-4354-8a2e-668b671aa510",
+          "title": "Store List Data",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "18f048f5-d9ad-4354-8a2e-668b671aa510",
+            "completed_at": null,
+            "last_viewed_at": null,
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 187306,
+              "key": "ce9fab8a-ff28-4286-8683-186b7850ed3a",
+              "title": "Store List Data",
+              "semantic_type": "VideoAtom",
+              "is_public": true,
+              "instructor_notes": "",
+              "video": {
+                "youtube_id": "ckUFJ33ggtc",
+                "china_cdn_id": "ckUFJ33ggtc.mp4"
+              }
+            },
+            {
+              "id": 1055261,
+              "key": "d6c49232-0a09-479e-a796-040b1c7583b8",
+              "title": "Workflow Steps",
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "### Workflow Steps\n\n- Using the same workflow from the “Weekly Store Traffic Data” demo, add a `Filter` tool to remove transactions that do not include a facial\n- Connect the filter to the output of the `Summarize` tool\n- Filter for `facial flag = 1`\n- Use the `Summarize` tool and group by region and store to get a list of stores in each region\n- Use the `Input` tool to import the file containing the information about which stores were designated as treatment stores\n- Use the `Select` tool to deselect price level and rename the test price level to “test group”\n- Use the `Join` tool to add the treatment store data to the main data stream\n- Use the `Formula` tool on the L output of the join to identify control candidate stores\n- After dragging and connecting the `Formula` tool, create a new field with the same name and type as the test group field from the J output of the join\n- Type in `CC` for the expression to add the field test group to the data with a value of CC for all the control stores\n- Use the `Union` tool to combine the two output tables of the join\n- Drag an `Output` tool onto the canvas, and save the file for later use\n",
+              "instructor_notes": ""
+            },
+            {
+              "id": 1055252,
+              "key": "f3bdc0a0-6659-4add-9b54-ee91a7ba1cd2",
+              "title": "Workflow",
+              "semantic_type": "ImageAtom",
+              "is_public": true,
+              "url": "https://video.udacity-data.com/topher/2020/August/5f3ecfa2_nd008t-c6-l4-c13/nd008t-c6-l4-c13.png",
+              "non_google_url": "https://s3.cn-north-1.amazonaws.com.cn/u-img/f3bdc0a0-6659-4add-9b54-ee91a7ba1cd2",
+              "caption": "",
+              "alt": "",
+              "width": 1461,
+              "height": 1021,
+              "instructor_notes": null
+            }
+          ]
+        },
+        {
+          "id": 187177,
+          "key": "e30ab637-701c-44dc-8f5b-05ddfa8bfbcf",
+          "title": "Sales Data Quiz",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "e30ab637-701c-44dc-8f5b-05ddfa8bfbcf",
+            "completed_at": null,
+            "last_viewed_at": null,
+            "unstructured": null
+          },
+          "resources": {
+            "files": [
+              {
+                "name": "PriceElasticityDataPrep",
+                "uri": "http://video.udacity-data.com.s3.amazonaws.com/topher/2016/October/5806ea5e_priceelasticitydataprep/priceelasticitydataprep.zip"
+              }
+            ],
+            "google_plus_link": null,
+            "career_resource_center_link": null,
+            "coaching_appointments_link": null,
+            "office_hours_link": null,
+            "aws_provisioning_link": null
+          },
+          "atoms": [
+            {
+              "id": 187194,
+              "key": "882d33b7-385d-4b86-8d5b-4b2c415095a3",
+              "title": "Quiz Intro",
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "# Prepping the data\nNow, we’ll give you a chance to prepare the last data file we need.  **Create a data table that shows the sales and gross margin for each store, by week, for transactions that include a facial.** \n\nGive it a try, and then we’ll walk you through how we created the file.  There is always more than one way to do this - the more practice, the better you’ll get.\n\nThe files you need to complete the quiz are located in the **Price Elasticity Data Prep Quiz** zip file at the bottom of the page. A workflow is included in case you get stuck. Your data table should look like the sample below.",
+              "instructor_notes": ""
+            },
+            {
+              "id": 187197,
+              "key": "e4feaa28-b3be-4ff1-923c-41dc724f4585",
+              "title": "Data image",
+              "semantic_type": "ImageAtom",
+              "is_public": true,
+              "url": "https://video.udacity-data.com/topher/2016/September/57d82101_l4-12-quiz/l4-12-quiz.png",
+              "non_google_url": "https://s3.cn-north-1.amazonaws.com.cn/u-img/e4feaa28-b3be-4ff1-923c-41dc724f4585",
+              "caption": "",
+              "alt": null,
+              "width": 464,
+              "height": 111,
+              "instructor_notes": null
+            }
+          ]
+        },
+        {
+          "id": 187178,
+          "key": "de5eaea8-91c8-4247-9ed5-9878fd5db94e",
+          "title": "Sales Data Solution",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "de5eaea8-91c8-4247-9ed5-9878fd5db94e",
+            "completed_at": null,
+            "last_viewed_at": null,
+            "unstructured": null
+          },
+          "resources": {
+            "files": [
+              {
+                "name": "PriceElasticityDataPrep",
+                "uri": "http://video.udacity-data.com.s3.amazonaws.com/topher/2016/October/5806ea9e_priceelasticitydataprep/priceelasticitydataprep.yxmd"
+              }
+            ],
+            "google_plus_link": null,
+            "career_resource_center_link": null,
+            "coaching_appointments_link": null,
+            "office_hours_link": null,
+            "aws_provisioning_link": null
+          },
+          "atoms": [
+            {
+              "id": 187307,
+              "key": "2c86cbc9-82cc-43af-94c2-4547c7784869",
+              "title": "Sales Data",
+              "semantic_type": "VideoAtom",
+              "is_public": true,
+              "instructor_notes": "",
+              "video": {
+                "youtube_id": "Fzu3n9tF-pc",
+                "china_cdn_id": "Fzu3n9tF-pc.mp4"
+              }
+            },
+            {
+              "id": 1055262,
+              "key": "cfe0e365-a789-4bb0-8919-9631a4c4586c",
+              "title": "Workflow Steps",
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "### Workflow Steps\n\n- Drag a `Summarize` tool onto the canvas, and connect it to the `Filter` tool that checks for transactions that included a facial\n- Use `Group By` for region and store information\n- Use `Sum` for gross margin and sales information\n- Drag an `Output` tool onto the canvas, and save the file for later use\n",
+              "instructor_notes": ""
+            },
+            {
+              "id": 1055253,
+              "key": "652cbf1a-e82b-49ba-bc99-2dae2d0f8299",
+              "title": "Workflow",
+              "semantic_type": "ImageAtom",
+              "is_public": true,
+              "url": "https://video.udacity-data.com/topher/2020/August/5f3ecfa3_nd008t-c6-l4-c15/nd008t-c6-l4-c15.png",
+              "non_google_url": "https://s3.cn-north-1.amazonaws.com.cn/u-img/652cbf1a-e82b-49ba-bc99-2dae2d0f8299",
+              "caption": "",
+              "alt": "",
+              "width": 1461,
+              "height": 1021,
+              "instructor_notes": null
+            }
+          ]
+        },
+        {
+          "id": 187179,
+          "key": "47353f97-8491-4801-80e0-cc5c80ef824d",
+          "title": "Preparing Control and Treatment Units",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "47353f97-8491-4801-80e0-cc5c80ef824d",
+            "completed_at": null,
+            "last_viewed_at": null,
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 187308,
+              "key": "4b616756-7693-43f4-a874-ff697e26e5cd",
+              "title": "Preparing Control Treatment Units Part 1",
+              "semantic_type": "VideoAtom",
+              "is_public": true,
+              "instructor_notes": "",
+              "video": {
+                "youtube_id": "bIzeQG3tHZ4",
+                "china_cdn_id": "bIzeQG3tHZ4.mp4"
+              }
+            },
+            {
+              "id": 1055264,
+              "key": "1ca245a2-83f5-43d4-b553-8ab1a40d89c3",
+              "title": "Workflow Steps",
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "### Workflow Steps Part 1\n\n- Use the `Input` tool to import the weekly store traffic data\n- Drag an `A/B Trend` tool onto the canvas and connect it to the data stream\n- Configure the `A/B Trend` tool:\n    - Select `store` as the unit identifier\n    - Select `week end` as the reporting period date\n    - Select `count` as the performance measure\n    - Select `weekly` as the report period type\n    - Select `6` as the number of periods\n    - Select the test start date (March 20, 2014)\n- Run the workflow\n",
+              "instructor_notes": ""
+            },
+            {
+              "id": 1055265,
+              "key": "12f341a8-9fa6-4c84-8c33-00413a7d7016",
+              "title": "Workflow Part 1",
+              "semantic_type": "ImageAtom",
+              "is_public": true,
+              "url": "https://video.udacity-data.com/topher/2020/August/5f3ecfa4_nd008t-c6-l4-c16-v1/nd008t-c6-l4-c16-v1.png",
+              "non_google_url": "https://s3.cn-north-1.amazonaws.com.cn/u-img/12f341a8-9fa6-4c84-8c33-00413a7d7016",
+              "caption": "",
+              "alt": "",
+              "width": 1461,
+              "height": 1021,
+              "instructor_notes": null
+            },
+            {
+              "id": 187309,
+              "key": "2ad0dac8-3665-43f7-ae1a-a2126264d4ed",
+              "title": "Preparing Control Treatment Units Part 2",
+              "semantic_type": "VideoAtom",
+              "is_public": true,
+              "instructor_notes": "",
+              "video": {
+                "youtube_id": "P-5Vnj6Bpm8",
+                "china_cdn_id": "P-5Vnj6Bpm8.mp4"
+              }
+            },
+            {
+              "id": 1055254,
+              "key": "5de89293-9f63-4e3b-922e-1b53f2bce9da",
+              "title": "Workflow Steps Part 2",
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "### Workflow Steps Part 2\n\n- Use the `Input` tool to import the store list data\n- Use the `Join` tool to connect the weekly traffic data to the store list data\n- Join using the `store` field, and deselect the right store input to avoid duplicate columns in the data stream\n- Use the `Filter` tool to filter for `region = midwest`\n- Use a new `Filter` tool to filter for `test group != CC`, so the T output of the filter will stream the treatment data and the F output will stream the control data\n- Add an `A/B Controls` tool to the canvas and connect the data with the treatment stores to the T input and the data with all the stores (treatment and control) to the D input\n- Configure the `A/B Controls` tool:\n    - Select `store` as the treatment unit identifier\n    - Select both `trend` and `seasonality` as the numeric measure to match control units to treatment units\n    - Select `2` for number of control units per treatment unit\n    - Make sure the box is checked to match each control unit to only one treatment unit\n- Repeat steps 3-6 for each region\n",
+              "instructor_notes": ""
+            },
+            {
+              "id": 1055256,
+              "key": "c115c7b7-d70e-4a3b-a226-b24466672ab8",
+              "title": "Workflow Part 2",
+              "semantic_type": "ImageAtom",
+              "is_public": true,
+              "url": "https://video.udacity-data.com/topher/2020/August/5f3ecfa6_nd008t-c6-l4-c16-v2/nd008t-c6-l4-c16-v2.png",
+              "non_google_url": "https://s3.cn-north-1.amazonaws.com.cn/u-img/c115c7b7-d70e-4a3b-a226-b24466672ab8",
+              "caption": "",
+              "alt": "",
+              "width": 1461,
+              "height": 1021,
+              "instructor_notes": null
+            },
+            {
+              "id": 187310,
+              "key": "9411cbce-3b7b-4139-a0e8-a5190c9e6598",
+              "title": "Preparing Control Treatment Units Part 3",
+              "semantic_type": "VideoAtom",
+              "is_public": true,
+              "instructor_notes": "",
+              "video": {
+                "youtube_id": "K_higfJ3DqE",
+                "china_cdn_id": "K_higfJ3DqE.mp4"
+              }
+            },
+            {
+              "id": 1055258,
+              "key": "8ed3a2be-20fb-4326-8cae-a04676f12ec7",
+              "title": "Workflow Steps Part 3",
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "### Workflow Steps Part 3\n\n- Use the `Union` tool to combine the data from all the regions (no configuration of the tool is needed since all data streams are the same)\n- Run the workflow \n- Use the `Join` tool to join the output of the union with the store information data (join the `treatment` field from the union to the `store` field from the store data, and deselect the right store field to avoid duplicates)\n- Run the workflow, then add an `Output` tool to the canvas and save the file for later use\n",
+              "instructor_notes": ""
+            },
+            {
+              "id": 1055259,
+              "key": "d4d8b3d6-c450-49a2-9b11-57d84b54a335",
+              "title": "Workflow Part 3",
+              "semantic_type": "ImageAtom",
+              "is_public": true,
+              "url": "https://video.udacity-data.com/topher/2020/August/5f3ecfa6_nd008t-c6-l4-c16-v3/nd008t-c6-l4-c16-v3.png",
+              "non_google_url": "https://s3.cn-north-1.amazonaws.com.cn/u-img/d4d8b3d6-c450-49a2-9b11-57d84b54a335",
+              "caption": "",
+              "alt": "",
+              "width": 1461,
+              "height": 1021,
+              "instructor_notes": null
+            }
+          ]
+        },
+        {
+          "id": 187180,
+          "key": "cd3331ad-f0f1-401b-ad5c-713b7b6be89c",
+          "title": "Performing the Analysis",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "cd3331ad-f0f1-401b-ad5c-713b7b6be89c",
+            "completed_at": null,
+            "last_viewed_at": null,
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 187499,
+              "key": "dccaeece-b7b2-4681-ae6a-3c4087158429",
+              "title": "Performing the analysis",
+              "semantic_type": "VideoAtom",
+              "is_public": true,
+              "instructor_notes": "",
+              "video": {
+                "youtube_id": "5LmjqJlVNHU",
+                "china_cdn_id": "5LmjqJlVNHU.mp4"
+              }
+            },
+            {
+              "id": 1055263,
+              "key": "73146714-29ca-43cc-8ba2-96d98a8724f6",
+              "title": "Workflow Steps",
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "### Workflow Steps\n\n- Use the `Input` tool to import the control-treatment pairs data and the store sales analysis data into a new Alteryx workflow\n- Use the `Filter` tool to set up a filter for `test group = 87.99`, so that the `true` output will stream data for the 87.99 price point test and the `false` output will stream data for the 76.99 price point test. \n- Add an `A/B Analysis` tool to the canvas and connect the `true` output of the filter to the C (control) and T (treatment) inputs\n- Connect the sales data to the P (performance) input of the `A/B Analysis` tool\n- Configure the `A/B Analysis` tool\n    - In the `Controls` section of the `A/B Analysis - Input Data` tab, select `controls` for the control unit identifier and `treatments` for the treatment unit mapping field\n    - In the `Treatments` section, select the `treatments` field as the unit identifier\n    - In the `Performance Data` section, select `store` as the unit identifier\n    - Select `week end` as the reporting period date\n    - Select `gross margin` as the performance measure\n    - Switch to the `Test Dates` tab and input the test start date (March 20, 2014) and test end date (May 28, 2014)\n- Repeat steps 3-5 to set up an A/B analysis for the 76.99 price test\n- Add a `Browse` tool to the I output and O output of each A/B analysis\n- Run the workflow to produce HTML (I output) and textual (O output) reports",
+              "instructor_notes": ""
+            },
+            {
+              "id": 1055257,
+              "key": "278367bf-38cf-47fd-b78a-77427f07e951",
+              "title": "Workflow",
+              "semantic_type": "ImageAtom",
+              "is_public": true,
+              "url": "https://video.udacity-data.com/topher/2020/August/5f3ecfa8_nd008t-c6-l4-c17/nd008t-c6-l4-c17.png",
+              "non_google_url": "https://s3.cn-north-1.amazonaws.com.cn/u-img/278367bf-38cf-47fd-b78a-77427f07e951",
+              "caption": "",
+              "alt": "",
+              "width": 1461,
+              "height": 1021,
+              "instructor_notes": null
+            }
+          ]
+        },
+        {
+          "id": 187181,
+          "key": "4353e008-6b6f-4dab-b9bb-5a395dfa422a",
+          "title": "Performing the Analysis Quiz",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "4353e008-6b6f-4dab-b9bb-5a395dfa422a",
+            "completed_at": null,
+            "last_viewed_at": null,
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 187198,
+              "key": "3d1084c7-258e-4a36-86f9-0e1a4de50a1c",
+              "title": "q1",
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "# Using Results to Make a Recommendation\n\nThe files you need to perform the analysis are contained in the **Price Elasticity Analysis** zip file in the Resources section in the upper right hand corner.",
+              "instructor_notes": ""
+            },
+            {
+              "id": 187199,
+              "key": "5c367c68-4adc-4c51-9861-26316cb10e77",
+              "title": "Recommendation",
+              "semantic_type": "ReflectAtom",
+              "is_public": true,
+              "instructor_notes": null,
+              "user_state": {
+                "node_key": "5c367c68-4adc-4c51-9861-26316cb10e77",
+                "completed_at": null,
+                "last_viewed_at": null,
+                "unstructured": null
+              },
+              "question": {
+                "title": "Recommendation",
+                "semantic_type": "TextQuestion",
+                "evaluation_id": null,
+                "text": "Viewing the output of the AB Analysis tools, what is your recommendation for the price of facials? Support your recommendation with data."
+              },
+              "answer": {
+                "text": "Take a look at the next section to see the results and explanation.",
+                "video": null
+              }
+            }
+          ]
+        },
+        {
+          "id": 187182,
+          "key": "cc386216-0819-4ffa-994f-9dccebeee6b3",
+          "title": "Performing the Analysis Solution",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "cc386216-0819-4ffa-994f-9dccebeee6b3",
+            "completed_at": null,
+            "last_viewed_at": null,
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 187200,
+              "key": "3a2d29ba-2287-4961-a6b5-04fa5bf2cfd0",
+              "title": "87.99",
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "## Results for $87.99 Facial Price\n\nThe results of the experiment where we charged $87.99 for facials are:\n\n",
+              "instructor_notes": ""
+            },
+            {
+              "id": 187201,
+              "key": "607e4dcb-7f59-47a3-a584-0c021be7bfe3",
+              "title": "87",
+              "semantic_type": "ImageAtom",
+              "is_public": true,
+              "url": "https://video.udacity-data.com/topher/2016/September/57d82411_l4-15-pic1/l4-15-pic1.png",
+              "non_google_url": "https://s3.cn-north-1.amazonaws.com.cn/u-img/607e4dcb-7f59-47a3-a584-0c021be7bfe3",
+              "caption": "",
+              "alt": null,
+              "width": 463,
+              "height": 327,
+              "instructor_notes": null
+            },
+            {
+              "id": 187202,
+              "key": "3ec5c38f-ce99-4b40-af71-62285007796a",
+              "title": "cont.",
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "The report shows that the test price, $87.99, showed 66% improvement at a significance of 100% over the control price, $98.99. \n\nSaid differently, the average lift as a result from changing the price of a facial to 87.99 would be 66% per store per week, or approximately $2014 per store per week.  Seems like a pretty big increase, but let’s remember that this is fake data :).\n\nReducing facial prices from $98.99 to $87.99 would improve gross margin; therefore the change should be rolled out across all stores.\n\n## Results for $76.99 Facial Price\nThe results of the experiment where we charged $76.99 for facials are:\n",
+              "instructor_notes": ""
+            },
+            {
+              "id": 187203,
+              "key": "9abcdcb7-c429-4b02-bf0b-ff29f189e457",
+              "title": "76",
+              "semantic_type": "ImageAtom",
+              "is_public": true,
+              "url": "https://video.udacity-data.com/topher/2016/September/57d824fe_l4-15-pic2/l4-15-pic2.png",
+              "non_google_url": "https://s3.cn-north-1.amazonaws.com.cn/u-img/9abcdcb7-c429-4b02-bf0b-ff29f189e457",
+              "caption": "",
+              "alt": null,
+              "width": 462,
+              "height": 330,
+              "instructor_notes": null
+            },
+            {
+              "id": 187204,
+              "key": "294018dc-8772-41a8-987e-782ad3ad2524",
+              "title": "cont2",
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "Looking at the $76.99 treatment group of the experiment, we can see that relative to the control stores there is a $16 a week per store decrease in gross margin. Obviously reducing the price this low does not drive enough new business to make up for the smaller margin per facial.  Although there is a small significance level here, there is probably enough evidence to say that cutting the price to $76.99 is not worth the extra business.\n\nComparing the results between both test groups, we can determine that we should reduce the price of facials to $87.99 for all stores.\n",
+              "instructor_notes": ""
+            }
+          ]
+        },
+        {
+          "id": 187183,
+          "key": "299b05ba-606b-4f99-b069-f6512cf5c4a2",
+          "title": "Conclusion",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "299b05ba-606b-4f99-b069-f6512cf5c4a2",
+            "completed_at": null,
+            "last_viewed_at": null,
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 187311,
+              "key": "5f921e50-2f93-48bc-acbd-08342a1c554e",
+              "title": "Conclusion",
+              "semantic_type": "VideoAtom",
+              "is_public": true,
+              "instructor_notes": "",
+              "video": {
+                "youtube_id": "Mig-5mxucPw",
+                "china_cdn_id": "Mig-5mxucPw.mp4"
+              }
+            }
+          ]
+        },
+        {
+          "id": 1055267,
+          "key": "35356b8b-baba-46f0-8432-02ec1cae74f8",
+          "title": "Glossary",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "35356b8b-baba-46f0-8432-02ec1cae74f8",
+            "completed_at": null,
+            "last_viewed_at": null,
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 1059447,
+              "key": "61586ba4-6be9-4b7f-a7dc-0b65c395425a",
+              "title": null,
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "## Glossary\n\n**Categorical variable:** A variable which falls into one of a finite set of distinct categories (e.g. a type of car).\n\n**Discrete variable:** A numeric variable which has a finite and countable number of possible values (e.g. the number of cars sold).\n\n**Gross margin:** The cost of goods sold, subtracted from the net revenue gained from selling said goods.\n\n**Price elasticity of demand:** A measure of the relationship between a change in the quantity of an item that is demanded and a change in that item’s price.\n\n**Seasonality:** Regular, predictable changes in observed data that recur on a cycle (e.g. sales of Christmas decor increase each year as Christmas approaches). \n\n**Trend:** A pattern that can be observed in data over time.\n",
+              "instructor_notes": ""
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "_deprecated": [
+    {
+      "name": "non_google_url",
+      "reason": "(2016/8/18) Not sure, ask i18n team for reason"
+    },
+    {
+      "name": "non_google_url",
+      "reason": "(2016/8/18) Not sure, ask i18n team for reason"
+    },
+    {
+      "name": "non_google_url",
+      "reason": "(2016/8/18) Not sure, ask i18n team for reason"
+    },
+    {
+      "name": "non_google_url",
+      "reason": "(2016/8/18) Not sure, ask i18n team for reason"
+    },
+    {
+      "name": "non_google_url",
+      "reason": "(2016/8/18) Not sure, ask i18n team for reason"
+    },
+    {
+      "name": "non_google_url",
+      "reason": "(2016/8/18) Not sure, ask i18n team for reason"
+    },
+    {
+      "name": "non_google_url",
+      "reason": "(2016/8/18) Not sure, ask i18n team for reason"
+    },
+    {
+      "name": "non_google_url",
+      "reason": "(2016/8/18) Not sure, ask i18n team for reason"
+    },
+    {
+      "name": "non_google_url",
+      "reason": "(2016/8/18) Not sure, ask i18n team for reason"
+    },
+    {
+      "name": "non_google_url",
+      "reason": "(2016/8/18) Not sure, ask i18n team for reason"
+    },
+    {
+      "name": "non_google_url",
+      "reason": "(2016/8/18) Not sure, ask i18n team for reason"
+    },
+    {
+      "name": "non_google_url",
+      "reason": "(2016/8/18) Not sure, ask i18n team for reason"
+    },
+    {
+      "name": "non_google_url",
+      "reason": "(2016/8/18) Not sure, ask i18n team for reason"
+    }
+  ]
+}

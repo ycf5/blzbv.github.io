@@ -1,0 +1,273 @@
+<!-- udacity2.0 -->
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Analyzing Results Quiz</title>
+  <link rel="stylesheet" href="../assets/css/bootstrap.min.css">
+  <link rel="stylesheet" href="../assets/css/plyr.css">
+  <link rel="stylesheet" href="../assets/css/katex.min.css">
+  <link rel="stylesheet" href="../assets/css/jquery.mCustomScrollbar.min.css">
+  <link rel="stylesheet" href="../assets/css/styles.css">
+  <link rel="shortcut icon" type="image/png" href="../assets/img/udacimak.png" />
+</head>
+
+<body>
+  <div class="wrapper">
+    <nav id="sidebar">
+  <div class="sidebar-header">
+    <h3>Randomized Design Tests</h3>
+  </div>
+
+  <ul class="sidebar-list list-unstyled CTAs">
+    <li>
+      <a href="../index.html" class="article">Back to Home</a>
+    </li>
+  </ul>
+
+  <ul class="sidebar-list list-unstyled components">
+    <li class="">
+      <a href="01. Intro to Randomized Design.html">01. Intro to Randomized Design</a>
+    </li>
+    <li class="">
+      <a href="02. Selecting Variables in an Experiment.html">02. Selecting Variables in an Experiment</a>
+    </li>
+    <li class="">
+      <a href="03. Control Variables Quiz.html">03. Control Variables Quiz</a>
+    </li>
+    <li class="">
+      <a href="04. Control Variables Solution.html">04. Control Variables Solution</a>
+    </li>
+    <li class="">
+      <a href="05. Experiment Design and Setup.html">05. Experiment Design and Setup</a>
+    </li>
+    <li class="">
+      <a href="06. Identify the Control Variables.html">06. Identify the Control Variables</a>
+    </li>
+    <li class="">
+      <a href="07. Sample Size.html">07. Sample Size</a>
+    </li>
+    <li class="">
+      <a href="08. Preparing the Data for Analysis.html">08. Preparing the Data for Analysis</a>
+    </li>
+    <li class="">
+      <a href="09. Analyzing the Results.html">09. Analyzing the Results</a>
+    </li>
+    <li class="">
+      <a href="10. Analyzing the Results Example.html">10. Analyzing the Results Example</a>
+    </li>
+    <li class="">
+      <a href="11. Performing a T-test Quiz.html">11. Performing a T-test Quiz</a>
+    </li>
+    <li class="">
+      <a href="12. Performing a T-test Solution.html">12. Performing a T-test Solution</a>
+    </li>
+    <li class="">
+      <a href="13. Analyzing Results in Alteryx.html">13. Analyzing Results in Alteryx</a>
+    </li>
+    <li class="">
+      <a href="14. Analyzing Results Quiz.html">14. Analyzing Results Quiz</a>
+    </li>
+    <li class="">
+      <a href="15. Conclusion.html">15. Conclusion</a>
+    </li>
+    <li class="">
+      <a href="16. Glossary.html">16. Glossary</a>
+    </li>
+  </ul>
+
+  <ul class="sidebar-list list-unstyled CTAs">
+    <li>
+      <a href="../index.html" class="article">Back to Home</a>
+    </li>
+  </ul>
+</nav>
+
+    <div id="content">
+      <header class="container-fluild header">
+        <div class="container">
+          <div class="row">
+            <div class="col-12">
+              <div class="align-items-middle">
+                <button type="button" id="sidebarCollapse" class="btn btn-toggle-sidebar">
+                  <div></div>
+                  <div></div>
+                  <div></div>
+                </button>
+
+                <h1 style="display: inline-block">14. Analyzing Results Quiz</h1>
+              </div>
+            </div>
+          </div>
+        </div>
+      </header>
+
+      <main class="container">
+        <div class="row">
+          <div class="col-12">
+            <div class="ud-atom">
+  <h3><p>Intro</p></h3>
+  <div>
+  <h2 id="analyzing-ab-test-results">Analyzing AB Test Results</h2>
+<p>Use the data in <strong>Customer Service AB Testing Data</strong> file to perform an analysis on the following experiment and answer the questions that follows:</p>
+<p>A call center for a cable internet provider wants to see if implementing an automated answering system to collect some data from the caller while they are on hold will increase customer service scores vs the customer service representative collecting that data after the customer has waited on hold.  Twenty percent of the  callers for the week of the experiment were randomly assigned to the treatment group and the rest were assigned to the control group.  At the end of the call they were asked to fill out a one question survey.  The data for the 1000 callers who took the survey is in the provided file.  </p>
+</div>
+
+</div>
+<div class="divider"></div><div class="ud-atom">
+  <h3><p>Q1</p></h3>
+  <div>
+  <p><strong>QUESTION: <p>Q1</p></strong></p>
+  <p>Think about the description of the experiment.  Do you have any concerns about the setup of the experiment?</p>
+
+  <details>
+    <summary><strong>ANSWER:</strong></summary>
+    <p><p>The sample size is fairly small with only 1000 responses.  There could be some bias with voluntary responses.</p></p>
+  </details>
+</div>
+
+
+</div>
+<div class="divider"></div><div class="ud-atom">
+  <h3><p>Q2</p></h3>
+  <div>
+  <form>
+    <fieldset>
+      <legend><p>Using an average value for any customers who called in more than once (as identified by their phone number), what is the p-value for the experiment? </p></legend>
+    </fieldset>
+
+      <div>
+        <input type="radio" value="rbk1" name="185973" id="rbk1">
+        <label for="rbk1"><p>1.24e-12</p></label>
+      </div>
+      <div>
+        <input type="radio" value="rbk2" name="185973" id="rbk2">
+        <label for="rbk2"><p>0.056</p></label>
+      </div>
+      <div>
+        <input type="radio" value="rbk3" name="185973" id="rbk3">
+        <label for="rbk3"><p>128</p></label>
+      </div>
+      <div>
+        <input type="radio" value="rbk4" name="185973" id="rbk4">
+        <label for="rbk4"><p>5.56e-5</p></label>
+      </div>
+  </form>
+
+  <details>
+    <summary><strong>SOLUTION:</strong></summary>
+    0.056
+  </details>
+</div>
+
+</div>
+<div class="divider"></div><div class="ud-atom">
+  <h3><p>Q3</p></h3>
+  <div>
+  <p><strong>QUESTION: <p>Q3</p></strong></p>
+  <p>Given this p-value, what would you conclude from the experiment?</p>
+
+  <details>
+    <summary><strong>ANSWER:</strong></summary>
+    <p><p>The p-value is above .05, which suggests there isn’t enough evidence to say that the automated system affects the CS score.  However, due to the low sample size, I would suggest to conduct the experiment again for a longer period of time to gather more data.  </p></p>
+  </details>
+</div>
+
+
+</div>
+<div class="divider"></div>
+          </div>
+
+          <div class="col-12">
+            <p class="text-right">
+              <a href="15. Conclusion.html" class="btn btn-outline-primary mt-4" role="button">Next Concept</a>
+            </p>
+          </div>
+        </div>
+      </main>
+
+      <footer class="footer">
+        <div class="container">
+          <div class="row">
+            <div class="col-12">
+              <p class="text-center">
+                <a href="https://us-udacity.github.io/" target="_blank">【udacity2.0 】If you need more courses, please add wechat：udacity6</a>
+              </p>
+            </div>
+          </div>
+        </div>
+      </footer>
+    </div>
+  </div>
+
+
+  <script src="../assets/js/jquery-3.3.1.min.js"></script>
+  <script src="../assets/js/plyr.polyfilled.min.js"></script>
+  <script src="../assets/js/bootstrap.min.js"></script>
+  <script src="../assets/js/jquery.mCustomScrollbar.concat.min.js"></script>
+  <script src="../assets/js/katex.min.js"></script>
+  <script>
+    // Initialize Plyr video players
+    const players = Array.from(document.querySelectorAll('video')).map(p => new Plyr(p));
+
+    // render math equations
+    let elMath = document.getElementsByClassName('mathquill');
+    for (let i = 0, len = elMath.length; i < len; i += 1) {
+      const el = elMath[i];
+
+      katex.render(el.textContent, el, {
+        throwOnError: false
+      });
+    }
+
+    // this hack will make sure Bootstrap tabs work when using Handlebars
+    if ($('#question-tabs').length && $('#user-answer-tabs').length) {
+      $("#question-tabs a.nav-link").on('click', function () {
+        $("#question-tab-contents .tab-pane").hide();
+        $($(this).attr("href")).show();
+      });
+      $("#user-answer-tabs a.nav-link").on('click', function () {
+        $("#user-answer-tab-contents .tab-pane").hide();
+        $($(this).attr("href")).show();
+      });
+    } else {
+      $("a.nav-link").on('click', function () {
+        $(".tab-pane").hide();
+        $($(this).attr("href")).show();
+      });
+    }
+
+    // side bar events
+    $(document).ready(function () {
+      $("#sidebar").mCustomScrollbar({
+        theme: "minimal"
+      });
+
+      $('#sidebarCollapse').on('click', function () {
+        $('#sidebar, #content').toggleClass('active');
+        $('.collapse.in').toggleClass('in');
+        $('a[aria-expanded=true]').attr('aria-expanded', 'false');
+      });
+
+      // scroll to first video on page loading
+      if ($('video').length) {
+        $('html,body').animate({ scrollTop: $('div.plyr').prev().offset().top});
+      }
+
+      // auto play first video: this may not work with chrome/safari due to autoplay policy
+      if (players && players.length > 0) {
+        players[0].play();
+      }
+
+      // scroll sidebar to current concept
+      const currentInSideBar = $( "ul.sidebar-list.components li a:contains('14. Analyzing Results Quiz')" )
+      currentInSideBar.css( "text-decoration", "underline" );
+      $("#sidebar").mCustomScrollbar('scrollTo', currentInSideBar);
+    });
+  </script>
+</body>
+
+</html>

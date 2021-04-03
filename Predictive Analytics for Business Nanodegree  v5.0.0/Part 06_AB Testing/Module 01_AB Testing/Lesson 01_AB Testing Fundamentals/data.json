@@ -1,0 +1,856 @@
+{
+  "data": {
+    "lesson": {
+      "id": 680861,
+      "key": "883ba9ce-ccdb-4c77-a4e4-ee3f47cf5ef1",
+      "title": "A/B Testing Fundamentals",
+      "semantic_type": "Lesson",
+      "is_public": true,
+      "version": "1.0.0",
+      "locale": "en-us",
+      "summary": "Understand the fundamentals of A/B testing, including selecting target and control units and variables and the duration of a test.",
+      "lesson_type": "Classroom",
+      "display_workspace_project_only": false,
+      "resources": {
+        "files": [
+          {
+            "name": "Videos Zip File",
+            "uri": "https://zips.udacity-data.com/883ba9ce-ccdb-4c77-a4e4-ee3f47cf5ef1/680861/1544455478552/A/B+Testing+Fundamentals+Videos.zip"
+          },
+          {
+            "name": "Transcripts Zip File",
+            "uri": "https://zips.udacity-data.com/883ba9ce-ccdb-4c77-a4e4-ee3f47cf5ef1/680861/1544455474815/A/B+Testing+Fundamentals+Subtitles.zip"
+          }
+        ],
+        "google_plus_link": null,
+        "career_resource_center_link": null,
+        "coaching_appointments_link": null,
+        "office_hours_link": null,
+        "aws_provisioning_link": null
+      },
+      "project": null,
+      "lab": null,
+      "concepts": [
+        {
+          "id": 188758,
+          "key": "1a59f50d-fc67-4254-81df-5566aadec43f",
+          "title": "Overview",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "1a59f50d-fc67-4254-81df-5566aadec43f",
+            "completed_at": null,
+            "last_viewed_at": null,
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 188759,
+              "key": "d487c482-527a-49c5-8e49-01e743e6f34e",
+              "title": "overview",
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "# Overview\n\nIn this course you will learn from Patrick on how to design and analyze A/B tests for business scenarios. A/B testing is crucial for businesses who want to test out scenarios where there is no good data to make predictions of these scenarios. The only way to find statistically significant results is to setup a test and compare the results against the control.\n\nPatrick will talk about:\n\n1. A/B test design\n2. Control units vs Test units\n3. Control variables\n4. Randomized A/B Testing Design\n5. Matched-Pair A/B Testing Design\n\n# Project\n\n Feel free to skip ahead to the [project](https://classroom.udacity.com/nanodegrees/nd008t-ent/parts/a0016272-dd07-4c11-a858-36667352e551/modules/29c1985d-aecb-47ff-b653-9dc69dd3cf37/lessons/dd1647b0-fbd0-4422-8e3d-af2e2cfd12df/concepts/29c895ed-8149-4013-b3df-faa2c13fbdc7#) if you know these concepts already.\n\n",
+              "instructor_notes": ""
+            }
+          ]
+        },
+        {
+          "id": 185876,
+          "key": "8a1d0864-edec-4a2b-be58-7cb843845d46",
+          "title": "Welcome to AB Testing",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "8a1d0864-edec-4a2b-be58-7cb843845d46",
+            "completed_at": null,
+            "last_viewed_at": null,
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 187235,
+              "key": "75fee755-d017-4a77-9764-3e245b6ad0ff",
+              "title": "Welcome to AB Testing",
+              "semantic_type": "VideoAtom",
+              "is_public": true,
+              "instructor_notes": "",
+              "video": {
+                "youtube_id": "SlvB4u_cs_U",
+                "china_cdn_id": "SlvB4u_cs_U.mp4"
+              }
+            }
+          ]
+        },
+        {
+          "id": 185877,
+          "key": "709fc1fb-165b-4354-8636-69867f9275c4",
+          "title": "Units",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "709fc1fb-165b-4354-8636-69867f9275c4",
+            "completed_at": null,
+            "last_viewed_at": null,
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 187243,
+              "key": "405be539-b0f1-42db-998b-4b13997e88d7",
+              "title": "Units",
+              "semantic_type": "VideoAtom",
+              "is_public": true,
+              "instructor_notes": "",
+              "video": {
+                "youtube_id": "LvUAFuFTXmQ",
+                "china_cdn_id": "LvUAFuFTXmQ.mp4"
+              }
+            }
+          ]
+        },
+        {
+          "id": 185878,
+          "key": "17640912-8ef6-4778-812c-c71cde4de1eb",
+          "title": "Units Quiz",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "17640912-8ef6-4778-812c-c71cde4de1eb",
+            "completed_at": null,
+            "last_viewed_at": null,
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 185901,
+              "key": "199b7503-4dba-4a32-80ca-e1ef5ed39dc3",
+              "title": "Units Quiz",
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "## Determining Units\n\nFor each of the following, read the description of the experiment and choose what the unit is for the experiment.  ",
+              "instructor_notes": ""
+            },
+            {
+              "id": 185902,
+              "key": "c01679e9-a517-46f1-91c6-6c645fe07898",
+              "title": "Q1",
+              "semantic_type": "RadioQuizAtom",
+              "is_public": true,
+              "instructor_notes": null,
+              "user_state": {
+                "node_key": "c01679e9-a517-46f1-91c6-6c645fe07898",
+                "completed_at": null,
+                "last_viewed_at": null,
+                "unstructured": null
+              },
+              "question": {
+                "prompt": "A corporate recruiting company wants to determine if they let their employees work from home. How will it affect their productivity?",
+                "answers": [
+                  {
+                    "id": "a1473296708293",
+                    "text": "Productivity",
+                    "is_correct": false
+                  },
+                  {
+                    "id": "a1473296708822",
+                    "text": "Recruitment",
+                    "is_correct": false
+                  },
+                  {
+                    "id": "a1473296710518",
+                    "text": "An employee",
+                    "is_correct": true
+                  },
+                  {
+                    "id": "a1473296710966",
+                    "text": "A house",
+                    "is_correct": false
+                  }
+                ]
+              }
+            },
+            {
+              "id": 185903,
+              "key": "8855eb9c-55a6-4458-b12e-e8e92585f26f",
+              "title": "Q2",
+              "semantic_type": "RadioQuizAtom",
+              "is_public": true,
+              "instructor_notes": null,
+              "user_state": {
+                "node_key": "8855eb9c-55a6-4458-b12e-e8e92585f26f",
+                "completed_at": null,
+                "last_viewed_at": null,
+                "unstructured": null
+              },
+              "question": {
+                "prompt": "A farmer wants to know if planting a seed deeper will slow down the growth of his crops?",
+                "answers": [
+                  {
+                    "id": "a1473296768910",
+                    "text": "Depth",
+                    "is_correct": false
+                  },
+                  {
+                    "id": "a1473296769422",
+                    "text": "A plant",
+                    "is_correct": true
+                  },
+                  {
+                    "id": "a1473296770397",
+                    "text": "A farmer",
+                    "is_correct": false
+                  },
+                  {
+                    "id": "a1473296770934",
+                    "text": "Growth",
+                    "is_correct": false
+                  }
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "id": 185879,
+          "key": "75f8c7db-0188-4d4e-ac0b-d0b0108b9977",
+          "title": "Treatment and Control Groups",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "75f8c7db-0188-4d4e-ac0b-d0b0108b9977",
+            "completed_at": null,
+            "last_viewed_at": null,
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 187246,
+              "key": "607ce69d-56a2-4d63-870e-970b452740ba",
+              "title": "Treatment and Control Groups",
+              "semantic_type": "VideoAtom",
+              "is_public": true,
+              "instructor_notes": "",
+              "video": {
+                "youtube_id": "uf8Y4BgUmTc",
+                "china_cdn_id": "uf8Y4BgUmTc.mp4"
+              }
+            }
+          ]
+        },
+        {
+          "id": 185880,
+          "key": "61d221df-dbef-4c9d-8fd2-90e7528390db",
+          "title": "Experimental and Control Variables",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "61d221df-dbef-4c9d-8fd2-90e7528390db",
+            "completed_at": null,
+            "last_viewed_at": null,
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 187248,
+              "key": "1475ad07-5437-4e0b-bf38-f16273518a53",
+              "title": "Experimental and Control Variables",
+              "semantic_type": "VideoAtom",
+              "is_public": true,
+              "instructor_notes": "",
+              "video": {
+                "youtube_id": "e8XIYDM_O4g",
+                "china_cdn_id": "e8XIYDM_O4g.mp4"
+              }
+            }
+          ]
+        },
+        {
+          "id": 185881,
+          "key": "48b7b2b8-4f76-4c13-b467-d224f75c77ce",
+          "title": "Variables",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "48b7b2b8-4f76-4c13-b467-d224f75c77ce",
+            "completed_at": null,
+            "last_viewed_at": null,
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 185905,
+              "key": "de60b354-29f8-461b-ba41-4d17ee163b9d",
+              "title": "Target Variable",
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "## Selecting the Target Variable\n\nFor each of the following, read the description of the experiment and choose what the target variable is for the experiment.  Then list out a few possible control variables.\n\n\n",
+              "instructor_notes": ""
+            },
+            {
+              "id": 185906,
+              "key": "640cdbef-7b77-41a4-927c-73a4821758a6",
+              "title": "Q1",
+              "semantic_type": "RadioQuizAtom",
+              "is_public": true,
+              "instructor_notes": null,
+              "user_state": {
+                "node_key": "640cdbef-7b77-41a4-927c-73a4821758a6",
+                "completed_at": null,
+                "last_viewed_at": null,
+                "unstructured": null
+              },
+              "question": {
+                "prompt": "A corporate recruiting company wants to determine if they let their employees work from home, how will it affect their productivity?",
+                "answers": [
+                  {
+                    "id": "a1473297079055",
+                    "text": "Productivity",
+                    "is_correct": true
+                  },
+                  {
+                    "id": "a1473297079423",
+                    "text": "Recruitment",
+                    "is_correct": false
+                  },
+                  {
+                    "id": "a1473297079855",
+                    "text": "An employee",
+                    "is_correct": false
+                  },
+                  {
+                    "id": "a1473297080775",
+                    "text": "A house",
+                    "is_correct": false
+                  }
+                ]
+              }
+            },
+            {
+              "id": 185907,
+              "key": "c22af1be-22f8-4eb1-a3dd-bc6f6f388635",
+              "title": "Q1",
+              "semantic_type": "ReflectAtom",
+              "is_public": true,
+              "instructor_notes": null,
+              "user_state": {
+                "node_key": "c22af1be-22f8-4eb1-a3dd-bc6f6f388635",
+                "completed_at": null,
+                "last_viewed_at": null,
+                "unstructured": null
+              },
+              "question": {
+                "title": null,
+                "semantic_type": "TextQuestion",
+                "evaluation_id": null,
+                "text": "What are some possible control variables for the experiment above?"
+              },
+              "answer": {
+                "text": "A few control variables that I came up with are: tenure of the employee, gender, age, and marital status.",
+                "video": null
+              }
+            },
+            {
+              "id": 185908,
+              "key": "0be3b587-2860-41d8-ad56-969bdad9bca4",
+              "title": "Q2",
+              "semantic_type": "RadioQuizAtom",
+              "is_public": true,
+              "instructor_notes": null,
+              "user_state": {
+                "node_key": "0be3b587-2860-41d8-ad56-969bdad9bca4",
+                "completed_at": null,
+                "last_viewed_at": null,
+                "unstructured": null
+              },
+              "question": {
+                "prompt": "A farmer wants to know if planting a seed deeper will slow down the growth of his crops?",
+                "answers": [
+                  {
+                    "id": "a1473297554490",
+                    "text": "A seed",
+                    "is_correct": false
+                  },
+                  {
+                    "id": "a1473297555025",
+                    "text": "A plant",
+                    "is_correct": false
+                  },
+                  {
+                    "id": "a1473297555473",
+                    "text": "A farmer",
+                    "is_correct": false
+                  },
+                  {
+                    "id": "a1473297555913",
+                    "text": "Growth",
+                    "is_correct": true
+                  }
+                ]
+              }
+            },
+            {
+              "id": 185909,
+              "key": "89a5e0f5-fd73-4124-906b-693a205b0686",
+              "title": "Q2",
+              "semantic_type": "ReflectAtom",
+              "is_public": true,
+              "instructor_notes": null,
+              "user_state": {
+                "node_key": "89a5e0f5-fd73-4124-906b-693a205b0686",
+                "completed_at": null,
+                "last_viewed_at": null,
+                "unstructured": null
+              },
+              "question": {
+                "title": null,
+                "semantic_type": "TextQuestion",
+                "evaluation_id": null,
+                "text": "What are some possible control variables for the experiment above?"
+              },
+              "answer": {
+                "text": "A few control variables I came up with are: type of plant, slope of the ground, amount of direct sunlight, watering schedule, type of soil, and exposure to fertilizers.  \n",
+                "video": null
+              }
+            }
+          ]
+        },
+        {
+          "id": 183161,
+          "key": "696178c4-4fbc-4e91-941f-47615dc4f311",
+          "title": "Control Variables",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "696178c4-4fbc-4e91-941f-47615dc4f311",
+            "completed_at": null,
+            "last_viewed_at": null,
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 187314,
+              "key": "77009291-da4f-40de-97cf-7cd100b17ecd",
+              "title": "Control Variables",
+              "semantic_type": "VideoAtom",
+              "is_public": true,
+              "instructor_notes": "",
+              "video": {
+                "youtube_id": "BBBWcO1YmE8",
+                "china_cdn_id": "BBBWcO1YmE8.mp4"
+              }
+            },
+            {
+              "id": 187469,
+              "key": "58c479a6-c972-42f5-95a4-3a33505e509d",
+              "title": "resources",
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "Alteryx is a data analytics software. You can find out more about [Alteryx here](https://www.alteryx.com/)\n\nHere is a list of free courses that can help you get familiar with this software:\n\n[Problem Solving with Advanced Analytics](https://www.udacity.com/course/problem-solving-with-advanced-analytics--ud976)\n\n[Creating an Analytical Dataset](https://www.udacity.com/course/creating-an-analytical-dataset--ud977)\n\nFeel free to use any other analytical software you're comfortable with (ex: Excel, Google Sheets, Python, R, etc.)",
+              "instructor_notes": ""
+            }
+          ]
+        },
+        {
+          "id": 185882,
+          "key": "3be78cf7-c4c6-4f3a-8479-6f543fe46e7c",
+          "title": "Testing Correlation",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "3be78cf7-c4c6-4f3a-8479-6f543fe46e7c",
+            "completed_at": null,
+            "last_viewed_at": null,
+            "unstructured": null
+          },
+          "resources": {
+            "files": [
+              {
+                "name": "NewProductControlData",
+                "uri": "http://video.udacity-data.com.s3.amazonaws.com/topher/2017/February/58926735_newproductcontroldata/newproductcontroldata.csv"
+              }
+            ],
+            "google_plus_link": null,
+            "career_resource_center_link": null,
+            "coaching_appointments_link": null,
+            "office_hours_link": null,
+            "aws_provisioning_link": null
+          },
+          "atoms": [
+            {
+              "id": 187250,
+              "key": "1bfdf76c-9b08-410c-af0c-a90271d88933",
+              "title": "Testing Correlation",
+              "semantic_type": "VideoAtom",
+              "is_public": true,
+              "instructor_notes": "",
+              "video": {
+                "youtube_id": "3taL1mYVHYM",
+                "china_cdn_id": "3taL1mYVHYM.mp4"
+              }
+            },
+            {
+              "id": 784295,
+              "key": "c9c70af0-d895-43f2-9f93-4549a4e5b41c",
+              "title": null,
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "Read more about the Plot of Means tool here: https://help.alteryx.com/2018.3/Plot_of_Means.htm",
+              "instructor_notes": ""
+            }
+          ]
+        },
+        {
+          "id": 185884,
+          "key": "e1408edd-f4b4-4adc-a520-e7ad9d1e96cb",
+          "title": "Lurking Variables",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "e1408edd-f4b4-4adc-a520-e7ad9d1e96cb",
+            "completed_at": null,
+            "last_viewed_at": null,
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 187252,
+              "key": "848b1157-df4f-45ee-9b15-a688a7281992",
+              "title": "Lurking Variables",
+              "semantic_type": "VideoAtom",
+              "is_public": true,
+              "instructor_notes": "",
+              "video": {
+                "youtube_id": "GjOiV8FpviE",
+                "china_cdn_id": "GjOiV8FpviE.mp4"
+              }
+            }
+          ]
+        },
+        {
+          "id": 185889,
+          "key": "c56a092b-5cd1-4aca-8b5a-3c8ce11ea2c4",
+          "title": "Experimental Design",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "c56a092b-5cd1-4aca-8b5a-3c8ce11ea2c4",
+            "completed_at": null,
+            "last_viewed_at": null,
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 187257,
+              "key": "53cfcec5-61a4-4799-a8a8-7bcc826efde5",
+              "title": "Experimental Design",
+              "semantic_type": "VideoAtom",
+              "is_public": true,
+              "instructor_notes": "Note that the word \"Experimental Design\" is a general phrase that we often use to design any type of experiment including randomized, matched-pair, etc.",
+              "video": {
+                "youtube_id": "VXY4SgfoSlQ",
+                "china_cdn_id": "VXY4SgfoSlQ.mp4"
+              }
+            }
+          ]
+        },
+        {
+          "id": 185890,
+          "key": "4910d800-1565-4b86-9783-940b2a9bf04e",
+          "title": "Experimental Design Quiz",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "4910d800-1565-4b86-9783-940b2a9bf04e",
+            "completed_at": null,
+            "last_viewed_at": null,
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 185919,
+              "key": "366b11d1-0feb-484e-b2ef-71d6139f54c4",
+              "title": "Experimental Design",
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "## Determining Experimental Design\n\nFor each of the following examples determine if the experiment would be best solved with a randomized design, a matched pair design, or if it could be solved with either.",
+              "instructor_notes": ""
+            },
+            {
+              "id": 185920,
+              "key": "e68ff9a5-f76b-4d3d-91cf-b835c8f5c712",
+              "title": "Q1",
+              "semantic_type": "RadioQuizAtom",
+              "is_public": true,
+              "instructor_notes": null,
+              "user_state": {
+                "node_key": "e68ff9a5-f76b-4d3d-91cf-b835c8f5c712",
+                "completed_at": null,
+                "last_viewed_at": null,
+                "unstructured": null
+              },
+              "question": {
+                "prompt": "The accounting department at a large company has about six hundred analysts.  They want to set up an experiment to see if giving each employee a 2nd monitor will improve their productivity.  ",
+                "answers": [
+                  {
+                    "id": "a1473300201820",
+                    "text": "Randomized",
+                    "is_correct": false
+                  },
+                  {
+                    "id": "a1473300202460",
+                    "text": "Match Pair",
+                    "is_correct": true
+                  },
+                  {
+                    "id": "a1473300202931",
+                    "text": "Either",
+                    "is_correct": false
+                  }
+                ]
+              }
+            },
+            {
+              "id": 185921,
+              "key": "543ce9da-aa24-4e57-8057-b913faab35ab",
+              "title": "Q2",
+              "semantic_type": "RadioQuizAtom",
+              "is_public": true,
+              "instructor_notes": null,
+              "user_state": {
+                "node_key": "543ce9da-aa24-4e57-8057-b913faab35ab",
+                "completed_at": null,
+                "last_viewed_at": null,
+                "unstructured": null
+              },
+              "question": {
+                "prompt": "Google wants to test if making paid advertisements a larger font size than unpaid advertisements will increase the likelihood that a user clicks on a paid search link rather than an unpaid search link.  ",
+                "answers": [
+                  {
+                    "id": "a1473300272915",
+                    "text": "Randomized",
+                    "is_correct": true
+                  },
+                  {
+                    "id": "a1473300273293",
+                    "text": "Matched Pair",
+                    "is_correct": false
+                  },
+                  {
+                    "id": "a1473300273604",
+                    "text": "Either",
+                    "is_correct": false
+                  }
+                ]
+              }
+            },
+            {
+              "id": 185922,
+              "key": "71d640c5-aed5-4998-a58f-27ec0a3156a0",
+              "title": "Q3",
+              "semantic_type": "RadioQuizAtom",
+              "is_public": true,
+              "instructor_notes": null,
+              "user_state": {
+                "node_key": "71d640c5-aed5-4998-a58f-27ec0a3156a0",
+                "completed_at": null,
+                "last_viewed_at": null,
+                "unstructured": null
+              },
+              "question": {
+                "prompt": "A sales organization wants to find out the impact on number of leads generated if they switch from contacting potential prospects via telephone calls to emails.",
+                "answers": [
+                  {
+                    "id": "a1473300323446",
+                    "text": "Randomized",
+                    "is_correct": false
+                  },
+                  {
+                    "id": "a1473300324022",
+                    "text": "Matched Pair",
+                    "is_correct": false
+                  },
+                  {
+                    "id": "a1473300324525",
+                    "text": "Either",
+                    "is_correct": true
+                  }
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "id": 185887,
+          "key": "9fa78a61-53b5-4ac8-9b49-fb4441d2ff6a",
+          "title": "Experiment Duration",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "9fa78a61-53b5-4ac8-9b49-fb4441d2ff6a",
+            "completed_at": null,
+            "last_viewed_at": null,
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 187255,
+              "key": "ed919dda-14c1-4078-88a3-d974ca67c137",
+              "title": "Experiment Duration",
+              "semantic_type": "VideoAtom",
+              "is_public": true,
+              "instructor_notes": "",
+              "video": {
+                "youtube_id": "2jZsJkCfgO0",
+                "china_cdn_id": "2jZsJkCfgO0.mp4"
+              }
+            }
+          ]
+        },
+        {
+          "id": 185888,
+          "key": "ae693d00-6f3a-43ca-a3fc-aafa78d2cc99",
+          "title": "Experiment Duration Quiz",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "ae693d00-6f3a-43ca-a3fc-aafa78d2cc99",
+            "completed_at": null,
+            "last_viewed_at": null,
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 185914,
+              "key": "88ede30a-773e-4aad-885d-3b536d7063e1",
+              "title": "Experiment Duration",
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "## Determining Experiment Duration\n\nFor each of the following situations, identify what a cycle is, and think about how long that cycle would take in order to suggest how long an experiment should run.\n",
+              "instructor_notes": ""
+            },
+            {
+              "id": 185917,
+              "key": "5fd52c6d-a4e4-46be-8306-47886c39c8e5",
+              "title": "Q1",
+              "semantic_type": "RadioQuizAtom",
+              "is_public": true,
+              "instructor_notes": null,
+              "user_state": {
+                "node_key": "5fd52c6d-a4e4-46be-8306-47886c39c8e5",
+                "completed_at": null,
+                "last_viewed_at": null,
+                "unstructured": null
+              },
+              "question": {
+                "prompt": "A corporate recruiting company wants to determine if posting a job perk that let's employees work from home can decrease the time needed to fill the posted job.",
+                "answers": [
+                  {
+                    "id": "a1473299709737",
+                    "text": "How long it takes to move employees from the corporate office to their home office",
+                    "is_correct": false
+                  },
+                  {
+                    "id": "a1473299711346",
+                    "text": "How long it takes to interview a potential candidate",
+                    "is_correct": false
+                  },
+                  {
+                    "id": "a1473299711978",
+                    "text": "How long it takes from the time of posting a job until the job is filled",
+                    "is_correct": true
+                  },
+                  {
+                    "id": "a1473299712338",
+                    "text": "How long it takes from the time of a posting until an offer is extended to a candidate",
+                    "is_correct": false
+                  }
+                ]
+              }
+            },
+            {
+              "id": 185918,
+              "key": "cde80bf6-0057-468b-b943-72dfa8f771c3",
+              "title": "Q2",
+              "semantic_type": "RadioQuizAtom",
+              "is_public": true,
+              "instructor_notes": null,
+              "user_state": {
+                "node_key": "cde80bf6-0057-468b-b943-72dfa8f771c3",
+                "completed_at": null,
+                "last_viewed_at": null,
+                "unstructured": null
+              },
+              "question": {
+                "prompt": "A farmer wants to know if planting a seed deeper will slow down the time to harvest his crops. What is a cycle for this experiment?",
+                "answers": [
+                  {
+                    "id": "a1473300041948",
+                    "text": "How long it takes for the plant to grow enough to be ready for harvest",
+                    "is_correct": true
+                  },
+                  {
+                    "id": "a1473300042412",
+                    "text": "How long it takes for the seed to sprout",
+                    "is_correct": false
+                  },
+                  {
+                    "id": "a1473300042781",
+                    "text": "How long it takes for the farmer to plant the seeds",
+                    "is_correct": false
+                  },
+                  {
+                    "id": "a1473300043044",
+                    "text": "How long it takes for the plant to grow to full size and then die",
+                    "is_correct": false
+                  }
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "id": 185893,
+          "key": "1f763513-77d4-4e35-a15b-d4a1de207f1f",
+          "title": "Conclusion",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "1f763513-77d4-4e35-a15b-d4a1de207f1f",
+            "completed_at": null,
+            "last_viewed_at": null,
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 187258,
+              "key": "0356d9f8-e7bc-4a4b-a88f-885cec5b0406",
+              "title": "Conclusion",
+              "semantic_type": "VideoAtom",
+              "is_public": true,
+              "instructor_notes": "",
+              "video": {
+                "youtube_id": "0BVte-RNQLw",
+                "china_cdn_id": "0BVte-RNQLw.mp4"
+              }
+            }
+          ]
+        }
+      ]
+    }
+  }
+}

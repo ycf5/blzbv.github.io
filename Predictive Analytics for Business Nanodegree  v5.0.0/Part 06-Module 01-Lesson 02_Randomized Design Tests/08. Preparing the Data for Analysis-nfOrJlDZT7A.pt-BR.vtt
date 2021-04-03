@@ -1,0 +1,337 @@
+WEBVTT
+Kind: captions
+Language: pt-BR
+
+00:00:00.200 --> 00:00:01.868
+Depois que o teste
+foi implementado
+
+00:00:01.901 --> 00:00:04.734
+e coletamos todos
+os dados do experimento,
+
+00:00:04.767 --> 00:00:07.439
+podemos começar a preparar
+os dados para análise.
+
+00:00:07.968 --> 00:00:12.334
+Primeiro, vamos limpar os dados
+para remover itens indesejados.
+
+00:00:12.367 --> 00:00:15.868
+Depois, vamos calcular
+a diferença nas observações
+
+00:00:15.901 --> 00:00:17.934
+dos grupos de tratamento
+e de controle.
+
+00:00:17.968 --> 00:00:21.000
+Por fim, vamos divulgar
+os resultados.
+
+00:00:21.033 --> 00:00:23.300
+Limpar os dados para remover
+dados desnecessários
+
+00:00:23.334 --> 00:00:26.033
+está relacionado
+apenas às variáveis de controle.
+
+00:00:26.067 --> 00:00:28.234
+É antiético remover dados
+por motivos
+
+00:00:28.267 --> 00:00:30.634
+que não tenham a ver
+apenas com controle.
+
+00:00:30.667 --> 00:00:32.901
+No experimento
+de otimização do site,
+
+00:00:32.934 --> 00:00:36.501
+temos que preparar os dados
+para que cada IP
+
+00:00:36.534 --> 00:00:38.467
+seja mostrado apenas uma vez.
+
+00:00:38.501 --> 00:00:40.834
+Vamos consolidar registros
+para fazer isso
+
+00:00:40.868 --> 00:00:43.601
+e talvez até remover
+valores atípicos.
+
+00:00:43.634 --> 00:00:47.701
+Depois, temos que remover os dados
+dos usuários que já têm conta
+
+00:00:47.734 --> 00:00:51.300
+e não precisariam abrir outra conta,
+por isso não clicariam no link.
+
+00:00:51.334 --> 00:00:53.100
+Isso criaria
+um viés nos dados.
+
+00:00:53.133 --> 00:00:55.267
+Estamos interessados
+na propensão de usuários
+
+00:00:55.300 --> 00:00:58.801
+que não estão inscritos no programa
+de fidelidade para clicar no link.
+
+00:00:58.834 --> 00:01:01.534
+Vamos demonstrar
+como prepararíamos os dados.
+
+00:01:01.868 --> 00:01:04.434
+Vamos criar um workflow
+no Alteryx e importar os dados
+
+00:01:04.467 --> 00:01:07.367
+do arquivo
+"GroceryWebsiteABTest",
+
+00:01:07.400 --> 00:01:09.334
+usando a ferramenta
+"Input Data".
+
+00:01:09.367 --> 00:01:11.033
+Também vamos acrescentar
+uma ferramenta "Browse"
+
+00:01:11.067 --> 00:01:13.868
+e ativar o workflow para dar
+uma olhada nos dados.
+
+00:01:13.901 --> 00:01:16.215
+Antes de começar
+a preparar os dados,
+
+00:01:16.248 --> 00:01:19.562
+é bom entender
+os dados que temos.
+
+00:01:19.595 --> 00:01:23.300
+O "RecordID" é apenas
+o identificador da linha de dados.
+
+00:01:23.334 --> 00:01:27.701
+"IP Address" é o endereço
+do usuário que visitou o site.
+
+00:01:27.734 --> 00:01:31.901
+"LoggedInFlag" é "1" se o usuário
+tiver conta e tiver se logado,
+
+00:01:31.934 --> 00:01:36.234
+e "ServerID" é um dos 3 servidores
+pelo qual o usuário passou.
+
+00:01:36.267 --> 00:01:39.701
+Lembre que os servidores "2" e "3"
+são os grupos de controle.
+
+00:01:39.734 --> 00:01:42.334
+e a "ServerID 1"
+é o grupo de tratamento.
+
+00:01:42.367 --> 00:01:46.300
+A última coluna "VisitPageFlag" fica
+em "1" se o usuário acessou o link
+
+00:01:46.334 --> 00:01:48.834
+com as informações
+sobre o programa de fidelidade.
+
+00:01:48.868 --> 00:01:51.167
+Usuários podem ter visitado
+o site várias vezes
+
+00:01:51.200 --> 00:01:53.167
+durante o período
+de tratamento.
+
+00:01:53.200 --> 00:01:56.200
+Um endereço de IP sempre é
+levado ao mesmo servidor
+
+00:01:56.234 --> 00:01:57.934
+para que o mesmo IP
+não apareça
+
+00:01:57.968 --> 00:02:00.901
+nos grupos de tratamento e controle
+ao mesmo tempo.
+
+00:02:00.934 --> 00:02:04.400
+Neste experimento, vamos supor
+que, se um usuário acessou a página,
+
+00:02:04.434 --> 00:02:06.868
+ele será contado como "1"
+e, se não acessou,
+
+00:02:06.901 --> 00:02:08.701
+será contado como "0".
+
+00:02:08.734 --> 00:02:11.734
+Como os dados importados
+estão em um arquivo .csv,
+
+00:02:11.767 --> 00:02:14.167
+todos os campos serão carregados
+como "string".
+
+00:02:14.200 --> 00:02:17.000
+Vamos converter "VisitPageFlag"
+para um valor numérico
+
+00:02:17.033 --> 00:02:19.434
+para simplificar
+a preparação dos dados.
+
+00:02:19.467 --> 00:02:20.866
+Adicione
+uma ferramenta "Select"
+
+00:02:20.899 --> 00:02:24.567
+para mudar o tipo de dado
+de "VisitPageFlag" para "Int16",
+
+00:02:24.601 --> 00:02:27.701
+já que o valor
+será sempre "1" ou "0".
+
+00:02:27.734 --> 00:02:29.767
+Agora podemos usar
+uma ferramenta "Summarize"
+
+00:02:29.801 --> 00:02:31.567
+para agrupar
+todas as colunas de dados
+
+00:02:31.601 --> 00:02:34.934
+por "IP Address", "ServerID"
+e "LoggedInFlag"
+
+00:02:34.968 --> 00:02:38.534
+e somar o campo
+"VisitPageFlag".
+
+00:02:39.634 --> 00:02:44.501
+O campo "Sum_VisitPageFlag" será "0"
+se o cliente não clicou no link
+
+00:02:44.534 --> 00:02:46.434
+e "1" ou mais,
+se tiver clicado.
+
+00:02:46.467 --> 00:02:48.667
+Isso fará com que os dados
+sejam consolidados,
+
+00:02:48.701 --> 00:02:51.801
+de maneira que só haja
+uma linha por endereço de IP.
+
+00:02:51.834 --> 00:02:53.634
+Agora podemos usar
+uma fórmula simples
+
+00:02:53.667 --> 00:02:57.100
+para criar uma flag
+para os valores "1" e "0".
+
+00:02:57.133 --> 00:02:59.267
+Adicione
+uma ferramenta "Formula" na tela,
+
+00:02:59.300 --> 00:03:02.067
+crie outro campo numérico
+chamado "VisitFlag"
+
+00:03:02.100 --> 00:03:03.777
+e use a fórmula
+
+00:03:03.810 --> 00:03:09.770
+"if ([Sum_VisitPageFlag]|= 0,1,0)".
+
+00:03:10.167 --> 00:03:12.701
+Estamos fazendo isto para o caso
+de haver endereços de IP
+
+00:03:12.734 --> 00:03:14.667
+com mais de uma visita.
+
+00:03:14.868 --> 00:03:17.300
+Também vamos criar um novo campo
+para identificar o grupo
+
+00:03:17.334 --> 00:03:19.501
+a que o endereço de IP
+pertence.
+
+00:03:19.534 --> 00:03:21.767
+Vamos criar um novo
+campo "string" chamado "Group"
+
+00:03:21.801 --> 00:03:27.267
+com a fórmula "If([ServerID] = '1',
+'Treatment', 'Control')".
+
+00:03:27.300 --> 00:03:32.133
+Agora, temos que filtrar os dados
+de clientes que já têm conta.
+
+00:03:32.167 --> 00:03:36.100
+Vamos retirar todos os registros
+em que "LoggedInFlag" é igual a "1"
+
+00:03:36.133 --> 00:03:39.534
+usando a ferramenta "Filter".
+Podemos usar o filtro básico
+
+00:03:39.567 --> 00:03:42.501
+em que "LoggedInFlag"
+não é igual a "1".
+
+00:03:42.534 --> 00:03:44.901
+Vamos conectar um "Browse"
+ao output "T"
+
+00:03:44.934 --> 00:03:47.801
+e ativar o workflow
+para ver o resultado.
+
+00:03:47.834 --> 00:03:50.367
+Os dados estão prontos
+para serem analisados.
+
+00:03:50.400 --> 00:03:53.601
+Temos os dados que indicam
+o grupo que incluiu o visitante,
+
+00:03:53.634 --> 00:03:57.033
+se ele clicou no link
+e visitou a página,
+
+00:03:57.067 --> 00:03:59.868
+não temos ninguém
+que tenha logado no site
+
+00:03:59.901 --> 00:04:02.033
+e só temos uma linha
+por visitante.
+
+00:04:02.066 --> 00:04:03.167
+*END*
+
+00:04:03.200 --> 00:04:04.300
+*CODE*
+

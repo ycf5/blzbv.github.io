@@ -1,0 +1,195 @@
+WEBVTT
+Kind: captions
+Language: pt-BR
+
+00:00:00.200 --> 00:00:02.868
+Agora que conhecemos o básico
+e o vocabulário
+
+00:00:02.901 --> 00:00:04.567
+do delineamento experimental,
+
+00:00:04.601 --> 00:00:07.334
+vamos falar de dois tipos
+de experimentos
+
+00:00:07.367 --> 00:00:09.734
+e sobre quando usar
+cada um deles.
+
+00:00:09.767 --> 00:00:12.801
+Os dois tipos de experimentos
+que vamos discutir neste curso
+
+00:00:12.834 --> 00:00:15.834
+são o delineamento aleatório
+e o de amostras emparelhadas.
+
+00:00:16.400 --> 00:00:18.267
+O delineamento aleatório
+é uma técnica
+
+00:00:18.300 --> 00:00:20.100
+em que as unidades de tratamento
+e controle
+
+00:00:20.133 --> 00:00:22.367
+são selecionadas de maneira
+totalmente aleatória.
+
+00:00:22.400 --> 00:00:25.033
+Essa técnica é usada
+especialmente em situações
+
+00:00:25.067 --> 00:00:28.334
+em que há pouca oportunidade
+de controlar variáveis
+
+00:00:28.367 --> 00:00:31.601
+e em que o volume e a velocidade
+dos dados são altos o bastante
+
+00:00:31.634 --> 00:00:34.000
+para não nos preocuparmos
+com o enviesamento.
+
+00:00:34.033 --> 00:00:37.200
+Experimentos com base em sites
+e sistemas telefônicos
+
+00:00:37.234 --> 00:00:40.968
+são ótimos exemplos, pois
+a organização tem pouca chance
+
+00:00:41.000 --> 00:00:44.067
+de controlar quem visita o site
+ou faz uma ligação.
+
+00:00:44.100 --> 00:00:47.968
+E o volume costuma ser alto
+o bastante para evitar vieses.
+
+00:00:48.000 --> 00:00:53.133
+Além disso, o custo por observação
+é muito baixo nesses experimentos.
+
+00:00:53.167 --> 00:00:55.801
+Nos experimentos aleatórios,
+o fato de um indivíduo
+
+00:00:55.834 --> 00:00:59.467
+estar no grupo de tratamento ou
+de controle não é pré-determinado.
+
+00:00:59.501 --> 00:01:03.434
+Isso é determinado na hora
+de maneira totalmente aleatória.
+
+00:01:03.467 --> 00:01:06.968
+Por exemplo, o tráfego é
+direcionado de tal maneira
+
+00:01:07.000 --> 00:01:10.334
+que as pessoas que visitam um site
+vejam uma das duas páginas,
+
+00:01:10.367 --> 00:01:12.934
+a página de tratamento
+ou a de controle.
+
+00:01:12.968 --> 00:01:15.234
+Por outro lado, um delineamento
+de amostras emparelhadas
+
+00:01:15.267 --> 00:01:17.834
+costuma ser usado
+quando o volume de observações
+
+00:01:17.868 --> 00:01:21.834
+ou indivíduos é bem baixo,
+a preocupação com o viés é grande
+
+00:01:21.868 --> 00:01:25.801
+e o custo por observação
+é comparativamente mais alto.
+
+00:01:25.834 --> 00:01:27.767
+Nesta técnica
+de design experimental,
+
+00:01:27.801 --> 00:01:31.534
+grupos de tratamento e controle são
+emparelhados unidade por unidade,
+
+00:01:31.567 --> 00:01:35.234
+usando uma ponderação das variáveis
+de controle identificadas.
+
+00:01:35.267 --> 00:01:37.034
+No experimento
+do novo produto,
+
+00:01:37.067 --> 00:01:39.165
+um delineamento de amostras
+emparelhadas exigiria
+
+00:01:39.198 --> 00:01:40.968
+que pegássemos
+cada loja de tratamento
+
+00:01:41.000 --> 00:01:43.367
+e achássemos uma ou mais
+lojas de controle similares
+
+00:01:43.400 --> 00:01:45.100
+para compará-las.
+
+00:01:45.133 --> 00:01:48.167
+A análise é feita par a par
+
+00:01:48.200 --> 00:01:51.234
+e depois agregada
+em um único resultado.
+
+00:01:51.267 --> 00:01:53.968
+O emparelhamento unidade
+por unidade ajuda a eliminar
+
+00:01:54.000 --> 00:01:57.465
+fontes de enviesamento e aumenta
+a confiança nos resultados,
+
+00:01:57.498 --> 00:02:00.667
+mesmo com um número menor
+de observações totais.
+
+00:02:01.200 --> 00:02:03.434
+Ao contrário de um delineamento
+totalmente aleatório,
+
+00:02:03.467 --> 00:02:06.234
+o de amostras emparelhadas
+deve ser planejado,
+
+00:02:06.267 --> 00:02:10.133
+e as unidades devem ser conhecidas
+antes do início do experimento.
+
+00:02:10.166 --> 00:02:13.767
+Por exemplo, emparelharíamos
+cada uma das lojas de tratamento
+
+00:02:13.801 --> 00:02:15.601
+com uma ou duas lojas
+de controle
+
+00:02:15.634 --> 00:02:18.000
+para medir o impacto
+do tratamento.
+
+00:02:18.033 --> 00:02:19.334
+*END*
+
+00:02:19.367 --> 00:02:20.667
+*CODE*
+

@@ -1,0 +1,335 @@
+WEBVTT
+Kind: captions
+Language: pt-BR
+
+00:00:00.100 --> 00:00:02.534
+Para testar a correlação,
+vamos criar um novo workflow
+
+00:00:02.567 --> 00:00:06.033
+e importar os dados do arquivo
+"NewProductControlData".
+
+00:00:06.067 --> 00:00:08.167
+Como os dados estão
+em um arquivo .csv,
+
+00:00:08.200 --> 00:00:11.100
+vamos usar a ferramenta "Auto Field"
+para cuidar dos tipos de campo
+
+00:00:11.133 --> 00:00:13.200
+e atribuí-los automaticamente.
+
+00:00:13.234 --> 00:00:15.767
+Agora podemos fazer
+uma análise de associação
+
+00:00:15.801 --> 00:00:19.868
+para investigar se o número
+de produtos incentiva as vendas.
+
+00:00:19.901 --> 00:00:24.501
+Para fazer a análise, vamos pegar
+a ferramenta "Association Analysis"
+
+00:00:24.534 --> 00:00:26.567
+e configurá-la para conferir
+a correlação
+
+00:00:26.601 --> 00:00:29.033
+entre a contagem de produtos
+e as vendas.
+
+00:00:29.067 --> 00:00:31.434
+Se a janela "Fields" estiver vazia,
+ative o workflow
+
+00:00:31.467 --> 00:00:33.100
+para preencher os dados.
+
+00:00:33.133 --> 00:00:36.467
+Agora podemos selecionar
+"Category Sales" e "Product Count".
+
+00:00:36.501 --> 00:00:39.200
+Depois de adicionar uma ferramenta
+"Browse" ao output "I",
+
+00:00:39.234 --> 00:00:42.267
+podemos ativar o workflow
+e olhar os resultados.
+
+00:00:43.234 --> 00:00:45.434
+Vamos maximizar
+o resultado da ferramenta "Browse"
+
+00:00:45.467 --> 00:00:48.701
+e ver que "Category Sales"
+é positivamente correlacionada
+
+00:00:48.734 --> 00:00:52.968
+com "Product Count", com um
+coeficiente de correlação de 0,43.
+
+00:00:53.000 --> 00:00:56.267
+Isso é prova de que "Product Count"
+deve ser uma variável de controle,
+
+00:00:56.300 --> 00:00:58.467
+já que a venda está relacionada
+ao número de produtos
+
+00:00:58.501 --> 00:01:00.334
+vendidos nas lojas.
+
+00:01:00.367 --> 00:01:03.667
+Agora vamos tentar ver
+se há uma relação entre as vendas
+
+00:01:03.701 --> 00:01:05.634
+e o tamanho da loja.
+
+00:01:05.667 --> 00:01:08.334
+Já que o tamanho da loja
+não é uma variável numérica,
+
+00:01:08.367 --> 00:01:10.400
+e sim categórica,
+
+00:01:10.434 --> 00:01:12.601
+podemos fazer uma análise
+com um gráfico de médias
+
+00:01:12.634 --> 00:01:15.200
+para identificar se há
+um padrão nas vendas
+
+00:01:15.234 --> 00:01:17.701
+correlacionado
+com o tamanho da loja.
+
+00:01:17.734 --> 00:01:20.400
+No Alteryx, podemos usar
+a ferramenta "Plot of Means",
+
+00:01:20.434 --> 00:01:22.501
+que cria um gráfico
+com a média de cada variável
+
+00:01:22.534 --> 00:01:24.367
+do conjunto de dados
+que selecionamos.
+
+00:01:24.400 --> 00:01:27.467
+É uma ótima maneira de visualizar
+como a média de uma variável
+
+00:01:27.501 --> 00:01:29.667
+é diferente
+dependendo da categoria.
+
+00:01:29.701 --> 00:01:31.733
+Para ler mais sobre
+a ferramenta "Plot of Means",
+
+00:01:31.766 --> 00:01:33.300
+veja as notas abaixo.
+
+00:01:33.334 --> 00:01:36.634
+Vamos selecionar "Category Sales"
+para o campo "Response",
+
+00:01:36.667 --> 00:01:38.833
+e o campo de categoria
+que vamos usar para agrupar
+
+00:01:38.866 --> 00:01:40.534
+é "Size", o tamanho da loja.
+
+00:01:40.567 --> 00:01:44.634
+Antes de ativar o workflow, vamos
+adicionar um "Browse" ao output.
+
+00:01:44.667 --> 00:01:48.000
+Ao maximizar os resultados,
+vemos um gráfico de médias
+
+00:01:48.033 --> 00:01:50.634
+das vendas da categoria
+por tamanho de loja.
+
+00:01:50.667 --> 00:01:52.534
+Ao observar
+um gráfico de médias,
+
+00:01:52.567 --> 00:01:54.400
+garanta que
+suas variáveis de categoria
+
+00:01:54.434 --> 00:01:57.701
+foram ordenadas numa ordem lógica.
+Neste caso,
+
+00:01:57.734 --> 00:02:00.234
+"Large", "Medium" e "Small"
+estão numa ordem lógica,
+
+00:02:00.267 --> 00:02:01.701
+então está tudo certo.
+
+00:02:01.734 --> 00:02:05.100
+Se houvesse correlação
+entre o tamanho e as vendas,
+
+00:02:05.133 --> 00:02:07.601
+veríamos uma relação
+mais linear.
+
+00:02:07.634 --> 00:02:10.667
+Neste gráfico, não parece haver
+um padrão que correlaciona
+
+00:02:10.701 --> 00:02:12.501
+o tamanho da loja
+com as vendas,
+
+00:02:12.534 --> 00:02:15.934
+então não precisamos usar o tamanho
+da loja como variável de controle.
+
+00:02:15.968 --> 00:02:20.267
+Por fim, vamos ver quantas lojas
+temos numa determinada área
+
+00:02:20.300 --> 00:02:23.701
+para podermos determinar se podemos
+usar isso como variável de controle.
+
+00:02:23.734 --> 00:02:26.334
+Vamos trazer uma ferramenta
+"Summarize" para a tela
+
+00:02:26.367 --> 00:02:28.601
+e agrupar por "City", "State"
+e "Zip Code".
+
+00:02:28.634 --> 00:02:31.934
+Depois vamos contar
+o campo "Store ID"
+
+00:02:31.968 --> 00:02:34.334
+para contar as lojas
+em cada região.
+
+00:02:34.367 --> 00:02:37.234
+Vamos ativar o workflow
+para obter os resultados.
+
+00:02:37.267 --> 00:02:41.033
+Os dados mostram que as combinações
+"City", "State" e "Zip Code"
+
+00:02:41.067 --> 00:02:44.667
+só têm uma loja.
+Há poucas lojas em cada grupo
+
+00:02:44.701 --> 00:02:46.868
+para termos opções
+para usar como controle.
+
+00:02:46.901 --> 00:02:49.501
+Vamos tentar agrupar
+apenas por estado e cidade.
+
+00:02:49.534 --> 00:02:51.334
+Podemos apenas selecionar
+o campo "Zip Code"
+
+00:02:51.367 --> 00:02:53.334
+e clicar no botão "-".
+
+00:02:53.367 --> 00:02:56.934
+Agora vamos ativar o workflow
+e ver o resultado.
+
+00:02:56.968 --> 00:02:59.701
+Mais uma vez, são poucas lojas
+em cada estado e cidade.
+
+00:02:59.734 --> 00:03:02.901
+Queremos um conjunto maior
+de unidades por localização.
+
+00:03:02.934 --> 00:03:05.434
+Como 15 é o número mínimo
+de observações
+
+00:03:05.467 --> 00:03:07.734
+para que um teste t-Student
+seja aplicável,
+
+00:03:07.767 --> 00:03:09.501
+esse é um bom número.
+
+00:03:09.534 --> 00:03:11.501
+Se agruparmos apenas
+por "State",
+
+00:03:11.534 --> 00:03:14.501
+vemos que temos um número
+muito maior de lojas por estado.
+
+00:03:14.534 --> 00:03:16.701
+Na maioria dos casos,
+são mais de 15.
+
+00:03:16.734 --> 00:03:19.934
+Logo, nosso pressuposto
+é que lojas do mesmo estado
+
+00:03:19.968 --> 00:03:23.133
+têm desempenho mais parecido
+do que lojas em estados diferentes.
+
+00:03:23.167 --> 00:03:26.334
+Por exemplo, uma loja no Alasca
+tem uma probabilidade muito maior
+
+00:03:26.367 --> 00:03:28.367
+de ser parecida com outra loja
+no Alasca
+
+00:03:28.400 --> 00:03:31.133
+do que com uma loja
+de Nova York.
+
+00:03:31.167 --> 00:03:34.367
+Logo, como temos lojas suficientes
+por estado,
+
+00:03:34.400 --> 00:03:36.834
+podemos usar o estado
+como variável de controle.
+
+00:03:36.868 --> 00:03:39.667
+Agora determinamos
+que vamos usar "Product Count"
+
+00:03:39.701 --> 00:03:41.067
+e "State" como controle
+no experimento,
+
+00:03:41.100 --> 00:03:44.300
+pois ambos têm muitos dados
+e correlação com "Category Sales",
+
+00:03:44.334 --> 00:03:45.666
+a variável de categoria.
+
+00:03:45.699 --> 00:03:46.901
+*END*
+
+00:03:46.934 --> 00:03:48.267
+*CODE*
+

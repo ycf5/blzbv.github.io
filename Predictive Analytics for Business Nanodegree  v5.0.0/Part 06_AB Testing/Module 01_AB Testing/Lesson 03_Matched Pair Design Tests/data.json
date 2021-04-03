@@ -1,0 +1,1193 @@
+{
+  "data": {
+    "lesson": {
+      "id": 680863,
+      "key": "6958be47-6291-467f-aaed-116cac1702b7",
+      "title": "Matched Pair Design Tests",
+      "semantic_type": "Lesson",
+      "is_public": true,
+      "version": "1.0.0",
+      "locale": "en-us",
+      "summary": "Match test units to control units. Design a matched pair design A/B test and analyze the results.",
+      "lesson_type": "Classroom",
+      "display_workspace_project_only": false,
+      "resources": {
+        "files": [
+          {
+            "name": "Videos Zip File",
+            "uri": "https://zips.udacity-data.com/6958be47-6291-467f-aaed-116cac1702b7/680863/1544455577521/Matched+Pair+Design+Tests+Videos.zip"
+          },
+          {
+            "name": "Transcripts Zip File",
+            "uri": "https://zips.udacity-data.com/6958be47-6291-467f-aaed-116cac1702b7/680863/1544455573849/Matched+Pair+Design+Tests+Subtitles.zip"
+          }
+        ],
+        "google_plus_link": null,
+        "career_resource_center_link": null,
+        "coaching_appointments_link": null,
+        "office_hours_link": null,
+        "aws_provisioning_link": null
+      },
+      "project": null,
+      "lab": null,
+      "concepts": [
+        {
+          "id": 186789,
+          "key": "32a34052-af71-4f09-a227-57993258941f",
+          "title": "Introduction to Matched Pair Design",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "32a34052-af71-4f09-a227-57993258941f",
+            "completed_at": null,
+            "last_viewed_at": null,
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 187496,
+              "key": "331c47bc-8527-4350-87be-c872fb9ad801",
+              "title": "Introduction to Matched Pair Design",
+              "semantic_type": "VideoAtom",
+              "is_public": true,
+              "instructor_notes": "",
+              "video": {
+                "youtube_id": "2tu_7QoyY9Y",
+                "china_cdn_id": "2tu_7QoyY9Y.mp4"
+              }
+            }
+          ]
+        },
+        {
+          "id": 186790,
+          "key": "d2e9981e-7d89-4cc4-b69f-919fc6089458",
+          "title": "Selecting Treatment Units",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "d2e9981e-7d89-4cc4-b69f-919fc6089458",
+            "completed_at": null,
+            "last_viewed_at": null,
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 187268,
+              "key": "5acaf829-65ac-47dc-b1ac-5bdd40ac9401",
+              "title": "Selecting Treatment Units",
+              "semantic_type": "VideoAtom",
+              "is_public": true,
+              "instructor_notes": "For a refresher on how to find and deal with outliers, go to the course: [Creating an Analytical Dataset](https://classroom.udacity.com/courses/ud977/lessons/56630bff-890b-4f55-ab05-26c65eafc4f0/concepts/a252a8ec-5e9c-4b55-8285-e0743d64e1b5#)",
+              "video": {
+                "youtube_id": "ur6FeNnHFMQ",
+                "china_cdn_id": "ur6FeNnHFMQ.mp4"
+              }
+            }
+          ]
+        },
+        {
+          "id": 186791,
+          "key": "61b21614-2ffa-46b0-af18-4b5e0576d51f",
+          "title": "Selecting Control Units",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "61b21614-2ffa-46b0-af18-4b5e0576d51f",
+            "completed_at": null,
+            "last_viewed_at": null,
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 187269,
+              "key": "093a32a5-50a1-4c3c-934b-d931678daac9",
+              "title": "Selecting Control Units",
+              "semantic_type": "VideoAtom",
+              "is_public": true,
+              "instructor_notes": "",
+              "video": {
+                "youtube_id": "yMSzO8GHO7w",
+                "china_cdn_id": "yMSzO8GHO7w.mp4"
+              }
+            }
+          ]
+        },
+        {
+          "id": 186792,
+          "key": "8d6e1285-ce98-45da-afb4-3e66f880ca95",
+          "title": "Selecting Control Units Quiz",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "8d6e1285-ce98-45da-afb4-3e66f880ca95",
+            "completed_at": null,
+            "last_viewed_at": null,
+            "unstructured": null
+          },
+          "resources": {
+            "files": [
+              {
+                "name": "New Product Control Data",
+                "uri": "http://video.udacity-data.com.s3.amazonaws.com/topher/2016/September/57d4396a_newproductcontroldata/newproductcontroldata.csv"
+              }
+            ],
+            "google_plus_link": null,
+            "career_resource_center_link": null,
+            "coaching_appointments_link": null,
+            "office_hours_link": null,
+            "aws_provisioning_link": null
+          },
+          "atoms": [
+            {
+              "id": 186803,
+              "key": "5f919be0-12ea-444c-8dc7-4726f6512050",
+              "title": "Quiz Intro",
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "# Select a Control Unit to Match a Treatment Unit\nBefore we dive into how to use Alteryx to pick controls, let's try to do it manually. This will help you understand the process at a deeper level.\n\nUsing the **New Product Control Data** file, find the best control unit to match to Store ID 111. Feel free to use Excel, Google Sheets, or Alteryx. \n\nUse the following variables as control variables to match on: \n* Category Sales\n* Number of Products\n* State \n",
+              "instructor_notes": ""
+            },
+            {
+              "id": 186804,
+              "key": "42e99092-aaee-4834-98bc-8f12bef3b770",
+              "title": "Q",
+              "semantic_type": "RadioQuizAtom",
+              "is_public": true,
+              "instructor_notes": null,
+              "user_state": {
+                "node_key": "42e99092-aaee-4834-98bc-8f12bef3b770",
+                "completed_at": null,
+                "last_viewed_at": null,
+                "unstructured": null
+              },
+              "question": {
+                "prompt": "What store(s) would make the best control unit for Store ID 111?",
+                "answers": [
+                  {
+                    "id": "rbk1",
+                    "text": "Store 3498",
+                    "is_correct": false
+                  },
+                  {
+                    "id": "rbk2",
+                    "text": "Store 5035",
+                    "is_correct": false
+                  },
+                  {
+                    "id": "rbk3",
+                    "text": "Store 6108",
+                    "is_correct": false
+                  },
+                  {
+                    "id": "rbk4",
+                    "text": "Store 3498 and 5035",
+                    "is_correct": true
+                  }
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "id": 186805,
+          "key": "08f733d1-bf3b-4982-b7ce-3a1262752d0b",
+          "title": "Selecting Control Units Solution",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "08f733d1-bf3b-4982-b7ce-3a1262752d0b",
+            "completed_at": null,
+            "last_viewed_at": null,
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 186806,
+              "key": "f6d44dc9-baf3-4fa9-95f4-24213991a188",
+              "title": "Note",
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "# Steps for Selecting Control Units \n\n* Open the NewProductControlData.csv file in Excel.  The three control variables we want to match on are Category Sales, Number of Products, and State.  \n* First, let’s filter the data so that the state matches.  \n\n* Sort the data so that sales is in ascending order.  Search for Store ID 111 in the list.  \n\n* Determine which store is the closest match to it\n\n### Review for each potential answer\n* Store 6108 is not in California, so not a good control unit.\n\n* Store 3498 has the closest sales, but has a different number of products.  \n\n* Store 5035 has the next closest sales, and has the same number of products.  \n\n* Since 3498 and 5035 are both close, so either could be correct. However, this method of determining the control seems subjective. In the next section, we'll discuss how to systematically and mathematically make this decision to avoid any ambiguity.  \n\n\n",
+              "instructor_notes": ""
+            }
+          ]
+        },
+        {
+          "id": 186793,
+          "key": "a46daccf-17b6-4117-8708-b387277265ce",
+          "title": "Selecting One Control Unit for a Treatment Unit",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "a46daccf-17b6-4117-8708-b387277265ce",
+            "completed_at": null,
+            "last_viewed_at": null,
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 187288,
+              "key": "b03bbedb-5f90-4d88-84dd-000860755d3d",
+              "title": "Selecting One Control Unit for a Treatment Unit",
+              "semantic_type": "VideoAtom",
+              "is_public": true,
+              "instructor_notes": "",
+              "video": {
+                "youtube_id": "JFu66fhABf8",
+                "china_cdn_id": "JFu66fhABf8.mp4"
+              }
+            }
+          ]
+        },
+        {
+          "id": 186794,
+          "key": "3bcb2276-127a-424c-91e8-531df0185eb7",
+          "title": "Selecting Multiple Control Units for a Treatment Unit",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "3bcb2276-127a-424c-91e8-531df0185eb7",
+            "completed_at": null,
+            "last_viewed_at": null,
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 187270,
+              "key": "773e90dc-5b92-4a6a-9bd0-eed58261b065",
+              "title": "Selecting Multiple Control Units for a Treatment Unit",
+              "semantic_type": "VideoAtom",
+              "is_public": true,
+              "instructor_notes": "",
+              "video": {
+                "youtube_id": "iQ9YdopPaTQ",
+                "china_cdn_id": "iQ9YdopPaTQ.mp4"
+              }
+            }
+          ]
+        },
+        {
+          "id": 186795,
+          "key": "e569ce9f-9832-4f75-9eb0-e13db78b1785",
+          "title": "Matching Stores Example",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "e569ce9f-9832-4f75-9eb0-e13db78b1785",
+            "completed_at": null,
+            "last_viewed_at": null,
+            "unstructured": null
+          },
+          "resources": {
+            "files": [
+              {
+                "name": "Cherry Product Treatment Stores ",
+                "uri": "https://video.udacity-data.com/topher/2020/August/5f405f74_cherry-product-treatment-stores-/cherry-product-treatment-stores-.csv"
+              },
+              {
+                "name": "Newproductcontroldata",
+                "uri": "https://video.udacity-data.com/topher/2020/August/5f405fb9_newproductcontroldata/newproductcontroldata.csv"
+              }
+            ],
+            "google_plus_link": null,
+            "career_resource_center_link": null,
+            "coaching_appointments_link": null,
+            "office_hours_link": null,
+            "aws_provisioning_link": null
+          },
+          "atoms": [
+            {
+              "id": 187271,
+              "key": "35ec16c7-c38b-4e92-88fd-892ffade23de",
+              "title": "Matching Stores Example",
+              "semantic_type": "VideoAtom",
+              "is_public": true,
+              "instructor_notes": "",
+              "video": {
+                "youtube_id": "hwbxJXeJK6A",
+                "china_cdn_id": "hwbxJXeJK6A.mp4"
+              }
+            },
+            {
+              "id": 1055242,
+              "key": "57ddb087-ef29-4c8d-9411-5bb742f2bab4",
+              "title": "Workflow Steps",
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "### Workflow Steps\n\n- Use the `Input` tool to import the store data and the list of treatment stores\n- Use the `Filter` tool to filter for `state = CA`, to limit control stores to those in California\n- Use the `Select` tool on each data stream to convert the category sales field to type double and the product count field to type integer 16\n- Add an `A/B Controls` tool to the canvas, and connect the treatment stores data to the T (treatment) input and the control stores data to the D (data) input\n- Configure the controls tool:\n    - Select `store ID` for both the treatment unit identifier field and the unit identifier field for the selection measures\n    - Select both `category sales` and `product count` as the numeric measures to match control units with treatment units\n    - Select `2` for the number of control units per treatment unit, and make sure the box is checked to allow each control unit to be assigned to only a single treatment unit\n- Add a `Browse` tool to each output and run the workflow\n",
+              "instructor_notes": ""
+            },
+            {
+              "id": 1055241,
+              "key": "1284d752-bac8-41e2-805b-925661d1f40c",
+              "title": "Workflow",
+              "semantic_type": "ImageAtom",
+              "is_public": true,
+              "url": "https://video.udacity-data.com/topher/2020/August/5f405dcf_nd008t-c6-l3-c8/nd008t-c6-l3-c8.png",
+              "non_google_url": "https://s3.cn-north-1.amazonaws.com.cn/u-img/1284d752-bac8-41e2-805b-925661d1f40c",
+              "caption": "",
+              "alt": "",
+              "width": 1461,
+              "height": 1021,
+              "instructor_notes": null
+            }
+          ]
+        },
+        {
+          "id": 186796,
+          "key": "99210e11-5eda-4df6-88f2-2278a273ad27",
+          "title": "Matched Pairing Quiz",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "99210e11-5eda-4df6-88f2-2278a273ad27",
+            "completed_at": null,
+            "last_viewed_at": null,
+            "unstructured": null
+          },
+          "resources": {
+            "files": [
+              {
+                "name": "Grape Product Treatment Stores",
+                "uri": "http://video.udacity-data.com.s3.amazonaws.com/topher/2016/September/57d439f7_grapeproducttreatmentstores/grapeproducttreatmentstores.csv"
+              },
+              {
+                "name": "New Product Control Stores",
+                "uri": "http://video.udacity-data.com.s3.amazonaws.com/topher/2016/September/57d4396a_newproductcontroldata/newproductcontroldata.csv"
+              }
+            ],
+            "google_plus_link": null,
+            "career_resource_center_link": null,
+            "coaching_appointments_link": null,
+            "office_hours_link": null,
+            "aws_provisioning_link": null
+          },
+          "atoms": [
+            {
+              "id": 186807,
+              "key": "53cbebf6-6492-4a0b-91a1-ef1b7144e68c",
+              "title": "Matched Pairing Quiz",
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "\n# Try it Yourself\nGo ahead and give it a try yourself, but use the Grape data for your analysis.\n\n### Remember the original problem:\nLet’s work through matching control units to a set of treatment units.  For the new product introduction experiment let’s say that your manager has assigned a set of 10 treatment stores in California where the Grape flavor of the product will be sold.  \n\n* The data for all the stores is in the file:  NewProductControlData.csv\n\n* The data for the treatment stores for the Grape test is:  GrapeProductTreatmentStores.csv\n\n<center> **What are the control stores for each treatment store?** </center>\n<br>\nYour result should be a dataset with two fields: treatment store and control store. There are 10 treatment stores, and you're matching two control stores to each, so there should be twenty rows in your dataset. See the next section for the results.",
+              "instructor_notes": ""
+            }
+          ]
+        },
+        {
+          "id": 186808,
+          "key": "d07f9d3d-42fc-4534-b9a3-1b5fb6af728e",
+          "title": "Matched Pairing Solution",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "d07f9d3d-42fc-4534-b9a3-1b5fb6af728e",
+            "completed_at": null,
+            "last_viewed_at": null,
+            "unstructured": null
+          },
+          "resources": {
+            "files": [
+              {
+                "name": "Matchedpair-Quiz-Workflow",
+                "uri": "https://video.udacity-data.com/topher/2020/August/5f3f080e_matchedpair-quiz-workflow/matchedpair-quiz-workflow.zip"
+              }
+            ],
+            "google_plus_link": null,
+            "career_resource_center_link": null,
+            "coaching_appointments_link": null,
+            "office_hours_link": null,
+            "aws_provisioning_link": null
+          },
+          "atoms": [
+            {
+              "id": 186810,
+              "key": "6f5d4b74-febd-4959-b1b2-cbcf66842238",
+              "title": "Q",
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "# Results\n\nSee below for the table of results. Also, see the Alteryx solution workflow called **MatchedPair-Quiz Workflow** in the resources tab to see how these results were calculated.",
+              "instructor_notes": ""
+            },
+            {
+              "id": 186809,
+              "key": "5be87be4-0e1f-4352-8297-4da62da2a870",
+              "title": "Results",
+              "semantic_type": "ImageAtom",
+              "is_public": true,
+              "url": "https://video.udacity-data.com/topher/2016/September/57d43b6f_l3-07-matched-pairing-solution/l3-07-matched-pairing-solution.jpg",
+              "non_google_url": "https://s3.cn-north-1.amazonaws.com.cn/u-img/5be87be4-0e1f-4352-8297-4da62da2a870",
+              "caption": "",
+              "alt": null,
+              "width": 200,
+              "height": 423,
+              "instructor_notes": null
+            }
+          ]
+        },
+        {
+          "id": 186797,
+          "key": "07d652bc-1dfb-47fa-bb5e-ec0f684072c8",
+          "title": "Analyzing the Results Overview",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "07d652bc-1dfb-47fa-bb5e-ec0f684072c8",
+            "completed_at": null,
+            "last_viewed_at": null,
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 187272,
+              "key": "7ecfae59-becb-47ea-b76c-e71c520c89dd",
+              "title": "Analyzing the Results Overview",
+              "semantic_type": "VideoAtom",
+              "is_public": true,
+              "instructor_notes": "",
+              "video": {
+                "youtube_id": "gCK24-8NK9c",
+                "china_cdn_id": "gCK24-8NK9c.mp4"
+              }
+            }
+          ]
+        },
+        {
+          "id": 186798,
+          "key": "86e4bc1c-a46a-4be9-85e6-c47508f70c93",
+          "title": "Paired T-test Quiz",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "86e4bc1c-a46a-4be9-85e6-c47508f70c93",
+            "completed_at": null,
+            "last_viewed_at": null,
+            "unstructured": null
+          },
+          "resources": {
+            "files": [
+              {
+                "name": "Super Hero Data Matched",
+                "uri": "http://video.udacity-data.com.s3.amazonaws.com/topher/2016/September/57d7fd08_superherodata-matched/superherodata-matched.xlsx"
+              },
+              {
+                "name": "Super Hero Data Matched Solution",
+                "uri": "http://video.udacity-data.com.s3.amazonaws.com/topher/2016/September/57d80da4_superherodata-matched-solution/superherodata-matched-solution.xlsx"
+              }
+            ],
+            "google_plus_link": null,
+            "career_resource_center_link": null,
+            "coaching_appointments_link": null,
+            "office_hours_link": null,
+            "aws_provisioning_link": null
+          },
+          "atoms": [
+            {
+              "id": 187155,
+              "key": "580ac843-4c08-484c-866e-18c117797f5a",
+              "title": "Quiz",
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "# Running a Paired T-test in a Spreadsheet\n\nTo practice running a t-test, open up the **Super Hero Data Matched** at the end of the page. In that data set, you'll see five superheroes and five super villains. Each super hero is matched with the corresponding rival.\n\nOn average, the villains appear to be smarter and the heroes appear to be stronger. A t-test can tell us whether the differences in intelligence and strength are statistically significant. \n\nTry it on your own. If you get stuck, take a look at the **Super Hero Data Matched Solution** file. ",
+              "instructor_notes": ""
+            },
+            {
+              "id": 187157,
+              "key": "ee01a903-7d57-46e3-b1da-8cc577b80585",
+              "title": "Unmatched",
+              "semantic_type": "RadioQuizAtom",
+              "is_public": true,
+              "instructor_notes": null,
+              "user_state": {
+                "node_key": "ee01a903-7d57-46e3-b1da-8cc577b80585",
+                "completed_at": null,
+                "last_viewed_at": null,
+                "unstructured": null
+              },
+              "question": {
+                "prompt": "Run a test on the strength and intelligence of the heroes vs. the villains. Use a two-tailed, two-sample equal variance test. Are the differences between the heroes and villains statistically significant?",
+                "answers": [
+                  {
+                    "id": "a1473774754168",
+                    "text": "Intelligence: no, Strength: no",
+                    "is_correct": true
+                  },
+                  {
+                    "id": "a1473774755072",
+                    "text": "Intelligence: yes, Strength: no",
+                    "is_correct": false
+                  },
+                  {
+                    "id": "a1473774755693",
+                    "text": "Intelligence: no, Strength: yes",
+                    "is_correct": false
+                  },
+                  {
+                    "id": "a1473774756450",
+                    "text": "Intelligence: yes, Strength: yes",
+                    "is_correct": false
+                  }
+                ]
+              }
+            },
+            {
+              "id": 187158,
+              "key": "25a30e3c-b191-487e-b33e-65693e260a96",
+              "title": "Matched",
+              "semantic_type": "RadioQuizAtom",
+              "is_public": true,
+              "instructor_notes": null,
+              "user_state": {
+                "node_key": "25a30e3c-b191-487e-b33e-65693e260a96",
+                "completed_at": null,
+                "last_viewed_at": null,
+                "unstructured": null
+              },
+              "question": {
+                "prompt": "Now run a paired t-test on the strength and intelligence of the heroes vs. the villains. This test compares each hero/villain pair individually rather than collectively. Continue using a two-tailed test. Now are the differences between the heroes and villains statistically significant?",
+                "answers": [
+                  {
+                    "id": "a1473775131251",
+                    "text": "Intelligence: no, Strength: no",
+                    "is_correct": false
+                  },
+                  {
+                    "id": "a1473775131864",
+                    "text": "Intelligence: yes, Strength: no",
+                    "is_correct": false
+                  },
+                  {
+                    "id": "a1473775132841",
+                    "text": "Intelligence: no, Strength: yes",
+                    "is_correct": true
+                  },
+                  {
+                    "id": "a1473775133458",
+                    "text": "Intelligence: Yes, Strength: yes",
+                    "is_correct": false
+                  }
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "id": 186799,
+          "key": "75fdbe6c-e290-42d9-9005-cb30f472a7fb",
+          "title": "Analyzing the Results with Alteryx",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "75fdbe6c-e290-42d9-9005-cb30f472a7fb",
+            "completed_at": null,
+            "last_viewed_at": null,
+            "unstructured": null
+          },
+          "resources": {
+            "files": [
+              {
+                "name": "Matched Pair Analysis Zip",
+                "uri": "http://video.udacity-data.com.s3.amazonaws.com/topher/2016/September/57d80e47_matchedpairanalysis/matchedpairanalysis.zip"
+              }
+            ],
+            "google_plus_link": null,
+            "career_resource_center_link": null,
+            "coaching_appointments_link": null,
+            "office_hours_link": null,
+            "aws_provisioning_link": null
+          },
+          "atoms": [
+            {
+              "id": 187289,
+              "key": "154b41e7-4b60-4fa1-ae96-30acfbdc7682",
+              "title": "Analyzing the results with Alteryx",
+              "semantic_type": "VideoAtom",
+              "is_public": true,
+              "instructor_notes": "All the files in this example are contained in the zip file **Matched Pair Analysis**.zip",
+              "video": {
+                "youtube_id": "mwWb2Yd8Ktc",
+                "china_cdn_id": "mwWb2Yd8Ktc.mp4"
+              }
+            },
+            {
+              "id": 1055243,
+              "key": "b59757fa-e330-4e40-a81e-b7463267f704",
+              "title": "Workflow Steps",
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "### Workflow Steps\n\n- Use the `Input` tool to import the control store data, the treatment store data, and the historical performance and experiment data\n- Add an `A/B Controls` tool to the canvas, and connect the control store data to the C (controls) input, the treatment store data to the T (treatment) input, and the historical and experiment data to the P (performance) input\n- Configure the `A/B Controls` tool:\n    - In the `Input Data` tab, select `controls` as the control unit identifier and `treatments` as the treatment unit mapping field\n    - Select `store ID` as the treatment unit identifier\n    - Select `right store ID` as the performance data unit identifier\n    - Select `week ending` as the reporting period date\n    - Select `spend customer` as the performance measure \n    - In the `Test Dates` tab, enter the experiment start date (October 15, 2011) and end date (March 17, 2012)\n- Right-click on the `A/B Controls` tool and select `add all browses`, then run the workflow\n",
+              "instructor_notes": ""
+            },
+            {
+              "id": 1055244,
+              "key": "528dbb39-a43d-496c-af8b-6ed89151b993",
+              "title": "Workflow",
+              "semantic_type": "ImageAtom",
+              "is_public": true,
+              "url": "https://video.udacity-data.com/topher/2020/August/5f3ecf9c_nd008t-c6-l3-c13/nd008t-c6-l3-c13.png",
+              "non_google_url": "https://s3.cn-north-1.amazonaws.com.cn/u-img/528dbb39-a43d-496c-af8b-6ed89151b993",
+              "caption": "",
+              "alt": "",
+              "width": 1461,
+              "height": 1021,
+              "instructor_notes": null
+            }
+          ]
+        },
+        {
+          "id": 186800,
+          "key": "d91ea8e8-4e1f-44ac-93fb-d1318a354e5c",
+          "title": "Interpreting Results",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "d91ea8e8-4e1f-44ac-93fb-d1318a354e5c",
+            "completed_at": null,
+            "last_viewed_at": null,
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 187273,
+              "key": "5be60742-9b72-49e1-98a5-af0082ca2467",
+              "title": "Interpreting Results",
+              "semantic_type": "VideoAtom",
+              "is_public": true,
+              "instructor_notes": "",
+              "video": {
+                "youtube_id": "_F2VrombQNw",
+                "china_cdn_id": "_F2VrombQNw.mp4"
+              }
+            }
+          ]
+        },
+        {
+          "id": 186801,
+          "key": "8116abe7-6239-42b5-88ba-5bfc9a0aae50",
+          "title": "Analyzing Matched Pair Design Quiz",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "8116abe7-6239-42b5-88ba-5bfc9a0aae50",
+            "completed_at": null,
+            "last_viewed_at": null,
+            "unstructured": null
+          },
+          "resources": {
+            "files": [
+              {
+                "name": "Matched Pair Analysis",
+                "uri": "http://video.udacity-data.com.s3.amazonaws.com/topher/2016/September/57d80e47_matchedpairanalysis/matchedpairanalysis.zip"
+              }
+            ],
+            "google_plus_link": null,
+            "career_resource_center_link": null,
+            "coaching_appointments_link": null,
+            "office_hours_link": null,
+            "aws_provisioning_link": null
+          },
+          "atoms": [
+            {
+              "id": 187160,
+              "key": "20c68fa2-32da-4ebf-916b-e58322123043",
+              "title": "Quiz",
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "# Applying Matched Pair Experiment Results\n\nNow that you have results, it's time to apply them to understand the impact if the product was implemented more broadly. \n\nYou can find all of the files in the zip file **Matched Pair Analysis**.zip",
+              "instructor_notes": ""
+            },
+            {
+              "id": 187161,
+              "key": "604f0061-9de5-469b-b69d-21a8a823a23f",
+              "title": "Quiz",
+              "semantic_type": "RadioQuizAtom",
+              "is_public": true,
+              "instructor_notes": null,
+              "user_state": {
+                "node_key": "604f0061-9de5-469b-b69d-21a8a823a23f",
+                "completed_at": null,
+                "last_viewed_at": null,
+                "unstructured": null
+              },
+              "question": {
+                "prompt": "Given the data in the file:  WeeklyCustomersPerStore.xlsx, and using data from 2010, including the week ending on 2011-1-1, what is the incremental impact to sales using a 6.4% lift per week per customer per store?\n\n* The files needed for this exercise are located in:  Matched Pair Analysis.zip at the bottom of this page.*",
+                "answers": [
+                  {
+                    "id": "rbk1",
+                    "text": "$83,462",
+                    "is_correct": true
+                  },
+                  {
+                    "id": "rbk2",
+                    "text": "$94,567",
+                    "is_correct": false
+                  },
+                  {
+                    "id": "rbk3",
+                    "text": "$105,222",
+                    "is_correct": false
+                  },
+                  {
+                    "id": "rbk4",
+                    "text": "$111,827",
+                    "is_correct": false
+                  }
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "id": 187162,
+          "key": "a8c4fbe9-2170-483f-9b4f-4cd4c3e2dc11",
+          "title": "Analyzing Matched Pair Design Solution",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "a8c4fbe9-2170-483f-9b4f-4cd4c3e2dc11",
+            "completed_at": null,
+            "last_viewed_at": null,
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 187291,
+              "key": "a41c581c-7e42-43ef-9bc9-a69c6916e7ed",
+              "title": "Analyzing Match Pair Design Solution",
+              "semantic_type": "VideoAtom",
+              "is_public": true,
+              "instructor_notes": "",
+              "video": {
+                "youtube_id": "Yu1TvQrWDm0",
+                "china_cdn_id": "Yu1TvQrWDm0.mp4"
+              }
+            },
+            {
+              "id": 1055245,
+              "key": "d457f8c8-d812-46fc-ac28-8931984ed3b6",
+              "title": "Workflow Steps",
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "### Workflow Steps\n\n- Use the `Input` tool to import the sales data\n- Use the `Filter` tool to filter for `week ending < January 2, 2011`, which will result in showing only data from 2010 up to the week ending on January 1, 2011\n- Use the `Formula` tool to multiply the weekly customer spend per store by 1.064 to calculate the 6.4% lift and a new value for weekly customer spend\n- Use the `Input` tool to import the weekly customers per store data\n- Use the `Join` tool to join the data on store ID and week ending value, then deselect the right values for both columns to avoid duplicates\n- Use the `Formula` tool to calculate the average spend per customer multiplied by the number of customers\n- Repeat step 6 to calculate the predicted new average spend per customer\n- Calculate the difference between the new and old values for total customer spend\n- Run the workflow\n- Use the `Summarize` tool to sum the total spend, new total spend, and difference \n- Run the workflow again to see the total sales amount in 2010, the predicted total sales amount had the new product been introduced, and the difference between those values\n",
+              "instructor_notes": ""
+            },
+            {
+              "id": 1055246,
+              "key": "6c8bd7b4-ce69-41a4-83d6-ba8122a242a1",
+              "title": "Workflow",
+              "semantic_type": "ImageAtom",
+              "is_public": true,
+              "url": "https://video.udacity-data.com/topher/2020/August/5f3ecf9d_nd008t-c6-l3-c16/nd008t-c6-l3-c16.png",
+              "non_google_url": "https://s3.cn-north-1.amazonaws.com.cn/u-img/6c8bd7b4-ce69-41a4-83d6-ba8122a242a1",
+              "caption": "",
+              "alt": "",
+              "width": 1461,
+              "height": 1021,
+              "instructor_notes": null
+            }
+          ]
+        },
+        {
+          "id": 192864,
+          "key": "7f338b8e-f33b-430d-bee4-9ef8d05c66b1",
+          "title": "Matched Pair Design Manual Walkthrough",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "7f338b8e-f33b-430d-bee4-9ef8d05c66b1",
+            "completed_at": null,
+            "last_viewed_at": null,
+            "unstructured": null
+          },
+          "resources": {
+            "files": [
+              {
+                "name": "AB Test Walkthrough Files",
+                "uri": "http://video.udacity-data.com.s3.amazonaws.com/topher/2016/October/57f56577_ab-test-walkthrough/ab-test-walkthrough.zip"
+              },
+              {
+                "name": "AB Test Flow",
+                "uri": "http://video.udacity-data.com.s3.amazonaws.com/topher/2016/October/57f54af2_ab-test-flow/ab-test-flow.png"
+              }
+            ],
+            "google_plus_link": null,
+            "career_resource_center_link": null,
+            "coaching_appointments_link": null,
+            "office_hours_link": null,
+            "aws_provisioning_link": null
+          },
+          "atoms": [
+            {
+              "id": 192867,
+              "key": "75823f00-79f3-49b1-bc23-a9c4541be190",
+              "title": "walkthrough",
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "## Walkthrough\n\nNow that you know how to conduct an A/B test in Alteryx, let's take a step back and talk about the manual process of how to analyze an A/B test using a spreadsheet software.\n\nThis is important to learn because this walkthrough will help you understand what Lift actually means when explaining your A/B test results. Furthermore, if you do not have access to software such as Alteryx, you can manually conduct your own A/B tests using a spreadsheet software.\n\n### Before You Start\n\nPlease consult with the image below to see the overall flow of how we're going to manually process our data to conduct our A/B test",
+              "instructor_notes": ""
+            },
+            {
+              "id": 195226,
+              "key": "1c80e566-8d91-4aca-a280-3d72e61693bb",
+              "title": "flow",
+              "semantic_type": "ImageAtom",
+              "is_public": true,
+              "url": "https://video.udacity-data.com/topher/2016/October/57f54af2_ab-test-flow/ab-test-flow.png",
+              "non_google_url": "https://s3.cn-north-1.amazonaws.com.cn/u-img/1c80e566-8d91-4aca-a280-3d72e61693bb",
+              "caption": "These are the main steps that need to be done in order to calculate significance and lift for a matched-pair A/B test.",
+              "alt": null,
+              "width": 1323,
+              "height": 1869,
+              "instructor_notes": null
+            },
+            {
+              "id": 195231,
+              "key": "c0d85d67-400c-4c0f-af4a-900e71b80a6e",
+              "title": "before",
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "Before we begin, please download the *AB Test - Walkthrough.zip* file at the bottom of this page. This will contain the sales data that we will go through together.\n\nThe data will contain sales data for some stores along with their pairings along with an Alteryx workflow to help you confirm our calculations in our spreadsheet software.\n\nFurthermore, please download the *A/B Test Flow.pdf* file to help you determine where you are at any stage of this walkthrough so you will not get lost in the steps.",
+              "instructor_notes": ""
+            },
+            {
+              "id": 195234,
+              "key": "3ae92e0e-042f-465c-9b89-281e34976d87",
+              "title": "assumptions",
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "## Assumptions\n\nWe assume that you have access to a spreadsheet software such as Microsoft Excel or Google Spreadsheets. You are also familiar with the `vlookup` function and aggregating data using pivot tables. If you're stuck on trying to figure out how to manipulate the data in a spreadsheet, please refer to the *sales-solution.xlsx* file to help give you hints as you walk through these steps.",
+              "instructor_notes": ""
+            },
+            {
+              "id": 195235,
+              "key": "ac45ea56-c820-4cae-b910-72841d3f88ef",
+              "title": "Data Cleanup",
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "## Data Cleanup Stage\n\nReferencing the flow document, we first need to clean up the data by \n\n* scrubbing out any outliers\n* getting rid of stores with missing data\n* matching control stores to treatment stores\n* selecting the appropriate comparable period\n\nFor simplicity in this walkthrough, we assume that we've already completed this stage. Please take a moment and look at *sales-raw.xlsx* and explore the cleaned-up data.",
+              "instructor_notes": ""
+            },
+            {
+              "id": 195236,
+              "key": "0daa2b9d-d2b9-42fe-94b9-35d456681a85",
+              "title": "Calculate Growth Stage",
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "## Calculate Growth Stage\n\nWe now need to move on and calculate the actual sales growth for each week against each store's average sales for the entire comparable period.\n\nThe reason why we do this is to use one single comparable number to calculate growth from. This single comparable number acts as our base denominator and will not change per week allowing us to have comparable growth numbers each week for each store.\n\nTherefore:\n\n### Step 1\n\nOpen the *sales-raw.xlsx* workbook and calculate the sales growth in the **Step 1** worksheet. You should create a pivot table to calculate the average sales in the comparable period for each store.\n\nCalculate growth by using the formula:\n\n`(current_week_sales - avg_sales_comp) / avg_sales_comp`\n\nfor each week for each store.\n\nPlease consult with the *sales-solution.xlsx* file if you need hints.",
+              "instructor_notes": ""
+            },
+            {
+              "id": 195237,
+              "key": "322ffb5a-8b2b-4377-8285-905c2fa34589",
+              "title": "Match Stores_1",
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "## Matching Up Stores Stage\n\nLet's move down the flow and notice that we have two tasks that need to be done\n\n* Average the growth by testing and comparable period\n* Create store list for significance testing\n\nin order to \n\n* Calculate the growth difference between test and comparable period for each store in the next stage\n\nTherefore:\n\n### Step 2\n\nGo to the **Step 2** worksheet and create a pivot table and average the growth by period. There should be two columns that contain an average for the comparable period and the average growth for the test period.\n\n### Step 3\n\nGo to the **Step 3** worksheet  and create a reference worksheet that lists each store along with the appropriate treatment pairing. Please make sure to add in the treatment stores as well in this list. Here is a screenshot of what the data could look like.\n\n",
+              "instructor_notes": ""
+            },
+            {
+              "id": 195241,
+              "key": "e974f3fc-41c7-42ce-980a-ff6fe53aa541",
+              "title": "screenshot",
+              "semantic_type": "ImageAtom",
+              "is_public": true,
+              "url": "https://video.udacity-data.com/topher/2016/October/57f55c3c_capture/capture.png",
+              "non_google_url": "https://s3.cn-north-1.amazonaws.com.cn/u-img/e974f3fc-41c7-42ce-980a-ff6fe53aa541",
+              "caption": "",
+              "alt": null,
+              "width": 1069,
+              "height": 190,
+              "instructor_notes": null
+            },
+            {
+              "id": 195242,
+              "key": "d98520b0-b4e4-4add-8a60-5777371b14ff",
+              "title": "Match Stores_2",
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "**Note**\n\nThere are some control stores that are listed several times in a row such as **Store #776**. This store serves as a control store for several treatment stores and the growth difference for this store should carry more weight in our significance calculation. \n\nTherefore if a store is a control for several treatment stores, we need to make sure that we count this store several times. In the case of **Store #776**, this store is listed six times because it serves as a control store for six treatment stores.\n\n### Step 4\n\nGo to the **Step 4** worksheet and copy the contents of **Step 3** and create vlookups to look up the average growth for the comparable and test period for each store in the **Step 2** worksheet.\n\nPlease consult with the *sales-solution.xlsx* file if you need hints.",
+              "instructor_notes": ""
+            },
+            {
+              "id": 195238,
+              "key": "65eea5b5-b0ff-46b1-af0b-e4ee9142b120",
+              "title": "Difference",
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "## Difference Stage\n\nWe are now ready to take the growth difference between the test period and comparable period for each store. This is the crucial data that we want in order to calculate whether the growth difference between the test and control group of stores is significant.\n\nThe growth difference will be crucial data for us to calculate lift as well.\n\nTherefore:\n\n### Step 5\n\nCopy the contents from the **Step 4** worksheet and subtract the average growth in the test period from the average growth in the comparable period for each store.\n\nPlease consult with the *sales-solution.xlsx* file if you need hints.",
+              "instructor_notes": ""
+            },
+            {
+              "id": 195239,
+              "key": "9bc68bcb-b2e2-48f4-af83-afe071e8b8a6",
+              "title": "Lift and Significance",
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "## Calculate Lift and Significance Stage\n\n### Calculate Significance\n\nWe know have the growth difference for each store and now we can proceed to calculate the p-value for a Welch's T-test. Make sure to sort the data by `Type` in the worksheet and \n\nPlug in the formula for a Two-Tailed Welch's T-test in cell L3 in the **Step 5** worksheet. For reference, this is the Excel formula for a Two-Tailed Welch's T-test:\n\n`=T.TEST(range_of_test_group,range_of_control_group,2,3)`\n\nThe p-value should be: **.22** with a significance level of **77.8%**\n\n### Calculate Lift\n\nThe last step involves calculating lift from the growth difference. Lift is defined as the percent growth between the growth difference of a treatment store and its corresponding control store.\n\n`Lift = (Growth_Diff_Treatment_Store - Growth_Diff_Control_Store) / (1 + Growth_Diff_Control_Store)`\n\n**Note**: The reason why we add a number 1 in the denominator is because we're calculating a percent growth off a growth difference number which is merely a percentage difference. We need a percent gain number (ex: 1.20 instead of .20) to have a proper denominator for the lift calculation.\n\nOnce we get the lift number for each treatment store and its corresponding control stores, we take the average sales from the comparable period and multiple the average sales to get an average sales impact.\n\nTherefore:\n\n### Step 6\n\nCreate a list with each treatment and control pairing and lookup the growth difference for each corresponding treatment and control store.\n\nCalculate the lift and expected sales impact for each row.\n\nAverage the lift and expected sales impact.\n\nThe average lift should be **-1.6%** and the average sales impact should be **-$122.4**\n\n\n\nPlease consult with the *sales-solution.xlsx* file if you need hints.",
+              "instructor_notes": ""
+            },
+            {
+              "id": 195243,
+              "key": "5e402cef-9700-42c0-bbd7-fb3fba888c03",
+              "title": "confirm",
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "## Confirmation\n\nRun the Alteryx workflow to confirm the results from our manual calculation.",
+              "instructor_notes": ""
+            },
+            {
+              "id": 195244,
+              "key": "7b9a6f67-8831-4a7c-ab9b-c1ed67b15760",
+              "title": "confirm",
+              "semantic_type": "ImageAtom",
+              "is_public": true,
+              "url": "https://video.udacity-data.com/topher/2016/October/57f56169_capture/capture.png",
+              "non_google_url": "https://s3.cn-north-1.amazonaws.com.cn/u-img/7b9a6f67-8831-4a7c-ab9b-c1ed67b15760",
+              "caption": "AB Test results from Alteryx",
+              "alt": null,
+              "width": 1784,
+              "height": 478,
+              "instructor_notes": null
+            }
+          ]
+        },
+        {
+          "id": 186802,
+          "key": "26438255-0bb6-41b5-a6e2-60c6b27edf52",
+          "title": "Conclusion",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "26438255-0bb6-41b5-a6e2-60c6b27edf52",
+            "completed_at": null,
+            "last_viewed_at": null,
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 187274,
+              "key": "3b3ac156-69ed-4cb8-8278-cddb71e6bed8",
+              "title": "Conclusion",
+              "semantic_type": "VideoAtom",
+              "is_public": true,
+              "instructor_notes": "",
+              "video": {
+                "youtube_id": "1nzcoMK5Wj4",
+                "china_cdn_id": "1nzcoMK5Wj4.mp4"
+              }
+            }
+          ]
+        },
+        {
+          "id": 310726,
+          "key": "333ec140-090c-4474-95a2-560aa2af987b",
+          "title": "Learning Summary",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "333ec140-090c-4474-95a2-560aa2af987b",
+            "completed_at": null,
+            "last_viewed_at": null,
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 310727,
+              "key": "0e1e26b5-291f-4ac1-b944-cadb44c70774",
+              "title": "Untitled",
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "# Learning Summary\n\nThe purpose of this learning summary is to provide the high level steps to build and use AB Testing to make a business decision. Along the side are suggested Alteryx tools to use while implementing the model. \n\n<center><a href=\"https://d17h27t6h515a5.cloudfront.net/topher/2017/May/591944ac_08.abtestingplaybook/08.abtestingplaybook.pdf\" target=\"_blank\"><button style=\"box-sizing: border-box; border-radius: 4px; background: #02B3E4; border: none; height: 44px; padding: 0 25px; color: white; cursor: pointer; font-family: Open Sans,sans-serif; display: inline-block; border: none; font-size: 12px; letter-spacing: 1px; font-weight: 600; text-transform: uppercase;\">AB Testing Playbook</button></a></center>\n<br>\n<center><iframe src=\"https://docs.google.com/document/d/1C1aQFdcEagtcI3n5ZT5QdIcTJbjfyEJxUPv9fim2EbQ/pub?embedded=true\" width=\"700\" height=\"500\">\n</iframe></center>",
+              "instructor_notes": ""
+            }
+          ]
+        },
+        {
+          "id": 455414,
+          "key": "86e4bc1c-a46a-4be9-85e6-c47508f70c93",
+          "title": "Paired T-test Quiz",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "86e4bc1c-a46a-4be9-85e6-c47508f70c93",
+            "completed_at": null,
+            "last_viewed_at": null,
+            "unstructured": null
+          },
+          "resources": {
+            "files": [
+              {
+                "name": "Super Hero Data Matched",
+                "uri": "http://video.udacity-data.com.s3.amazonaws.com/topher/2016/September/57d7fd08_superherodata-matched/superherodata-matched.xlsx"
+              },
+              {
+                "name": "Super Hero Data Matched Solution",
+                "uri": "http://video.udacity-data.com.s3.amazonaws.com/topher/2016/September/57d80da4_superherodata-matched-solution/superherodata-matched-solution.xlsx"
+              }
+            ],
+            "google_plus_link": null,
+            "career_resource_center_link": null,
+            "coaching_appointments_link": null,
+            "office_hours_link": null,
+            "aws_provisioning_link": null
+          },
+          "atoms": [
+            {
+              "id": 452173,
+              "key": "580ac843-4c08-484c-866e-18c117797f5a",
+              "title": "Quiz",
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "# Running a Paired T-test in a Spreadsheet\n\nTo practice running a t-test, open up the **Super Hero Data Matched** at the end of the page. In that data set, you'll see five superheroes and five super villains. Each super hero is matched with the corresponding rival.\n\nOn average, the villains appear to be smarter and the heroes appear to be stronger. A t-test can tell us whether the differences in intelligence and strength are statistically significant. \n\nTry it on your own. If you get stuck, take a look at the **Super Hero Data Matched Solution** file. ",
+              "instructor_notes": ""
+            },
+            {
+              "id": 452174,
+              "key": "ee01a903-7d57-46e3-b1da-8cc577b80585",
+              "title": "Unmatched",
+              "semantic_type": "RadioQuizAtom",
+              "is_public": true,
+              "instructor_notes": null,
+              "user_state": {
+                "node_key": "ee01a903-7d57-46e3-b1da-8cc577b80585",
+                "completed_at": null,
+                "last_viewed_at": null,
+                "unstructured": null
+              },
+              "question": {
+                "prompt": "Run a test on the strength and intelligence of the heroes vs. the villains. Use a two-tailed, two-sample equal variance test. Are the differences between the heroes and villains statistically significant?",
+                "answers": [
+                  {
+                    "id": "rbk1",
+                    "text": "Intelligence: no, Strength: no",
+                    "is_correct": true
+                  },
+                  {
+                    "id": "rbk2",
+                    "text": "Intelligence: yes, Strength: no",
+                    "is_correct": false
+                  },
+                  {
+                    "id": "rbk3",
+                    "text": "Intelligence: no, Strength: yes",
+                    "is_correct": false
+                  },
+                  {
+                    "id": "rbk4",
+                    "text": "Intelligence: yes, Strength: yes",
+                    "is_correct": false
+                  }
+                ]
+              }
+            },
+            {
+              "id": 452175,
+              "key": "25a30e3c-b191-487e-b33e-65693e260a96",
+              "title": "Matched",
+              "semantic_type": "RadioQuizAtom",
+              "is_public": true,
+              "instructor_notes": null,
+              "user_state": {
+                "node_key": "25a30e3c-b191-487e-b33e-65693e260a96",
+                "completed_at": null,
+                "last_viewed_at": null,
+                "unstructured": null
+              },
+              "question": {
+                "prompt": "Now run a paired t-test on the strength and intelligence of the heroes vs. the villains. This test compares each hero/villain pair individually rather than collectively. Continue using a two-tailed test. Now are the differences between the heroes and villains statistically significant?",
+                "answers": [
+                  {
+                    "id": "rbk1",
+                    "text": "Intelligence: no, Strength: no",
+                    "is_correct": false
+                  },
+                  {
+                    "id": "rbk2",
+                    "text": "Intelligence: yes, Strength: no",
+                    "is_correct": false
+                  },
+                  {
+                    "id": "rbk3",
+                    "text": "Intelligence: no, Strength: yes",
+                    "is_correct": true
+                  },
+                  {
+                    "id": "rbk4",
+                    "text": "Intelligence: Yes, Strength: yes",
+                    "is_correct": false
+                  }
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "id": 1055248,
+          "key": "f95136c5-c9ea-4ffb-a6ce-8182a587e5d0",
+          "title": "Glossary",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "f95136c5-c9ea-4ffb-a6ce-8182a587e5d0",
+            "completed_at": null,
+            "last_viewed_at": null,
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 1059445,
+              "key": "28b3dacb-eacb-49f2-823d-b32b3d40db8e",
+              "title": null,
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "## Glossary\n\n**Matched pair design experiment:** An experiment in which treatment and control groups are set up by matching on a unit-by-unit basis using a set of control variables.\n\n**Matched pairing:** The process of matching each treatment unit to one or more control units, based on their similarity across the set of control variables.\n\n**Significance level:** 1 - p-value, used to indicate the likelihood that the results of an experiment are significant (>= 95%).",
+              "instructor_notes": ""
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "_deprecated": [
+    {
+      "name": "non_google_url",
+      "reason": "(2016/8/18) Not sure, ask i18n team for reason"
+    },
+    {
+      "name": "non_google_url",
+      "reason": "(2016/8/18) Not sure, ask i18n team for reason"
+    },
+    {
+      "name": "non_google_url",
+      "reason": "(2016/8/18) Not sure, ask i18n team for reason"
+    },
+    {
+      "name": "non_google_url",
+      "reason": "(2016/8/18) Not sure, ask i18n team for reason"
+    },
+    {
+      "name": "non_google_url",
+      "reason": "(2016/8/18) Not sure, ask i18n team for reason"
+    },
+    {
+      "name": "non_google_url",
+      "reason": "(2016/8/18) Not sure, ask i18n team for reason"
+    },
+    {
+      "name": "non_google_url",
+      "reason": "(2016/8/18) Not sure, ask i18n team for reason"
+    }
+  ]
+}

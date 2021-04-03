@@ -1,0 +1,319 @@
+{
+  "data": {
+    "lesson": {
+      "id": 680865,
+      "key": "48312ab7-ffe9-415c-9cf1-7598f96bb361",
+      "title": "A/B Test a New Menu Launch",
+      "semantic_type": "Lesson",
+      "is_public": true,
+      "version": "1.0.0",
+      "locale": "en-us",
+      "summary": "A chain of coffee shops is considering launching a new menu. You will design and analyze an A/B test and write up a recommendation on whether the chain should introduce the new menu.",
+      "lesson_type": "Classroom",
+      "display_workspace_project_only": false,
+      "resources": null,
+      "project": {
+        "key": "8a7ea8f4-a204-49e9-b853-3c3b7c03666d",
+        "version": "1.0.0",
+        "locale": "en-us",
+        "duration": 24480,
+        "semantic_type": "Project",
+        "title": "A/B Test a New Menu Launch",
+        "description": "After completing the project by filling out the submission template and reviewing it using the [project rubric](https://review.udacity.com/#!/rubrics/287/view), click the Submit Project button below and upload your submission.\n\nYou may include your Alteryx workflow if you'd like. If your submission does not meet specifications, having the workflow may help the review identify mistakes.\n",
+        "is_public": true,
+        "summary": null,
+        "forum_path": "c/nd008-bizand-a-b-testing/band-project-5",
+        "rubric_id": "287",
+        "terminal_project_id": "",
+        "resources": null,
+        "image": null
+      },
+      "lab": null,
+      "concepts": [
+        {
+          "id": 160370,
+          "key": "29c895ed-8149-4013-b3df-faa2c13fbdc7",
+          "title": "Project Overview",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "29c895ed-8149-4013-b3df-faa2c13fbdc7",
+            "completed_at": null,
+            "last_viewed_at": null,
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 160371,
+              "key": "4730890f-e1bf-4678-bdd4-40f2b9c64543",
+              "title": "overview",
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "### Project Overview\n\nYou're a business analyst for Round Roasters, a coffee restaurant in the United States of America. The executive team conducted a market test with a new menu and needs to figure whether the new menu can drive enough sales to offset the cost of marketing the new menu. Your job is to analyze the A/B test and write up a recommendation to whether the Round Roasters chain should launch this new menu.\n\n#### How Do I Complete this Project?\n\nThis project uses skills learned throughout the \"A/B Testing ” course. To complete this project:\n\n* Go through the course\n* Apply the skills learned in the course to solve the business problem given in the project details section. \n* Use our guidelines and rubric to help build your project.\n* When you're ready, submit it to us for review using the submission template found in the supporting materials section.\n\n#### Skills Required\n\nIn order to complete this project, you must be able to:\n\n* Cleanup, format, and blend a wide range of data sources\n* Plan and analyze A/B tests\n",
+              "instructor_notes": ""
+            }
+          ]
+        },
+        {
+          "id": 181619,
+          "key": "b793edbe-f56b-492b-b42a-88b06a7f1b92",
+          "title": "Project Details",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "b793edbe-f56b-492b-b42a-88b06a7f1b92",
+            "completed_at": null,
+            "last_viewed_at": null,
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 182706,
+              "key": "ce5b8246-b3a2-444f-98e3-dc350532929c",
+              "title": "details",
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "### The Business Problem\n\nRound Roasters is an upscale coffee chain with locations in the western United States of America.  The past few years have resulted in stagnant growth at the coffee chain, and a new management team was put in place to reignite growth at their stores.\n\nThe first major growth initiative is to introduce gourmet sandwiches to the menu, along with limited wine offerings. The new management team believes that a television advertising campaign is crucial to drive people into the stores with these new offerings. \n\nHowever, the television campaign will require a significant boost in the company’s marketing budget, with an unknown return on investment ([ROI](http://www.investopedia.com/terms/r/returnoninvestment.asp)).  Additionally, there is concern that current customers will not buy into the new menu offerings.\n\nTo minimize risk, the management team decides to test the changes in two cities with new television advertising. Denver and Chicago cities were chosen to participate in this test because the stores in these two cities (or markets) perform similarly to all stores across the entire chain of stores; performance in these two markets would be a good proxy to predict how well the updated menu performs.  \n\nThe test ran for a period of 12 weeks (2016-April-29 to 2016-July-21) where five stores in each of the test markets offered the updated menu along with television advertising.\n\nThe comparative period is the test period, but for last year (2015-April-29 to 2015-July-21).\n\nYou’ve been asked to analyze the results of the experiment to determine whether the menu changes should be applied to all stores.  The predicted impact to profitability should be enough to justify the increased marketing budget: at least 18% increase in profit growth compared to the comparative period while compared to the control stores; otherwise known as *incremental lift*. In the data, profit is represented in the *gross_margin* variable.\n\nYou have been able to gather three data files to use for your analysis:\n\n* Transaction data for all stores from 2015-January-21 to 2016-August-18\n* A listing of all Round Roasters stores\n* A listing of the 10 stores (5 in each market) that were used as test markets.\n\n### Steps to Success\n\n#### Step 1: Plan Your Analysis\n\nTo perform the correct analysis, you will need to prepare a data set. Prior to rolling up your sleeves and preparing the data, it’s a good idea to have a plan of what you need to do in order to prepare the correct data set.  A good plan will help you with your analysis. Here are a few questions to get you started:\n* What is the performance metric you’ll use to evaluate the results of your test?\n* What is the test period?\n* At what level (day, week, month, etc.) should the data be aggregated? \n\n#### Step 2: Clean Up Your Data\n\nIn this step, you should prepare the data for steps 3 and 4. You should aggregate the transaction data to the appropriate level and filter on the appropriate data ranges. You can assume that there is no missing, incomplete, duplicate, or dirty data. You’re ready to move on to the next step when you have weekly transaction data for all stores.\n\n#### Step 3: Match Treatment and Control Units\n\nIn this step, you should create the trend and seasonality variables, and use them along with you other control variable(s) to match two control units to each treatment unit. Treatment stores should be matched to control stores in the same region. *Note: Calculate the number of transactions per store per week and use 12 periods to calculate trend and seasonality.*\n\nApart from trend and seasonality... \n* What control variables should be considered? Note: Only consider variables in the RoundRoastersStore file.\n* What is the correlation between your each potential control variable and your performance metric? (Example of correlation matrix below)\n* What control variables will you use to match treatment and control stores?\n\n#### Step 4: Analysis and Writeup\n\nConduct your A/B analysis and create a short report outlining your results and recommendations. ",
+              "instructor_notes": ""
+            },
+            {
+              "id": 331152,
+              "key": "1230dc8c-e5a3-4291-a388-475a151101fc",
+              "title": null,
+              "semantic_type": "ImageAtom",
+              "is_public": true,
+              "url": "https://video.udacity-data.com/topher/2017/June/5942f7b4_capture1/capture1.png",
+              "non_google_url": "https://s3.cn-north-1.amazonaws.com.cn/u-img/1230dc8c-e5a3-4291-a388-475a151101fc",
+              "caption": "",
+              "alt": null,
+              "width": 607,
+              "height": 168,
+              "instructor_notes": null
+            },
+            {
+              "id": 331155,
+              "key": "2c75caa7-0bfc-46ab-b86f-b87415d9f585",
+              "title": null,
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "In an AB Analysis we use the correlation matrix to find the most correlated variable to the performance metric to include in the AB controls tool to help find the best matches.",
+              "instructor_notes": ""
+            }
+          ]
+        },
+        {
+          "id": 181620,
+          "key": "eb6f413a-53c4-40f6-bd03-3e4c31f7293e",
+          "title": "Supporting Materials",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "eb6f413a-53c4-40f6-bd03-3e4c31f7293e",
+            "completed_at": null,
+            "last_viewed_at": null,
+            "unstructured": null
+          },
+          "resources": {
+            "files": [
+              {
+                "name": "Round Roaster Stores",
+                "uri": "http://video.udacity-data.com.s3.amazonaws.com/topher/2016/September/57e314da_round-roaster-stores/round-roaster-stores.csv"
+              },
+              {
+                "name": "Treatment Stores",
+                "uri": "http://video.udacity-data.com.s3.amazonaws.com/topher/2016/September/57e314ee_treatment-stores/treatment-stores.csv"
+              },
+              {
+                "name": "Round Roaster Transactions Database",
+                "uri": "http://video.udacity-data.com.s3.amazonaws.com/topher/2016/September/57e31510_round-roaster-transactions/round-roaster-transactions.zip"
+              },
+              {
+                "name": "AB Test Guide",
+                "uri": "http://video.udacity-data.com.s3.amazonaws.com/topher/2017/January/5879551f_ab-test-guide/ab-test-guide.pdf"
+              },
+              {
+                "name": "P5 Submission Template",
+                "uri": "https://video.udacity-data.com/topher/2018/February/5a81e57e_p5submissiontemplate-1.17.17-1-1/p5submissiontemplate-1.17.17-1-1.docx"
+              },
+              {
+                "name": "All Project Files",
+                "uri": "https://video.udacity-data.com/topher/2018/February/5a81e605_p5-project-files/p5-project-files.zip"
+              }
+            ],
+            "google_plus_link": null,
+            "career_resource_center_link": null,
+            "coaching_appointments_link": null,
+            "office_hours_link": null,
+            "aws_provisioning_link": null
+          },
+          "atoms": [
+            {
+              "id": 182707,
+              "key": "8dc54348-f434-4ca1-be32-3ae1eab0deb2",
+              "title": "sm",
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "### Review\n\nUse the [project rubric](https://review.udacity.com/#!/rubrics/287/view) to review your project. If you are happy with your submission, then you're ready to submit your project. If you see room for improvement, keep working to improve your project.\n\n### A/B Test Guide\n\nThe A/B test guide can help you map out the process you'll need to go through to complete an A/B test. This will be useful for the project, as well as any A/B tests you do in a professional setting.\n\n### Submission Template\n\nUse the submission template at the bottom of this section to submit your project.  After filling it out, save it as a PDF and submit the PDF in the next section. You may also include your Alteryx workflow if you'd like. If your submission does not meet specifications, having the workflow may help the review identify mistakes.\n\n#### Data\n\n*round-roaster-stores.csv* - This file contains store information for each Round Roaster store in the USA.\n\n*treatment-stores.csv* - This file contains store information for each store that offered the new menu items.\n\n*round-roaster-transactions.zip* - This file contains transaction level information for all of Round Roaster's stores",
+              "instructor_notes": ""
+            },
+            {
+              "id": 310686,
+              "key": "d01773eb-9b69-470f-a2d1-c65944b6ec4e",
+              "title": "Project Checklist",
+              "semantic_type": "TaskListAtom",
+              "is_public": true,
+              "instructor_notes": null,
+              "user_state": {
+                "node_key": "d01773eb-9b69-470f-a2d1-c65944b6ec4e",
+                "completed_at": null,
+                "last_viewed_at": null,
+                "unstructured": null
+              },
+              "tasks": [
+                "The lift in my project for each Central and West is between 30-50%",
+                "The significance in my project for each Central and West is above 85%",
+                "Showed the correlation between each potential control variable and the performance metric",
+                "I checked the rubric https://review.udacity.com/#!/rubrics/287/view",
+                "I have gone to the Knowledge or Study Groups before submitting"
+              ],
+              "positive_feedback": "Great! You should be very prepared to submit your project.",
+              "video_feedback": null,
+              "description": "This is here to make it easier for you to assess if your project is close to passing so you can try debugging your workflow and project before submission. If you do not feel confident in the topics addressed please review the course material or reach out on Knowledge or Study Groups!"
+            },
+            {
+              "id": 310687,
+              "key": "22d9c177-4c14-4460-aaa3-de9849a35619",
+              "title": null,
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "If your Lift or Significance levels are not within the ranges stated above, please review your workflow. There may be a small detail missed somewhere causing the error.\n\n* Forums: https://knowledge.udacity.com\n* Study Groups",
+              "instructor_notes": ""
+            },
+            {
+              "id": 269164,
+              "key": "094741c6-7964-47a1-a600-b86d45217180",
+              "title": null,
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "**To Download Files below please right click on the link and select \"Save Link As\"**",
+              "instructor_notes": ""
+            }
+          ]
+        },
+        {
+          "id": 181621,
+          "key": "34b05272-fad0-4aaf-99ed-687beb1f1336",
+          "title": "Tips",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "34b05272-fad0-4aaf-99ed-687beb1f1336",
+            "completed_at": null,
+            "last_viewed_at": null,
+            "unstructured": null
+          },
+          "resources": {
+            "files": [
+              {
+                "name": "Debugging Alteryx",
+                "uri": "https://video.udacity-data.com/topher/2019/June/5d14ccb2_debugging-alteryx/debugging-alteryx.pdf"
+              }
+            ],
+            "google_plus_link": null,
+            "career_resource_center_link": null,
+            "coaching_appointments_link": null,
+            "office_hours_link": null,
+            "aws_provisioning_link": null
+          },
+          "atoms": [
+            {
+              "id": 182710,
+              "key": "7a1a3435-bf54-4881-a8ac-4e3b0dcd37b5",
+              "title": "tips",
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "#### Aggregate and Export\n\nWe recommend you save your aggregated transaction database as a separate file to further reduce your development time. You shouldn't need to re-aggregate the transaction database every time you want to test out a new workflow.\n\n#### Creating a week variable\n\nWhen calculating the week column, assign week 1 to the first week of the test period, so the week_begin variable for week 1 would be your test start date. This will cause weeks prior to the test period to be negative, which is perfectly fine. See [here](https://classroom.udacity.com/nanodegrees/nd008-ent/parts/840e51ff-4c1b-41bd-bc02-0a659921b756/modules/bbde5353-d851-4624-bca9-75e8a07e6f10/lessons/ee1d5344-e0f5-41bd-90af-30695d0458a8/concepts/e93ee789-fb71-486c-8b0f-cd0de9b080e0) . If the first link doesn't work, please click [here](https://help.alteryx.com/current/Formula.htm) for an example of how to calculate the week variable using a formula tool in Alteryx.\n\n#### Number of Weeks\nThe trend tool is used to create trend and seasonality variables to use as control variables. To do this, you need at least 52 weeks of data, plus the number of weeks you select in the tool to calculate trend, before the beginning of the test start date. In lesson 4, you used 6 weeks to calculate the trend, so you needed 58 weeks prior to the test start date. For the project, you are asked to use 12 weeks to calculate trend, so you'll need 64 weeks of data prior to the test start date. Since the test lasts for 12 weeks, this means you'll need a total `76 weeks` of data. \n\nYour filter at the beginning of your workflow should go back 76 weeks from the end of the test period 2016-July-21. In Alteryx the expression shuold look like `[Invoice Date]>=\"2015-02-06\" AND [Invoice Date]<\"2016-07-22\"`\n\nAll stores should have 76 weeks of Data.\n\n### AB Trend Tool\nThe Test start date is 2016-April-29\n\nThe performance metric for this tool is the invoice count per week which represent weekly foot traffic. You had to create this variable with a summarize tool.\n\n### AB Controls Tool\nYou should use 3 numeric measures to match treatment and control stores. \n1. Trend \n2. Seasonality\n3. AvgMonthSales (This should be determined by looking at the correlation between the appropriate numeric variables in the round roasters stores file AvgMonthSales and Sq_ft with the performance metric gross margin.) - This variable is in the round-roaster-stores.csv file\n\n### AB Analysis Tool\nMake sure to use `weekly gross margin` per store in all lift calculations and not total sales. Your data has gross margin in it but you will have to use a summarize tool to get weekly gross margin per store.\n\n\n### Steps\n1. Filter the data to the proper date range\n2. Aggregate the data to get the weekly gross margin and weekly traffic count (count of unique invoices)\n3. Calculate Trend and Seasonality with the AB Trend Tool\n4. Label the data as treatment and control stores\n5. Calculate correlation between other numeric measures and the performance metric (gross margin)\n6. Match Treatment to control stores per region using the AB Controls Tool\n7. Calculate lift from control to treatment store with AB Analysis tool",
+              "instructor_notes": ""
+            },
+            {
+              "id": 300265,
+              "key": "10997c3b-70bc-40a4-ab2f-9bfe5448d5b6",
+              "title": null,
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "If you run into errors in Alteryx or unexpected results from a tool we have a guide to help you figure out what is going on. \n\n**Alteryx Debugging Guide:**\nSee the Resources tab in the left most panel of your classroom for a downloadable PDF of the Alteryx Debugging Guide\n\n[Google Doc](https://docs.google.com/document/d/1ec7SiDCMAZAMjbPvL3aegPoL1PZznHarsxEZ4bjptdI/edit?usp=sharing) Please note: If you are accessing Udacity via a corporate internet network or have certain settings on your computer, you may not be able to see the Google Doc, please see the resources tab instead. ",
+              "instructor_notes": ""
+            },
+            {
+              "id": 297530,
+              "key": "c1b1bc18-7ce1-49fb-b312-1366ad8e8226",
+              "title": null,
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "Forum: https://knowledge.udacity.com/",
+              "instructor_notes": ""
+            }
+          ]
+        },
+        {
+          "id": 331178,
+          "key": "ca6db339-171e-4691-8dfd-e870d4e1b732",
+          "title": "Verify Project Answer",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "ca6db339-171e-4691-8dfd-e870d4e1b732",
+            "completed_at": null,
+            "last_viewed_at": null,
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 331190,
+              "key": "b7d69e9c-ca07-4dfd-895b-c33f97d4fd81",
+              "title": "Aggregating your data",
+              "semantic_type": "RadioQuizAtom",
+              "is_public": true,
+              "instructor_notes": null,
+              "user_state": {
+                "node_key": "b7d69e9c-ca07-4dfd-895b-c33f97d4fd81",
+                "completed_at": null,
+                "last_viewed_at": null,
+                "unstructured": null
+              },
+              "question": {
+                "prompt": "How many transactions did you get for Store 10018 in the week starting 2015-02-06? (This is YYYY-MM-DD format, you might have a different date format)",
+                "answers": [
+                  {
+                    "id": "a1497566171277",
+                    "text": "552",
+                    "is_correct": false
+                  },
+                  {
+                    "id": "a1497566215760",
+                    "text": "308",
+                    "is_correct": true
+                  },
+                  {
+                    "id": "a1497566226021",
+                    "text": "Anything Else",
+                    "is_correct": false
+                  }
+                ]
+              }
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "_deprecated": [
+    {
+      "name": "non_google_url",
+      "reason": "(2016/8/18) Not sure, ask i18n team for reason"
+    }
+  ]
+}

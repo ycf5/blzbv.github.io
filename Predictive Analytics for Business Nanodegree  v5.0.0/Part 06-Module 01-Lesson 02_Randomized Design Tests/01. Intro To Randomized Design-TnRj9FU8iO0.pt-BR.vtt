@@ -1,0 +1,112 @@
+WEBVTT
+Kind: captions
+Language: pt-BR
+
+00:00:00.334 --> 00:00:03.000
+Bem-vindo à 2ª aula
+sobre testes A/B.
+
+00:00:03.033 --> 00:00:06.367
+Nesta aula, vamos explicar
+em detalhes a configuração,
+
+00:00:06.400 --> 00:00:07.934
+a execução e a análise
+
+00:00:07.968 --> 00:00:10.300
+de um experimento
+de delineamento aleatório.
+
+00:00:10.334 --> 00:00:13.300
+Na aula passada, explicamos
+que o delineamento aleatório
+
+00:00:13.334 --> 00:00:15.601
+é uma técnica em que as unidades
+de tratamento e controle
+
+00:00:15.634 --> 00:00:17.934
+são selecionados de forma
+totalmente aleatória.
+
+00:00:17.968 --> 00:00:20.667
+Esta técnica é usada
+basicamente em situações
+
+00:00:20.701 --> 00:00:23.868
+em que há pouca chance
+de controlar variáveis
+
+00:00:23.901 --> 00:00:26.666
+e em que o volume e a velocidade
+dos dados são altos o bastante
+
+00:00:26.699 --> 00:00:29.200
+para não nos preocuparmos
+com o enviesamento.
+
+00:00:29.234 --> 00:00:33.100
+Durante esta aula, vamos realizar
+o seguinte experimento.
+
+00:00:33.133 --> 00:00:36.267
+Imagine que você é um analista
+para uma grande rede de varejo.
+
+00:00:36.300 --> 00:00:38.934
+Um dos principais objetivos
+da empresa é fazer os clientes
+
+00:00:38.968 --> 00:00:40.601
+baixarem seu aplicativo
+para celular
+
+00:00:40.634 --> 00:00:43.100
+e se registrarem
+no programa de fidelidade.
+
+00:00:43.133 --> 00:00:45.334
+Uma maneira de fazer os clientes
+baixarem o aplicativo
+
+00:00:45.367 --> 00:00:47.834
+é criar um link
+no site da empresa.
+
+00:00:47.868 --> 00:00:51.133
+As estatísticas da página mostram
+que apenas 10% das pessoas
+
+00:00:51.167 --> 00:00:53.634
+que visitam a página principal
+clicam no link
+
+00:00:53.667 --> 00:00:55.767
+para visitar a página
+que descreve o aplicativo
+
+00:00:55.801 --> 00:00:57.534
+e o programa de fidelidade.
+
+00:00:57.567 --> 00:01:00.067
+Seu gerente pediu que você
+criasse um experimento
+
+00:01:00.100 --> 00:01:03.667
+para testar se uma mudança
+no botão do link para uma foto
+
+00:01:03.701 --> 00:01:06.601
+aumentaria os cliques
+de visitantes que acessam a página
+
+00:01:06.634 --> 00:01:09.031
+que descreve o aplicativo
+e o programa de fidelidade.
+
+00:01:09.064 --> 00:01:10.198
+*END*
+
+00:01:10.231 --> 00:01:11.367
+*CODE*
+

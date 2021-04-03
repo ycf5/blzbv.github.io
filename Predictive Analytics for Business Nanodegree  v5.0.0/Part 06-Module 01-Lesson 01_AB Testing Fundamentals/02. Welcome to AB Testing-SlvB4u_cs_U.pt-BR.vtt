@@ -1,0 +1,207 @@
+WEBVTT
+Kind: captions
+Language: pt-BR
+
+00:00:00.234 --> 00:00:04.767
+Oi, meu nome é Patrick Nussbaumer.
+Serei seu instrutor neste curso.
+
+00:00:04.801 --> 00:00:08.532
+Trabalho na Alteryx, líder
+em análise de dados self-service,
+
+00:00:08.565 --> 00:00:12.567
+e trabalhei com aquisição e análise
+de dados por mais de 20 anos.
+
+00:00:13.234 --> 00:00:15.434
+Imagine que você trabalha
+em um banco
+
+00:00:15.467 --> 00:00:19.601
+e está pensando em mudar o horário
+de funcionamento das suas agências.
+
+00:00:19.634 --> 00:00:22.534
+Você não sabe se a mudança
+melhorará o desempenho
+
+00:00:22.567 --> 00:00:26.567
+e quer fazer um experimento para
+saber se deve fazer isso ou não.
+
+00:00:26.601 --> 00:00:30.200
+Seria ótimo se você pudesse trocar
+o horário de algumas agências
+
+00:00:30.234 --> 00:00:32.300
+e basear sua decisão
+para todas as agências
+
+00:00:32.334 --> 00:00:34.701
+nos dados limitados
+que coletou.
+
+00:00:34.734 --> 00:00:39.269
+Esse é exatamente o tipo de situação
+perfeito para um teste A/B.
+
+00:00:40.701 --> 00:00:42.634
+Através de metodologias
+de testes A/B,
+
+00:00:42.667 --> 00:00:44.968
+você pode criar um experimento
+em que pode determinar
+
+00:00:45.000 --> 00:00:48.667
+se o desempenho de um grupo
+de agências com horários modificados
+
+00:00:48.701 --> 00:00:51.100
+gerou resultados
+estatisticamente significantes
+
+00:00:51.133 --> 00:00:52.900
+nas agências
+usadas como grupo de controle.
+
+00:00:52.933 --> 00:00:56.634
+E você pode usar essas informações
+para guiar sua decisão de negócio.
+
+00:00:57.200 --> 00:01:01.300
+Neste curso, vamos aprender
+a criar e analisar testes A/B.
+
+00:01:01.601 --> 00:01:05.968
+O teste A/B é um tipo de experimento
+com duas variáveis: A e B,
+
+00:01:06.000 --> 00:01:09.567
+que serão os grupos de controle
+e de tratamento do experimento.
+
+00:01:09.601 --> 00:01:12.968
+Podemos usar testes A/B
+para solucionar problemas de negócio
+
+00:01:13.000 --> 00:01:16.601
+quando não temos dados suficientes
+para usar técnicas de modelagem.
+
+00:01:17.300 --> 00:01:20.467
+Os dois tipos de experimentos
+que serão discutidos neste curso
+
+00:01:20.501 --> 00:01:23.634
+são o delineamento aleatório
+e de amostras emparelhadas.
+
+00:01:23.667 --> 00:01:27.100
+A 1ª aula deste curso
+vai cobrir o básico
+
+00:01:27.133 --> 00:01:29.133
+do delineamento experimental.
+
+00:01:29.167 --> 00:01:31.834
+Depois, vamos falar
+dos dois tipos de testes A/B.
+
+00:01:31.868 --> 00:01:34.868
+A aula 2 vai se concentrar
+em delineamento aleatório
+
+00:01:34.901 --> 00:01:38.367
+e a aula 3, no delineamento
+de amostras emparelhadas.
+
+00:01:38.400 --> 00:01:40.400
+Então, vamos avançar
+a partir do que aprendemos
+
+00:01:40.434 --> 00:01:44.808
+e, na aula 4, resolver um problema
+de negócio mais complicado.
+
+00:01:45.601 --> 00:01:48.033
+Para começar a falar
+do delineamento experimental,
+
+00:01:48.067 --> 00:01:50.199
+vamos apresentar
+um problema de negócio
+
+00:01:50.232 --> 00:01:52.234
+que usaremos
+durante todo o curso
+
+00:01:52.267 --> 00:01:54.434
+para dar um contexto
+para a terminologia
+
+00:01:54.467 --> 00:01:56.136
+e os processos
+que você vai aprender.
+
+00:01:56.501 --> 00:01:58.601
+Você acabou de se tornar
+gerente de marca
+
+00:01:58.634 --> 00:02:00.934
+de um grande fabricante
+de doces.
+
+00:02:00.968 --> 00:02:03.467
+A equipe de desenvolvimento
+de produto tem trabalhado muito
+
+00:02:03.501 --> 00:02:06.734
+para criar uma nova linha
+de produtos para a marca.
+
+00:02:06.767 --> 00:02:09.634
+Como são produtos novos
+e a empresa não sabe
+
+00:02:09.667 --> 00:02:11.601
+se vão fazer sucesso ou não,
+
+00:02:11.634 --> 00:02:15.834
+pediram que você preveja o efeito
+dos novos produtos nas vendas
+
+00:02:15.868 --> 00:02:17.667
+para que a gerência
+possa determinar
+
+00:02:17.701 --> 00:02:20.534
+se eles devem ser
+distribuídos para toda a rede.
+
+00:02:20.567 --> 00:02:23.367
+Nesta situação, não temos
+nenhuma informação antiga
+
+00:02:23.400 --> 00:02:27.434
+para nos ajudar a construir um
+modelo e prever o que vai acontecer.
+
+00:02:27.467 --> 00:02:29.501
+Como estamos numa situação
+pobre em dados,
+
+00:02:29.534 --> 00:02:33.033
+só temos um caminho a seguir
+para resolver o problema de negócio:
+
+00:02:33.067 --> 00:02:34.801
+montar um experimento.
+
+00:02:34.834 --> 00:02:36.133
+*END*
+
+00:02:36.167 --> 00:02:37.467
+*CODE*
+

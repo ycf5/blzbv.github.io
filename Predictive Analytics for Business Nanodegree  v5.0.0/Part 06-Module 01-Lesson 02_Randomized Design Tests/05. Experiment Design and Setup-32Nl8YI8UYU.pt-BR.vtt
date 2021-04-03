@@ -1,0 +1,119 @@
+WEBVTT
+Kind: captions
+Language: pt-BR
+
+00:00:00.234 --> 00:00:02.667
+Existem algumas coisas
+importantes a considerar
+
+00:00:02.701 --> 00:00:05.234
+ao criar um experimento
+aleatório:
+
+00:00:05.267 --> 00:00:08.133
+a unidade de desvio,
+a população,
+
+00:00:08.167 --> 00:00:09.968
+a duração e o tamanho.
+
+00:00:10.501 --> 00:00:13.434
+A unidade de desvio define
+como você atribuirá unidades
+
+00:00:13.467 --> 00:00:15.934
+para os grupos de tratamento
+ou de controle.
+
+00:00:15.968 --> 00:00:18.467
+Podemos atribuir aleatoriamente
+cada visita ao site
+
+00:00:18.501 --> 00:00:20.434
+aos grupos de controle
+ou tratamento,
+
+00:00:20.467 --> 00:00:23.767
+mas talvez isso faça o mesmo usuário
+ver ambas as versões do site,
+
+00:00:23.801 --> 00:00:25.467
+o que pode ser confuso
+para eles
+
+00:00:25.501 --> 00:00:28.334
+e complicar a interpretação
+dos resultados.
+
+00:00:28.701 --> 00:00:31.500
+O que a maioria dos experimentos faz
+é tentar dividir as unidades
+
+00:00:31.533 --> 00:00:34.801
+no nível do usuário para que,
+mesmo que o usuário saia do site
+
+00:00:34.834 --> 00:00:37.467
+e depois volte,
+ele veja a mesma versão.
+
+00:00:38.033 --> 00:00:40.165
+Isso pode ser difícil
+com dados da internet,
+
+00:00:40.198 --> 00:00:43.067
+mas a maioria das empresas usa
+um cookie, o device ID,
+
+00:00:43.100 --> 00:00:46.501
+o endereço de IP ou outro
+identificador como proxy.
+
+00:00:46.534 --> 00:00:48.467
+Para saber mais
+sobre os detalhes
+
+00:00:48.501 --> 00:00:50.599
+de como experimentos na internet
+são delineados,
+
+00:00:50.632 --> 00:00:52.501
+veja o link da aula abaixo.
+
+00:00:52.534 --> 00:00:56.000
+A seguir, é preciso
+determinar qual é a população.
+
+00:00:56.033 --> 00:00:59.267
+No exemplo do site,
+seriam todos os visitantes do site
+
+00:00:59.300 --> 00:01:01.434
+que ainda não têm
+o aplicativo.
+
+00:01:01.467 --> 00:01:05.334
+Depois, temos que definir
+a duração e o tamanho do experimento
+
+00:01:05.367 --> 00:01:08.133
+para garantir que seus grupos
+de controle e tratamento
+
+00:01:08.167 --> 00:01:10.801
+representem a população.
+
+00:01:10.834 --> 00:01:13.300
+É aí que as variáveis de controle
+são úteis.
+
+00:01:13.334 --> 00:01:16.565
+Vamos voltar às 3 variáveis
+de controle que identificamos.
+
+00:01:16.598 --> 00:01:17.734
+*END*
+
+00:01:17.767 --> 00:01:19.067
+*CODE*
+

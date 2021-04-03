@@ -1,0 +1,156 @@
+WEBVTT
+Kind: captions
+Language: pt-BR
+
+00:00:00.200 --> 00:00:03.334
+Para começar um bom experimento,
+precisamos dividir nossos grupos
+
+00:00:03.367 --> 00:00:05.567
+em dois grupos comparáveis.
+
+00:00:05.601 --> 00:00:08.000
+Chamamos os dois grupos
+de "grupo de tratamento"
+
+00:00:08.033 --> 00:00:09.901
+e "grupo de controle".
+
+00:00:09.934 --> 00:00:12.601
+Um grupo de tratamento
+é o conjunto de unidades
+
+00:00:12.634 --> 00:00:15.801
+que vai receber o tratamento.
+Elas são chamadas
+
+00:00:15.834 --> 00:00:17.634
+de unidades de tratamento.
+
+00:00:17.667 --> 00:00:19.968
+O tratamento é a mudança
+que você quer fazer.
+
+00:00:20.000 --> 00:00:21.934
+É a coisa nova
+que você vai testar.
+
+00:00:21.968 --> 00:00:24.200
+No exemplo da introdução
+do novo produto,
+
+00:00:24.234 --> 00:00:26.634
+é a venda do novo produto.
+
+00:00:26.667 --> 00:00:28.968
+Se usarmos o exemplo
+do questionário anterior,
+
+00:00:29.001 --> 00:00:31.567
+o grupo de tratamento
+da firma de RH
+
+00:00:31.601 --> 00:00:34.234
+seriam os funcionários
+que trabalham de casa.
+
+00:00:34.267 --> 00:00:36.901
+O tratamento
+é "trabalhar de casa".
+
+00:00:36.934 --> 00:00:39.498
+Para cada grupo de tratamento,
+é preciso ter um grupo de controle,
+
+00:00:39.531 --> 00:00:43.100
+que é usado como referência
+para o grupo de tratamento.
+
+00:00:43.133 --> 00:00:46.200
+No grupo de controle,
+nenhum tratamento é aplicado.
+
+00:00:46.234 --> 00:00:49.234
+No nosso experimento, isso significa
+que as lojas do grupo de controle
+
+00:00:49.267 --> 00:00:51.300
+não vão vender o novo produto.
+
+00:00:51.334 --> 00:00:54.901
+Estas lojas são chamadas
+de "unidades de controle".
+
+00:00:54.934 --> 00:00:57.634
+Na empresa de RH,
+o grupo de controle
+
+00:00:57.667 --> 00:01:00.434
+eram os funcionários
+que trabalhavam no escritório.
+
+00:01:00.467 --> 00:01:03.166
+É o grupo de controle porque nenhum
+tratamento e nenhuma mudança
+
+00:01:03.199 --> 00:01:04.534
+foi aplicada a eles.
+
+00:01:04.567 --> 00:01:05.934
+Nas próximas aulas,
+
+00:01:05.968 --> 00:01:08.667
+vamos aprender a criar
+grupos de controle e de tratamento
+
+00:01:08.701 --> 00:01:10.834
+com base no delineamento
+do experimento
+
+00:01:10.868 --> 00:01:14.801
+que faz mais sentido para o problema
+de negócio que quer resolver.
+
+00:01:14.834 --> 00:01:17.133
+Assim como na modelagem,
+como analista,
+
+00:01:17.167 --> 00:01:19.601
+você terá uma série
+de variáveis disponíveis
+
+00:01:19.634 --> 00:01:22.704
+que podem ou não ser
+importantes para o experimento.
+
+00:01:23.232 --> 00:01:25.100
+Como quando
+construímos um modelo,
+
+00:01:25.133 --> 00:01:26.501
+teremos uma variável-alvo,
+
+00:01:26.534 --> 00:01:30.067
+ou a variável para a qual
+queremos prever um resultado.
+
+00:01:30.100 --> 00:01:32.267
+No experimento
+de introdução do novo produto,
+
+00:01:32.300 --> 00:01:34.234
+a variável-alvo são as vendas
+
+00:01:34.267 --> 00:01:37.100
+porque queremos saber
+como a introdução do novo produto
+
+00:01:37.133 --> 00:01:38.834
+vai afetar as vendas.
+
+00:01:38.868 --> 00:01:40.167
+*END*
+
+00:01:40.200 --> 00:01:41.501
+*CODE*
+

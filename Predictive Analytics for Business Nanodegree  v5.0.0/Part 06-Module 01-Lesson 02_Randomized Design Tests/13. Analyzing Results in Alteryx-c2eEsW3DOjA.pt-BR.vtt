@@ -1,0 +1,154 @@
+WEBVTT
+Kind: captions
+Language: pt-BR
+
+00:00:00.334 --> 00:00:02.801
+Agora que você entende
+basicamente o que é um teste t,
+
+00:00:02.834 --> 00:00:05.167
+vamos continuar
+nossa análise.
+
+00:00:05.200 --> 00:00:06.767
+Para fazer um teste de média,
+
+00:00:06.801 --> 00:00:08.701
+vamos pegar a ferramenta
+"Test of Means"
+
+00:00:08.734 --> 00:00:10.701
+e conectá-la
+ao fluxo de dados.
+
+00:00:10.734 --> 00:00:13.300
+Selecione "VisitFlag"
+como o "response field"
+
+00:00:13.334 --> 00:00:15.667
+e "group"
+como o "group identifier".
+
+00:00:15.701 --> 00:00:18.801
+Agora vamos ativar o workflow
+para ver os resultados.
+
+00:00:19.601 --> 00:00:23.767
+O valor-p de 1,78
+vezes 10 elevado a - 32
+
+00:00:23.801 --> 00:00:26.100
+nos diz que é
+muito pouco provável
+
+00:00:26.133 --> 00:00:29.434
+que as duas médias sejam as mesmas.
+Isso é uma boa notícia.
+
+00:00:29.467 --> 00:00:31.901
+Então vamos calcular
+a diferença das médias.
+
+00:00:31.934 --> 00:00:34.801
+Primeiro, traga uma ferramenta
+"Summarize" para a tela
+
+00:00:34.834 --> 00:00:36.834
+e a conecte ao fluxo de dados.
+
+00:00:36.868 --> 00:00:39.499
+Vamos contar o número de visitas
+agrupadas por grupo de tratamento
+
+00:00:39.532 --> 00:00:42.601
+ou de controle e pelo fato
+de terem clicado ou não no link.
+
+00:00:42.634 --> 00:00:46.267
+Ao ativar o workflow,
+podemos ver os resultados.
+
+00:00:46.667 --> 00:00:49.267
+No entanto, queremos ver
+a diferença de porcentagem.
+
+00:00:49.300 --> 00:00:51.133
+Podemos fazer isso
+de várias maneiras,
+
+00:00:51.167 --> 00:00:53.033
+mas vamos continuar
+a usar o Alteryx.
+
+00:00:53.067 --> 00:00:54.601
+Adicione
+uma ferramenta "Cross Tab"
+
+00:00:54.634 --> 00:00:57.000
+para agrupar os dados
+pelo campo "group".
+
+00:00:57.033 --> 00:00:59.234
+Os "New Column Headers"
+serão "VisitFlag",
+
+00:00:59.267 --> 00:01:02.667
+e os "Values for New Columns"
+serão "Count".
+
+00:01:02.701 --> 00:01:05.033
+Para o "Method of Aggregation",
+vamos selecionar "Sum"
+
+00:01:05.067 --> 00:01:08.701
+e "Percent Row"
+e ativar o workflow de novo.
+
+00:01:08.734 --> 00:01:11.534
+Se analisar os resultados, verá
+que a porcentagem de usuários
+
+00:01:11.567 --> 00:01:13.667
+que clicaram no link
+do grupo de controle
+
+00:01:13.701 --> 00:01:16.300
+foi de 18,59%.
+
+00:01:16.334 --> 00:01:19.701
+No grupo de tratamento,
+foi de 23,25%.
+
+00:01:19.734 --> 00:01:22.334
+Houve um salto de 4,66%.
+
+00:01:22.367 --> 00:01:24.868
+Esse resultado sugere
+que a empresa pode fazer
+
+00:01:24.901 --> 00:01:27.901
+entre 4% e 5% mais usuários
+clicarem no link
+
+00:01:27.934 --> 00:01:30.300
+para saber mais
+sobre o programa de fidelidade
+
+00:01:30.334 --> 00:01:33.501
+se trocarem o botão no site
+para uma foto do aplicativo.
+
+00:01:33.534 --> 00:01:35.767
+Agora é hora de divulgar
+o que descobriu.
+
+00:01:35.801 --> 00:01:38.899
+Mas antes vamos usar um questionário
+para conferir o que você aprendeu.
+
+00:01:38.932 --> 00:01:40.033
+*END*
+
+00:01:40.067 --> 00:01:41.367
+*CODE*
+

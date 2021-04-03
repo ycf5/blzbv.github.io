@@ -1,0 +1,253 @@
+WEBVTT
+Kind: captions
+Language: pt-BR
+
+00:00:00.267 --> 00:00:03.467
+Como você pode imaginar, a lista
+de possíveis variáveis a controlar
+
+00:00:03.501 --> 00:00:04.868
+pode ser muito longa.
+
+00:00:04.901 --> 00:00:08.267
+Como sabemos que variáveis
+são realmente importantes?
+
+00:00:08.300 --> 00:00:11.400
+Nesta seção, vamos discutir
+técnicas para identificar
+
+00:00:11.434 --> 00:00:14.501
+que variáveis são
+mais importantes de controlar.
+
+00:00:14.534 --> 00:00:17.334
+Lembre que o maior objetivo
+das variáveis de controle
+
+00:00:17.367 --> 00:00:21.167
+é garantir um bom pareamento
+de unidades de tratamento e controle
+
+00:00:21.200 --> 00:00:23.801
+para que a comparação
+que está sendo feita no experimento
+
+00:00:23.834 --> 00:00:25.033
+seja boa.
+
+00:00:25.567 --> 00:00:27.601
+Cinco passos devem ser seguidos
+para determinar
+
+00:00:27.634 --> 00:00:31.371
+que variáveis de controle devem ser
+usadas para criar o experimento.
+
+00:00:31.868 --> 00:00:35.167
+Primeiro, faça uma lista
+de possíveis variáveis.
+
+00:00:35.200 --> 00:00:38.834
+Depois, determine
+se tem dados disponíveis
+
+00:00:38.868 --> 00:00:41.801
+e garanta que a conexão
+entre a variável-alvo
+
+00:00:41.834 --> 00:00:44.667
+e cada variável de controle
+seja lógica.
+
+00:00:44.701 --> 00:00:48.934
+A seguir, teste a correlação entre
+as variáveis de controle e alvo
+
+00:00:48.968 --> 00:00:53.167
+e, por fim, teste a correlação
+entre outras variáveis de correlação
+
+00:00:53.200 --> 00:00:55.567
+para evitar
+variáveis parecidas.
+
+00:00:55.601 --> 00:00:59.667
+Vamos mostrar este processo
+no exemplo da introdução do produto.
+
+00:00:59.701 --> 00:01:02.434
+Aqui está uma lista de variáveis
+que podem afetar as vendas
+
+00:01:02.467 --> 00:01:04.100
+da categoria "doce".
+
+00:01:04.133 --> 00:01:06.934
+Lembre-se: estamos medindo
+as vendas da categoria
+
+00:01:06.968 --> 00:01:08.667
+porque as vendas
+do novo produto
+
+00:01:08.701 --> 00:01:11.934
+podem diminuir as vendas
+de produtos antigos.
+
+00:01:11.968 --> 00:01:13.701
+O número de produtos
+oferecido na loja
+
+00:01:13.734 --> 00:01:15.634
+pode ser usado
+para comparar lojas.
+
+00:01:15.667 --> 00:01:18.000
+O volume de doces
+vendido também.
+
+00:01:18.033 --> 00:01:20.234
+Podemos estar interessados
+no número de clientes
+
+00:01:20.267 --> 00:01:24.434
+que visitam cada loja ou no número
+de produtos concorrentes.
+
+00:01:24.467 --> 00:01:27.767
+O tamanho e a localização
+da loja podem ser usados.
+
+00:01:27.801 --> 00:01:30.538
+Os dados demográficos
+da comunidade que cerca a loja
+
+00:01:30.571 --> 00:01:33.434
+podem ser usados
+como variáveis de controle também.
+
+00:01:33.467 --> 00:01:35.267
+Pode não ser
+uma lista abrangente,
+
+00:01:35.300 --> 00:01:37.167
+mas é uma boa lista
+para começar.
+
+00:01:37.200 --> 00:01:39.734
+Depois que fizer a lista,
+primeiro, você tem que identificar
+
+00:01:39.767 --> 00:01:41.734
+para qual dessas variáveis
+você tem dados.
+
+00:01:41.767 --> 00:01:43.334
+Se não tiver dados
+para as variáveis,
+
+00:01:43.367 --> 00:01:45.534
+não pode usá-las
+como controle.
+
+00:01:45.567 --> 00:01:48.801
+O número de clientes que compra
+na loja é algo que não deve
+
+00:01:48.834 --> 00:01:50.601
+estar disponível
+para um fabricante,
+
+00:01:50.634 --> 00:01:52.801
+então vamos
+retirá-lo da lista.
+
+00:01:52.834 --> 00:01:56.934
+A empresa sabe quantos produtos
+concorrentes costuma haver em geral,
+
+00:01:56.968 --> 00:01:59.567
+mas não quais são vendidos
+em cada loja.
+
+00:01:59.601 --> 00:02:01.539
+Então vamos retirar isto
+da lista.
+
+00:02:02.133 --> 00:02:04.667
+Agora que eliminamos as variáveis
+que não têm dados,
+
+00:02:04.701 --> 00:02:07.267
+precisamos analisar
+as variáveis logicamente.
+
+00:02:07.300 --> 00:02:11.501
+Todas as variáveis restantes têm
+conexões lógicas às vendas da loja.
+
+00:02:11.534 --> 00:02:13.767
+No entanto, para esta análise,
+
+00:02:13.801 --> 00:02:17.601
+a localização e dados demográficos
+provavelmente medem a mesma coisa.
+
+00:02:17.634 --> 00:02:20.334
+A localização vai afetar as vendas
+porque vai estar relacionada
+
+00:02:20.367 --> 00:02:23.868
+aos dados demográficos
+dos clientes que compram na loja.
+
+00:02:23.901 --> 00:02:27.501
+Logo, podemos eliminar
+uma das duas variáveis.
+
+00:02:27.534 --> 00:02:30.534
+Como a localização pode englobar
+muitas variáveis demográficas,
+
+00:02:30.567 --> 00:02:34.204
+vamos manter a localização
+e eliminar os dados demográficos.
+
+00:02:34.701 --> 00:02:36.934
+Depois de analisar
+os dados a que temos acesso,
+
+00:02:36.968 --> 00:02:40.033
+a lista foi reduzida às seguintes
+variáveis de controle:
+
+00:02:40.067 --> 00:02:41.934
+o número de produtos vendidos
+
+00:02:41.968 --> 00:02:45.232
+e o volume total de produtos
+da categoria vendidos em cada loja
+
+00:02:45.265 --> 00:02:47.634
+e o tamanho e a localização
+de cada loja.
+
+00:02:47.667 --> 00:02:51.167
+Agora, para testar a correlação,
+vamos usar o Alteryx.
+
+00:02:51.200 --> 00:02:52.801
+Se não estiver
+familiarizado com o Alteryx,
+
+00:02:52.834 --> 00:02:56.066
+dê uma olhada em alguns materiais
+nas notas do instrutor.
+
+00:02:56.099 --> 00:02:57.234
+*END*
+
+00:02:57.267 --> 00:02:58.534
+*CODE*
+

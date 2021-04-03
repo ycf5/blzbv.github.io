@@ -1,0 +1,72 @@
+WEBVTT
+Kind: captions
+Language: pt-BR
+
+00:00:00.234 --> 00:00:03.033
+Como a maioria das coisas na vida,
+o delineamento experimental
+
+00:00:03.067 --> 00:00:06.273
+tem uma série de termos
+que precisamos entender.
+
+00:00:06.834 --> 00:00:09.868
+Num experimento, cada indivíduo
+que participa do teste
+
+00:00:09.901 --> 00:00:11.204
+é chamado de "unidade".
+
+00:00:11.667 --> 00:00:13.968
+Uma unidade pode ser
+uma pessoa, uma loja,
+
+00:00:14.000 --> 00:00:17.871
+uma passagem por uma linha de
+produção, uma visita a um site etc.
+
+00:00:18.367 --> 00:00:21.968
+Usando nosso problema, vamos
+descobrir quais são as unidades.
+
+00:00:22.000 --> 00:00:24.601
+No experimento de introdução
+do novo produto,
+
+00:00:24.634 --> 00:00:26.868
+você quer determinar
+as possíveis vendas
+
+00:00:26.901 --> 00:00:29.234
+caso o novo produto
+seja apresentado.
+
+00:00:29.267 --> 00:00:32.701
+Então, primeiro, como você
+vai reunir os dados de que precisa
+
+00:00:32.734 --> 00:00:35.267
+para descobrir
+qual será a venda do doce?
+
+00:00:35.734 --> 00:00:39.767
+Você poderia pôr o doce
+à venda em algumas lojas
+
+00:00:39.801 --> 00:00:41.701
+e observar o resultado.
+
+00:00:41.734 --> 00:00:45.300
+Neste caso, cada loja
+será tratada como um teste,
+
+00:00:45.334 --> 00:00:47.664
+então vamos nos referir
+a cada loja como uma unidade.
+
+00:00:47.697 --> 00:00:48.800
+*END*
+
+00:00:48.833 --> 00:00:50.000
+*CODE*
+
