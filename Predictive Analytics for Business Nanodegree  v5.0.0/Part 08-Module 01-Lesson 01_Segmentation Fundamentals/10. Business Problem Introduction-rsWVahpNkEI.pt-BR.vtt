@@ -1,0 +1,115 @@
+WEBVTT
+Kind: captions
+Language: pt-BR
+
+00:00:00.000 --> 00:00:04.934
+Agora entendemos mais
+a segmentação e o agrupamento,
+
+00:00:04.968 --> 00:00:08.300
+e por que queremos fazer
+este tipo de análise.
+
+00:00:08.334 --> 00:00:11.267
+Vamos entrar nos detalhes
+do que fazer
+
+00:00:11.300 --> 00:00:14.000
+para realizar
+uma análise de grupos.
+
+00:00:14.033 --> 00:00:17.200
+Neste curso, usaremos
+um caso de um negócio prático
+
+00:00:17.234 --> 00:00:21.400
+que deixará que explorem e pratiquem
+os conceitos tipicamente encontrados
+
+00:00:21.434 --> 00:00:24.968
+em um processo
+de segmentação de agrupamento.
+
+00:00:25.000 --> 00:00:27.934
+O problema é que
+uma companhia varejista
+
+00:00:27.968 --> 00:00:31.334
+vende mobília de jardim,
+equipamentos de recreação
+
+00:00:31.367 --> 00:00:34.434
+e suprimentos de jardim
+em todas as suas lojas.
+
+00:00:34.467 --> 00:00:39.067
+A companhia tem mais
+de 2 mil lojas nos EUA,
+
+00:00:39.100 --> 00:00:43.901
+e quer garantir colocar
+os seus produtos nas lojas
+
+00:00:43.934 --> 00:00:48.234
+no tempo apropriado,
+considerando as estações do ano.
+
+00:00:48.267 --> 00:00:51.634
+Como dissemos antes,
+no exemplo da Lowes,
+
+00:00:51.667 --> 00:00:55.467
+a companhia quer colocar
+grelhas para churrasco nas lojas
+
+00:00:55.501 --> 00:00:58.367
+quando os clientes
+se interessam por isso,
+
+00:00:58.400 --> 00:01:01.267
+e colocar os itens
+de jardim nas lojas
+
+00:01:01.300 --> 00:01:04.901
+quando se interessarem
+por isso.
+
+00:01:04.934 --> 00:01:09.834
+Ou seja, não querem vender grelhas
+em áreas onde neva
+
+00:01:09.868 --> 00:01:11.801
+e ninguém faz churrasco.
+
+00:01:11.834 --> 00:01:15.667
+E não querem mandar margaridas
+quando há neve no chão.
+
+00:01:15.701 --> 00:01:19.100
+Eles poderiam criar planos
+individuais de sazonalidade
+
+00:01:19.133 --> 00:01:24.868
+para todas as 2 mil lojas,
+mas isso custaria muito.
+
+00:01:24.901 --> 00:01:27.501
+Eles nos pediram
+para criarmos segmentos
+
+00:01:27.534 --> 00:01:31.067
+que permitam que eles criem
+planos para esses segmentos,
+
+00:01:31.100 --> 00:01:34.901
+para que sejam aplicados
+a cada loja em cada segmento.
+
+00:01:34.934 --> 00:01:38.200
+Isso lhes daria
+uma eficiência máxima de operação
+
+00:01:38.234 --> 00:01:42.133
+e um bom cenário
+para melhores receitas.
+

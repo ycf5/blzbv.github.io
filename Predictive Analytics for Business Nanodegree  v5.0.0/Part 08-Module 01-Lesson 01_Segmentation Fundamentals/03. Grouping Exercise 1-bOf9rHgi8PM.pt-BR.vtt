@@ -1,0 +1,35 @@
+WEBVTT
+Kind: captions
+Language: pt-BR
+
+00:00:00.000 --> 00:00:03.434
+Vamos praticar
+o que vimos até aqui.
+
+00:00:03.467 --> 00:00:07.834
+Fizemos um pequeno conjunto de dados,
+chamado lojas.csv,
+
+00:00:07.868 --> 00:00:11.667
+que representa 10 lojas
+com o total de vendas em dólares.
+
+00:00:11.701 --> 00:00:16.200
+A gerência quer segmentar as lojas
+para montar um sistema de avaliação
+
+00:00:16.234 --> 00:00:19.200
+para avaliar o desempenho
+de cada loja
+
+00:00:19.234 --> 00:00:23.767
+em relação ao desempenho das lojas
+nos seus grupos respectivos.
+
+00:00:23.801 --> 00:00:26.767
+Divida a lista de lojas
+no que você considera
+
+00:00:26.801 --> 00:00:29.033
+"os 3 melhores segmentos".
+

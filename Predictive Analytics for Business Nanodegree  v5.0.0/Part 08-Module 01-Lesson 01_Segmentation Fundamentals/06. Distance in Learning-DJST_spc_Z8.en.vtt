@@ -1,0 +1,47 @@
+WEBVTT
+Kind: captions
+Language: en
+
+00:00:00.850 --> 00:00:04.939
+What most clustering algorithms try
+to do is to assign the objects into
+
+00:00:04.939 --> 00:00:09.370
+clusters that are similar to the other
+objects in the same cluster.
+
+00:00:09.370 --> 00:00:14.740
+And the way the algorithms typically do
+this is using the concept of distance.
+
+00:00:16.070 --> 00:00:17.850
+As we go through these lessons,
+
+00:00:17.850 --> 00:00:24.230
+think of the term distance as a way
+to quantify or measure similarity.
+
+00:00:24.230 --> 00:00:29.160
+The clustering algorithms try to create
+segments so that the objects within
+
+00:00:29.160 --> 00:00:34.990
+each segment are as similar or
+close to each other as possible.
+
+00:00:34.990 --> 00:00:40.320
+At the same time, they make it so the
+segments themselves are as dissimilar,
+
+00:00:40.320 --> 00:00:43.610
+or far away,
+from each other as possible.
+
+00:00:43.610 --> 00:00:48.520
+So the best cluster solutions involve
+clusters that have the tightest
+
+00:00:48.520 --> 00:00:53.720
+individual cluster cohesion, and the
+greatest distinct cluster separation.
+

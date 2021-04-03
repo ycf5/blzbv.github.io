@@ -1,0 +1,82 @@
+WEBVTT
+Kind: captions
+Language: en
+
+00:00:00.000 --> 00:00:02.240
+Hi, I'm Rod Light,
+
+00:00:02.240 --> 00:00:05.735
+I'm a senior Solutions Engineer and Practice Lead for Alteryx,
+
+00:00:05.735 --> 00:00:08.460
+the leader in self-service data analytics.
+
+00:00:08.460 --> 00:00:11.220
+In this course, I will be showing you the concepts and
+
+00:00:11.220 --> 00:00:14.610
+practices related to segmentation and clustering.
+
+00:00:14.610 --> 00:00:17.100
+Many times, as a business analyst,
+
+00:00:17.100 --> 00:00:19.500
+you may be asked to provide answers for
+
+00:00:19.500 --> 00:00:24.365
+specific entities in the business such as stores or customers.
+
+00:00:24.365 --> 00:00:29.550
+This can turn into an insurmountable task purely because of the size of the business.
+
+00:00:29.550 --> 00:00:34.865
+For example, a retail business can have hundreds or even thousands of stores.
+
+00:00:34.865 --> 00:00:37.190
+Creating models to determine what is
+
+00:00:37.190 --> 00:00:40.475
+the best product mix in each of these could be daunting.
+
+00:00:40.475 --> 00:00:43.410
+Another example can be related to marketing.
+
+00:00:43.410 --> 00:00:47.840
+It would be great if you could send out flyers or emails individually to each of
+
+00:00:47.840 --> 00:00:52.670
+your customers that are customized considering each customer's needs or interests,
+
+00:00:52.670 --> 00:00:58.050
+but having thousands or millions of customers can make this next to impossible.
+
+00:00:58.050 --> 00:01:01.580
+Because it's much easier to make decisions when working with
+
+00:01:01.580 --> 00:01:05.269
+a smaller set of entities rather than have to work with a larger one,
+
+00:01:05.269 --> 00:01:08.390
+one approach to deal with this kind of problem is by
+
+00:01:08.390 --> 00:01:13.020
+dividing the entities into smaller set of objects called segments.
+
+00:01:13.020 --> 00:01:16.970
+In this lesson, we will cover some general concepts around
+
+00:01:16.970 --> 00:01:21.650
+segmenting and a technique used to create the segments called clustering.
+
+00:01:21.650 --> 00:01:24.290
+I will show the difference between clustering and
+
+00:01:24.290 --> 00:01:27.160
+grouping which is what many businesses do.
+
+00:01:27.160 --> 00:01:32.240
+We will cover at a high level the concepts used to create the clusters and I will give
+
+00:01:32.240 --> 00:01:37.800
+a few examples of how clustering is used in different industries. Let's get started.
+

@@ -1,0 +1,256 @@
+WEBVTT
+Kind: captions
+Language: en
+
+00:00:00.930 --> 00:00:03.340
+Now that you have a good
+overview of segmentation and
+
+00:00:03.340 --> 00:00:07.910
+clustering, our next lesson will begin
+to dive in to some of the details of
+
+00:00:07.910 --> 00:00:09.910
+building out a clustering process.
+
+00:00:10.950 --> 00:00:14.970
+Before we do that though, I thought I
+would share a few real world examples
+
+00:00:14.970 --> 00:00:17.999
+where clustering is being used
+across various industries.
+
+00:00:19.530 --> 00:00:22.760
+Now since my background revolves
+around the retail industry, and
+
+00:00:22.760 --> 00:00:27.910
+many use cases for clustering involve
+store and customer segmentation.
+
+00:00:27.910 --> 00:00:31.990
+The actual exercises we will be
+going through, during the class,
+
+00:00:31.990 --> 00:00:33.520
+will center in this area.
+
+00:00:35.270 --> 00:00:40.050
+However, clustering can, and is being
+used across a number of industries.
+
+00:00:40.050 --> 00:00:43.880
+As we've discussed, clustering is
+really about creating a balance between
+
+00:00:43.880 --> 00:00:46.670
+standardization and localization.
+
+00:00:46.670 --> 00:00:48.730
+Whenever you need to work with objects,
+but
+
+00:00:48.730 --> 00:00:53.290
+have too many to make sense of,
+clustering can achieve this balance, and
+
+00:00:53.290 --> 00:00:56.025
+help make working with these
+objects more effective.
+
+00:00:57.100 --> 00:01:01.010
+Let's take a quick look at some examples
+to get you thinking of how to apply
+
+00:01:01.010 --> 00:01:06.350
+these concepts,
+in whatever area you work in.
+
+00:01:06.350 --> 00:01:08.750
+One example,
+relates to the insurance industry.
+
+00:01:09.920 --> 00:01:13.810
+In the instructor notes,
+there's a link to a paper that explains
+
+00:01:13.810 --> 00:01:19.320
+how they're using clustering techniques
+to identify fraudulent insurance claims.
+
+00:01:19.320 --> 00:01:22.240
+Variables such as
+beneficiary payment size.
+
+00:01:22.240 --> 00:01:26.180
+Interest payment size, and
+timing between claim submission and
+
+00:01:26.180 --> 00:01:29.420
+payment, are used to cluster the claims.
+
+00:01:29.420 --> 00:01:34.263
+Since most claims should fall into the
+norm, those clusters that have a small
+
+00:01:34.263 --> 00:01:37.916
+population are identified as
+potential fraud suspects,
+
+00:01:37.916 --> 00:01:40.464
+and they're checked more thoroughly.
+
+00:01:40.464 --> 00:01:42.385
+[BLANK_AUDIO]
+
+00:01:42.385 --> 00:01:45.880
+Here's another example that's
+a little more fun to think about.
+
+00:01:45.880 --> 00:01:49.400
+It relates to how a company
+might make use of segmentation,
+
+00:01:49.400 --> 00:01:52.590
+in order to direct their marketing
+efforts most effectively.
+
+00:01:53.980 --> 00:01:56.490
+I'm not sure how they
+created these clusters, but
+
+00:01:56.490 --> 00:02:00.580
+it's a great example of how a market
+can be segmented in a way, so
+
+00:02:00.580 --> 00:02:06.100
+that the business decision makers can
+understand who they are marketing to.
+
+00:02:06.100 --> 00:02:09.758
+They decided to somehow
+segment the audience for
+
+00:02:09.758 --> 00:02:12.870
+the 2016 NBA Championship Series.
+
+00:02:12.870 --> 00:02:17.120
+As you can see, they broke it down
+into segments like rap and hip-hop,
+
+00:02:17.120 --> 00:02:19.360
+teen girls, and ballers.
+
+00:02:19.360 --> 00:02:20.930
+And then they took those segments, and
+
+00:02:20.930 --> 00:02:26.540
+used Twitter comments to determine who
+the specific segments were rooting for.
+
+00:02:26.540 --> 00:02:29.350
+While there were obvious choices,
+#DUBNATION for
+
+00:02:29.350 --> 00:02:33.090
+the Warriors, and
+#AllIn216 for the Cavaliers,
+
+00:02:33.090 --> 00:02:37.120
+it seems that the Teen Girls might
+have a thing for Steph Curry.
+
+00:02:37.120 --> 00:02:40.259
+But the rappers,
+may slightly favor a LeBron connection.
+
+00:02:42.080 --> 00:02:44.590
+The point here,
+is that with this information,
+
+00:02:44.590 --> 00:02:48.820
+better decisions might be made on where
+to spend marketing dollars depending,
+
+00:02:48.820 --> 00:02:51.820
+of course,
+on what someone in trying to sell.
+
+00:02:51.820 --> 00:02:53.600
+Another example I thought I'd mention,
+
+00:02:53.600 --> 00:02:58.280
+just to show that clustering methods are
+not only used in the business world, but
+
+00:02:58.280 --> 00:03:01.509
+can also be found in many
+scientific disciplines.
+
+00:03:02.620 --> 00:03:06.840
+In this case ,clustering was
+used in a bioinformatics study,
+
+00:03:06.840 --> 00:03:10.450
+to analyze patterns of
+anti-microbial resistance,
+
+00:03:10.450 --> 00:03:14.685
+against various food borne outbreaks,
+such as salmonella and e-coli.
+
+00:03:16.810 --> 00:03:20.950
+One final example relates to how
+clustering is now being explored in
+
+00:03:20.950 --> 00:03:22.840
+the field of education.
+
+00:03:22.840 --> 00:03:25.500
+This paper,
+linked to the instructor notes,
+
+00:03:25.500 --> 00:03:29.590
+describes how clustering can be used
+to investigate similarities, and
+
+00:03:29.590 --> 00:03:33.380
+differences between groups
+of school sites, or for
+
+00:03:33.380 --> 00:03:37.910
+clustering students, or even clustering
+on student behavior patterns.
+
+00:03:39.470 --> 00:03:43.450
+Now before you click on the links,
+be forewarned that these kind of studies
+
+00:03:43.450 --> 00:03:46.209
+are typically communicated
+with academic papers.
+
+00:03:47.320 --> 00:03:49.610
+I'm not suggesting that you
+read through any of these,
+
+00:03:49.610 --> 00:03:51.450
+unless it's of specific interest to you.
+
+00:03:52.460 --> 00:03:57.240
+Again, the point of these examples is
+to show how clustering methods can
+
+00:03:57.240 --> 00:04:00.600
+simplify how we deal with
+a large number of objects,
+
+00:04:00.600 --> 00:04:04.480
+by segmenting them into
+statistically similar groups.
+
+00:04:04.480 --> 00:04:07.820
+It's not just restricted
+to a specific industry.
+

@@ -1,0 +1,58 @@
+WEBVTT
+Kind: captions
+Language: en
+
+00:00:00.000 --> 00:00:06.230
+In statistics, there are methods known as supervised and unsupervised learning methods.
+
+00:00:06.230 --> 00:00:07.710
+You might remember learning
+
+00:00:07.710 --> 00:00:11.999
+various predictive methods such as linear or logistic regression.
+
+00:00:11.999 --> 00:00:15.015
+These modeling methods are based on using a set of
+
+00:00:15.015 --> 00:00:20.045
+predictor variables to build a model that will predict a target variable.
+
+00:00:20.045 --> 00:00:24.345
+In statistical vernacular, this is called supervised learning,
+
+00:00:24.345 --> 00:00:27.675
+where the modeling process learns from the target
+
+00:00:27.675 --> 00:00:31.580
+or dependent variable as it creates the model.
+
+00:00:31.580 --> 00:00:34.695
+Unsupervised learning is a little different,
+
+00:00:34.695 --> 00:00:36.955
+and clustering is an example of this.
+
+00:00:36.955 --> 00:00:39.470
+With unsupervised learning, there is
+
+00:00:39.470 --> 00:00:43.475
+no target variable that is used in creating the model.
+
+00:00:43.475 --> 00:00:46.790
+With this method, the clustering algorithm used
+
+00:00:46.790 --> 00:00:50.440
+learns from the multiple variables supplied in the data.
+
+00:00:50.440 --> 00:00:55.425
+It then groups the objects without being told the logic by which to do it.
+
+00:00:55.425 --> 00:01:00.825
+After this process, it ends up creating a new variable known as the cluster number.
+
+00:01:00.825 --> 00:01:04.090
+Since clustering groups objects in this way,
+
+00:01:04.090 --> 00:01:08.330
+it is referred to as an unsupervised learning model.
+

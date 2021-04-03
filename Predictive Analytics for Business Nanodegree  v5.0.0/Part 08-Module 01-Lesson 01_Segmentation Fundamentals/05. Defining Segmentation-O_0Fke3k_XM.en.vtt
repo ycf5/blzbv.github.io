@@ -1,0 +1,97 @@
+WEBVTT
+Kind: captions
+Language: en
+
+00:00:00.700 --> 00:00:03.750
+Let's take some time to better
+understand segmentation, and
+
+00:00:03.750 --> 00:00:07.130
+the statistical
+methodology of clustering.
+
+00:00:07.130 --> 00:00:10.990
+You can find a variety of nuances
+in the definitions of these terms.
+
+00:00:10.990 --> 00:00:13.940
+But throughout this class,
+we will be considering them,
+
+00:00:13.940 --> 00:00:15.539
+basically as interchangeable.
+
+00:00:16.910 --> 00:00:20.930
+Clustering is a statistical methodology
+that groups similar objects into
+
+00:00:20.930 --> 00:00:22.160
+clusters.
+
+00:00:22.160 --> 00:00:25.940
+In business,
+these are often referred to as segments.
+
+00:00:25.940 --> 00:00:30.280
+So, clustering is what we're doing
+from the statistical perspective, and
+
+00:00:30.280 --> 00:00:31.970
+creating segments, or
+
+00:00:31.970 --> 00:00:35.400
+segmentation is what we're doing
+from the business perspective.
+
+00:00:36.590 --> 00:00:39.450
+Here's a more technical
+definition of clustering.
+
+00:00:39.450 --> 00:00:44.420
+It's a mathematical procedure for
+multidimensional analysis.
+
+00:00:44.420 --> 00:00:47.530
+Given the characteristics
+of a set of objects,
+
+00:00:47.530 --> 00:00:51.560
+this procedure groups similar
+objects into clusters.
+
+00:00:51.560 --> 00:00:56.170
+The resulting individual groups, contain
+the objects that are most similar
+
+00:00:56.170 --> 00:01:00.009
+to each other, when compared to
+those outside of their group.
+
+00:01:01.400 --> 00:01:03.730
+I understand that that's
+not exactly simple.
+
+00:01:03.730 --> 00:01:07.130
+And it's not necessary to
+grasp all that is there.
+
+00:01:07.130 --> 00:01:10.892
+What's really important to understand
+at this point in the class,
+
+00:01:10.892 --> 00:01:14.390
+is that clustering, and
+the resulting clusters or segments,
+
+00:01:14.390 --> 00:01:17.698
+is not just a process of sorting and
+grouping, or binning.
+
+00:01:17.698 --> 00:01:20.318
+It is based on
+a statistical methodology,
+
+00:01:20.318 --> 00:01:23.460
+that can be applied to
+a large number of variables.
+

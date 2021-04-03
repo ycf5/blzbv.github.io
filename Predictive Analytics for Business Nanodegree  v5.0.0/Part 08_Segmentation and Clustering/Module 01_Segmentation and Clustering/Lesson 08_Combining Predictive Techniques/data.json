@@ -1,0 +1,416 @@
+{
+  "data": {
+    "lesson": {
+      "id": 680883,
+      "key": "33aed7ac-5333-4051-a15b-19a9ab499e27",
+      "title": "Combining Predictive Techniques",
+      "semantic_type": "Lesson",
+      "is_public": true,
+      "version": "1.0.0",
+      "locale": "en-us",
+      "summary": "After completing the project, you will feel comfortable combining predictive techniques and delivering results ",
+      "lesson_type": "Classroom",
+      "display_workspace_project_only": false,
+      "resources": null,
+      "project": {
+        "key": "7fa02124-8ce3-48c9-bb94-231446436945",
+        "version": "1.0.0",
+        "locale": "en-us",
+        "duration": 28800,
+        "semantic_type": "Project",
+        "title": "Combining Predictive Techniques",
+        "description": "After completing the project by filling out the submission template and reviewing it using the [project rubric](https://review.udacity.com/#!/rubrics/437/view), click the Submit Project button below and upload your submission.\n\nYou may also include your Alteryx workflow if you'd like. If your submission does not meet specifications, having the workflow may help the review identify mistakes.",
+        "is_public": true,
+        "summary": null,
+        "forum_path": "c/nd008-bizand-capstone-project",
+        "rubric_id": "437",
+        "terminal_project_id": null,
+        "resources": null,
+        "image": null
+      },
+      "lab": null,
+      "concepts": [
+        {
+          "id": 213432,
+          "key": "31b80dd1-6098-435a-9fc9-a8d23c601b45",
+          "title": "Project Overview",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "31b80dd1-6098-435a-9fc9-a8d23c601b45",
+            "completed_at": null,
+            "last_viewed_at": null,
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 213433,
+              "key": "28a16caa-1bd7-4d50-a69c-d194ed3d089a",
+              "title": null,
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "# Capstone Project Overview\n\nThe capstone project has three main tasks, each of which requires you to use skills you developed during the Nanodegree program. Once you complete all three tasks, please submit the project as a PDF. \n\n### Tips\n\n* **Split up your Alteryx workflows:** You will be using multiple data sources and complex tools, which can slow down the workflow runtime. Splitting up the workflows makes the process more manageable.\n\n* **Map out your work:** Before you dive into your analysis, think about the steps and plan ahead. This will reduce the amount of unnecessary work.\n\n* **Use visualizations:** Include visualizations to help explain your decisions and communicate your findings. Remember what you learned about making them look great!\n\n* **Ask for help:** Mentors and your fellow students can help you if you get stuck on something. When  posting a question, make sure you include enough specificity so others can help.\n\n",
+              "instructor_notes": ""
+            }
+          ]
+        },
+        {
+          "id": 207961,
+          "key": "f63b99b6-d363-4068-a828-dba64c538888",
+          "title": "Task 1: Store Format",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "f63b99b6-d363-4068-a828-dba64c538888",
+            "completed_at": null,
+            "last_viewed_at": null,
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 207965,
+              "key": "d7948d07-e0e0-4825-8cfb-dbde3ad992c9",
+              "title": null,
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "## Task 1: Store Format for Existing Stores\n\nYour company currently has 85 grocery stores and is planning to open 10 new stores at the beginning of the year. Currently, all stores use the same store format for selling their products.  Up until now, the company has treated all stores similarly, shipping the same amount of product to each store. This is beginning to cause problems as stores are suffering from product surpluses in some product categories and shortages in others. You've been asked to provide analytical support to make decisions about store formats and inventory planning.\n",
+              "instructor_notes": ""
+            },
+            {
+              "id": 207964,
+              "key": "6c9b7378-6401-4a00-9b95-e31414c44276",
+              "title": null,
+              "semantic_type": "ImageAtom",
+              "is_public": true,
+              "url": "https://video.udacity-data.com/topher/2019/August/5d47a326_man-climbing-up-in-grocery-store-115680/man-climbing-up-in-grocery-store-115680.jpg",
+              "non_google_url": "https://s3.cn-north-1.amazonaws.com.cn/u-img/6c9b7378-6401-4a00-9b95-e31414c44276",
+              "caption": "",
+              "alt": null,
+              "width": 500,
+              "height": 400,
+              "instructor_notes": null
+            },
+            {
+              "id": 207963,
+              "key": "55508213-b84f-4ea5-b091-3edaba21f796",
+              "title": null,
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "### Task 1: Determining Store Format\n\nTo remedy the product surplus and shortages, the company wants to introduce different store formats. Each store format will have a different product selection in order to better match local demand. The actual building sizes will not change, just the product selection and internal layouts. The terms \"formats\" and \"segments\" will be used interchangeably throughout this project. You’ve been asked to:\n* Determine the optimal number of store formats based on sales data.\n - Sum sales data by StoreID and Year\n - Use percentage sales per category per store for clustering (category sales as a percentage of total store sales).\n - Use only 2015 sales data. \n - Use a K-means clustering model.\n* Segment the 85 current stores into the different store formats.\n* Use the StoreSalesData.csv and StoreInformation.csv files.\n\n#### Note:\nPCA is not used in this project.\n\n### Task 1 Submission\n\n1. What is the optimal number of store formats? How did you arrive at that number?\n2. How many stores fall into each store format?\n3. Based on the results of the clustering model, what is one way that the clusters differ from one another?\n4. Please provide a map created in Tableau that shows the location of the existing stores, uses color to show cluster, and size to show total sales. Make sure to include a legend! Feel free to simply copy and paste the map into the submission template.\n\n",
+              "instructor_notes": ""
+            }
+          ]
+        },
+        {
+          "id": 207966,
+          "key": "2dd7e528-a072-48fb-a2b4-32aaebf75234",
+          "title": "Task 2: New Stores",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "2dd7e528-a072-48fb-a2b4-32aaebf75234",
+            "completed_at": null,
+            "last_viewed_at": null,
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 207969,
+              "key": "ae531219-9f95-4eea-a749-06a23f974b90",
+              "title": null,
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "## Task 2: Store Format for New Stores\nThe grocery store chain has 10 new stores opening up at the beginning of the year. The company wants to determine which store format each of the new stores should have. However, we don’t have sales data for these new stores yet, so we’ll have to determine the format using each of the new store’s demographic data. ",
+              "instructor_notes": ""
+            },
+            {
+              "id": 207968,
+              "key": "14d5c9b2-9994-4d6a-abbd-00f98fb7bf5f",
+              "title": null,
+              "semantic_type": "ImageAtom",
+              "is_public": true,
+              "url": "https://video.udacity-data.com/topher/2019/August/5d47a544_construction-in-toronto-may-2012/construction-in-toronto-may-2012.jpg",
+              "non_google_url": "https://s3.cn-north-1.amazonaws.com.cn/u-img/14d5c9b2-9994-4d6a-abbd-00f98fb7bf5f",
+              "caption": "Pretty sweet grocery store, right?",
+              "alt": null,
+              "width": 816,
+              "height": 612,
+              "instructor_notes": null
+            },
+            {
+              "id": 207967,
+              "key": "fb7f0ef1-13f0-4051-a424-f32e6d5d0b39",
+              "title": null,
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "### Task 2: Determine the Store Format for New Stores\n\nYou’ve been asked to:\n* Develop a model that predicts which segment a store falls into based on the demographic and socioeconomic characteristics of the population that resides in the area around each new store. \n* Use a 20% validation sample with *Random Seed* = 3 when creating samples with which to compare the accuracy of the models. Make sure to compare a decision tree, forest, and boosted model.\n* Use the model to predict the best store format for each of the 10 new stores.\n* Use the StoreDemographicData.csv file, which contains the information for the area around each store. \n* **Note:** In a real world scenario, you could use PCA to reduce the number of predictor variables. However, there is no need to do so in this project. You can leave all predictor variables in the model.\n\n### Task 2 Submission\n\n* What methodology did you use to predict the best store format for the new stores? Why did you choose that methodology?\n* What are the three most important variables that help explain the relationship between demographic indicators and store formats? Please include a visualization.\n* What format do each of the 10 new stores fall into? Please provide a data table.",
+              "instructor_notes": ""
+            }
+          ]
+        },
+        {
+          "id": 207970,
+          "key": "2cf08a14-33df-4ad3-bf1c-ecbb52072b60",
+          "title": "Task 3: Forecasting",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "2cf08a14-33df-4ad3-bf1c-ecbb52072b60",
+            "completed_at": null,
+            "last_viewed_at": null,
+            "unstructured": null
+          },
+          "resources": {
+            "files": [
+              {
+                "name": "Capstone Example",
+                "uri": "https://video.udacity-data.com/topher/2019/June/5d14d0c4_capstone-example/capstone-example.xlsx"
+              }
+            ],
+            "google_plus_link": null,
+            "career_resource_center_link": null,
+            "coaching_appointments_link": null,
+            "office_hours_link": null,
+            "aws_provisioning_link": null
+          },
+          "atoms": [
+            {
+              "id": 207973,
+              "key": "45493c1d-59b2-487b-8821-6cada66670af",
+              "title": null,
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "## Task 3: Forecasting \n\nFresh produce has a short life span, and due to increasing costs, the company wants to have an accurate monthly sales forecast. ",
+              "instructor_notes": ""
+            },
+            {
+              "id": 207972,
+              "key": "2bac15ca-4c02-4d2d-a9a6-a5d320617dc3",
+              "title": null,
+              "semantic_type": "ImageAtom",
+              "is_public": true,
+              "url": "https://video.udacity-data.com/topher/2019/August/5d479d48_22219503122-065a9f04be-b/22219503122-065a9f04be-b.jpg",
+              "non_google_url": "https://s3.cn-north-1.amazonaws.com.cn/u-img/2bac15ca-4c02-4d2d-a9a6-a5d320617dc3",
+              "caption": "",
+              "alt": null,
+              "width": 816,
+              "height": 612,
+              "instructor_notes": null
+            },
+            {
+              "id": 207971,
+              "key": "45ce2790-0bf9-470b-8bb1-2e985397d1d1",
+              "title": null,
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "### Task 3: Forecasting Produce Sales\n\nYou’ve been asked to prepare a monthly forecast for produce sales for the full year of 2016 for both existing and new stores. To do so, follow the steps below.\n\n**Note:** Use a 6 month holdout sample for the TS Compare tool (this is because we do not have that much data so using a 12 month holdout would remove too much of the data)\n\n**Step 1:** To forecast produce sales for existing stores you should aggregate produce sales across all stores by month and create a forecast.\n\n**Step 2:** To forecast produce sales for new stores:\n* Forecast **produce sales (not total sales)** for the average store (rather than the aggregate) for each segment.\n* Multiply the average store produce sales forecast by the number of new stores in that segment.\n* For example, if the forecasted average store produce sales for segment 1 for March is 10,000, and there are 4 new stores in segment 1, the forecast for the new stores in segment 1 would be 40,000.\n* Sum the new stores produce sales forecasts for each of the segments to get the forecast for all new stores.\n\n**Step 3:** Sum the forecasts of the existing and new stores together for the total produce sales forecast.\n\n### Task 3 Submission\n1. What type of ETS or ARIMA model did you use for each forecast? Use ETS(a,m,n) or ARIMA(ar, i, ma) notation. How did you come to that decision?\n2. Please provide a table of your forecasts for existing and new stores. Also, provide visualization of your forecasts that includes historical data, existing stores forecasts, and new stores forecasts.\n",
+              "instructor_notes": ""
+            },
+            {
+              "id": 331146,
+              "key": "918ef18d-e623-4914-97ce-8500fd3e5c57",
+              "title": null,
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "This is the table we are expecting to see filled out in this Task",
+              "instructor_notes": ""
+            },
+            {
+              "id": 331145,
+              "key": "0a106d6c-1f60-4870-a029-d6bb050be9a7",
+              "title": null,
+              "semantic_type": "ImageAtom",
+              "is_public": true,
+              "url": "https://video.udacity-data.com/topher/2017/June/5942f165_capture1/capture1.png",
+              "non_google_url": "https://s3.cn-north-1.amazonaws.com.cn/u-img/0a106d6c-1f60-4870-a029-d6bb050be9a7",
+              "caption": "",
+              "alt": null,
+              "width": 589,
+              "height": 391,
+              "instructor_notes": null
+            },
+            {
+              "id": 331144,
+              "key": "76cedd8b-3779-4cb5-b29f-eb409d76a320",
+              "title": null,
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "This is an example of the type of graph we are expecting to see, this does not reflect the actual numbers you will get in your analysis.",
+              "instructor_notes": ""
+            },
+            {
+              "id": 331143,
+              "key": "896ffb04-3fef-47f9-bbe0-199415d732f8",
+              "title": null,
+              "semantic_type": "ImageAtom",
+              "is_public": true,
+              "url": "https://video.udacity-data.com/topher/2017/June/5942f0d6_capture2/capture2.png",
+              "non_google_url": "https://s3.cn-north-1.amazonaws.com.cn/u-img/896ffb04-3fef-47f9-bbe0-199415d732f8",
+              "caption": "",
+              "alt": null,
+              "width": 1066,
+              "height": 660,
+              "instructor_notes": null
+            },
+            {
+              "id": 578073,
+              "key": "a07c5ac9-07c6-4d20-81c0-4118adc2a5b2",
+              "title": null,
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "Here is an example sheet (with fake data) of how to put your data together so that you can use it in Tableau: https://docs.google.com/spreadsheets/d/1tkPpRstix73Bx_k4iDk-e5SovqrV3KiILLVGVgypBKw/edit?usp=sharing\n\nYou need a date column, a sales column, and a type column. You can stack the sales data for all three types of stores on top of each other (Existing, Forecast New, Forecast Existing)\n\nOnce brought into Tableau you can use date and sum sales in your rows and columns and then you can color by type.",
+              "instructor_notes": ""
+            }
+          ]
+        },
+        {
+          "id": 207974,
+          "key": "00bb61bc-8a91-4bdc-a43c-3c7444f6a879",
+          "title": "Supporting Materials",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "00bb61bc-8a91-4bdc-a43c-3c7444f6a879",
+            "completed_at": null,
+            "last_viewed_at": null,
+            "unstructured": null
+          },
+          "resources": {
+            "files": [
+              {
+                "name": "StoreSalesData",
+                "uri": "http://video.udacity-data.com.s3.amazonaws.com/topher/2016/November/582bff6a_storesalesdata/storesalesdata.csv"
+              },
+              {
+                "name": "StoreInformation",
+                "uri": "http://video.udacity-data.com.s3.amazonaws.com/topher/2016/November/582bff5f_storeinformation/storeinformation.csv"
+              },
+              {
+                "name": "StoreDemographicData",
+                "uri": "http://video.udacity-data.com.s3.amazonaws.com/topher/2016/November/582bff9e_storedemographicdata/storedemographicdata.csv"
+              },
+              {
+                "name": "P8 - Submission Template",
+                "uri": "https://d17h27t6h515a5.cloudfront.net/topher/2018/January/5a5e5076_p8-submission-template/p8-submission-template.docx"
+              },
+              {
+                "name": "All Project Files",
+                "uri": "https://d17h27t6h515a5.cloudfront.net/topher/2018/January/5a5e511b_all-project-files/all-project-files.zip"
+              },
+              {
+                "name": "Debugging Alteryx",
+                "uri": "https://video.udacity-data.com/topher/2019/June/5d14d13e_debugging-alteryx/debugging-alteryx.pdf"
+              }
+            ],
+            "google_plus_link": null,
+            "career_resource_center_link": null,
+            "coaching_appointments_link": null,
+            "office_hours_link": null,
+            "aws_provisioning_link": null
+          },
+          "atoms": [
+            {
+              "id": 207975,
+              "key": "211ef3f9-fc57-4540-8b0f-acc91cfe1e70",
+              "title": null,
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "### Review\n\nUse the [project rubric](https://review.udacity.com/#!/projects/252/rubric) to review your project. If you are satisfied that your work meets all the rubric requirements, then you're ready to submit your project. If you see room for improvement, keep working to improve your project.\n\n### Submission Template\n\nUse the submission template at the bottom of this section to submit your project.  After filling it out, save it as a PDF and submit the PDF in the next section. You may also include your Alteryx workflow if you'd like. If your submission does not meet specifications, having the workflow may help the reviewer see where you made your mistakes, and allow them to offer you more specific guidance.\n\n#### Data\n\n* *StoreSalesData.csv* - This file contains sales by product category for all existing stores for 2012, 2013, and 2014.\n* *StoreInformation.csv* - This file contains location data for each of the stores.\n* *StoreDemographicData.csv* - This file contains demographic data for the areas surrounding each of the existing stores and locations for new stores.",
+              "instructor_notes": ""
+            },
+            {
+              "id": 310716,
+              "key": "dd4b2fde-c798-4b4a-a5c9-8b6399870a44",
+              "title": "Project Checklist",
+              "semantic_type": "TaskListAtom",
+              "is_public": true,
+              "instructor_notes": null,
+              "user_state": {
+                "node_key": "dd4b2fde-c798-4b4a-a5c9-8b6399870a44",
+                "completed_at": null,
+                "last_viewed_at": null,
+                "unstructured": null
+              },
+              "tasks": [
+                "None of the 3 clusters I determined have less than 20 stores or more than 40 stores",
+                "The 12 month Forecast Table in my project has 3 Columns: Month, New Stores, and Existing Stores",
+                "I checked the rubric https://review.udacity.com/#!/rubrics/437/view"
+              ],
+              "positive_feedback": "Great! You should be very prepared to submit your project.",
+              "video_feedback": null,
+              "description": "This is here to make it easier for you to assess if your project is close to passing so you can try debugging your workflow and project before submission. If you do not feel confident in the topics addressed, please review the course material or reach out for support from mentors or classmates!"
+            },
+            {
+              "id": 300269,
+              "key": "b8ae7799-77b5-4c81-926f-cb0610c1e935",
+              "title": null,
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "If you run into errors in Alteryx or unexpected results from a tool we have a guide to help you figure out what is going on. \n\n**Alteryx Debugging Guide:**\n\n https://docs.google.com/document/d/1ec7SiDCMAZAMjbPvL3aegPoL1PZznHarsxEZ4bjptdI/edit?usp=sharing",
+              "instructor_notes": ""
+            },
+            {
+              "id": 269167,
+              "key": "50dcba43-999d-4b97-aefe-b8ab802b7a37",
+              "title": null,
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "**To Download Files below please right click on the link and select \"Save Link As\"**",
+              "instructor_notes": ""
+            }
+          ]
+        },
+        {
+          "id": 569134,
+          "key": "cf070ad2-51ae-4881-8518-ff1a4fcbdc46",
+          "title": "Tips",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "cf070ad2-51ae-4881-8518-ff1a4fcbdc46",
+            "completed_at": null,
+            "last_viewed_at": null,
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 569136,
+              "key": "f73097c2-474e-411b-8ad8-54887a9e4270",
+              "title": null,
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "## Clustering\nOnly use the percentage of total sales for each category as the variables in the K-Centroids Cluster Analysis tool. Do not use Total Sales, or any other variables.\n\n## Classification\nThe Cluster variable is a categorical variable. Cluster 3 is not 2 more of something than cluster 1. Therefore we must assign it the V_String data type so that our classification models will treat it as categorical.\n\nFor the predictor variables for the classification models, use all of the variables from the demographics data set except for the Store field. Do not use any other variables as predictors in the classification models.\n\n## Aggregations for Forecasting\nFor existing stores we are trying to get the monthly total for past stores before forecasting. We can accomplish this using a summarize tool. \n* Group by Year\n* Group by Month\n* Sum Produce.\n\nNow we need to determine the best forecasting model and then forecast the next 12 months for the existing stores.\n\n---\n\nFor new stores we are trying to get the average monthly total of a store per cluster. We can accomplish this using 2 summarize tools.\n* Group by Store\n* Group by Cluster\n* Group by Year\n* Group by Month\n* Sum Produce.\n\nAnd then\n* Group by Cluster\n* Group by Year\n* Group by Month\n* Avg Sum_Produce.\n\nWe will be forecasting for each of the clusters and then multiplying the results by the number of new stores in that cluster. Then we will be adding all of these forecasts together on the same months to get a total forecast for all the new stores.",
+              "instructor_notes": ""
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "_deprecated": [
+    {
+      "name": "non_google_url",
+      "reason": "(2016/8/18) Not sure, ask i18n team for reason"
+    },
+    {
+      "name": "non_google_url",
+      "reason": "(2016/8/18) Not sure, ask i18n team for reason"
+    },
+    {
+      "name": "non_google_url",
+      "reason": "(2016/8/18) Not sure, ask i18n team for reason"
+    },
+    {
+      "name": "non_google_url",
+      "reason": "(2016/8/18) Not sure, ask i18n team for reason"
+    },
+    {
+      "name": "non_google_url",
+      "reason": "(2016/8/18) Not sure, ask i18n team for reason"
+    }
+  ]
+}

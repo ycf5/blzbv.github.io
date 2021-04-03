@@ -1,0 +1,671 @@
+{
+  "data": {
+    "lesson": {
+      "id": 680877,
+      "key": "431f0c16-4bbe-40e6-8104-136a331bfcb8",
+      "title": "Preparing Data for Clustering",
+      "semantic_type": "Lesson",
+      "is_public": true,
+      "version": "1.0.0",
+      "locale": "en-us",
+      "summary": "Scale data to prepare a dataset for cluster modeling. Select variables to include based on the business context.",
+      "lesson_type": "Classroom",
+      "display_workspace_project_only": false,
+      "resources": {
+        "files": [
+          {
+            "name": "Videos Zip File",
+            "uri": "https://zips.udacity-data.com/431f0c16-4bbe-40e6-8104-136a331bfcb8/680877/1544455354624/Preparing+Data+for+Clustering+Videos.zip"
+          },
+          {
+            "name": "Transcripts Zip File",
+            "uri": "https://zips.udacity-data.com/431f0c16-4bbe-40e6-8104-136a331bfcb8/680877/1544455350082/Preparing+Data+for+Clustering+Subtitles.zip"
+          }
+        ],
+        "google_plus_link": null,
+        "career_resource_center_link": null,
+        "coaching_appointments_link": null,
+        "office_hours_link": null,
+        "aws_provisioning_link": null
+      },
+      "project": null,
+      "lab": null,
+      "concepts": [
+        {
+          "id": 194435,
+          "key": "a865bc79-f204-41ac-9206-b97330b3aa7e",
+          "title": "Data Preparation Introduction",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "a865bc79-f204-41ac-9206-b97330b3aa7e",
+            "completed_at": null,
+            "last_viewed_at": null,
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 213552,
+              "key": "cd19498a-5b54-4d8b-bf19-b2519d97ea21",
+              "title": "Data Preparation Introduction",
+              "semantic_type": "VideoAtom",
+              "is_public": true,
+              "instructor_notes": "",
+              "video": {
+                "youtube_id": "1-DNZYmnxO4",
+                "china_cdn_id": "1-DNZYmnxO4.mp4"
+              }
+            },
+            {
+              "id": 213554,
+              "key": "5328e46c-1a19-4e9e-99bf-ffe3b1b31ae2",
+              "title": null,
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "### Creating an Analytical Dataset\n\nYou can find the Creating an Analytical Dataset course [here](https://www.udacity.com/course/creating-an-analytical-dataset--ud977).",
+              "instructor_notes": ""
+            }
+          ]
+        },
+        {
+          "id": 194437,
+          "key": "28adda27-6504-4828-9198-e3c0ddcae0ed",
+          "title": "Getting the Right Data",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "28adda27-6504-4828-9198-e3c0ddcae0ed",
+            "completed_at": null,
+            "last_viewed_at": null,
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 213545,
+              "key": "de217731-d0c7-4702-bc68-93b6a430ba6b",
+              "title": "Getting the Right Data",
+              "semantic_type": "VideoAtom",
+              "is_public": true,
+              "instructor_notes": "",
+              "video": {
+                "youtube_id": "3q66CIjXY_E",
+                "china_cdn_id": "3q66CIjXY_E.mp4"
+              }
+            }
+          ]
+        },
+        {
+          "id": 194438,
+          "key": "ec977682-b812-46ef-a34e-8e8b31cffc2c",
+          "title": "Selecting Data Based on Objectives",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "ec977682-b812-46ef-a34e-8e8b31cffc2c",
+            "completed_at": null,
+            "last_viewed_at": null,
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 213556,
+              "key": "140a568c-4249-4402-9ec4-439061375f94",
+              "title": "Examples Of Selecting Data Based On Objectives",
+              "semantic_type": "VideoAtom",
+              "is_public": true,
+              "instructor_notes": "",
+              "video": {
+                "youtube_id": "-WU2TJu2B54",
+                "china_cdn_id": "-WU2TJu2B54.mp4"
+              }
+            },
+            {
+              "id": 213560,
+              "key": "635905c4-c32d-4473-9dd9-8d04cdedcaf5",
+              "title": null,
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "**Definition: Sell through rate** is \"a calculation, commonly represented as a percentage, comparing the amount of inventory a retailer receives from a manufacturer or supplier against what is actually sold to the customer.\" - [thebalance.com](https://www.thebalance.com/sell-through-rate-2890389)",
+              "instructor_notes": ""
+            }
+          ]
+        },
+        {
+          "id": 213558,
+          "key": "43c59f60-d6ba-453b-bf51-a09c51e520a1",
+          "title": "Examples of Selecting Data Based on Objectives",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "43c59f60-d6ba-453b-bf51-a09c51e520a1",
+            "completed_at": null,
+            "last_viewed_at": null,
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 215829,
+              "key": "e46e83bd-71f2-4f43-be20-e4ab2b14d732",
+              "title": "Examples Of Selecting Data Based On Objectives",
+              "semantic_type": "VideoAtom",
+              "is_public": true,
+              "instructor_notes": "",
+              "video": {
+                "youtube_id": "UdEBQCgGkQ8",
+                "china_cdn_id": "UdEBQCgGkQ8.mp4"
+              }
+            }
+          ]
+        },
+        {
+          "id": 194478,
+          "key": "125b21b6-c4b7-49f0-b402-ed17b4fc2d04",
+          "title": "Predetermined Bias in Transactional Data",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "125b21b6-c4b7-49f0-b402-ed17b4fc2d04",
+            "completed_at": null,
+            "last_viewed_at": null,
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 213547,
+              "key": "55da10c9-e30e-4aaa-9c9b-f14a8befccd1",
+              "title": "Predetermined Bias In Transactional Data",
+              "semantic_type": "VideoAtom",
+              "is_public": true,
+              "instructor_notes": "",
+              "video": {
+                "youtube_id": "Cl3GC6IeerQ",
+                "china_cdn_id": "Cl3GC6IeerQ.mp4"
+              }
+            }
+          ]
+        },
+        {
+          "id": 213561,
+          "key": "1738b4ac-f7f6-4a65-b5c6-8894efeb0802",
+          "title": "Selecting Data Quiz",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "1738b4ac-f7f6-4a65-b5c6-8894efeb0802",
+            "completed_at": null,
+            "last_viewed_at": null,
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 213562,
+              "key": "186223ba-e7f2-4cbc-b4e7-6e4b12624ff2",
+              "title": null,
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "## Selecting Data Quiz\n\nLet’s take a look at three different objectives for segmenting as it could relate to customers. With each objective listed, select the variable that you think might have the **LEAST** value in creating the segments.",
+              "instructor_notes": ""
+            },
+            {
+              "id": 213563,
+              "key": "fc779713-986d-4f48-9e43-ed06d95414d4",
+              "title": "Question 1",
+              "semantic_type": "RadioQuizAtom",
+              "is_public": true,
+              "instructor_notes": null,
+              "user_state": {
+                "node_key": "fc779713-986d-4f48-9e43-ed06d95414d4",
+                "completed_at": null,
+                "last_viewed_at": null,
+                "unstructured": null
+              },
+              "question": {
+                "prompt": "Objective: Will use segments for marketing in order to enhance sales in a specific product category.",
+                "answers": [
+                  {
+                    "id": "a1479445573927",
+                    "text": "Years of Loyalty program membership",
+                    "is_correct": true
+                  },
+                  {
+                    "id": "a1479445582992",
+                    "text": "Customer age ",
+                    "is_correct": false
+                  },
+                  {
+                    "id": "a1479445584680",
+                    "text": "Number of children ",
+                    "is_correct": false
+                  },
+                  {
+                    "id": "a1479445585372",
+                    "text": "Education level",
+                    "is_correct": false
+                  }
+                ]
+              }
+            },
+            {
+              "id": 213564,
+              "key": "da2d5264-b85d-4ccc-bfd4-0efe63270f60",
+              "title": "Question 2",
+              "semantic_type": "RadioQuizAtom",
+              "is_public": true,
+              "instructor_notes": null,
+              "user_state": {
+                "node_key": "da2d5264-b85d-4ccc-bfd4-0efe63270f60",
+                "completed_at": null,
+                "last_viewed_at": null,
+                "unstructured": null
+              },
+              "question": {
+                "prompt": "Objective: Determine customer profitability segments.",
+                "answers": [
+                  {
+                    "id": "a1479445677338",
+                    "text": "Number of transactions ",
+                    "is_correct": false
+                  },
+                  {
+                    "id": "a1479445725379",
+                    "text": "Total spend ",
+                    "is_correct": false
+                  },
+                  {
+                    "id": "a1479445726141",
+                    "text": "Product mix purchased  ",
+                    "is_correct": false
+                  },
+                  {
+                    "id": "a1479445726688",
+                    "text": "Customer age",
+                    "is_correct": true
+                  }
+                ]
+              }
+            },
+            {
+              "id": 213565,
+              "key": "22614c5a-53b5-457a-be1c-7913882125e5",
+              "title": "Question 2",
+              "semantic_type": "RadioQuizAtom",
+              "is_public": true,
+              "instructor_notes": null,
+              "user_state": {
+                "node_key": "22614c5a-53b5-457a-be1c-7913882125e5",
+                "completed_at": null,
+                "last_viewed_at": null,
+                "unstructured": null
+              },
+              "question": {
+                "prompt": "Objective: Identify segments that have high potential for churn (i.e., taking their business elsewhere).",
+                "answers": [
+                  {
+                    "id": "a1479445789132",
+                    "text": "Years of Loyalty program membership ",
+                    "is_correct": false
+                  },
+                  {
+                    "id": "a1479445806810",
+                    "text": "Number of transactions ",
+                    "is_correct": false
+                  },
+                  {
+                    "id": "a1479445807765",
+                    "text": "Number of children ",
+                    "is_correct": true
+                  },
+                  {
+                    "id": "a1479445811461",
+                    "text": "Customer age",
+                    "is_correct": false
+                  }
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "id": 194479,
+          "key": "dfa620ca-0f85-4adf-90eb-0191302d2204",
+          "title": "Data Types in Clustering",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "dfa620ca-0f85-4adf-90eb-0191302d2204",
+            "completed_at": null,
+            "last_viewed_at": null,
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 213553,
+              "key": "96e0f9bf-57a8-44ea-b00a-c89b0361a962",
+              "title": "Data Types in Clustering",
+              "semantic_type": "VideoAtom",
+              "is_public": true,
+              "instructor_notes": "",
+              "video": {
+                "youtube_id": "aw5uLwqbp80",
+                "china_cdn_id": "aw5uLwqbp80.mp4"
+              }
+            },
+            {
+              "id": 213566,
+              "key": "199e66cf-1f88-4fa9-863b-4d8041ea34a3",
+              "title": null,
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "### Numeric Data Types Refresher\n[Ordinal vs Numeric Data](http://www.mymarketresearchmethods.com/types-of-data-nominal-ordinal-interval-ratio/)\n\n### Exploring Clustering with Categorical Data\n\n#### Academic Papers\n* http://www.cs.ust.hk/~qyang/Teaching/537/Papers/huang98extensions.pdf\n* https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5753022/\n* Here’s a [link](http://www.jds-online.com/files/JDS-192.pdf) to a paper that describes some of the work that is being explored in the area of clustering on binary-type data.\n* There is an R package that accommodates calculating “distance” of categorical data. See [here](http://www.inside-r.org/packages/cran/StatMatch/docs/gower.dist)",
+              "instructor_notes": ""
+            }
+          ]
+        },
+        {
+          "id": 194480,
+          "key": "160d3aa3-611b-4b10-9dea-79a51e8ec21c",
+          "title": "Data Quality",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "160d3aa3-611b-4b10-9dea-79a51e8ec21c",
+            "completed_at": null,
+            "last_viewed_at": null,
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 213548,
+              "key": "6974a14d-63ff-4222-adb9-919d4def0acc",
+              "title": "Data Quality",
+              "semantic_type": "VideoAtom",
+              "is_public": true,
+              "instructor_notes": "",
+              "video": {
+                "youtube_id": "f_whF6dtLSg",
+                "china_cdn_id": "f_whF6dtLSg.mp4"
+              }
+            }
+          ]
+        },
+        {
+          "id": 194485,
+          "key": "b1fca810-de89-4098-bde8-8511fbd53936",
+          "title": "Scaling",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "b1fca810-de89-4098-bde8-8511fbd53936",
+            "completed_at": null,
+            "last_viewed_at": null,
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 213549,
+              "key": "8f5becd6-704f-43dc-b441-d75bd013176a",
+              "title": "Scaling",
+              "semantic_type": "VideoAtom",
+              "is_public": true,
+              "instructor_notes": "",
+              "video": {
+                "youtube_id": "5XJWDRK3uBw",
+                "china_cdn_id": "5XJWDRK3uBw.mp4"
+              }
+            },
+            {
+              "id": 213567,
+              "key": "d8794bd1-5ed4-465e-8679-d501ef859b93",
+              "title": null,
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "### Z-Score\nA z-score (aka, a standard score) indicates how many standard deviations an element is from the mean. A z-score can be calculated from the following formula.\n\n<center>z = (X - μ) / σ</center>\n<br>\nwhere z is the z-score, X is the value of the element, μ is the population mean, and σ is the standard deviation. To learn more about its interpretation, see [here](http://stattrek.com/statistics/dictionary.aspx?definition=z%20score).",
+              "instructor_notes": ""
+            }
+          ]
+        },
+        {
+          "id": 194488,
+          "key": "eb5da8cd-0f4d-488c-97b5-766596f2840e",
+          "title": "Scaling Quiz",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "eb5da8cd-0f4d-488c-97b5-766596f2840e",
+            "completed_at": null,
+            "last_viewed_at": null,
+            "unstructured": null
+          },
+          "resources": {
+            "files": [
+              {
+                "name": "Scaling Exercise Data",
+                "uri": "http://video.udacity-data.com.s3.amazonaws.com/topher/2016/November/582faae6_scaling-exercise-data/scaling-exercise-data.xlsx"
+              },
+              {
+                "name": "Scaling Quiz Solution",
+                "uri": "http://video.udacity-data.com.s3.amazonaws.com/topher/2017/June/59385a37_scaling-solution/scaling-solution.xlsx"
+              }
+            ],
+            "google_plus_link": null,
+            "career_resource_center_link": null,
+            "coaching_appointments_link": null,
+            "office_hours_link": null,
+            "aws_provisioning_link": null
+          },
+          "atoms": [
+            {
+              "id": 215603,
+              "key": "759eba38-800e-4227-abf5-b5dba03caeda",
+              "title": null,
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "# Scaling Quiz\n\nNow let’s give scaling a try on a dataset. Generally you will rely on software tools to do this for you, but doing a simple example will give you a better understanding of the concept.\n\nUsing the “Scaling Exercise Data.xlsx” file found at the bottom of the page, create the expressions in Excel that will scale the two data variables using both z-score and unit interval methods.",
+              "instructor_notes": ""
+            },
+            {
+              "id": 215617,
+              "key": "350cf8d0-7fa7-4c32-98de-af5fb91338ec",
+              "title": "Question 2",
+              "semantic_type": "RadioQuizAtom",
+              "is_public": true,
+              "instructor_notes": null,
+              "user_state": {
+                "node_key": "350cf8d0-7fa7-4c32-98de-af5fb91338ec",
+                "completed_at": null,
+                "last_viewed_at": null,
+                "unstructured": null
+              },
+              "question": {
+                "prompt": "What is the correct z-score for the “# of Households” for Store #4?",
+                "answers": [
+                  {
+                    "id": "a1479477633841",
+                    "text": "0.75",
+                    "is_correct": false
+                  },
+                  {
+                    "id": "a1479477661589",
+                    "text": "1.02",
+                    "is_correct": false
+                  },
+                  {
+                    "id": "a1479477662491",
+                    "text": "1.49",
+                    "is_correct": true
+                  }
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "id": 194490,
+          "key": "74ae7078-2cbc-4e95-8ff4-582119d41351",
+          "title": "Data Prep Exercise",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "74ae7078-2cbc-4e95-8ff4-582119d41351",
+            "completed_at": null,
+            "last_viewed_at": null,
+            "unstructured": null
+          },
+          "resources": {
+            "files": [
+              {
+                "name": "Climate Data Sample",
+                "uri": "http://video.udacity-data.com.s3.amazonaws.com/topher/2016/November/582fab21_climate-data-sample/climate-data-sample.csv"
+              }
+            ],
+            "google_plus_link": null,
+            "career_resource_center_link": null,
+            "coaching_appointments_link": null,
+            "office_hours_link": null,
+            "aws_provisioning_link": null
+          },
+          "atoms": [
+            {
+              "id": 213550,
+              "key": "0aaacdb0-632f-402c-8e93-02a0b5112a0e",
+              "title": "Data Prep Quiz",
+              "semantic_type": "VideoAtom",
+              "is_public": true,
+              "instructor_notes": "",
+              "video": {
+                "youtube_id": "GudX5P9HVcM",
+                "china_cdn_id": "GudX5P9HVcM.mp4"
+              }
+            },
+            {
+              "id": 215618,
+              "key": "9d728ce5-bc25-4e4f-abb5-bedd3a77ac15",
+              "title": null,
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "### Additional Weather Data\n\nIn case you are interested in seeing the weather data in raw format, here is the link to the general website and then the specific link where you can get the data in a zipped file.\n\n[National Weather Service data site](https://www.ncdc.noaa.gov/data-access)\n\n[Download list of monthly data by station](ftp://ftp.ncdc.noaa.gov/pub/data/lcd/)",
+              "instructor_notes": ""
+            }
+          ]
+        },
+        {
+          "id": 194491,
+          "key": "2437c819-b33d-40de-8bef-febc8e3452fe",
+          "title": "Transforming Variables",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "2437c819-b33d-40de-8bef-febc8e3452fe",
+            "completed_at": null,
+            "last_viewed_at": null,
+            "unstructured": null
+          },
+          "resources": {
+            "files": [
+              {
+                "name": "Climate Data Sample",
+                "uri": "http://video.udacity-data.com.s3.amazonaws.com/topher/2016/November/582fab3d_climate-data-sample/climate-data-sample.csv"
+              }
+            ],
+            "google_plus_link": null,
+            "career_resource_center_link": null,
+            "coaching_appointments_link": null,
+            "office_hours_link": null,
+            "aws_provisioning_link": null
+          },
+          "atoms": [
+            {
+              "id": 215858,
+              "key": "8d2f9687-e544-4a60-8085-182f3cb5f187",
+              "title": "Transforming Variable",
+              "semantic_type": "VideoAtom",
+              "is_public": true,
+              "instructor_notes": "",
+              "video": {
+                "youtube_id": "OIpWZrrFuGs",
+                "china_cdn_id": "OIpWZrrFuGs.mp4"
+              }
+            }
+          ]
+        },
+        {
+          "id": 194492,
+          "key": "5a9d164a-0d4a-4bff-bcd4-64431a6c45c3",
+          "title": "Visualizing the Data",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "5a9d164a-0d4a-4bff-bcd4-64431a6c45c3",
+            "completed_at": null,
+            "last_viewed_at": null,
+            "unstructured": null
+          },
+          "resources": {
+            "files": [
+              {
+                "name": "Data Prep Exercise Results",
+                "uri": "http://video.udacity-data.com.s3.amazonaws.com/topher/2016/November/582fab72_data-prep-exercise-results/data-prep-exercise-results.csv"
+              }
+            ],
+            "google_plus_link": null,
+            "career_resource_center_link": null,
+            "coaching_appointments_link": null,
+            "office_hours_link": null,
+            "aws_provisioning_link": null
+          },
+          "atoms": [
+            {
+              "id": 215859,
+              "key": "5c9c8cdc-4447-46c6-8c14-e35fe309a93c",
+              "title": "Visualizing The Data",
+              "semantic_type": "VideoAtom",
+              "is_public": true,
+              "instructor_notes": "",
+              "video": {
+                "youtube_id": "kv4A1eJUngA",
+                "china_cdn_id": "kv4A1eJUngA.mp4"
+              }
+            }
+          ]
+        },
+        {
+          "id": 194493,
+          "key": "29dfb452-76ad-4f52-908a-ece9f1d0d4b1",
+          "title": "Lesson Summary",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "29dfb452-76ad-4f52-908a-ece9f1d0d4b1",
+            "completed_at": null,
+            "last_viewed_at": null,
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 213551,
+              "key": "47c44e8f-679e-458b-aaff-7ffd91babcdf",
+              "title": "Lesson Summary",
+              "semantic_type": "VideoAtom",
+              "is_public": true,
+              "instructor_notes": "",
+              "video": {
+                "youtube_id": "-YQQxo4BovU",
+                "china_cdn_id": "-YQQxo4BovU.mp4"
+              }
+            }
+          ]
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,128 @@
+WEBVTT
+Kind: captions
+Language: pt-BR
+
+00:00:00.000 --> 00:00:02.067
+Olá, sou Rod Light,
+
+00:00:02.100 --> 00:00:05.567
+engenheiro-chefe de soluções
+no Alterix,
+
+00:00:05.601 --> 00:00:08.467
+líder em análise de dados
+self-service.
+
+00:00:08.501 --> 00:00:11.667
+Neste curso, mostrarei
+conceitos e práticas
+
+00:00:11.701 --> 00:00:14.567
+relacionados à segmentação
+e agrupamento.
+
+00:00:14.601 --> 00:00:17.100
+Muitas vezes,
+como analista de negócios,
+
+00:00:17.133 --> 00:00:19.334
+podem lhe pedir
+para fornecer respostas
+
+00:00:19.367 --> 00:00:22.133
+para entidades específicas
+nos negócios.
+
+00:00:22.167 --> 00:00:24.400
+Como lojas ou clientes.
+
+00:00:24.434 --> 00:00:27.133
+Isto pode se tornar
+uma tarefa intransponível,
+
+00:00:27.167 --> 00:00:29.734
+devido ao tamanho
+do negócio.
+
+00:00:29.767 --> 00:00:34.734
+Por exemplo, um varejista pode ter
+centenas, até milhares de lojas.
+
+00:00:34.767 --> 00:00:39.200
+Criar modelos para determinar
+a melhor mistura de produtos para cada
+
+00:00:39.234 --> 00:00:40.734
+pode ser assustador.
+
+00:00:40.767 --> 00:00:43.667
+Outro exemplo pode ser
+relacionado a marketing.
+
+00:00:43.701 --> 00:00:47.300
+Seria ótimo poder enviar panfletos
+ou e-mails individualmente
+
+00:00:47.334 --> 00:00:49.801
+para clientes customizados,
+
+00:00:49.834 --> 00:00:52.934
+considerando suas necessidades
+e interesses individuais.
+
+00:00:52.968 --> 00:00:55.801
+Mas com milhares
+ou milhões de clientes,
+
+00:00:55.834 --> 00:00:58.434
+isto é quase impossível.
+
+00:00:58.467 --> 00:01:01.634
+Por ser mais fácil
+tomar decisões
+
+00:01:01.667 --> 00:01:05.267
+tendo um número
+menor de entidades,
+
+00:01:05.300 --> 00:01:07.868
+uma abordagem
+a este tipo de problema
+
+00:01:07.901 --> 00:01:11.634
+é dividir as entidades
+em grupos menores de objetos,
+
+00:01:11.667 --> 00:01:13.300
+chamados segmentos.
+
+00:01:13.334 --> 00:01:17.701
+Nesta aula, veremos
+conceitos gerais de segmentação,
+
+00:01:17.734 --> 00:01:20.367
+e uma técnica usada
+para criar os segmentos,
+
+00:01:20.400 --> 00:01:21.934
+chamada agrupamento.
+
+00:01:21.968 --> 00:01:24.901
+Mostrarei a diferença
+entre agrupamente e ajuntamento,
+
+00:01:24.934 --> 00:01:27.400
+que é o que
+muitos negócios fazem.
+
+00:01:27.434 --> 00:01:31.534
+Veremos os conceitos usados
+para criar os grupos,
+
+00:01:31.567 --> 00:01:36.200
+e darei exemplos de como
+isto é usado em indústrias.
+
+00:01:36.234 --> 00:01:37.400
+Vamos começar.
+

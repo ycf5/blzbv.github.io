@@ -1,0 +1,128 @@
+{
+  "data": {
+    "lesson": {
+      "id": 680882,
+      "key": "d1c52c45-a6e7-4e5d-90d1-48cfbfb76819",
+      "title": "Segmentation Practice Project",
+      "semantic_type": "Lesson",
+      "is_public": true,
+      "version": "1.0.0",
+      "locale": "en-us",
+      "summary": "A retail store chain wants to expand to other countries. You will build a clustering model to segment countries to determine which countries are most similar to the U.S. in order to determine the best",
+      "lesson_type": "Classroom",
+      "display_workspace_project_only": false,
+      "resources": null,
+      "project": null,
+      "lab": null,
+      "concepts": [
+        {
+          "id": 292380,
+          "key": "7c9a8433-99aa-4795-999b-2e8f1e01599c",
+          "title": "Project Details",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "7c9a8433-99aa-4795-999b-2e8f1e01599c",
+            "completed_at": null,
+            "last_viewed_at": null,
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 292381,
+              "key": "2471b63b-790f-4bd4-a575-4e5bab7cb918",
+              "title": null,
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "### Project Overview\n\nYou work for a retail store chain in the United States of America. The company is thinking of expanding to other countries and want to figure out which countries are similar economically, demographically, education, and environment to the United States of America. \n\nYour manager has asked you to segment the countries of the world based on various economic, demographic, education, and environment data. From this you should be able to provide a list of countries that are similar to the United States. This will be the “short list” for further consideration by management.\n\nYou have the following information to work with:\n\nA set of various data taken from the [World Bank web site](http://databank.worldbank.org/data/databases.aspx?qterm=&pagenumber=1). A clean version of this data is included with the supporting materials.\n\n### Steps to Success\n\n#### Step 1. Key Decisions\nDetermine the key business questions and specific types of data you need to look at in order to complete this analysis.\n\n#### Step 2. Explore and Cleanup the Data\nClean up the data in the provided CSV file. The data contains 215 countries with 77 variables. \n\nNot all of the countries have complete data and not all of the variables may be applicable for the analysis. Based on the request from your manager, you will need to:\n* Remove countries with a high number of missing data points (>25). HINT: There should be 144 countries left.\n* Remove variables that are not relevant for the analysis (any variable not under the economic, education, demographic, or environment categories). HINT: You should remove 9 variables.\n\n#### Step 3. Determine Clusters and Methodology\nYour manager would like to see four clusters in the results. You also need to determine which clustering method provides the optimal clusters.\n\n#### Step 4. Run the Data and Validate\n\nAfter you run the model with the data you’ve decided to use, append the Cluster IDs back to the data in order to visualize the data.\n\nFeel free to use any visualization software you want, such as Tableau.\n\n#### Step 5. Recommendation\nProvide your recommendations and justify why your countries should considered to be explored first for international expansion.\n",
+              "instructor_notes": ""
+            }
+          ]
+        },
+        {
+          "id": 292382,
+          "key": "5118c18d-bd9c-4d49-8f7c-d5d372035358",
+          "title": "Project Solution",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "5118c18d-bd9c-4d49-8f7c-d5d372035358",
+            "completed_at": null,
+            "last_viewed_at": null,
+            "unstructured": null
+          },
+          "resources": {
+            "files": [
+              {
+                "name": "Practice Project Solution Workflow",
+                "uri": "http://video.udacity-data.com.s3.amazonaws.com/topher/2017/May/590a5bc4_practiceproject7/practiceproject7.zip"
+              },
+              {
+                "name": "Practice Project Solution Workflow 10.6",
+                "uri": "http://video.udacity-data.com.s3.amazonaws.com/topher/2017/July/595ac51c_practiceproject7106/practiceproject7106.yxmd"
+              }
+            ],
+            "google_plus_link": null,
+            "career_resource_center_link": null,
+            "coaching_appointments_link": null,
+            "office_hours_link": null,
+            "aws_provisioning_link": null
+          },
+          "atoms": [
+            {
+              "id": 292384,
+              "key": "41dd46c8-5c27-4b01-b20e-e20708c8cd9b",
+              "title": null,
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "# Practice Project Solution\n\nThe following resources can help you understand one possible solution to this project.\n\n* [Project Answer Key](https://docs.google.com/document/d/1qYIoX2qyMdWyIglJmkRssAL2i_dwByLgOq2QuQc1ElE/edit): This is a full write up of the answer, including explanations of the data cleaning process, \n* Solution Alteryx Workflow (see link below): This shows how all the analysis that led to the conclusions in the Project Answer Key.\n* Solution Tableau file (in progress): This contains the visualizations used in the Project Answer Key.",
+              "instructor_notes": ""
+            }
+          ]
+        },
+        {
+          "id": 292701,
+          "key": "72984dd9-4387-4a7e-b451-73d1afef7368",
+          "title": "Supporting Materials",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "72984dd9-4387-4a7e-b451-73d1afef7368",
+            "completed_at": null,
+            "last_viewed_at": null,
+            "unstructured": null
+          },
+          "resources": {
+            "files": [
+              {
+                "name": "Country Data",
+                "uri": "http://video.udacity-data.com.s3.amazonaws.com/topher/2016/October/57f40d44_country-data/country-data.csv"
+              },
+              {
+                "name": "Variables-Catalog",
+                "uri": "http://video.udacity-data.com.s3.amazonaws.com/topher/2016/December/5849817d_variables-catalog/variables-catalog.csv"
+              }
+            ],
+            "google_plus_link": null,
+            "career_resource_center_link": null,
+            "coaching_appointments_link": null,
+            "office_hours_link": null,
+            "aws_provisioning_link": null
+          },
+          "atoms": [
+            {
+              "id": 292702,
+              "key": "a7b87cae-4edc-4aaf-bd69-5e5c6d6e9cd2",
+              "title": null,
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "### Rubric\n\nThis project used to be a graded project. Use the [project rubric](https://review.udacity.com/#!/rubrics/424/view) to review your project. Once you're happy with your work, take a look at the solution materials provided. If you see room for improvement, keep working to improve your project.\n\n### Completion Template\n\nThe completion template linked below will help guide your work on the practice project. Use it to complete your project.\n\n#### Data\n\n*country_data.csv* - This file contains country information\n\n*variables_catalog.csv* - This file contains descriptions for the data fields in *country_data.csv*\n\n**To Download Files below please right click on the link and select \"Save Link As\"**",
+              "instructor_notes": ""
+            }
+          ]
+        }
+      ]
+    }
+  }
+}

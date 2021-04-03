@@ -1,0 +1,231 @@
+{
+  "id": 437,
+  "project_id": 252,
+  "upload_types": [
+    "file",
+    "zip"
+  ],
+  "file_filter_regex": "\\A(?!(((.*/)?(__MACOSX|\\.git|node_modules|bower_components|jspm_packages|\\.idea|build|.ipynb_checkpoints|\\.Trash-0|logs)(\\Z|/))))((.*\\.(css|docx|gradle|htm|html|java|js|markdown|md|pdf|py|rmd|rst|sql|swift|txt|xml|yaml|yml)\\Z)|((.*/)?(README|Readme|readme|Makefile)\\Z))",
+  "nomination_eligible": true,
+  "stand_out": "",
+  "hide_criteria": false,
+  "created_at": "2016-10-01T00:16:08.992Z",
+  "updated_at": "2020-10-08T23:14:03.920Z",
+  "hashtag": "",
+  "max_upload_size_mb": 500,
+  "estimated_sla": null,
+  "project_assistant_enabled": false,
+  "available_for_cert_project": false,
+  "language": "en-us",
+  "ndkeys": [
+    "nd008t-ent-demo",
+    "nd008t",
+    "nd008-mena-connect",
+    "nd008t-ent",
+    "nd008-inad2",
+    "nd008-connect",
+    "nd008-br-ent",
+    "nd008",
+    "nd008-br",
+    "nd008-connectb2b",
+    "nd008-ent",
+    "nd008t-beta",
+    "nd008t-ent-pwc-mena",
+    "nd008t-ent-pwc-me"
+  ],
+  "coursekeys": [],
+  "is_career": false,
+  "sections": [
+    {
+      "id": 1561,
+      "name": "Overall",
+      "created_at": "2016-11-17T20:33:03.295Z",
+      "updated_at": "2016-11-17T20:33:30.562Z",
+      "deleted_at": null,
+      "position": 0,
+      "rubric_id": 437,
+      "rubric_items": [
+        {
+          "id": 4809,
+          "section_id": 1561,
+          "passed_description": "The write up is written clearly, in complete sentences, and without major typos.",
+          "exceeded_description": null,
+          "created_at": "2016-11-17T20:33:30.775Z",
+          "updated_at": "2016-11-17T20:34:31.732Z",
+          "deleted_at": null,
+          "optional": false,
+          "position": 0,
+          "criteria": "Write up",
+          "exceedable": false
+        },
+        {
+          "id": 4810,
+          "section_id": 1561,
+          "passed_description": "Several visualizations are included. All visualizations are clearly labeled and help answer the related questions.",
+          "exceeded_description": null,
+          "created_at": "2016-11-17T20:34:32.073Z",
+          "updated_at": "2016-12-09T22:22:14.539Z",
+          "deleted_at": null,
+          "optional": false,
+          "position": 1,
+          "criteria": "Visualizations",
+          "exceedable": false
+        }
+      ]
+    },
+    {
+      "id": 1339,
+      "name": "Task 1",
+      "created_at": "2016-10-01T00:16:34.715Z",
+      "updated_at": "2016-11-17T20:33:30.573Z",
+      "deleted_at": null,
+      "position": 1,
+      "rubric_id": 437,
+      "rubric_items": [
+        {
+          "id": 4796,
+          "section_id": 1339,
+          "passed_description": "Accurately identifies the correct number of formats and provides justification using the Adjusted Rand and CH indices.",
+          "exceeded_description": null,
+          "created_at": "2016-11-17T03:09:30.874Z",
+          "updated_at": "2016-12-09T22:23:10.578Z",
+          "deleted_at": null,
+          "optional": false,
+          "position": 0,
+          "criteria": "Number of store formats",
+          "exceedable": false
+        },
+        {
+          "id": 4797,
+          "section_id": 1339,
+          "passed_description": "Identifies the correct number of stores that fall into each store format. ",
+          "exceeded_description": "",
+          "created_at": "2016-11-17T03:21:13.207Z",
+          "updated_at": "2020-09-29T00:21:16.282Z",
+          "deleted_at": null,
+          "optional": false,
+          "position": 1,
+          "criteria": "Stores per format",
+          "exceedable": false
+        },
+        {
+          "id": 4798,
+          "section_id": 1339,
+          "passed_description": "Provides one observation about the differences among clusters, and uses the results of the clusters to provide justification.",
+          "exceeded_description": null,
+          "created_at": "2016-11-17T03:21:14.350Z",
+          "updated_at": "2017-01-06T21:37:40.096Z",
+          "deleted_at": null,
+          "optional": false,
+          "position": 2,
+          "criteria": "Cluster differences",
+          "exceedable": false
+        },
+        {
+          "id": 4799,
+          "section_id": 1339,
+          "passed_description": "Includes a map that shows the location of the stores, uses color to show cluster, and size to show total sales. A legend is used for both color and size.",
+          "exceeded_description": null,
+          "created_at": "2016-11-17T03:21:15.660Z",
+          "updated_at": "2016-11-17T20:12:58.726Z",
+          "deleted_at": null,
+          "optional": false,
+          "position": 3,
+          "criteria": "Cluster Map",
+          "exceedable": false
+        }
+      ]
+    },
+    {
+      "id": 1559,
+      "name": "Task 2",
+      "created_at": "2016-11-17T20:13:30.568Z",
+      "updated_at": "2016-11-17T20:33:30.596Z",
+      "deleted_at": null,
+      "position": 2,
+      "rubric_id": 437,
+      "rubric_items": [
+        {
+          "id": 4802,
+          "section_id": 1559,
+          "passed_description": "States the type of classification model used and adequately justifies the choice using at least one model comparison method.",
+          "exceeded_description": null,
+          "created_at": "2016-11-17T20:13:48.498Z",
+          "updated_at": "2017-01-05T00:12:37.793Z",
+          "deleted_at": null,
+          "optional": false,
+          "position": 0,
+          "criteria": "Model Selection",
+          "exceedable": false
+        },
+        {
+          "id": 4803,
+          "section_id": 1559,
+          "passed_description": "Includes a table that correctly identifies the format for each of the 10 new stores.",
+          "exceeded_description": null,
+          "created_at": "2016-11-17T20:22:51.533Z",
+          "updated_at": "2017-01-06T21:36:50.601Z",
+          "deleted_at": null,
+          "optional": false,
+          "position": 1,
+          "criteria": "New Store Formats",
+          "exceedable": false
+        }
+      ]
+    },
+    {
+      "id": 1560,
+      "name": "Task 3",
+      "created_at": "2016-11-17T20:13:38.287Z",
+      "updated_at": "2016-11-17T20:33:30.603Z",
+      "deleted_at": null,
+      "position": 3,
+      "rubric_id": 437,
+      "rubric_items": [
+        {
+          "id": 4806,
+          "section_id": 1560,
+          "passed_description": "Compares and identifies the best ETS or ARIMA model to use for forecasting. Justifies the decision by showing the plot and shows forecast error measurements against the holdout sample.",
+          "exceeded_description": "",
+          "created_at": "2016-11-17T20:26:06.215Z",
+          "updated_at": "2021-01-18T04:24:53.361Z",
+          "deleted_at": null,
+          "optional": false,
+          "position": 0,
+          "criteria": "Model selection",
+          "exceedable": false
+        },
+        {
+          "id": 4805,
+          "section_id": 1560,
+          "passed_description": "A table with the correct 12 month forecasts for existing and new stores is provided. A visualization of your forecasts that includes historical data, existing stores forecasts, and new stores forecasts is provided.",
+          "exceeded_description": null,
+          "created_at": "2016-11-17T20:26:06.022Z",
+          "updated_at": "2017-01-19T18:51:12.567Z",
+          "deleted_at": null,
+          "optional": false,
+          "position": 0,
+          "criteria": "Forecast Visualization",
+          "exceedable": false
+        }
+      ]
+    }
+  ],
+  "project": {
+    "id": 252,
+    "name": "Combining Predictive Techniques",
+    "nanodegree_key": "nd008",
+    "is_cert_project": false,
+    "audit_project_id": null,
+    "hashtag": null,
+    "audit_rubric_id": 2899,
+    "entitlement_required": null,
+    "is_career": null,
+    "recruitment_family_id": 8,
+    "created_at": "2016-11-21T21:02:15.233Z",
+    "updated_at": "2021-04-01T18:47:24.217Z",
+    "price": "12.0",
+    "ungradeable_price": "3.0",
+    "audit_price": "0.0"
+  }
+}

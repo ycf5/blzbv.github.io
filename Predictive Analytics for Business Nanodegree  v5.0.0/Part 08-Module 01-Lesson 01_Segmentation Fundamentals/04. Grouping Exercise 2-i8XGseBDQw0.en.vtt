@@ -1,0 +1,165 @@
+WEBVTT
+Kind: captions
+Language: en
+
+00:00:00.510 --> 00:00:05.200
+The previous exercise is an example of
+how companies try to group customers or
+
+00:00:05.200 --> 00:00:06.580
+stores.
+
+00:00:06.580 --> 00:00:11.470
+Some of you maybe familiar withy another
+name for this which is called binning.
+
+00:00:11.470 --> 00:00:16.110
+They want to achieve the benefits of
+both standardization and localization.
+
+00:00:16.110 --> 00:00:21.010
+They typically do this by using one or
+maybe two variables or attributes.
+
+00:00:21.010 --> 00:00:26.290
+These are separated into groups using
+dividing lines determined by datapoints,
+
+00:00:26.290 --> 00:00:28.660
+that make sense for
+that specific variable.
+
+00:00:29.870 --> 00:00:34.230
+This is usually the case because they're
+using Excel, where the main method is to
+
+00:00:34.230 --> 00:00:37.630
+sort on the variable, and
+then manually draw the dividing lines.
+
+00:00:39.130 --> 00:00:43.300
+I've taken that same set of data and
+created my three segments.
+
+00:00:43.300 --> 00:00:47.910
+As you can see here, the stores
+are grouped by sales volumes into big,
+
+00:00:47.910 --> 00:00:49.920
+medium, and little.
+
+00:00:49.920 --> 00:00:52.070
+The divisions are fairly arbitrary.
+
+00:00:52.070 --> 00:00:55.860
+And how you divided up the list, may be
+different from how I divided them up.
+
+00:00:57.290 --> 00:01:00.440
+But what happens if you add
+another variable into the mix?
+
+00:01:00.440 --> 00:01:02.939
+Say, the actual square
+footage of the store.
+
+00:01:04.000 --> 00:01:08.862
+Take a look at the next data set,
+squarefeet.csv.
+
+00:01:08.862 --> 00:01:12.558
+It is the same as the first data set,
+except we have added a field for
+
+00:01:12.558 --> 00:01:15.625
+the number of square feet in the store.
+
+00:01:15.625 --> 00:01:18.561
+Try to re-segment the stores
+using both variables.
+
+00:01:18.561 --> 00:01:21.818
+Is store number 3 still a small store?
+
+00:01:21.818 --> 00:01:25.729
+Or is it really a big store that is
+just underperforming compared to all
+
+00:01:25.729 --> 00:01:28.265
+the other 40,000 square foot stores?
+
+00:01:29.585 --> 00:01:33.985
+Now, look at the final file,
+hours opened dot csv.
+
+00:01:33.985 --> 00:01:37.065
+We've added another field
+called hours opened.
+
+00:01:37.065 --> 00:01:40.519
+And that has the daily hours when
+the stores are opened for business.
+
+00:01:41.790 --> 00:01:46.220
+Again, try to re-segment the stores
+using all three variables.
+
+00:01:46.220 --> 00:01:50.130
+As you begin to see, it becomes very
+difficult to define three specific
+
+00:01:50.130 --> 00:01:55.400
+segments that could be categorized
+as big, medium, and little stores.
+
+00:01:55.400 --> 00:01:58.710
+If the purpose of the segmentation
+is to provide a way for
+
+00:01:58.710 --> 00:02:02.930
+management to evaluate the stores
+against others in their segment.
+
+00:02:02.930 --> 00:02:06.470
+You may start questioning what
+really defines the segment.
+
+00:02:06.470 --> 00:02:08.054
+Should store number 5 and
+
+00:02:08.054 --> 00:02:13.171
+store number 8 be compared against each
+other since they're both open 24 hours?
+
+00:02:13.171 --> 00:02:18.370
+But yet, store number 8 is one-fourth
+the actual size of number 5?
+
+00:02:18.370 --> 00:02:20.210
+How about store number three?
+
+00:02:20.210 --> 00:02:24.500
+It is the same size as store number
+five, and open most of the day, but
+
+00:02:24.500 --> 00:02:26.160
+has way less in sales.
+
+00:02:27.470 --> 00:02:32.069
+Now, imagine what would happen if you
+wanted to create the groups using say,
+
+00:02:32.069 --> 00:02:33.566
+15 or 20 variables.
+
+00:02:33.566 --> 00:02:35.899
+Such as demographics around the store,
+
+00:02:35.899 --> 00:02:40.290
+or how close competitors' stores
+are to each specific store.
+
+00:02:40.290 --> 00:02:43.070
+I'm sure, you'd agree that it
+would become much more complex.
+

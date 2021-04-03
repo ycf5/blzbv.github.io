@@ -1,0 +1,440 @@
+{
+  "data": {
+    "lesson": {
+      "id": 680876,
+      "key": "2fdfff23-fd38-4c26-854d-9052fc101ffd",
+      "title": "Segmentation Fundamentals",
+      "semantic_type": "Lesson",
+      "is_public": true,
+      "version": "1.0.0",
+      "locale": "en-us",
+      "summary": "Understand the difference between localization, standardization, and segmentation",
+      "lesson_type": "Classroom",
+      "display_workspace_project_only": false,
+      "resources": {
+        "files": [
+          {
+            "name": "Videos Zip File",
+            "uri": "https://zips.udacity-data.com/2fdfff23-fd38-4c26-854d-9052fc101ffd/680876/1544455100304/Segmentation+Fundamentals+Videos.zip"
+          },
+          {
+            "name": "Transcripts Zip File",
+            "uri": "https://zips.udacity-data.com/2fdfff23-fd38-4c26-854d-9052fc101ffd/680876/1544455097187/Segmentation+Fundamentals+Subtitles.zip"
+          }
+        ],
+        "google_plus_link": null,
+        "career_resource_center_link": null,
+        "coaching_appointments_link": null,
+        "office_hours_link": null,
+        "aws_provisioning_link": null
+      },
+      "project": null,
+      "lab": null,
+      "concepts": [
+        {
+          "id": 232323,
+          "key": "8a27860b-8259-43c0-936d-29e0f6eac3cc",
+          "title": "Welcome to the Course",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "8a27860b-8259-43c0-936d-29e0f6eac3cc",
+            "completed_at": null,
+            "last_viewed_at": null,
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 232322,
+              "key": "0929c00a-d090-4045-8894-aa0324e1362c",
+              "title": "Welcome to the Course",
+              "semantic_type": "VideoAtom",
+              "is_public": true,
+              "instructor_notes": "",
+              "video": {
+                "youtube_id": "YIohCxd-yTE",
+                "china_cdn_id": "YIohCxd-yTE.mp4"
+              }
+            }
+          ]
+        },
+        {
+          "id": 232325,
+          "key": "364a697e-64a8-4b1d-8e67-1d785396a766",
+          "title": "Standardization vs. Localization",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "364a697e-64a8-4b1d-8e67-1d785396a766",
+            "completed_at": null,
+            "last_viewed_at": null,
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 232324,
+              "key": "cd4274b1-3430-461b-8e6f-d8f9e43587fc",
+              "title": "Standardization vs. Localization",
+              "semantic_type": "VideoAtom",
+              "is_public": true,
+              "instructor_notes": "",
+              "video": {
+                "youtube_id": "e-OsHn5cues",
+                "china_cdn_id": "e-OsHn5cues.mp4"
+              }
+            }
+          ]
+        },
+        {
+          "id": 232328,
+          "key": "2b9f64e4-6a6d-423d-b33c-1f1cdcb5dc7a",
+          "title": "Grouping Exercise",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "2b9f64e4-6a6d-423d-b33c-1f1cdcb5dc7a",
+            "completed_at": null,
+            "last_viewed_at": null,
+            "unstructured": null
+          },
+          "resources": {
+            "files": [
+              {
+                "name": "Stores",
+                "uri": "http://video.udacity-data.com.s3.amazonaws.com/topher/2016/November/582fa98d_stores/stores.csv"
+              }
+            ],
+            "google_plus_link": null,
+            "career_resource_center_link": null,
+            "coaching_appointments_link": null,
+            "office_hours_link": null,
+            "aws_provisioning_link": null
+          },
+          "atoms": [
+            {
+              "id": 232326,
+              "key": "e85476a9-2b9e-48b8-a611-a4997386e483",
+              "title": "Grouping Exercise 1",
+              "semantic_type": "VideoAtom",
+              "is_public": true,
+              "instructor_notes": "",
+              "video": {
+                "youtube_id": "bOf9rHgi8PM",
+                "china_cdn_id": "bOf9rHgi8PM.mp4"
+              }
+            },
+            {
+              "id": 232327,
+              "key": "fd6154d4-1127-46ca-9640-ca928bf8e96a",
+              "title": null,
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "### Grouping Exercise 1\n\nUsing the data found in **stores.csv**, divide the stores into different segments based on sales volume.",
+              "instructor_notes": ""
+            }
+          ]
+        },
+        {
+          "id": 232331,
+          "key": "fe0ea487-3a2d-4ae7-84b7-fd6e9d210caf",
+          "title": "Grouping Exercise 2",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "fe0ea487-3a2d-4ae7-84b7-fd6e9d210caf",
+            "completed_at": null,
+            "last_viewed_at": null,
+            "unstructured": null
+          },
+          "resources": {
+            "files": [
+              {
+                "name": "Squarefeet",
+                "uri": "http://video.udacity-data.com.s3.amazonaws.com/topher/2016/November/582faa1a_squarefeet/squarefeet.csv"
+              },
+              {
+                "name": "Hoursopen",
+                "uri": "http://video.udacity-data.com.s3.amazonaws.com/topher/2016/November/582faa63_hoursopen/hoursopen.csv"
+              }
+            ],
+            "google_plus_link": null,
+            "career_resource_center_link": null,
+            "coaching_appointments_link": null,
+            "office_hours_link": null,
+            "aws_provisioning_link": null
+          },
+          "atoms": [
+            {
+              "id": 232329,
+              "key": "fc2e1a13-1ddf-463b-ac73-65bd4e131b7a",
+              "title": "Grouping Exercise 2",
+              "semantic_type": "VideoAtom",
+              "is_public": true,
+              "instructor_notes": "",
+              "video": {
+                "youtube_id": "i8XGseBDQw0",
+                "china_cdn_id": "i8XGseBDQw0.mp4"
+              }
+            },
+            {
+              "id": 232330,
+              "key": "2149f8cc-6ba5-4fbb-9a4d-a17169396f4b",
+              "title": null,
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "### Grouping Exercise 2\n\nUsing the data found in **squarefeet.csv**, divide the stores into different segments based on sales volume and store square footage.\n\nThen, use the data found in **hoursopen.csv**, divide the stores into different segments based on sales volume, store square footage and store hours.",
+              "instructor_notes": ""
+            }
+          ]
+        },
+        {
+          "id": 232333,
+          "key": "22c29931-67f9-421f-a6c6-0e9dad0c6c0f",
+          "title": "Defining Segmentation and Clustering",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "22c29931-67f9-421f-a6c6-0e9dad0c6c0f",
+            "completed_at": null,
+            "last_viewed_at": null,
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 232332,
+              "key": "df915f5e-a61b-46dc-95ee-682a90a04f04",
+              "title": "Defining Segmentation",
+              "semantic_type": "VideoAtom",
+              "is_public": true,
+              "instructor_notes": "",
+              "video": {
+                "youtube_id": "O_0Fke3k_XM",
+                "china_cdn_id": "O_0Fke3k_XM.mp4"
+              }
+            }
+          ]
+        },
+        {
+          "id": 232335,
+          "key": "65c21694-d9fb-4ac7-8c51-1482a021a0e6",
+          "title": "Distance",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "65c21694-d9fb-4ac7-8c51-1482a021a0e6",
+            "completed_at": null,
+            "last_viewed_at": null,
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 232334,
+              "key": "417a44bb-7dc7-465b-b167-d3bd132d8ba1",
+              "title": "Distance in Learning",
+              "semantic_type": "VideoAtom",
+              "is_public": true,
+              "instructor_notes": "",
+              "video": {
+                "youtube_id": "DJST_spc_Z8",
+                "china_cdn_id": "DJST_spc_Z8.mp4"
+              }
+            }
+          ]
+        },
+        {
+          "id": 232339,
+          "key": "5bbb2bf1-72d0-4dcb-8978-a4e052cc6998",
+          "title": "Distance Quiz",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "5bbb2bf1-72d0-4dcb-8978-a4e052cc6998",
+            "completed_at": null,
+            "last_viewed_at": null,
+            "unstructured": null
+          },
+          "resources": {
+            "files": [
+              {
+                "name": "Hoursopen",
+                "uri": "http://video.udacity-data.com.s3.amazonaws.com/topher/2016/November/582faaa0_hoursopen/hoursopen.csv"
+              }
+            ],
+            "google_plus_link": null,
+            "career_resource_center_link": null,
+            "coaching_appointments_link": null,
+            "office_hours_link": null,
+            "aws_provisioning_link": null
+          },
+          "atoms": [
+            {
+              "id": 232336,
+              "key": "d00eb32e-e62b-4214-83e1-051536d9d9d9",
+              "title": "Question One",
+              "semantic_type": "ValidatedQuizAtom",
+              "is_public": true,
+              "instructor_notes": null,
+              "user_state": {
+                "node_key": "d00eb32e-e62b-4214-83e1-051536d9d9d9",
+                "completed_at": null,
+                "last_viewed_at": null,
+                "unstructured": null
+              },
+              "question": {
+                "prompt": "Using the hoursopen.csv file, what is the “distance” in Sales Volume between Store #3 and Store #6? Please exclude commas in your answer.",
+                "matchers": [
+                  {
+                    "expression": "450000"
+                  }
+                ]
+              }
+            },
+            {
+              "id": 232337,
+              "key": "2e8d1f4b-12a4-4c40-a749-ca9260dc2bc4",
+              "title": "Question 2",
+              "semantic_type": "ValidatedQuizAtom",
+              "is_public": true,
+              "instructor_notes": null,
+              "user_state": {
+                "node_key": "2e8d1f4b-12a4-4c40-a749-ca9260dc2bc4",
+                "completed_at": null,
+                "last_viewed_at": null,
+                "unstructured": null
+              },
+              "question": {
+                "prompt": "What is the “distance” in Sq Ft between Store #3 and Store #5?",
+                "matchers": [
+                  {
+                    "expression": "0"
+                  }
+                ]
+              }
+            },
+            {
+              "id": 232338,
+              "key": "8c9f7a52-bf39-4168-be62-3e8a51a81ca7",
+              "title": "Question 3",
+              "semantic_type": "ReflectAtom",
+              "is_public": true,
+              "instructor_notes": null,
+              "user_state": {
+                "node_key": "8c9f7a52-bf39-4168-be62-3e8a51a81ca7",
+                "completed_at": null,
+                "last_viewed_at": null,
+                "unstructured": null
+              },
+              "question": {
+                "title": null,
+                "semantic_type": "TextQuestion",
+                "evaluation_id": null,
+                "text": "What is the “distance” using both Sales Volume and Hours Open between Store #1 and Store #3?"
+              },
+              "answer": {
+                "text": "Answer: Trick question. It’s hard to calculate, but this is an example of what a clustering algorithm would calculate. ",
+                "video": null
+              }
+            }
+          ]
+        },
+        {
+          "id": 232342,
+          "key": "3f69be40-7531-46b4-bbf5-2b742fa0d569",
+          "title": "Examples for Uses of Clustering",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "3f69be40-7531-46b4-bbf5-2b742fa0d569",
+            "completed_at": null,
+            "last_viewed_at": null,
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 232340,
+              "key": "71eb0264-12aa-4f4e-8fc9-55bd92b4261c",
+              "title": "Examples For Uses Of Clustering",
+              "semantic_type": "VideoAtom",
+              "is_public": true,
+              "instructor_notes": "",
+              "video": {
+                "youtube_id": "zvKZiRmz1b0",
+                "china_cdn_id": "zvKZiRmz1b0.mp4"
+              }
+            },
+            {
+              "id": 232341,
+              "key": "559e030f-f255-4b32-abd6-1d35e73eb23d",
+              "title": null,
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "### Links to Clustering in the Real World\n* [Reading on clustering in the insurance industry](http://www.uhu.es/ijdar/10.4192/1577-8517-v11_4.pdf)\n* [Clustering analysis of the Cavaliers and Warriors](http://www.business2community.com/brandviews/affinio/nba-fandom-using-social-data-understand-allin216-dubnation-01572819#JXH4v0iLPshLTFSp.97)\n* [Clustering in bioinformatics](http://www.efsa.europa.eu/sites/default/files/scientific_output/files/main_documents/308e.pdf)\n* [Clustering in education](http://www.columbia.edu/~rsb2162/Encyclopedia%20Chapter%20Draft%20v10%20-fw.pdf)",
+              "instructor_notes": ""
+            }
+          ]
+        },
+        {
+          "id": 232344,
+          "key": "d89b06ad-064a-483f-b0b7-d84a1a148325",
+          "title": "Unsupervised Learning",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "d89b06ad-064a-483f-b0b7-d84a1a148325",
+            "completed_at": null,
+            "last_viewed_at": null,
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 262838,
+              "key": "32241428-5309-4444-931e-2366dc49c794",
+              "title": "09 L Unsupervised Learning",
+              "semantic_type": "VideoAtom",
+              "is_public": true,
+              "instructor_notes": "",
+              "video": {
+                "youtube_id": "fnwQeWZwaqc",
+                "china_cdn_id": "fnwQeWZwaqc.mp4"
+              }
+            }
+          ]
+        },
+        {
+          "id": 232346,
+          "key": "e344db2b-735c-4a22-a12f-a7c598611b08",
+          "title": "Business Problem Introduction",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "e344db2b-735c-4a22-a12f-a7c598611b08",
+            "completed_at": null,
+            "last_viewed_at": null,
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 232345,
+              "key": "0640f0e2-b751-455f-b8ab-50fcf3237a09",
+              "title": "Business Problem Introduction",
+              "semantic_type": "VideoAtom",
+              "is_public": true,
+              "instructor_notes": "",
+              "video": {
+                "youtube_id": "rsWVahpNkEI",
+                "china_cdn_id": "rsWVahpNkEI.mp4"
+              }
+            }
+          ]
+        }
+      ]
+    }
+  }
+}

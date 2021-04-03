@@ -1,0 +1,82 @@
+WEBVTT
+Kind: captions
+Language: en
+
+00:00:00.000 --> 00:00:03.840
+We now understand a little bit more about what segmentation and
+
+00:00:03.840 --> 00:00:08.175
+clustering are and why we might want to do this kind of analysis.
+
+00:00:08.175 --> 00:00:10.740
+Let's start looking into the details of what you
+
+00:00:10.740 --> 00:00:13.675
+need to do to perform a cluster analysis.
+
+00:00:13.675 --> 00:00:18.870
+For this course, we'll use a hands on business case that will let you explore and
+
+00:00:18.870 --> 00:00:24.640
+practice the concepts typically found in a clustering segmentation process.
+
+00:00:24.640 --> 00:00:29.880
+The business problem is that a retail company sells outdoor furniture,
+
+00:00:29.880 --> 00:00:34.355
+recreational equipment, and garden supplies in all of its stores.
+
+00:00:34.355 --> 00:00:40.040
+The company has over 2,000 stores across the continental United States and wants to
+
+00:00:40.040 --> 00:00:45.910
+ensure that it places the various product items in the stores at the appropriate time,
+
+00:00:45.910 --> 00:00:48.120
+considering the weather seasons.
+
+00:00:48.120 --> 00:00:51.950
+As we've mentioned in our Lowe's example earlier in this lesson,
+
+00:00:51.950 --> 00:00:53.660
+this business wants to place
+
+00:00:53.660 --> 00:00:57.350
+barbecue grills in their stores where the consumers will be interested in
+
+00:00:57.350 --> 00:01:00.410
+barbecuing and want to place the garden items in
+
+00:01:00.410 --> 00:01:04.650
+their stores when people will be interested in planting those items.
+
+00:01:04.650 --> 00:01:08.290
+In other words, they don't want to put grills on sale in
+
+00:01:08.290 --> 00:01:11.590
+areas when it's snowing and no one is barbecuing,
+
+00:01:11.590 --> 00:01:15.145
+nor do they want to ship daisies when snow is on the ground either.
+
+00:01:15.145 --> 00:01:21.355
+Now, they could create individual seasonality plans for each of the 2,000 plus stores,
+
+00:01:21.355 --> 00:01:24.870
+but it would cost way too much to put this into effect.
+
+00:01:24.870 --> 00:01:28.100
+They have asked us to create segments that will
+
+00:01:28.100 --> 00:01:31.190
+allow them to create plans for those segments,
+
+00:01:31.190 --> 00:01:34.675
+that can then be applied to each store in each segment.
+
+00:01:34.675 --> 00:01:38.450
+This should give them maximum operating efficiency and yet
+
+00:01:38.450 --> 00:01:42.550
+provide for the best scenarios to have maximum revenues.
+

@@ -1,0 +1,575 @@
+{
+  "data": {
+    "lesson": {
+      "id": 680879,
+      "key": "c30dfb33-f876-45e4-9d94-36682639983e",
+      "title": "Clustering Models",
+      "semantic_type": "Lesson",
+      "is_public": true,
+      "version": "1.0.0",
+      "locale": "en-us",
+      "summary": "Select the appropriate number of clusters. Build and apply a k-centroid cluster model.",
+      "lesson_type": "Classroom",
+      "display_workspace_project_only": false,
+      "resources": {
+        "files": [
+          {
+            "name": "Videos Zip File",
+            "uri": "https://zips.udacity-data.com/c30dfb33-f876-45e4-9d94-36682639983e/680879/1544455616337/Clustering+Models+Videos.zip"
+          },
+          {
+            "name": "Transcripts Zip File",
+            "uri": "https://zips.udacity-data.com/c30dfb33-f876-45e4-9d94-36682639983e/680879/1544455611394/Clustering+Models+Subtitles.zip"
+          }
+        ],
+        "google_plus_link": null,
+        "career_resource_center_link": null,
+        "coaching_appointments_link": null,
+        "office_hours_link": null,
+        "aws_provisioning_link": null
+      },
+      "project": null,
+      "lab": null,
+      "concepts": [
+        {
+          "id": 194513,
+          "key": "d3a2f1a7-f588-46af-806d-6a9e465489eb",
+          "title": "Clustering Techniques Introduction",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "d3a2f1a7-f588-46af-806d-6a9e465489eb",
+            "completed_at": null,
+            "last_viewed_at": null,
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 215758,
+              "key": "37f81dc4-6189-4c58-a70b-c7f5039a8226",
+              "title": "Intro To Clustering Tecniques",
+              "semantic_type": "VideoAtom",
+              "is_public": true,
+              "instructor_notes": "",
+              "video": {
+                "youtube_id": "MmHE2_XwfhM",
+                "china_cdn_id": "MmHE2_XwfhM.mp4"
+              }
+            }
+          ]
+        },
+        {
+          "id": 194514,
+          "key": "105b1b76-2d88-4238-b9fb-cb8ad6e91d9b",
+          "title": "Hierarchical Clustering",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "105b1b76-2d88-4238-b9fb-cb8ad6e91d9b",
+            "completed_at": null,
+            "last_viewed_at": null,
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 215729,
+              "key": "33c119e3-3a1e-4ccf-8195-08f9c0cd3deb",
+              "title": "Hierarchical Clustering",
+              "semantic_type": "VideoAtom",
+              "is_public": true,
+              "instructor_notes": "",
+              "video": {
+                "youtube_id": "OKer2AUri3s",
+                "china_cdn_id": "OKer2AUri3s.mp4"
+              }
+            }
+          ]
+        },
+        {
+          "id": 194515,
+          "key": "d44a4431-e52c-4fc2-9772-89ba7b1020a0",
+          "title": "K-Centroid Clustering",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "d44a4431-e52c-4fc2-9772-89ba7b1020a0",
+            "completed_at": null,
+            "last_viewed_at": null,
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 215730,
+              "key": "97cf6693-f88f-4bcd-994f-d356e6629924",
+              "title": "K-Centroid Clustering",
+              "semantic_type": "VideoAtom",
+              "is_public": true,
+              "instructor_notes": "",
+              "video": {
+                "youtube_id": "AUCzl6k4QJE",
+                "china_cdn_id": "AUCzl6k4QJE.mp4"
+              }
+            }
+          ]
+        },
+        {
+          "id": 194516,
+          "key": "1f581ff3-0f18-4a44-a726-e280d6e9cbf3",
+          "title": "Comparison of the Two Methods",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "1f581ff3-0f18-4a44-a726-e280d6e9cbf3",
+            "completed_at": null,
+            "last_viewed_at": null,
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 215732,
+              "key": "dbf836ab-92a4-499e-bb65-7665001c85f7",
+              "title": "Comparison Of The Two Methods",
+              "semantic_type": "VideoAtom",
+              "is_public": true,
+              "instructor_notes": "",
+              "video": {
+                "youtube_id": "SQ75x-2Bkto",
+                "china_cdn_id": "SQ75x-2Bkto.mp4"
+              }
+            }
+          ]
+        },
+        {
+          "id": 194518,
+          "key": "61cac0bf-f7cc-43c1-b834-868174cd934a",
+          "title": "How Many Clusters?",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "61cac0bf-f7cc-43c1-b834-868174cd934a",
+            "completed_at": null,
+            "last_viewed_at": null,
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 215861,
+              "key": "b3ef3f58-0adf-49f1-a69a-66cb2129de13",
+              "title": "How Many Clusters",
+              "semantic_type": "VideoAtom",
+              "is_public": true,
+              "instructor_notes": "",
+              "video": {
+                "youtube_id": "F7XtWMymP0U",
+                "china_cdn_id": "F7XtWMymP0U.mp4"
+              }
+            }
+          ]
+        },
+        {
+          "id": 194519,
+          "key": "33fa322d-2dcf-4bad-a01c-14c53b3bad4d",
+          "title": "Subjectivity in Selecting Number of Clusters",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "33fa322d-2dcf-4bad-a01c-14c53b3bad4d",
+            "completed_at": null,
+            "last_viewed_at": null,
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 215733,
+              "key": "fa8545d6-5d5a-42dd-8812-d6076ac325ac",
+              "title": "Subjectivity In Selecting Number Of Clusters",
+              "semantic_type": "VideoAtom",
+              "is_public": true,
+              "instructor_notes": "",
+              "video": {
+                "youtube_id": "ypBA2IyF0yA",
+                "china_cdn_id": "ypBA2IyF0yA.mp4"
+              }
+            }
+          ]
+        },
+        {
+          "id": 194520,
+          "key": "b66ea312-0095-4266-9197-9c69060a36f2",
+          "title": "How Many Clusters - Hierarchy",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "b66ea312-0095-4266-9197-9c69060a36f2",
+            "completed_at": null,
+            "last_viewed_at": null,
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 215734,
+              "key": "a8201ee6-d952-40a8-a599-9bb63409ee12",
+              "title": "How Many Clusters - Hierarchy",
+              "semantic_type": "VideoAtom",
+              "is_public": true,
+              "instructor_notes": "",
+              "video": {
+                "youtube_id": "LRAdqAfPI4I",
+                "china_cdn_id": "LRAdqAfPI4I.mp4"
+              }
+            }
+          ]
+        },
+        {
+          "id": 194521,
+          "key": "ee9c90f2-c485-4a0a-a88d-97e39133034b",
+          "title": "How Many Clusters - K-Centroid",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "ee9c90f2-c485-4a0a-a88d-97e39133034b",
+            "completed_at": null,
+            "last_viewed_at": null,
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 215736,
+              "key": "4f4e5617-bb30-4ea1-af29-f3b4141c7465",
+              "title": "How Many Clusters - K-Centroid",
+              "semantic_type": "VideoAtom",
+              "is_public": true,
+              "instructor_notes": "",
+              "video": {
+                "youtube_id": "hTtsGVFBReg",
+                "china_cdn_id": "hTtsGVFBReg.mp4"
+              }
+            }
+          ]
+        },
+        {
+          "id": 194522,
+          "key": "68f88c51-d660-455e-9d67-dfb2fd95d826",
+          "title": "Cluster Validation in Alteryx",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "68f88c51-d660-455e-9d67-dfb2fd95d826",
+            "completed_at": null,
+            "last_viewed_at": null,
+            "unstructured": null
+          },
+          "resources": {
+            "files": [],
+            "google_plus_link": null,
+            "career_resource_center_link": null,
+            "coaching_appointments_link": null,
+            "office_hours_link": null,
+            "aws_provisioning_link": null
+          },
+          "atoms": [
+            {
+              "id": 215744,
+              "key": "7cc4b30e-4b33-4434-84fa-a01c9e859d56",
+              "title": "Cluster Validation In Alteryx",
+              "semantic_type": "VideoAtom",
+              "is_public": true,
+              "instructor_notes": "",
+              "video": {
+                "youtube_id": "FLaIl8ZRtGQ",
+                "china_cdn_id": "FLaIl8ZRtGQ.mp4"
+              }
+            },
+            {
+              "id": 570058,
+              "key": "6e197da9-566e-4d64-8afd-0f8b52414eae",
+              "title": null,
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "File: [PCA Complete Process Result.yxdb](https://s3.amazonaws.com/video.udacity-data.com/topher/2016/December/5849d16b_pca-complete-process-results/pca-complete-process-results.yxdb)",
+              "instructor_notes": ""
+            }
+          ]
+        },
+        {
+          "id": 194523,
+          "key": "db56e393-bcad-4e4f-b484-0872942dd870",
+          "title": "Cluster Validation",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "db56e393-bcad-4e4f-b484-0872942dd870",
+            "completed_at": null,
+            "last_viewed_at": null,
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 215747,
+              "key": "38adf492-4f59-484c-93cb-e7965781ddfa",
+              "title": "Custer Validation",
+              "semantic_type": "VideoAtom",
+              "is_public": true,
+              "instructor_notes": "",
+              "video": {
+                "youtube_id": "bwerJs3FeV0",
+                "china_cdn_id": "bwerJs3FeV0.mp4"
+              }
+            },
+            {
+              "id": 617309,
+              "key": "da6ccfdd-3afa-40ee-af80-ebfbb192be63",
+              "title": null,
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "**NOTE:** The indices shown in the video will not match the indices you will see if you run the workflow yourself. This was caused by the original data set being modified before uploading.",
+              "instructor_notes": ""
+            }
+          ]
+        },
+        {
+          "id": 194524,
+          "key": "3c90a24e-f1ff-4085-be63-4d71436ab076",
+          "title": "Selecting the Number of Clusters Quiz",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "3c90a24e-f1ff-4085-be63-4d71436ab076",
+            "completed_at": null,
+            "last_viewed_at": null,
+            "unstructured": null
+          },
+          "resources": {
+            "files": [
+              {
+                "name": "K-Means Results",
+                "uri": "http://video.udacity-data.com.s3.amazonaws.com/topher/2016/November/582f97ff_k-means-results/k-means-results.pdf"
+              },
+              {
+                "name": "K-Median Results",
+                "uri": "http://video.udacity-data.com.s3.amazonaws.com/topher/2016/November/582f980e_k-median-results/k-median-results.pdf"
+              },
+              {
+                "name": "Neural Gas Results",
+                "uri": "http://video.udacity-data.com.s3.amazonaws.com/topher/2016/November/582f9837_neural-gas-results/neural-gas-results.pdf"
+              }
+            ],
+            "google_plus_link": null,
+            "career_resource_center_link": null,
+            "coaching_appointments_link": null,
+            "office_hours_link": null,
+            "aws_provisioning_link": null
+          },
+          "atoms": [
+            {
+              "id": 215851,
+              "key": "1611902c-c431-46ae-943b-ea8bcfa1847a",
+              "title": null,
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "## Cluster Diagnostics Quiz\n\nWe just did cluster diagnostics with K-Mean. Now, change the settings on the Cluster Diagnostics tool to run the process for the other two methods, K-Median and Neural Gas. Once you've attempted the quiz, take a look at the attached PDF files which show the results.",
+              "instructor_notes": ""
+            },
+            {
+              "id": 246616,
+              "key": "b7f4c2ce-1358-4d0b-be64-1915223db3ce",
+              "title": "Pergunta 1",
+              "semantic_type": "RadioQuizAtom",
+              "is_public": true,
+              "instructor_notes": null,
+              "user_state": {
+                "node_key": "b7f4c2ce-1358-4d0b-be64-1915223db3ce",
+                "completed_at": null,
+                "last_viewed_at": null,
+                "unstructured": null
+              },
+              "question": {
+                "prompt": "Based on the results, which of the following number of clusters and method provides for the “better” solution?",
+                "answers": [
+                  {
+                    "id": "a1483666384688",
+                    "text": "K-means: 8 clusters",
+                    "is_correct": false
+                  },
+                  {
+                    "id": "a1483666405272",
+                    "text": "K-means: 10 clusters",
+                    "is_correct": false
+                  },
+                  {
+                    "id": "a1483666405841",
+                    "text": "K-median: 6 clusters",
+                    "is_correct": false
+                  },
+                  {
+                    "id": "a1483666406465",
+                    "text": "Neural Gas: 8 clusters",
+                    "is_correct": true
+                  }
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "id": 194527,
+          "key": "badbacc0-7606-4dd0-8aa8-b70981ae3eaa",
+          "title": "Creating Clusters using K-Centroid",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "badbacc0-7606-4dd0-8aa8-b70981ae3eaa",
+            "completed_at": null,
+            "last_viewed_at": null,
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 215810,
+              "key": "f8cee2ee-f3d1-4248-bdef-ce6f9ed5df4f",
+              "title": "Creating The Clusters Using K-Centroid Methods",
+              "semantic_type": "VideoAtom",
+              "is_public": true,
+              "instructor_notes": "",
+              "video": {
+                "youtube_id": "R_hrRWcXpWU",
+                "china_cdn_id": "R_hrRWcXpWU.mp4"
+              }
+            }
+          ]
+        },
+        {
+          "id": 194528,
+          "key": "0ef9f5b4-7a0e-4b0d-8585-b5f5b7fbb693",
+          "title": "Creating the Cluster Model",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "0ef9f5b4-7a0e-4b0d-8585-b5f5b7fbb693",
+            "completed_at": null,
+            "last_viewed_at": null,
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 215762,
+              "key": "34853cf3-81f7-4ecb-a227-186af064ec67",
+              "title": "Creating The Cluster Model",
+              "semantic_type": "VideoAtom",
+              "is_public": true,
+              "instructor_notes": "",
+              "video": {
+                "youtube_id": "G7iQATUVWbY",
+                "china_cdn_id": "G7iQATUVWbY.mp4"
+              }
+            },
+            {
+              "id": 801293,
+              "key": "c74051f0-e32d-41d9-900d-3fab326d883e",
+              "title": null,
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "**Note:** at 1:20 the instructor puts 10 in for the number of clusters. They should have put in 8.",
+              "instructor_notes": ""
+            }
+          ]
+        },
+        {
+          "id": 194532,
+          "key": "ea91fd55-5262-42dd-994e-eec91a1c6c2a",
+          "title": "Interpreting Cluster Results",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "ea91fd55-5262-42dd-994e-eec91a1c6c2a",
+            "completed_at": null,
+            "last_viewed_at": null,
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 215856,
+              "key": "a45f4f03-bb17-40e5-8977-2fd83f050cdf",
+              "title": "Interpreting Cluster Results",
+              "semantic_type": "VideoAtom",
+              "is_public": true,
+              "instructor_notes": "",
+              "video": {
+                "youtube_id": "NOVglGU58Dc",
+                "china_cdn_id": "NOVglGU58Dc.mp4"
+              }
+            }
+          ]
+        },
+        {
+          "id": 194533,
+          "key": "a0db8362-b00c-4ecb-bf0c-e439b031e26c",
+          "title": "Applying the Model",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "a0db8362-b00c-4ecb-bf0c-e439b031e26c",
+            "completed_at": null,
+            "last_viewed_at": null,
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 215811,
+              "key": "0daf60a6-3fc6-4b31-b6c9-5563891e102e",
+              "title": "Applying The Model",
+              "semantic_type": "VideoAtom",
+              "is_public": true,
+              "instructor_notes": "",
+              "video": {
+                "youtube_id": "sMUwN4tx3EQ",
+                "china_cdn_id": "sMUwN4tx3EQ.mp4"
+              }
+            }
+          ]
+        },
+        {
+          "id": 194534,
+          "key": "58679648-660f-4b42-a6f0-5c3c7b4177a7",
+          "title": "Wrap Up",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "58679648-660f-4b42-a6f0-5c3c7b4177a7",
+            "completed_at": null,
+            "last_viewed_at": null,
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 215813,
+              "key": "40b387bc-7809-4813-abf6-ed20dd35be4f",
+              "title": "Wrap Up",
+              "semantic_type": "VideoAtom",
+              "is_public": true,
+              "instructor_notes": "",
+              "video": {
+                "youtube_id": "F-NyzjgNKJc",
+                "china_cdn_id": "F-NyzjgNKJc.mp4"
+              }
+            }
+          ]
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,32 @@
+WEBVTT
+Kind: captions
+Language: en
+
+00:00:00.560 --> 00:00:03.650
+Let's practice a little with
+what we've covered so far.
+
+00:00:03.650 --> 00:00:08.109
+We've provided a small dataset
+labeled stores.csv that
+
+00:00:08.109 --> 00:00:11.950
+represents ten stores with
+the dollar amount of sales.
+
+00:00:11.950 --> 00:00:16.445
+Management would like to segment the
+stores to set up a benchmarking system
+
+00:00:16.445 --> 00:00:19.425
+so that the performance
+of each store's evaluated
+
+00:00:19.425 --> 00:00:23.965
+in relation to the performance of the
+stores within their respective groups.
+
+00:00:23.965 --> 00:00:28.565
+Divide the list of stores into what you
+would consider the three best segments.
+

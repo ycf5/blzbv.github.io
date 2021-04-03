@@ -1,0 +1,56 @@
+WEBVTT
+Kind: captions
+Language: pt-BR
+
+00:00:00.000 --> 00:00:05.434
+A maioria de algoritmos de agrupamento
+tenta colocar os objetos em grupos
+
+00:00:05.467 --> 00:00:09.133
+semelhantes aos outros
+objetos do mesmo grupo.
+
+00:00:09.167 --> 00:00:15.033
+Os algoritmos fazem isto
+usando o conceito de distância.
+
+00:00:15.868 --> 00:00:19.534
+Nas nossas aulas,
+pense no termo "distância"
+
+00:00:19.567 --> 00:00:23.901
+como uma forma de quantificar
+ou medir semelhança.
+
+00:00:23.934 --> 00:00:27.234
+Os algoritmos do agrupamento
+tentam criar segmentos
+
+00:00:27.267 --> 00:00:30.067
+para que os objetos
+em cada segmento
+
+00:00:30.100 --> 00:00:34.767
+sejam o mais parecido
+ou próximo possível entre si.
+
+00:00:34.801 --> 00:00:38.667
+Ao mesmo tempo, eles fazem
+com que os próprios segmentos
+
+00:00:38.701 --> 00:00:43.367
+sejam o mais diferente
+e distante possível entre si.
+
+00:00:43.400 --> 00:00:47.133
+As melhores soluções de agrupamento
+envolvem grupos
+
+00:00:47.167 --> 00:00:50.634
+que têm a coesão individual
+mais firme,
+
+00:00:50.667 --> 00:00:54.100
+e a maior
+separação distinta.
+

@@ -1,0 +1,82 @@
+WEBVTT
+Kind: captions
+Language: pt-BR
+
+00:00:00.000 --> 00:00:02.567
+Em Estatística,
+há métodos conhecidos
+
+00:00:02.601 --> 00:00:06.467
+como métodos de aprendizagem
+supervisionada e não supervisionada.
+
+00:00:06.501 --> 00:00:09.367
+Devem se lembrar de terem aprendido
+métodos preditores,
+
+00:00:09.400 --> 00:00:12.234
+como regressão
+linear ou logística.
+
+00:00:12.267 --> 00:00:16.634
+Esses métodos baseiam-se em usar
+um conjunto de variáveis preditoras
+
+00:00:16.667 --> 00:00:20.133
+para construir um modelo
+que preverá uma variável alvo.
+
+00:00:20.167 --> 00:00:24.434
+Em Estatística, isto se chama
+aprendizagem supervisionada,
+
+00:00:24.467 --> 00:00:27.634
+onde o processo
+aprende com o alvo,
+
+00:00:27.667 --> 00:00:31.567
+ou variável dependente,
+enquanto cria o modelo.
+
+00:00:31.601 --> 00:00:34.834
+A aprendizagem não supervisionada
+é um pouco diferente.
+
+00:00:34.868 --> 00:00:37.000
+O agrupamento é um exemplo.
+
+00:00:37.033 --> 00:00:41.100
+Na aprendizagem não supervisionada
+não há variável alvo,
+
+00:00:41.133 --> 00:00:43.534
+usada na criação do modelo.
+
+00:00:43.567 --> 00:00:46.834
+Neste método, o algoritmo
+de agrupamento usado
+
+00:00:46.868 --> 00:00:50.467
+aprende das variáveis múltiplas
+fornecidas pelos dados.
+
+00:00:50.501 --> 00:00:55.367
+Ele, então, agrupa os objetos
+sem saber a lógica de como fazê-lo.
+
+00:00:55.400 --> 00:00:58.801
+Depois disso,
+ele cria uma nova variável
+
+00:00:58.834 --> 00:01:01.200
+conhecida como
+o número do agrupamento.
+
+00:01:01.234 --> 00:01:03.934
+Por agrupar objetos
+desta forma
+
+00:01:03.968 --> 00:01:08.334
+o agrupamento é chamado de modelo
+de aprendizagem não supervisionada.
+

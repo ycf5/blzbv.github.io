@@ -1,0 +1,176 @@
+WEBVTT
+Kind: captions
+Language: pt-BR
+
+00:00:00.000 --> 00:00:02.601
+O exercício anterior
+exemplifica
+
+00:00:02.634 --> 00:00:06.267
+como as companhias tentam
+agrupar clientes ou lojas.
+
+00:00:06.300 --> 00:00:11.267
+Podem conhecer isto
+por outro nome, compartimentação.
+
+00:00:11.300 --> 00:00:16.000
+Elas querem os benefícios
+da padronização e da localização.
+
+00:00:16.033 --> 00:00:20.701
+Fazem isto usando um ou dois
+atributos ou variáveis.
+
+00:00:20.734 --> 00:00:24.300
+São separadas em grupos,
+usando linhas divisórias
+
+00:00:24.334 --> 00:00:26.234
+determinadas
+por pontos de dados
+
+00:00:26.267 --> 00:00:29.467
+que fazem sentido
+para aquela variável específica.
+
+00:00:29.501 --> 00:00:32.667
+Isso acontece,
+porque usam Excel,
+
+00:00:32.701 --> 00:00:35.434
+cujo método principal
+é classificar a variável
+
+00:00:35.467 --> 00:00:38.834
+e, manualmente,
+traçar as linhas divisórias.
+
+00:00:38.868 --> 00:00:42.968
+Peguei os mesmos dados
+e criei os meus 3 segmentos.
+
+00:00:43.000 --> 00:00:47.133
+Como veem, as lojas estão
+agrupadas por volumes de venda.
+
+00:00:47.167 --> 00:00:49.667
+Grande, médio e pequeno.
+
+00:00:49.701 --> 00:00:51.767
+As divisões
+são arbitrárias.
+
+00:00:51.801 --> 00:00:56.868
+Você pode ter dividido a lista
+diferente de mim.
+
+00:00:56.901 --> 00:01:00.267
+Mas e se você
+acrescentar outra variável?
+
+00:01:00.300 --> 00:01:03.667
+Digamos,
+a metragem quadrada da loja.
+
+00:01:03.701 --> 00:01:08.968
+Vejam o próximo conjunto de dados,
+metragemquadrada.csv.
+
+00:01:09.000 --> 00:01:12.634
+É igual ao outro conjunto de dados,
+mas acrescentamos um campo
+
+00:01:12.667 --> 00:01:15.334
+para o número de m2
+da loja.
+
+00:01:15.367 --> 00:01:19.000
+Tente segmentar de novo
+usando as duas variáveis.
+
+00:01:19.033 --> 00:01:21.801
+A loja 3 ainda é pequena?
+
+00:01:21.834 --> 00:01:25.067
+Ou é grande e tem
+um desempenho ruim
+
+00:01:25.100 --> 00:01:28.901
+se comparada
+as de mesma metragem?
+
+00:01:29.467 --> 00:01:33.701
+Agora vejam o arquivo
+o horas abertas.csv.
+
+00:01:33.734 --> 00:01:36.834
+Acrescentamos outro campo
+chamado "horas abertas",
+
+00:01:36.868 --> 00:01:41.300
+com as horas
+em que as lojas estão abertas.
+
+00:01:41.334 --> 00:01:45.934
+Novamente, tente segmentá-las
+usando as 3 variáveis.
+
+00:01:45.968 --> 00:01:50.667
+Como veem, fica difícil
+definir 3 segmentos específicos
+
+00:01:50.701 --> 00:01:55.133
+categorizados como lojas grande,
+médias e pequenas.
+
+00:01:55.167 --> 00:01:58.133
+Se o propósito da segmentação
+é fornecer uma forma
+
+00:01:58.167 --> 00:02:02.667
+de comparar as lojas
+com as outras do segmento,
+
+00:02:02.701 --> 00:02:06.434
+você pode questionar
+o que realmente define o segmento.
+
+00:02:06.467 --> 00:02:10.100
+As lojas 5 e 8
+deveriam ser comparadas,
+
+00:02:10.133 --> 00:02:13.100
+porque as duas abrem
+por 24 horas?
+
+00:02:13.133 --> 00:02:18.100
+Mas a nº 8 tem
+1/4 da metragem da nº 5.
+
+00:02:18.133 --> 00:02:20.000
+E a nº 3?
+
+00:02:20.033 --> 00:02:24.167
+Tem o mesmo tamanho da nº 5,
+e abre a maior parte do dia,
+
+00:02:24.200 --> 00:02:27.167
+mas tem muito menos
+volume de vendas.
+
+00:02:27.200 --> 00:02:30.901
+Imagine o que aconteceria
+se você quisesse criar os grupos
+
+00:02:30.934 --> 00:02:33.667
+usando 15 ou 20 variáveis.
+
+00:02:33.701 --> 00:02:39.868
+Demografia perto da loja,
+lojas concorrentes por perto...
+
+00:02:39.901 --> 00:02:43.734
+Você deve concordar
+que ficaria bem mais complexo.
+
