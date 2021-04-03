@@ -1,0 +1,85 @@
+WEBVTT
+Kind: captions
+Language: en
+
+00:00:00.590 --> 00:00:07.169
+When you're building data visualizations for explanatory purposes, focus on simplicity.
+
+00:00:07.169 --> 00:00:10.928
+We can make good visuals by avoiding making bad visuals.
+
+00:00:10.928 --> 00:00:12.810
+And that might seem like silly advice,
+
+00:00:12.810 --> 00:00:17.100
+but the key to good visualizations is considering your data-ink ratio,
+
+00:00:17.100 --> 00:00:21.245
+your visual encodings, and keeping the data integrity.
+
+00:00:21.245 --> 00:00:26.589
+Further advice is to focus your audience attention on the purpose of your visualization.
+
+00:00:26.589 --> 00:00:28.964
+If the insight isn't easily apparent,
+
+00:00:28.964 --> 00:00:32.490
+then your visualization is probably too complicated.
+
+00:00:32.490 --> 00:00:36.539
+Remove the extras and focus on conveying your message.
+
+00:00:36.539 --> 00:00:39.039
+Only use color where necessary.
+
+00:00:39.039 --> 00:00:41.100
+If there isn't additional information being
+
+00:00:41.100 --> 00:00:44.255
+gained by the audience member from the use of color,
+
+00:00:44.255 --> 00:00:47.380
+this is an indication you probably don't need it.
+
+00:00:47.380 --> 00:00:52.440
+A reminder that the design techniques in this lesson are focused on explanatory visuals.
+
+00:00:52.439 --> 00:00:54.134
+In the upcoming lessons,
+
+00:00:54.134 --> 00:00:57.369
+you will learn to build data visualizations in Tableau.
+
+00:00:57.369 --> 00:01:01.919
+Often, these visuals are created with a tool for exploratory purposes.
+
+00:01:01.920 --> 00:01:05.939
+For final analysis, you should consider moving the insight of
+
+00:01:05.939 --> 00:01:10.980
+this tool to your audience using something with less distractions.
+
+00:01:10.980 --> 00:01:16.375
+These tools often have a lot going on and the extras can distract from your insight.
+
+00:01:16.375 --> 00:01:17.924
+This is a beautiful dashboard.
+
+00:01:17.924 --> 00:01:21.254
+But if you are trying to highlight a particular insight from it,
+
+00:01:21.254 --> 00:01:23.549
+I'm distracted by all the colors.
+
+00:01:23.549 --> 00:01:27.164
+The fact that there are so many different parts is overwhelming.
+
+00:01:27.165 --> 00:01:29.130
+And since I'm not familiar with the data,
+
+00:01:29.129 --> 00:01:33.129
+I don't even know where to start with what question is being answered.
+
+00:01:33.129 --> 00:01:37.299
+This leads nicely into the final points of this lesson. Data storytelling.
+

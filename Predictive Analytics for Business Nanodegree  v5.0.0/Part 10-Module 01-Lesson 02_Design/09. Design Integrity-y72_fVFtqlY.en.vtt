@@ -1,0 +1,160 @@
+WEBVTT
+Kind: captions
+Language: en
+
+00:00:00.260 --> 00:00:05.120
+It is your duty to present your data in the most truthful way possible?
+
+00:00:05.120 --> 00:00:09.719
+People can and do lie with their visualizations to deceive others.
+
+00:00:09.720 --> 00:00:14.160
+One of the most common methods is in distorting the area of charts.
+
+00:00:14.160 --> 00:00:18.640
+Here's an example from Fox News that was created in 2012.
+
+00:00:18.640 --> 00:00:22.135
+The chart here is attempting to show you the change in tax rate.
+
+00:00:22.135 --> 00:00:24.275
+It looks like a huge change.
+
+00:00:24.274 --> 00:00:26.640
+Something like five times increase.
+
+00:00:26.640 --> 00:00:29.310
+However, if you look at the actual numbers,
+
+00:00:29.309 --> 00:00:33.609
+it's only 35 percent to 39.6 percent.
+
+00:00:33.609 --> 00:00:37.655
+A 13 percent increase or 4.6 percentage points.
+
+00:00:37.655 --> 00:00:42.270
+Humans tend to assume that the baseline of a bar chart is set to zero.
+
+00:00:42.270 --> 00:00:45.105
+Here, the baseline was set to 34 percent,
+
+00:00:45.104 --> 00:00:47.719
+which is out of line with our assumptions.
+
+00:00:47.719 --> 00:00:49.379
+The creator of this graphic,
+
+00:00:49.380 --> 00:00:51.840
+likely meant to deceive viewers into believing
+
+00:00:51.840 --> 00:00:56.130
+the tax rate change was much larger than it actually was.
+
+00:00:56.130 --> 00:00:58.005
+This brings us to the lie factor,
+
+00:00:58.005 --> 00:01:01.515
+a concept introduced by Edward Tufte in Visual Display.
+
+00:01:01.515 --> 00:01:02.954
+Yup, him again.
+
+00:01:02.954 --> 00:01:05.495
+You really should find this book if you haven't yet.
+
+00:01:05.495 --> 00:01:08.579
+The lie factor compares the size of the effect in
+
+00:01:08.579 --> 00:01:11.825
+a graphic to the size of the effect in the data.
+
+00:01:11.825 --> 00:01:15.030
+By effect, I mean the difference you're comparing.
+
+00:01:15.030 --> 00:01:19.025
+For example, you're comparing the heights of the bars in the tax rate chart.
+
+00:01:19.025 --> 00:01:23.580
+So the effect would be how much taller the right bar is than the left bar.
+
+00:01:23.579 --> 00:01:25.620
+To calculate the lie factor,
+
+00:01:25.620 --> 00:01:30.375
+you divide the effect size by the graphic with the effect size by the data.
+
+00:01:30.375 --> 00:01:31.935
+As an example of this,
+
+00:01:31.935 --> 00:01:33.329
+I'll use this figure,
+
+00:01:33.329 --> 00:01:36.174
+which is also a great example of chart junk.
+
+00:01:36.174 --> 00:01:41.625
+It's actually ambiguous which aspect of the doctor images is encoded in the data.
+
+00:01:41.625 --> 00:01:44.120
+The height, the area,
+
+00:01:44.120 --> 00:01:48.585
+it turns out the height of the doctors is proportional to the percentages.
+
+00:01:48.584 --> 00:01:54.359
+But we actually perceive the visual area as the encoding for the data.
+
+00:01:54.359 --> 00:01:56.730
+Since we're comparing the area of the doctors,
+
+00:01:56.730 --> 00:01:59.730
+I'll use that to calculate the graphical effect.
+
+00:01:59.730 --> 00:02:02.680
+Making a rectangle around this largest doctor,
+
+00:02:02.680 --> 00:02:07.490
+it's 437 pixels tall and 181 pixels wide.
+
+00:02:07.489 --> 00:02:11.969
+So it has an area of around 79,000 square pixels.
+
+00:02:11.969 --> 00:02:15.689
+The middle doctor has an area around 30,500 square
+
+00:02:15.689 --> 00:02:21.175
+pixels and the smallest doctor is 16,500 square pixels.
+
+00:02:21.175 --> 00:02:26.640
+Let's work out the lie factor for the comparison between 1964 and 1990.
+
+00:02:26.639 --> 00:02:31.619
+The visual effect is how much larger the doctor is in 1964.
+
+00:02:31.620 --> 00:02:40.069
+That is 79,000 minus 16,500 divided by 16,500 or 3.79.
+
+00:02:40.069 --> 00:02:42.629
+So the difference between the size of the doctors is
+
+00:02:42.629 --> 00:02:46.319
+379 percent the size of the smaller doctor.
+
+00:02:46.319 --> 00:02:54.229
+The effect size and the actual data is 27 minus 12 divided by 12, or 1.25.
+
+00:02:54.229 --> 00:03:00.539
+So the difference in the data is 125 percent larger than the 1990 data point.
+
+00:03:00.539 --> 00:03:05.129
+Dividing these, the lie factor is 3.0 or 3.
+
+00:03:05.129 --> 00:03:10.019
+Any lie factor greater than 1 suggests that your visual is misleading.
+
+00:03:10.020 --> 00:03:11.370
+The larger the factor,
+
+00:03:11.370 --> 00:03:13.050
+the more misleading the visual.
+

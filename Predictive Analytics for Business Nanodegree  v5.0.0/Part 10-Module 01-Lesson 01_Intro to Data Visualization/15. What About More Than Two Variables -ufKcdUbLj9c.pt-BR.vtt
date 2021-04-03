@@ -1,0 +1,176 @@
+WEBVTT
+Kind: captions
+Language: pt-BR
+
+00:00:00.875 --> 00:00:02.801
+Ao analisar variáveis
+ao longo do tempo
+
+00:00:02.834 --> 00:00:05.847
+ou comparar duas variáveis
+quantitativas entre si,
+
+00:00:06.333 --> 00:00:08.554
+as escolhas que usamos
+para visualizar esses casos
+
+00:00:08.837 --> 00:00:10.745
+são padronizadas
+para o gráfico de linha
+
+00:00:10.778 --> 00:00:13.506
+e para o gráfico de dispersão
+que vimos nos conceitos anteriores.
+
+00:00:13.861 --> 00:00:16.718
+No entanto, quando introduzimos
+variáveis categóricas
+
+00:00:16.751 --> 00:00:18.008
+em nossa visualização,
+
+00:00:18.041 --> 00:00:20.806
+muitas outras opções
+se tornam disponíveis.
+
+00:00:20.839 --> 00:00:25.029
+E como visualizar as relações
+entre variáveis categóricas
+
+00:00:25.304 --> 00:00:29.050
+assim como com uma variável
+categórica e uma quantitativa?
+
+00:00:29.324 --> 00:00:33.615
+Por exemplo, se eu quiser comparar
+duas variáveis categóricas entre si,
+
+00:00:33.938 --> 00:00:35.865
+provavelmente usaríamos
+algo parecido
+
+00:00:35.898 --> 00:00:37.734
+com um gráfico de barras
+lado a lado,
+
+00:00:37.767 --> 00:00:40.477
+que mostra o agrupamento
+para uma categoria.
+
+00:00:40.970 --> 00:00:45.885
+Neste caso, chocolate, baunilha
+e morango são agrupados em cores
+
+00:00:45.918 --> 00:00:49.321
+para a outra variável,
+os três locais neste caso.
+
+00:00:49.884 --> 00:00:54.249
+Podemos rapidamente identificar
+o sabor favorito em cada local.
+
+00:00:55.173 --> 00:00:57.051
+Se tivermos
+mais de duas variáveis,
+
+00:00:57.084 --> 00:00:59.717
+dizemos que queríamos ver
+as vendas ao longo do tempo
+
+00:00:59.750 --> 00:01:01.205
+para diferentes produtos,
+
+00:01:01.489 --> 00:01:06.520
+aqui temos três variáveis:
+vendas, tempo e produtos.
+
+00:01:07.237 --> 00:01:09.184
+Podemos começar
+com um gráfico de linha
+
+00:01:09.217 --> 00:01:11.147
+já que estamos lidando
+com o tempo.
+
+00:01:11.452 --> 00:01:15.882
+Então, podemos dividir
+cada produto em sua própria linha.
+
+00:01:16.544 --> 00:01:17.690
+Colorir a linha
+
+00:01:17.723 --> 00:01:20.681
+e adicionar uma legenda
+para fornecer o nome do produto.
+
+00:01:20.996 --> 00:01:23.679
+Agora podemos ver quais produtos
+têm bom desempenho
+
+00:01:24.167 --> 00:01:25.345
+e isso pode nos ajudar
+
+00:01:25.378 --> 00:01:27.775
+a tomar decisões mais específicas
+sobre o produto,
+
+00:01:27.808 --> 00:01:30.410
+do que se apenas analisássemos
+as vendas agregadas.
+
+00:01:31.149 --> 00:01:34.789
+Podemos usar um gráfico de linhas
+empilhadas para a situação.
+
+00:01:35.229 --> 00:01:38.345
+A visualização fornece basicamente
+a mesma informação,
+
+00:01:38.378 --> 00:01:39.550
+mas cada produto
+
+00:01:39.583 --> 00:01:42.701
+é mostrado em termos de proporção
+das vendas totais.
+
+00:01:43.010 --> 00:01:44.287
+Uma alternativa
+
+00:01:44.541 --> 00:01:47.833
+seria usar um gráfico
+de barras empilhadas por ano.
+
+00:01:48.468 --> 00:01:51.017
+Cada produto tem uma cor
+na barra
+
+00:01:51.433 --> 00:01:54.123
+e a altura da barra
+é a quantidade de vendas.
+
+00:01:54.722 --> 00:01:57.360
+Uma dessas abordagens
+é melhor do que outra?
+
+00:01:57.393 --> 00:01:59.527
+Acho que depende
+a quem você pergunta.
+
+00:01:59.956 --> 00:02:01.433
+Nos próximos conceitos,
+
+00:02:01.466 --> 00:02:03.422
+você verá
+como as codificações visuais
+
+00:02:03.455 --> 00:02:05.976
+influenciaram a maneira
+como interpretamos a informação
+
+00:02:06.009 --> 00:02:07.190
+e, por sua vez,
+
+00:02:07.223 --> 00:02:09.200
+quanta informação
+podemos extrair dos dados.
+

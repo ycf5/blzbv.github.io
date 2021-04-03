@@ -1,0 +1,91 @@
+WEBVTT
+Kind: captions
+Language: en
+
+00:00:00.000 --> 00:00:03.964
+If you're comparing two quantitative variables to one another,
+
+00:00:03.964 --> 00:00:05.929
+say price and sales,
+
+00:00:05.929 --> 00:00:07.929
+or heights and weights,
+
+00:00:07.929 --> 00:00:12.800
+the most common plot for such an analysis is the scatter plot.
+
+00:00:12.800 --> 00:00:14.690
+These plots can be used to visualize
+
+00:00:14.689 --> 00:00:20.144
+both the strength and the direction of the relationship between the two variables.
+
+00:00:20.144 --> 00:00:23.765
+This is an example of a strong positive relationship,
+
+00:00:23.765 --> 00:00:29.530
+that is, as one variable increases the other variable also increases.
+
+00:00:29.530 --> 00:00:33.380
+While this is an example of a strong negative relationship.
+
+00:00:33.380 --> 00:00:38.600
+That is, as one variable increases the other variable decreases.
+
+00:00:38.600 --> 00:00:41.810
+As the points become more spread out from one another,
+
+00:00:41.810 --> 00:00:43.969
+this weakens the relationship.
+
+00:00:43.969 --> 00:00:47.210
+So to identify strong or weak relationships,
+
+00:00:47.210 --> 00:00:51.439
+we aren't so much looking at the slope associated with the relationship,
+
+00:00:51.439 --> 00:00:53.234
+which is changing here.
+
+00:00:53.234 --> 00:00:55.039
+These all have the same strength.
+
+00:00:55.039 --> 00:00:59.469
+But rather, the closeness of the points as we saw before.
+
+00:00:59.469 --> 00:01:03.034
+Generally, we consider strength as either weak,
+
+00:01:03.034 --> 00:01:09.239
+moderate or strong, and direction as simply positive or negative.
+
+00:01:09.239 --> 00:01:11.359
+A numeric value used to capture
+
+00:01:11.359 --> 00:01:14.974
+these two aspects is known as the correlation coefficient,
+
+00:01:14.974 --> 00:01:19.549
+often just denoted by a lower case r. The correlation coefficient
+
+00:01:19.549 --> 00:01:24.620
+is used to tell us the strength and the direction of a linear relationship.
+
+00:01:24.620 --> 00:01:29.180
+The correlation coefficient is always between -1 and 1,
+
+00:01:29.180 --> 00:01:32.540
+where the closer it is to 1 or -1,
+
+00:01:32.540 --> 00:01:34.520
+the stronger the relationship.
+
+00:01:34.519 --> 00:01:37.979
+The negative tells you that there's a negative relationship,
+
+00:01:37.980 --> 00:01:41.225
+while a positive tells you there's a positive relationship.
+
+00:01:41.224 --> 00:01:45.099
+You will get some practice with this in the quizzes that follow.
+

@@ -1,0 +1,100 @@
+WEBVTT
+Kind: captions
+Language: en
+
+00:00:00.000 --> 00:00:02.940
+When looking at variables over time or
+
+00:00:02.940 --> 00:00:05.955
+comparing two quantitative variables to each other,
+
+00:00:05.955 --> 00:00:09.570
+the choices we use to visualize these cases are standardized to
+
+00:00:09.570 --> 00:00:13.754
+the line plot and the scatter plot we saw in the previous concepts.
+
+00:00:13.755 --> 00:00:17.929
+However, when we introduce categorical variables into our visualization,
+
+00:00:17.929 --> 00:00:20.774
+many more options now become available.
+
+00:00:20.774 --> 00:00:23.669
+And how to visualize the relationships between
+
+00:00:23.670 --> 00:00:29.280
+categorical variables as well as with a categorical and a quantitative variable?
+
+00:00:29.280 --> 00:00:33.674
+For example, if I want to compare two categorical variables with one another,
+
+00:00:33.674 --> 00:00:37.529
+we would probably use something like a side by side bar chart,
+
+00:00:37.530 --> 00:00:40.734
+which shows the grouping for one category.
+
+00:00:40.734 --> 00:00:47.317
+This case, chocolate, vanilla and strawberry are grouped in color for the other variable,
+
+00:00:47.317 --> 00:00:49.439
+the three locations in this case.
+
+00:00:49.439 --> 00:00:54.859
+We can quickly identify the favorite flavor in each location.
+
+00:00:54.859 --> 00:00:56.905
+If we have more than two variables,
+
+00:00:56.905 --> 00:01:01.170
+say we wanted to view sales over time for different products,
+
+00:01:01.170 --> 00:01:06.810
+here we have three variables: sales, time and products.
+
+00:01:06.810 --> 00:01:10.950
+We might start with a line chart since we're dealing with time.
+
+00:01:10.950 --> 00:01:16.049
+Then, we could break out each product into its own line.
+
+00:01:16.049 --> 00:01:20.939
+Color the line and add a legend to provide the product name.
+
+00:01:20.939 --> 00:01:25.289
+Now we can see which products are performing well and this can help us make
+
+00:01:25.290 --> 00:01:30.790
+more product specific decisions than if we just looked at aggregately sales.
+
+00:01:30.790 --> 00:01:34.755
+We might instead use a stacked line chart for the situation.
+
+00:01:34.754 --> 00:01:38.564
+The visual provides essentially the same information but
+
+00:01:38.564 --> 00:01:42.959
+each product is shown in terms of proportion of the total sales.
+
+00:01:42.959 --> 00:01:48.354
+Another alternative could be to use a stack bar chart by year.
+
+00:01:48.355 --> 00:01:54.260
+Each product has a color in the bar and the height of the bar is the amount of sales.
+
+00:01:54.260 --> 00:01:57.300
+Is one of these approaches better than another?
+
+00:01:57.299 --> 00:01:59.575
+I guess it depends on who you ask.
+
+00:01:59.575 --> 00:02:01.510
+In the upcoming concepts,
+
+00:02:01.510 --> 00:02:04.980
+you will see how visual encodings influenced the way we interpret
+
+00:02:04.980 --> 00:02:09.170
+information and in turn how well we can draw insights from the data.
+

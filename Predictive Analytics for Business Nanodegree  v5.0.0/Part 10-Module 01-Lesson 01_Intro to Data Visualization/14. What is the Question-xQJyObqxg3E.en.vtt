@@ -1,0 +1,148 @@
+WEBVTT
+Kind: captions
+Language: en
+
+00:00:00.020 --> 00:00:03.149
+Now that we've seen a quick glimpse at
+
+00:00:03.149 --> 00:00:05.924
+the plots that are possible for a number of scenarios,
+
+00:00:05.924 --> 00:00:08.939
+let's go through a quick example to see the difference
+
+00:00:08.939 --> 00:00:12.480
+and the questions we can answer using these plots.
+
+00:00:12.480 --> 00:00:16.905
+Consider I run a blog and I want to understand traffic on the blog.
+
+00:00:16.905 --> 00:00:20.895
+For simplicity, let's just use 12 months worth of traffic.
+
+00:00:20.894 --> 00:00:24.179
+If we wanted to know which month we had the most traffic,
+
+00:00:24.179 --> 00:00:27.899
+the best plot would be a bar chart or Pareto chart,
+
+00:00:27.899 --> 00:00:32.137
+as this would put the months in order from highest to lowest traffic.
+
+00:00:32.137 --> 00:00:36.604
+Each bar is the amount of traffic for a particular month.
+
+00:00:36.604 --> 00:00:41.204
+It is pretty easy to see that November had the highest amount of traffic.
+
+00:00:41.204 --> 00:00:44.964
+If we wanted to know if traffic was increasing over time,
+
+00:00:44.965 --> 00:00:47.115
+the best chart would be a line chart.
+
+00:00:47.115 --> 00:00:49.125
+The same information is present here,
+
+00:00:49.125 --> 00:00:52.274
+but it's easier to see that overall traffic appears to be
+
+00:00:52.274 --> 00:00:57.024
+increasing just from the changing in the bars to a line.
+
+00:00:57.024 --> 00:00:58.964
+If we had multiple years of data,
+
+00:00:58.965 --> 00:01:01.915
+the line chart would also assist in identifying if
+
+00:01:01.914 --> 00:01:06.224
+particular months had higher or lower traffic than others.
+
+00:01:06.224 --> 00:01:08.604
+Maybe September would always be a low,
+
+00:01:08.605 --> 00:01:12.665
+and November would always be higher than the other months in the year.
+
+00:01:12.665 --> 00:01:15.780
+What if we had multiple years worth of data and we wanted
+
+00:01:15.780 --> 00:01:19.409
+to know what the distribution of the number of visitors looked like.
+
+00:01:19.409 --> 00:01:22.799
+How frequently were there more than 2,000 visitors in a month?
+
+00:01:22.799 --> 00:01:25.319
+What was the most common number of visitors?
+
+00:01:25.319 --> 00:01:28.239
+From either the bar or the line chart,
+
+00:01:28.239 --> 00:01:29.909
+this can be tough to tell.
+
+00:01:29.909 --> 00:01:33.914
+And neither of these questions are aimed at understanding the time component.
+
+00:01:33.915 --> 00:01:37.455
+We're interested in specifically looking at the count.
+
+00:01:37.454 --> 00:01:41.084
+A histogram of the number of visitors looks like this,
+
+00:01:41.084 --> 00:01:46.134
+and it's useful for better understanding the typical number of visitors in a month.
+
+00:01:46.135 --> 00:01:52.015
+And the height of the bars tells us how often a certain number of visitors has occurred.
+
+00:01:52.015 --> 00:01:55.655
+Is seeing 500 visitors on the blog a rare occurrence?
+
+00:01:55.655 --> 00:01:58.879
+We can quickly see that 500 is rare.
+
+00:01:58.879 --> 00:02:02.265
+We can see that there are always more than 200 visitors,
+
+00:02:02.265 --> 00:02:05.430
+but there are rarely more than 1,200 visitors.
+
+00:02:05.430 --> 00:02:11.390
+The most common number of visitors is between 325 and 450.
+
+00:02:11.389 --> 00:02:16.444
+These observations would have been much more difficult to see on those earlier plots.
+
+00:02:16.444 --> 00:02:18.729
+In the instructor notes below,
+
+00:02:18.729 --> 00:02:21.629
+I've provided a link to the Google Sheets data and
+
+00:02:21.629 --> 00:02:25.590
+charts that were used for creating the visuals in this presentation.
+
+00:02:25.590 --> 00:02:28.935
+Again, because of the time component in the data,
+
+00:02:28.935 --> 00:02:31.485
+the line chart is probably best,
+
+00:02:31.485 --> 00:02:35.295
+but it ultimately depends on the message that you want to convey.
+
+00:02:35.294 --> 00:02:37.104
+Using the same data,
+
+00:02:37.104 --> 00:02:40.049
+we just found three ways to present the data.
+
+00:02:40.050 --> 00:02:42.719
+The right way to visualize the data is in the way
+
+00:02:42.719 --> 00:02:46.000
+that best helps you answer your question.
+

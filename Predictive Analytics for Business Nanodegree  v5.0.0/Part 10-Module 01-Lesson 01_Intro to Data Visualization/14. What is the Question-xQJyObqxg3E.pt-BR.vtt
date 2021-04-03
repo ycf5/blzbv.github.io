@@ -1,0 +1,216 @@
+WEBVTT
+Kind: captions
+Language: pt-BR
+
+00:00:01.103 --> 00:00:02.907
+Agora que vimos rapidamente
+
+00:00:03.149 --> 00:00:05.865
+os possíveis gráficos
+para uma série de cenários,
+
+00:00:06.189 --> 00:00:09.834
+passaremos um exemplo rápido
+para ver a diferença e as perguntas
+
+00:00:09.867 --> 00:00:12.202
+que podemos responder
+usando esses gráficos.
+
+00:00:12.697 --> 00:00:16.606
+Considere que tenho um blog
+e quero entender o tráfego no blog.
+
+00:00:17.244 --> 00:00:20.426
+Para simplificar, vamos usar
+apenas 12 meses de tráfego.
+
+00:00:21.219 --> 00:00:24.074
+Se quiséssemos saber qual mês
+teve mais tráfego,
+
+00:00:24.468 --> 00:00:26.582
+o melhor gráfico
+seria um gráfico de barras
+
+00:00:26.615 --> 00:00:28.011
+ou um gráfico Pareto,
+
+00:00:28.044 --> 00:00:31.842
+pois isso mostraria os meses
+do maior para o menor tráfego.
+
+00:00:32.461 --> 00:00:36.036
+Cada barra é a quantidade de tráfego
+para um determinado mês.
+
+00:00:36.800 --> 00:00:40.880
+É muito fácil ver que novembro
+teve a maior quantidade de tráfego.
+
+00:00:41.756 --> 00:00:44.835
+Se quiséssemos saber se o tráfego
+aumentou ao longo do tempo,
+
+00:00:45.054 --> 00:00:47.172
+o melhor gráfico
+seria um gráfico de linha.
+
+00:00:47.499 --> 00:00:49.279
+A mesma informação
+está presente aqui,
+
+00:00:49.312 --> 00:00:51.441
+mas é mais fácil ver
+que o tráfego geral
+
+00:00:51.474 --> 00:00:56.292
+parece aumentar apenas pela mudança
+de barras para linha.
+
+00:00:57.176 --> 00:00:59.022
+Se tivéssemos
+vários anos de dados,
+
+00:00:59.055 --> 00:01:01.753
+o gráfico de linha também ajudaria
+a identificar
+
+00:01:01.786 --> 00:01:05.862
+se certos meses tiveram tráfego
+maior ou menor do que outros.
+
+00:01:06.330 --> 00:01:10.724
+Talvez setembro seja sempre baixo
+e novembro sempre seria mais alto
+
+00:01:10.757 --> 00:01:12.507
+que os outros meses do ano.
+
+00:01:12.979 --> 00:01:15.068
+E se tivéssemos
+vários anos de dados
+
+00:01:15.101 --> 00:01:16.296
+e quiséssemos saber
+
+00:01:16.329 --> 00:01:19.080
+como foi a distribuição
+do número de visitantes?
+
+00:01:19.517 --> 00:01:22.606
+Com que frequência teve
+mais de 2 mil visitantes em um mês?
+
+00:01:22.907 --> 00:01:25.205
+Qual foi o número mais comum
+de visitantes?
+
+00:01:25.869 --> 00:01:28.169
+Tanto um gráfico de barras
+quanto um de linha
+
+00:01:28.408 --> 00:01:29.981
+podem ter dificuldade
+em mostrar isso.
+
+00:01:30.014 --> 00:01:32.030
+E nenhuma dessas perguntas
+tem como objetivo
+
+00:01:32.063 --> 00:01:34.048
+compreender o componente
+do tempo.
+
+00:01:34.081 --> 00:01:37.318
+Estamos interessados em examinar
+especificamente a contagem.
+
+00:01:37.960 --> 00:01:41.015
+Um histograma do número
+de visitantes é assim,
+
+00:01:41.286 --> 00:01:43.433
+e é útil para entender melhor
+
+00:01:43.737 --> 00:01:46.157
+o número típico de visitantes
+em um mês.
+
+00:01:46.569 --> 00:01:49.384
+E a altura das barras nos diz
+com que frequência
+
+00:01:49.738 --> 00:01:52.086
+um certo número de visitantes
+ocorreu.
+
+00:01:52.494 --> 00:01:55.702
+Está vendo que 500 visitantes
+no blog é uma ocorrência rara?
+
+00:01:56.005 --> 00:01:58.662
+Podemos ver rapidamente
+que 500 é raro.
+
+00:01:59.132 --> 00:02:02.269
+Podemos ver que há sempre mais
+de 200 visitantes,
+
+00:02:02.583 --> 00:02:05.133
+mas raramente
+há mais de 1.200 visitantes.
+
+00:02:05.589 --> 00:02:10.840
+O número mais comum de visitantes
+está entre 325 e 450.
+
+00:02:11.389 --> 00:02:14.458
+Essas observações teriam sido
+muito mais difíceis de ver
+
+00:02:14.733 --> 00:02:16.432
+nos gráficos anteriores.
+
+00:02:17.061 --> 00:02:18.690
+Abaixo,
+nas notas do instrutor,
+
+00:02:18.723 --> 00:02:22.211
+forneci um link no Google Sheets
+para os dados e gráficos
+
+00:02:22.244 --> 00:02:25.396
+que foram usados para criar
+as visualizações desta apresentação.
+
+00:02:25.656 --> 00:02:28.851
+Novamente, devido ao componente
+de tempo nos dados,
+
+00:02:28.884 --> 00:02:31.444
+provavelmente o gráfico de linhas
+é o melhor,
+
+00:02:31.806 --> 00:02:34.035
+mas, em último caso,
+depende da mensagem
+
+00:02:34.068 --> 00:02:35.479
+que você quer transmitir.
+
+00:02:35.512 --> 00:02:37.036
+Usando os mesmos dados,
+
+00:02:37.069 --> 00:02:39.971
+encontramos três maneiras
+de apresentá-los.
+
+00:02:40.425 --> 00:02:42.256
+A maneira correta
+de visualizar os dados
+
+00:02:42.289 --> 00:02:45.381
+é a maneira que melhor ajuda
+você a responder a sua pergunta.
+

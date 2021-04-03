@@ -1,0 +1,103 @@
+WEBVTT
+Kind: captions
+Language: uz
+
+00:00:00.000 --> 00:00:03.965
+Agar ikkita miqdoriy o‘zgaruvchini 
+bir-biriga solishtirsangiz,
+
+00:00:03.965 --> 00:00:05.930
+masalan, narxlar va sotuvlar,
+
+00:00:05.930 --> 00:00:07.930
+yoki balandliklar va og‘irliklar,
+
+00:00:07.930 --> 00:00:12.800
+bunday tahlil uchun eng keng tarqalgan 
+plot bu scatter (tarqoq) plot.
+
+00:00:12.800 --> 00:00:14.690
+Ushbu plotlarning barchasi ikkala o‘zgaruvchi 
+
+00:00:14.690 --> 00:00:20.145
+o‘rtasidagi munosabatlarning kuchi va 
+yo‘nalishini tasvirlashga imkon beradi.
+
+00:00:20.145 --> 00:00:23.765
+Bu kuchli ijobiy munosabatlarning namunasi,
+
+00:00:23.765 --> 00:00:29.530
+ya’ni bunda bitta o‘zgaruvchi ortgan 
+sari boshqasi ham ortadi.
+
+00:00:29.530 --> 00:00:33.380
+Holbuki, bu kuchli salbiy munosabatlarning namunasi.
+
+00:00:33.380 --> 00:00:38.600
+Ya’ni, bunda bitta o‘zgaruvchi o‘sib 
+borishi bilan boshqasi kamayadi.
+
+00:00:38.600 --> 00:00:41.810
+Nuqtalar bir-biridan tarqalib borishi 
+
+00:00:41.810 --> 00:00:43.970
+bu munosabatlarning susayishini bildiradi.
+
+00:00:43.970 --> 00:00:47.210
+Shunday qilib, kuchli yoki zaif 
+munosabatlarni aniqlash uchun,
+
+00:00:47.210 --> 00:00:51.440
+biz munosabatlar bilan bog‘liq bo‘lgan 
+qiyalikka unchalik qaramaymiz,
+
+00:00:51.440 --> 00:00:53.235
+u bu erda o‘zgarib turadi.
+
+00:00:53.235 --> 00:00:55.040
+Bularning barchasi bir xil kuchga ega.
+
+00:00:55.040 --> 00:00:59.470
+Ammo, avvalroq ko‘rganimizdek, 
+nuqtalarning yaqinligi.
+
+00:00:59.470 --> 00:01:03.035
+Umuman olganda biz kuchni zaif, o‘rtacha 
+va kuchli deb hisoblaymiz,
+
+00:01:03.035 --> 00:01:09.240
+yo‘nalishni esa shunchaki ijobiy yoki salbiy.
+
+00:01:09.240 --> 00:01:11.360
+Yozib olish uchun ishlatiladigan raqamli qiymat
+
+00:01:11.360 --> 00:01:14.975
+bu ikki jihat korrelyatsiya koeffitsienti deb nomlanadi,
+
+00:01:14.975 --> 00:01:19.550
+ko‘pincha shunchaki kichik r harfi 
+bilan belgilanadi. Korrelyatsiya koeffitsienti
+
+00:01:19.550 --> 00:01:24.620
+bizga chiziqli munosabatlarning kuchini va 
+yo‘nalishini aytib berish uchun ishlatiladi.
+
+00:01:24.620 --> 00:01:29.180
+Korrelyatsiya koeffitsienti har doim -1 dan 1 gacha,
+
+00:01:29.180 --> 00:01:32.540
+u 1 yoki -1 ga qancha yaqin bo‘lsa,
+
+00:01:32.540 --> 00:01:34.520
+munosabatlar shunchalik kuchli bo‘ladi.
+
+00:01:34.520 --> 00:01:37.980
+Manfiy qiymat sizga salbiy munosabatlar mavjudligini aytadi,
+
+00:01:37.980 --> 00:01:41.225
+musbat esa ijobiy munosabatlar mavjudligini aytadi.
+
+00:01:41.225 --> 00:01:45.100
+Keyingi testlarda siz bular bilan 
+bir oz tajribaga ega bo‘lasiz.
+

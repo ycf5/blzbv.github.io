@@ -1,0 +1,228 @@
+WEBVTT
+Kind: captions
+Language: pt-BR
+
+00:00:01.050 --> 00:00:05.050
+É seu dever apresentar os dados
+da forma mais fidedigna possível.
+
+00:00:05.084 --> 00:00:07.800
+As pessoas manipulam
+as visualizações
+
+00:00:07.834 --> 00:00:09.450
+para enganar os outros.
+
+00:00:09.484 --> 00:00:14.100
+Um dos métodos mais comuns
+é distorcer as áreas de um gráfico.
+
+00:00:14.134 --> 00:00:18.550
+Aqui está um exemplo da Fox News,
+criado em 2012.
+
+00:00:18.584 --> 00:00:21.900
+Este gráfico pretende mostrar
+a diferença na carga tributária.
+
+00:00:21.934 --> 00:00:26.350
+Parece uma mudança enorme,
+que cresceu cinco vezes.
+
+00:00:26.384 --> 00:00:29.050
+No entanto,
+analisando os números em si,
+
+00:00:29.084 --> 00:00:33.450
+é só de 35% para 39,6%.
+
+00:00:33.484 --> 00:00:37.550
+Um aumento de 13%,
+ou 4,6 pontos percentuais.
+
+00:00:37.584 --> 00:00:39.100
+As pessoas tendem a presumir
+
+00:00:39.134 --> 00:00:42.250
+que a linha de base dos gráficos
+é sempre 0.
+
+00:00:42.284 --> 00:00:44.950
+Aqui, a linha de base
+foi definida como 34%,
+
+00:00:44.984 --> 00:00:47.500
+o que frustra
+nossa expectativa.
+
+00:00:47.534 --> 00:00:49.900
+O criador do gráfico
+provavelmente quis
+
+00:00:49.934 --> 00:00:53.000
+convencer o espectador
+de que a carga tributária
+
+00:00:53.034 --> 00:00:56.000
+havia aumentado
+muito mais do que aumentou.
+
+00:00:56.034 --> 00:00:57.950
+Isso nos leva
+ao fator mentira,
+
+00:00:57.984 --> 00:00:59.950
+um conceito introduzido
+por Edward Tufte
+
+00:00:59.984 --> 00:01:02.900
+em "Visual Display".
+Sim, de novo ele.
+
+00:01:02.934 --> 00:01:05.400
+Leia este livro,
+caso ainda não tenha lido.
+
+00:01:05.434 --> 00:01:09.150
+O fator mentira compara o tamanho
+do efeito em um gráfico
+
+00:01:09.184 --> 00:01:11.750
+ao tamanho do efeito
+nos dados.
+
+00:01:11.784 --> 00:01:14.900
+Com "efeito",
+me refiro à diferença comparada.
+
+00:01:14.934 --> 00:01:16.033
+Por exemplo:
+
+00:01:16.067 --> 00:01:18.950
+você está comparando a altura
+das barras de carga tributária.
+
+00:01:18.984 --> 00:01:22.150
+Então o efeito seria
+quanto a barra direita é mais alta
+
+00:01:22.184 --> 00:01:25.450
+do que a da esquerda.
+Para calcular o fator mentira,
+
+00:01:25.484 --> 00:01:28.000
+você divide o efeito
+do gráfico
+
+00:01:28.034 --> 00:01:30.300
+pelo efeito dos dados.
+
+00:01:30.334 --> 00:01:33.200
+Como exemplo disso,
+usarei esta figura,
+
+00:01:33.234 --> 00:01:36.100
+que também é ótimo exemplo
+de gráfico poluído.
+
+00:01:36.134 --> 00:01:39.600
+É ambíguo que aspecto
+das imagens de médica
+
+00:01:39.634 --> 00:01:43.850
+está codificado nos dados.
+A altura, a área...
+
+00:01:43.884 --> 00:01:48.400
+No fim das contas, a altura delas
+é proporcional às percentagens.
+
+00:01:48.434 --> 00:01:54.200
+Mas nós interpretamos a área
+como codificação do dado.
+
+00:01:54.234 --> 00:01:56.650
+Como estamos comparando
+a área das médicas,
+
+00:01:56.684 --> 00:01:59.550
+usarei isso
+para calcular o efeito gráfico.
+
+00:01:59.584 --> 00:02:02.550
+Fazendo um retângulo
+em torno da maior delas,
+
+00:02:02.584 --> 00:02:07.450
+são 437 pixels de altura
+por 181 de largura.
+
+00:02:07.484 --> 00:02:11.800
+Portanto, uma área
+de 79.000 pixels².
+
+00:02:11.834 --> 00:02:16.400
+A médica do meio
+tem uma área de 30.500 pixels².
+
+00:02:16.434 --> 00:02:21.100
+E a menor
+tem 16.500 pixels².
+
+00:02:21.134 --> 00:02:22.600
+Vamos calcular
+o fator mentira
+
+00:02:22.634 --> 00:02:26.550
+da comparação
+entre 1964 e 1990.
+
+00:02:26.584 --> 00:02:31.350
+O efeito visual
+é quanto a médica de 1964 é maior.
+
+00:02:31.384 --> 00:02:35.850
+Isto é, 79.000
+menos 16.500
+
+00:02:35.884 --> 00:02:39.800
+dividido por 16.500.
+Ou seja, 3,79.
+
+00:02:39.834 --> 00:02:42.150
+Então a diferença
+entre o tamanho delas
+
+00:02:42.184 --> 00:02:46.300
+é 379% do tamanho
+da médica menor.
+
+00:02:46.334 --> 00:02:48.650
+O tamanho do efeito
+dos dados em si
+
+00:02:48.684 --> 00:02:54.000
+é (27-12):12. Ou seja, 1,25.
+
+00:02:54.034 --> 00:02:55.500
+Então a diferença nos dados
+
+00:02:55.534 --> 00:02:59.650
+é 125% maior do que 1990.
+
+00:03:00.400 --> 00:03:04.900
+Dividindo os dois,
+o fator mentira é de 3,03.
+
+00:03:04.934 --> 00:03:07.100
+Qualquer fator mentira
+maior do que 1
+
+00:03:07.134 --> 00:03:09.750
+sugere que sua representação
+é enganosa.
+
+00:03:09.784 --> 00:03:13.200
+Quanto maior o fator,
+mais enganosa a representação.
+

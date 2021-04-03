@@ -1,0 +1,181 @@
+WEBVTT
+Kind: captions
+Language: uz
+
+00:00:00.020 --> 00:00:03.150
+Endi biz 
+
+00:00:03.150 --> 00:00:05.925
+bir qator ssenariylarda uchrashi mumkin bo‘lgan 
+plotlar haqida qisqacha ma’lumotga ega bo‘lganimizda,
+
+00:00:05.925 --> 00:00:08.940
+endi ular orasidagi farqni ko‘rish uchun 
+va ular yordamida 
+
+00:00:08.940 --> 00:00:12.480
+qanday savollarga javob berishimiz mumkinligini 
+ko‘rish uchun misollar ko‘raylik.
+
+00:00:12.480 --> 00:00:16.905
+Faraz qiling men blog yuritaman va blogimdagi 
+traffikni tushunmoqchiman.
+
+00:00:16.905 --> 00:00:20.895
+Soddalik uchun keling, atigi 
+12 oylik trafikni ko‘raylik.
+
+00:00:20.895 --> 00:00:24.180
+Agar biz qaysi oyda eng ko‘p tirbandlik bo‘lishini bilishni istasak,
+
+00:00:24.180 --> 00:00:27.900
+biz uchun eng yaxshi plot bu bar chart (ustunli) yoki Pareto diagrammasi bo‘lishi mumkin,
+
+00:00:27.900 --> 00:00:32.138
+chunki bu oylarni trafik bo‘yicha eng yuqoridan 
+pastgacha bo‘lgan tartibda ko‘rishga imkon beradi.
+
+00:00:32.138 --> 00:00:36.605
+Har bir bar - bu ma’lum bir 
+oy uchun trafik miqdori.
+
+00:00:36.605 --> 00:00:41.205
+Noyabrda eng ko‘p tirbandlik 
+kuzatilganini osongina ko‘ramiz.
+
+00:00:41.205 --> 00:00:44.965
+Vaqt o‘tishi bilan trafik oshayotganligini 
+bilmoqchi bo‘lsak,
+
+00:00:44.965 --> 00:00:47.115
+eng yaxshi grafik bu chiziqli 
+chizma bo‘lar edi.
+
+00:00:47.115 --> 00:00:49.125
+Xuddi shu ma’lumot bu erda mavjud,
+
+00:00:49.125 --> 00:00:52.275
+ammo ustanlini chiziqliga almashtirib umumiy 
+
+00:00:52.275 --> 00:00:57.025
+trafikning oshib borayotganligini 
+ko‘rish osonroq.
+
+00:00:57.025 --> 00:00:58.965
+Agar bizda ko‘p yillik ma’lumotlar bo‘lsa,
+
+00:00:58.965 --> 00:01:01.915
+chizmali sxema muayyan oylar boshqalarga 
+qaraganda yuqori yoki past 
+
+00:01:01.915 --> 00:01:06.225
+trafikka egaligini ko‘rishga yordam 
+beradi, bunday farq mavjud bo‘lsa.
+
+00:01:06.225 --> 00:01:08.605
+Aytaylik, Sentyabr har doim past bo‘ladi,
+
+00:01:08.605 --> 00:01:12.665
+Noyabr esa har doim yilning boshqa 
+oylariga nisbatan yuqori bo‘ladi.
+
+00:01:12.665 --> 00:01:15.780
+Agar biz ko‘p yillik ma’lumotlarga ega bo‘lsak va 
+
+00:01:15.780 --> 00:01:19.410
+tashrif buyuruvchilar sonining taqsimlanishi 
+qandayligini bilishni xohlasak.
+
+00:01:19.410 --> 00:01:22.800
+Bir oyda 2000 dan ortiq tashrif buyuruvchilar 
+soni qanchalik ko‘p uchragan?
+
+00:01:22.800 --> 00:01:25.320
+Eng ko‘p tashrif buyuruvchilar 
+soni odatda qanday edi?
+
+00:01:25.320 --> 00:01:28.240
+Ustunli yoki chiziqli diagrammalardan,
+
+00:01:28.240 --> 00:01:29.910
+buni ko‘rish qiyin.
+
+00:01:29.910 --> 00:01:33.915
+Va bu savollarning ikkalasi ham vaqt 
+komponentini tushunishga qaratilgan emas.
+
+00:01:33.915 --> 00:01:37.455
+Bizni qiziqtiradigan narsa hisobni ko‘rish.
+
+00:01:37.455 --> 00:01:41.085
+Tashrif buyuruvchilar sonining 
+gistogrammasi quyidagicha:
+
+00:01:41.085 --> 00:01:46.135
+va u bir oy ichida tashrif buyuruvchilarning 
+sonini yaxshiroq tushunish uchun foydalidir.
+
+00:01:46.135 --> 00:01:52.015
+ustunlarning balandligi bizga ma’lum miqdordagi 
+tashrif buyuruvchilar qanchalik ko‘p uchraganligini aytadi.
+
+00:01:52.015 --> 00:01:55.655
+Blogga 500 ta tashrif buyuruvchi 
+kamdan-kam uchraydimi?
+
+00:01:55.655 --> 00:01:58.880
+Biz buni kamdan-kam uchrashini oson 
+ko‘rishimiz mumkin.
+
+00:01:58.880 --> 00:02:02.265
+Biz tashrif buyuruvchilar har doim 
+200 dan ortiqligini va kamdan-kam
+
+00:02:02.265 --> 00:02:05.430
+hollarda 1200 dan ortiq mehmon 
+borligini ham ko‘rishimiz mumkin.
+
+00:02:05.430 --> 00:02:11.390
+Eng ko‘p tashrif buyuruvchilar 
+soni 325 dan 450 gacha.
+
+00:02:11.390 --> 00:02:16.445
+Oldingi plotlarda ushbu kuzatuvlarni 
+ko‘rish ancha qiyin bo‘lgan.
+
+00:02:16.445 --> 00:02:18.730
+Quyidagi o‘qituvchi eslatmalarida,
+
+00:02:18.730 --> 00:02:21.630
+Men Google Sheets ma’lumotlariga 
+va ushbu taqdimotda diagrammalarni 
+
+00:02:21.630 --> 00:02:25.590
+yaratishda foydalanilgan jadvallarga 
+havola berdim .
+
+00:02:25.590 --> 00:02:28.935
+Yana, ma’lumotlarning vaqt komponenti tufayli,
+
+00:02:28.935 --> 00:02:31.485
+chiziqli diagramma, ehtimol, eng yaxshisidir,
+
+00:02:31.485 --> 00:02:35.295
+lekin u oxir-oqibat siz etkazmoqchi 
+bo‘lgan mazmunga bog‘liq.
+
+00:02:35.295 --> 00:02:37.105
+Xuddi shu ma’lumotlardan foydalanib,
+
+00:02:37.105 --> 00:02:40.050
+biz ma’lumotlarni taqdim qilishning 
+uchta usulini topdik.
+
+00:02:40.050 --> 00:02:42.720
+Ma’lumotni vizualizatsiya qilishning 
+eng to‘g‘ri usuli bu 
+
+00:02:42.720 --> 00:02:46.000
+sizning savolingizga eng yaxshi 
+javob beradiganidir.
+

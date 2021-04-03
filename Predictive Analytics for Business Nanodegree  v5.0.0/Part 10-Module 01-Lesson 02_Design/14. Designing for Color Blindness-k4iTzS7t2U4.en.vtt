@@ -1,0 +1,64 @@
+WEBVTT
+Kind: captions
+Language: en
+
+00:00:00.000 --> 00:00:05.804
+Humans perceive color through signals produced by cells in the retina called cones.
+
+00:00:05.804 --> 00:00:07.514
+Light comes into the eye,
+
+00:00:07.514 --> 00:00:11.925
+hits the cones and the cones set off electrical signals to the brain.
+
+00:00:11.925 --> 00:00:14.895
+There are typically three types of cones, S,
+
+00:00:14.894 --> 00:00:18.324
+M and L, for short, medium and long.
+
+00:00:18.324 --> 00:00:23.144
+They are sensitive to different frequencies or colors of light.
+
+00:00:23.144 --> 00:00:25.350
+Short cones prefer blue,
+
+00:00:25.350 --> 00:00:28.840
+medium prefer green and long prefer red.
+
+00:00:28.839 --> 00:00:33.030
+However around 10% of men and 1% of women,
+
+00:00:33.030 --> 00:00:38.185
+have mutations that affect these cones and produce what is known as colorblindness.
+
+00:00:38.185 --> 00:00:39.495
+The most common form,
+
+00:00:39.494 --> 00:00:41.549
+is a red green colorblindness,
+
+00:00:41.549 --> 00:00:46.974
+typically caused by the medium cone shifting sensitivity towards red light.
+
+00:00:46.975 --> 00:00:50.945
+This mutation is something you can read more about in the instructor notes below.
+
+00:00:50.945 --> 00:00:52.380
+People with this condition,
+
+00:00:52.380 --> 00:00:54.780
+can't distinguish between red and green,
+
+00:00:54.780 --> 00:00:58.765
+as shown in this image of a red and a green apple.
+
+00:00:58.765 --> 00:01:03.054
+There is actually a pretty large fraction of people that are colorblind.
+
+00:01:03.054 --> 00:01:06.174
+So you should design your visualizations to include them.
+
+00:01:06.174 --> 00:01:10.560
+Try to stay away from red green palettes and use blue orange instead.
+

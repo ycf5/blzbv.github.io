@@ -1,0 +1,433 @@
+<!-- udacity2.0 -->
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Motivation for Data Visualization</title>
+  <link rel="stylesheet" href="../assets/css/bootstrap.min.css">
+  <link rel="stylesheet" href="../assets/css/plyr.css">
+  <link rel="stylesheet" href="../assets/css/katex.min.css">
+  <link rel="stylesheet" href="../assets/css/jquery.mCustomScrollbar.min.css">
+  <link rel="stylesheet" href="../assets/css/styles.css">
+  <link rel="shortcut icon" type="image/png" href="../assets/img/udacimak.png" />
+</head>
+
+<body>
+  <div class="wrapper">
+    <nav id="sidebar">
+  <div class="sidebar-header">
+    <h3>Intro to Data Visualization</h3>
+  </div>
+
+  <ul class="sidebar-list list-unstyled CTAs">
+    <li>
+      <a href="../index.html" class="article">Back to Home</a>
+    </li>
+  </ul>
+
+  <ul class="sidebar-list list-unstyled components">
+    <li class="">
+      <a href="01. Data Visualization Introduction.html">01. Data Visualization Introduction</a>
+    </li>
+    <li class="">
+      <a href="02. Why Do We Use Data Visualizations.html">02. Why Do We Use Data Visualizations?</a>
+    </li>
+    <li class="">
+      <a href="03. Motivation for Data Visualization.html">03. Motivation for Data Visualization</a>
+    </li>
+    <li class="">
+      <a href="04. Further Motivation.html">04. Further Motivation</a>
+    </li>
+    <li class="">
+      <a href="05. Data Types Review.html">05. Data Types Review</a>
+    </li>
+    <li class="">
+      <a href="06. Identifying Data Types.html">06. Identifying Data Types</a>
+    </li>
+    <li class="">
+      <a href="07. Univariate Plots.html">07. Univariate Plots</a>
+    </li>
+    <li class="">
+      <a href="08. Univariate Plots.html">08. Univariate Plots</a>
+    </li>
+    <li class="">
+      <a href="09. Scatter Plots.html">09. Scatter Plots</a>
+    </li>
+    <li class="">
+      <a href="10. Quizzes On Scatter Plots.html">10. Quizzes On Scatter Plots</a>
+    </li>
+    <li class="">
+      <a href="11. Correlation Coefficients.html">11. Correlation Coefficients</a>
+    </li>
+    <li class="">
+      <a href="12. Correlation Coefficient Quizzes.html">12. Correlation Coefficient Quizzes</a>
+    </li>
+    <li class="">
+      <a href="13. Line Plots.html">13. Line Plots</a>
+    </li>
+    <li class="">
+      <a href="14. What is the Question.html">14. What is the Question?</a>
+    </li>
+    <li class="">
+      <a href="15. What About with More Than Two Variables.html">15. What About with More Than Two Variables?</a>
+    </li>
+    <li class="">
+      <a href="16. Multiple Variables Quiz.html">16. Multiple Variables Quiz</a>
+    </li>
+    <li class="">
+      <a href="17. Why Data Dashboards.html">17. Why Data Dashboards</a>
+    </li>
+    <li class="">
+      <a href="18. Introduction to Data Dashboards.html">18. Introduction to Data Dashboards</a>
+    </li>
+    <li class="">
+      <a href="19. Quiz On Visual Encodings.html">19. Quiz On Visual Encodings</a>
+    </li>
+    <li class="">
+      <a href="20. Recap.html">20. Recap</a>
+    </li>
+    <li class="">
+      <a href="21. What&#x27;s Next.html">21. What&#x27;s Next?</a>
+    </li>
+  </ul>
+
+  <ul class="sidebar-list list-unstyled CTAs">
+    <li>
+      <a href="../index.html" class="article">Back to Home</a>
+    </li>
+  </ul>
+</nav>
+
+    <div id="content">
+      <header class="container-fluild header">
+        <div class="container">
+          <div class="row">
+            <div class="col-12">
+              <div class="align-items-middle">
+                <button type="button" id="sidebarCollapse" class="btn btn-toggle-sidebar">
+                  <div></div>
+                  <div></div>
+                  <div></div>
+                </button>
+
+                <h1 style="display: inline-block">03. Motivation for Data Visualization</h1>
+              </div>
+            </div>
+          </div>
+        </div>
+      </header>
+
+      <main class="container">
+        <div class="row">
+          <div class="col-12">
+            <div class="ud-atom">
+  <h3></h3>
+  <div>
+  <h3 id="summary-statistics-vs-visualizations">Summary Statistics vs. Visualizations</h3>
+<p>Summary statistics like the mean and standard deviation can be great for attempting to quickly understand aspects of a dataset, but they can also be misleading if you make too many assumptions about how the data distribution looks.</p>
+<h3 id="anscombes-quartet-example">Anscombe's Quartet Example</h3>
+<p>Consider we have the following four datasets of x, y pairs.  You can download the data using the button below. A link to a Google Sheet with the data is also available <a href="https://docs.google.com/spreadsheets/d/17Ec80nOP79w4qHIQhX8FXAGOpUhkU89Do9sEZP2Xgkg/edit#gid=0" rel="noopener noreferrer" target="_blank">here</a>.</p>
+<p><center><a href="https://s3.amazonaws.com/video.udacity-data.com/topher/2018/September/5b982e04_anscombes-quartet/anscombes-quartet.xlsx" target="_blank"><button style="box-sizing: border-box; border-radius: 4px; background: #02B3E4; border: none; height: 44px; padding: 0 25px; color: white; cursor: pointer; font-family: Open Sans,sans-serif; display: inline-block; border: none; font-size: 12px; letter-spacing: 1px; font-weight: 600; text-transform: uppercase;">Download Data</button></a></center></p>
+</div>
+
+</div>
+<div class="divider"></div><div class="ud-atom">
+  <h3></h3>
+  <div>
+  <figure class="figure">
+    <img src="img/anscombe-table.png" alt="" class="img img-fluid">
+    <figcaption class="figure-caption">
+      
+    </figcaption>
+  </figure>
+</div>
+
+
+</div>
+<div class="divider"></div><div class="ud-atom">
+  <h3></h3>
+  <div>
+  <p><strong>QUIZ QUESTION:</strong>: <p>Use the data above to match an answer to each of the following questions. (Assume rounding to 2 digits)</p></p>
+  <p><strong>ANSWER CHOICES:</strong></p>
+  <button class="btn btn-primary"><p>They are the same.</p></button>
+  <button class="btn btn-primary"><p>They are different.</p></button>
+  <button class="btn btn-primary"><p>They are the same.</p></button>
+  <button class="btn btn-primary"><p>They are different.</p></button>
+  <button class="btn btn-primary"><p>They are different.</p></button>
+  <button class="btn btn-primary"><p>They are the same.</p></button>
+  <button class="btn btn-primary"><p>They are the same.</p></button>
+  <button class="btn btn-primary"><p>They are different.</p></button>
+
+  <br><br>
+
+  <table class="table">
+    <tr class="thead-dark table-hover">
+      <th>
+        <p>Question</p>
+      </th>
+      <th>
+        <p>Answer</p>
+      </th>
+    </tr>
+
+    <tr>
+      <td><p>What is true for the means associated with any of the <strong>X</strong> columns?</p></td>
+      <td></td>
+    </tr>
+    <tr>
+      <td><p>What is true for the means associated with any of the <strong>Y</strong> columns?</p></td>
+      <td></td>
+    </tr>
+    <tr>
+      <td><p>What is true for the standard deviation associated with any of the <strong>X</strong> columns?</p></td>
+      <td></td>
+    </tr>
+    <tr>
+      <td><p>What is true for the standard deviation associated with any of the <strong>Y</strong> columns?</p></td>
+      <td></td>
+    </tr>
+  </table>
+
+  <details>
+    <summary><strong>SOLUTION:</strong></summary>
+
+    <table class="table">
+      <tr class="thead-dark table-hover">
+        <th>
+          <p>Question</p>
+        </th>
+        <th>
+          <p>Answer</p>
+        </th>
+      </tr>
+
+      <tr>
+        <td>
+          <p>What is true for the means associated with any of the <strong>X</strong> columns?</p>
+        </td>
+        <td>
+            <button class="btn btn-primary"><p>They are the same.</p></button>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <p>What is true for the means associated with any of the <strong>Y</strong> columns?</p>
+        </td>
+        <td>
+            <button class="btn btn-primary"><p>They are the same.</p></button>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <p>What is true for the standard deviation associated with any of the <strong>X</strong> columns?</p>
+        </td>
+        <td>
+            <button class="btn btn-primary"><p>They are the same.</p></button>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <p>What is true for the standard deviation associated with any of the <strong>Y</strong> columns?</p>
+        </td>
+        <td>
+            <button class="btn btn-primary"><p>They are the same.</p></button>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <p>What is true for the means associated with any of the <strong>X</strong> columns?</p>
+        </td>
+        <td>
+            <button class="btn btn-primary"><p>They are the same.</p></button>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <p>What is true for the means associated with any of the <strong>Y</strong> columns?</p>
+        </td>
+        <td>
+            <button class="btn btn-primary"><p>They are the same.</p></button>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <p>What is true for the standard deviation associated with any of the <strong>X</strong> columns?</p>
+        </td>
+        <td>
+            <button class="btn btn-primary"><p>They are the same.</p></button>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <p>What is true for the standard deviation associated with any of the <strong>Y</strong> columns?</p>
+        </td>
+        <td>
+            <button class="btn btn-primary"><p>They are the same.</p></button>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <p>What is true for the means associated with any of the <strong>X</strong> columns?</p>
+        </td>
+        <td>
+            <button class="btn btn-primary"><p>They are the same.</p></button>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <p>What is true for the means associated with any of the <strong>Y</strong> columns?</p>
+        </td>
+        <td>
+            <button class="btn btn-primary"><p>They are the same.</p></button>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <p>What is true for the standard deviation associated with any of the <strong>X</strong> columns?</p>
+        </td>
+        <td>
+            <button class="btn btn-primary"><p>They are the same.</p></button>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <p>What is true for the standard deviation associated with any of the <strong>Y</strong> columns?</p>
+        </td>
+        <td>
+            <button class="btn btn-primary"><p>They are the same.</p></button>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <p>What is true for the means associated with any of the <strong>X</strong> columns?</p>
+        </td>
+        <td>
+            <button class="btn btn-primary"><p>They are the same.</p></button>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <p>What is true for the means associated with any of the <strong>Y</strong> columns?</p>
+        </td>
+        <td>
+            <button class="btn btn-primary"><p>They are the same.</p></button>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <p>What is true for the standard deviation associated with any of the <strong>X</strong> columns?</p>
+        </td>
+        <td>
+            <button class="btn btn-primary"><p>They are the same.</p></button>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <p>What is true for the standard deviation associated with any of the <strong>Y</strong> columns?</p>
+        </td>
+        <td>
+            <button class="btn btn-primary"><p>They are the same.</p></button>
+        </td>
+      </tr>
+    </table>
+  </details>
+</div>
+
+
+</div>
+<div class="divider"></div>
+          </div>
+
+          <div class="col-12">
+            <p class="text-right">
+              <a href="04. Further Motivation.html" class="btn btn-outline-primary mt-4" role="button">Next Concept</a>
+            </p>
+          </div>
+        </div>
+      </main>
+
+      <footer class="footer">
+        <div class="container">
+          <div class="row">
+            <div class="col-12">
+              <p class="text-center">
+                <a href="https://us-udacity.github.io/" target="_blank">【udacity2.0 】If you need more courses, please add wechat：udacity6</a>
+              </p>
+            </div>
+          </div>
+        </div>
+      </footer>
+    </div>
+  </div>
+
+
+  <script src="../assets/js/jquery-3.3.1.min.js"></script>
+  <script src="../assets/js/plyr.polyfilled.min.js"></script>
+  <script src="../assets/js/bootstrap.min.js"></script>
+  <script src="../assets/js/jquery.mCustomScrollbar.concat.min.js"></script>
+  <script src="../assets/js/katex.min.js"></script>
+  <script>
+    // Initialize Plyr video players
+    const players = Array.from(document.querySelectorAll('video')).map(p => new Plyr(p));
+
+    // render math equations
+    let elMath = document.getElementsByClassName('mathquill');
+    for (let i = 0, len = elMath.length; i < len; i += 1) {
+      const el = elMath[i];
+
+      katex.render(el.textContent, el, {
+        throwOnError: false
+      });
+    }
+
+    // this hack will make sure Bootstrap tabs work when using Handlebars
+    if ($('#question-tabs').length && $('#user-answer-tabs').length) {
+      $("#question-tabs a.nav-link").on('click', function () {
+        $("#question-tab-contents .tab-pane").hide();
+        $($(this).attr("href")).show();
+      });
+      $("#user-answer-tabs a.nav-link").on('click', function () {
+        $("#user-answer-tab-contents .tab-pane").hide();
+        $($(this).attr("href")).show();
+      });
+    } else {
+      $("a.nav-link").on('click', function () {
+        $(".tab-pane").hide();
+        $($(this).attr("href")).show();
+      });
+    }
+
+    // side bar events
+    $(document).ready(function () {
+      $("#sidebar").mCustomScrollbar({
+        theme: "minimal"
+      });
+
+      $('#sidebarCollapse').on('click', function () {
+        $('#sidebar, #content').toggleClass('active');
+        $('.collapse.in').toggleClass('in');
+        $('a[aria-expanded=true]').attr('aria-expanded', 'false');
+      });
+
+      // scroll to first video on page loading
+      if ($('video').length) {
+        $('html,body').animate({ scrollTop: $('div.plyr').prev().offset().top});
+      }
+
+      // auto play first video: this may not work with chrome/safari due to autoplay policy
+      if (players && players.length > 0) {
+        players[0].play();
+      }
+
+      // scroll sidebar to current concept
+      const currentInSideBar = $( "ul.sidebar-list.components li a:contains('03. Motivation for Data Visualization')" )
+      currentInSideBar.css( "text-decoration", "underline" );
+      $("#sidebar").mCustomScrollbar('scrollTo', currentInSideBar);
+    });
+  </script>
+</body>
+
+</html>

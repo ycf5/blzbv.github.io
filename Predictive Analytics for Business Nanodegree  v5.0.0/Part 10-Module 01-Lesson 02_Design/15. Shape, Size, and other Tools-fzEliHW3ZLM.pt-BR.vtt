@@ -1,0 +1,198 @@
+WEBVTT
+Kind: captions
+Language: pt-BR
+
+00:00:00.350 --> 00:00:02.750
+Agora, que falamos
+sobre cores nas representações,
+
+00:00:02.784 --> 00:00:05.150
+vejamos codificações extras.
+
+00:00:05.184 --> 00:00:07.750
+Às vezes, precisamos
+de codificações extras
+
+00:00:07.784 --> 00:00:10.000
+para distinguir dados
+em uma representação.
+
+00:00:10.034 --> 00:00:11.150
+Nesses casos,
+
+00:00:11.184 --> 00:00:15.550
+considere explorar formas
+e tamanhos diferentes.
+
+00:00:15.584 --> 00:00:16.850
+Em um gráfico de dispersão,
+
+00:00:16.884 --> 00:00:19.300
+podemos mudar o tamanho
+ou formato do marcador.
+
+00:00:19.334 --> 00:00:23.350
+Neste vídeo, você vai aprender
+sobre codificações adicionais.
+
+00:00:23.384 --> 00:00:25.100
+Em gráficos de dispersão,
+
+00:00:25.134 --> 00:00:27.000
+representamos os dados
+com pontos,
+
+00:00:27.034 --> 00:00:29.000
+ou, quem sabe,
+outro símbolo.
+
+00:00:29.034 --> 00:00:32.050
+Aqui estamos comparando
+a nota SAT média
+
+00:00:32.084 --> 00:00:34.450
+de alunos
+de universidades diferentes.
+
+00:00:34.484 --> 00:00:38.350
+Cada ponto é a informação
+de uma única universidade.
+
+00:00:38.384 --> 00:00:41.850
+A codificação visual dos dados,
+agora, é opositiva,
+
+00:00:41.884 --> 00:00:44.350
+só usa os eixos x e y.
+
+00:00:44.384 --> 00:00:47.300
+Se essas forem as únicas colunas
+que queremos codificar,
+
+00:00:47.334 --> 00:00:49.000
+não me ocorre
+uma representação
+
+00:00:49.034 --> 00:00:52.150
+que crie a relação
+de forma mais clara.
+
+00:00:52.184 --> 00:00:55.300
+Contudo, podemos adicionar
+codificações extras
+
+00:00:55.334 --> 00:00:57.900
+para informar mais
+sobre os nossos dados.
+
+00:00:57.934 --> 00:01:01.100
+Exemplo:
+faculdades particulares ou públicas.
+
+00:01:01.134 --> 00:01:03.550
+Agora imagine
+que queiramos saber
+
+00:01:03.584 --> 00:01:06.800
+a quantidade de alunos
+de cada faculdade.
+
+00:01:06.834 --> 00:01:09.000
+Precisaremos
+de outra codificação.
+
+00:01:09.750 --> 00:01:12.550
+Muito embora a grossura
+do marcador informe bastante,
+
+00:01:12.584 --> 00:01:15.800
+não é uma representação
+muito precisa.
+
+00:01:15.834 --> 00:01:19.600
+E pode ser ambígua
+quanto a como interpretar o tamanho.
+
+00:01:19.634 --> 00:01:24.200
+É para o público comparar o diâmetro
+ou a área do marcador?
+
+00:01:25.250 --> 00:01:27.000
+Dados também podem
+ser codificados
+
+00:01:27.034 --> 00:01:28.750
+usando formas diferentes,
+
+00:01:28.784 --> 00:01:31.600
+mas não usamos dados quantitativos
+usando formas,
+
+00:01:31.634 --> 00:01:34.200
+já que não haveria
+formas distintas suficientes
+
+00:01:34.234 --> 00:01:36.150
+para todos os valores.
+
+00:01:36.184 --> 00:01:37.800
+Você teria de mudar seus dados
+
+00:01:37.834 --> 00:01:40.300
+para uma variável
+categórica ordinal,
+
+00:01:40.334 --> 00:01:44.450
+e codificar dados quantitativos
+com cores pode ser confuso.
+
+00:01:44.484 --> 00:01:46.050
+Veja este exemplo.
+
+00:01:46.084 --> 00:01:49.950
+Formas não são tão boas quanto cores
+para diferenciar as faculdades,
+
+00:01:49.984 --> 00:01:52.550
+e as cores aqui
+não servem como indicador
+
+00:01:52.584 --> 00:01:56.000
+de todas as proporções
+aluno/faculdade.
+
+00:01:56.034 --> 00:02:00.850
+Em geral, cor e forma são melhores
+para variáveis categóricas,
+
+00:02:00.884 --> 00:02:02.200
+enquanto o tamanho
+do marcador
+
+00:02:02.234 --> 00:02:05.000
+pode ajudar a adicionar
+dados quantitativos,
+
+00:02:05.034 --> 00:02:07.100
+como demonstramos aqui.
+
+00:02:07.134 --> 00:02:10.950
+Eu, particularmente,
+tento evitar essas codificações.
+
+00:02:10.984 --> 00:02:14.150
+Mas essas codificações extras
+são necessárias às vezes.
+
+00:02:14.184 --> 00:02:16.200
+Se você começar
+a perder a mensagem,
+
+00:02:16.234 --> 00:02:18.850
+considere quebrar a representação
+em várias delas,
+
+00:02:18.884 --> 00:02:22.900
+cada uma transmitindo
+a sua mensagem diretamente.
+

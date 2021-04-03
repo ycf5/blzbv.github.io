@@ -1,0 +1,214 @@
+WEBVTT
+Kind: captions
+Language: en
+
+00:00:00.000 --> 00:00:02.294
+In the previous example,
+
+00:00:02.294 --> 00:00:07.320
+we saw how we can better our visualizations by removing extraneous elements.
+
+00:00:07.320 --> 00:00:12.714
+We can conceptualize this relationship using something called the data-to-ink ratio.
+
+00:00:12.714 --> 00:00:17.384
+The data-to-ink ratio was defined in 1983 by Edward Tufte,
+
+00:00:17.385 --> 00:00:20.130
+as the ratio of the amount of ink used to describe
+
+00:00:20.129 --> 00:00:23.230
+the data to the total amount of ink in the visual.
+
+00:00:23.230 --> 00:00:27.449
+In general, the higher the data-to-ink ratio, the better.
+
+00:00:27.449 --> 00:00:29.879
+This means that a large amount of the ink in the
+
+00:00:29.879 --> 00:00:33.045
+visual is being used to actually describe the data,
+
+00:00:33.045 --> 00:00:36.315
+while low data-ink ratio suggests that you are using
+
+00:00:36.314 --> 00:00:41.439
+ink that is added for other purposes rather than describing the data.
+
+00:00:41.439 --> 00:00:44.009
+These elements should be removed.
+
+00:00:44.009 --> 00:00:45.914
+Let's take a look at an example.
+
+00:00:45.914 --> 00:00:50.234
+Here, we have two graphs that are representing the same information.
+
+00:00:50.234 --> 00:00:54.619
+On the left, we have a visualization with low data-to-ink ratio.
+
+00:00:54.619 --> 00:00:57.089
+Notice the extra elements in the visualization that can
+
+00:00:57.090 --> 00:00:59.865
+be removed including the blue background,
+
+00:00:59.865 --> 00:01:01.965
+the horizontal and vertical grid lines,
+
+00:01:01.965 --> 00:01:03.985
+and the outer black border.
+
+00:01:03.984 --> 00:01:08.715
+A large amount of the ink in this visualization is not used to describe the data.
+
+00:01:08.715 --> 00:01:11.400
+On the right, we see a visualization with
+
+00:01:11.400 --> 00:01:14.825
+the same data but with a high data-to-ink ratio.
+
+00:01:14.825 --> 00:01:17.515
+The visual on the right only has ink used to
+
+00:01:17.515 --> 00:01:20.695
+directly relate to the understanding of the data.
+
+00:01:20.694 --> 00:01:25.379
+Comparing both visualizations, the one on the right is not only more
+
+00:01:25.379 --> 00:01:30.269
+pleasing to the eye but it is also much easier to understand.
+
+00:01:30.269 --> 00:01:32.804
+When we're building data visualizations,
+
+00:01:32.805 --> 00:01:36.680
+we always want to strive for a high data-ink ratio.
+
+00:01:36.680 --> 00:01:39.300
+Let's go through a few more examples on how we can
+
+00:01:39.299 --> 00:01:42.390
+take a visualization with low data-to-ink ratio,
+
+00:01:42.390 --> 00:01:45.599
+or extraneous elements, and reduce it down to
+
+00:01:45.599 --> 00:01:49.464
+something that is much simpler and easier to understand.
+
+00:01:49.465 --> 00:01:51.689
+In this example, we're going to take
+
+00:01:51.689 --> 00:01:56.024
+a visualization and try to improve its data-to-ink ratio.
+
+00:01:56.025 --> 00:02:01.700
+Here, we have a bar chart representing the number of calories for various types of foods.
+
+00:02:01.700 --> 00:02:04.034
+At first glance, we can see examples of
+
+00:02:04.034 --> 00:02:07.560
+bad visualization techniques that we've discussed previously,
+
+00:02:07.560 --> 00:02:09.465
+such as the busy background,
+
+00:02:09.465 --> 00:02:11.039
+the poor color choices,
+
+00:02:11.039 --> 00:02:13.199
+and the use of 3D gradients.
+
+00:02:13.199 --> 00:02:16.394
+Let's walk through it step by step as to how we can simplify
+
+00:02:16.395 --> 00:02:20.939
+this visualization and increase its data-to-ink ratio.
+
+00:02:20.939 --> 00:02:24.180
+First, let's remove the wood background from
+
+00:02:24.180 --> 00:02:27.240
+the outside and this gray background from the inside,
+
+00:02:27.240 --> 00:02:30.150
+increasing contrast and legibility.
+
+00:02:30.150 --> 00:02:35.480
+We can also remove redundant labels such as this legend from the titles.
+
+00:02:35.479 --> 00:02:37.914
+This information is encoded elsewhere.
+
+00:02:37.914 --> 00:02:39.949
+Now that we have removed the backgrounds,
+
+00:02:39.949 --> 00:02:44.814
+the heavy borders separating the various elements are no longer necessary.
+
+00:02:44.814 --> 00:02:46.439
+So let's take those out too.
+
+00:02:46.439 --> 00:02:49.175
+Remember our coloring theory.
+
+00:02:49.175 --> 00:02:51.700
+We shouldn't use more than one or two colors in
+
+00:02:51.699 --> 00:02:55.649
+a visualization unless it's encoded some value in the data.
+
+00:02:55.650 --> 00:03:00.219
+The color of these bars don't reflect any differences between the different foods.
+
+00:03:00.219 --> 00:03:02.625
+So let's remove those colors as well,
+
+00:03:02.625 --> 00:03:04.534
+except for the food of interest.
+
+00:03:04.534 --> 00:03:06.629
+In this case, bacon.
+
+00:03:06.629 --> 00:03:08.699
+Great. We've already improved
+
+00:03:08.699 --> 00:03:12.744
+the data-to-ink ratio quite a bit but there's more that we can do.
+
+00:03:12.745 --> 00:03:17.585
+Recall that 3D graphs including gradients and shadowing can be misleading.
+
+00:03:17.585 --> 00:03:22.340
+So let's flatten out these bars and remove the drop shadows to make it more clear.
+
+00:03:22.340 --> 00:03:24.539
+We can also make the data stand out by
+
+00:03:24.539 --> 00:03:27.560
+reducing the boldness of these labels and grid lines.
+
+00:03:27.560 --> 00:03:29.935
+If we want to go even further,
+
+00:03:29.935 --> 00:03:33.060
+we can remove the lines entirely and encode the label
+
+00:03:33.060 --> 00:03:37.080
+values directly into the bars, like this.
+
+00:03:37.080 --> 00:03:39.820
+Comparing the two visualization side by side,
+
+00:03:39.819 --> 00:03:44.389
+you can easily see the effect of improving the data-to-ink ratio.
+
+00:03:44.389 --> 00:03:48.854
+The visualization with the high data-to-ink ratio is far more clear,
+
+00:03:48.854 --> 00:03:54.000
+more interpretable, and has all the elements you need for a great visualization.
+

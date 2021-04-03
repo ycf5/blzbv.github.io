@@ -1,0 +1,113 @@
+WEBVTT
+Kind: captions
+Language: pt-BR
+
+00:00:00.600 --> 00:00:02.850
+Quando você escolhe
+como dispor seus dados,
+
+00:00:02.884 --> 00:00:06.550
+é importante pensar não só
+no que incluir na representação,
+
+00:00:06.584 --> 00:00:08.700
+mas no que deixar de fora.
+
+00:00:08.734 --> 00:00:11.050
+Isso nos leva
+à poluição de gráfico.
+
+00:00:11.084 --> 00:00:14.900
+"Poluição de gráfico" é um termo
+que se refere a todo elemento
+
+00:00:14.934 --> 00:00:16.300
+de tabelas e gráficos
+
+00:00:16.334 --> 00:00:20.600
+desnecessários para entender
+a informação ali representada.
+
+00:00:20.634 --> 00:00:25.300
+Eles também distraem o público
+da informação que você quer dar.
+
+00:00:25.334 --> 00:00:28.600
+Marcações em elementos visuais
+podem ser consideradas poluição
+
+00:00:28.634 --> 00:00:31.350
+se não forem parte
+dos elementos essenciais
+
+00:00:31.384 --> 00:00:34.100
+para comunicação clara.
+
+00:00:34.134 --> 00:00:36.500
+Vejamos alguns exemplos.
+
+00:00:36.534 --> 00:00:40.450
+Exemplos de poluição de gráfico
+incluem estes aqui listados.
+
+00:00:40.484 --> 00:00:42.700
+Linhas de grade espessas
+ou escuras demais,
+
+00:00:42.734 --> 00:00:44.600
+texto desnecessário,
+
+00:00:44.634 --> 00:00:47.550
+figuras ao redor
+ou dentro do gráfico,
+
+00:00:47.584 --> 00:00:49.900
+sombreamento
+ou componentes 3-D,
+
+00:00:49.934 --> 00:00:53.150
+ou tabelas e eixos
+ornamentados.
+
+00:00:53.184 --> 00:00:56.300
+Este exemplo mostra
+como a poluição ofusca os dados,
+
+00:00:56.334 --> 00:00:58.400
+neste caso,
+cinco números simples.
+
+00:00:58.434 --> 00:01:02.350
+Imagine isto como uma avaliação
+de 1 a 5 de um restaurante,
+
+00:01:02.384 --> 00:01:03.850
+A altura de cada barra
+
+00:01:03.884 --> 00:01:07.750
+representa quantos indivíduos
+deram as notas da parte inferior.
+
+00:01:07.784 --> 00:01:10.650
+Vemos eixos ornamentados
+
+00:01:10.684 --> 00:01:13.100
+que ofuscam
+os valores efetivos,
+
+00:01:13.134 --> 00:01:18.050
+além do uso de texturas
+nas barras e no plano de fundo.
+
+00:01:18.084 --> 00:01:21.050
+Outro tipo de poluição
+distorce a mensagem
+
+00:01:21.084 --> 00:01:24.700
+e torna difícil entender
+o dado sendo exibido.
+
+00:01:24.734 --> 00:01:28.650
+Os dentes aqui são exemplo
+desse tipo de poluição.
+

@@ -1,0 +1,280 @@
+<!-- udacity2.0 -->
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Design Integrity</title>
+  <link rel="stylesheet" href="../assets/css/bootstrap.min.css">
+  <link rel="stylesheet" href="../assets/css/plyr.css">
+  <link rel="stylesheet" href="../assets/css/katex.min.css">
+  <link rel="stylesheet" href="../assets/css/jquery.mCustomScrollbar.min.css">
+  <link rel="stylesheet" href="../assets/css/styles.css">
+  <link rel="shortcut icon" type="image/png" href="../assets/img/udacimak.png" />
+</head>
+
+<body>
+  <div class="wrapper">
+    <nav id="sidebar">
+  <div class="sidebar-header">
+    <h3>Design</h3>
+  </div>
+
+  <ul class="sidebar-list list-unstyled CTAs">
+    <li>
+      <a href="../index.html" class="article">Back to Home</a>
+    </li>
+  </ul>
+
+  <ul class="sidebar-list list-unstyled components">
+    <li class="">
+      <a href="01. Introduction.html">01. Introduction</a>
+    </li>
+    <li class="">
+      <a href="02. Lesson Overview.html">02. Lesson Overview</a>
+    </li>
+    <li class="">
+      <a href="03. Exploratory vs. Explanatory Analyses.html">03. Exploratory vs. Explanatory Analyses</a>
+    </li>
+    <li class="">
+      <a href="04. Quiz Exploratory vs. Explanatory.html">04. Quiz: Exploratory vs. Explanatory</a>
+    </li>
+    <li class="">
+      <a href="05. What Makes a Bad Visual.html">05. What Makes a Bad Visual?</a>
+    </li>
+    <li class="">
+      <a href="06. What Experts Say About Visual Encodings.html">06. What Experts Say About Visual Encodings</a>
+    </li>
+    <li class="">
+      <a href="07. Chart Junk.html">07. Chart Junk</a>
+    </li>
+    <li class="">
+      <a href="08. Data Ink Ratio.html">08. Data Ink Ratio</a>
+    </li>
+    <li class="">
+      <a href="09. Design Integrity.html">09. Design Integrity</a>
+    </li>
+    <li class="">
+      <a href="10. Bad Visual Quizzes (Part I).html">10. Bad Visual Quizzes (Part I)</a>
+    </li>
+    <li class="">
+      <a href="11. Bad Visual Quizzes (Part II).html">11. Bad Visual Quizzes (Part II)</a>
+    </li>
+    <li class="">
+      <a href="12. Text Effective Explanatory Visual Recap.html">12. Text: Effective Explanatory Visual Recap</a>
+    </li>
+    <li class="">
+      <a href="13. Using Color.html">13. Using Color</a>
+    </li>
+    <li class="">
+      <a href="14. Designing for Color Blindness.html">14. Designing for Color Blindness</a>
+    </li>
+    <li class="">
+      <a href="15. Shape, Size, &amp; Other Tools.html">15. Shape, Size, &amp; Other Tools</a>
+    </li>
+    <li class="">
+      <a href="16. General Design Tips.html">16. General Design Tips</a>
+    </li>
+    <li class="">
+      <a href="17. Good Visual.html">17. Good Visual</a>
+    </li>
+    <li class="">
+      <a href="18. Tell A Story.html">18. Tell A Story</a>
+    </li>
+    <li class="">
+      <a href="19. Same Data, Different Stories.html">19. Same Data, Different Stories</a>
+    </li>
+    <li class="">
+      <a href="20. Quizzes on Data Story Telling.html">20. Quizzes on Data Story Telling</a>
+    </li>
+    <li class="">
+      <a href="21. Recap.html">21. Recap</a>
+    </li>
+    <li class="">
+      <a href="22. Onwards!.html">22. Onwards!</a>
+    </li>
+  </ul>
+
+  <ul class="sidebar-list list-unstyled CTAs">
+    <li>
+      <a href="../index.html" class="article">Back to Home</a>
+    </li>
+  </ul>
+</nav>
+
+    <div id="content">
+      <header class="container-fluild header">
+        <div class="container">
+          <div class="row">
+            <div class="col-12">
+              <div class="align-items-middle">
+                <button type="button" id="sidebarCollapse" class="btn btn-toggle-sidebar">
+                  <div></div>
+                  <div></div>
+                  <div></div>
+                </button>
+
+                <h1 style="display: inline-block">09. Design Integrity</h1>
+              </div>
+            </div>
+          </div>
+        </div>
+      </header>
+
+      <main class="container">
+        <div class="row">
+          <div class="col-12">
+            <div class="ud-atom">
+  <h3><p>Design Integrity</p></h3>
+  <video controls>
+  <source src="09. Design Integrity-y72_fVFtqlY.mp4" type="video/mp4">
+
+  <track default="false" kind="subtitles" srclang="zh-CN" src="09. Design Integrity-y72_fVFtqlY.zh-CN.vtt" label="zh-CN">
+  <track default="false" kind="subtitles" srclang="ar" src="09. Design Integrity-y72_fVFtqlY.ar.vtt" label="ar">
+  <track default="false" kind="subtitles" srclang="pt-BR" src="09. Design Integrity-y72_fVFtqlY.pt-BR.vtt" label="pt-BR">
+  <track default="true" kind="subtitles" srclang="en" src="09. Design Integrity-y72_fVFtqlY.en.vtt" label="en">
+  <track default="false" kind="subtitles" srclang="uz" src="09. Design Integrity-y72_fVFtqlY.uz.vtt" label="uz">
+</video>
+
+
+</div>
+<div class="divider"></div><div class="ud-atom">
+  <h3></h3>
+  <div>
+  <h3 id="design-integrity-notes">Design Integrity Notes</h3>
+<p>It is key that when you build plots you maintain integrity for the underlying data. </p>
+<p>One of the main ways discussed here for looking at data integrity was with the <strong>lie factor</strong>.  Lie factor depicts the degree to which a visualization distorts or misrepresents the data values being plotted. It is calculated in the following way:</p>
+<div class="mathquill">\text{lie factor} =\frac{\Delta \text{visual}/\text{visual}_\text{start}}{\Delta \text{data}/\text{data}_\text{start}}</div>
+<p>The delta symbol (<span class="mathquill ud-math">\Delta</span>) stands for difference or change. In words, the lie factor is the relative change shown in the graphic divided by the actual relative change in the data. Ideally, the lie factor should be 1: any other value means that there is some mismatch in the ratio of depicted change to actual change.</p>
+<hr />
+<h3 id="lie-factor-in-the-video">Lie Factor in the Video</h3>
+<p>The lie factor shown in the video was in comparing the largest to the smallest doctor in terms of pixels.</p>
+</div>
+
+</div>
+<div class="divider"></div><div class="ud-atom">
+  <h3></h3>
+  <div>
+  <figure class="figure">
+    <img src="img/pasted-image-0.png" alt="" class="img img-fluid">
+    <figcaption class="figure-caption">
+      
+    </figcaption>
+  </figure>
+</div>
+
+
+</div>
+<div class="divider"></div><div class="ud-atom">
+  <h3></h3>
+  <div>
+  <p>The number of pixels related to the largest image is 79,000 and 16,500 for the smallest.  The percentage change is 27% to 12%.  So, the lie factor is calculated as:</p>
+<div class="mathquill">\text{lie factor} =\frac{(79000-16500)/16500}{(27-12)/12} = 3.03</div>
+</div>
+
+</div>
+<div class="divider"></div><div class="ud-atom">
+  <h3></h3>
+  <div>
+  <h3 id="further-reading">Further Reading</h3>
+<ul>
+<li>Flowing Data: <a href="https://flowingdata.com/2017/02/09/how-to-spot-visualization-lies/" rel="noopener noreferrer" target="_blank">How to Spot Visualization Lies</a></li>
+</ul>
+</div>
+
+</div>
+<div class="divider"></div>
+          </div>
+
+          <div class="col-12">
+            <p class="text-right">
+              <a href="10. Bad Visual Quizzes (Part I).html" class="btn btn-outline-primary mt-4" role="button">Next Concept</a>
+            </p>
+          </div>
+        </div>
+      </main>
+
+      <footer class="footer">
+        <div class="container">
+          <div class="row">
+            <div class="col-12">
+              <p class="text-center">
+                <a href="https://us-udacity.github.io/" target="_blank">【udacity2.0 】If you need more courses, please add wechat：udacity6</a>
+              </p>
+            </div>
+          </div>
+        </div>
+      </footer>
+    </div>
+  </div>
+
+
+  <script src="../assets/js/jquery-3.3.1.min.js"></script>
+  <script src="../assets/js/plyr.polyfilled.min.js"></script>
+  <script src="../assets/js/bootstrap.min.js"></script>
+  <script src="../assets/js/jquery.mCustomScrollbar.concat.min.js"></script>
+  <script src="../assets/js/katex.min.js"></script>
+  <script>
+    // Initialize Plyr video players
+    const players = Array.from(document.querySelectorAll('video')).map(p => new Plyr(p));
+
+    // render math equations
+    let elMath = document.getElementsByClassName('mathquill');
+    for (let i = 0, len = elMath.length; i < len; i += 1) {
+      const el = elMath[i];
+
+      katex.render(el.textContent, el, {
+        throwOnError: false
+      });
+    }
+
+    // this hack will make sure Bootstrap tabs work when using Handlebars
+    if ($('#question-tabs').length && $('#user-answer-tabs').length) {
+      $("#question-tabs a.nav-link").on('click', function () {
+        $("#question-tab-contents .tab-pane").hide();
+        $($(this).attr("href")).show();
+      });
+      $("#user-answer-tabs a.nav-link").on('click', function () {
+        $("#user-answer-tab-contents .tab-pane").hide();
+        $($(this).attr("href")).show();
+      });
+    } else {
+      $("a.nav-link").on('click', function () {
+        $(".tab-pane").hide();
+        $($(this).attr("href")).show();
+      });
+    }
+
+    // side bar events
+    $(document).ready(function () {
+      $("#sidebar").mCustomScrollbar({
+        theme: "minimal"
+      });
+
+      $('#sidebarCollapse').on('click', function () {
+        $('#sidebar, #content').toggleClass('active');
+        $('.collapse.in').toggleClass('in');
+        $('a[aria-expanded=true]').attr('aria-expanded', 'false');
+      });
+
+      // scroll to first video on page loading
+      if ($('video').length) {
+        $('html,body').animate({ scrollTop: $('div.plyr').prev().offset().top});
+      }
+
+      // auto play first video: this may not work with chrome/safari due to autoplay policy
+      if (players && players.length > 0) {
+        players[0].play();
+      }
+
+      // scroll sidebar to current concept
+      const currentInSideBar = $( "ul.sidebar-list.components li a:contains('09. Design Integrity')" )
+      currentInSideBar.css( "text-decoration", "underline" );
+      $("#sidebar").mCustomScrollbar('scrollTo', currentInSideBar);
+    });
+  </script>
+</body>
+
+</html>

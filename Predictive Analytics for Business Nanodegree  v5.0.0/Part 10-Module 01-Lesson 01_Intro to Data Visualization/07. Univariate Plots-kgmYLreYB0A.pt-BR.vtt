@@ -1,0 +1,148 @@
+WEBVTT
+Kind: captions
+Language: pt-BR
+
+00:00:00.110 --> 00:00:01.935
+GRÁFICOS UNIVARIADOS
+
+00:00:01.968 --> 00:00:03.539
+Qual visualização que você usa,
+
+00:00:03.572 --> 00:00:06.403
+não só depende com quais tipos
+de dados você está trabalhando,
+
+00:00:06.436 --> 00:00:09.408
+mas também de quantas colunas
+do seu conjunto de dados
+
+00:00:09.441 --> 00:00:11.442
+você quer ver
+em um único gráfico.
+
+00:00:11.789 --> 00:00:15.245
+Se você só estivesse interessado
+em uma coluna do conjunto de dados,
+
+00:00:15.278 --> 00:00:19.839
+isso é chamado de análise univariada
+onde a uni aqui representa uma.
+
+00:00:20.535 --> 00:00:23.314
+Antes de falarmos
+sobre comparar variáveis entre si,
+
+00:00:23.693 --> 00:00:26.241
+é importante que você saiba
+quais gráficos criar
+
+00:00:26.274 --> 00:00:27.677
+para análise univariada.
+
+00:00:28.696 --> 00:00:30.761
+Para dados quantitativos
+univariados,
+
+00:00:30.794 --> 00:00:33.284
+tanto contínuos
+quanto discretos,
+
+00:00:33.571 --> 00:00:35.919
+o gráfico mais comum
+para visualizar os dados
+
+00:00:36.222 --> 00:00:38.061
+é conhecido como histograma.
+
+00:00:38.094 --> 00:00:40.880
+No entanto, também poderíamos usar
+um gráfico Caixa Estreita,
+
+00:00:40.913 --> 00:00:42.365
+um gráfico Caule-e-Folhas
+
+00:00:42.398 --> 00:00:45.264
+ou o que é conhecido
+como gráfico Quantis Normal.
+
+00:00:45.560 --> 00:00:48.220
+Se você estivesse representando
+uma variável quantitativa,
+
+00:00:48.253 --> 00:00:49.690
+há casos raros
+
+00:00:49.723 --> 00:00:53.101
+em que você pode usar um gráfico
+que não seja um histograma.
+
+00:00:53.907 --> 00:00:55.780
+Para dados categóricos
+univariados,
+
+00:00:55.813 --> 00:00:58.601
+o gráfico mais comum
+é um gráfico de barras.
+
+00:00:58.634 --> 00:01:01.062
+Um gráfico de barras
+é como um histograma,
+
+00:01:01.095 --> 00:01:02.512
+mas os compartimentos
+são determinados
+
+00:01:02.545 --> 00:01:04.114
+com base
+em uma categoria definida
+
+00:01:04.147 --> 00:01:05.796
+e não com base em um intervalo
+
+00:01:05.829 --> 00:01:07.862
+que o criador do gráfico
+pode alterar.
+
+00:01:08.305 --> 00:01:10.602
+Outros gráficos comuns
+incluem gráficos de pizza
+
+00:01:10.635 --> 00:01:12.174
+e gráficos Pareto.
+
+00:01:12.207 --> 00:01:14.933
+Os gráficos Pareto basicamente
+são apenas gráficos de barras
+
+00:01:14.966 --> 00:01:18.788
+onde as barras são do mais frequente
+ao menos frequente.
+
+00:01:19.107 --> 00:01:22.756
+Em fábricas, os gráficos Pareto
+são usados o tempo todo
+
+00:01:22.789 --> 00:01:25.974
+para determinar quais partes
+têm mais problemas.
+
+00:01:26.714 --> 00:01:29.596
+Se você está trabalhando
+com uma variável categórica ordinal
+
+00:01:29.629 --> 00:01:32.383
+faz mais sentido
+usar um gráfico de barras.
+
+00:01:32.691 --> 00:01:35.151
+Pessoalmente não me importo
+com os gráficos de pizza.
+
+00:01:35.641 --> 00:01:39.717
+Também sempre tento evitar
+gráficos 3D,
+
+00:01:40.007 --> 00:01:43.378
+pois podem ser enganosos,
+mais tarde veremos mais disso.
+

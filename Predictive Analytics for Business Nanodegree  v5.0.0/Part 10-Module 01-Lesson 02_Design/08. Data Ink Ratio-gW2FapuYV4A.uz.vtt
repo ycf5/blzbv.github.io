@@ -1,0 +1,255 @@
+WEBVTT
+Kind: captions
+Language: uz
+
+00:00:00.000 --> 00:00:02.295
+Oldingi misolda
+
+00:00:02.295 --> 00:00:07.320
+keraksiz elementlarni olib tashlash orqali biz 
+vizualizatsiyani qanday yaxshilashimiz mumkinligini ko‘rdik.
+
+00:00:07.320 --> 00:00:12.715
+Ushbu munosabatlarni data-to-ink ratio deb nomlangan 
+narsadan foydalanib umumlashtirishimiz mumkin.
+
+00:00:12.715 --> 00:00:17.385
+data-to-ink ratio - ma’lumotlarni siyohlash nisbatini 
+1983 yilda Edvard Tufte tomonidan aniqlangan bo‘lib,
+
+00:00:17.385 --> 00:00:20.130
+u ma’lumotlarni tasvirlash uchun 
+ishlatiladigan siyoh miqdorining 
+
+00:00:20.130 --> 00:00:23.230
+tasvirda ishlatilgan umumiy siyoh nisbatiga teng.
+
+00:00:23.230 --> 00:00:27.450
+Umuman olganda, data-to-ink nisbati qanchalik 
+yuqori bo‘lsa, shuncha yaxshi.
+
+00:00:27.450 --> 00:00:29.880
+Bu shuni anglatadiki, siyohning katta miqdori
+
+00:00:29.880 --> 00:00:33.045
+ma’lumotlarni vizual ravishda 
+tasvirlash uchun ishlatilgan.
+
+00:00:33.045 --> 00:00:36.315
+data-to-ink nisbati past bo‘lsa, siz 
+
+00:00:36.315 --> 00:00:41.440
+ma’lumotni tasvirlashdan ko‘ra boshqa maqsadlarga 
+berilib ketganligingizni bildiradi.
+
+00:00:41.440 --> 00:00:44.010
+Ushbu elementlarni olib tashlash kerak.
+
+00:00:44.010 --> 00:00:45.915
+Bir misolni ko‘rib chiqaylik.
+
+00:00:45.915 --> 00:00:50.235
+Bu erda biz bir xil ma’lumotni aks 
+ettiradigan ikkita grafikka egamiz.
+
+00:00:50.235 --> 00:00:54.620
+Chapda bizda data-to-ink nisbati past 
+bo‘lgan vizualizatsiya ko‘rsatilgan.
+
+00:00:54.620 --> 00:00:57.090
+Vizualizatsiyadagi olib tashlanadigan ortiqcha 
+elementlarga e’tibor bering -
+
+00:00:57.090 --> 00:00:59.865
+ko‘k fon,
+
+00:00:59.865 --> 00:01:01.965
+gorizontal va vertikal chiziqlar,
+
+00:01:01.965 --> 00:01:03.985
+va tashqi qora chegara shulardan.
+
+00:01:03.985 --> 00:01:08.715
+Ushbu vizualizatsiyada siyohning katta miqdori 
+ma’lumotlarni tavsiflash uchun ishlatilmagan.
+
+00:01:08.715 --> 00:01:11.400
+O‘ng tomonda biz o‘sha-o‘sha ma’lumotlarni, 
+
+00:01:11.400 --> 00:01:14.825
+biroq yuqori data-to-ink nisbati bilan 
+bajarilgan vizualizatsiyani ko‘ramiz.
+
+00:01:14.825 --> 00:01:17.515
+O‘ng tomondagi vizualizatsiyada siyoh faqat 
+kerakli, ma’lumotlarni tushunish 
+
+00:01:17.515 --> 00:01:20.695
+bilan bevosita bog‘liq bo‘lgan narsalarni 
+tasvirlashga ishlatilgan. 
+
+00:01:20.695 --> 00:01:25.380
+Ikkala vizualizatsiyani taqqoslaganda, 
+o‘ngdagisi nafaqat 
+
+00:01:25.380 --> 00:01:30.270
+ko‘zga yoqimli, biroq tushunish ham osonroq.
+
+00:01:30.270 --> 00:01:32.805
+Ma’lumotlar vizualizatsiyasini yaratishda,
+
+00:01:32.805 --> 00:01:36.680
+biz har doim yuqori darajadagi siyoh 
+nisbati uchun harakat qilishimiz kerak.
+
+00:01:36.680 --> 00:01:39.300
+Keling, data-to-ink nisbati past bo‘lgan 
+
+00:01:39.300 --> 00:01:42.390
+vizualizatsiyalarni ortiqcha 
+narsalarni olib tashlab
+
+00:01:42.390 --> 00:01:45.600
+tushunish yengil bo‘lgan 
+holatga keltirishni
+
+00:01:45.600 --> 00:01:49.465
+ko‘rsatadigan yana bir nechta 
+misollarni ko‘rib chiqaylik.
+
+00:01:49.465 --> 00:01:51.690
+Ushbu misolda biz vizualizatsiyaning data-to-ink 
+
+00:01:51.690 --> 00:01:56.025
+nisbatini yaxshilashga harakat qilmoqchimiz.
+
+00:01:56.025 --> 00:02:01.700
+Bu erda turli xil ovqatlar uchun kaloriya sonini 
+ko‘rsatadigan ustunli diagramma berilgan.
+
+00:02:01.700 --> 00:02:04.035
+Bir qarashda biz ilgari muhokama 
+qilgan vizualizatsiyaning 
+
+00:02:04.035 --> 00:02:07.560
+yomon texnikalari misollarni 
+ko‘rishimiz mumkin
+
+00:02:07.560 --> 00:02:09.465
+masalan, og‘ir bo‘lgan fon,
+
+00:02:09.465 --> 00:02:11.040
+yomon rang tanlovi,
+
+00:02:11.040 --> 00:02:13.200
+va 3D gradientlaridan foydalanish.
+
+00:02:13.200 --> 00:02:16.395
+Keling, bu vizualizatsiyani 
+qanday qilib soddalashtirish 
+
+00:02:16.395 --> 00:02:20.940
+va uning data-to-ink nisbatini oshirish 
+mumkinligini asta-sekin ko‘rib chiqaylik.
+
+00:02:20.940 --> 00:02:24.180
+Birinchidan, keling, tashqaridan 
+yog‘och fonni olib tashlaymiz
+
+00:02:24.180 --> 00:02:27.240
+ichkaridan esa kul rang fonni,
+
+00:02:27.240 --> 00:02:30.150
+ortib borayotgan kontrast va aniqlikni.
+
+00:02:30.150 --> 00:02:35.480
+Ushbu afsona kabi ortiqcha yorliqlarni 
+sarlavhalardan olib tashlashimiz ham mumkin.
+
+00:02:35.480 --> 00:02:37.915
+Ushbu ma’lumot boshqa joyda keltirilgan.
+
+00:02:37.915 --> 00:02:39.950
+Endi biz orqa fonni olib tashlaganimizda,
+
+00:02:39.950 --> 00:02:44.815
+turli xil elementlarni ajratib turadigan 
+og‘ir chegaralar endi kerak emas.
+
+00:02:44.815 --> 00:02:46.440
+Shunday ekan, keling ularni ham olib tashlaylik.
+
+00:02:46.440 --> 00:02:49.175
+Bizning rang berish bo‘yicha 
+ko‘rsatmalarimizni eslang.
+
+00:02:49.175 --> 00:02:51.700
+Biz ko‘pi bilan bir yoki ikkita 
+rangdan foydalanishimiz kerak,
+
+00:02:51.700 --> 00:02:55.650
+faqat ma’lumotlar qiymatlarini 
+belgilash bundan istisno.
+
+00:02:55.650 --> 00:03:00.220
+Ushbu ustunlarning rangi turli xil ovqatlar 
+orasidagi farqni aks ettirmaydi.
+
+00:03:00.220 --> 00:03:02.625
+Keling, shu ranglarni ham olib tashlaymiz,
+
+00:03:02.625 --> 00:03:04.535
+bizni qiziqtiradigan ovqat turidan tashqari.
+
+00:03:04.535 --> 00:03:06.630
+Bizning holda, bu bekon.
+
+00:03:06.630 --> 00:03:08.700
+Ajoyib. Biz data-to-ink nisbatini 
+anchagina yaxshiladik,
+
+00:03:08.700 --> 00:03:12.745
+ammo biz qila oladigan yana ko‘p narsalar bor.
+
+00:03:12.745 --> 00:03:17.585
+Eslatib o‘tamiz, 3D grafikasi, shu jumladan 
+gradient va soyalar chalkashtirishi mumkin.
+
+00:03:17.585 --> 00:03:22.340
+Demak ushbu chiziqlarni ham tekislaymiz va aniqlikni 
+oshirish uchun tushgan soyalarni ham olib tashlaymiz.
+
+00:03:22.340 --> 00:03:24.540
+Shuningdek, biz ma’lumotlarni yanada 
+ajratishimiz mumkin
+
+00:03:24.540 --> 00:03:27.560
+ushbu teg va panjara chiziqlarining 
+qalinligini kamaytirish orqali.
+
+00:03:27.560 --> 00:03:29.935
+Agar biz yanada davom etishni istasak,
+
+00:03:29.935 --> 00:03:33.060
+biz chiziqlarni butunlay olib tashlab, 
+yorliqlarni 
+
+00:03:33.060 --> 00:03:37.080
+to‘g‘ridan-to‘g‘ri barlarga kiritishimiz 
+mumkin. Bunga o‘xshash tarzda.
+
+00:03:37.080 --> 00:03:39.820
+Ikkala vizualizatsiyani yonma-yon taqqoslab,
+
+00:03:39.820 --> 00:03:44.390
+data-to-ink nisbatini oshirish samarasini 
+yaqqol ko‘rishingiz mumkin.
+
+00:03:44.390 --> 00:03:48.855
+Yuqori data-to-ink nisbati 
+vizualizatsiyani yanada aniqroq,
+
+00:03:48.855 --> 00:03:54.000
+yanada oson talqin qilinadi va ajoyib ko‘rinish 
+uchun zarur bo‘lgan barcha elementlarga ega bo‘ladi.
+

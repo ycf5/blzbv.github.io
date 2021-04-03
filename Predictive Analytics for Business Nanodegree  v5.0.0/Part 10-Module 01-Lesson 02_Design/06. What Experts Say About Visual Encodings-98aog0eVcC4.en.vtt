@@ -1,0 +1,82 @@
+WEBVTT
+Kind: captions
+Language: en
+
+00:00:00.390 --> 00:00:05.234
+Visual encodings are mapping from data to display elements.
+
+00:00:05.235 --> 00:00:09.750
+Display elements include position on the x axis or y axis,
+
+00:00:09.750 --> 00:00:11.759
+the size of points or bars,
+
+00:00:11.759 --> 00:00:13.379
+the shape of points,
+
+00:00:13.380 --> 00:00:17.490
+texture, angle, length and many more.
+
+00:00:17.489 --> 00:00:20.339
+The question is, how to take our data and
+
+00:00:20.339 --> 00:00:24.719
+best display it to an audience using these elements.
+
+00:00:24.719 --> 00:00:27.570
+Researchers have studied how to best convey
+
+00:00:27.570 --> 00:00:31.530
+data so that an audience understands the message.
+
+00:00:31.530 --> 00:00:33.899
+Two of the most effective methods for showing
+
+00:00:33.899 --> 00:00:39.009
+quantitative data are the position along an axis, and length.
+
+00:00:39.009 --> 00:00:41.820
+Therefore, creating visualizations that are
+
+00:00:41.820 --> 00:00:45.475
+accurate in these encodings is really important.
+
+00:00:45.475 --> 00:00:50.300
+Additionally, humans are drawn strongly to contrast in color.
+
+00:00:50.299 --> 00:00:55.274
+So color should be reserved for drawing the eye of your audience to a key finding,
+
+00:00:55.274 --> 00:01:00.949
+and not for differing the bars of a bar chart with no message as shown here.
+
+00:01:00.950 --> 00:01:05.980
+These colors do nothing for providing context of the underlying data.
+
+00:01:05.980 --> 00:01:09.450
+Here, you can see an appropriate use of color for
+
+00:01:09.450 --> 00:01:13.695
+identifying the difference between different distributions of points.
+
+00:01:13.694 --> 00:01:18.464
+The color highlights the difference for the audience to quickly understand.
+
+00:01:18.465 --> 00:01:25.939
+Charts that have arching angles or compare based on areas can easily deceive us.
+
+00:01:25.939 --> 00:01:32.259
+You commonly see angles based on areas in a pie chart or pie type charts.
+
+00:01:32.260 --> 00:01:35.430
+You actually saw a chart that was deceiving in terms of area
+
+00:01:35.430 --> 00:01:38.935
+and angles in the introduction video of this lesson.
+
+00:01:38.935 --> 00:01:40.320
+In the next concepts,
+
+00:01:40.319 --> 00:01:44.009
+we will put these to practice and see what makes a good visual.
+

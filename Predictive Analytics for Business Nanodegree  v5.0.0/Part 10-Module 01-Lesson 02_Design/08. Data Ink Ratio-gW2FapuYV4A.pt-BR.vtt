@@ -1,0 +1,303 @@
+WEBVTT
+Kind: captions
+Language: pt-BR
+
+00:00:00.600 --> 00:00:02.050
+No exemplo anterior,
+
+00:00:02.084 --> 00:00:04.950
+vimos como melhorar
+nossas visualizações
+
+00:00:04.984 --> 00:00:07.450
+removendo
+elementos estranhos.
+
+00:00:07.484 --> 00:00:09.600
+Podemos conceitualizar
+essa relação
+
+00:00:09.634 --> 00:00:12.800
+usando algo chamado
+"razão dado/tinta".
+
+00:00:12.834 --> 00:00:17.400
+A razão dado/tinta foi definida
+em 1983 por Edward Tufte
+
+00:00:17.434 --> 00:00:20.350
+como a razão entre a tinta usada
+para descrever os dados
+
+00:00:20.384 --> 00:00:23.050
+e a tinta total
+da representação.
+
+00:00:23.084 --> 00:00:27.200
+No geral,
+quanto maior a razão, melhor.
+
+00:00:27.234 --> 00:00:30.200
+Isso significa que grande parte
+da tinta na representação
+
+00:00:30.234 --> 00:00:32.950
+foi empregada
+para descrever os dados em si.
+
+00:00:32.984 --> 00:00:36.650
+Já uma razão baixa
+significa que foi usada tinta
+
+00:00:36.684 --> 00:00:41.150
+para outros propósitos
+que não descrever os dados.
+
+00:00:41.184 --> 00:00:43.600
+Esses elementos
+devem ser removidos.
+
+00:00:43.634 --> 00:00:46.150
+Vamos ver um exemplo.
+
+00:00:46.184 --> 00:00:50.200
+Aqui temos dois gráficos
+que representam a mesma informação.
+
+00:00:50.234 --> 00:00:54.350
+À esquerda, temos a visualização
+de uma razão dado/tinta baixa.
+
+00:00:54.384 --> 00:00:57.850
+Perceba os elementos dispensáveis
+na visualização,
+
+00:00:57.884 --> 00:01:01.800
+incluindo o fundo azul,
+as linhas de grade nos dois sentidos
+
+00:01:01.834 --> 00:01:03.800
+e a borda preta.
+
+00:01:03.834 --> 00:01:06.300
+Grande parte da tinta
+nesta visualização
+
+00:01:06.334 --> 00:01:08.750
+não está ali
+descrevendo dados.
+
+00:01:08.784 --> 00:01:12.350
+À direita, temos uma visualização
+com os mesmíssimos dados,
+
+00:01:12.384 --> 00:01:14.800
+mas com uma razão alta.
+
+00:01:14.834 --> 00:01:16.800
+A representação à direita
+só usa tinta
+
+00:01:16.834 --> 00:01:20.750
+com o propósito de proporcionar
+a compreensão dos dados.
+
+00:01:20.784 --> 00:01:23.150
+Comparando
+as duas visualizações,
+
+00:01:23.184 --> 00:01:26.550
+a da direita não só é
+mais agradável de olhar,
+
+00:01:26.584 --> 00:01:30.400
+mas também é muito mais fácil
+de entender.
+
+00:01:30.434 --> 00:01:32.600
+Quando criamos
+visualizações de dados,
+
+00:01:32.634 --> 00:01:36.450
+sempre temos que almejar
+uma razão dado/tinta alta.
+
+00:01:36.484 --> 00:01:38.250
+Vejamos mais exemplos
+
+00:01:38.284 --> 00:01:42.300
+de como pegar uma visualização
+de baixa razão dado/tinta
+
+00:01:42.334 --> 00:01:44.150
+ou cheia
+de elementos extras
+
+00:01:44.184 --> 00:01:49.350
+e reduzi-la a algo simples
+e fácil de entender.
+
+00:01:49.384 --> 00:01:52.600
+Neste exemplo,
+pegaremos uma visualização
+
+00:01:52.634 --> 00:01:55.650
+e tentaremos melhorar
+a razão dado/tinta.
+
+00:01:55.684 --> 00:01:57.500
+Aqui temos um gráfico
+em barras
+
+00:01:57.534 --> 00:02:01.300
+representando as calorias
+de diversas comidas.
+
+00:02:01.334 --> 00:02:05.600
+Logo de cara notamos exemplos
+de técnicas ruins de visualização
+
+00:02:05.634 --> 00:02:07.700
+que discutimos antes,
+
+00:02:07.734 --> 00:02:10.800
+como o fundo poluído,
+a escolha infeliz de cores
+
+00:02:10.834 --> 00:02:13.000
+e a tridimensionalização.
+
+00:02:13.034 --> 00:02:14.800
+Vejamos, passo a passo,
+
+00:02:14.834 --> 00:02:17.550
+como simplificar
+essa visualização
+
+00:02:17.584 --> 00:02:21.450
+e aumentar
+a razão dado/tinta.
+
+00:02:21.484 --> 00:02:24.850
+Primeiro vamos remover
+a textura de madeira de fora
+
+00:02:24.884 --> 00:02:27.350
+e o fundo cinza de dentro,
+
+00:02:27.384 --> 00:02:29.900
+aumentando o contraste
+e a legibilidade.
+
+00:02:29.934 --> 00:02:32.350
+Também pode nos remover
+rótulos redundantes
+
+00:02:32.384 --> 00:02:35.150
+como esta legenda
+dos títulos.
+
+00:02:35.184 --> 00:02:37.900
+Essa informação está codificada
+em outro lugar.
+
+00:02:37.934 --> 00:02:39.850
+Agora, que removemos
+os fundos,
+
+00:02:39.884 --> 00:02:42.800
+as bordas espessas
+que separam os elementos
+
+00:02:42.834 --> 00:02:46.550
+não são mais necessárias.
+Vamos excluí-las também.
+
+00:02:46.584 --> 00:02:48.950
+Lembre-se da teoria da cor.
+
+00:02:48.984 --> 00:02:52.550
+Não devemos usar mais
+do que uma ou duas cores,
+
+00:02:52.584 --> 00:02:55.650
+a menos que elas transmitam
+alguma informação.
+
+00:02:55.684 --> 00:02:58.350
+As cores das barras
+não refletem diferença
+
+00:02:58.384 --> 00:03:00.050
+entre os diferentes alimentos.
+
+00:03:00.084 --> 00:03:02.450
+Então vamos remover
+essas cores também,
+
+00:03:02.484 --> 00:03:06.450
+exceto a do bacon,
+que queremos destacar.
+
+00:03:06.484 --> 00:03:10.600
+Ótimo. Já melhoramos muito
+a razão dado/tinta.
+
+00:03:10.634 --> 00:03:12.500
+Mas ainda dá para melhorar.
+
+00:03:12.534 --> 00:03:16.150
+Lembre que gráficos 3-D,
+incluindo degradês e sombras,
+
+00:03:16.184 --> 00:03:19.200
+podem ser enganosos.
+Então vamos achatar as barras
+
+00:03:19.234 --> 00:03:22.300
+e remover as sombras projetadas
+para deixar mais claro.
+
+00:03:22.334 --> 00:03:24.200
+Também podemos
+destacar os dados
+
+00:03:24.234 --> 00:03:27.600
+reduzindo a espessura
+dos rótulos e linhas de grade.
+
+00:03:27.634 --> 00:03:29.700
+Se quisermos ir
+ainda mais longe,
+
+00:03:29.734 --> 00:03:31.900
+podemos remover
+as linhas completamente
+
+00:03:31.934 --> 00:03:36.850
+e codificar o valor dos rótulos
+direto nas barras. Assim.
+
+00:03:36.884 --> 00:03:39.800
+Comparando as duas visualizações
+lado a lado,
+
+00:03:39.834 --> 00:03:44.100
+dá para ver facilmente o efeito
+da melhora na razão dado/tinta.
+
+00:03:44.134 --> 00:03:47.100
+A visualização
+com uma razão alta
+
+00:03:47.134 --> 00:03:50.000
+é muito mais clara
+e interpretável
+
+00:03:50.034 --> 00:03:51.900
+e tem todos
+os elementos característicos
+
+00:03:51.934 --> 00:03:53.950
+de uma ótima visualização.
+

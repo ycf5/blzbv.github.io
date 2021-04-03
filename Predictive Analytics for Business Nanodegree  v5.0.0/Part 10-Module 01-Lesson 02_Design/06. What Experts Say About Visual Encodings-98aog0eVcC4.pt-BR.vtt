@@ -1,0 +1,126 @@
+WEBVTT
+Kind: captions
+Language: pt-BR
+
+00:00:00.700 --> 00:00:05.100
+Codificações visuais são mapeamentos
+de dados para elementos gráficos.
+
+00:00:05.134 --> 00:00:09.750
+Elementos gráficos incluem
+posicionamento no eixo x ou y,
+
+00:00:09.784 --> 00:00:13.350
+o tamanho de pontos ou barras,
+o formato de pontos,
+
+00:00:13.384 --> 00:00:17.150
+textura, ângulo,
+comprimento e muito mais.
+
+00:00:17.184 --> 00:00:19.700
+A pergunta é:
+como pegar os dados
+
+00:00:19.734 --> 00:00:24.450
+e dispô-los da melhor forma
+usando esses elementos?
+
+00:00:24.484 --> 00:00:28.000
+Pesquisadores estudaram
+como transmitir bem os dados
+
+00:00:28.034 --> 00:00:31.350
+para o público
+entender a mensagem.
+
+00:00:31.384 --> 00:00:34.950
+Dois dos métodos mais efetivos
+para exibir dados quantitativos
+
+00:00:34.984 --> 00:00:38.800
+são a posição nos eixos
+e o comprimento.
+
+00:00:38.834 --> 00:00:43.450
+Portanto, criar visualizações
+precisas nessas codificações
+
+00:00:43.484 --> 00:00:45.450
+é muito importante.
+
+00:00:45.484 --> 00:00:48.200
+Além do mais,
+nossos olhos são atraídos
+
+00:00:48.234 --> 00:00:50.050
+por cores contrastantes.
+
+00:00:50.084 --> 00:00:53.600
+Então cores devem ser reservadas
+para atrair a atenção do seu público
+
+00:00:53.634 --> 00:00:55.250
+a uma descoberta importante,
+
+00:00:55.284 --> 00:00:58.150
+e não usadas para diferenciar barras
+de um gráfico
+
+00:00:58.184 --> 00:01:00.800
+sem o objetivo
+de transmitir mensagem alguma.
+
+00:01:00.834 --> 00:01:05.950
+Estas cores não dizem nada
+sobre o contexto dos dados.
+
+00:01:05.984 --> 00:01:09.050
+Aqui vemos
+um uso apropriado de cores
+
+00:01:09.084 --> 00:01:11.000
+na identificação da diferença
+
+00:01:11.034 --> 00:01:13.800
+entre distribuições distintas
+de pontos.
+
+00:01:13.834 --> 00:01:18.800
+A cor destaca a diferença
+para o público entender rápido.
+
+00:01:18.834 --> 00:01:23.550
+Gráficos com arcos angulados
+ou que dependem de área
+
+00:01:23.584 --> 00:01:25.750
+podem nos confundir
+facilmente.
+
+00:01:25.784 --> 00:01:27.550
+Normalmente vemos ângulos
+
+00:01:27.584 --> 00:01:30.150
+com base em áreas
+de um gráfico em pizza,
+
+00:01:30.184 --> 00:01:32.000
+ou "do tipo pizza".
+
+00:01:32.034 --> 00:01:35.950
+Você viu um gráfico enganoso
+em termos de área e ângulos
+
+00:01:35.984 --> 00:01:38.700
+no vídeo introdutório
+da aula.
+
+00:01:38.734 --> 00:01:42.000
+Nos próximos vídeos,
+colocaremos isso em prática
+
+00:01:42.034 --> 00:01:44.250
+e veremos o que torna
+uma representação boa.
+

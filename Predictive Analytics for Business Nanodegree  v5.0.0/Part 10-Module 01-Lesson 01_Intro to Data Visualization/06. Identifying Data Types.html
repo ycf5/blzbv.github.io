@@ -1,0 +1,441 @@
+<!-- udacity2.0 -->
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Identifying Data Types</title>
+  <link rel="stylesheet" href="../assets/css/bootstrap.min.css">
+  <link rel="stylesheet" href="../assets/css/plyr.css">
+  <link rel="stylesheet" href="../assets/css/katex.min.css">
+  <link rel="stylesheet" href="../assets/css/jquery.mCustomScrollbar.min.css">
+  <link rel="stylesheet" href="../assets/css/styles.css">
+  <link rel="shortcut icon" type="image/png" href="../assets/img/udacimak.png" />
+</head>
+
+<body>
+  <div class="wrapper">
+    <nav id="sidebar">
+  <div class="sidebar-header">
+    <h3>Intro to Data Visualization</h3>
+  </div>
+
+  <ul class="sidebar-list list-unstyled CTAs">
+    <li>
+      <a href="../index.html" class="article">Back to Home</a>
+    </li>
+  </ul>
+
+  <ul class="sidebar-list list-unstyled components">
+    <li class="">
+      <a href="01. Data Visualization Introduction.html">01. Data Visualization Introduction</a>
+    </li>
+    <li class="">
+      <a href="02. Why Do We Use Data Visualizations.html">02. Why Do We Use Data Visualizations?</a>
+    </li>
+    <li class="">
+      <a href="03. Motivation for Data Visualization.html">03. Motivation for Data Visualization</a>
+    </li>
+    <li class="">
+      <a href="04. Further Motivation.html">04. Further Motivation</a>
+    </li>
+    <li class="">
+      <a href="05. Data Types Review.html">05. Data Types Review</a>
+    </li>
+    <li class="">
+      <a href="06. Identifying Data Types.html">06. Identifying Data Types</a>
+    </li>
+    <li class="">
+      <a href="07. Univariate Plots.html">07. Univariate Plots</a>
+    </li>
+    <li class="">
+      <a href="08. Univariate Plots.html">08. Univariate Plots</a>
+    </li>
+    <li class="">
+      <a href="09. Scatter Plots.html">09. Scatter Plots</a>
+    </li>
+    <li class="">
+      <a href="10. Quizzes On Scatter Plots.html">10. Quizzes On Scatter Plots</a>
+    </li>
+    <li class="">
+      <a href="11. Correlation Coefficients.html">11. Correlation Coefficients</a>
+    </li>
+    <li class="">
+      <a href="12. Correlation Coefficient Quizzes.html">12. Correlation Coefficient Quizzes</a>
+    </li>
+    <li class="">
+      <a href="13. Line Plots.html">13. Line Plots</a>
+    </li>
+    <li class="">
+      <a href="14. What is the Question.html">14. What is the Question?</a>
+    </li>
+    <li class="">
+      <a href="15. What About with More Than Two Variables.html">15. What About with More Than Two Variables?</a>
+    </li>
+    <li class="">
+      <a href="16. Multiple Variables Quiz.html">16. Multiple Variables Quiz</a>
+    </li>
+    <li class="">
+      <a href="17. Why Data Dashboards.html">17. Why Data Dashboards</a>
+    </li>
+    <li class="">
+      <a href="18. Introduction to Data Dashboards.html">18. Introduction to Data Dashboards</a>
+    </li>
+    <li class="">
+      <a href="19. Quiz On Visual Encodings.html">19. Quiz On Visual Encodings</a>
+    </li>
+    <li class="">
+      <a href="20. Recap.html">20. Recap</a>
+    </li>
+    <li class="">
+      <a href="21. What&#x27;s Next.html">21. What&#x27;s Next?</a>
+    </li>
+  </ul>
+
+  <ul class="sidebar-list list-unstyled CTAs">
+    <li>
+      <a href="../index.html" class="article">Back to Home</a>
+    </li>
+  </ul>
+</nav>
+
+    <div id="content">
+      <header class="container-fluild header">
+        <div class="container">
+          <div class="row">
+            <div class="col-12">
+              <div class="align-items-middle">
+                <button type="button" id="sidebarCollapse" class="btn btn-toggle-sidebar">
+                  <div></div>
+                  <div></div>
+                  <div></div>
+                </button>
+
+                <h1 style="display: inline-block">06. Identifying Data Types</h1>
+              </div>
+            </div>
+          </div>
+        </div>
+      </header>
+
+      <main class="container">
+        <div class="row">
+          <div class="col-12">
+            <div class="ud-atom">
+  <h3></h3>
+  <div>
+  <h2 id="practice-identifying-data-types">Practice identifying data types</h2>
+<p>Try your hand at identifying datatypes below. The first exercise has you look at a simple table, while the second requires you to decipher a more complicated data visualization.</p>
+</div>
+
+</div>
+<div class="divider"></div><div class="ud-atom">
+  <h3><p>Data types</p></h3>
+  <div>
+  <p><strong>QUIZ QUESTION:</strong>: <h3 id="identify-correct-data-types--for-the-following-example-dataset">Identify correct data types  for the following example dataset:</h3>
+<p>|Survey|    Height (cm)|    Sex|    Scratches (cat)<br />
+|----|----|----|----|----|<br />
+|1|    173.57|     F|  1|<br />
+|5    |199.13     |M| 0|<br />
+|4|    186.41|     M|  1|<br />
+|2    |169.98     |F  |3|<br />
+|4|    164.39| F |2|<br />
+|3    |170.67     |M  |5|</p></p>
+  <p><strong>ANSWER CHOICES:</strong></p>
+  <button class="btn btn-primary"><p>Discrete</p></button>
+  <button class="btn btn-primary"><p>Continuous</p></button>
+  <button class="btn btn-primary"><p>Ordinal</p></button>
+  <button class="btn btn-primary"><p>Categorical</p></button>
+
+  <br><br>
+
+  <table class="table">
+    <tr class="thead-dark table-hover">
+      <th>
+        <p>Variable</p>
+      </th>
+      <th>
+        <p>Data Type</p>
+      </th>
+    </tr>
+
+    <tr>
+      <td><p>Height</p></td>
+      <td></td>
+    </tr>
+    <tr>
+      <td><p>Sex</p></td>
+      <td></td>
+    </tr>
+    <tr>
+      <td><p>Scratches</p></td>
+      <td></td>
+    </tr>
+  </table>
+
+  <details>
+    <summary><strong>SOLUTION:</strong></summary>
+
+    <table class="table">
+      <tr class="thead-dark table-hover">
+        <th>
+          <p>Variable</p>
+        </th>
+        <th>
+          <p>Data Type</p>
+        </th>
+      </tr>
+
+      <tr>
+        <td>
+          <p>Scratches</p>
+        </td>
+        <td>
+            <button class="btn btn-primary"><p>Discrete</p></button>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <p>Height</p>
+        </td>
+        <td>
+            <button class="btn btn-primary"><p>Continuous</p></button>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <p>Sex</p>
+        </td>
+        <td>
+            <button class="btn btn-primary"><p>Categorical</p></button>
+        </td>
+      </tr>
+    </table>
+  </details>
+</div>
+
+
+</div>
+<div class="divider"></div><div class="ud-atom">
+  <h3></h3>
+  <div>
+  <p>Now take a look at the visualization below, and complete the quiz below by identifying each of the data types. You can also find the graphic <a href="http://charliepark.org/images/slopegraphs/natgeo_scatter.jpg" rel="noopener noreferrer" target="_blank">HERE</a>.</p>
+</div>
+
+</div>
+<div class="divider"></div><div class="ud-atom">
+  <h3></h3>
+  <div>
+  <figure class="figure">
+    <img src="img/natgeo-scatter.jpg" alt="" class="img img-fluid">
+    <figcaption class="figure-caption">
+      
+    </figcaption>
+  </figure>
+</div>
+
+
+</div>
+<div class="divider"></div><div class="ud-atom">
+  <h3><p>Identify Data Types 2</p></h3>
+  <div>
+  <p><strong>QUIZ QUESTION:</strong>: <p>Correctly identify the data type for each variable.</p></p>
+  <p><strong>ANSWER CHOICES:</strong></p>
+  <button class="btn btn-primary"><p>Discrete</p></button>
+  <button class="btn btn-primary"><p>Continuous</p></button>
+  <button class="btn btn-primary"><p>Categorical</p></button>
+  <button class="btn btn-primary"><p>Continuous</p></button>
+  <button class="btn btn-primary"><p>Ordinal</p></button>
+
+  <br><br>
+
+  <table class="table">
+    <tr class="thead-dark table-hover">
+      <th>
+        <p>Variable</p>
+      </th>
+      <th>
+        <p>Data Type</p>
+      </th>
+    </tr>
+
+    <tr>
+      <td><p>Doctor Visits per Year</p></td>
+      <td></td>
+    </tr>
+    <tr>
+      <td><p>Life Expectancy</p></td>
+      <td></td>
+    </tr>
+    <tr>
+      <td><p>Spending per Person</p></td>
+      <td></td>
+    </tr>
+    <tr>
+      <td><p>Has Universal Healthcare</p></td>
+      <td></td>
+    </tr>
+  </table>
+
+  <details>
+    <summary><strong>SOLUTION:</strong></summary>
+
+    <table class="table">
+      <tr class="thead-dark table-hover">
+        <th>
+          <p>Variable</p>
+        </th>
+        <th>
+          <p>Data Type</p>
+        </th>
+      </tr>
+
+      <tr>
+        <td>
+          <p>Life Expectancy</p>
+        </td>
+        <td>
+            <button class="btn btn-primary"><p>Continuous</p></button>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <p>Spending per Person</p>
+        </td>
+        <td>
+            <button class="btn btn-primary"><p>Continuous</p></button>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <p>Has Universal Healthcare</p>
+        </td>
+        <td>
+            <button class="btn btn-primary"><p>Categorical</p></button>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <p>Life Expectancy</p>
+        </td>
+        <td>
+            <button class="btn btn-primary"><p>Continuous</p></button>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <p>Spending per Person</p>
+        </td>
+        <td>
+            <button class="btn btn-primary"><p>Continuous</p></button>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <p>Doctor Visits per Year</p>
+        </td>
+        <td>
+            <button class="btn btn-primary"><p>Ordinal</p></button>
+        </td>
+      </tr>
+    </table>
+  </details>
+</div>
+
+
+</div>
+<div class="divider"></div>
+          </div>
+
+          <div class="col-12">
+            <p class="text-right">
+              <a href="07. Univariate Plots.html" class="btn btn-outline-primary mt-4" role="button">Next Concept</a>
+            </p>
+          </div>
+        </div>
+      </main>
+
+      <footer class="footer">
+        <div class="container">
+          <div class="row">
+            <div class="col-12">
+              <p class="text-center">
+                <a href="https://us-udacity.github.io/" target="_blank">【udacity2.0 】If you need more courses, please add wechat：udacity6</a>
+              </p>
+            </div>
+          </div>
+        </div>
+      </footer>
+    </div>
+  </div>
+
+
+  <script src="../assets/js/jquery-3.3.1.min.js"></script>
+  <script src="../assets/js/plyr.polyfilled.min.js"></script>
+  <script src="../assets/js/bootstrap.min.js"></script>
+  <script src="../assets/js/jquery.mCustomScrollbar.concat.min.js"></script>
+  <script src="../assets/js/katex.min.js"></script>
+  <script>
+    // Initialize Plyr video players
+    const players = Array.from(document.querySelectorAll('video')).map(p => new Plyr(p));
+
+    // render math equations
+    let elMath = document.getElementsByClassName('mathquill');
+    for (let i = 0, len = elMath.length; i < len; i += 1) {
+      const el = elMath[i];
+
+      katex.render(el.textContent, el, {
+        throwOnError: false
+      });
+    }
+
+    // this hack will make sure Bootstrap tabs work when using Handlebars
+    if ($('#question-tabs').length && $('#user-answer-tabs').length) {
+      $("#question-tabs a.nav-link").on('click', function () {
+        $("#question-tab-contents .tab-pane").hide();
+        $($(this).attr("href")).show();
+      });
+      $("#user-answer-tabs a.nav-link").on('click', function () {
+        $("#user-answer-tab-contents .tab-pane").hide();
+        $($(this).attr("href")).show();
+      });
+    } else {
+      $("a.nav-link").on('click', function () {
+        $(".tab-pane").hide();
+        $($(this).attr("href")).show();
+      });
+    }
+
+    // side bar events
+    $(document).ready(function () {
+      $("#sidebar").mCustomScrollbar({
+        theme: "minimal"
+      });
+
+      $('#sidebarCollapse').on('click', function () {
+        $('#sidebar, #content').toggleClass('active');
+        $('.collapse.in').toggleClass('in');
+        $('a[aria-expanded=true]').attr('aria-expanded', 'false');
+      });
+
+      // scroll to first video on page loading
+      if ($('video').length) {
+        $('html,body').animate({ scrollTop: $('div.plyr').prev().offset().top});
+      }
+
+      // auto play first video: this may not work with chrome/safari due to autoplay policy
+      if (players && players.length > 0) {
+        players[0].play();
+      }
+
+      // scroll sidebar to current concept
+      const currentInSideBar = $( "ul.sidebar-list.components li a:contains('06. Identifying Data Types')" )
+      currentInSideBar.css( "text-decoration", "underline" );
+      $("#sidebar").mCustomScrollbar('scrollTo', currentInSideBar);
+    });
+  </script>
+</body>
+
+</html>

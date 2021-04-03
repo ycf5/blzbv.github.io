@@ -1,0 +1,86 @@
+WEBVTT
+Kind: captions
+Language: pt-BR
+
+00:00:00.234 --> 00:00:02.667
+Na última lição,
+você aprendeu princípios básicos
+
+00:00:02.701 --> 00:00:04.901
+sobre a representação gráfica
+de dados.
+
+00:00:04.934 --> 00:00:07.801
+Agora, você vai aprender
+a fazer o design das visualizações.
+
+00:00:07.834 --> 00:00:11.000
+Um design correto é essencial para
+transmitir informações aos outros.
+
+00:00:11.033 --> 00:00:14.334
+Veja isto.
+Ele está dizendo algo.
+
+00:00:14.367 --> 00:00:16.534
+O que as fatias indicam?
+Não sei.
+
+00:00:16.567 --> 00:00:19.000
+O tamanho das seções coloridas
+também não faz sentido.
+
+00:00:19.033 --> 00:00:21.901
+De alguma maneira,
+156 é igual a 292
+
+00:00:21.934 --> 00:00:24.701
+e quase do mesmo tamanho
+de 957.
+
+00:00:24.734 --> 00:00:28.868
+Para ler o texto, é preciso
+virar a cabeça. É estranho.
+
+00:00:28.901 --> 00:00:33.067
+Aqui, a Fox News estava indicando
+que os impostos quintuplicariam,
+
+00:00:33.100 --> 00:00:37.200
+mas eles só iam passar
+de 35% a 39%.
+
+00:00:37.234 --> 00:00:40.801
+Supomos que a base do gráfico é 0,
+mas aqui é 34%.
+
+00:00:40.834 --> 00:00:43.067
+Isso nos faz pensar
+que é uma grande mudança
+
+00:00:43.100 --> 00:00:44.734
+quando, na verdade,
+é muito pequena.
+
+00:00:44.767 --> 00:00:46.801
+Estes são exemplos
+de designs ruins.
+
+00:00:46.834 --> 00:00:49.634
+Nesta aula, vou mostrar
+como podemos evitar erros assim
+
+00:00:49.667 --> 00:00:51.633
+e, em vez disso, criar designs
+para as visualizações
+
+00:00:51.666 --> 00:00:54.334
+que sejam informativos,
+precisos e atraentes.
+
+00:00:54.367 --> 00:00:55.667
+*END*
+
+00:00:55.701 --> 00:00:56.968
+*CODE*
+

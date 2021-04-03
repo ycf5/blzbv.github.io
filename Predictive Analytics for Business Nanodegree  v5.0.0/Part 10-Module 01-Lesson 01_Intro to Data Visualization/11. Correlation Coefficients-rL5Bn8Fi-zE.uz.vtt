@@ -1,0 +1,78 @@
+WEBVTT
+Kind: captions
+Language: uz
+
+00:00:00.000 --> 00:00:04.740
+Korrelyatsiya koeffitsientlarini ko‘rib 
+chiqishda ba’zi amaliy qoidalar mavjud.
+
+00:00:04.740 --> 00:00:08.325
+Biroq, bu maydonga kuchli 
+bog‘liq bo‘lgan o‘lchov.
+
+00:00:08.325 --> 00:00:10.272
+Ijtimoiy fanlarda
+
+00:00:10.272 --> 00:00:15.070
+kuchli munosabatlarni topish juda qiyin 
+bo‘lishi mumkin, chunki odamlar murakkabdir.
+
+00:00:15.070 --> 00:00:17.640
+Shunday qilib, korrelyatsiya koeffitsienti uchun chegaralar
+
+00:00:17.640 --> 00:00:20.640
+bu soha uchun ancha farqli bo‘lishi mumkin,
+
+00:00:20.640 --> 00:00:23.530
+biz topadigan muhitli uyushmalar aytganga qaraganda.
+
+00:00:23.530 --> 00:00:26.995
+Shunday qilib, yana bir bor, bu amaliy qoidadir.
+
+00:00:26.995 --> 00:00:31.185
+Agar korrelyatsiya koeffitsienti 1 dan 0,7 gacha bo‘lsa,
+
+00:00:31.185 --> 00:00:34.260
+yoki -1 va -0.7 o‘rasida bo‘lsa,
+
+00:00:34.260 --> 00:00:37.200
+bu kuchli munosabatlar deb hisoblanadi.
+
+00:00:37.200 --> 00:00:40.380
+Agar u 0.7 va 0.3 oralig‘ida bo‘lsa,
+
+00:00:40.380 --> 00:00:42.680
+yoki -0.7 va -0.3 oralig‘ida bo‘lsa,
+
+00:00:42.680 --> 00:00:46.800
+bu o‘rtacha munosabatlar deb hisoblanadi.
+
+00:00:46.800 --> 00:00:49.153
+Agar korrelyatsiyaning mutlaq 
+qiymati 0.3 dan kichik bo‘lsa,
+
+00:00:49.153 --> 00:00:53.070
+bu holda bu zaif munosabatlar 
+deb hisoblanadi.
+
+00:00:53.070 --> 00:00:59.345
+Esingizda bo‘lsin, salbiy korrelyatsiya 
+koeffitsienti zaif aloqani ko‘rsatmaydi.
+
+00:00:59.345 --> 00:01:02.310
+Bundan tashqari, plot ham
+
+00:01:02.310 --> 00:01:06.190
+ikki o‘zgaruvchilar o‘rtasidagi munosabatlarni 
+yaxshiroq tushunishga yordam berishi mumkin.
+
+00:01:06.190 --> 00:01:10.065
+Biz Anscombe kvartetidan ikkita rasmni olaylik,
+
+00:01:10.065 --> 00:01:14.985
+ushbu ikki ma’lumotlar to‘plamlari bir xil 
+korrelyatsiya koeffitsientiga ega ekanligiga e’tibor bering.
+
+00:01:14.985 --> 00:01:18.000
+Biroq, ularning ko‘rinishi juda boshqacha.
+

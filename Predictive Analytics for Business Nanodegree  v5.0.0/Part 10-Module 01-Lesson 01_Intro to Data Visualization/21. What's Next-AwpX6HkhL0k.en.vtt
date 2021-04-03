@@ -1,0 +1,46 @@
+WEBVTT
+Kind: captions
+Language: en
+
+00:00:00.020 --> 00:00:03.600
+The different colors and sizes of each country in
+
+00:00:03.600 --> 00:00:07.095
+the previous example are what are known as Visual Encodings.
+
+00:00:07.094 --> 00:00:11.349
+Visual Encodings are the way we show our variables in a plot.
+
+00:00:11.349 --> 00:00:13.934
+There are a number of these encodings that exist,
+
+00:00:13.935 --> 00:00:17.440
+including which variables we put on x and y axis,
+
+00:00:17.440 --> 00:00:19.094
+should you use color,
+
+00:00:19.094 --> 00:00:22.500
+should you use bars or points or lines,
+
+00:00:22.500 --> 00:00:26.254
+should the points have different shapes or textures.
+
+00:00:26.254 --> 00:00:29.939
+Each of these is a design component for your visual and there are
+
+00:00:29.940 --> 00:00:32.520
+scientific studies that suggest how to
+
+00:00:32.520 --> 00:00:36.350
+encode your visuals to best communicate your findings.
+
+00:00:36.350 --> 00:00:39.825
+Now that we have a base set of plots to consider
+
+00:00:39.825 --> 00:00:42.270
+the next lesson will help you better
+
+00:00:42.270 --> 00:00:45.330
+understand the design components for your visualizations.
+

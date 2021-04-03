@@ -1,0 +1,127 @@
+WEBVTT
+Kind: captions
+Language: en
+
+00:00:00.000 --> 00:00:02.970
+Now that you've seen the use of color and visuals,
+
+00:00:02.970 --> 00:00:05.290
+let's look at a few additional encodings.
+
+00:00:05.290 --> 00:00:10.035
+Sometimes you'll need additional encodings to distinguish data in a visual.
+
+00:00:10.035 --> 00:00:15.109
+For these cases, you might want to use different encoding such as shape or size.
+
+00:00:15.109 --> 00:00:16.710
+In a scatter plot,
+
+00:00:16.710 --> 00:00:19.289
+we might change the size or shape of the markers.
+
+00:00:19.289 --> 00:00:23.280
+In this video, you will learn about some additional encodings.
+
+00:00:23.280 --> 00:00:25.170
+When you're making scatter plot,
+
+00:00:25.170 --> 00:00:27.135
+you're representing the data with dots,
+
+00:00:27.135 --> 00:00:28.665
+or maybe some other symbol.
+
+00:00:28.664 --> 00:00:34.774
+Here, we are comparing the average SAT scores for students at different universities.
+
+00:00:34.774 --> 00:00:38.609
+Each point is the information of a single university.
+
+00:00:38.609 --> 00:00:41.909
+Right now, the visual encoding of the data is oppositional,
+
+00:00:41.909 --> 00:00:44.564
+only using the x and y axes.
+
+00:00:44.564 --> 00:00:47.439
+If these are the only two columns we want to encode,
+
+00:00:47.439 --> 00:00:52.229
+I can't imagine a visual that paints the relationship in a more clear way.
+
+00:00:52.229 --> 00:00:54.299
+However, we could introduce
+
+00:00:54.299 --> 00:00:57.774
+additional encodings to show additional features in our dataset.
+
+00:00:57.774 --> 00:01:01.519
+Say whether the school is private or public.
+
+00:01:01.520 --> 00:01:03.705
+Now, imagine we also want to understand
+
+00:01:03.704 --> 00:01:07.060
+the student-faculty ratios associated with each school.
+
+00:01:07.060 --> 00:01:09.120
+We will need another encoding.
+
+00:01:09.120 --> 00:01:12.930
+Even though we get a lot of information from the marker size,
+
+00:01:12.930 --> 00:01:16.075
+it's not a very accurate representation.
+
+00:01:16.075 --> 00:01:19.590
+It can also be ambiguous as to how the size should be interpreted.
+
+00:01:19.590 --> 00:01:25.025
+Should the viewer be comparing the diameter of the marker or the area?
+
+00:01:25.025 --> 00:01:28.795
+Data can also be encoded using different shapes,
+
+00:01:28.795 --> 00:01:32.129
+but we don't encode quantitative data with shapes as we
+
+00:01:32.129 --> 00:01:36.299
+probably run out of the number of shapes to encode our values.
+
+00:01:36.299 --> 00:01:40.254
+You would instead need to change your data to a categorical ordinal variable,
+
+00:01:40.254 --> 00:01:44.804
+and encoding quantitative data with color can be confusing.
+
+00:01:44.805 --> 00:01:46.220
+Look at this example.
+
+00:01:46.219 --> 00:01:49.859
+The shapes are not as great as color for differentiating the schools,
+
+00:01:49.859 --> 00:01:55.829
+and the colors here are hardly an indicator of all the different student-faculty ratios.
+
+00:01:55.829 --> 00:02:00.780
+In general, color and shape are best used for categorical variables,
+
+00:02:00.780 --> 00:02:03.540
+while the size of the marker can assist in adding
+
+00:02:03.540 --> 00:02:07.470
+additional quantitative data as we demonstrated here.
+
+00:02:07.469 --> 00:02:10.979
+I personally try to avoid these types of encodings if possible.
+
+00:02:10.979 --> 00:02:14.219
+But sometimes these additional encodings are necessary.
+
+00:02:14.219 --> 00:02:16.229
+If you start to lose the message,
+
+00:02:16.229 --> 00:02:22.629
+consider breaking your visual into more visuals that each conveys its own direct message.
+

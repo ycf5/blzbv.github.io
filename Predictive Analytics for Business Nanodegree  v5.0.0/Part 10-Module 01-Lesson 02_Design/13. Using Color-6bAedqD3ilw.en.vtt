@@ -1,0 +1,166 @@
+WEBVTT
+Kind: captions
+Language: en
+
+00:00:00.000 --> 00:00:04.785
+Color is an important tool in designing visualizations.
+
+00:00:04.785 --> 00:00:09.355
+It allows you to encode another variable or split your data into groups.
+
+00:00:09.355 --> 00:00:11.460
+However, there are a lot of issues you need to
+
+00:00:11.460 --> 00:00:15.519
+consider when choosing which colors to use and how to apply them.
+
+00:00:15.519 --> 00:00:17.728
+As an example of the power of color,
+
+00:00:17.728 --> 00:00:22.440
+consider these two plots of GDP versus life expectancy.
+
+00:00:22.440 --> 00:00:25.500
+Look how much more information adding color provided.
+
+00:00:25.500 --> 00:00:30.629
+We got the idea that higher GDPs correlate with higher life expectancy, however,
+
+00:00:30.629 --> 00:00:35.960
+by adding color, the region of the countries belong to is now more apparent.
+
+00:00:35.960 --> 00:00:39.859
+We can see how the countries are distributed in the world in this plot.
+
+00:00:39.859 --> 00:00:44.269
+The low GDP countries are almost all in sub-saharan Africa.
+
+00:00:44.270 --> 00:00:45.803
+And on the high end,
+
+00:00:45.802 --> 00:00:48.084
+you see Europe and North America.
+
+00:00:48.085 --> 00:00:52.469
+The orange in between is the former Soviet states.
+
+00:00:52.469 --> 00:00:55.229
+Color is an important tool in visualizations,
+
+00:00:55.229 --> 00:00:59.640
+and it's important to use it appropriately to have the largest impact.
+
+00:00:59.640 --> 00:01:01.384
+Consider this bar chart.
+
+00:01:01.384 --> 00:01:04.590
+Overall, I would say that color distracts from the data.
+
+00:01:04.590 --> 00:01:08.715
+The colors shown don't appear to be chosen for any particular reason.
+
+00:01:08.715 --> 00:01:11.070
+In fact, they're are actually the default for
+
+00:01:11.069 --> 00:01:14.759
+the software in which this plot was built, rainbow colors.
+
+00:01:14.760 --> 00:01:18.510
+These colors are also quite bright which strains the eyes.
+
+00:01:18.510 --> 00:01:24.795
+Above all, each color doesn't actually convey any additional information about the data.
+
+00:01:24.795 --> 00:01:27.480
+The labels on the left side of the bar plot are enough to
+
+00:01:27.480 --> 00:01:31.350
+indicate which bar belongs to which type of diamonds cut.
+
+00:01:31.349 --> 00:01:34.199
+This actually makes the use of color redundant since
+
+00:01:34.200 --> 00:01:38.520
+both the labels and the color are indicating the cut type.
+
+00:01:38.519 --> 00:01:42.689
+You might also have noticed that the legend at the right is unnecessary.
+
+00:01:42.689 --> 00:01:47.189
+We could simply design this visualization with the labels at the left of the graph,
+
+00:01:47.189 --> 00:01:48.899
+decreasing the amount of time
+
+00:01:48.900 --> 00:01:53.530
+the reader's eye jump between the legend and the main data display.
+
+00:01:53.530 --> 00:01:57.349
+Here are my three main tips for using color and plot.
+
+00:01:57.349 --> 00:02:00.824
+My first piece of advice comes from the design field.
+
+00:02:00.825 --> 00:02:02.370
+Get it right in black and white.
+
+00:02:02.370 --> 00:02:05.704
+Before you begin adding color to your data visualization,
+
+00:02:05.703 --> 00:02:08.843
+you should determine if you need color in the first place.
+
+00:02:08.843 --> 00:02:11.310
+Many times, black, white and shades of
+
+00:02:11.310 --> 00:02:15.800
+grey will be enough to effectively convey your information.
+
+00:02:15.800 --> 00:02:18.375
+Secondly, if you are going to use color,
+
+00:02:18.375 --> 00:02:24.090
+consider using less intense colors such as natural colors or pastels.
+
+00:02:24.090 --> 00:02:28.496
+You can also add some gray value to bright colors to make them less vibrant.
+
+00:02:28.496 --> 00:02:30.780
+Colors with higher gray values have
+
+00:02:30.780 --> 00:02:35.610
+a softer feel and the eye can concentrate on them for longer periods of time.
+
+00:02:35.610 --> 00:02:38.220
+Rainbow colors, primary colors and
+
+00:02:38.219 --> 00:02:43.504
+other bright bold colors create noisy visualizations that strain the eye.
+
+00:02:43.504 --> 00:02:48.409
+My final tip is to make color selections that facilitate communication.
+
+00:02:48.409 --> 00:02:51.509
+In this example, I used a complimentary color to
+
+00:02:51.509 --> 00:02:55.149
+draw attention to the count of ideal cut diamonds.
+
+00:02:55.150 --> 00:02:57.480
+You could use a similar strategy if you
+
+00:02:57.479 --> 00:03:00.354
+want to highlight particular data points in a graphic.
+
+00:03:00.354 --> 00:03:01.500
+Perhaps you've come across
+
+00:03:01.500 --> 00:03:05.729
+some good and not so good examples of color use in visualizations.
+
+00:03:05.729 --> 00:03:10.454
+Color can be a tricky component of a visualization but can also encode data,
+
+00:03:10.455 --> 00:03:15.000
+lead the eye, and help viewers see the most important information of a graphic.
+

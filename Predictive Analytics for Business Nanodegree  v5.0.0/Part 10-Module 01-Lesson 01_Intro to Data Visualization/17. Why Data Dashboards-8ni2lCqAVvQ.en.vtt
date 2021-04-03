@@ -1,0 +1,43 @@
+WEBVTT
+Kind: captions
+Language: en
+
+00:00:00.000 --> 00:00:05.294
+Sometimes a single plot cannot convey all the information in a data set.
+
+00:00:05.294 --> 00:00:08.400
+Say we want to compare price to sales,
+
+00:00:08.400 --> 00:00:10.824
+by location and by product.
+
+00:00:10.824 --> 00:00:15.559
+And then additionally we want to see how these changes happen over time.
+
+00:00:15.560 --> 00:00:17.910
+You can imagine that having all this information
+
+00:00:17.910 --> 00:00:20.804
+together would be really helpful for a company.
+
+00:00:20.804 --> 00:00:23.535
+But if we try to put it into a single plot,
+
+00:00:23.535 --> 00:00:27.480
+it gets to the point where you won't find any insights at all.
+
+00:00:27.480 --> 00:00:29.925
+This is where data dashboards come into play.
+
+00:00:29.925 --> 00:00:33.149
+Dashboards allow you to interact with your data,
+
+00:00:33.149 --> 00:00:37.994
+and view multiple aspects of your data all in the same visual environment.
+
+00:00:37.994 --> 00:00:39.629
+In the next concept,
+
+00:00:39.630 --> 00:00:44.700
+you will see an example of a dashboard by Hans Rosling that really comes alive.
+
