@@ -1,0 +1,293 @@
+WEBVTT
+Kind: captions
+Language: pt-BR
+
+00:00:00.267 --> 00:00:02.367
+Dois preços de tratamento
+foram testados:
+
+00:00:02.400 --> 00:00:05.367
+$ 87,99 e $ 76,99,
+
+00:00:05.400 --> 00:00:08.167
+além do preço de controle
+de $ 98,99.
+
+00:00:08.200 --> 00:00:11.700
+Por termos feito dois testes,
+vamos analisar cada preço.
+
+00:00:11.733 --> 00:00:14.433
+O resultado de cada um
+vai ser comparado com o outro,
+
+00:00:14.467 --> 00:00:16.700
+e vamos nos concentrar
+na margem de lucro bruta.
+
+00:00:16.733 --> 00:00:20.133
+Vamos usar os dois conjuntos
+de dados que criamos antes:
+
+00:00:20.167 --> 00:00:22.200
+os dados sobre pares
+de controle e tratamento
+
+00:00:22.233 --> 00:00:24.167
+serão usados para nos dar
+os dados de identificação,
+
+00:00:24.200 --> 00:00:27.200
+que dizem que lojas
+eram de controle ou tratamento,
+
+00:00:27.233 --> 00:00:29.300
+e os dados da análise
+das vendas das lojas
+
+00:00:29.333 --> 00:00:31.267
+serão usados para fornecer
+dados de desempenho
+
+00:00:31.300 --> 00:00:34.133
+associados às lojas
+de controle e tratamento.
+
+00:00:34.167 --> 00:00:36.933
+Usando ferramentas "Input Data",
+vamos trazer os dois arquivos
+
+00:00:36.967 --> 00:00:39.533
+para um novo workflow
+do Alteryx.
+
+00:00:42.300 --> 00:00:47.600
+Como conduzimos dois testes,
+um com 87,99 e outro com 76,99,
+
+00:00:47.633 --> 00:00:50.267
+temos que separar os dados
+"Control-Treatment_pairs"
+
+00:00:50.300 --> 00:00:53.033
+em dois fluxos -
+um para cada teste.
+
+00:00:53.067 --> 00:00:56.133
+Vamos arrastar
+uma ferramenta "Filter" para a tela
+
+00:00:56.167 --> 00:01:00.667
+e vamos usar um filtro básico
+"Test_Group Equals 87,99".
+
+00:01:00.700 --> 00:01:03.100
+Isso fará com que o output "T"
+nos dê os dados
+
+00:01:03.133 --> 00:01:05.067
+do teste com o valor 87,99
+
+00:01:05.100 --> 00:01:09.500
+e o output "F" nos dê os dados
+do teste com o valor 76,99.
+
+00:01:09.533 --> 00:01:13.100
+Agora vamos trazer uma ferramenta
+"AB Analysis" para a tela.
+
+00:01:13.133 --> 00:01:15.567
+A ferramenta "AB Analysis"
+vai nos dar relatórios
+
+00:01:15.600 --> 00:01:17.800
+que vão detalhar como
+as unidades de tratamento se saíram
+
+00:01:17.833 --> 00:01:20.300
+quando comparadas
+com as unidades de controle.
+
+00:01:20.333 --> 00:01:23.167
+Primeiro, conecte o output "T"
+da ferramenta "Filter"
+
+00:01:23.200 --> 00:01:26.467
+aos inputs "C" e "T"
+da ferramenta "AB Analysis".
+
+00:01:26.500 --> 00:01:29.133
+O input "C"
+é o input de controle,
+
+00:01:29.167 --> 00:01:32.100
+que dá à ferramenta "AB Analysis"
+um identificador singular
+
+00:01:32.133 --> 00:01:37.033
+para cada unidade de controle.
+O input "T" é o de tratamento,
+
+00:01:37.067 --> 00:01:39.800
+que mostra um identificador
+para os inputs de tratamento.
+
+00:01:39.833 --> 00:01:44.000
+O input "T" dá um identificador
+para as unidades de tratamento.
+
+00:01:44.033 --> 00:01:46.733
+Como todos os dados das lojas
+de tratamento e controle
+
+00:01:46.767 --> 00:01:49.333
+estão no fluxo de dados,
+podemos conectar o output filtrado
+
+00:01:49.367 --> 00:01:51.933
+a ambos os inputs "C" e "T".
+
+00:01:51.967 --> 00:01:55.000
+Primeiro, vamos configurar
+a análise do valor 87,99
+
+00:01:55.033 --> 00:01:58.233
+e vamos repetir os passos
+para o grupo 76,99.
+
+00:01:58.267 --> 00:02:01.367
+Vamos conectar
+os dados de vendas ao input "P".
+
+00:02:01.733 --> 00:02:05.400
+O input "P" dá à ferramenta "AB
+Analysis" dados sobre o desempenho
+
+00:02:05.433 --> 00:02:08.100
+associados às unidades
+de controle e tratamento.
+
+00:02:08.133 --> 00:02:10.867
+Vamos configurar
+a ferramenta "AB Analysis".
+
+00:02:10.900 --> 00:02:13.633
+Na seção "Controls",
+selecione o campo "Controls"
+
+00:02:13.667 --> 00:02:15.500
+como "control unit identifier"
+
+00:02:15.533 --> 00:02:19.400
+e o campo "Treatments" para
+o "treatment unit mapping field".
+
+00:02:19.667 --> 00:02:22.400
+Na seção "Treatment",
+selecione o campo "Treatment"
+
+00:02:22.433 --> 00:02:25.133
+como "treatment unit identifier".
+
+00:02:25.167 --> 00:02:30.167
+Na seção "Performance Data", vamos
+usar "Store" como "unit identifier",
+
+00:02:30.200 --> 00:02:32.467
+"Week_end" como
+"reporting period date"
+
+00:02:32.500 --> 00:02:35.333
+e "Gross_margin"
+como "performance measure".
+
+00:02:35.367 --> 00:02:39.600
+Na aba "Test Dates",
+temos que pôr as datas do teste.
+
+00:02:39.633 --> 00:02:42.433
+Note que essas datas
+são as datas do experimento,
+
+00:02:42.467 --> 00:02:44.733
+e não as datas
+dos dados que temos.
+
+00:02:44.767 --> 00:02:48.033
+Como fizemos o teste
+de 20 de março de 2014
+
+00:02:48.067 --> 00:02:52.633
+até 28 de maio de 2014,
+vamos colocar estas datas aqui.
+
+00:02:55.000 --> 00:02:57.233
+A aba "Additional Information"
+pode ser usada
+
+00:02:57.267 --> 00:02:59.367
+para adicionar informações
+no relatório final.
+
+00:02:59.400 --> 00:03:02.067
+Mas vamos deixá-la em branco
+neste exemplo.
+
+00:03:02.100 --> 00:03:04.500
+Da mesma maneira,
+a aba "Graphics Options"
+
+00:03:04.533 --> 00:03:08.067
+é usada para ajustar o relatório
+e salvá-lo automaticamente.
+
+00:03:08.100 --> 00:03:10.567
+Mas vou deixar você
+explorar estas opções.
+
+00:03:10.900 --> 00:03:14.000
+Depois de repetir os passos
+para o teste 76,99,
+
+00:03:14.033 --> 00:03:15.933
+vamos adicionar um "Browse"
+ao output "I"
+
+00:03:15.967 --> 00:03:18.433
+de ambas as ferramentas
+"AB Analysis".
+
+00:03:18.933 --> 00:03:22.800
+O output "I" produz um painel
+de indicadores interativos em .html
+
+00:03:22.833 --> 00:03:25.433
+dos resultados do teste.
+Também vamos adicionar um "Browse"
+
+00:03:25.467 --> 00:03:28.667
+ao output "O" de ambas
+as ferramentas "AB Analysis".
+
+00:03:29.600 --> 00:03:32.700
+O output "O" produz um resumo
+textual dos resultados do teste,
+
+00:03:32.733 --> 00:03:34.233
+um resumo básico
+das estatísticas
+
+00:03:34.267 --> 00:03:37.200
+e algumas visualizações
+relacionadas aos resultados.
+
+00:03:37.233 --> 00:03:41.667
+Agora ative o workflow para produzir
+os relatórios textual e .html.
+
+00:03:41.700 --> 00:03:45.000
+*END*
+
+00:03:45.033 --> 00:03:46.133
+*CODE*
+

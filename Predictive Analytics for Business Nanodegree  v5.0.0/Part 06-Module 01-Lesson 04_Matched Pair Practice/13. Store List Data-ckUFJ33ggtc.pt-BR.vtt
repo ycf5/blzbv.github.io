@@ -1,0 +1,211 @@
+WEBVTT
+Kind: captions
+Language: pt-BR
+
+00:00:00.200 --> 00:00:03.167
+Continuando o mesmo workflow,
+vamos adicionar um "Filter"
+
+00:00:03.200 --> 00:00:06.601
+para remover as transações
+que não incluem limpeza de pele.
+
+00:00:06.634 --> 00:00:08.467
+Mais cedo, usando
+a ferramenta "Summarize",
+
+00:00:08.501 --> 00:00:10.367
+criamos um campo
+chamado "FacialFlag"
+
+00:00:10.400 --> 00:00:13.299
+que indica "1" para transações
+que incluíram uma limpeza de pele
+
+00:00:13.332 --> 00:00:16.234
+e "0" para as transações
+que não incluíam.
+
+00:00:16.267 --> 00:00:19.000
+Podemos ligar a ferramenta "Filter"
+ao output de "Summarize"
+
+00:00:19.033 --> 00:00:22.167
+e usar um filtro básico
+"FacialFlag Equals 1"
+
+00:00:22.200 --> 00:00:24.167
+para obter os dados
+que queremos.
+
+00:00:24.200 --> 00:00:26.634
+Podemos gerar
+uma lista única de lojas
+
+00:00:26.667 --> 00:00:28.701
+se usarmos a ferramenta
+"Summarize" de novo.
+
+00:00:28.734 --> 00:00:30.767
+Trazendo uma ferramenta
+"Summarize" para a tela
+
+00:00:30.801 --> 00:00:32.600
+podemos agrupar os dados
+por "Region" e "Store"
+
+00:00:32.633 --> 00:00:36.067
+para obter uma lista de lojas
+em cada região.
+
+00:00:36.100 --> 00:00:38.067
+Também gostaríamos
+que a lista incluísse
+
+00:00:38.100 --> 00:00:40.667
+se a loja era de tratamento.
+
+00:00:40.701 --> 00:00:44.601
+Essa informação está contida
+no arquivo "Treatments_Stores".
+
+00:00:44.634 --> 00:00:48.200
+Usando a ferramenta "Input Data",
+podemos importar os dados.
+
+00:00:48.234 --> 00:00:50.767
+Só precisamos das informações
+da loja e do grupo do teste.
+
+00:00:50.801 --> 00:00:53.433
+Use a ferramenta "Select" para
+retirar a seleção de "Price Level"
+
+00:00:53.466 --> 00:00:56.567
+e trocar o nome de "Test Price
+Level" para "Test_Group".
+
+00:00:56.601 --> 00:00:58.834
+Usando uma ferramenta "Join",
+podemos acrescentar
+
+00:00:58.868 --> 00:01:01.499
+os dados das lojas de tratamento
+para o fluxo principal de dados.
+
+00:01:01.532 --> 00:01:04.167
+Pôr uma ferramenta "Join"
+na tela vai juntar os dados
+
+00:01:04.200 --> 00:01:07.334
+com base no campo "Store", e vamos
+desselecionar o campo à direita
+
+00:01:07.367 --> 00:01:09.934
+porque não precisamos
+dos dados das lojas duas vezes.
+
+00:01:09.968 --> 00:01:11.734
+Como vamos juntar dados
+das lojas de tratamento
+
+00:01:11.767 --> 00:01:14.501
+com dados de todas as lojas,
+a ferramenta "Join" vai gerar
+
+00:01:14.534 --> 00:01:17.000
+dois fluxos de dados
+em que estamos interessados.
+
+00:01:17.033 --> 00:01:20.567
+O output "L" vão ser
+as lojas candidatas a controle
+
+00:01:20.601 --> 00:01:24.133
+e o output "J" vão ser
+as lojas de tratamento.
+
+00:01:24.167 --> 00:01:26.167
+Se observarmos os outputs
+"L" e "J',
+
+00:01:26.200 --> 00:01:29.534
+vemos que falta ao output "L"
+o campo "Test_Group".
+
+00:01:29.567 --> 00:01:31.834
+Podemos usar uma ferramenta
+"Formula" para adicionar um campo
+
+00:01:31.868 --> 00:01:34.734
+para identificar as lojas
+candidatas a controle.
+
+00:01:34.767 --> 00:01:37.467
+Adicione
+uma ferramenta "Formula" à tela
+
+00:01:37.501 --> 00:01:40.267
+ligada ao output "L"
+da ferramenta "Join"
+
+00:01:40.300 --> 00:01:42.467
+e crie um novo campo
+com o mesmo nome e tipo
+
+00:01:42.501 --> 00:01:45.334
+que o campo "Test_Group"
+do output "J".
+
+00:01:45.367 --> 00:01:48.300
+Na expressão, digite 'CC'.
+
+00:01:48.334 --> 00:01:51.000
+Isso vai adicionar o campo
+"Test_Group" aos dados
+
+00:01:51.033 --> 00:01:54.067
+com o valor de "CC"
+para todas as lojas de controle.
+
+00:01:54.100 --> 00:01:56.601
+A seguir, vamos combinar
+as duas tabelas.
+
+00:01:56.634 --> 00:01:58.434
+Como ambas as tabelas
+têm os mesmos campos,
+
+00:01:58.467 --> 00:02:01.834
+podemos combinar os dados
+usando a ferramenta "Union".
+
+00:02:01.868 --> 00:02:04.400
+Conecte os dois fluxos
+à ferramenta "Union".
+
+00:02:04.434 --> 00:02:06.200
+Agora temos o conjunto de dados
+que queríamos:
+
+00:02:06.234 --> 00:02:08.367
+uma lista de lojas com a região
+e o grupo do teste
+
+00:02:08.400 --> 00:02:10.400
+associados a cada loja.
+
+00:02:10.434 --> 00:02:13.200
+Vamos salvar os dados usando
+uma ferramenta "Output Data"
+
+00:02:13.234 --> 00:02:17.366
+para usar mais tarde. Vamos
+salvá-lo como "Store_list.yxdb".
+
+00:02:17.399 --> 00:02:18.567
+*END*
+
+00:02:18.601 --> 00:02:19.901
+*CODE*
+

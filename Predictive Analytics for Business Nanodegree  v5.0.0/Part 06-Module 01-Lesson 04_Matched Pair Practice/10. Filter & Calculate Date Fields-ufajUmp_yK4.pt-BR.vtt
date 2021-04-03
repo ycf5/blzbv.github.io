@@ -1,0 +1,220 @@
+WEBVTT
+Kind: captions
+Language: pt-BR
+
+00:00:00.200 --> 00:00:03.367
+Primeiro, vamos importar os dados
+do arquivo "POS_Transaction"
+
+00:00:03.400 --> 00:00:05.801
+para o Alteryx, usando
+a ferramenta "Input Data".
+
+00:00:05.834 --> 00:00:08.767
+A seguir, vamos adicionar
+uma ferramenta "Select"
+
+00:00:08.801 --> 00:00:12.667
+para mudar o tipo de dado do campo
+"Invoice_Date" para "Date/Time",
+
+00:00:12.701 --> 00:00:16.567
+mudar o número de casas decimais
+nos campos "Gross_margin" e "Sales"
+
+00:00:16.601 --> 00:00:18.334
+e remover
+campos desnecessários
+
+00:00:18.367 --> 00:00:20.634
+para ajudar a acelerar
+o tempo de análise do workflow.
+
+00:00:20.667 --> 00:00:22.167
+Só estamos interessados
+em transações
+
+00:00:22.200 --> 00:00:24.601
+de 7 de fevereiro de 2013
+
+00:00:24.634 --> 00:00:26.868
+a 28 de maio de 2014.
+
+00:00:26.901 --> 00:00:29.133
+Mas o arquivo
+"POS_Transaction"
+
+00:00:29.167 --> 00:00:32.572
+inclui transações
+de outras datas.
+
+00:00:33.100 --> 00:00:36.734
+Vamos usar um "Filter" para remover
+os dados desnecessários.
+
+00:00:36.767 --> 00:00:39.400
+Além disso, como vamos
+emparelhar por região,
+
+00:00:39.433 --> 00:00:41.934
+podemos aproveitar
+para retirar os dados
+
+00:00:41.968 --> 00:00:43.934
+em que o campo "Region"
+está vazio.
+
+00:00:43.968 --> 00:00:46.434
+Para nos ajudar a somar
+dados transacionais
+
+00:00:46.467 --> 00:00:48.200
+de cada loja por semana,
+
+00:00:48.234 --> 00:00:51.601
+vamos criar os campos com um número
+da semana, a data de início dela,
+
+00:00:51.634 --> 00:00:55.934
+a data de final dela
+e também uma marcação,
+
+00:00:55.968 --> 00:00:58.033
+que será usada
+para identificar transações
+
+00:00:58.067 --> 00:01:00.067
+que incluíam
+uma limpeza de pele.
+
+00:01:00.100 --> 00:01:03.434
+Vamos usar uma ferramenta "Formula"
+para criar estes 4 campos.
+
+00:01:03.467 --> 00:01:06.767
+Primeiro, vamos criar
+o campo com o número da semana.
+
+00:01:06.801 --> 00:01:10.100
+Esta fórmula calcula
+a diferença de dias
+
+00:01:10.133 --> 00:01:13.467
+entre a data do invoice
+e a 1ª data que vamos usar,
+
+00:01:13.501 --> 00:01:15.968
+que é 7 de fevereiro de 2013.
+
+00:01:16.000 --> 00:01:18.200
+Então vamos dividir
+o número de dias por 7
+
+00:01:18.234 --> 00:01:20.200
+para obter
+o número de semanas.
+
+00:01:20.234 --> 00:01:24.100
+Se o número não for divisível
+por 7, teremos um resto.
+
+00:01:24.133 --> 00:01:25.834
+Por isso, vamos usar
+a função "FLOOR"
+
+00:01:25.868 --> 00:01:27.667
+para isolar o coeficiente.
+
+00:01:27.701 --> 00:01:31.467
+Por exemplo, se a data do invoice
+for 15 dias após a data de início,
+
+00:01:31.501 --> 00:01:33.400
+ele deve estar na semana 3,
+
+00:01:33.434 --> 00:01:36.868
+então 15/7 = 2,14.
+
+00:01:36.901 --> 00:01:40.200
+Adicionamos 1,
+já que a 1ª semana é a semana 1.
+
+00:01:40.234 --> 00:01:42.200
+Se tirarmos o "FLOOR" de 3,14,
+
+00:01:42.234 --> 00:01:45.734
+temos a resposta "3",
+que é a que procuramos.
+
+00:01:47.367 --> 00:01:50.234
+A seguir, podemos calcular
+a data de início de cada semana
+
+00:01:50.267 --> 00:01:51.801
+com uma fórmula simples.
+
+00:01:51.834 --> 00:01:54.400
+Subtraímos "1"
+do número da semana
+
+00:01:54.434 --> 00:01:58.067
+e multiplicamos o resultado por 7
+para obter a que número de dias
+
+00:01:58.100 --> 00:02:00.934
+da data inicial do experimento
+cada semana começa.
+
+00:02:00.968 --> 00:02:02.801
+Depois somamos
+esse número de dias
+
+00:02:02.834 --> 00:02:04.968
+para obter a data de início
+da semana.
+
+00:02:05.601 --> 00:02:09.801
+Por fim, calculamos a data do fim
+da semana com uma fórmula parecida.
+
+00:02:09.834 --> 00:02:12.801
+Adicionamos 6 dias
+a cada "Week_Start".
+
+00:02:13.901 --> 00:02:15.934
+Também queremos marcar
+uma coluna de dados
+
+00:02:15.968 --> 00:02:19.167
+se a transação presente nela
+contiver uma limpeza de pele.
+
+00:02:19.200 --> 00:02:22.501
+Podemos usar uma equação
+condicional simples para isto.
+
+00:02:22.734 --> 00:02:27.601
+"If ([SKU_category]='Facial',
+1, null())".
+
+00:02:27.634 --> 00:02:31.400
+Essa equação vai marcar
+as limpezas de pele com um "1".
+
+00:02:32.133 --> 00:02:34.701
+Agora temos os dados das datas
+e o subconjunto de dados,
+
+00:02:34.734 --> 00:02:37.968
+que podemos usar para gerar as 3
+tabelas de dados de que precisamos.
+
+00:02:38.001 --> 00:02:39.099
+Vamos continuar.
+
+00:02:39.132 --> 00:02:40.334
+*END*
+
+00:02:40.367 --> 00:02:41.667
+*CODE*
+

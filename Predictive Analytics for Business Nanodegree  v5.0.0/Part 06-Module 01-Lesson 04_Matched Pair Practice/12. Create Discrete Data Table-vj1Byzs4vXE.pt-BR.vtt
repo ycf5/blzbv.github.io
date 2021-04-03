@@ -1,0 +1,63 @@
+WEBVTT
+Kind: captions
+Language: pt-BR
+
+00:00:00.334 --> 00:00:03.170
+Lembra-se de que, na aula 1,
+aprendemos que teste A/B
+
+00:00:03.203 --> 00:00:06.640
+é um tipo de experimento
+com duas variantes, A e B,
+
+00:00:06.673 --> 00:00:08.976
+que são os grupos de controle
+e tratamento?
+
+00:00:09.009 --> 00:00:12.145
+No entanto, neste experimento,
+temos três variantes.
+
+00:00:12.179 --> 00:00:15.182
+As lojas de controle e as lojas
+que oferecem limpeza de pele
+
+00:00:15.215 --> 00:00:19.786
+a $ 76,99 e $ 87,99.
+
+00:00:19.820 --> 00:00:24.124
+Além disso, as lojas estão
+espalhadas por 3 regiões.
+
+00:00:24.157 --> 00:00:27.294
+Para emparelhar corretamente as
+unidades de controle e tratamento,
+
+00:00:27.327 --> 00:00:32.001
+teremos que separar os dados
+para realizar duas análises A/B,
+
+00:00:32.465 --> 00:00:34.306
+uma para cada preço.
+
+00:00:34.834 --> 00:00:37.371
+Logo, temos que criar
+uma tabela de dados
+
+00:00:37.404 --> 00:00:39.973
+que mostre as lojas, a região,
+
+00:00:40.007 --> 00:00:43.677
+o grupo em que a loja estava -
+controle ou tratamento -
+
+00:00:43.710 --> 00:00:46.612
+e, se for de tratamento,
+qual era o preço da limpeza de pele.
+
+00:00:46.645 --> 00:00:47.814
+*END*
+
+00:00:47.848 --> 00:00:49.116
+*CODE*
+

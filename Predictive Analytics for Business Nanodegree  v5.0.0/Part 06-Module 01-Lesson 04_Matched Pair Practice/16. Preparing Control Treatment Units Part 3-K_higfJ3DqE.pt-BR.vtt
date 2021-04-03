@@ -1,0 +1,105 @@
+WEBVTT
+Kind: captions
+Language: pt-BR
+
+00:00:00.434 --> 00:00:02.801
+Agora vamos combinar os dados
+de todas as regiões
+
+00:00:02.834 --> 00:00:04.467
+usando a ferramenta "Union".
+
+00:00:04.501 --> 00:00:06.467
+Como todos os fluxos de dados
+são iguais,
+
+00:00:06.501 --> 00:00:09.434
+não é preciso configurar
+a ferramenta "Union".
+
+00:00:09.467 --> 00:00:12.304
+Vamos ativar o workflow
+e dar uma olhada no output.
+
+00:00:15.868 --> 00:00:17.767
+Se olharmos o output
+da ferramenta "Union",
+
+00:00:17.801 --> 00:00:20.934
+podemos ver que temos
+os pares controle-tratamento.
+
+00:00:20.968 --> 00:00:23.934
+No entanto, temos que adicionar
+os atributos da loja
+
+00:00:23.968 --> 00:00:27.734
+dos dados de informações das lojas
+para realizar a análise.
+
+00:00:27.767 --> 00:00:30.534
+Então vamos arrastar
+uma ferramenta "Join" para a tela
+
+00:00:30.567 --> 00:00:32.234
+e juntar o output
+da ferramenta "Union"
+
+00:00:32.267 --> 00:00:34.767
+com o fluxo de dados
+"Store_List".
+
+00:00:34.801 --> 00:00:38.367
+Vamos juntar o campo "Treatment"
+da ferramenta "Union"
+
+00:00:38.400 --> 00:00:41.100
+ao campo "Store"
+dos dados das lojas.
+
+00:00:41.133 --> 00:00:44.100
+Então vamos remover
+o campo "Store" à direita
+
+00:00:44.133 --> 00:00:46.501
+porque não precisamos das
+informações das lojas duas vezes.
+
+00:00:46.534 --> 00:00:49.801
+Vamos ativar o workflow
+e ver como fica o output agora.
+
+00:00:52.634 --> 00:00:54.234
+Temos um conjunto de dados
+que pode ser usado
+
+00:00:54.267 --> 00:00:58.033
+para realizar a análise: uma lista
+de pares de controle e tratamento
+
+00:00:58.067 --> 00:01:00.601
+com a região
+e um grupo de teste associado.
+
+00:01:00.634 --> 00:01:02.601
+Vamos arrastar uma ferramenta
+"Output Data" para a tela
+
+00:01:02.634 --> 00:01:05.400
+e salvar o arquivo
+para usar mais tarde.
+
+00:01:05.434 --> 00:01:07.234
+Agora estamos prontos
+para fazer a análise
+
+00:01:07.267 --> 00:01:09.901
+e somar os resultados
+do teste.
+
+00:01:09.934 --> 00:01:11.234
+*END*
+
+00:01:11.267 --> 00:01:12.567
+*CODE*
+

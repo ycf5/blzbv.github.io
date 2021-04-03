@@ -1,0 +1,74 @@
+WEBVTT
+Kind: captions
+Language: pt-BR
+
+00:00:00.234 --> 00:00:03.734
+Como já filtramos as transações
+que incluíam limpezas de pele
+
+00:00:03.767 --> 00:00:05.801
+quando estávamos criando
+os dados das lojas,
+
+00:00:05.834 --> 00:00:08.567
+podemos reutilizar aquele output
+para os dados de vendas.
+
+00:00:08.601 --> 00:00:10.534
+Queremos agregar
+os dados transacionais
+
+00:00:10.567 --> 00:00:12.167
+com base
+no campo "Store_week",
+
+00:00:12.200 --> 00:00:14.000
+então vamos adicionar
+uma ferramenta "Summarize"
+
+00:00:14.033 --> 00:00:15.699
+e conectá-la
+à ferramenta "Filter",
+
+00:00:15.732 --> 00:00:17.567
+que procura
+as limpezas de pele.
+
+00:00:17.601 --> 00:00:20.701
+Podemos agrupar por "Region",
+"Store" e pelas datas
+
+00:00:20.734 --> 00:00:24.100
+e vamos "Sum"
+as informações de "Gross_margin".
+
+00:00:24.133 --> 00:00:26.167
+Agora temos o conjunto de dados
+que queríamos
+
+00:00:26.200 --> 00:00:29.434
+e que mostra a margem de lucro
+e as vendas de cada loja
+
+00:00:29.467 --> 00:00:33.367
+para as transações que incluíram
+uma limpeza de pele por semana.
+
+00:00:33.400 --> 00:00:35.434
+Posso trazer uma ferramenta "Output"
+para a tela
+
+00:00:35.467 --> 00:00:37.400
+e salvar os dados
+para usar mais tarde
+
+00:00:37.434 --> 00:00:40.133
+em um arquivo chamado
+"Store_Sales_Analysis_Data".
+
+00:00:40.166 --> 00:00:41.300
+*END*
+
+00:00:41.334 --> 00:00:42.634
+*CODE*
+

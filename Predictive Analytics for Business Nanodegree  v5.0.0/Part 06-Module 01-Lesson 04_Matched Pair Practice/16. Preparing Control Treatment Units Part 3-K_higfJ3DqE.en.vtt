@@ -1,0 +1,61 @@
+WEBVTT
+Kind: captions
+Language: en
+
+00:00:00.000 --> 00:00:04.320
+Now, we'll combine the data from all the regions using the Union Tool.
+
+00:00:04.320 --> 00:00:06.540
+Since all the data streams are the same,
+
+00:00:06.540 --> 00:00:09.540
+no configuration is needed of the Union Tool.
+
+00:00:09.540 --> 00:00:12.640
+Let's run the workflow and take a look at the output.
+
+00:00:14.930 --> 00:00:17.835
+Looking at the output of the Union Tool,
+
+00:00:17.835 --> 00:00:20.790
+we can see that we have the control treatment pairs.
+
+00:00:20.790 --> 00:00:24.180
+However, we need to add the store attribute information from
+
+00:00:24.180 --> 00:00:27.690
+the store information data to perform the analysis.
+
+00:00:27.690 --> 00:00:31.080
+Let's drag a Join Tool onto the canvas and join
+
+00:00:31.080 --> 00:00:34.640
+the output from the Union Tool with the store information data stream.
+
+00:00:34.640 --> 00:00:37.260
+Well, join the Treatment field from
+
+00:00:37.260 --> 00:00:40.945
+the Union Tool to the Store field from the store data,
+
+00:00:40.945 --> 00:00:42.320
+and then we'll remove
+
+00:00:42.320 --> 00:00:46.460
+the right Store field because we don't need the store information twice.
+
+00:00:46.460 --> 00:00:50.160
+So let's run the workflow and see what our output looks like now.
+
+00:00:51.710 --> 00:00:55.774
+We now have a data set that can be used to perform the analysis,
+
+00:00:55.774 --> 00:01:00.560
+a list of control and treatment pairs with the region and associated test group.
+
+00:01:00.560 --> 00:01:05.075
+Let's drag an Output Tool onto the canvas and save the data file for later use.
+
+00:01:05.075 --> 00:01:10.230
+We're now ready to perform the analysis and summarize the results of the test.
+

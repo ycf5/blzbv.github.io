@@ -1,0 +1,229 @@
+<!-- udacity2.0 -->
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Tips</title>
+  <link rel="stylesheet" href="../assets/css/bootstrap.min.css">
+  <link rel="stylesheet" href="../assets/css/plyr.css">
+  <link rel="stylesheet" href="../assets/css/katex.min.css">
+  <link rel="stylesheet" href="../assets/css/jquery.mCustomScrollbar.min.css">
+  <link rel="stylesheet" href="../assets/css/styles.css">
+  <link rel="shortcut icon" type="image/png" href="../assets/img/udacimak.png" />
+</head>
+
+<body>
+  <div class="wrapper">
+    <nav id="sidebar">
+  <div class="sidebar-header">
+    <h3>A/B Test a New Menu Launch</h3>
+  </div>
+
+  <ul class="sidebar-list list-unstyled CTAs">
+    <li>
+      <a href="../index.html" class="article">Back to Home</a>
+    </li>
+  </ul>
+
+  <ul class="sidebar-list list-unstyled components">
+    <li class="">
+      <a href="01. Project Overview.html">01. Project Overview</a>
+    </li>
+    <li class="">
+      <a href="02. Project Details.html">02. Project Details</a>
+    </li>
+    <li class="">
+      <a href="03. Supporting Materials.html">03. Supporting Materials</a>
+    </li>
+    <li class="">
+      <a href="04. Tips.html">04. Tips</a>
+    </li>
+    <li class="">
+      <a href="05. Verify Project Answer.html">05. Verify Project Answer</a>
+    </li>
+    <li class="">
+      <a href="Project Description - AB Test a New Menu Launch.html">Project Description - A/B Test a New Menu Launch</a>
+    </li>
+    <li class="">
+      <a href="Project Rubric - AB Test a New Menu Launch.html">Project Rubric - A/B Test a New Menu Launch</a>
+    </li>
+  </ul>
+
+  <ul class="sidebar-list list-unstyled CTAs">
+    <li>
+      <a href="../index.html" class="article">Back to Home</a>
+    </li>
+  </ul>
+</nav>
+
+    <div id="content">
+      <header class="container-fluild header">
+        <div class="container">
+          <div class="row">
+            <div class="col-12">
+              <div class="align-items-middle">
+                <button type="button" id="sidebarCollapse" class="btn btn-toggle-sidebar">
+                  <div></div>
+                  <div></div>
+                  <div></div>
+                </button>
+
+                <h1 style="display: inline-block">04. Tips</h1>
+              </div>
+            </div>
+          </div>
+        </div>
+      </header>
+
+      <main class="container">
+        <div class="row">
+          <div class="col-12">
+            <div class="ud-atom">
+  <h3><p>tips</p></h3>
+  <div>
+  <h4 id="aggregate-and-export">Aggregate and Export</h4>
+<p>We recommend you save your aggregated transaction database as a separate file to further reduce your development time. You shouldn't need to re-aggregate the transaction database every time you want to test out a new workflow.</p>
+<h4 id="creating-a-week-variable">Creating a week variable</h4>
+<p>When calculating the week column, assign week 1 to the first week of the test period, so the week_begin variable for week 1 would be your test start date. This will cause weeks prior to the test period to be negative, which is perfectly fine. See <a href="https://classroom.udacity.com/nanodegrees/nd008-ent/parts/840e51ff-4c1b-41bd-bc02-0a659921b756/modules/bbde5353-d851-4624-bca9-75e8a07e6f10/lessons/ee1d5344-e0f5-41bd-90af-30695d0458a8/concepts/e93ee789-fb71-486c-8b0f-cd0de9b080e0" rel="noopener noreferrer" target="_blank">here</a> . If the first link doesn't work, please click <a href="https://help.alteryx.com/current/Formula.htm" rel="noopener noreferrer" target="_blank">here</a> for an example of how to calculate the week variable using a formula tool in Alteryx.</p>
+<h4 id="number-of-weeks">Number of Weeks</h4>
+<p>The trend tool is used to create trend and seasonality variables to use as control variables. To do this, you need at least 52 weeks of data, plus the number of weeks you select in the tool to calculate trend, before the beginning of the test start date. In lesson 4, you used 6 weeks to calculate the trend, so you needed 58 weeks prior to the test start date. For the project, you are asked to use 12 weeks to calculate trend, so you'll need 64 weeks of data prior to the test start date. Since the test lasts for 12 weeks, this means you'll need a total <code>76 weeks</code> of data. </p>
+<p>Your filter at the beginning of your workflow should go back 76 weeks from the end of the test period 2016-July-21. In Alteryx the expression shuold look like <code>[Invoice Date]&gt;="2015-02-06" AND [Invoice Date]&lt;"2016-07-22"</code></p>
+<p>All stores should have 76 weeks of Data.</p>
+<h3 id="ab-trend-tool">AB Trend Tool</h3>
+<p>The Test start date is 2016-April-29</p>
+<p>The performance metric for this tool is the invoice count per week which represent weekly foot traffic. You had to create this variable with a summarize tool.</p>
+<h3 id="ab-controls-tool">AB Controls Tool</h3>
+<p>You should use 3 numeric measures to match treatment and control stores. </p>
+<ol>
+<li>Trend </li>
+<li>Seasonality</li>
+<li>AvgMonthSales (This should be determined by looking at the correlation between the appropriate numeric variables in the round roasters stores file AvgMonthSales and Sq_ft with the performance metric gross margin.) - This variable is in the round-roaster-stores.csv file</li>
+</ol>
+<h3 id="ab-analysis-tool">AB Analysis Tool</h3>
+<p>Make sure to use <code>weekly gross margin</code> per store in all lift calculations and not total sales. Your data has gross margin in it but you will have to use a summarize tool to get weekly gross margin per store.</p>
+<h3 id="steps">Steps</h3>
+<ol>
+<li>Filter the data to the proper date range</li>
+<li>Aggregate the data to get the weekly gross margin and weekly traffic count (count of unique invoices)</li>
+<li>Calculate Trend and Seasonality with the AB Trend Tool</li>
+<li>Label the data as treatment and control stores</li>
+<li>Calculate correlation between other numeric measures and the performance metric (gross margin)</li>
+<li>Match Treatment to control stores per region using the AB Controls Tool</li>
+<li>Calculate lift from control to treatment store with AB Analysis tool</li>
+</ol>
+</div>
+
+</div>
+<div class="divider"></div><div class="ud-atom">
+  <h3></h3>
+  <div>
+  <p>If you run into errors in Alteryx or unexpected results from a tool we have a guide to help you figure out what is going on. </p>
+<p><strong>Alteryx Debugging Guide:</strong><br />
+See the Resources tab in the left most panel of your classroom for a downloadable PDF of the Alteryx Debugging Guide</p>
+<p><a href="https://docs.google.com/document/d/1ec7SiDCMAZAMjbPvL3aegPoL1PZznHarsxEZ4bjptdI/edit?usp=sharing" rel="noopener noreferrer" target="_blank">Google Doc</a> Please note: If you are accessing Udacity via a corporate internet network or have certain settings on your computer, you may not be able to see the Google Doc, please see the resources tab instead. </p>
+</div>
+
+</div>
+<div class="divider"></div><div class="ud-atom">
+  <h3></h3>
+  <div>
+  <p>Forum: <a href="https://knowledge.udacity.com/" rel="noopener noreferrer" target="_blank">https://knowledge.udacity.com/</a></p>
+</div>
+
+</div>
+<div class="divider"></div>
+          </div>
+
+          <div class="col-12">
+            <p class="text-right">
+              <a href="05. Verify Project Answer.html" class="btn btn-outline-primary mt-4" role="button">Next Concept</a>
+            </p>
+          </div>
+        </div>
+      </main>
+
+      <footer class="footer">
+        <div class="container">
+          <div class="row">
+            <div class="col-12">
+              <p class="text-center">
+                <a href="https://us-udacity.github.io/" target="_blank">【udacity2.0 】If you need more courses, please add wechat：udacity6</a>
+              </p>
+            </div>
+          </div>
+        </div>
+      </footer>
+    </div>
+  </div>
+
+
+  <script src="../assets/js/jquery-3.3.1.min.js"></script>
+  <script src="../assets/js/plyr.polyfilled.min.js"></script>
+  <script src="../assets/js/bootstrap.min.js"></script>
+  <script src="../assets/js/jquery.mCustomScrollbar.concat.min.js"></script>
+  <script src="../assets/js/katex.min.js"></script>
+  <script>
+    // Initialize Plyr video players
+    const players = Array.from(document.querySelectorAll('video')).map(p => new Plyr(p));
+
+    // render math equations
+    let elMath = document.getElementsByClassName('mathquill');
+    for (let i = 0, len = elMath.length; i < len; i += 1) {
+      const el = elMath[i];
+
+      katex.render(el.textContent, el, {
+        throwOnError: false
+      });
+    }
+
+    // this hack will make sure Bootstrap tabs work when using Handlebars
+    if ($('#question-tabs').length && $('#user-answer-tabs').length) {
+      $("#question-tabs a.nav-link").on('click', function () {
+        $("#question-tab-contents .tab-pane").hide();
+        $($(this).attr("href")).show();
+      });
+      $("#user-answer-tabs a.nav-link").on('click', function () {
+        $("#user-answer-tab-contents .tab-pane").hide();
+        $($(this).attr("href")).show();
+      });
+    } else {
+      $("a.nav-link").on('click', function () {
+        $(".tab-pane").hide();
+        $($(this).attr("href")).show();
+      });
+    }
+
+    // side bar events
+    $(document).ready(function () {
+      $("#sidebar").mCustomScrollbar({
+        theme: "minimal"
+      });
+
+      $('#sidebarCollapse').on('click', function () {
+        $('#sidebar, #content').toggleClass('active');
+        $('.collapse.in').toggleClass('in');
+        $('a[aria-expanded=true]').attr('aria-expanded', 'false');
+      });
+
+      // scroll to first video on page loading
+      if ($('video').length) {
+        $('html,body').animate({ scrollTop: $('div.plyr').prev().offset().top});
+      }
+
+      // auto play first video: this may not work with chrome/safari due to autoplay policy
+      if (players && players.length > 0) {
+        players[0].play();
+      }
+
+      // scroll sidebar to current concept
+      const currentInSideBar = $( "ul.sidebar-list.components li a:contains('04. Tips')" )
+      currentInSideBar.css( "text-decoration", "underline" );
+      $("#sidebar").mCustomScrollbar('scrollTo', currentInSideBar);
+    });
+  </script>
+</body>
+
+</html>

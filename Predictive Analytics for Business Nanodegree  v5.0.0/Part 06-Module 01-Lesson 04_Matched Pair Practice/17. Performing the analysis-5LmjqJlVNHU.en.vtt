@@ -1,0 +1,234 @@
+WEBVTT
+Kind: captions
+Language: en
+
+00:00:00.180 --> 00:00:03.105
+2 treatment price points were tested,
+
+00:00:03.105 --> 00:00:08.105
+87.99 and
+76.99 versus the control price of 98.99.
+
+00:00:08.105 --> 00:00:11.675
+Having done two tests,
+we're going to analyze each price point.
+
+00:00:11.675 --> 00:00:15.739
+The results of each will be compared
+to each other focusing on gross margin
+
+00:00:15.739 --> 00:00:16.597
+performance.
+
+00:00:16.597 --> 00:00:20.310
+We're going to use the two datasets
+that we previously created.
+
+00:00:20.310 --> 00:00:24.340
+The control treatment pairs data will
+be used to provide identification data
+
+00:00:24.340 --> 00:00:27.564
+concerning which stores were
+controller treatment units and
+
+00:00:27.564 --> 00:00:31.222
+the store sales analysis data will
+be used to provide performance data
+
+00:00:31.222 --> 00:00:34.080
+associated with the control,
+and treatment stores.
+
+00:00:34.080 --> 00:00:38.535
+Using input data tools, let's bring both
+data sets into a new Altiris workflow.
+
+00:00:38.535 --> 00:00:42.229
+[BLANK_AUDIO]
+
+00:00:42.229 --> 00:00:47.604
+Since we conducted two tests,
+one at 87.99 and the other 76.99, we
+
+00:00:47.604 --> 00:00:52.989
+need to split the control treatment pair
+data into 2 streams 1 for each test.
+
+00:00:52.989 --> 00:00:56.232
+Let's drag a filter tool
+on to the Canvas and
+
+00:00:56.232 --> 00:01:00.627
+we'll use a basic filter
+of test group equals 87.99.
+
+00:01:00.627 --> 00:01:04.647
+This will result in the true output
+streaming the data for the 87.99 test,
+
+00:01:04.647 --> 00:01:07.830
+then the false output streaming data for
+the 76.99 test.
+
+00:01:09.710 --> 00:01:13.390
+Next, let's drag an A/B Analysis
+tool onto the Canvas.
+
+00:01:13.390 --> 00:01:17.090
+The A/B Analysis tool will provide
+reports that detail how the treatment
+
+00:01:17.090 --> 00:01:20.480
+units performed versus
+the control units for a test.
+
+00:01:20.480 --> 00:01:24.810
+First, connect the filter tool true
+output to the A/B Analysis C and
+
+00:01:24.810 --> 00:01:25.449
+T inputs.
+
+00:01:26.630 --> 00:01:31.120
+The C input is the controls input
+that provides the A/B Analysis tool
+
+00:01:31.120 --> 00:01:33.300
+with a unique identifier for
+each control unit.
+
+00:01:34.330 --> 00:01:38.615
+The T input is a treatment input
+that provides an identifier are for
+
+00:01:38.615 --> 00:01:40.045
+treatment inputs.
+
+00:01:40.045 --> 00:01:44.235
+The T input provides an identifier for
+the treatment units.
+
+00:01:44.235 --> 00:01:48.107
+Since all of the data for the treatment
+and control stores is in the data
+
+00:01:48.107 --> 00:01:51.861
+stream, we can connect the filter
+output to both the C and T inputs.
+
+00:01:51.861 --> 00:01:56.716
+First, we're going to setup the 87.99
+analysis and we'll repeat the steps for
+
+00:01:56.716 --> 00:01:58.109
+the 76.99 group.
+
+00:01:58.109 --> 00:02:00.790
+So, let's connect the sales
+data to the P input.
+
+00:02:01.950 --> 00:02:04.440
+The P input provides
+the A/B Analysis tool
+
+00:02:04.440 --> 00:02:08.289
+with performance data associated with
+the control and treatment units.
+
+00:02:08.289 --> 00:02:10.050
+So let's configure
+the A/B Analysis tool.
+
+00:02:11.090 --> 00:02:14.700
+In the control section, select
+the control's field for the control unit
+
+00:02:14.700 --> 00:02:18.290
+identifier and the treatment's field for
+the treatment unit mapping field.
+
+00:02:19.720 --> 00:02:21.302
+In the treatment section,
+
+00:02:21.302 --> 00:02:25.167
+select the treatment's field as
+the treatment unit identifier.
+
+00:02:25.167 --> 00:02:30.127
+In the performance data section,
+will you store as the unit identifier?
+
+00:02:30.127 --> 00:02:35.309
+Weekend is the reporting period date and
+gross margin as the performance measure.
+
+00:02:35.309 --> 00:02:39.620
+Clicking on the Test Dates tab,
+we need to enter the dates of the test.
+
+00:02:39.620 --> 00:02:42.899
+Note that this test refers to
+the dates of the experiment and
+
+00:02:42.899 --> 00:02:44.744
+not the dates of the data we have.
+
+00:02:44.744 --> 00:02:47.878
+Since we ran the test from March 20th,
+2014,
+
+00:02:47.878 --> 00:02:51.521
+until May 28, 2014,
+we'll enter those dates here.
+
+00:02:51.521 --> 00:02:54.961
+[BLANK_AUDIO]
+
+00:02:54.961 --> 00:02:58.927
+The additional information tab can be
+used to add text for the report output,
+
+00:02:58.927 --> 00:03:02.255
+but we'll leave that blank for
+this example.
+
+00:03:02.255 --> 00:03:06.505
+And similarly, the graphics option tab
+can be used to adjust the report and
+
+00:03:06.505 --> 00:03:10.005
+automatically save it, but
+we'll let you explore those features.
+
+00:03:11.137 --> 00:03:14.247
+After repeating the steps for
+the 7699 test,
+
+00:03:14.247 --> 00:03:17.768
+we'll add a Browse tool to the I
+output of both A/B Analysis tools.
+
+00:03:19.077 --> 00:03:21.997
+The I output produces an HTML based
+
+00:03:21.997 --> 00:03:24.398
+interactive dashboard
+of the test results.
+
+00:03:24.398 --> 00:03:28.039
+We'll also add a browse tool to the O
+output of both A/B Analysis tools.
+
+00:03:29.788 --> 00:03:32.828
+The O output produces a textual
+summary of the test results,
+
+00:03:32.828 --> 00:03:37.428
+basic summary statistics and a few
+visualizations related to the results.
+
+00:03:37.428 --> 00:03:40.908
+Now, we can run the workflow to
+produce the textual and HTML reports.
+

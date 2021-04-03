@@ -1,0 +1,144 @@
+WEBVTT
+Kind: captions
+Language: pt-BR
+
+00:00:00.501 --> 00:00:04.200
+A elasticidade do preço de demanda
+é uma medida usada na Economia
+
+00:00:04.234 --> 00:00:07.367
+para mostrar a resposta,
+ou a elasticidade,
+
+00:00:07.400 --> 00:00:09.834
+da quantidade demandada
+de um produto ou serviço
+
+00:00:09.868 --> 00:00:11.671
+a uma mudança de preço.
+
+00:00:12.267 --> 00:00:16.100
+Podemos usar testes A/B para
+analisar se uma mudança de preço
+
+00:00:16.133 --> 00:00:19.400
+impacta a demanda de um produto
+ou de um serviço como resultado.
+
+00:00:19.434 --> 00:00:22.734
+Lembre-se: testes A/B
+analisam se uma mudança
+
+00:00:22.767 --> 00:00:24.701
+aplicada
+a um grupo experimental
+
+00:00:24.734 --> 00:00:27.601
+difere estatisticamente
+de um grupo de controle.
+
+00:00:27.868 --> 00:00:31.601
+Medir o impacto de uma mudança
+antes de aplicá-la amplamente
+
+00:00:31.634 --> 00:00:35.834
+pode ajudar a minimizar o impacto
+negativo potencial de uma mudança.
+
+00:00:35.868 --> 00:00:39.033
+Por exemplo, se você estivesse
+pensando em fazer uma promoção,
+
+00:00:39.067 --> 00:00:41.334
+você faria um teste
+em um subconjunto de lojas
+
+00:00:41.367 --> 00:00:45.167
+para determinar se a promoção
+teria impacto positivo no lucro.
+
+00:00:45.200 --> 00:00:47.234
+Se o teste mostrasse
+resultados positivos,
+
+00:00:47.267 --> 00:00:50.305
+você ampliaria as mudanças
+para o resto das lojas.
+
+00:00:51.100 --> 00:00:53.167
+Vamos imaginar
+um problema detalhado.
+
+00:00:53.200 --> 00:00:56.133
+Imagine que você trabalha
+numa cadeia de spas.
+
+00:00:56.167 --> 00:00:57.901
+Você faz parte da equipe
+que está procurando um modo
+
+00:00:57.934 --> 00:00:59.501
+de aumentar a margem
+de lucro bruta
+
+00:00:59.534 --> 00:01:03.234
+e decidiu fazer um experimento
+com o preço das limpezas de pele.
+
+00:01:03.267 --> 00:01:06.901
+Hoje, suas lojas oferecem limpezas
+por $ 98,99,
+
+00:01:06.934 --> 00:01:09.200
+e você gostaria de prever
+se uma mudança no preço
+
+00:01:09.234 --> 00:01:11.701
+aumentaria
+a margem de lucro bruta.
+
+00:01:11.734 --> 00:01:14.667
+Foi pedido que você preveja
+a mudança na margem de lucro
+
+00:01:14.701 --> 00:01:19.467
+caso as limpezas fossem oferecidas
+a $ 87,99 e $ 76,99.
+
+00:01:20.033 --> 00:01:22.701
+Precisamos criar um teste A/B
+que nos ajude a prever
+
+00:01:22.734 --> 00:01:26.100
+a mudança na margem de lucro para
+os preços diferentes das limpezas,
+
+00:01:26.133 --> 00:01:28.901
+supondo que, em média,
+os clientes visitam a loja
+
+00:01:28.934 --> 00:01:31.234
+uma vez a cada 10 semanas.
+
+00:01:32.167 --> 00:01:34.667
+Lembra-se do processo
+para o teste A/B?
+
+00:01:34.701 --> 00:01:37.966
+Primeiro, vamos selecionar
+unidades de tratamento e controle.
+
+00:01:37.999 --> 00:01:40.400
+Depois, vamos preparar
+e realizar o teste.
+
+00:01:40.434 --> 00:01:42.901
+Por fim, vamos analisar
+os resultados.
+
+00:01:42.934 --> 00:01:44.234
+*END*
+
+00:01:44.267 --> 00:01:45.567
+*CODE*
+

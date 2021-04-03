@@ -1,0 +1,263 @@
+<!-- udacity2.0 -->
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Store List Data</title>
+  <link rel="stylesheet" href="../assets/css/bootstrap.min.css">
+  <link rel="stylesheet" href="../assets/css/plyr.css">
+  <link rel="stylesheet" href="../assets/css/katex.min.css">
+  <link rel="stylesheet" href="../assets/css/jquery.mCustomScrollbar.min.css">
+  <link rel="stylesheet" href="../assets/css/styles.css">
+  <link rel="shortcut icon" type="image/png" href="../assets/img/udacimak.png" />
+</head>
+
+<body>
+  <div class="wrapper">
+    <nav id="sidebar">
+  <div class="sidebar-header">
+    <h3>Matched Pair Practice</h3>
+  </div>
+
+  <ul class="sidebar-list list-unstyled CTAs">
+    <li>
+      <a href="../index.html" class="article">Back to Home</a>
+    </li>
+  </ul>
+
+  <ul class="sidebar-list list-unstyled components">
+    <li class="">
+      <a href="01. Introduction.html">01. Introduction</a>
+    </li>
+    <li class="">
+      <a href="02. Pricing Elasticity Analysis Problem.html">02. Pricing Elasticity Analysis Problem</a>
+    </li>
+    <li class="">
+      <a href="03. Select Treatment Units.html">03. Select Treatment Units</a>
+    </li>
+    <li class="">
+      <a href="04. Select Discrete Control Variables.html">04. Select Discrete Control Variables</a>
+    </li>
+    <li class="">
+      <a href="05. Select Continuous Control Variables Quiz.html">05. Select Continuous Control Variables Quiz</a>
+    </li>
+    <li class="">
+      <a href="06. Select Continuous Control Variables Solution.html">06. Select Continuous Control Variables Solution</a>
+    </li>
+    <li class="">
+      <a href="07. Select Continuous Control Variables.html">07. Select Continuous Control Variables</a>
+    </li>
+    <li class="">
+      <a href="08. Prepare for Test Quiz.html">08. Prepare for Test Quiz</a>
+    </li>
+    <li class="">
+      <a href="09. Run Test.html">09. Run Test</a>
+    </li>
+    <li class="">
+      <a href="10. Filter &amp; Calculate Date Fields.html">10. Filter &amp; Calculate Date Fields</a>
+    </li>
+    <li class="">
+      <a href="11. Weekly Store Traffic Data.html">11. Weekly Store Traffic Data</a>
+    </li>
+    <li class="">
+      <a href="12. Create Discrete Data Table.html">12. Create Discrete Data Table</a>
+    </li>
+    <li class="">
+      <a href="13. Store List Data.html">13. Store List Data</a>
+    </li>
+    <li class="">
+      <a href="14. Sales Data Quiz.html">14. Sales Data Quiz</a>
+    </li>
+    <li class="">
+      <a href="15. Sales Data Solution.html">15. Sales Data Solution</a>
+    </li>
+    <li class="">
+      <a href="16. Preparing Control and Treatment Units.html">16. Preparing Control and Treatment Units</a>
+    </li>
+    <li class="">
+      <a href="17. Performing the Analysis.html">17. Performing the Analysis</a>
+    </li>
+    <li class="">
+      <a href="18. Performing the Analysis Quiz.html">18. Performing the Analysis Quiz</a>
+    </li>
+    <li class="">
+      <a href="19. Performing the Analysis Solution.html">19. Performing the Analysis Solution</a>
+    </li>
+    <li class="">
+      <a href="20. Conclusion.html">20. Conclusion</a>
+    </li>
+    <li class="">
+      <a href="21. Glossary.html">21. Glossary</a>
+    </li>
+  </ul>
+
+  <ul class="sidebar-list list-unstyled CTAs">
+    <li>
+      <a href="../index.html" class="article">Back to Home</a>
+    </li>
+  </ul>
+</nav>
+
+    <div id="content">
+      <header class="container-fluild header">
+        <div class="container">
+          <div class="row">
+            <div class="col-12">
+              <div class="align-items-middle">
+                <button type="button" id="sidebarCollapse" class="btn btn-toggle-sidebar">
+                  <div></div>
+                  <div></div>
+                  <div></div>
+                </button>
+
+                <h1 style="display: inline-block">13. Store List Data</h1>
+              </div>
+            </div>
+          </div>
+        </div>
+      </header>
+
+      <main class="container">
+        <div class="row">
+          <div class="col-12">
+            <div class="ud-atom">
+  <h3><p>Store List Data</p></h3>
+  <video controls>
+  <source src="13. Store List Data-ckUFJ33ggtc.mp4" type="video/mp4">
+
+  <track default="true" kind="subtitles" srclang="en" src="13. Store List Data-ckUFJ33ggtc.en.vtt" label="en">
+  <track default="false" kind="subtitles" srclang="pt-BR" src="13. Store List Data-ckUFJ33ggtc.pt-BR.vtt" label="pt-BR">
+</video>
+
+
+</div>
+<div class="divider"></div><div class="ud-atom">
+  <h3><p>Workflow Steps</p></h3>
+  <div>
+  <h3 id="workflow-steps">Workflow Steps</h3>
+<ul>
+<li>Using the same workflow from the “Weekly Store Traffic Data” demo, add a <code>Filter</code> tool to remove transactions that do not include a facial</li>
+<li>Connect the filter to the output of the <code>Summarize</code> tool</li>
+<li>Filter for <code>facial flag = 1</code></li>
+<li>Use the <code>Summarize</code> tool and group by region and store to get a list of stores in each region</li>
+<li>Use the <code>Input</code> tool to import the file containing the information about which stores were designated as treatment stores</li>
+<li>Use the <code>Select</code> tool to deselect price level and rename the test price level to “test group”</li>
+<li>Use the <code>Join</code> tool to add the treatment store data to the main data stream</li>
+<li>Use the <code>Formula</code> tool on the L output of the join to identify control candidate stores</li>
+<li>After dragging and connecting the <code>Formula</code> tool, create a new field with the same name and type as the test group field from the J output of the join</li>
+<li>Type in <code>CC</code> for the expression to add the field test group to the data with a value of CC for all the control stores</li>
+<li>Use the <code>Union</code> tool to combine the two output tables of the join</li>
+<li>Drag an <code>Output</code> tool onto the canvas, and save the file for later use</li>
+</ul>
+</div>
+
+</div>
+<div class="divider"></div><div class="ud-atom">
+  <h3><p>Workflow</p></h3>
+  <div>
+  <figure class="figure">
+    <img src="img/nd008t-c6-l4-c13.png" alt="" class="img img-fluid">
+    <figcaption class="figure-caption">
+      
+    </figcaption>
+  </figure>
+</div>
+
+
+</div>
+<div class="divider"></div>
+          </div>
+
+          <div class="col-12">
+            <p class="text-right">
+              <a href="14. Sales Data Quiz.html" class="btn btn-outline-primary mt-4" role="button">Next Concept</a>
+            </p>
+          </div>
+        </div>
+      </main>
+
+      <footer class="footer">
+        <div class="container">
+          <div class="row">
+            <div class="col-12">
+              <p class="text-center">
+                <a href="https://us-udacity.github.io/" target="_blank">【udacity2.0 】If you need more courses, please add wechat：udacity6</a>
+              </p>
+            </div>
+          </div>
+        </div>
+      </footer>
+    </div>
+  </div>
+
+
+  <script src="../assets/js/jquery-3.3.1.min.js"></script>
+  <script src="../assets/js/plyr.polyfilled.min.js"></script>
+  <script src="../assets/js/bootstrap.min.js"></script>
+  <script src="../assets/js/jquery.mCustomScrollbar.concat.min.js"></script>
+  <script src="../assets/js/katex.min.js"></script>
+  <script>
+    // Initialize Plyr video players
+    const players = Array.from(document.querySelectorAll('video')).map(p => new Plyr(p));
+
+    // render math equations
+    let elMath = document.getElementsByClassName('mathquill');
+    for (let i = 0, len = elMath.length; i < len; i += 1) {
+      const el = elMath[i];
+
+      katex.render(el.textContent, el, {
+        throwOnError: false
+      });
+    }
+
+    // this hack will make sure Bootstrap tabs work when using Handlebars
+    if ($('#question-tabs').length && $('#user-answer-tabs').length) {
+      $("#question-tabs a.nav-link").on('click', function () {
+        $("#question-tab-contents .tab-pane").hide();
+        $($(this).attr("href")).show();
+      });
+      $("#user-answer-tabs a.nav-link").on('click', function () {
+        $("#user-answer-tab-contents .tab-pane").hide();
+        $($(this).attr("href")).show();
+      });
+    } else {
+      $("a.nav-link").on('click', function () {
+        $(".tab-pane").hide();
+        $($(this).attr("href")).show();
+      });
+    }
+
+    // side bar events
+    $(document).ready(function () {
+      $("#sidebar").mCustomScrollbar({
+        theme: "minimal"
+      });
+
+      $('#sidebarCollapse').on('click', function () {
+        $('#sidebar, #content').toggleClass('active');
+        $('.collapse.in').toggleClass('in');
+        $('a[aria-expanded=true]').attr('aria-expanded', 'false');
+      });
+
+      // scroll to first video on page loading
+      if ($('video').length) {
+        $('html,body').animate({ scrollTop: $('div.plyr').prev().offset().top});
+      }
+
+      // auto play first video: this may not work with chrome/safari due to autoplay policy
+      if (players && players.length > 0) {
+        players[0].play();
+      }
+
+      // scroll sidebar to current concept
+      const currentInSideBar = $( "ul.sidebar-list.components li a:contains('13. Store List Data')" )
+      currentInSideBar.css( "text-decoration", "underline" );
+      $("#sidebar").mCustomScrollbar('scrollTo', currentInSideBar);
+    });
+  </script>
+</body>
+
+</html>

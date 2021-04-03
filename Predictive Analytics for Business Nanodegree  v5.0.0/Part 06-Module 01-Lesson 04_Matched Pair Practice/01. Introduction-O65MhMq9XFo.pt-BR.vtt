@@ -1,0 +1,46 @@
+WEBVTT
+Kind: captions
+Language: pt-BR
+
+00:00:00.334 --> 00:00:02.601
+Agora que você sabe
+como criar experimentos
+
+00:00:02.634 --> 00:00:04.866
+e realizar o delineamento
+por amostras emparelhadas,
+
+00:00:04.899 --> 00:00:07.367
+vamos fazer sua análise
+evoluir mais um pouco.
+
+00:00:07.400 --> 00:00:10.599
+Vamos mostrar como você pode
+pensar em variáveis não numéricas
+
+00:00:10.632 --> 00:00:12.634
+que podem ter impacto
+no emparelhamento
+
+00:00:12.667 --> 00:00:16.070
+e discutir o uso de tendências
+temporais no emparelhamento.
+
+00:00:16.799 --> 00:00:20.868
+Nesta aula, você terá a chance
+de praticar o que aprendeu até agora
+
+00:00:20.901 --> 00:00:23.067
+e apresentar novos conceitos
+nesse processo,
+
+00:00:23.100 --> 00:00:25.734
+usando um problema de negócio
+de elasticidade de preço.
+
+00:00:25.767 --> 00:00:27.067
+*END*
+
+00:00:27.100 --> 00:00:28.434
+*CODE*
+

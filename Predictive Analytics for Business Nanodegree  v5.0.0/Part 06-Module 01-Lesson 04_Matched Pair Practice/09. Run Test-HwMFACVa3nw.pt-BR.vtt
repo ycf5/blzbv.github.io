@@ -1,0 +1,239 @@
+WEBVTT
+Kind: captions
+Language: pt-BR
+
+00:00:00.501 --> 00:00:02.100
+Agora estamos prontos
+para fazer nosso teste
+
+00:00:02.133 --> 00:00:06.968
+e coletar dados das lojas
+de 20 de março a 28 de maio.
+
+00:00:07.000 --> 00:00:12.133
+O 1º grupo de tratamento vai mudar
+o preço da limpeza para $ 76,99,
+
+00:00:12.167 --> 00:00:17.200
+e o 2º grupo vai mudar o preço
+da limpeza de pele para $ 87,99.
+
+00:00:17.400 --> 00:00:19.667
+Depois de coletar dados
+durante 10 semanas,
+
+00:00:19.701 --> 00:00:22.334
+estaremos prontos para fazer
+a análise A/B.
+
+00:00:22.634 --> 00:00:24.901
+Vamos começar
+preparando os dados.
+
+00:00:24.934 --> 00:00:28.501
+Temos dois arquivos de dados
+disponíveis para a análise.
+
+00:00:29.300 --> 00:00:34.033
+O arquivo "POS_Transactions" contém
+os dados transacionais dos invoices,
+
+00:00:34.066 --> 00:00:37.200
+e cada coluna contém
+um item do invoice.
+
+00:00:37.234 --> 00:00:39.968
+O arquivo "POS_Transactions"
+contém transações
+
+00:00:40.000 --> 00:00:44.734
+de 1º de janeiro de 2013
+a 29 de junho de 2014.
+
+00:00:44.767 --> 00:00:47.667
+Também temos um arquivo Excel
+com informações sobre as lojas
+
+00:00:47.701 --> 00:00:49.767
+que usamos
+como unidades de tratamento.
+
+00:00:49.968 --> 00:00:52.534
+Este arquivo contém
+o identificador da loja
+
+00:00:52.567 --> 00:00:55.200
+e o preço da limpeza de pele
+em cada loja.
+
+00:00:55.801 --> 00:00:58.167
+Temos que preparar os dados
+para podermos alavancar
+
+00:00:58.200 --> 00:01:02.167
+as ferramentas "AB Trend"
+e "AB Controls" do Alteryx
+
+00:01:02.200 --> 00:01:04.434
+para criar conjuntos
+de lojas de controle
+
+00:01:04.467 --> 00:01:07.667
+que podemos usar para comparar
+com as unidades de tratamento.
+
+00:01:08.100 --> 00:01:11.934
+Usando os dois arquivos de dados,
+vamos criar 3 arquivos de dados.
+
+00:01:11.968 --> 00:01:15.200
+O tráfego semanal de cada loja
+para a ferramenta "AB Trend",
+
+00:01:15.234 --> 00:01:18.300
+a lista de lojas
+para a ferramenta "AB Controls" -
+
+00:01:18.334 --> 00:01:21.400
+que será usada para emparelhar
+unidades de controle e tratamento -
+
+00:01:21.434 --> 00:01:24.501
+e os dados das vendas
+para a ferramenta "AB Analysis".
+
+00:01:25.267 --> 00:01:27.701
+Para começar,
+precisamos filtrar os dados
+
+00:01:27.734 --> 00:01:31.300
+para que incluam apenas transações
+de 7 de fevereiro de 2013
+
+00:01:31.334 --> 00:01:33.667
+a 28 de maio de 2014.
+
+00:01:33.701 --> 00:01:36.434
+Lembre que o período de teste
+durou 10 semanas -
+
+00:01:36.467 --> 00:01:40.033
+de 20 de março
+a 28 de maio de 2014.
+
+00:01:40.067 --> 00:01:42.334
+Os dados serão agregados
+em semanas
+
+00:01:42.367 --> 00:01:43.901
+para retirar
+valores faltantes,
+
+00:01:43.934 --> 00:01:46.834
+o que faria as ferramentas
+"AB Trend" e "AB Controls"
+
+00:01:46.868 --> 00:01:48.167
+acusarem erro.
+
+00:01:48.200 --> 00:01:50.000
+Primeiro, vamos criar
+uma planilha que tenha
+
+00:01:50.033 --> 00:01:52.200
+as informações de tráfego
+semanal das lojas,
+
+00:01:52.234 --> 00:01:55.834
+que contém o número de invoices
+por semana em cada loja.
+
+00:01:55.868 --> 00:01:57.934
+Vamos usar este dado
+com a ferramenta "AB Trend"
+
+00:01:57.968 --> 00:02:00.701
+para criar medidas de tendência
+e padrões sazonais
+
+00:02:00.734 --> 00:02:02.601
+que podem ser usados
+para ajudar a emparelhar
+
+00:02:02.634 --> 00:02:04.667
+unidades de tratamento
+e controle.
+
+00:02:04.701 --> 00:02:07.701
+Para nossa análise, vamos usar
+os campos "Week" e "Week_begin"
+
+00:02:07.734 --> 00:02:09.734
+para calcular
+a data do "Week_end".
+
+00:02:09.767 --> 00:02:12.400
+O campo "Week_end"
+é o que precisamos para análise,
+
+00:02:12.434 --> 00:02:14.200
+mas talvez possamos usar
+as outras datas,
+
+00:02:14.234 --> 00:02:16.234
+então vamos deixá-las
+nos dados.
+
+00:02:16.267 --> 00:02:18.300
+Depois, temos que criar
+uma tabela de datas
+
+00:02:18.334 --> 00:02:21.934
+que mostre as lojas, a região
+e o grupo em que a loja está -
+
+00:02:21.968 --> 00:02:23.868
+controle ou tratamento -
+e, se for de tratamento,
+
+00:02:23.901 --> 00:02:26.434
+qual era o preço da limpeza
+de pele naquela loja.
+
+00:02:26.467 --> 00:02:29.300
+Esses dados serão usados
+com a ferramenta "AB Controls",
+
+00:02:29.334 --> 00:02:31.367
+que usará informações
+da ferramenta "AB Trend"
+
+00:02:31.400 --> 00:02:34.534
+para criar pares controle/tratamento
+para a análise.
+
+00:02:34.567 --> 00:02:36.734
+Por fim, vamos agregar
+os dados de vendas
+
+00:02:36.767 --> 00:02:39.968
+para mostrar as vendas semanais
+e a margem de lucro por loja
+
+00:02:40.001 --> 00:02:42.532
+de todas as transações
+que incluíram uma limpeza de pele
+
+00:02:42.565 --> 00:02:44.634
+para realizar a análise.
+
+00:02:44.667 --> 00:02:48.968
+Parece muita preparação, mas é bem
+menos trabalho que você imagina.
+
+00:02:49.000 --> 00:02:50.300
+*END*
+
+00:02:50.334 --> 00:02:51.634
+*CODE*
+

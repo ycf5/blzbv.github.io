@@ -1,0 +1,151 @@
+WEBVTT
+Kind: captions
+Language: pt-BR
+
+00:00:00.300 --> 00:00:03.100
+Agora que os dados foram
+preparados e organizados,
+
+00:00:03.133 --> 00:00:04.601
+o próximo passo é determinar
+
+00:00:04.634 --> 00:00:07.434
+os pares de lojas
+de controle e tratamento.
+
+00:00:07.467 --> 00:00:11.000
+É importante pensar nas diferenças
+entre as lojas que vão ajudar
+
+00:00:11.033 --> 00:00:14.400
+a emparelhar corretamente
+lojas de controle e tratamento.
+
+00:00:14.434 --> 00:00:16.133
+As variáveis que foram
+consideradas importantes
+
+00:00:16.167 --> 00:00:20.067
+no teste da limpeza de pele foram
+a tendência de vendas da loja -
+
+00:00:20.100 --> 00:00:22.767
+lojas que têm tráfego
+de clientes parecido -,
+
+00:00:22.801 --> 00:00:25.067
+a sazonalidade das vendas -
+vamos combinar lojas
+
+00:00:25.100 --> 00:00:27.801
+com padrões sazonais
+de tráfego similares -
+
+00:00:27.834 --> 00:00:32.701
+e região geográfica para controlar
+preferências regionais dos clientes.
+
+00:00:32.734 --> 00:00:37.601
+Vamos criar um novo workflow
+e importar "Weekly_Store_Traffic".
+
+00:00:37.634 --> 00:00:40.601
+Como discutimos antes,
+medidas numéricas são necessárias
+
+00:00:40.634 --> 00:00:43.968
+para emparelhar lojas de tratamento
+a candidatas a lojas de controle.
+
+00:00:44.001 --> 00:00:47.434
+Duas das melhores medidas
+são a tendência e a sazonalidade.
+
+00:00:47.467 --> 00:00:50.434
+Neste exemplo, vamos usar
+o arquivo "Weekly_Store_Traffic",
+
+00:00:50.467 --> 00:00:53.167
+que criamos no workflow
+de preparação de dados,
+
+00:00:53.200 --> 00:00:55.467
+para calcular essas medidas.
+
+00:00:55.501 --> 00:00:58.334
+Primeiro, vamos trazer
+a ferramenta "AB Trend" para a tela
+
+00:00:58.367 --> 00:01:00.434
+e conectá-la
+ao fluxo de dados.
+
+00:01:00.467 --> 00:01:03.467
+Selecione "Store"
+como o "unit identifier",
+
+00:01:03.501 --> 00:01:06.300
+"Week_End" como
+"reporting period"
+
+00:01:06.334 --> 00:01:09.567
+e "Count" como a "performance
+measure" a ser usada.
+
+00:01:09.601 --> 00:01:13.836
+Para o "Report Period Type",
+selecione "Weekly",
+
+00:01:14.734 --> 00:01:19.267
+e vamos usar "6" como o "Number
+of periods to calculate the trend".
+
+00:01:19.534 --> 00:01:21.868
+A ferramenta "AB Trend"
+usa uma média móvel,
+
+00:01:21.901 --> 00:01:25.033
+e 6 semanas cobrem quaisquer
+variações durante um mês,
+
+00:01:25.067 --> 00:01:27.667
+já que um mês pode ter
+até cinco semanas.
+
+00:01:27.701 --> 00:01:31.567
+Selecione "20 de março"
+como a "Test Start Date".
+
+00:01:31.601 --> 00:01:34.367
+Esta data representa o dia
+em que o teste começou -
+
+00:01:34.400 --> 00:01:38.267
+ou seja, o dia em que começou a
+fazer limpezas a preços diferentes -
+
+00:01:38.300 --> 00:01:42.234
+e avisa à ferramenta "AB Trend"
+que precisa usar dados até esta data
+
+00:01:42.267 --> 00:01:44.067
+para calcular tendências.
+
+00:01:44.100 --> 00:01:46.601
+Depois de configurar
+a ferramenta "AB Trend",
+
+00:01:46.634 --> 00:01:48.801
+vamos ativar o workflow
+para garantir que temos dados
+
+00:01:48.834 --> 00:01:52.167
+e períodos suficientes para calcular
+os resultados corretamente.
+
+00:01:52.200 --> 00:01:53.501
+*END*
+
+00:01:53.534 --> 00:01:54.834
+*CODE*
+
