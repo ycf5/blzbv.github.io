@@ -1,0 +1,234 @@
+WEBVTT
+Kind: captions
+Language: pt-BR
+
+00:00:00.601 --> 00:00:02.934
+Agora que já construímos
+os dois modelos,
+
+00:00:02.968 --> 00:00:06.100
+vamos compará-los usando
+a ferramenta "Model Comparison"
+
+00:00:06.133 --> 00:00:07.534
+mais uma vez.
+
+00:00:07.567 --> 00:00:10.868
+Vamos fazer isso
+pegando uma ferramenta "Union"
+
+00:00:10.901 --> 00:00:13.834
+e conectando os objetos do modelo,
+do modelo "Stepwise"
+
+00:00:13.868 --> 00:00:16.501
+e do modelo "Decision Tree".
+
+00:00:16.534 --> 00:00:20.567
+Então vamos pegar
+a ferramenta "Model Comparison",
+
+00:00:20.601 --> 00:00:22.667
+e os objetos do modelo
+da ferramenta "Union"
+
+00:00:22.701 --> 00:00:25.834
+vão se conectar a "M",
+ou lado do modelo,
+
+00:00:25.868 --> 00:00:30.367
+e o conjunto de dados de validação
+vão para o "D", ou lado dos dados.
+
+00:00:30.400 --> 00:00:32.133
+Assim como com todos
+os outros modelos,
+
+00:00:32.167 --> 00:00:36.501
+vamos definir que classe positiva
+queremos que a variável-alvo seja.
+
+00:00:36.534 --> 00:00:39.934
+Vai ser as respostas "Yes".
+
+00:00:39.968 --> 00:00:44.206
+Depois disso, vou ligar
+uma ferramenta "Browse" ao "R"
+
+00:00:44.801 --> 00:00:46.734
+e ativar o workflow.
+
+00:00:46.767 --> 00:00:51.400
+O que espero como resultado
+é ver exatamente a mesma coisa
+
+00:00:51.434 --> 00:00:54.801
+que vimos com a "Model Comparison"
+em cada modelo,
+
+00:00:54.834 --> 00:00:58.133
+mas agora lado a lado.
+Só estou fazendo isso
+
+00:00:58.167 --> 00:01:02.567
+porque é mais fácil comparar
+os dois modelos lado a lado
+
+00:01:02.601 --> 00:01:05.200
+do que ficar olhando
+para duas janelas.
+
+00:01:05.234 --> 00:01:07.738
+Então vamos examinar
+os resultados agora.
+
+00:01:08.467 --> 00:01:12.167
+A 1ª coisa que vamos fazer
+é observar o relatório de precisão.
+
+00:01:12.200 --> 00:01:14.934
+Como podemos ver,
+o modelo logístico passo a passo
+
+00:01:14.968 --> 00:01:19.901
+tem uma precisão 2% maior
+que o modelo da árvore de decisão.
+
+00:01:19.934 --> 00:01:24.734
+Mas vamos olhar outros itens
+que encontramos neste relatório.
+
+00:01:24.767 --> 00:01:27.400
+A matriz de confusão é igual
+ao que vimos antes,
+
+00:01:27.434 --> 00:01:29.100
+então vamos pular esta parte.
+
+00:01:29.133 --> 00:01:33.667
+Vamos até o "gain chart" encontrado
+nos gráficos de diagnóstico.
+
+00:01:34.033 --> 00:01:40.033
+O gráfico de ganho mostra a taxa
+de respostas "True" no eixo "y"
+
+00:01:40.067 --> 00:01:44.033
+comparada à taxa
+de previsões positivas.
+
+00:01:44.067 --> 00:01:48.300
+Eu quero saber aqui
+qual dos dois modelos -
+
+00:01:48.334 --> 00:01:50.868
+o passo a passo,
+representando em laranja,
+
+00:01:50.901 --> 00:01:55.634
+ou a árvore de decisão,
+representada em azul -
+
+00:01:55.667 --> 00:01:57.801
+chega ao topo mais rápido.
+
+00:01:57.834 --> 00:01:59.934
+Isto está dividido em decis,
+
+00:01:59.968 --> 00:02:02.367
+mas o que realmente
+precisamos ver aqui
+
+00:02:02.400 --> 00:02:05.501
+é que modelo chega ao topo
+mais rápido
+
+00:02:05.534 --> 00:02:09.400
+e que modelo fica no topo
+por mais tempo.
+
+00:02:09.434 --> 00:02:12.667
+O que posso ver é
+que o modelo passo a passo
+
+00:02:12.701 --> 00:02:16.534
+da regressão logística
+fica um pouco acima
+
+00:02:16.567 --> 00:02:20.100
+que o modelo de árvore de decisão
+nesta experiência.
+
+00:02:20.133 --> 00:02:24.100
+Mas, como podem ver, há vários
+gráficos de diagnósticos aqui,
+
+00:02:24.133 --> 00:02:26.200
+como um gráfico
+de comparação de precisão,
+
+00:02:26.234 --> 00:02:30.834
+uma curva de precisão e revocação,
+uma curva ROC etc.
+
+00:02:30.868 --> 00:02:35.801
+Não vou me aprofundar em nenhum
+dos vários gráficos de diagnóstico,
+
+00:02:35.834 --> 00:02:38.567
+mas há alguns textos
+que ensinam a interpretá-los
+
+00:02:38.601 --> 00:02:42.334
+e apontam o que podem significar
+na seção de notas.
+
+00:02:42.367 --> 00:02:45.267
+Eu costumo pegar
+apenas o gráfico de ganhos
+
+00:02:45.300 --> 00:02:48.400
+da seção de gráficos
+de diagnóstico.
+
+00:02:48.434 --> 00:02:51.868
+Mas, se observarmos tudo isto:
+o gráfico de diagnóstico,
+
+00:02:51.901 --> 00:02:54.634
+a matriz de confusão,
+as medidas de ajuste e erro,
+
+00:02:54.667 --> 00:02:56.834
+a precisão total...
+
+00:02:56.868 --> 00:03:00.100
+Parece que temos dois modelos
+muito bons nas mãos,
+
+00:03:00.133 --> 00:03:03.634
+e as evidências mostram
+que o modelo logístico passo a passo
+
+00:03:03.667 --> 00:03:08.000
+funcionou um pouco melhor
+em todas as categorias testadas.
+
+00:03:08.033 --> 00:03:10.501
+Logo, ele é o modelo
+que eu escolheria
+
+00:03:10.534 --> 00:03:13.200
+para prever quem provavelmente
+aceitaria ofertas
+
+00:03:13.234 --> 00:03:15.801
+nas próximas campanhas
+de marketing.
+
+00:03:15.834 --> 00:03:17.133
+*END*
+
+00:03:17.167 --> 00:03:18.467
+*CODE*
+

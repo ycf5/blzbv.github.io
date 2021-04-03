@@ -1,0 +1,28 @@
+WEBVTT
+Kind: captions
+Language: en
+
+00:00:00.000 --> 00:00:03.670
+We'll spend some time talking about how to prepare data for modeling,
+
+00:00:03.670 --> 00:00:07.515
+and now we're going to shift to the fun stuff and focus on building out models.
+
+00:00:07.515 --> 00:00:09.675
+In this lesson, we're going to be building out
+
+00:00:09.675 --> 00:00:12.525
+binary classification models in particular.
+
+00:00:12.525 --> 00:00:15.555
+We're going to start off by discussing two types of models;
+
+00:00:15.555 --> 00:00:17.910
+logistic regression and decision trees.
+
+00:00:17.910 --> 00:00:20.850
+Then we're going to talk about model comparison which helps us
+
+00:00:20.850 --> 00:00:25.180
+figure out which of the two models fit the data best.
+

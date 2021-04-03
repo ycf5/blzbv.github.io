@@ -1,0 +1,45 @@
+WEBVTT
+Kind: captions
+Language: pt-BR
+
+00:00:00.234 --> 00:00:04.634
+Agora que construímos um modelo,
+estamos prontos para validá-lo
+
+00:00:04.667 --> 00:00:06.701
+usando um conjunto
+de dados independente.
+
+00:00:06.734 --> 00:00:09.434
+Vamos procurar duas coisas.
+
+00:00:09.467 --> 00:00:12.868
+Primeiro, qual é a precisão geral
+do modelo?
+
+00:00:12.901 --> 00:00:17.133
+Ou seja, se passarmos uma pessoa
+do exemplo de validação pelo modelo,
+
+00:00:17.167 --> 00:00:20.968
+será que ela recebeu
+o status correto?
+
+00:00:21.001 --> 00:00:24.467
+Depois, vamos procurar a tendência
+nas previsões erradas.
+
+00:00:24.501 --> 00:00:29.300
+Por exemplo, existe uma tendência
+para mais valores "sim" que "não"?
+
+00:00:29.334 --> 00:00:32.100
+Vamos validar o modelo
+no Alteryx agora.
+
+00:00:32.133 --> 00:00:33.434
+*END*
+
+00:00:33.467 --> 00:00:34.767
+*CODE*
+

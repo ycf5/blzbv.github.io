@@ -1,0 +1,97 @@
+WEBVTT
+Kind: captions
+Language: pt-BR
+
+00:00:00.033 --> 00:00:02.767
+Existem três algoritmos
+de regressão logística
+
+00:00:02.801 --> 00:00:04.234
+que costumam ser usados.
+
+00:00:04.267 --> 00:00:06.467
+O que acabamos de conhecer
+é o logaritmo padrão,
+
+00:00:06.501 --> 00:00:09.734
+e ele é chamado de "equação
+de transformação de logito".
+
+00:00:09.767 --> 00:00:12.667
+É nele que vamos nos concentrar
+nas nossas análises,
+
+00:00:12.701 --> 00:00:15.868
+mas vou explicar as outras
+duas opções rapidamente.
+
+00:00:15.901 --> 00:00:19.834
+A 2ª opção é a "equação
+de transformação de probito".
+
+00:00:19.868 --> 00:00:22.767
+Ela é muito parecida
+com a fórmula do logito
+
+00:00:22.801 --> 00:00:25.501
+e, na verdade, traz resultados
+muito parecidos.
+
+00:00:25.534 --> 00:00:28.200
+A 3ª e última opção
+
+00:00:28.234 --> 00:00:31.200
+é a transformação log-log.
+
+00:00:31.234 --> 00:00:33.133
+Esta é a melhor opção
+
+00:00:33.167 --> 00:00:36.634
+quando você acha que a porcentagem
+de mudança nas variáveis preditivas
+
+00:00:36.667 --> 00:00:40.267
+vai representar a porcentagem
+de mudança na variável-alvo.
+
+00:00:40.300 --> 00:00:43.901
+Mas, como eu disse, não vamos nos
+concentrar nas últimas variáveis,
+
+00:00:43.934 --> 00:00:48.100
+mas na regressão logística
+com o logito.
+
+00:00:48.133 --> 00:00:51.801
+Para este e outros modelos
+ensinados em todo o curso,
+
+00:00:51.834 --> 00:00:55.667
+vamos ficar longe dos cálculos
+e nos concentrar
+
+00:00:55.701 --> 00:00:58.501
+no que os algoritmos
+estão fazendo conceitualmente,
+
+00:00:58.534 --> 00:01:00.901
+em como aplicá-los
+e em como interpretá-los
+
+00:01:00.934 --> 00:01:03.400
+na plataforma Alteryx.
+
+00:01:03.434 --> 00:01:05.834
+Vamos usar o Alteryx
+porque a maioria dos modelos
+
+00:01:05.868 --> 00:01:09.200
+está fora do que programas
+normais, como o Excel, podem fazer.
+
+00:01:09.234 --> 00:01:10.400
+*END*
+
+00:01:10.434 --> 00:01:11.701
+*CODE*
+

@@ -1,0 +1,215 @@
+WEBVTT
+Kind: captions
+Language: pt-BR
+
+00:00:00.734 --> 00:00:03.267
+Basicamente,
+o que queremos descobrir
+
+00:00:03.300 --> 00:00:08.501
+é como o modelo muda
+se retirarmos variáveis da análise.
+
+00:00:08.534 --> 00:00:12.033
+Para descobrir isso,
+temos que remover variáveis
+
+00:00:12.067 --> 00:00:16.634
+que têm categorias demais
+dentro de uma variável preditiva.
+
+00:00:16.667 --> 00:00:20.067
+Como vamos fazer isso?
+Vamos começar
+
+00:00:20.100 --> 00:00:23.434
+com algo que já construímos:
+a ferramenta "Input Data"
+
+00:00:23.467 --> 00:00:25.167
+ligada à ferramenta "Select",
+
+00:00:25.200 --> 00:00:27.667
+que está ligada
+à ferramenta "Create Samples".
+
+00:00:27.701 --> 00:00:31.701
+Depois desta parte, vou
+melhorar nosso modelo.
+
+00:00:31.734 --> 00:00:35.467
+A 1ª coisa que vou fazer é pegar
+uma ferramenta "Field Summary"
+
+00:00:35.501 --> 00:00:37.934
+para ver as variáveis
+de categoria
+
+00:00:37.968 --> 00:00:41.901
+e ver quantos valores únicos
+elas têm dentro delas.
+
+00:00:41.934 --> 00:00:44.801
+Vou apenas procurar
+os resultados
+
+00:00:44.834 --> 00:00:48.067
+das diversas
+variáveis de categoria,
+
+00:00:48.100 --> 00:00:51.334
+ou seja, de "Customer Segment",
+"Income",
+
+00:00:51.367 --> 00:00:55.133
+"Redeemer", "Region",
+"Status"...
+
+00:00:55.166 --> 00:00:57.868
+Os campos "Region" e Status".
+
+00:00:57.901 --> 00:00:59.334
+Vou pôr
+uma ferramenta "Browse"
+
+00:00:59.367 --> 00:01:02.434
+após o "I"
+ou "interactive result".
+
+00:01:02.467 --> 00:01:05.033
+Se analisarmos as diversas
+variáveis de categoria,
+
+00:01:05.067 --> 00:01:07.400
+podemos ver
+que os campos "Income"
+
+00:01:07.434 --> 00:01:10.033
+e "Region"
+do segmento de clientes
+
+00:01:10.067 --> 00:01:13.367
+têm categorias demais
+
+00:01:13.400 --> 00:01:17.400
+para serem usadas de modo eficaz
+no modelo de regressão logística.
+
+00:01:17.434 --> 00:01:21.868
+Para lidar com isso, podemos
+combiná-las em grupos menores
+
+00:01:21.901 --> 00:01:26.467
+ou simplesmente não selecioná-las
+no nosso modelo.
+
+00:01:26.501 --> 00:01:29.367
+Nesta situação,
+o que quero que façam é:
+
+00:01:29.400 --> 00:01:31.334
+caso haja mais
+de quatro categorias,
+
+00:01:31.367 --> 00:01:34.434
+retire a seleção
+e não use esse campo
+
+00:01:34.467 --> 00:01:36.834
+na regressão logística.
+
+00:01:36.868 --> 00:01:39.700
+Mas o que eu quero que notem
+é que o campo "Redeemer"
+
+00:01:39.733 --> 00:01:42.234
+e o campo "Status"
+se encaixam na categoria
+
+00:01:42.267 --> 00:01:43.767
+e podem ser usados.
+
+00:01:43.801 --> 00:01:46.567
+Então vamos retirar
+a ferramenta "Field Summary".
+
+00:01:46.601 --> 00:01:49.100
+Vou voltar
+à categoria "Predictive"
+
+00:01:49.133 --> 00:01:51.734
+e pegar uma ferramenta
+"Logistic Regression".
+
+00:01:51.767 --> 00:01:54.334
+Vou dar um nome ao modelo
+e, como fiz antes,
+
+00:01:54.367 --> 00:01:57.567
+vou definir a variável-alvo
+como o campo "Redeemer"
+
+00:01:57.601 --> 00:02:01.033
+e selecionar as possíveis
+variáveis preditivas.
+
+00:02:01.067 --> 00:02:05.434
+Vou escolher as seguintes:
+"Spend", "Status",
+
+00:02:05.467 --> 00:02:08.400
+"Stays Per Year",
+"Total Days Stayed"
+
+00:02:08.434 --> 00:02:10.434
+e "Years Of Loyalty".
+
+00:02:10.467 --> 00:02:13.300
+Vou ativar o modelo
+com o número reduzido
+
+00:02:13.334 --> 00:02:18.901
+de possíveis variáveis preditivas
+e ver se o resultado muda.
+
+00:02:19.133 --> 00:02:20.934
+Como podem ver,
+o valor de "R²"
+
+00:02:20.968 --> 00:02:24.467
+agora é de 0,5865,
+
+00:02:24.501 --> 00:02:29.701
+e temos três variáveis preditivas
+estatisticamente significativas,
+
+00:02:29.734 --> 00:02:32.868
+que não incluem
+o valor do interceto.
+
+00:02:32.901 --> 00:02:35.200
+Esta é, com certeza,
+uma maneira muito válida
+
+00:02:35.234 --> 00:02:38.734
+de determinar as melhores
+variáveis preditivas.
+
+00:02:38.767 --> 00:02:43.701
+Mas é um processo manual,
+que demanda muito tempo.
+
+00:02:43.734 --> 00:02:47.601
+O que vamos fazer agora é alavancar
+a técnica da regressão passo a passo
+
+00:02:47.634 --> 00:02:50.167
+para automatizar
+este processo.
+
+00:02:50.200 --> 00:02:51.501
+*END*
+
+00:02:51.534 --> 00:02:52.801
+*CODE*
+

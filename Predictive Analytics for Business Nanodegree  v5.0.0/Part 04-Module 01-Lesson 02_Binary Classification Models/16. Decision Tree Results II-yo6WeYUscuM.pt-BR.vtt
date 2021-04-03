@@ -1,0 +1,168 @@
+WEBVTT
+Kind: captions
+Language: pt-BR
+
+00:00:00.701 --> 00:00:05.200
+Isto nos dá
+uma representação visual
+
+00:00:05.234 --> 00:00:06.834
+da árvore de decisão,
+
+00:00:06.868 --> 00:00:10.534
+e podemos ver como o modelo foi
+criado, onde ele criou divisões
+
+00:00:10.567 --> 00:00:12.734
+e quantos registros
+foram incluídos
+
+00:00:12.767 --> 00:00:16.634
+nos "sim" e "não"
+de cada divisão.
+
+00:00:16.667 --> 00:00:19.367
+A 1ª divisão ocorreu
+em "Spend".
+
+00:00:19.400 --> 00:00:24.133
+Ela foi maior ou menor
+que US$ 9.549,00?
+
+00:00:24.167 --> 00:00:28.300
+Com base nesta decisão,
+ele vai para o ramo "sim"
+
+00:00:28.334 --> 00:00:30.634
+ou para uma nova divisão.
+
+00:00:30.667 --> 00:00:34.734
+Então, se foi "maior que",
+a resposta deve ser "sim".
+
+00:00:34.767 --> 00:00:37.400
+Podemos ver que 6%
+de todos os registros
+
+00:00:37.434 --> 00:00:41.200
+são maiores que esse valor.
+E, destes 6%,
+
+00:00:41.234 --> 00:00:45.801
+88%, ou seja, 78 registros,
+
+00:00:45.834 --> 00:00:47.467
+seguiram para o ramo "sim".
+
+00:00:47.501 --> 00:00:51.133
+Então, temos certeza de que,
+se o gasto for maior que este valor,
+
+00:00:51.167 --> 00:00:53.801
+eles vão responder "sim".
+
+00:00:53.834 --> 00:00:56.100
+Mas, se estiver abaixo desse valor,
+para onde irão?
+
+00:00:56.133 --> 00:00:59.100
+Eles vão para a divisão
+com as estadias por ano.
+
+00:00:59.133 --> 00:01:01.200
+Há alguns registros
+que vêm para cá,
+
+00:01:01.234 --> 00:01:04.033
+mas não são o suficiente
+para determinar
+
+00:01:04.067 --> 00:01:06.968
+se precisamos fazer
+novas divisões ou não.
+
+00:01:07.000 --> 00:01:11.601
+Podemos continuar seguindo a lista
+para ver onde divisões ocorreram
+
+00:01:11.634 --> 00:01:16.601
+e o número de registros
+que se encaixaram nestes ramos.
+
+00:01:18.467 --> 00:01:22.434
+Com base neste modelo,
+como ficou a matriz de confusão?
+
+00:01:22.467 --> 00:01:27.934
+Isto vai me mostrar
+o "root node error", erro de nó,
+
+00:01:27.968 --> 00:01:33.267
+que indica: de todo o conjunto
+de dados, a amostra de estimação,
+
+00:01:33.300 --> 00:01:37.167
+quantos registros foram
+para as folhas corretas?
+
+00:01:37.200 --> 00:01:41.834
+Como podem ver,
+92% foram considerados corretos.
+
+00:01:41.868 --> 00:01:44.601
+97% dos "não"
+foram classificados corretamente,
+
+00:01:44.634 --> 00:01:50.067
+mas apenas 68% dos "sim"
+foram classificados corretamente.
+
+00:01:50.100 --> 00:01:55.868
+32% dos "sim" foram classificados
+incorretamente como "não"
+
+00:01:55.901 --> 00:02:00.467
+e 3% dos "não" foram classificados
+incorretamente como "sim".
+
+00:02:00.501 --> 00:02:03.467
+A matriz de confusão
+nos ajuda a determinar
+
+00:02:03.501 --> 00:02:06.200
+onde pode haver vieses
+em nossos dados
+
+00:02:06.234 --> 00:02:09.839
+ou se eles tendem para um lado
+ou para o outro.
+
+00:02:10.434 --> 00:02:13.868
+Podemos ver que este modelo
+parece ser muito bom,
+
+00:02:13.901 --> 00:02:17.434
+já que tem precisão de 92%.
+
+00:02:17.467 --> 00:02:21.567
+Agora vamos comparar o modelo
+com a amostra de validação,
+
+00:02:21.601 --> 00:02:25.168
+mas, primeiro, dê uma olhada
+nestes resultados
+
+00:02:25.201 --> 00:02:27.132
+do "Interactive Browse"
+da árvore de decisão
+
+00:02:27.165 --> 00:02:29.667
+e tente responder algumas
+perguntas sobre ela.
+
+00:02:29.701 --> 00:02:31.000
+*END*
+
+00:02:31.033 --> 00:02:32.367
+*CODE*
+

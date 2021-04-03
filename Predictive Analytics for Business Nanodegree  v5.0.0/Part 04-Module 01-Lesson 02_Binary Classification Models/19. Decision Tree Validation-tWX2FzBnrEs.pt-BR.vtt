@@ -1,0 +1,117 @@
+WEBVTT
+Kind: captions
+Language: pt-BR
+
+00:00:00.901 --> 00:00:05.567
+Vamos desacelerar e testar
+o modelo com a amostra de validação
+
+00:00:05.601 --> 00:00:09.601
+para ver como ele lida
+com dados independentes.
+
+00:00:09.634 --> 00:00:13.901
+Vamos pegar o mesmo modelo
+que construímos antes,
+
+00:00:13.934 --> 00:00:15.801
+com o modelo
+de árvore de decisão,
+
+00:00:15.834 --> 00:00:20.000
+mas agora vamos conectar
+a ferramenta "Model Comparison".
+
+00:00:20.033 --> 00:00:22.400
+Vamos configurar
+essa ferramenta
+
+00:00:22.434 --> 00:00:24.334
+da mesma maneira
+que fizemos antes.
+
+00:00:24.367 --> 00:00:27.367
+Então o objeto do modelo
+entra pelo lado "M",
+
+00:00:27.400 --> 00:00:31.834
+e a amostra de validação
+entra pelo lado "D".
+
+00:00:31.868 --> 00:00:35.934
+A "positive class" vai ser,
+mais uma vez, "yes".
+
+00:00:35.968 --> 00:00:41.234
+Vou pôr uma ferramenta "Browse"
+após o "R", ou output de relatório.
+
+00:00:41.868 --> 00:00:44.334
+Podemos ver, neste relatório
+de comparação de modelos,
+
+00:00:44.367 --> 00:00:47.767
+que a precisão total é de 89%,
+
+00:00:47.801 --> 00:00:51.434
+que é muito boa,
+mas um pouco menor
+
+00:00:51.467 --> 00:00:54.567
+do que a que obtivemos
+no modelo de regressão logística.
+
+00:00:54.601 --> 00:00:57.167
+Podemos ver,
+na matriz de confusão de novo,
+
+00:00:57.200 --> 00:01:00.067
+quantos "sim" foram
+previstos corretamente
+
+00:01:00.100 --> 00:01:03.033
+e quantos "não" foram
+previstos corretamente.
+
+00:01:03.067 --> 00:01:05.868
+Então, mais uma vez,
+parece que os "sim"
+
+00:01:05.901 --> 00:01:08.934
+foram um pouco mais difíceis
+de prever que os "não".
+
+00:01:08.968 --> 00:01:12.234
+Isso deve ter acontecido porque
+temos muito mais valores "não"
+
+00:01:12.267 --> 00:01:14.767
+que valores "sim".
+E, mais uma vez,
+
+00:01:14.801 --> 00:01:18.767
+vamos olhar
+os gráficos de diagnósticos depois.
+
+00:01:18.801 --> 00:01:21.234
+Mas, no geral, este parece
+ser um modelo muito bom
+
+00:01:21.267 --> 00:01:24.067
+para prever
+este conjunto de dados de validação.
+
+00:01:24.100 --> 00:01:27.167
+Agora a pergunta é:
+que modelo deveríamos usar
+
+00:01:27.200 --> 00:01:32.834
+para prever quem vai responder
+à campanha de marketing?
+
+00:01:32.868 --> 00:01:34.167
+*END*
+
+00:01:34.200 --> 00:01:35.534
+*CODE*
+

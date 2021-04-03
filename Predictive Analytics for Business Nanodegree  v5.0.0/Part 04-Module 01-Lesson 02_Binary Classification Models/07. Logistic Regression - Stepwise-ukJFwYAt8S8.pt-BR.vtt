@@ -1,0 +1,46 @@
+WEBVTT
+Kind: captions
+Language: pt-BR
+
+00:00:00.267 --> 00:00:02.868
+Não seria legal se houvesse
+uma maneira automática
+
+00:00:02.901 --> 00:00:06.033
+de identificar que variáveis
+são mais importantes para o modelo
+
+00:00:06.067 --> 00:00:08.367
+e incluir apenas essas variáveis
+no modelo?
+
+00:00:08.400 --> 00:00:10.767
+Tanto na regressão linear
+quanto na logística,
+
+00:00:10.800 --> 00:00:13.567
+há uma técnica
+que faz exatamente isso.
+
+00:00:13.601 --> 00:00:15.667
+Ela se chama
+"regressão passo a passo"
+
+00:00:15.701 --> 00:00:19.901
+e ela é um processo em que variáveis
+são acrescentadas e removidas
+
+00:00:19.934 --> 00:00:23.200
+até a melhor combinação
+de variáveis ser identificada.
+
+00:00:23.234 --> 00:00:26.200
+O algoritmo da regressão
+passo a passo funciona de 3 modos.
+
+00:00:26.234 --> 00:00:27.534
+*END*
+
+00:00:27.567 --> 00:00:28.868
+*CODE*
+

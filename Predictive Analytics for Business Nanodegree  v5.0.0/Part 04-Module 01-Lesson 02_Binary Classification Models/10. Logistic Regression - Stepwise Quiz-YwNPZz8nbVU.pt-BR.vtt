@@ -1,0 +1,135 @@
+WEBVTT
+Kind: captions
+Language: pt-BR
+
+00:00:00.367 --> 00:00:03.067
+Vou mostrar como montei
+meu modelo
+
+00:00:03.100 --> 00:00:05.667
+para determinar
+essas duas respostas.
+
+00:00:05.701 --> 00:00:09.467
+Já sabemos como nos conectar
+ao arquivo "HotelLoyaltyData"
+
+00:00:09.501 --> 00:00:12.067
+usando as ferramentas
+"Select" e "Create Samples",
+
+00:00:12.100 --> 00:00:14.968
+mas vou acrescentar as ferramentas
+"Logistic Regression" e "Stepwise"
+
+00:00:15.000 --> 00:00:18.033
+e mostrar como interpretei
+o resultado.
+
+00:00:18.067 --> 00:00:19.934
+A 1ª coisa que vou fazer é pegar
+
+00:00:19.968 --> 00:00:22.300
+a ferramenta "Logistic Regression"
+de novo.
+
+00:00:22.334 --> 00:00:25.701
+Pode chamar o arquivo
+do que quiser,
+
+00:00:25.734 --> 00:00:28.934
+mas vou chamá-lo
+de "Quiz_Logistic".
+
+00:00:28.968 --> 00:00:32.734
+Agora vou selecionar
+a variável-alvo como "Redeemer"
+
+00:00:32.767 --> 00:00:36.267
+e escolher todas as possíveis
+variáveis preditivas,
+
+00:00:36.300 --> 00:00:39.033
+sem incluir "Customer Key",
+"First Name",
+
+00:00:39.067 --> 00:00:42.067
+"Last Name" e "Redeemer".
+
+00:00:42.100 --> 00:00:45.734
+Depois, em vez de pôr um "Browse"
+após a "Logistic Regression",
+
+00:00:45.767 --> 00:00:49.501
+vou passar o resultado
+pela ferramenta "Stepwise".
+
+00:00:49.534 --> 00:00:55.334
+Vou chamar este modelo
+de "Quiz_Stepwise",
+
+00:00:55.367 --> 00:00:58.200
+então vou manter
+a "Search direction"
+
+00:00:58.234 --> 00:01:01.667
+e a "Adjusted fit measure"
+padrões
+
+00:01:01.701 --> 00:01:05.534
+e, por fim, vou pôr
+um "Browse" no resultado.
+
+00:01:05.801 --> 00:01:07.767
+Vou ativar o workflow.
+
+00:01:07.801 --> 00:01:09.868
+Ao analisar o resultado,
+podemos responder
+
+00:01:09.901 --> 00:01:12.834
+as duas perguntas
+que fiz no questionário.
+
+00:01:12.868 --> 00:01:15.567
+A primeira é: "Que variáveis
+foram retiradas
+
+00:01:15.601 --> 00:01:17.834
+do modelo
+de regressão logística?"
+
+00:01:17.867 --> 00:01:21.634
+Como pode ver, os campos
+"Customer Segment", "Income",
+
+00:01:21.667 --> 00:01:24.200
+"Years of Loyalty" e "IncomeU"
+
+00:01:24.234 --> 00:01:27.667
+foram retirados do modelo
+de regressão logística
+
+00:01:27.701 --> 00:01:29.567
+pela ferramenta "Stepwise".
+
+00:01:29.601 --> 00:01:31.634
+Como pode ver, o valor de "R²"
+
+00:01:31.667 --> 00:01:34.701
+é 0,6096.
+
+00:01:34.734 --> 00:01:37.080
+Foi assim que interpretei
+os resultados
+
+00:01:37.113 --> 00:01:39.167
+da ferramenta
+"Stepwise Regression".
+
+00:01:39.200 --> 00:01:40.601
+*END*
+
+00:01:40.634 --> 00:01:41.934
+*CODE*
+

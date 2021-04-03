@@ -1,0 +1,194 @@
+WEBVTT
+Kind: captions
+Language: pt-BR
+
+00:00:00.534 --> 00:00:02.968
+Acabamos de fazer
+todo o trabalho duro
+
+00:00:03.001 --> 00:00:04.968
+e agora podemos nos sentar,
+relaxar
+
+00:00:05.001 --> 00:00:08.067
+e deixar este lindo modelo
+fazer todo o trabalho.
+
+00:00:08.100 --> 00:00:11.467
+Chegamos à parte fácil
+da análise.
+
+00:00:11.501 --> 00:00:14.300
+O que vamos fazer é usar
+nosso modelo histórico
+
+00:00:14.334 --> 00:00:17.434
+para prever o futuro.
+A 1ª coisa que vamos fazer
+
+00:00:17.467 --> 00:00:20.234
+é exportar o objeto de modelo
+que vamos usar
+
+00:00:20.267 --> 00:00:22.133
+para pontuar
+os conjuntos de dados.
+
+00:00:22.166 --> 00:00:26.901
+Não precisamos fazer isso, mas
+acho que é melhor exportar os dados
+
+00:00:26.934 --> 00:00:29.934
+para não termos que fazer
+os modelos logístico e passo a passo
+
+00:00:29.968 --> 00:00:32.601
+milhares de vezes.
+
+00:00:32.634 --> 00:00:34.467
+Então, a única coisa
+que precisamos fazer
+
+00:00:34.501 --> 00:00:36.701
+é pegar uma ferramenta
+"Output Data",
+
+00:00:36.734 --> 00:00:40.367
+ligá-la ao objeto de modelo
+que queremos exportar,
+
+00:00:40.400 --> 00:00:44.767
+dar nome ao modelo
+e salvá-lo em um determinado lugar.
+
+00:00:44.801 --> 00:00:47.434
+O que eu vou fazer é chamá-lo
+
+00:00:47.801 --> 00:00:52.267
+de "Mod", de objeto de modelo,
+"obj"
+
+00:00:52.300 --> 00:00:54.434
+e "Step" no fim.
+
+00:00:54.467 --> 00:00:59.005
+Ele será salvo
+como um arquivo .yxdb.
+
+00:00:59.501 --> 00:01:01.067
+Vamos ativar o modelo.
+
+00:01:01.100 --> 00:01:04.567
+Depois disso, vamos abrir
+uma tela nova
+
+00:01:04.601 --> 00:01:07.300
+e importar
+este conjunto de dados.
+
+00:01:07.334 --> 00:01:09.133
+Vou pegar a ferramenta
+"Input Data"
+
+00:01:09.167 --> 00:01:11.701
+e importar
+meu objeto de modelo.
+
+00:01:11.734 --> 00:01:15.300
+Também vou importar o conjunto
+de dados que quero pontuar.
+
+00:01:15.334 --> 00:01:17.434
+Vai ser o mesmo
+conjunto de dados
+
+00:01:17.467 --> 00:01:20.367
+que usamos para construir
+o modelo anterior,
+
+00:01:20.400 --> 00:01:24.267
+mas agora dividido em amostras
+de estimação e validação.
+
+00:01:24.300 --> 00:01:27.300
+Ainda tenho que usar
+a ferramenta "Select"
+
+00:01:27.334 --> 00:01:31.467
+para ver se temos os tipos
+de campos certos para os valores.
+
+00:01:31.501 --> 00:01:35.005
+Por fim, vou pegar
+a ferramenta "Score".
+
+00:01:35.701 --> 00:01:38.467
+Ela não precisa
+ser configurada,
+
+00:01:38.501 --> 00:01:41.701
+e você pode conectar o seu objeto
+de modelo e o conjunto de dados
+
+00:01:41.734 --> 00:01:43.801
+em qualquer lado.
+
+00:01:43.834 --> 00:01:46.767
+Agora, vamos pegar
+uma ferramenta "Browse"
+
+00:01:46.801 --> 00:01:48.204
+e ativar o modelo.
+
+00:01:48.601 --> 00:01:52.334
+Se você observar o resultado
+da ferramenta "Score" no "Browse",
+
+00:01:52.367 --> 00:01:55.267
+vamos ver que temos
+uma probabilidade preditiva
+
+00:01:55.300 --> 00:01:58.267
+de a pessoa não responder
+
+00:01:58.300 --> 00:02:01.934
+ou responder
+à campanha de marketing.
+
+00:02:01.968 --> 00:02:04.367
+Como pode ver,
+as primeiras pessoas
+
+00:02:04.400 --> 00:02:07.400
+muito provavelmente
+aceitarão uma futura oferta,
+
+00:02:07.434 --> 00:02:12.167
+enquanto estas pessoas provavelmente
+não vão aceitar uma futura oferta.
+
+00:02:12.200 --> 00:02:13.968
+Vamos pensar um pouco nisso.
+
+00:02:14.000 --> 00:02:18.400
+O que conseguimos fazer
+foi determinar a probabilidade
+
+00:02:18.434 --> 00:02:22.033
+de cada pessoa
+aceitar a oferta.
+
+00:02:22.067 --> 00:02:24.801
+Agora que terminamos
+a modelagem e a pontuação,
+
+00:02:24.834 --> 00:02:27.601
+é hora de mostrar os resultados
+para o nosso chefe.
+
+00:02:27.634 --> 00:02:28.934
+*END*
+
+00:02:28.968 --> 00:02:30.300
+*CODE*
+

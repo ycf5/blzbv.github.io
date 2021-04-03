@@ -1,0 +1,55 @@
+WEBVTT
+Kind: captions
+Language: pt-BR
+
+00:00:01.267 --> 00:00:03.767
+Já escolhemos o modelo, então
+a única coisa que temos que fazer
+
+00:00:03.800 --> 00:00:07.267
+é prever quem vai responder
+à nossa campanha de marketing.
+
+00:00:07.300 --> 00:00:09.067
+Quando colocamos
+um modelo para funcionar,
+
+00:00:09.100 --> 00:00:11.300
+chamamos
+de "pontuar um modelo".
+
+00:00:11.334 --> 00:00:14.400
+Isso significa pegar
+cada registro
+
+00:00:14.434 --> 00:00:16.767
+e aplicar o modelo a ele
+
+00:00:16.801 --> 00:00:19.934
+para obter a probabilidade
+de eles aceitarem a oferta.
+
+00:00:19.968 --> 00:00:22.033
+Agora quero que você
+tente fazer isso.
+
+00:00:22.067 --> 00:00:23.667
+Primeiro,
+com nosso modelo completo
+
+00:00:23.700 --> 00:00:25.635
+e uma pessoa para prever.
+
+00:00:25.668 --> 00:00:27.600
+Depois, vamos pegar
+o conjunto de dados completo
+
+00:00:27.633 --> 00:00:29.467
+e pontuá-lo no Alteryx.
+
+00:00:29.501 --> 00:00:30.801
+*END*
+
+00:00:30.834 --> 00:00:32.133
+*CODE*
+

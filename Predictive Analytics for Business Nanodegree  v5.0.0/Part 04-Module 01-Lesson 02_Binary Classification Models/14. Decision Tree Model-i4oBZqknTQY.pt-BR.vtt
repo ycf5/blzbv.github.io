@@ -1,0 +1,143 @@
+WEBVTT
+Kind: captions
+Language: pt-BR
+
+00:00:00.300 --> 00:00:02.467
+Agora vamos passar
+ao 2º modelo.
+
+00:00:02.501 --> 00:00:05.067
+Vamos construir
+uma árvore de decisão.
+
+00:00:05.100 --> 00:00:07.901
+Um algoritmo de árvore de decisão
+é muito diferente
+
+00:00:07.934 --> 00:00:10.734
+do algoritmo
+de modelagem logística.
+
+00:00:10.767 --> 00:00:15.901
+Este algoritmo analisa os dados
+como se fosse uma série de decisões.
+
+00:00:15.934 --> 00:00:21.434
+Isso resulta em uma comparação entre
+cada um dos possíveis resultados.
+
+00:00:21.467 --> 00:00:26.501
+Para ilustrar o algoritmo,
+vamos usar um exemplo simples.
+
+00:00:26.534 --> 00:00:30.901
+Temos um pote com 120 M&amp;M's
+em uma festa.
+
+00:00:30.934 --> 00:00:34.634
+No fim da noite, alguns
+foram comidos e outros, não.
+
+00:00:34.667 --> 00:00:40.234
+Quero saber se posso prever
+se uma cor específica será comida.
+
+00:00:40.267 --> 00:00:44.767
+Vamos começar com apenas
+uma variável preditiva, a cor.
+
+00:00:44.801 --> 00:00:47.167
+Esta divisão seria escolhida
+porque definiria
+
+00:00:47.200 --> 00:00:51.634
+a maior diferença de porcentagem
+comida entre os dois grupos.
+
+00:00:51.667 --> 00:00:55.467
+Certo. Vamos acrescentar
+uma 2ª variável, o sabor.
+
+00:00:55.501 --> 00:00:59.767
+A única divisão possível é
+"com amendoins" ou "sem amendoins".
+
+00:00:59.801 --> 00:01:02.868
+75% dos "com amendoins"
+foram comidos.
+
+00:01:02.901 --> 00:01:07.400
+13,3% dos "sem amendoins"
+foram comidos.
+
+00:01:07.434 --> 00:01:11.634
+Se compararmos isto à cor,
+que divisão aconteceria primeiro?
+
+00:01:11.667 --> 00:01:13.767
+Cor ou sabor?
+
+00:01:13.801 --> 00:01:15.634
+Como o sabor tem
+uma diferença maior,
+
+00:01:15.667 --> 00:01:18.801
+ele causaria a 1ª divisão.
+
+00:01:18.834 --> 00:01:20.734
+Depois que a 1ª divisão
+acontece,
+
+00:01:20.767 --> 00:01:23.801
+cada divisão é tratada
+de modo separado.
+
+00:01:23.834 --> 00:01:26.133
+Então, para fazer
+a 2ª divisão,
+
+00:01:26.167 --> 00:01:29.133
+temos que ter
+uma noção geral dos dados.
+
+00:01:29.167 --> 00:01:31.300
+Agora, vamos considerar
+apenas o grupo "com amendoim"
+
+00:01:31.334 --> 00:01:32.601
+para a 2ª divisão
+
+00:01:32.634 --> 00:01:35.067
+e o grupo "sem amendoim"
+separadamente.
+
+00:01:35.100 --> 00:01:39.467
+Então, como usaríamos a árvore
+para prever um resultado?
+
+00:01:39.501 --> 00:01:42.100
+Vamos supor que sou
+um M&amp;M azul de amendoim.
+
+00:01:42.133 --> 00:01:44.834
+Qual é a chance
+de eu ser comido?
+
+00:01:44.868 --> 00:01:48.200
+Se continuarmos o caminho
+para um M&amp;M azul de amendoim,
+
+00:01:48.234 --> 00:01:54.000
+podemos ver que, na folha,
+há 90% de chance de ele ser comido.
+
+00:01:54.033 --> 00:01:57.400
+Essa é a lógica básica
+de uma árvore de decisão.
+
+00:01:57.434 --> 00:01:58.734
+*END*
+
+00:01:58.767 --> 00:02:00.067
+*CODE*
+

@@ -1,0 +1,238 @@
+WEBVTT
+Kind: captions
+Language: pt-BR
+
+00:00:00.334 --> 00:00:05.067
+Nós usamos o modelo e reduzimos
+muitas das variáveis desnecessárias.
+
+00:00:05.100 --> 00:00:07.601
+Agora vamos testar
+como o modelo age
+
+00:00:07.634 --> 00:00:09.968
+com uma amostra independente.
+
+00:00:10.001 --> 00:00:12.968
+Vamos usar o conjunto de dados
+de validação.
+
+00:00:13.001 --> 00:00:15.334
+Para fazer isso, o Alteryx
+tem uma ferramenta excelente,
+
+00:00:15.367 --> 00:00:18.901
+chamada ferramenta
+"Model Comparison".
+
+00:00:18.934 --> 00:00:21.400
+Ela permite que os usuários
+validem os modelos
+
+00:00:21.434 --> 00:00:24.200
+e os comparem
+uns com os outros.
+
+00:00:24.234 --> 00:00:26.501
+Confira as notas do instrutor
+para saber como adicionar
+
+00:00:26.534 --> 00:00:28.734
+esta ferramenta a sua paleta.
+
+00:00:28.767 --> 00:00:33.300
+Vamos começar com o modelo
+passo a passo já construído.
+
+00:00:33.334 --> 00:00:35.868
+Agora vou trazer a ferramenta
+"Model Comparison"
+
+00:00:35.901 --> 00:00:37.701
+e mostrar como usá-la.
+
+00:00:37.734 --> 00:00:40.801
+No input "M", vamos colocar
+o objeto do modelo
+
+00:00:40.834 --> 00:00:42.367
+que queremos validar.
+
+00:00:42.400 --> 00:00:44.767
+O objeto do modelo
+da ferramenta "Stepwise"
+
+00:00:44.801 --> 00:00:48.868
+vai para o input "M"
+da ferramenta "Model Comparison".
+
+00:00:48.901 --> 00:00:51.067
+O outro lado é o "D".
+
+00:00:51.100 --> 00:00:53.367
+Este será nosso conjunto
+de dados de validação.
+
+00:00:53.400 --> 00:00:56.501
+Então vou pegar o output "V"
+da ferramenta "Create Samples"
+
+00:00:56.534 --> 00:00:59.601
+e ligá-lo à ferramenta
+"Model Comparison".
+
+00:00:59.634 --> 00:01:01.701
+Agora a única coisa
+que precisamos configurar
+
+00:01:01.734 --> 00:01:03.567
+na ferramenta
+"Model Comparison" é:
+
+00:01:03.601 --> 00:01:05.901
+"Qual é a classe-alvo
+positiva?"
+
+00:01:05.934 --> 00:01:10.501
+Ou seja, queremos que "sim" ou "não"
+sejam associações positivas
+
+00:01:10.534 --> 00:01:13.634
+ou "verdadeiro" ou "falso"
+ou "1" ou "0"?
+
+00:01:14.167 --> 00:01:17.734
+Fique sabendo que vou
+escolher "sim" neste caso.
+
+00:01:17.767 --> 00:01:20.033
+Como podem ver, temos
+três outputs diferentes,
+
+00:01:20.067 --> 00:01:23.667
+mas vou apenas ver o "R",
+que é o relatório.
+
+00:01:23.701 --> 00:01:28.100
+Muitos resultados diferentes
+aparecem no relatório de comparação.
+
+00:01:28.133 --> 00:01:31.701
+A 1ª coisa são as medidas
+de ajuste e erro.
+
+00:01:31.734 --> 00:01:34.534
+Isso nos mostra
+a precisão total
+
+00:01:34.567 --> 00:01:38.968
+e a precisão da previsão
+de "nãos" e de "sins",
+
+00:01:39.001 --> 00:01:42.901
+além de outras variáveis
+que não precisamos explorar muito.
+
+00:01:42.934 --> 00:01:45.868
+No entanto, definições para elas
+podem ser encontradas abaixo.
+
+00:01:45.901 --> 00:01:48.300
+Como podemos ver, o conjunto
+de dados de validação
+
+00:01:48.334 --> 00:01:50.834
+foi previsto muito bem
+por este modelo,
+
+00:01:50.868 --> 00:01:54.100
+e a precisão total foi de 91%.
+
+00:01:54.133 --> 00:01:57.566
+Os "não" foram previstos bem,
+92% das vezes,
+
+00:01:57.599 --> 00:02:02.367
+mas os "sim" foram
+mais difíceis de prever,
+
+00:02:02.400 --> 00:02:05.367
+e apenas 83% deles
+foram previstos de forma precisa.
+
+00:02:05.400 --> 00:02:08.167
+O próximo resultado
+é a matriz de confusão,
+
+00:02:08.200 --> 00:02:12.701
+que mostra quantos "não"
+foram previstos corretamente
+
+00:02:12.734 --> 00:02:14.634
+comparados com os "sim".
+
+00:02:14.667 --> 00:02:18.534
+Como pode ver, 404 registros
+que foram previstos como "não"
+
+00:02:18.567 --> 00:02:20.200
+realmente eram "não".
+
+00:02:20.234 --> 00:02:23.634
+Mas há 45 registros
+que foram previstos como "não"
+
+00:02:23.667 --> 00:02:25.834
+e que, no fim, eram "sim".
+
+00:02:25.868 --> 00:02:28.601
+Este resultado mostra
+uma boa representação
+
+00:02:28.634 --> 00:02:30.334
+de onde vieses podem ocorrer.
+
+00:02:30.367 --> 00:02:33.434
+Temos mais "não"
+que foram previstos como "sim"
+
+00:02:33.467 --> 00:02:36.334
+ou mais "sim"
+que foram previstos como "não"?
+
+00:02:36.367 --> 00:02:39.667
+Por fim, temos alguns
+gráficos de diagnóstico,
+
+00:02:39.701 --> 00:02:41.701
+que vamos analisar
+melhor depois.
+
+00:02:41.734 --> 00:02:45.067
+Mas, julgando apenas
+pela matriz de confusão
+
+00:02:45.100 --> 00:02:46.968
+e pelas medidas
+de ajuste e erro,
+
+00:02:47.001 --> 00:02:49.634
+acho que este modelo
+é muito bom.
+
+00:02:49.667 --> 00:02:51.701
+Mas, antes de nos adiantarmos,
+
+00:02:51.734 --> 00:02:53.400
+vou testar este modelo
+
+00:02:53.434 --> 00:02:56.434
+com outros modelos
+que vamos criar agora.
+
+00:02:56.467 --> 00:02:57.767
+*END*
+
+00:02:57.801 --> 00:02:59.100
+*CODE*
+

@@ -1,0 +1,130 @@
+WEBVTT
+Kind: captions
+Language: pt-BR
+
+00:00:00.400 --> 00:00:02.200
+Os primeiros resultados
+que vamos conferir
+
+00:00:02.234 --> 00:00:04.767
+são os que saíram
+do nó de relatório.
+
+00:00:04.801 --> 00:00:06.501
+Vou maximizar o relatório
+
+00:00:06.534 --> 00:00:08.434
+e trazê-lo para nossa janela.
+
+00:00:08.467 --> 00:00:11.667
+Há muitos resultados
+neste tipo de resultado,
+
+00:00:11.701 --> 00:00:15.167
+se compararmos com os
+das regressões linear ou logística
+
+00:00:15.200 --> 00:00:18.033
+ou com os resultados
+da ferramenta "Stepwise".
+
+00:00:18.067 --> 00:00:22.767
+A 1ª coisa que vou olhar
+é o "Root node error".
+
+00:00:22.801 --> 00:00:26.000
+O que ele indica é:
+quando validamos
+
+00:00:26.033 --> 00:00:30.801
+os dados com o modelo,
+em quantos ocorreu um erro?
+
+00:00:30.834 --> 00:00:34.000
+Parece que 15% foram erros,
+
+00:00:34.033 --> 00:00:39.367
+ou seja, que eles foram
+para a folha incorreta.
+
+00:00:39.400 --> 00:00:41.767
+O que o "Root node error"
+mostra é:
+
+00:00:41.801 --> 00:00:45.567
+de todos os dados estimados
+que fornecemos,
+
+00:00:45.601 --> 00:00:49.868
+eles tiraram um pedacinho e criaram
+um conjunto de dados de validação
+
+00:00:49.901 --> 00:00:51.968
+dentro da amostra de estimação
+
+00:00:52.000 --> 00:00:55.133
+e viram, dentro
+da amostra de validação,
+
+00:00:55.167 --> 00:00:57.400
+quantos valores
+foram previstos da forma correta
+
+00:00:57.434 --> 00:01:00.400
+ou, neste caso,
+resultaram em erro,
+
+00:01:00.434 --> 00:01:03.400
+ou seja, foram
+para a folha incorreta.
+
+00:01:03.434 --> 00:01:06.968
+E parece que 15% dos registros
+fizeram isso.
+
+00:01:07.000 --> 00:01:10.140
+A próxima coisa que vou
+analisar é a "Pruning Table".
+
+00:01:10.833 --> 00:01:14.601
+Ela me mostra quantos níveis
+a árvore de decisão tem
+
+00:01:14.634 --> 00:01:17.934
+e alguns termos de erros
+nas amostras de validação.
+
+00:01:17.968 --> 00:01:21.834
+Mas não vou me aprofundar
+muito nestes resultados.
+
+00:01:21.868 --> 00:01:24.167
+O que acho que seria
+mais interessante
+
+00:01:24.200 --> 00:01:26.033
+para ver o diagrama
+de caule e folhas
+
+00:01:26.067 --> 00:01:27.968
+e os gráficos que estão
+aqui embaixo
+
+00:01:28.000 --> 00:01:30.734
+seria passar
+o "Interactive Browse",
+
+00:01:30.767 --> 00:01:34.167
+já que ele faz um ótimo trabalho
+com as visualizações
+
+00:01:34.200 --> 00:01:38.033
+e ajuda a interpretar o resultado
+do modelo de árvore de decisão.
+
+00:01:38.332 --> 00:01:39.501
+*END*
+
+00:01:39.534 --> 00:01:40.834
+*CODE*
+

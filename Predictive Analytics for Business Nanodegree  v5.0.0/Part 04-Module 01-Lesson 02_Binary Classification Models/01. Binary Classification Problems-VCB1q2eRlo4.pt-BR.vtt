@@ -1,0 +1,49 @@
+WEBVTT
+Kind: captions
+Language: pt-BR
+
+00:00:00.234 --> 00:00:01.735
+Passamos algum tempo
+falando
+
+00:00:01.768 --> 00:00:03.670
+sobre a preparação
+dos dados para modelagem
+
+00:00:03.704 --> 00:00:05.506
+e agora vamos passar
+às coisas divertidas
+
+00:00:05.539 --> 00:00:07.508
+e nos concentrar
+na construção de modelos.
+
+00:00:07.541 --> 00:00:12.679
+Nesta aula, vamos criar
+modelos de classificação binários.
+
+00:00:12.712 --> 00:00:15.549
+Vamos começar discutindo
+dois tipos de modelo:
+
+00:00:15.582 --> 00:00:17.818
+regressão logística
+e árvores de decisão.
+
+00:00:17.851 --> 00:00:20.152
+Depois vamos falar
+sobre comparações de modelo,
+
+00:00:20.185 --> 00:00:22.955
+que vão nos ajudar a descobrir
+qual dos dois modelos
+
+00:00:22.988 --> 00:00:25.058
+se encaixa melhor nos dados.
+
+00:00:25.091 --> 00:00:26.426
+*END*
+
+00:00:26.460 --> 00:00:27.761
+*CODE*
+

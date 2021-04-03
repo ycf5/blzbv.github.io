@@ -1,0 +1,175 @@
+WEBVTT
+Kind: captions
+Language: pt-BR
+
+00:00:00.334 --> 00:00:02.300
+Vamos voltar
+ao nosso modelo anterior,
+
+00:00:02.334 --> 00:00:04.734
+"Hotel_Log".
+
+00:00:04.767 --> 00:00:07.499
+Foi aqui que colocamos
+todas as variáveis preditivas
+
+00:00:07.532 --> 00:00:11.667
+na regressão logística
+para prever o campo "Redeemer".
+
+00:00:11.701 --> 00:00:15.067
+Agora, o que vamos fazer
+é pegar a ferramenta "Stepwise".
+
+00:00:15.100 --> 00:00:19.901
+Ela pega um input do objeto
+do modelo de regressão logística
+
+00:00:19.934 --> 00:00:24.133
+e outro input do conjunto
+de dados de estimação original.
+
+00:00:24.167 --> 00:00:27.000
+Agora temos que dar
+um nome ao modelo.
+
+00:00:27.033 --> 00:00:29.067
+Vou chamar de "Stepwise_Log"
+
+00:00:29.100 --> 00:00:31.934
+para identificar a regressão
+logística passo a passo.
+
+00:00:31.968 --> 00:00:33.934
+Como podemos ver,
+como já mencionamos,
+
+00:00:33.968 --> 00:00:36.634
+há diferentes direções
+de busca que podemos usar:
+
+00:00:36.667 --> 00:00:40.367
+busca regressiva e progressiva
+ou apenas regressiva.
+
+00:00:40.400 --> 00:00:45.407
+Normalmente, eu seleciono
+progressiva e regressiva combinadas.
+
+00:00:46.364 --> 00:00:48.901
+Agora, lembre que antes
+mencionamos
+
+00:00:48.934 --> 00:00:51.400
+que existem algumas maneiras
+de determinar qual é o melhor
+
+00:00:51.434 --> 00:00:54.901
+deste modelo passo a passo,
+onde ele deveria parar.
+
+00:00:54.934 --> 00:00:59.467
+Isto costuma ser
+os valores de AIC ou BIC.
+
+00:00:59.501 --> 00:01:02.400
+O AIC costuma ser visto
+como um melhor jeito
+
+00:01:02.434 --> 00:01:04.701
+de medir a qualidade do modelo
+do que o BIC,
+
+00:01:04.734 --> 00:01:08.965
+mas o BIC está disponível
+para ser usado como uma medida,
+
+00:01:08.998 --> 00:01:10.767
+se você quiser.
+
+00:01:10.801 --> 00:01:12.901
+Mas o padrão
+deixa o AIC selecionado,
+
+00:01:12.934 --> 00:01:14.501
+então vou manter assim.
+
+00:01:14.534 --> 00:01:16.767
+Se quiser ler mais sobre isso,
+
+00:01:16.801 --> 00:01:21.701
+pode encontrar informações
+sobre o AIC e o BIC nas anotações.
+
+00:01:21.734 --> 00:01:24.667
+A última coisa que vou fazer
+é pegar uma ferramenta "Browse"
+
+00:01:24.700 --> 00:01:28.801
+e ligá-la ao "R"
+da ferramenta "Stepwise Regression".
+
+00:01:28.834 --> 00:01:32.067
+Vou clicar em "Run"
+e ver os resultados.
+
+00:01:32.100 --> 00:01:35.634
+Agora o que podemos ver
+é que temos resultados parecidos
+
+00:01:35.667 --> 00:01:37.767
+com os que vimos
+na regressão logística.
+
+00:01:37.801 --> 00:01:39.801
+Como pode ver,
+retiramos os campos "Income"
+
+00:01:39.834 --> 00:01:41.467
+e "Customer Segment",
+
+00:01:41.501 --> 00:01:45.801
+mas mantivemos
+a variável de categoria "Region".
+
+00:01:45.834 --> 00:01:48.968
+Se olharmos embaixo,
+podemos ver que o "R²"
+
+00:01:49.001 --> 00:01:51.467
+é bem parecido
+com o que vimos antes
+
+00:01:51.501 --> 00:01:54.601
+na regressão logística completa
+que acabamos de fazer.
+
+00:01:54.634 --> 00:01:59.267
+Mas nós retiramos
+muitas variáveis do modelo.
+
+00:01:59.300 --> 00:02:00.934
+Ainda temos muitas variáveis
+
+00:02:00.968 --> 00:02:03.701
+que ainda são estatisticamente
+insignificantes,
+
+00:02:03.734 --> 00:02:07.667
+já que não têm
+os asteriscos à direita.
+
+00:02:07.701 --> 00:02:11.400
+Agora que você viu como é fácil
+fazer uma regressão passo a passo,
+
+00:02:11.434 --> 00:02:15.033
+quero que faça uma sozinho
+na próxima seção.
+
+00:02:15.367 --> 00:02:16.667
+*END*
+
+00:02:16.700 --> 00:02:17.968
+*CODE*
+

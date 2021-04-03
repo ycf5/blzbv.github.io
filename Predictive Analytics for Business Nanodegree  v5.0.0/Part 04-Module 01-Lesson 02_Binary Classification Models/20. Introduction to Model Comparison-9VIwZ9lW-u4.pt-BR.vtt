@@ -1,0 +1,82 @@
+WEBVTT
+Kind: captions
+Language: pt-BR
+
+00:00:00.467 --> 00:00:03.567
+Você acabou de aprender o básico
+sobre o que é uma árvore de decisão
+
+00:00:03.601 --> 00:00:08.000
+e também viu como construir e
+validar seu modelo usando o Alteryx.
+
+00:00:08.033 --> 00:00:10.434
+Agora vamos comparar
+nossos modelos
+
+00:00:10.467 --> 00:00:13.734
+para prever qual será
+o melhor para a produção.
+
+00:00:13.767 --> 00:00:17.434
+Você pode estar se perguntando
+por que estamos comparando modelos
+
+00:00:17.467 --> 00:00:19.968
+se já validamos
+ambos os modelos.
+
+00:00:20.001 --> 00:00:23.767
+Eu acho que é uma boa prática
+pôr os modelos lado a lado.
+
+00:00:23.801 --> 00:00:26.133
+Como vão ver, há algumas maneiras
+de fazer isso
+
+00:00:26.167 --> 00:00:28.367
+usando a ferramenta
+"Model Comparison".
+
+00:00:28.400 --> 00:00:32.166
+Vamos pesquisar a precisão geral
+dos dois modelos
+
+00:00:32.199 --> 00:00:34.367
+e o gráfico
+de comparação de precisão.
+
+00:00:34.400 --> 00:00:36.267
+O gráfico de comparação
+de precisão
+
+00:00:36.300 --> 00:00:38.200
+agrega dados
+em 10 grupos diferentes.
+
+00:00:38.234 --> 00:00:41.434
+Esses grupos são ordenados
+com base na probabilidade preditiva
+
+00:00:41.467 --> 00:00:44.667
+de uma resposta favorável
+para o modelo.
+
+00:00:44.701 --> 00:00:48.067
+A resposta, depois, é comparada
+ao que seria esperado
+
+00:00:48.100 --> 00:00:51.232
+se a seleção dos possíveis modelos
+fosse feita de forma aleatória.
+
+00:00:51.265 --> 00:00:53.434
+Vamos ver isso no Alteryx
+agora.
+
+00:00:53.467 --> 00:00:54.767
+*END*
+
+00:00:54.801 --> 00:00:56.100
+*CODE*
+

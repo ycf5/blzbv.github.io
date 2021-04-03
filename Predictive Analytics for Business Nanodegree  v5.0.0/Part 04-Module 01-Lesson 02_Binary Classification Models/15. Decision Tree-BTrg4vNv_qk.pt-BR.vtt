@@ -1,0 +1,124 @@
+WEBVTT
+Kind: captions
+Language: pt-BR
+
+00:00:00.133 --> 00:00:03.667
+Agora que aprendemos a lógica básica
+de uma árvore de decisão,
+
+00:00:03.701 --> 00:00:06.534
+vamos construir
+uma no Alteryx.
+
+00:00:06.567 --> 00:00:09.868
+Vamos começar
+com o mesmo input
+
+00:00:09.901 --> 00:00:13.133
+e as ferramentas "Select"
+e "Create Sample".
+
+00:00:13.167 --> 00:00:16.934
+Agora vou pegar
+uma ferramenta "Decision Tree"
+
+00:00:16.968 --> 00:00:20.067
+encontrada
+na categoria "Predictive".
+
+00:00:20.100 --> 00:00:23.033
+A 1ª coisa que vou fazer
+é dar nome ao modelo.
+
+00:00:23.067 --> 00:00:28.200
+Vou chamá-lo de "DT_Redeemer".
+
+00:00:28.234 --> 00:00:31.133
+Então vou selecionar
+que campo será meu "Target",
+
+00:00:31.167 --> 00:00:33.334
+que será o campo "Redeemer".
+
+00:00:33.367 --> 00:00:37.100
+A próxima coisa que vou fazer é
+selecionar as variáveis preditivas,
+
+00:00:37.133 --> 00:00:42.067
+que serão todas, tirando
+"Customer Key", "First Name",
+
+00:00:42.100 --> 00:00:45.501
+"Last Name" e "Redeemer".
+
+00:00:45.534 --> 00:00:48.334
+Algumas opções de customização
+de modelo diferentes
+
+00:00:48.367 --> 00:00:50.200
+podem ser vistas nesta aba.
+
+00:00:50.234 --> 00:00:54.033
+A 1ª coisa que podemos selecionar
+é o número mínimo de registros
+
+00:00:54.067 --> 00:00:56.968
+necessários
+para permitir a divisão.
+
+00:00:57.000 --> 00:01:01.067
+O que isso significa é que,
+quanto menor o número escolhido,
+
+00:01:01.100 --> 00:01:04.801
+mais ramos teremos
+na árvore de decisão.
+
+00:01:04.834 --> 00:01:09.167
+É a mesma coisa para
+o número mínimo de folhas,
+
+00:01:09.200 --> 00:01:10.868
+que é a próxima opção.
+
+00:01:10.901 --> 00:01:13.901
+Se escolhermos
+um número baixo,
+
+00:01:13.934 --> 00:01:17.834
+teremos mais folhas.
+
+00:01:17.868 --> 00:01:20.501
+As últimas opções
+são mais avançadas,
+
+00:01:20.534 --> 00:01:23.100
+e vamos manter simplesmente
+a seleção padrão.
+
+00:01:23.133 --> 00:01:25.133
+Se quiser saber mais
+sobre eles,
+
+00:01:25.167 --> 00:01:29.534
+procure as anotações
+abaixo do vídeo.
+
+00:01:29.567 --> 00:01:31.667
+Então, antes de ativar
+o workflow,
+
+00:01:31.701 --> 00:01:36.300
+vou colocar ferramentas "Browse"
+nos outputs "R" e "I",
+
+00:01:36.334 --> 00:01:39.300
+e vamos examiná-las
+na próxima seção.
+
+00:01:39.333 --> 00:01:40.701
+*END*
+
+00:01:40.734 --> 00:01:42.033
+*CODE*
+

@@ -1,0 +1,52 @@
+WEBVTT
+Kind: captions
+Language: pt-BR
+
+00:00:00.501 --> 00:00:03.901
+Parabéns! Você acabou
+de aprender um conteúdo enorme.
+
+00:00:03.934 --> 00:00:06.701
+Você aprendeu os conceitos da
+modelagem de classificação binária
+
+00:00:06.734 --> 00:00:10.934
+e dos modelos de regressão,
+passo a passo e árvore de decisão.
+
+00:00:10.968 --> 00:00:14.067
+O que também é muito importante é
+a capacidade de comparar os modelos
+
+00:00:14.100 --> 00:00:17.334
+e escolher corretamente que modelo
+você vai usar na produção.
+
+00:00:17.367 --> 00:00:19.067
+Criar modelos
+dá muito trabalho,
+
+00:00:19.100 --> 00:00:22.267
+mas poder dar ao seu chefe
+previsões em que você confia
+
+00:00:22.300 --> 00:00:24.667
+vale o esforço, com certeza.
+
+00:00:24.701 --> 00:00:26.801
+Vamos usar
+uma abordagem muito parecida
+
+00:00:26.834 --> 00:00:30.400
+para criar modelos de classificação
+não binários na próxima aula.
+
+00:00:30.434 --> 00:00:31.934
+Vejo você lá.
+
+00:00:31.968 --> 00:00:33.267
+*END*
+
+00:00:33.300 --> 00:00:34.601
+*CODE*
+

@@ -1,0 +1,281 @@
+WEBVTT
+Kind: captions
+Language: pt-BR
+
+00:00:00.133 --> 00:00:04.501
+Certo. Vamos abrir o Alteryx
+e pegar uma ferramenta "Input Data"
+
+00:00:04.534 --> 00:00:08.667
+e abrir o arquivo
+"HotelLoyaltyData.csv".
+
+00:00:08.701 --> 00:00:11.734
+Os dados foram somados
+com base no cliente
+
+00:00:11.767 --> 00:00:14.467
+e têm muitas variáveis
+sobre esses clientes.
+
+00:00:14.501 --> 00:00:17.467
+A 1ª coisa que vou fazer
+é ligá-lo a uma ferramenta "Select",
+
+00:00:17.501 --> 00:00:21.934
+que me permite ver a estrutura
+de todos os diferentes campos.
+
+00:00:21.968 --> 00:00:24.067
+Como os dados eram
+de um arquivo .csv,
+
+00:00:24.100 --> 00:00:27.634
+todos eles serão campos
+de conteúdo geral ou strings.
+
+00:00:27.667 --> 00:00:31.434
+Mas, como sabemos, temos
+algumas variáveis que são numéricas.
+
+00:00:31.467 --> 00:00:35.501
+Então devemos mudar o "Field Type"
+para tipos numéricos.
+
+00:00:35.534 --> 00:00:38.834
+Os outros campos podem ser
+variáveis de categoria
+
+00:00:38.868 --> 00:00:41.667
+com conteúdo geral ou strings.
+
+00:00:41.701 --> 00:00:44.934
+Depois disso, vou até a categoria
+"Data Preparation"
+
+00:00:44.968 --> 00:00:48.234
+construir amostras
+de estimação e validação
+
+00:00:48.267 --> 00:00:50.767
+usando uma ferramenta
+"Create Samples".
+
+00:00:50.801 --> 00:00:53.467
+Nesta ferramenta, escolhemos
+quantos registros
+
+00:00:53.501 --> 00:00:57.634
+ou que porcentagem de registros você
+quer ter na "Estimation sample"
+
+00:00:57.667 --> 00:00:59.267
+e na "Validation sample",
+
+00:00:59.300 --> 00:01:03.234
+e o resto será
+o "Holdout sample".
+
+00:01:03.267 --> 00:01:08.100
+Normalmente, costumo definir
+70% para a "Estimation sample"
+
+00:01:08.133 --> 00:01:10.067
+para construir meu modelo.
+
+00:01:10.100 --> 00:01:15.167
+E 30% dos dados
+vão validar o modelo.
+
+00:01:15.200 --> 00:01:18.033
+Qualquer outra coisa que for
+menor do que 100%
+
+00:01:18.067 --> 00:01:20.300
+irá para a amostra holdout.
+
+00:01:20.334 --> 00:01:23.821
+Como pode ver, 100% dos registros
+foram usados nas amostras
+
+00:01:23.854 --> 00:01:29.734
+de estimação e validação,
+então nada vai aparecer no holdout.
+
+00:01:29.767 --> 00:01:33.434
+Vou ativar o workflow
+para você poder ver isso.
+
+00:01:33.701 --> 00:01:36.634
+Podemos ver que temos
+quase 1.600 registros
+
+00:01:36.667 --> 00:01:40.367
+na amostra de estimação.
+Isso é 70% dos registros.
+
+00:01:40.400 --> 00:01:44.300
+Os outros 30% estão
+na amostra de validação,
+
+00:01:44.334 --> 00:01:47.501
+que tem
+cerca de 700 registros.
+
+00:01:47.534 --> 00:01:50.868
+Como mencionei antes, nada deve
+aparecer na amostra holdout,
+
+00:01:50.901 --> 00:01:52.801
+mas vamos confirmar isso
+agora.
+
+00:01:52.834 --> 00:01:55.133
+Agora que mudamos
+os tipos de campos
+
+00:01:55.167 --> 00:01:58.434
+e criamos várias amostras
+do conjunto de dados,
+
+00:01:58.467 --> 00:02:00.801
+quero usar uma ferramenta
+"Logistic Regression"
+
+00:02:00.834 --> 00:02:03.934
+para construir
+a 1ª regressão logística.
+
+00:02:03.968 --> 00:02:05.434
+Vamos dar um nome ao modelo.
+
+00:02:05.467 --> 00:02:07.400
+Pode dar o nome que quiser,
+mas vou chamá-lo
+
+00:02:07.434 --> 00:02:12.634
+de "Hotel_Log",
+de regressão logística.
+
+00:02:12.667 --> 00:02:14.667
+Agora vou selecionar
+minha variável-alvo.
+
+00:02:14.701 --> 00:02:17.601
+Lembre-se: a variável-alvo
+é o que queremos prever.
+
+00:02:17.634 --> 00:02:19.901
+É o campo "Redeemer".
+
+00:02:19.934 --> 00:02:23.968
+Por fim, vamos selecionar
+as possíveis variáveis preditivas.
+
+00:02:24.000 --> 00:02:27.133
+Então, nesta 1ª tentativa
+de usar regressão logística,
+
+00:02:27.167 --> 00:02:31.501
+vou escolher todos os campos,
+com exceção do campo "Customer Key",
+
+00:02:31.534 --> 00:02:34.367
+já que ele é singular
+para cada cliente,
+
+00:02:34.400 --> 00:02:37.267
+"First Name" e "Last Name",
+porque duvido que eles tenham
+
+00:02:37.300 --> 00:02:41.634
+algum tipo de capacidade
+de prever o campo "Redeemer".
+
+00:02:41.667 --> 00:02:47.133
+Também precisamos tirar a seleção
+o campo-alvo, "Redeemer".
+
+00:02:47.167 --> 00:02:48.934
+Agora vou pegar
+uma ferramenta "Browse"
+
+00:02:48.968 --> 00:02:51.601
+e colocá-la após o "R",
+o "report output",
+
+00:02:51.634 --> 00:02:55.934
+para poder ver os resultados,
+e vou ativar o workflow.
+
+00:02:55.968 --> 00:02:59.400
+O outro resultado é o "O"
+ou "model object".
+
+00:02:59.434 --> 00:03:01.901
+Isso vai ser usado depois
+para validar o modelo
+
+00:03:01.934 --> 00:03:03.934
+e para pontuar o modelo.
+
+00:03:03.968 --> 00:03:07.234
+Agora note que o resultado
+é exatamente igual
+
+00:03:07.267 --> 00:03:09.501
+ao resultado
+da regressão linear
+
+00:03:09.534 --> 00:03:12.434
+e é usado, na verdade,
+exatamente da mesma maneira.
+
+00:03:12.467 --> 00:03:16.267
+A 1ª coisa que costumo fazer
+é ir ao valor de "R²".
+
+00:03:16.300 --> 00:03:20.400
+Como podem ver, o valor de "R²"
+é de 0,6243,
+
+00:03:20.434 --> 00:03:22.100
+que é muito alto.
+
+00:03:22.133 --> 00:03:24.767
+Agora, se analisarmos melhor
+estes resultados,
+
+00:03:24.801 --> 00:03:29.334
+vamos notar que quase nenhuma das
+variáveis é considerada significante
+
+00:03:29.367 --> 00:03:31.601
+para as variáveis preditivas.
+
+00:03:31.634 --> 00:03:36.367
+Percebemos isso porque quase
+não há asteriscos na última coluna.
+
+00:03:36.400 --> 00:03:39.133
+Isso é um indicador
+de que esta variável
+
+00:03:39.167 --> 00:03:41.968
+não é muito importante
+para o modelo
+
+00:03:42.000 --> 00:03:44.901
+e provavelmente não deveria
+ser incluída nele.
+
+00:03:44.934 --> 00:03:50.701
+Ou que ela precisa ser modificada
+antes de ser usada no modelo.
+
+00:03:50.734 --> 00:03:52.033
+*END*
+
+00:03:52.067 --> 00:03:53.367
+*CODE*
+

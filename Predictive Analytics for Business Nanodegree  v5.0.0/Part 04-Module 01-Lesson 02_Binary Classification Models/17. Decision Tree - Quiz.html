@@ -1,0 +1,333 @@
+<!-- udacity2.0 -->
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Decision Tree - Quiz</title>
+  <link rel="stylesheet" href="../assets/css/bootstrap.min.css">
+  <link rel="stylesheet" href="../assets/css/plyr.css">
+  <link rel="stylesheet" href="../assets/css/katex.min.css">
+  <link rel="stylesheet" href="../assets/css/jquery.mCustomScrollbar.min.css">
+  <link rel="stylesheet" href="../assets/css/styles.css">
+  <link rel="shortcut icon" type="image/png" href="../assets/img/udacimak.png" />
+</head>
+
+<body>
+  <div class="wrapper">
+    <nav id="sidebar">
+  <div class="sidebar-header">
+    <h3>Binary Classification Models</h3>
+  </div>
+
+  <ul class="sidebar-list list-unstyled CTAs">
+    <li>
+      <a href="../index.html" class="article">Back to Home</a>
+    </li>
+  </ul>
+
+  <ul class="sidebar-list list-unstyled components">
+    <li class="">
+      <a href="01. Binary Classification Problems.html">01. Binary Classification Problems</a>
+    </li>
+    <li class="">
+      <a href="02. Logistic Regression.html">02. Logistic Regression</a>
+    </li>
+    <li class="">
+      <a href="03. Logistic Regression - Continued.html">03. Logistic Regression - Continued</a>
+    </li>
+    <li class="">
+      <a href="04. Logistic Regression - Example.html">04. Logistic Regression - Example</a>
+    </li>
+    <li class="">
+      <a href="05. Logistic Regression - Quiz.html">05. Logistic Regression - Quiz</a>
+    </li>
+    <li class="">
+      <a href="06. Logistic Regression - Solution.html">06. Logistic Regression - Solution</a>
+    </li>
+    <li class="">
+      <a href="07. Logistic Regression - Stepwise.html">07. Logistic Regression - Stepwise</a>
+    </li>
+    <li class="">
+      <a href="08. Logistic Regression - Stepwise in Alteryx.html">08. Logistic Regression - Stepwise in Alteryx</a>
+    </li>
+    <li class="">
+      <a href="09. Logistic Regression - Stepwise Quiz.html">09. Logistic Regression - Stepwise Quiz</a>
+    </li>
+    <li class="">
+      <a href="10. Logistic Regression - Stepwise Solution.html">10. Logistic Regression - Stepwise Solution</a>
+    </li>
+    <li class="">
+      <a href="11. Validating Models.html">11. Validating Models</a>
+    </li>
+    <li class="">
+      <a href="12. Logistic Regression - Stepwise Validation.html">12. Logistic Regression - Stepwise Validation</a>
+    </li>
+    <li class="">
+      <a href="13. Introduction to Decision Tree Modeling.html">13. Introduction to Decision Tree Modeling</a>
+    </li>
+    <li class="">
+      <a href="14. Decision Tree - Example.html">14. Decision Tree - Example</a>
+    </li>
+    <li class="">
+      <a href="15. Decision Tree - Models in Alteryx.html">15. Decision Tree - Models in Alteryx</a>
+    </li>
+    <li class="">
+      <a href="16. Decision Tree - Results.html">16. Decision Tree - Results</a>
+    </li>
+    <li class="">
+      <a href="17. Decision Tree - Quiz.html">17. Decision Tree - Quiz</a>
+    </li>
+    <li class="">
+      <a href="18. Decision Tree Solution.html">18. Decision Tree Solution</a>
+    </li>
+    <li class="">
+      <a href="19. Decision Tree - Validation.html">19. Decision Tree - Validation</a>
+    </li>
+    <li class="">
+      <a href="20. Introduction to Model Comparison.html">20. Introduction to Model Comparison</a>
+    </li>
+    <li class="">
+      <a href="21. Model Comparison - Example.html">21. Model Comparison - Example</a>
+    </li>
+    <li class="">
+      <a href="22. Scoring the Model.html">22. Scoring the Model</a>
+    </li>
+    <li class="">
+      <a href="23. Scoring the Model - Quiz 1.html">23. Scoring the Model - Quiz 1</a>
+    </li>
+    <li class="">
+      <a href="24. Scoring the Model - Example.html">24. Scoring the Model - Example</a>
+    </li>
+    <li class="">
+      <a href="25.  Scoring the Model - Quiz 2.html">25.  Scoring the Model - Quiz 2</a>
+    </li>
+    <li class="">
+      <a href="26. Wrap Up.html">26. Wrap Up</a>
+    </li>
+    <li class="">
+      <a href="27. Learning Summary.html">27. Learning Summary</a>
+    </li>
+  </ul>
+
+  <ul class="sidebar-list list-unstyled CTAs">
+    <li>
+      <a href="../index.html" class="article">Back to Home</a>
+    </li>
+  </ul>
+</nav>
+
+    <div id="content">
+      <header class="container-fluild header">
+        <div class="container">
+          <div class="row">
+            <div class="col-12">
+              <div class="align-items-middle">
+                <button type="button" id="sidebarCollapse" class="btn btn-toggle-sidebar">
+                  <div></div>
+                  <div></div>
+                  <div></div>
+                </button>
+
+                <h1 style="display: inline-block">17. Decision Tree - Quiz</h1>
+              </div>
+            </div>
+          </div>
+        </div>
+      </header>
+
+      <main class="container">
+        <div class="row">
+          <div class="col-12">
+            <div class="ud-atom">
+  <h3><p>Steps</p></h3>
+  <div>
+  <p><h3>Prepare for the Quiz</h2></p>
+<p>Before beginning the quiz, build out the same decision tree model that you just observed.</p>
+<ul>
+<li>First, use an <em>Input Data</em> tool to bring in the <strong>Hotel Loyalty Data</strong> file</li>
+<li>Second, use a <em>Select</em> tool to set the data types of each variable</li>
+<li>Third, use a <em>Create Samples</em> tool and select 70% as the estimation percentage</li>
+<li>Fourth, attach a <em>Decision Tree</em> tool and select the variables to be used in the model</li>
+<li>Fifth, attach <em>Browse</em> tools to both the <em>R</em> and <em>I</em> output nodes</li>
+</ul>
+<p>Use the results found in the browse tools to answer the following questions.</p>
+</div>
+
+</div>
+<div class="divider"></div><div class="ud-atom">
+  <h3><p>Q1</p></h3>
+  <div>
+  <form>
+    <fieldset>
+      <legend><p>What are the 2 most important variables to the model?</p></legend>
+    </fieldset>
+
+    <div>
+      <input type="checkbox" value="a1468547048528" name="160616" id="a1468547048528">
+      <label for="a1468547048528"><p>Spend</p></label>
+    </div>
+    <div>
+      <input type="checkbox" value="a1468547049357" name="160616" id="a1468547049357">
+      <label for="a1468547049357"><p>Stays.per.year</p></label>
+    </div>
+    <div>
+      <input type="checkbox" value="a1468547050152" name="160616" id="a1468547050152">
+      <label for="a1468547050152"><p>Status</p></label>
+    </div>
+    <div>
+      <input type="checkbox" value="a1468547050818" name="160616" id="a1468547050818">
+      <label for="a1468547050818"><p>Total.days.stayed</p></label>
+    </div>
+    <div>
+      <input type="checkbox" value="a1468627295698" name="160616" id="a1468627295698">
+      <label for="a1468627295698"><p>Customer Segment</p></label>
+    </div>
+    <div>
+      <input type="checkbox" value="a1468627296663" name="160616" id="a1468627296663">
+      <label for="a1468627296663"><p>Income</p></label>
+    </div>
+    <div>
+      <input type="checkbox" value="a1468627303344" name="160616" id="a1468627303344">
+      <label for="a1468627303344"><p>Region</p></label>
+    </div>
+    <div>
+      <input type="checkbox" value="a1468627311179" name="160616" id="a1468627311179">
+      <label for="a1468627311179"><p>Years.of.Loyalty</p></label>
+    </div>
+  </form>
+
+  <details>
+    <summary><strong>SOLUTION:</strong></summary>
+    <ul>
+      <li>Spend</li>
+      <li>Stays.per.year</li>
+  </ul>
+  </details>
+</div>
+
+</div>
+<div class="divider"></div><div class="ud-atom">
+  <h3><p>Q2</p></h3>
+  <div>
+  <form>
+    <fieldset>
+      <legend><p>When classifying all Yes's against the Cross Validation sample, what is the overall accuracy?</p></legend>
+    </fieldset>
+
+      <div>
+        <input type="radio" value="a1468627107628" name="160739" id="a1468627107628">
+        <label for="a1468627107628"><p>68%</p></label>
+      </div>
+      <div>
+        <input type="radio" value="a1468627108266" name="160739" id="a1468627108266">
+        <label for="a1468627108266"><p>92%</p></label>
+      </div>
+      <div>
+        <input type="radio" value="a1474646067985" name="160739" id="a1474646067985">
+        <label for="a1474646067985"><p>97%</p></label>
+      </div>
+  </form>
+
+  <details>
+    <summary><strong>SOLUTION:</strong></summary>
+    68%
+  </details>
+</div>
+
+</div>
+<div class="divider"></div>
+          </div>
+
+          <div class="col-12">
+            <p class="text-right">
+              <a href="18. Decision Tree Solution.html" class="btn btn-outline-primary mt-4" role="button">Next Concept</a>
+            </p>
+          </div>
+        </div>
+      </main>
+
+      <footer class="footer">
+        <div class="container">
+          <div class="row">
+            <div class="col-12">
+              <p class="text-center">
+                <a href="https://us-udacity.github.io/" target="_blank">【udacity2.0 】If you need more courses, please add wechat：udacity6</a>
+              </p>
+            </div>
+          </div>
+        </div>
+      </footer>
+    </div>
+  </div>
+
+
+  <script src="../assets/js/jquery-3.3.1.min.js"></script>
+  <script src="../assets/js/plyr.polyfilled.min.js"></script>
+  <script src="../assets/js/bootstrap.min.js"></script>
+  <script src="../assets/js/jquery.mCustomScrollbar.concat.min.js"></script>
+  <script src="../assets/js/katex.min.js"></script>
+  <script>
+    // Initialize Plyr video players
+    const players = Array.from(document.querySelectorAll('video')).map(p => new Plyr(p));
+
+    // render math equations
+    let elMath = document.getElementsByClassName('mathquill');
+    for (let i = 0, len = elMath.length; i < len; i += 1) {
+      const el = elMath[i];
+
+      katex.render(el.textContent, el, {
+        throwOnError: false
+      });
+    }
+
+    // this hack will make sure Bootstrap tabs work when using Handlebars
+    if ($('#question-tabs').length && $('#user-answer-tabs').length) {
+      $("#question-tabs a.nav-link").on('click', function () {
+        $("#question-tab-contents .tab-pane").hide();
+        $($(this).attr("href")).show();
+      });
+      $("#user-answer-tabs a.nav-link").on('click', function () {
+        $("#user-answer-tab-contents .tab-pane").hide();
+        $($(this).attr("href")).show();
+      });
+    } else {
+      $("a.nav-link").on('click', function () {
+        $(".tab-pane").hide();
+        $($(this).attr("href")).show();
+      });
+    }
+
+    // side bar events
+    $(document).ready(function () {
+      $("#sidebar").mCustomScrollbar({
+        theme: "minimal"
+      });
+
+      $('#sidebarCollapse').on('click', function () {
+        $('#sidebar, #content').toggleClass('active');
+        $('.collapse.in').toggleClass('in');
+        $('a[aria-expanded=true]').attr('aria-expanded', 'false');
+      });
+
+      // scroll to first video on page loading
+      if ($('video').length) {
+        $('html,body').animate({ scrollTop: $('div.plyr').prev().offset().top});
+      }
+
+      // auto play first video: this may not work with chrome/safari due to autoplay policy
+      if (players && players.length > 0) {
+        players[0].play();
+      }
+
+      // scroll sidebar to current concept
+      const currentInSideBar = $( "ul.sidebar-list.components li a:contains('17. Decision Tree - Quiz')" )
+      currentInSideBar.css( "text-decoration", "underline" );
+      $("#sidebar").mCustomScrollbar('scrollTo', currentInSideBar);
+    });
+  </script>
+</body>
+
+</html>
