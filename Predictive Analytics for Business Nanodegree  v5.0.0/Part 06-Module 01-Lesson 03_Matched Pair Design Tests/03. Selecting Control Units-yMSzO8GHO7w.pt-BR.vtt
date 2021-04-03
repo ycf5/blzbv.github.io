@@ -1,0 +1,72 @@
+WEBVTT
+Kind: captions
+Language: pt-BR
+
+00:00:00.334 --> 00:00:03.334
+Ainda mais importantes que
+a seleção das lojas de tratamento
+
+00:00:03.367 --> 00:00:06.000
+é a seleção
+das lojas de controle.
+
+00:00:06.033 --> 00:00:09.804
+Essas lojas vão se tornar a base
+para a análise do experimento.
+
+00:00:10.501 --> 00:00:12.901
+Como mencionei antes,
+o processo de seleção
+
+00:00:12.934 --> 00:00:16.400
+de lojas de tratamento e controle
+é chamado de amostras emparelhadas.
+
+00:00:16.434 --> 00:00:18.733
+As amostras emparelhadas
+pareiam cada loja de tratamento
+
+00:00:18.766 --> 00:00:22.100
+com uma loja de controle
+que tem medidas muito parecidas
+
+00:00:22.133 --> 00:00:24.200
+para cada uma
+das variáveis de controle.
+
+00:00:24.868 --> 00:00:28.400
+No experimento do novo produto,
+escolhemos 3 variáveis de controle:
+
+00:00:28.434 --> 00:00:31.534
+volume de vendas,
+número de produtos vendidos
+
+00:00:31.567 --> 00:00:33.834
+e estado onde a loja
+está localizada.
+
+00:00:33.868 --> 00:00:35.467
+Para emparelhar as amostras,
+
+00:00:35.501 --> 00:00:39.234
+para cada loja de tratamento, vamos
+selecionar uma loja de controle
+
+00:00:39.267 --> 00:00:41.467
+que tem um volume
+de vendas parecido,
+
+00:00:41.501 --> 00:00:44.099
+mais ou menos o mesmo
+número de produtos vendidos
+
+00:00:44.132 --> 00:00:45.801
+e fica no mesmo estado.
+
+00:00:45.834 --> 00:00:47.100
+*END*
+
+00:00:47.133 --> 00:00:48.434
+*CODE*
+

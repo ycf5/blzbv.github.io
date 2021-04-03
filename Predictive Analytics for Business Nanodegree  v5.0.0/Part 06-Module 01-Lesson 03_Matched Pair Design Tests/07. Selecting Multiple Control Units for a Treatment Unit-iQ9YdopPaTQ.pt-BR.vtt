@@ -1,0 +1,157 @@
+WEBVTT
+Kind: captions
+Language: pt-BR
+
+00:00:00.234 --> 00:00:03.334
+Quando é possível fazer isso,
+um experimento pode ser delineado
+
+00:00:03.367 --> 00:00:05.000
+usando mais
+de uma unidade de controle
+
+00:00:05.033 --> 00:00:06.767
+para cada unidade
+de tratamento.
+
+00:00:06.801 --> 00:00:09.899
+Ter mais de uma unidade de controle
+para cada unidade de tratamento
+
+00:00:09.932 --> 00:00:14.467
+aumenta a confiança nas referências
+e gera comparações melhores.
+
+00:00:14.834 --> 00:00:18.434
+No geral, não há uma regra para
+o número de unidades de controle
+
+00:00:18.467 --> 00:00:20.968
+que devemos selecionar
+para cada unidade de tratamento.
+
+00:00:21.000 --> 00:00:24.968
+Como analista, é bom pensar
+nas distâncias estatísticas
+
+00:00:25.001 --> 00:00:27.534
+com vários números
+de unidades de controle emparelhadas
+
+00:00:27.567 --> 00:00:31.100
+e procurar onde a distância
+aumenta significativamente.
+
+00:00:31.334 --> 00:00:34.434
+Por exemplo, para a loja
+de tratamento 111,
+
+00:00:34.467 --> 00:00:37.934
+a distância pula de 0,001817
+
+00:00:37.968 --> 00:00:41.501
+para 0,002988
+depois de duas lojas.
+
+00:00:41.534 --> 00:00:44.601
+E mais uma vez, de 0,003865
+
+00:00:44.634 --> 00:00:48.767
+para 0,006045
+depois de cinco lojas.
+
+00:00:48.801 --> 00:00:53.367
+E mais uma vez, para 0,009964
+depois de seis lojas.
+
+00:00:54.033 --> 00:00:56.200
+Quando usamos muitas
+variáveis de controle,
+
+00:00:56.234 --> 00:00:59.634
+fazemos uma média da distância
+das unidades mais próximas.
+
+00:00:59.667 --> 00:01:03.868
+Logo, é importante equilibrar
+a necessidade de mais unidades
+
+00:01:03.901 --> 00:01:06.100
+com a melhor distância média.
+
+00:01:06.133 --> 00:01:07.767
+Usar duas lojas de controle
+
+00:01:07.801 --> 00:01:11.234
+resultaria apenas em uma queda
+na distância média,
+
+00:01:11.267 --> 00:01:14.734
+mas provavelmente aumentaria
+a confiabilidade da análise.
+
+00:01:14.767 --> 00:01:17.701
+Usar cinco lojas aumentaria
+a distância média
+
+00:01:17.734 --> 00:01:20.667
+devido ao salto de distância
+entre a 4ª e a 5ª lojas,
+
+00:01:20.701 --> 00:01:23.100
+então isso não seria bom.
+
+00:01:23.133 --> 00:01:28.200
+Por fim, usar 7 lojas resultaria num
+aumento substancial de distância.
+
+00:01:28.234 --> 00:01:30.734
+Resumindo, o objetivo
+é encontrar um equilíbrio
+
+00:01:30.767 --> 00:01:34.667
+entre mais amostras emparelhadas
+e a distância média entre elas.
+
+00:01:34.701 --> 00:01:38.267
+Com estes dados, duas amostras
+emparelhadas seriam um ótimo começo.
+
+00:01:38.300 --> 00:01:40.267
+Vamos emparelhar
+unidades de controle
+
+00:01:40.300 --> 00:01:42.334
+a um conjunto
+de unidades de tratamento.
+
+00:01:42.367 --> 00:01:44.634
+No experimento de introdução
+do novo produto,
+
+00:01:44.667 --> 00:01:46.534
+vamos supor que seu gerente
+estabeleceu
+
+00:01:46.567 --> 00:01:49.567
+um conjunto de 10 lojas
+de tratamento na Califórnia,
+
+00:01:49.601 --> 00:01:52.670
+onde o novo sabor "cereja"
+será vendido.
+
+00:01:53.200 --> 00:01:55.601
+Vamos mostrar como emparelhar
+duas lojas de controle
+
+00:01:55.634 --> 00:01:59.367
+para cada uma das lojas
+de tratamento do sabor "cereja".
+
+00:01:59.400 --> 00:02:00.701
+*END*
+
+00:02:00.734 --> 00:02:02.033
+*CODE*
+

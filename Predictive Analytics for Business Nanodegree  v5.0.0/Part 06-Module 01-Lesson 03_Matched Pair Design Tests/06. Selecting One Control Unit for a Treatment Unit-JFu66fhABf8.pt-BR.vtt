@@ -1,0 +1,116 @@
+WEBVTT
+Kind: captions
+Language: pt-BR
+
+00:00:00.367 --> 00:00:02.968
+No questionário, você usou
+uma abordagem subjetiva
+
+00:00:03.001 --> 00:00:06.434
+para determinar a melhor unidade
+de controle para a loja 111.
+
+00:00:06.467 --> 00:00:09.133
+No entanto, gostaríamos de usar
+uma maneira sistemática
+
+00:00:09.167 --> 00:00:12.367
+e matemática de tomar a decisão
+sem ter que adivinhar.
+
+00:00:12.400 --> 00:00:15.666
+Há muitos algoritmos diferentes
+para encontrar amostras emparelhadas
+
+00:00:15.699 --> 00:00:18.868
+com níveis diferentes
+de complexidade computacional.
+
+00:00:18.901 --> 00:00:23.434
+No geral, os algoritmos pegam todas
+as variáveis de controle numéricas
+
+00:00:23.467 --> 00:00:26.434
+e calculam um único valor
+que determina a que distância
+
+00:00:26.467 --> 00:00:29.434
+cada unidade de tratamento
+está de cada variável de controle.
+
+00:00:29.467 --> 00:00:32.467
+Isso é chamado
+de teste de distância.
+
+00:00:32.501 --> 00:00:34.934
+O Alteryx é uma ferramenta
+que calcula o escore de distância
+
+00:00:34.968 --> 00:00:37.834
+para as unidades de controle
+usando uma árvore k-d.
+
+00:00:37.868 --> 00:00:41.033
+Basicamente, este algoritmo
+calcula as distâncias
+
+00:00:41.067 --> 00:00:44.834
+em várias dimensões e pareia
+entre 1 e 10 unidades de controle
+
+00:00:44.868 --> 00:00:46.501
+para cada unidade
+de tratamento.
+
+00:00:46.534 --> 00:00:49.868
+Vamos demonstrar o uso da ferramenta
+"AB Controls" mais tarde.
+
+00:00:49.901 --> 00:00:52.067
+Por enquanto, vamos dar uma olhada
+nos resultados
+
+00:00:52.100 --> 00:00:54.534
+que obteríamos
+se fizéssemos isso no Alteryx.
+
+00:00:54.567 --> 00:00:58.767
+A loja 5035 tem
+uma distância estatística menor
+
+00:00:58.801 --> 00:01:01.167
+do que a loja 3498.
+
+00:01:01.200 --> 00:01:03.234
+Na verdade, matematicamente,
+
+00:01:03.267 --> 00:01:06.801
+a loja 3498 não fica
+entre as 10 melhores lojas
+
+00:01:06.834 --> 00:01:08.968
+porque há outras lojas
+com 5 produtos
+
+00:01:09.000 --> 00:01:11.133
+que têm vendas
+muito parecidas.
+
+00:01:11.166 --> 00:01:13.501
+Logo, para o algoritmo,
+a distância para o produto
+
+00:01:13.534 --> 00:01:15.901
+conta mais que as vendas,
+e o uso do algoritmo
+
+00:01:15.934 --> 00:01:18.400
+teria mudado o resultado
+do questionário anterior.
+
+00:01:18.434 --> 00:01:19.701
+*END*
+
+00:01:19.734 --> 00:01:21.033
+*CODE*
+

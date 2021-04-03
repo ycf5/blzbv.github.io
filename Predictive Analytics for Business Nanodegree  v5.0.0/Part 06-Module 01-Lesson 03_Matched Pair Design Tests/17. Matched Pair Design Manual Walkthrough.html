@@ -1,0 +1,394 @@
+<!-- udacity2.0 -->
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Matched Pair Design Manual Walkthrough</title>
+  <link rel="stylesheet" href="../assets/css/bootstrap.min.css">
+  <link rel="stylesheet" href="../assets/css/plyr.css">
+  <link rel="stylesheet" href="../assets/css/katex.min.css">
+  <link rel="stylesheet" href="../assets/css/jquery.mCustomScrollbar.min.css">
+  <link rel="stylesheet" href="../assets/css/styles.css">
+  <link rel="shortcut icon" type="image/png" href="../assets/img/udacimak.png" />
+</head>
+
+<body>
+  <div class="wrapper">
+    <nav id="sidebar">
+  <div class="sidebar-header">
+    <h3>Matched Pair Design Tests</h3>
+  </div>
+
+  <ul class="sidebar-list list-unstyled CTAs">
+    <li>
+      <a href="../index.html" class="article">Back to Home</a>
+    </li>
+  </ul>
+
+  <ul class="sidebar-list list-unstyled components">
+    <li class="">
+      <a href="01. Introduction to Matched Pair Design.html">01. Introduction to Matched Pair Design</a>
+    </li>
+    <li class="">
+      <a href="02. Selecting Treatment Units.html">02. Selecting Treatment Units</a>
+    </li>
+    <li class="">
+      <a href="03. Selecting Control Units.html">03. Selecting Control Units</a>
+    </li>
+    <li class="">
+      <a href="04. Selecting Control Units Quiz.html">04. Selecting Control Units Quiz</a>
+    </li>
+    <li class="">
+      <a href="05. Selecting Control Units Solution.html">05. Selecting Control Units Solution</a>
+    </li>
+    <li class="">
+      <a href="06. Selecting One Control Unit for a Treatment Unit.html">06. Selecting One Control Unit for a Treatment Unit</a>
+    </li>
+    <li class="">
+      <a href="07. Selecting Multiple Control Units for a Treatment Unit.html">07. Selecting Multiple Control Units for a Treatment Unit</a>
+    </li>
+    <li class="">
+      <a href="08. Matching Stores Example.html">08. Matching Stores Example</a>
+    </li>
+    <li class="">
+      <a href="09. Matched Pairing Quiz.html">09. Matched Pairing Quiz</a>
+    </li>
+    <li class="">
+      <a href="10. Matched Pairing Solution.html">10. Matched Pairing Solution</a>
+    </li>
+    <li class="">
+      <a href="11. Analyzing the Results Overview.html">11. Analyzing the Results Overview</a>
+    </li>
+    <li class="">
+      <a href="12. Paired T-test Quiz.html">12. Paired T-test Quiz</a>
+    </li>
+    <li class="">
+      <a href="13. Analyzing the Results with Alteryx.html">13. Analyzing the Results with Alteryx</a>
+    </li>
+    <li class="">
+      <a href="14. Interpreting Results.html">14. Interpreting Results</a>
+    </li>
+    <li class="">
+      <a href="15. Analyzing Matched Pair Design Quiz.html">15. Analyzing Matched Pair Design Quiz</a>
+    </li>
+    <li class="">
+      <a href="16. Analyzing Matched Pair Design Solution.html">16. Analyzing Matched Pair Design Solution</a>
+    </li>
+    <li class="">
+      <a href="17. Matched Pair Design Manual Walkthrough.html">17. Matched Pair Design Manual Walkthrough</a>
+    </li>
+    <li class="">
+      <a href="18. Conclusion.html">18. Conclusion</a>
+    </li>
+    <li class="">
+      <a href="19. Learning Summary.html">19. Learning Summary</a>
+    </li>
+    <li class="">
+      <a href="20. Paired T-test Quiz.html">20. Paired T-test Quiz</a>
+    </li>
+    <li class="">
+      <a href="21. Glossary.html">21. Glossary</a>
+    </li>
+  </ul>
+
+  <ul class="sidebar-list list-unstyled CTAs">
+    <li>
+      <a href="../index.html" class="article">Back to Home</a>
+    </li>
+  </ul>
+</nav>
+
+    <div id="content">
+      <header class="container-fluild header">
+        <div class="container">
+          <div class="row">
+            <div class="col-12">
+              <div class="align-items-middle">
+                <button type="button" id="sidebarCollapse" class="btn btn-toggle-sidebar">
+                  <div></div>
+                  <div></div>
+                  <div></div>
+                </button>
+
+                <h1 style="display: inline-block">17. Matched Pair Design Manual Walkthrough</h1>
+              </div>
+            </div>
+          </div>
+        </div>
+      </header>
+
+      <main class="container">
+        <div class="row">
+          <div class="col-12">
+            <div class="ud-atom">
+  <h3><p>walkthrough</p></h3>
+  <div>
+  <h2 id="walkthrough">Walkthrough</h2>
+<p>Now that you know how to conduct an A/B test in Alteryx, let's take a step back and talk about the manual process of how to analyze an A/B test using a spreadsheet software.</p>
+<p>This is important to learn because this walkthrough will help you understand what Lift actually means when explaining your A/B test results. Furthermore, if you do not have access to software such as Alteryx, you can manually conduct your own A/B tests using a spreadsheet software.</p>
+<h3 id="before-you-start">Before You Start</h3>
+<p>Please consult with the image below to see the overall flow of how we're going to manually process our data to conduct our A/B test</p>
+</div>
+
+</div>
+<div class="divider"></div><div class="ud-atom">
+  <h3><p>flow</p></h3>
+  <div>
+  <figure class="figure">
+    <img src="img/ab-test-flow.png" alt="These are the main steps that need to be done in order to calculate significance and lift for a matched-pair A/B test." class="img img-fluid">
+    <figcaption class="figure-caption">
+      <p>These are the main steps that need to be done in order to calculate significance and lift for a matched-pair A/B test.</p>
+    </figcaption>
+  </figure>
+</div>
+
+
+</div>
+<div class="divider"></div><div class="ud-atom">
+  <h3><p>before</p></h3>
+  <div>
+  <p>Before we begin, please download the <em>AB Test - Walkthrough.zip</em> file at the bottom of this page. This will contain the sales data that we will go through together.</p>
+<p>The data will contain sales data for some stores along with their pairings along with an Alteryx workflow to help you confirm our calculations in our spreadsheet software.</p>
+<p>Furthermore, please download the <em>A/B Test Flow.pdf</em> file to help you determine where you are at any stage of this walkthrough so you will not get lost in the steps.</p>
+</div>
+
+</div>
+<div class="divider"></div><div class="ud-atom">
+  <h3><p>assumptions</p></h3>
+  <div>
+  <h2 id="assumptions">Assumptions</h2>
+<p>We assume that you have access to a spreadsheet software such as Microsoft Excel or Google Spreadsheets. You are also familiar with the <code>vlookup</code> function and aggregating data using pivot tables. If you're stuck on trying to figure out how to manipulate the data in a spreadsheet, please refer to the <em>sales-solution.xlsx</em> file to help give you hints as you walk through these steps.</p>
+</div>
+
+</div>
+<div class="divider"></div><div class="ud-atom">
+  <h3><p>Data Cleanup</p></h3>
+  <div>
+  <h2 id="data-cleanup-stage">Data Cleanup Stage</h2>
+<p>Referencing the flow document, we first need to clean up the data by </p>
+<ul>
+<li>scrubbing out any outliers</li>
+<li>getting rid of stores with missing data</li>
+<li>matching control stores to treatment stores</li>
+<li>selecting the appropriate comparable period</li>
+</ul>
+<p>For simplicity in this walkthrough, we assume that we've already completed this stage. Please take a moment and look at <em>sales-raw.xlsx</em> and explore the cleaned-up data.</p>
+</div>
+
+</div>
+<div class="divider"></div><div class="ud-atom">
+  <h3><p>Calculate Growth Stage</p></h3>
+  <div>
+  <h2 id="calculate-growth-stage">Calculate Growth Stage</h2>
+<p>We now need to move on and calculate the actual sales growth for each week against each store's average sales for the entire comparable period.</p>
+<p>The reason why we do this is to use one single comparable number to calculate growth from. This single comparable number acts as our base denominator and will not change per week allowing us to have comparable growth numbers each week for each store.</p>
+<p>Therefore:</p>
+<h3 id="step-1">Step 1</h3>
+<p>Open the <em>sales-raw.xlsx</em> workbook and calculate the sales growth in the <strong>Step 1</strong> worksheet. You should create a pivot table to calculate the average sales in the comparable period for each store.</p>
+<p>Calculate growth by using the formula:</p>
+<p><code>(current_week_sales - avg_sales_comp) / avg_sales_comp</code></p>
+<p>for each week for each store.</p>
+<p>Please consult with the <em>sales-solution.xlsx</em> file if you need hints.</p>
+</div>
+
+</div>
+<div class="divider"></div><div class="ud-atom">
+  <h3><p>Match Stores_1</p></h3>
+  <div>
+  <h2 id="matching-up-stores-stage">Matching Up Stores Stage</h2>
+<p>Let's move down the flow and notice that we have two tasks that need to be done</p>
+<ul>
+<li>Average the growth by testing and comparable period</li>
+<li>Create store list for significance testing</li>
+</ul>
+<p>in order to </p>
+<ul>
+<li>Calculate the growth difference between test and comparable period for each store in the next stage</li>
+</ul>
+<p>Therefore:</p>
+<h3 id="step-2">Step 2</h3>
+<p>Go to the <strong>Step 2</strong> worksheet and create a pivot table and average the growth by period. There should be two columns that contain an average for the comparable period and the average growth for the test period.</p>
+<h3 id="step-3">Step 3</h3>
+<p>Go to the <strong>Step 3</strong> worksheet  and create a reference worksheet that lists each store along with the appropriate treatment pairing. Please make sure to add in the treatment stores as well in this list. Here is a screenshot of what the data could look like.</p>
+</div>
+
+</div>
+<div class="divider"></div><div class="ud-atom">
+  <h3><p>screenshot</p></h3>
+  <div>
+  <figure class="figure">
+    <img src="img/capture.png" alt="" class="img img-fluid">
+    <figcaption class="figure-caption">
+      
+    </figcaption>
+  </figure>
+</div>
+
+
+</div>
+<div class="divider"></div><div class="ud-atom">
+  <h3><p>Match Stores_2</p></h3>
+  <div>
+  <p><strong>Note</strong></p>
+<p>There are some control stores that are listed several times in a row such as <strong>Store #776</strong>. This store serves as a control store for several treatment stores and the growth difference for this store should carry more weight in our significance calculation. </p>
+<p>Therefore if a store is a control for several treatment stores, we need to make sure that we count this store several times. In the case of <strong>Store #776</strong>, this store is listed six times because it serves as a control store for six treatment stores.</p>
+<h3 id="step-4">Step 4</h3>
+<p>Go to the <strong>Step 4</strong> worksheet and copy the contents of <strong>Step 3</strong> and create vlookups to look up the average growth for the comparable and test period for each store in the <strong>Step 2</strong> worksheet.</p>
+<p>Please consult with the <em>sales-solution.xlsx</em> file if you need hints.</p>
+</div>
+
+</div>
+<div class="divider"></div><div class="ud-atom">
+  <h3><p>Difference</p></h3>
+  <div>
+  <h2 id="difference-stage">Difference Stage</h2>
+<p>We are now ready to take the growth difference between the test period and comparable period for each store. This is the crucial data that we want in order to calculate whether the growth difference between the test and control group of stores is significant.</p>
+<p>The growth difference will be crucial data for us to calculate lift as well.</p>
+<p>Therefore:</p>
+<h3 id="step-5">Step 5</h3>
+<p>Copy the contents from the <strong>Step 4</strong> worksheet and subtract the average growth in the test period from the average growth in the comparable period for each store.</p>
+<p>Please consult with the <em>sales-solution.xlsx</em> file if you need hints.</p>
+</div>
+
+</div>
+<div class="divider"></div><div class="ud-atom">
+  <h3><p>Lift and Significance</p></h3>
+  <div>
+  <h2 id="calculate-lift-and-significance-stage">Calculate Lift and Significance Stage</h2>
+<h3 id="calculate-significance">Calculate Significance</h3>
+<p>We know have the growth difference for each store and now we can proceed to calculate the p-value for a Welch's T-test. Make sure to sort the data by <code>Type</code> in the worksheet and </p>
+<p>Plug in the formula for a Two-Tailed Welch's T-test in cell L3 in the <strong>Step 5</strong> worksheet. For reference, this is the Excel formula for a Two-Tailed Welch's T-test:</p>
+<p><code>=T.TEST(range_of_test_group,range_of_control_group,2,3)</code></p>
+<p>The p-value should be: <strong>.22</strong> with a significance level of <strong>77.8%</strong></p>
+<h3 id="calculate-lift">Calculate Lift</h3>
+<p>The last step involves calculating lift from the growth difference. Lift is defined as the percent growth between the growth difference of a treatment store and its corresponding control store.</p>
+<p><code>Lift = (Growth_Diff_Treatment_Store - Growth_Diff_Control_Store) / (1 + Growth_Diff_Control_Store)</code></p>
+<p><strong>Note</strong>: The reason why we add a number 1 in the denominator is because we're calculating a percent growth off a growth difference number which is merely a percentage difference. We need a percent gain number (ex: 1.20 instead of .20) to have a proper denominator for the lift calculation.</p>
+<p>Once we get the lift number for each treatment store and its corresponding control stores, we take the average sales from the comparable period and multiple the average sales to get an average sales impact.</p>
+<p>Therefore:</p>
+<h3 id="step-6">Step 6</h3>
+<p>Create a list with each treatment and control pairing and lookup the growth difference for each corresponding treatment and control store.</p>
+<p>Calculate the lift and expected sales impact for each row.</p>
+<p>Average the lift and expected sales impact.</p>
+<p>The average lift should be <strong>-1.6%</strong> and the average sales impact should be <strong>-$122.4</strong></p>
+<p>Please consult with the <em>sales-solution.xlsx</em> file if you need hints.</p>
+</div>
+
+</div>
+<div class="divider"></div><div class="ud-atom">
+  <h3><p>confirm</p></h3>
+  <div>
+  <h2 id="confirmation">Confirmation</h2>
+<p>Run the Alteryx workflow to confirm the results from our manual calculation.</p>
+</div>
+
+</div>
+<div class="divider"></div><div class="ud-atom">
+  <h3><p>confirm</p></h3>
+  <div>
+  <figure class="figure">
+    <img src="img/capture.png" alt="AB Test results from Alteryx" class="img img-fluid">
+    <figcaption class="figure-caption">
+      <p>AB Test results from Alteryx</p>
+    </figcaption>
+  </figure>
+</div>
+
+
+</div>
+<div class="divider"></div>
+          </div>
+
+          <div class="col-12">
+            <p class="text-right">
+              <a href="18. Conclusion.html" class="btn btn-outline-primary mt-4" role="button">Next Concept</a>
+            </p>
+          </div>
+        </div>
+      </main>
+
+      <footer class="footer">
+        <div class="container">
+          <div class="row">
+            <div class="col-12">
+              <p class="text-center">
+                <a href="https://us-udacity.github.io/" target="_blank">【udacity2.0 】If you need more courses, please add wechat：udacity6</a>
+              </p>
+            </div>
+          </div>
+        </div>
+      </footer>
+    </div>
+  </div>
+
+
+  <script src="../assets/js/jquery-3.3.1.min.js"></script>
+  <script src="../assets/js/plyr.polyfilled.min.js"></script>
+  <script src="../assets/js/bootstrap.min.js"></script>
+  <script src="../assets/js/jquery.mCustomScrollbar.concat.min.js"></script>
+  <script src="../assets/js/katex.min.js"></script>
+  <script>
+    // Initialize Plyr video players
+    const players = Array.from(document.querySelectorAll('video')).map(p => new Plyr(p));
+
+    // render math equations
+    let elMath = document.getElementsByClassName('mathquill');
+    for (let i = 0, len = elMath.length; i < len; i += 1) {
+      const el = elMath[i];
+
+      katex.render(el.textContent, el, {
+        throwOnError: false
+      });
+    }
+
+    // this hack will make sure Bootstrap tabs work when using Handlebars
+    if ($('#question-tabs').length && $('#user-answer-tabs').length) {
+      $("#question-tabs a.nav-link").on('click', function () {
+        $("#question-tab-contents .tab-pane").hide();
+        $($(this).attr("href")).show();
+      });
+      $("#user-answer-tabs a.nav-link").on('click', function () {
+        $("#user-answer-tab-contents .tab-pane").hide();
+        $($(this).attr("href")).show();
+      });
+    } else {
+      $("a.nav-link").on('click', function () {
+        $(".tab-pane").hide();
+        $($(this).attr("href")).show();
+      });
+    }
+
+    // side bar events
+    $(document).ready(function () {
+      $("#sidebar").mCustomScrollbar({
+        theme: "minimal"
+      });
+
+      $('#sidebarCollapse').on('click', function () {
+        $('#sidebar, #content').toggleClass('active');
+        $('.collapse.in').toggleClass('in');
+        $('a[aria-expanded=true]').attr('aria-expanded', 'false');
+      });
+
+      // scroll to first video on page loading
+      if ($('video').length) {
+        $('html,body').animate({ scrollTop: $('div.plyr').prev().offset().top});
+      }
+
+      // auto play first video: this may not work with chrome/safari due to autoplay policy
+      if (players && players.length > 0) {
+        players[0].play();
+      }
+
+      // scroll sidebar to current concept
+      const currentInSideBar = $( "ul.sidebar-list.components li a:contains('17. Matched Pair Design Manual Walkthrough')" )
+      currentInSideBar.css( "text-decoration", "underline" );
+      $("#sidebar").mCustomScrollbar('scrollTo', currentInSideBar);
+    });
+  </script>
+</body>
+
+</html>

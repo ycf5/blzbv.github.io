@@ -1,0 +1,116 @@
+WEBVTT
+Kind: captions
+Language: pt-BR
+
+00:00:00.467 --> 00:00:03.200
+Na prática, é muito comum
+que as unidades de tratamento
+
+00:00:03.234 --> 00:00:05.200
+sejam escolhidas
+pelo analista.
+
+00:00:05.234 --> 00:00:07.565
+Muitas empresas têm um conjunto
+de unidades de teste
+
+00:00:07.598 --> 00:00:09.667
+que usam várias vezes.
+
+00:00:09.701 --> 00:00:13.100
+Por exemplo, existe um grupo
+de lojas Target nos EUA
+
+00:00:13.133 --> 00:00:15.968
+designadas como lojas-teste
+da empresa.
+
+00:00:16.399 --> 00:00:18.267
+Se você tiver que escolher
+as unidades de tratamento,
+
+00:00:18.300 --> 00:00:21.634
+primeiro, identifique
+possíveis valores atípicos,
+
+00:00:21.667 --> 00:00:25.100
+depois, determine o número
+de unidades de tratamento
+
+00:00:25.133 --> 00:00:28.534
+e, por fim, escolha as unidades
+de tratamento aleatoriamente.
+
+00:00:28.567 --> 00:00:30.467
+Para identificar possíveis
+valores atípicos
+
+00:00:30.501 --> 00:00:32.300
+para o experimento
+do novo produto,
+
+00:00:32.334 --> 00:00:36.033
+vamos remover as lojas que tenham
+valores de vendas atípicos
+
+00:00:36.067 --> 00:00:39.801
+e as lojas em estados
+que contêm poucas lojas.
+
+00:00:39.834 --> 00:00:41.699
+Para relembrar o que são
+valores atípicos,
+
+00:00:41.732 --> 00:00:44.234
+confira o link do curso
+nas anotações.
+
+00:00:44.267 --> 00:00:46.565
+Quando for selecionar
+o número de unidades de tratamento,
+
+00:00:46.598 --> 00:00:50.667
+a resposta geral é: o máximo
+possível, sendo razoável.
+
+00:00:50.701 --> 00:00:53.367
+No geral, menos de 10
+unidades de tratamento
+
+00:00:53.400 --> 00:00:55.167
+é um valor muito baixo.
+
+00:00:55.200 --> 00:00:57.167
+Assim como
+os experimentos aleatórios,
+
+00:00:57.200 --> 00:00:59.234
+quanto menos unidades
+de tratamento tivermos,
+
+00:00:59.267 --> 00:01:03.367
+menos confiança teremos de que
+o resultado do experimento é válido.
+
+00:01:03.400 --> 00:01:06.099
+Algumas vezes, quando pequenos
+números de unidades de tratamento
+
+00:01:06.132 --> 00:01:09.167
+são usados, o experimento
+tem que ser refeito
+
+00:01:09.200 --> 00:01:11.167
+ou mantido por um período
+maior de tempo
+
+00:01:11.200 --> 00:01:13.232
+para aumentar a confiança
+no resultado.
+
+00:01:13.265 --> 00:01:14.434
+*END*
+
+00:01:14.467 --> 00:01:15.767
+*CODE*
+

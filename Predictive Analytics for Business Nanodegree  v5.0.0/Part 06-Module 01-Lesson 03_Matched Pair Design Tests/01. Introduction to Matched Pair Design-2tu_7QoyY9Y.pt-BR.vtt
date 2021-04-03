@@ -1,0 +1,105 @@
+WEBVTT
+Kind: captions
+Language: pt-BR
+
+00:00:00.334 --> 00:00:02.868
+Na 1ª aula, discutimos o fato
+
+00:00:02.901 --> 00:00:05.400
+de haver dois tipos
+principais de experimento:
+
+00:00:05.434 --> 00:00:07.901
+aleatório e de amostras
+emparelhadas.
+
+00:00:07.934 --> 00:00:10.767
+Cobrimos experimentos
+aleatórios em detalhes
+
+00:00:10.801 --> 00:00:14.734
+e agora vamos falar de experimentos
+com amostras emparelhadas.
+
+00:00:14.767 --> 00:00:17.133
+Lembre-se: experimentos
+com amostras emparelhadas
+
+00:00:17.167 --> 00:00:18.901
+costumam ser usados
+quando o volume
+
+00:00:18.934 --> 00:00:22.467
+de observações ou indivíduos
+é mais baixo,
+
+00:00:22.501 --> 00:00:24.534
+a preocupação
+com o enviesamento é grande
+
+00:00:24.567 --> 00:00:28.267
+e o custo por observação
+é comparativamente mais alto.
+
+00:00:28.501 --> 00:00:31.534
+Amostras emparelhadas criam
+grupos de tratamento e controle
+
+00:00:31.567 --> 00:00:35.067
+para um experimento
+pareando unidade por unidade
+
+00:00:35.100 --> 00:00:37.667
+com base em um conjunto
+de variáveis de controle.
+
+00:00:37.701 --> 00:00:40.367
+O objetivo é criar
+dois grupos de unidades
+
+00:00:40.400 --> 00:00:42.467
+que são os mais
+parecidos possíveis
+
+00:00:42.501 --> 00:00:44.200
+para podermos dizer
+com confiança
+
+00:00:44.234 --> 00:00:46.133
+que quaisquer mudanças
+durante o teste
+
+00:00:46.167 --> 00:00:49.667
+são provocadas pela introdução
+da variável experimental.
+
+00:00:50.200 --> 00:00:52.367
+Um algoritmo matemático
+é usado
+
+00:00:52.400 --> 00:00:54.834
+para criar os grupos
+de tratamento e controle,
+
+00:00:54.868 --> 00:00:56.732
+pois, para cada unidade
+de tratamento,
+
+00:00:56.765 --> 00:00:59.334
+uma ou mais unidades
+de controle são selecionadas.
+
+00:01:00.067 --> 00:01:02.000
+Antes de mergulharmos
+neste processo,
+
+00:01:02.033 --> 00:01:05.132
+vamos discutir como selecionar
+unidades de tratamento.
+
+00:01:05.165 --> 00:01:06.267
+*END*
+
+00:01:06.300 --> 00:01:07.601
+*CODE*
+

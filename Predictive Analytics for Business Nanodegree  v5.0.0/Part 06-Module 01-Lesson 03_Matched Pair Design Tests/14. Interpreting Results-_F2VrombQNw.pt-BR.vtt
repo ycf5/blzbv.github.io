@@ -1,0 +1,150 @@
+WEBVTT
+Kind: captions
+Language: pt-BR
+
+00:00:00.234 --> 00:00:02.968
+Vamos analisar os resultados
+da análise AB
+
+00:00:03.000 --> 00:00:07.634
+através do relatório interativo
+da ferramenta "AB Analysis".
+
+00:00:07.667 --> 00:00:09.968
+A 1ª caixa mostra
+a porcentagem de aumento
+
+00:00:10.000 --> 00:00:12.968
+ou a diferença entre os grupos
+de tratamento e controle.
+
+00:00:13.000 --> 00:00:16.701
+A interpretação disso é que
+o gasto médio por cliente por semana
+
+00:00:16.734 --> 00:00:19.901
+nas lojas de tratamento
+aumentou 6,4%
+
+00:00:19.934 --> 00:00:22.667
+durante o experimento.
+A caixa seguinte
+
+00:00:22.701 --> 00:00:25.734
+mostra o impacto esperado
+por unidade por período,
+
+00:00:25.767 --> 00:00:27.834
+caso o tratamento
+fosse aplicado.
+
+00:00:27.868 --> 00:00:30.234
+Isso significa que a introdução
+do novo produto
+
+00:00:30.267 --> 00:00:33.033
+faria os clientes gastarem
+20 centavos a mais
+
+00:00:33.066 --> 00:00:34.701
+por semana em média.
+
+00:00:34.734 --> 00:00:38.734
+A última caixa mostra
+o nível de significância do teste t.
+
+00:00:38.767 --> 00:00:43.934
+É o nível 1 - p e pode querer dizer
+que o teste foi muito significante
+
+00:00:43.968 --> 00:00:47.067
+ou que é pouco provável
+que o lançamento do produto
+
+00:00:47.100 --> 00:00:49.167
+não aumente as vendas.
+
+00:00:49.200 --> 00:00:52.100
+Também há alguns gráficos
+que podem ajudar você a visualizar
+
+00:00:52.133 --> 00:00:53.968
+e a transmitir os resultados.
+
+00:00:54.001 --> 00:00:57.300
+O "Time Comparison Plot"
+compara as vendas
+
+00:00:57.334 --> 00:01:00.534
+antes e depois
+da implementação do teste.
+
+00:01:00.567 --> 00:01:03.265
+Podemos ver aqui que as lojas
+de tratamento e controle
+
+00:01:03.298 --> 00:01:06.901
+tinham vendas muito similares
+no período de comparação histórica,
+
+00:01:06.934 --> 00:01:09.334
+à esquerda, mas,
+depois do início do experimento,
+
+00:01:09.367 --> 00:01:13.934
+houve um aumento considerável
+nas vendas das lojas de tratamento.
+
+00:01:13.968 --> 00:01:16.501
+Se rolarmos a barra,
+vemos um diagrama de pontos
+
+00:01:16.534 --> 00:01:20.701
+que mostra as diferenças
+entre cada par de lojas.
+
+00:01:20.734 --> 00:01:25.033
+No eixo "x", podemos ver
+todas as IDs das lojas de tratamento
+
+00:01:25.067 --> 00:01:27.801
+e, no eixo "y", temos
+a mudança nas vendas
+
+00:01:27.834 --> 00:01:30.601
+do período da referência
+até o tratamento.
+
+00:01:30.634 --> 00:01:32.467
+Cada loja de tratamento
+é mostrada
+
+00:01:32.501 --> 00:01:35.467
+com as lojas de controle
+pareadas com ela.
+
+00:01:35.501 --> 00:01:39.100
+No nosso exemplo, podemos ver
+que nem todas as lojas de tratamento
+
+00:01:39.133 --> 00:01:41.934
+se saíram melhor
+que as lojas de controle,
+
+00:01:41.968 --> 00:01:46.200
+como as lojas S027 e S029,
+
+00:01:46.234 --> 00:01:48.501
+mas, de modo geral,
+as lojas de tratamento
+
+00:01:48.534 --> 00:01:50.766
+foram melhores
+que as lojas de controle.
+
+00:01:50.799 --> 00:01:51.934
+*END*
+
+00:01:51.967 --> 00:01:53.234
+*CODE*
+

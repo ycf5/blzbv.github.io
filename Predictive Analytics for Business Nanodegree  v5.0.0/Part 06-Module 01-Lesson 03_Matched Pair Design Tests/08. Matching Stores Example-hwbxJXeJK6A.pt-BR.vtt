@@ -1,0 +1,158 @@
+WEBVTT
+Kind: captions
+Language: pt-BR
+
+00:00:00.334 --> 00:00:03.167
+Em um novo workflow, vamos adicionar
+duas ferramentas "Input Data"
+
+00:00:03.200 --> 00:00:06.667
+para importar os dados das lojas
+e a lista de lojas de tratamento.
+
+00:00:06.700 --> 00:00:10.467
+Os dados de todas as lojas estão
+no arquivo "NewProductControlData",
+
+00:00:10.501 --> 00:00:16.200
+e os dados das de tratamento estão
+em "CherryProductTreatmentStores".
+
+00:00:16.233 --> 00:00:18.734
+Como só vamos analisar
+as lojas da Califórnia,
+
+00:00:18.767 --> 00:00:21.267
+vamos usar um filtro
+para limitar as lojas de controle
+
+00:00:21.300 --> 00:00:23.968
+àquelas que ficam na Califórnia.
+Adicione uma ferramenta "Filter"
+
+00:00:24.000 --> 00:00:27.539
+e crie um filtro básico
+em que "State Equals CA".
+
+00:00:28.498 --> 00:00:31.000
+Como importamos dados
+de arquivos .csv,
+
+00:00:31.033 --> 00:00:33.334
+todos os campos são "string".
+
+00:00:33.367 --> 00:00:36.300
+Temos que converter os campos
+"Category Sales" e "Product Count"
+
+00:00:36.334 --> 00:00:39.334
+para dados numéricos
+para emparelhá-los,
+
+00:00:39.367 --> 00:00:42.239
+já que o algoritmo de emparelhamento
+é matemático.
+
+00:00:42.934 --> 00:00:45.199
+Acrescente uma ferramenta "Select"
+em cada fluxo de dados
+
+00:00:45.232 --> 00:00:48.234
+e converta o campo "Category Sales"
+para o "Type" "Double"
+
+00:00:48.267 --> 00:00:51.601
+e o campo "Product Count"
+para "Int16",
+
+00:00:51.634 --> 00:00:54.501
+já que o campo só contém
+números inteiros.
+
+00:00:55.567 --> 00:00:59.167
+Depois, adicione uma ferramenta
+"AB Controls" na tela.
+
+00:00:59.200 --> 00:01:01.868
+Esta ferramenta tem dois inputs:
+"D" e "T".
+
+00:01:01.901 --> 00:01:05.300
+Conecte o fluxo de dados
+das lojas de tratamento ao "T"
+
+00:01:05.334 --> 00:01:09.868
+e os dados das lojas de controle
+ao "D", ou input de dados.
+
+00:01:09.901 --> 00:01:13.501
+Ambos os arquivos usam "Store ID"
+para identificar as lojas,
+
+00:01:13.534 --> 00:01:15.901
+então podemos configurar
+ambos os "identifier fields"
+
+00:01:15.934 --> 00:01:17.467
+como "Store ID".
+
+00:01:17.501 --> 00:01:20.567
+Como queremos usar "Category Sales"
+e "Product Count"
+
+00:01:20.601 --> 00:01:24.300
+como as variáveis para emparelhar
+lojas de controle e tratamento,
+
+00:01:24.334 --> 00:01:26.667
+vamos selecionar
+ambos os valores.
+
+00:01:26.701 --> 00:01:28.968
+Por fim, nas instruções,
+foi pedido que encontrássemos
+
+00:01:29.000 --> 00:01:31.365
+duas unidades de controle
+para cada unidade de tratamento,
+
+00:01:31.398 --> 00:01:33.701
+então vamos mudar o valor
+para "2".
+
+00:01:33.734 --> 00:01:35.501
+Adicione um "Browse"
+para cada output
+
+00:01:35.534 --> 00:01:37.467
+e vamos ativar o workflow.
+
+00:01:38.434 --> 00:01:40.734
+Se observarmos o output "C",
+
+00:01:40.767 --> 00:01:44.901
+vemos a coluna "Treatments", que
+traz a ID das lojas de tratamento.
+
+00:01:44.934 --> 00:01:48.234
+A coluna "Controls" mostra
+a ID das lojas de controle
+
+00:01:48.267 --> 00:01:50.634
+que foram emparelhadas
+com cada loja de tratamento.
+
+00:01:50.667 --> 00:01:55.033
+Conseguimos facilmente emparelhar
+lojas de controle e de tratamento.
+
+00:01:55.066 --> 00:01:56.400
+Agora tente fazer isso
+sozinho.
+
+00:01:56.434 --> 00:01:57.734
+*END*
+
+00:01:57.767 --> 00:01:59.067
+*CODE*
+

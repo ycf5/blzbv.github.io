@@ -1,0 +1,88 @@
+WEBVTT
+Kind: captions
+Language: pt-BR
+
+00:00:00.367 --> 00:00:04.167
+Agora, tudo está pronto
+para a execução do experimento.
+
+00:00:04.200 --> 00:00:06.734
+O novo produto foi mandado
+para as lojas de tratamento
+
+00:00:06.767 --> 00:00:09.367
+e o experimento será feito
+durante um mês.
+
+00:00:09.400 --> 00:00:11.667
+No fim do mês,
+os resultados voltam
+
+00:00:11.701 --> 00:00:14.304
+e agora é hora de analisá-los.
+
+00:00:15.133 --> 00:00:19.634
+Na aula 2, para analisar
+um delineamento aleatório,
+
+00:00:19.667 --> 00:00:23.868
+usamos um teste t para testar
+a diferença entre os dois grupos.
+
+00:00:24.167 --> 00:00:27.100
+Vamos fazer algo parecido
+para as amostras emparelhadas,
+
+00:00:27.133 --> 00:00:29.399
+mas, como vamos comparar
+cada unidade de tratamento
+
+00:00:29.432 --> 00:00:32.734
+com uma das unidades de controle,
+unidade por unidade,
+
+00:00:32.767 --> 00:00:34.968
+vamos usar um teste t
+levemente diferente.
+
+00:00:35.501 --> 00:00:38.434
+No experimento aleatório,
+o teste t comparava
+
+00:00:38.467 --> 00:00:41.567
+a média de variância
+das observações de tratamento
+
+00:00:41.601 --> 00:00:44.601
+com a média de variância
+das observações de controle.
+
+00:00:44.834 --> 00:00:48.734
+Nas amostras emparelhadas, o teste t
+procura a média da variância
+
+00:00:48.767 --> 00:00:51.701
+da diferença entre cada
+amostra emparelhada
+
+00:00:51.734 --> 00:00:54.667
+para ver se são
+muito diferentes de 0.
+
+00:00:54.701 --> 00:00:56.067
+Esta metodologia é usada
+
+00:00:56.100 --> 00:00:59.467
+dentro da ferramenta "AB Analysis"
+do Alteryx.
+
+00:00:59.501 --> 00:01:03.232
+Vamos mostrar um exemplo agora e
+ver como interpretar os resultados.
+
+00:01:03.265 --> 00:01:04.366
+*END*
+
+00:01:04.399 --> 00:01:05.634
+*CODE*
+
