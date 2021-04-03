@@ -1,0 +1,252 @@
+<!-- udacity2.0 -->
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Project Details</title>
+  <link rel="stylesheet" href="../assets/css/bootstrap.min.css">
+  <link rel="stylesheet" href="../assets/css/plyr.css">
+  <link rel="stylesheet" href="../assets/css/katex.min.css">
+  <link rel="stylesheet" href="../assets/css/jquery.mCustomScrollbar.min.css">
+  <link rel="stylesheet" href="../assets/css/styles.css">
+  <link rel="shortcut icon" type="image/png" href="../assets/img/udacimak.png" />
+</head>
+
+<body>
+  <div class="wrapper">
+    <nav id="sidebar">
+  <div class="sidebar-header">
+    <h3>Create an Analytical Dataset</h3>
+  </div>
+
+  <ul class="sidebar-list list-unstyled CTAs">
+    <li>
+      <a href="../index.html" class="article">Back to Home</a>
+    </li>
+  </ul>
+
+  <ul class="sidebar-list list-unstyled components">
+    <li class="">
+      <a href="01. Introducing Project Create an Analytical Dataset.html">01. Introducing Project: Create an Analytical Dataset</a>
+    </li>
+    <li class="">
+      <a href="02. Project Overview.html">02. Project Overview</a>
+    </li>
+    <li class="">
+      <a href="03. Project Details.html">03. Project Details</a>
+    </li>
+    <li class="">
+      <a href="04. Supporting Materials.html">04. Supporting Materials</a>
+    </li>
+    <li class="">
+      <a href="05. Project Checklist.html">05. Project Checklist</a>
+    </li>
+    <li class="">
+      <a href="Project Description - Create an Analytical Dataset.html">Project Description - Create an Analytical Dataset</a>
+    </li>
+    <li class="">
+      <a href="Project Rubric - Create an Analytical Dataset.html">Project Rubric - Create an Analytical Dataset</a>
+    </li>
+  </ul>
+
+  <ul class="sidebar-list list-unstyled CTAs">
+    <li>
+      <a href="../index.html" class="article">Back to Home</a>
+    </li>
+  </ul>
+</nav>
+
+    <div id="content">
+      <header class="container-fluild header">
+        <div class="container">
+          <div class="row">
+            <div class="col-12">
+              <div class="align-items-middle">
+                <button type="button" id="sidebarCollapse" class="btn btn-toggle-sidebar">
+                  <div></div>
+                  <div></div>
+                  <div></div>
+                </button>
+
+                <h1 style="display: inline-block">03. Project Details</h1>
+              </div>
+            </div>
+          </div>
+        </div>
+      </header>
+
+      <main class="container">
+        <div class="row">
+          <div class="col-12">
+            <div class="ud-atom">
+  <h3><p>details</p></h3>
+  <div>
+  <h3 id="the-business-problem">The Business Problem</h3>
+<p>Pawdacity is a leading pet store chain in Wyoming with 13 stores throughout the state.  This year, Pawdacity would like to expand and open a 14th store. Your manager has asked you to perform an analysis to recommend the city for Pawdacity’s newest store, based on predicted yearly sales.</p>
+<p>Your first step in predicting yearly sales is to first format and blend together data from different datasets and deal with outliers.</p>
+<p>Your manager has given you the following information to work with:</p>
+<ol>
+<li>The monthly sales data for all of the Pawdacity stores for the year 2010.</li>
+<li>NAICS data on the most current sales of all competitor stores where total sales is equal to 12 months of sales.</li>
+<li>A partially parsed data file that can be used for population numbers.</li>
+<li>Demographic data (Households with individuals under 18, Land Area, Population Density, and Total Families) for each city and county in the state of Wyoming. For people who are unfamiliar with the US city system, a state contains counties and counties contains one or more cities.</li>
+</ol>
+<p><center> <strong>Map of Wyoming Counties</strong></center></p>
+</div>
+
+</div>
+<div class="divider"></div><div class="ud-atom">
+  <h3><p>Map of Wyoming Counties</p></h3>
+  <div>
+  <figure class="figure">
+    <img src="img/wyoming-county-map.gif" alt="" class="img img-fluid">
+    <figcaption class="figure-caption">
+      
+    </figcaption>
+  </figure>
+</div>
+
+
+</div>
+<div class="divider"></div><div class="ud-atom">
+  <h3><p>Success Steps</p></h3>
+  <div>
+  <h3 id="steps-to-success">Steps to Success</h3>
+<h4 id="step-1-business-and-data-understanding">Step 1: Business and Data Understanding</h4>
+<p>Your project should include a description of the key business decisions that need to be made.</p>
+<h4 id="step-2-building-the-training-set">Step 2: Building the Training Set</h4>
+<p>To properly build the model, and select predictor variables, create a dataset with the following columns:</p>
+<p><code>City</code><br><br />
+<code>2010 Census Population</code><br><br />
+<code>Total Pawdacity Sales</code><br><br />
+<code>Households with Under 18</code><br><br />
+<code>Land Area</code><br><br />
+<code>Population Density</code><br><br />
+<code>Total Families</code></p>
+<p>This dataset will be your training set to help you build a regression model in order to predict sales in the Practice Project in the next lesson. Every row should have sales data because we're trying to predict sales.</p>
+<p><strong>Notes</strong></p>
+<p>You should be consolidating the data at the city level and <strong>not at the store level.</strong> We only have data at the city wide level so any analysis at the store level will not be sufficient to complete this analysis. </p>
+<p>We simply need to focus on cleaning up and blending the data together in this step.</p>
+<p>If you’ve done everything correctly, the sum for each of the above columns should be:</p>
+<ul>
+<li><strong>Census Population:</strong> 213,862</li>
+<li><strong>Total Pawdacity Sales:</strong> 3,773,304</li>
+<li><strong>Households with Under 18:</strong> 34,064</li>
+<li><strong>Land Area:</strong> 33,071</li>
+<li><strong>Population Density:</strong> 63</li>
+<li><strong>Total Families:</strong> 62,653</li>
+</ul>
+<p>with <strong>11 rows of data</strong></p>
+<p>For Alteryx users:</p>
+<ul>
+<li><p>Use the Autofield Tool to help quickly convert your data fields into the appropriate datafields for analysis.</p></li>
+<li><p>Research these <a href="http://help.alteryx.com/10.6/index.htm#Reference/Functions.htm#String" rel="noopener noreferrer" target="_blank">three specific formulas</a> to help you get rid of unwanted characters in the Formula tool: ReplaceFirst, Left, FindString</p></li>
+</ul>
+<h4 id="step-3-dealing-with-outliers">Step 3: Dealing with Outliers</h4>
+<p>Once you have created the dataset, look for outliers and figure out how deal with your outliers. Use the IQR method to determine if there are outlier cities for each of the variables and then justify which city that has at least one outlier value should be removed.</p>
+<p><strong>IQR Steps</strong></p>
+<p>To calculate the upper fence and the lower fence, here are the exact steps:</p>
+<p>1 . Calculate 1st quartile Q1 and 3rd quartile Q3 of the dataset. You can use the Excel function QUARTILE.INC or QUARTILE.EXC</p>
+<p>2 . Calculate the Interquartile Range: IQR = Q3 - Q1</p>
+<p>3 . Add 1.5 * IQR to Q3 to get the upper fence: Upper Fence = Q3 + 1.5 * IQR</p>
+<p>4 . Subtract 1.5 * IQR to Q1 to get the lower fence: Lower Fence = Q1 - 1.5 * IQR</p>
+<p>5 . Values above the Upper Fence and values below the Lower Fence are outliers</p>
+</div>
+
+</div>
+<div class="divider"></div>
+          </div>
+
+          <div class="col-12">
+            <p class="text-right">
+              <a href="04. Supporting Materials.html" class="btn btn-outline-primary mt-4" role="button">Next Concept</a>
+            </p>
+          </div>
+        </div>
+      </main>
+
+      <footer class="footer">
+        <div class="container">
+          <div class="row">
+            <div class="col-12">
+              <p class="text-center">
+                <a href="https://us-udacity.github.io/" target="_blank">【udacity2.0 】If you need more courses, please add wechat：udacity6</a>
+              </p>
+            </div>
+          </div>
+        </div>
+      </footer>
+    </div>
+  </div>
+
+
+  <script src="../assets/js/jquery-3.3.1.min.js"></script>
+  <script src="../assets/js/plyr.polyfilled.min.js"></script>
+  <script src="../assets/js/bootstrap.min.js"></script>
+  <script src="../assets/js/jquery.mCustomScrollbar.concat.min.js"></script>
+  <script src="../assets/js/katex.min.js"></script>
+  <script>
+    // Initialize Plyr video players
+    const players = Array.from(document.querySelectorAll('video')).map(p => new Plyr(p));
+
+    // render math equations
+    let elMath = document.getElementsByClassName('mathquill');
+    for (let i = 0, len = elMath.length; i < len; i += 1) {
+      const el = elMath[i];
+
+      katex.render(el.textContent, el, {
+        throwOnError: false
+      });
+    }
+
+    // this hack will make sure Bootstrap tabs work when using Handlebars
+    if ($('#question-tabs').length && $('#user-answer-tabs').length) {
+      $("#question-tabs a.nav-link").on('click', function () {
+        $("#question-tab-contents .tab-pane").hide();
+        $($(this).attr("href")).show();
+      });
+      $("#user-answer-tabs a.nav-link").on('click', function () {
+        $("#user-answer-tab-contents .tab-pane").hide();
+        $($(this).attr("href")).show();
+      });
+    } else {
+      $("a.nav-link").on('click', function () {
+        $(".tab-pane").hide();
+        $($(this).attr("href")).show();
+      });
+    }
+
+    // side bar events
+    $(document).ready(function () {
+      $("#sidebar").mCustomScrollbar({
+        theme: "minimal"
+      });
+
+      $('#sidebarCollapse').on('click', function () {
+        $('#sidebar, #content').toggleClass('active');
+        $('.collapse.in').toggleClass('in');
+        $('a[aria-expanded=true]').attr('aria-expanded', 'false');
+      });
+
+      // scroll to first video on page loading
+      if ($('video').length) {
+        $('html,body').animate({ scrollTop: $('div.plyr').prev().offset().top});
+      }
+
+      // auto play first video: this may not work with chrome/safari due to autoplay policy
+      if (players && players.length > 0) {
+        players[0].play();
+      }
+
+      // scroll sidebar to current concept
+      const currentInSideBar = $( "ul.sidebar-list.components li a:contains('03. Project Details')" )
+      currentInSideBar.css( "text-decoration", "underline" );
+      $("#sidebar").mCustomScrollbar('scrollTo', currentInSideBar);
+    });
+  </script>
+</body>
+
+</html>
