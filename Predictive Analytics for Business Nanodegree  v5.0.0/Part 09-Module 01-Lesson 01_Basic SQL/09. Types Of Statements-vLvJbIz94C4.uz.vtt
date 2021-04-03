@@ -1,0 +1,58 @@
+WEBVTT
+Kind: captions
+Language: uz
+
+00:00:00.000 --> 00:00:03.450
+SQL tili turli elementlarga ega,
+
+00:00:03.450 --> 00:00:05.594
+ulardan eng asosiysi bayonotdir.
+
+00:00:05.594 --> 00:00:10.115
+Bayonotni to‘g‘ri yozilgan SQL kodining bir bo‘lagi sifatida o‘ylang.
+
+00:00:10.115 --> 00:00:14.439
+Bayonotlar ma’lumotlar ba’zasiga siz nima qilishni xohlashingizni aytadi.
+
+00:00:14.439 --> 00:00:16.344
+Masalan CREATE bayonoti
+
+00:00:16.344 --> 00:00:19.234
+ma’lumotlar ba’zasida qanday qilib yangi ustun yaratishdir.
+
+00:00:19.234 --> 00:00:24.039
+The DROP TABLE bayonoti ba’zadan qanday qilib jadvalni olib tashlash haqida.
+
+00:00:24.039 --> 00:00:27.204
+Bu darsda biz sizga ma’lumotlarni o‘qish va ko‘rsatish
+
+00:00:27.204 --> 00:00:29.960
+imkonini beruvchi SELECT bayonotiga e’tibor qaratamiz.
+
+00:00:29.960 --> 00:00:34.350
+SELECT bayonotlari odatda so‘rovlar sifatida qabul qilinadi.
+
+00:00:34.350 --> 00:00:37.979
+SQL tushunadigan bir nechta boshqa bayonotlar bor.
+
+00:00:37.979 --> 00:00:39.707
+Ularning hammasi turli funksiyaga ega,
+
+00:00:39.707 --> 00:00:43.679
+ularning ko‘pchiligi ma’lumotlarni yaratish va olib tashlashga aloqador.
+
+00:00:43.679 --> 00:00:45.715
+Yakunda siz buni qanday bajarishni o‘rganasiz,
+
+00:00:45.715 --> 00:00:48.990
+ammo tahliliy ishning asosiy qismi ma’lumotlarni qo‘shish,
+
+00:00:48.990 --> 00:00:52.310
+olib tashlash, yoki o‘zgartirishni taqozo qilmaydi.
+
+00:00:52.310 --> 00:00:55.000
+U ma’lumotlar o‘qish va boshqarishni talab qiladi,
+
+00:00:55.000 --> 00:00:58.000
+ammo ba’zan mavjud ma’lumotlarni yangilash ham.
+

@@ -1,0 +1,81 @@
+WEBVTT
+Kind: captions
+Language: uz
+
+00:00:00.000 --> 00:00:03.555
+O‘zingizni Parch va Posey da raqamli 
+marketing menejeri sifatida tasavvur qiling.
+
+00:00:03.555 --> 00:00:08.230
+Siz har qanday Google sahifasi orqali 
+kelgan veb-trafikni aniqlamoqchisiz. Ammo muammo bor.
+
+00:00:08.230 --> 00:00:11.310
+Ko‘rinib turibdiki, Google dagi URL manzillar 
+
+00:00:11.310 --> 00:00:14.850
+bir xil domenga ega, lekin ko‘pincha 
+bir qancha qo‘shimchalar bor.
+
+00:00:14.850 --> 00:00:17.730
+Google sahifasidan kelgan barcha 
+(havoladagi qo‘shimchalardan qat’iy nazar)
+
+00:00:17.730 --> 00:00:20.550
+veb-trafikni tortadigan filtrni yozish uchun
+
+00:00:20.550 --> 00:00:22.115
+LIKE operatoridan foydalanishingiz mumkin.
+
+00:00:22.115 --> 00:00:27.195
+Birinchidan, agar WHERE gapida tenglik 
+belgisidan foydalansam nima bo‘lishini ko‘raylik.
+
+00:00:27.195 --> 00:00:31.170
+Ko‘rib turganingizdek, biz nol natijalarni olamiz.
+
+00:00:31.170 --> 00:00:34.830
+Endi men barcha satrlarni topish uchun 
+LIKE operatoridan foydalanaman
+
+00:00:34.830 --> 00:00:40.110
+URL havola Google so‘zini ichiga oladi, 
+ammo har ikki tomonda boshqa har xil belgilar mavjud.
+
+00:00:40.110 --> 00:00:42.690
+Bu misol ko‘p uchraydigan o‘xshash, 
+ammo bir oz farqli qiymatlar 
+
+00:00:42.690 --> 00:00:46.175
+bilan ishlashda foydalidir.
+
+00:00:46.175 --> 00:00:50.500
+E"tibor bergan bo‘lsangiz, LIKE funksiyasi 
+wild cards - maxsus belgilardan 
+
+00:00:50.500 --> 00:00:53.670
+foydalanishni talab qiladi. Bu yerda biz 
+protsent belgisidan foydalanamiz.
+
+00:00:53.670 --> 00:00:56.745
+Ushbu maxsus belgilar mos kelish qoidasini belgilaydi.
+
+00:00:56.745 --> 00:01:01.310
+Ushbu foiz belgilarining har biri har 
+qanday sondagi belgilarni ifodalaydi,
+
+00:01:01.310 --> 00:01:03.120
+bu belgilar qanday bo‘lishidan qat’i nazar.
+
+00:01:03.120 --> 00:01:07.350
+Shunday qilib, biz URL manzillar ichidan 
+o‘z ichiga Google satrini olganini qidiramiz
+
+00:01:07.350 --> 00:01:12.525
+u boshida har qanday belgilar 
+ketma-ketligiga ega bo‘lishidan 
+
+00:01:12.525 --> 00:01:15.120
+yoki oxirida har qanday belgilar ketma-ketligiga 
+ega bo‘lishidan qat’iy nazar.
+

@@ -1,0 +1,55 @@
+WEBVTT
+Kind: captions
+Language: uz
+
+00:00:00.210 --> 00:00:03.470
+Ma’lumot saqlashning bitta usuli elektron jadvaldir.
+
+00:00:03.470 --> 00:00:06.150
+Ba’zan siz turli manbalardan ma’lumotlarni to‘plash uchun
+
+00:00:06.150 --> 00:00:09.030
+ko‘plab elektron jadvallarga muhtoj bo‘lasiz. Biz
+
+00:00:09.030 --> 00:00:10.769
+ushbu elektron jadvallar orasidagi munosabatni
+
+00:00:10.769 --> 00:00:13.559
+obyektlar munosabatlari diagrammasini ifodalovchi
+
+00:00:13.559 --> 00:00:17.210
+ERD dan foydalanib tasvirlay olasiz.
+
+00:00:17.210 --> 00:00:20.939
+Bu ERD ning nimaga o‘xshashligi holati.
+
+00:00:20.939 --> 00:00:23.609
+Har bir elektron jadval alohida jadvalda ifodalanadi.
+
+00:00:23.609 --> 00:00:26.849
+Yuqori qismda siz jadvalning nomi va
+
+00:00:26.849 --> 00:00:30.029
+pastda har bir ustunning nomi
+
+00:00:30.029 --> 00:00:33.719
+keltiriladi. SQL ma’lumotlar ba’zasi bilan
+
+00:00:33.719 --> 00:00:37.559
+aloqaga kirishishda ishlatiladigan tildir. 
+
+00:00:37.559 --> 00:00:41.790
+U bitta jadval yoki
+
+00:00:41.790 --> 00:00:46.079
+bir nechta jadvallar bo‘ylab so‘rovni amalga oshiradi.
+
+00:00:46.079 --> 00:00:47.700
+Ushbu munosabatlarni tushunish boshqa tizimlardan ko‘ra
+
+00:00:47.700 --> 00:00:50.100
+sizga ma’lumotdan tezroq tushuncha olishga
+
+00:00:50.100 --> 00:00:52.820
+yordam beradi
+

@@ -1,0 +1,131 @@
+WEBVTT
+Kind: captions
+Language: uz
+
+00:00:00.000 --> 00:00:02.730
+Udacity sinfidagi SQL bilan ishlash 
+muhiti - SQL ish maydoni
+
+00:00:02.730 --> 00:00:05.580
+SQL so‘rovlarini bajarish uchun 
+sizga imkon yaratadi.
+
+00:00:05.580 --> 00:00:08.700
+SQL ish maydoni yuqori qismida "kiritish" 
+deb yozilgan ko‘k sarlavha bor,
+
+00:00:08.700 --> 00:00:10.230
+pastki qismida esa - "chiqish" deb yozilgan.
+
+00:00:10.230 --> 00:00:13.245
+"Kirish" qismida siz har doim chap 
+panelda ko‘rsatilgan sxemani ko‘rasiz,
+
+00:00:13.245 --> 00:00:15.255
+unda ma’lumotlar bazasidagi barcha 
+jadvallar ko‘rsatilgan.
+
+00:00:15.255 --> 00:00:17.760
+Bu erda biz oldinroq munosabatlar diagrammasida 
+ko‘rsatilgan Parch &amp; Posey 
+
+00:00:17.760 --> 00:00:20.430
+ma’lumotlar bazamizdagi jadvallarni ko‘ramiz.
+
+00:00:20.430 --> 00:00:22.100
+Agar siz pastga ko‘rsatgan 
+o‘qlardan birini bossangiz,
+
+00:00:22.100 --> 00:00:24.315
+o‘sha jadvaldagi barcha ustunlarni ko‘rasiz,
+
+00:00:24.315 --> 00:00:26.550
+bunda barchasini ko‘rish uchun biz 
+biroz pastga skroll qilishimiz - surishimiz kerak
+
+00:00:26.550 --> 00:00:30.165
+boshqa barcha jadvallarni ko‘rish uchun ham.
+
+00:00:30.165 --> 00:00:33.195
+Ushbu o‘qni qayta bosish bu ustunlarni 
+yana yashirin holatga keltiradi.
+
+00:00:33.195 --> 00:00:37.300
+Panelning o‘ng qismi bizga 
+so‘rovlarni kiritishga imkon beradi.
+
+00:00:43.850 --> 00:00:47.615
+Moviy "Hisoblash" tugmachasi 
+ularni bajarishga imkon beradi.
+
+00:00:47.615 --> 00:00:50.860
+Afsuski, men formada yoki yonida sintaktik xato qildim,
+
+00:00:50.860 --> 00:00:53.035
+chalkashlik qilganim uchun,
+
+00:00:53.035 --> 00:00:55.000
+men buni hozir osongina tuzataman
+
+00:00:55.000 --> 00:00:57.740
+va biz so‘rovni qayta bajaramiz.
+
+00:01:00.260 --> 00:01:03.580
+Bu safar men muvaffaqiyatli xabar olganim
+
+00:01:03.580 --> 00:01:06.070
+so‘rovni bajarishda hech qanday 
+xatolik yuz bermaganligini bildiradi.
+
+00:01:06.070 --> 00:01:09.010
+Endi, muvaffaqiyatli xabar olish so‘rovni 
+to‘g‘ri berilganligini va
+
+00:01:09.010 --> 00:01:12.070
+va men xohlagan natija erishganligimni anglatmaydi.
+
+00:01:12.070 --> 00:01:16.330
+Shuning uchun men buni bilish uchun 
+pastki qismidagi natijaga qarashim kerak.
+
+00:01:16.330 --> 00:01:21.115
+Chiqishdagi barcha ustunlarni ko‘rish uchun 
+o‘ng tomonga siljitish kerak bo‘lishi mumkin.
+
+00:01:21.115 --> 00:01:23.740
+Udacityning hamma yerda ko‘rishingiz 
+mumkin bo‘lgan ushbu ish maydonining 
+
+00:01:23.740 --> 00:01:26.380
+foydali xususiyatlari ham bor. 
+
+00:01:26.380 --> 00:01:29.360
+Yuqorida o‘ng tomonda, siz oldin bajarilgan 
+barcha so‘rovlarni (agar mavjud bo‘lsa, albatta) ko‘rishga 
+
+00:01:29.360 --> 00:01:33.035
+imkon beradigan tarix menyusi bor.
+
+00:01:33.035 --> 00:01:36.320
+Sxemalar panelini yashirin va ko‘rinadigan 
+
+00:01:36.320 --> 00:01:39.680
+holatga keltirish tugmasi ham mavjud.
+
+00:01:39.680 --> 00:01:42.605
+Chap menyuning pastki qismida,
+
+00:01:42.605 --> 00:01:46.790
+ish maydonini yangilang yoki ma’lumotlarni 
+tiklash - asl holatiga qaytarish tugmalari bor.
+
+00:01:46.790 --> 00:01:51.605
+Amma ma’lumotlarni tiklashdan oldin siz xohlagan 
+ishlarni saqlab qo‘yganingizga ishonch hosil qiling.
+
+00:01:51.605 --> 00:01:55.370
+Bu erda shuningdek kengaytirish va qisqarish tugmasi mavjud.
+
+00:01:55.370 --> 00:01:57.910
+SQL ish maydonidan shu tarzda foydalanasiz.
+

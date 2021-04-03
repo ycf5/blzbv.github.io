@@ -1,0 +1,94 @@
+WEBVTT
+Kind: captions
+Language: uz
+
+00:00:00.030 --> 00:00:02.399
+Sizning ko‘plab so‘rovlaringizning maqsadi
+
+00:00:02.399 --> 00:00:04.350
+oddiygina ma’lum bir jadvalning qandayligini
+
+00:00:04.350 --> 00:00:06.480
+bilishdan iborat. Siz qaysi bo‘limlariga
+
+00:00:06.480 --> 00:00:08.400
+e’tibor berish va ularni qanday boshqarish
+
+00:00:08.400 --> 00:00:10.410
+kerakligini bilish uchun ma’lumotning dastlabki
+
+00:00:10.410 --> 00:00:13.230
+bir necha qatorini tekshirib ko‘rishni istaysiz. Masalan
+
+00:00:13.230 --> 00:00:14.519
+agar siz "Parchin Posey"ning veb-saytidagi trafikni
+
+00:00:14.519 --> 00:00:16.590
+ko‘rishni xohlasangiz, siz birinchi amalga oshiradigan
+
+00:00:16.590 --> 00:00:18.420
+narsa - veb-trafik jadvalida qanday ma’lumot
+
+00:00:18.420 --> 00:00:20.460
+saqlanishini bilish bo‘ladi.
+
+00:00:20.460 --> 00:00:23.369
+Buni amalga oshirish uchun siz faqatgina
+
+00:00:23.369 --> 00:00:26.970
+ma’lumotning bir necha qatorini ko‘rishingiz yetarli.
+
+00:00:26.970 --> 00:00:29.010
+Ko‘p tahlilchilar so‘rovlar amalga oshishida ko‘p vaqt 
+
+00:00:29.010 --> 00:00:30.570
+ketishini oldini olish yo‘li sifatida  LIMIT buyrug‘idan
+
+00:00:30.570 --> 00:00:33.360
+foydalanishadi. Agar siz yuz millionlab qatorga ega
+
+00:00:33.360 --> 00:00:35.100
+jadvalda so‘rov amalga oshirsangiz va LIMIT
+
+00:00:35.100 --> 00:00:37.170
+ishlatmasangiz siz barcha natijalaringiz 
+
+00:00:37.170 --> 00:00:38.790
+ko‘ringuncha uzoq vaqt kutishingiz kerak bo‘ladi.
+
+00:00:38.790 --> 00:00:41.280
+Bu esa ma'noga ega emas, agarda siz faqatgina
+
+00:00:41.280 --> 00:00:43.070
+dastlabki bir necha qatorlarga qiziqsangiz.
+
+00:00:43.070 --> 00:00:45.690
+Keling, veb-trafikning dastlabki o‘n qatoriga qarashda
+
+00:00:45.690 --> 00:00:48.690
+LIMIT dan foydalanamiz. LIMIT
+
+00:00:48.690 --> 00:00:50.309
+so‘rovning oxirida raqam bilan
+
+00:00:50.309 --> 00:00:52.530
+yozilgan bo‘ladi bu qatorlar
+
+00:00:52.530 --> 00:00:56.579
+sonini cheklaydi, masalan, limit 10
+
+00:00:56.579 --> 00:00:58.739
+natijalarning dastlabki 10 qatorini ko‘rsatadi
+
+00:00:58.739 --> 00:01:02.309
+va qolganini tushurib qoldiradi. Limit 100,000
+
+00:01:02.309 --> 00:01:05.549
+dastlabki 100,000 qatorni beradi. Qatorlar bu darajada 
+
+00:01:05.549 --> 00:01:07.350
+ko‘p bo‘lmaganligi uchun u shunchaki 
+
+00:01:07.350 --> 00:01:10.669
+jadvaldagi barcha qatorlarni qaytaradi.
+

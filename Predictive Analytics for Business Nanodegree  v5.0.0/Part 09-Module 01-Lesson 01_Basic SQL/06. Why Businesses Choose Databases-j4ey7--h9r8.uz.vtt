@@ -1,0 +1,98 @@
+WEBVTT
+Kind: captions
+Language: uz
+
+00:00:00.000 --> 00:00:04.590
+Deyarli barcha ilovalarda keyingi kirishgacha
+ma’lumotlarni saqlash kerak.
+
+00:00:04.590 --> 00:00:06.790
+Buni Tvitter misolida ko‘raylik.
+
+00:00:06.790 --> 00:00:08.445
+Har safar men biror tvitni o‘qiganimda,
+
+00:00:08.445 --> 00:00:13.740
+mening tvitimning matni hamma izdoshlarim 
+o‘qishi uchun biron bir joyda saqlanishi kerak.
+
+00:00:13.740 --> 00:00:16.155
+Tvitter mening tvitim haqida bir 
+qancha ma’lumotlarni saqlaydi.
+
+00:00:16.155 --> 00:00:17.590
+Muallif kim?
+
+00:00:17.590 --> 00:00:19.470
+Men. Yozgan vaqtim, 
+agar men javob yoki yana tvit 
+
+00:00:19.470 --> 00:00:24.380
+va hokazolarni yozayotgan bo‘lsam, 
+boshqa tegishli tvitlarga havolalar.
+
+00:00:24.380 --> 00:00:29.815
+Ushbu ma’lumotlarning barchasi mening 
+tvitlarimni kim va qachon ko‘rishlarini 
+aniqlash uchun ishlatiladi.
+
+00:00:29.815 --> 00:00:31.920
+Ayni shular uchun ma’lumotlar bazalari xizmat qiladi.
+
+00:00:31.920 --> 00:00:35.093
+Ular ma’lumotni keyinroq kirib 
+foydalanish uchun saqlaydi,
+
+00:00:35.093 --> 00:00:40.090
+va SQL - bu tahlilchilar va boshqalarga ma’lumotlardan 
+foydalanish uchun imkon beradigan til.
+
+00:00:40.090 --> 00:00:43.330
+Ma’lumotlar bazalari buning uchun 
+bir qator xususiyatlarga ega.
+
+00:00:43.330 --> 00:00:47.490
+Eng muhimi, ma’lumotlar bazasi 
+ma’lumotlar yaxlitligini tekshiradi.
+
+00:00:47.490 --> 00:00:50.245
+Ular kiritilgan ma’lumotlar bir-biriga 
+mos kelishiga ishonch hosil qildiradi.
+
+00:00:50.245 --> 00:00:53.760
+Masalan, agar siz berilgan shaxsning 
+bolalar sonini saqlayotgan bo‘lsangiz,
+
+00:00:53.760 --> 00:00:56.740
+ma’lumotlar bazasi faqat butun sonlardan foydalanilishini ta’minlaydi,
+
+00:00:56.740 --> 00:00:58.545
+chunki yarim nafar farzand bo‘lmaydi.
+
+00:00:58.545 --> 00:01:00.900
+Shuningdek, ma’lumotlar bazalari juda tezkor,
+
+00:01:00.900 --> 00:01:03.055
+ular juda ham katta ma’lumotlar to‘plami 
+ustida ham amallarni optimallashtirish 
+
+00:01:03.055 --> 00:01:06.350
+yordamida nihoyatda tez bajarishi mumkin
+va optimallashtirish mumkin.
+
+00:01:06.350 --> 00:01:08.305
+Ma’lumotlar bazalari umumiy resurslar demakdir.
+
+00:01:08.305 --> 00:01:11.210
+Juda ko‘p odamlar bir vaqtning o‘zida ma’lumotlar 
+bazasida ma’lumotlar bilan ishlashi mumkin.
+
+00:01:11.210 --> 00:01:14.535
+Eng muhimi, o‘sha odamlarning barchasi ayni bitta 
+ma’lumot bilan birgalikda bir vaqtda ishlashi mumkin.
+
+00:01:14.535 --> 00:01:19.110
+Bularni osonlashtirish uchun ma’lumotlar 
+bazalarida foydalanishni boshqarish 
+kabi ko‘plab ma’muriy funksiyalar mavjud.
+

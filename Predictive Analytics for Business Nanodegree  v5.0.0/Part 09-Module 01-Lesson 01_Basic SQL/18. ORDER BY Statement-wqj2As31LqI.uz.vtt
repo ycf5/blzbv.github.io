@@ -1,0 +1,79 @@
+WEBVTT
+Kind: captions
+Language: uz
+
+00:00:00.000 --> 00:00:03.839
+O‘zingizni Parch va Poseyning moliya bo‘limida tasavvur qiling.
+
+00:00:03.839 --> 00:00:06.030
+Siz yaqin oradagi buyurtmalarni ko‘rib chiqishni xohlaysiz,
+
+00:00:06.030 --> 00:00:10.429
+shunda bu mijozlarga schyot-faktura yuborilganligini tasdiqlay olasiz.
+
+00:00:10.429 --> 00:00:12.855
+Order By bandi buni bajarishda sizga buyurtmalarni sanasi bo‘yicha
+
+00:00:12.855 --> 00:00:16.440
+saralash usuli orqali sizga yordam beradi.
+
+00:00:16.440 --> 00:00:20.274
+Keling dastlab ma’lumotlar standart holda qanday tartiblanganini ko‘ramiz.
+
+00:00:20.274 --> 00:00:24.379
+Siz bu jadvalni standart holatda Account ID tomonidan tartiblanganini sezasiz.
+
+00:00:24.379 --> 00:00:28.339
+U 1001 dan boshlanadi va shu joyidan yuqorilab boradi.
+
+00:00:28.339 --> 00:00:30.414
+Keling siz ustunda ko‘ra oladigan buyurtmalar joylashtirilgan
+
+00:00:30.414 --> 00:00:33.195
+sanalarga asoslangan holda natijalarni o‘rnini,
+
+00:00:33.195 --> 00:00:36.299
+o‘zgartiruvchi Order By bandini qo‘shamiz.
+
+00:00:36.299 --> 00:00:40.734
+Order By bandi From va Limit bandlari o‘rtasida boradi.
+
+00:00:40.734 --> 00:00:42.585
+Siz shu tartibda yozishingiz kerak,
+
+00:00:42.585 --> 00:00:44.520
+yoki so‘rovingiz ishlamaydi.
+
+00:00:44.520 --> 00:00:48.119
+Standart holda Order By a dan z ga, eng pastdan eng yuqoriga,
+
+00:00:48.119 --> 00:00:51.090
+yoki sanalar bilan ishlanganda eng yaqinidan
+
+00:00:51.090 --> 00:00:53.049
+eng uzog‘iga boradi.
+
+00:00:53.049 --> 00:00:55.674
+Bu ko‘tariluvchi tartib deb yuritiladi.
+
+00:00:55.674 --> 00:00:58.179
+Siz bu yerda nima bo‘layotganini sezasiz.
+
+00:00:58.179 --> 00:00:59.865
+Agar siz boshqa yo‘lda tartiblashni xohlasangiz,
+
+00:00:59.865 --> 00:01:02.054
+siz  tushuvchining qisqartmasi DESC ni
+
+00:01:02.054 --> 00:01:06.280
+Order By bandi oxiriga qo‘shamiz.
+
+00:01:06.280 --> 00:01:08.400
+Bu bizni 10 eng yaqin buyurtmalarni,
+
+00:01:08.400 --> 00:01:10.620
+ko‘rsatadigan ma’lumotlar bazasiga,
+
+00:01:10.620 --> 00:01:12.240
+olib borishni ta’minlaydi.
+

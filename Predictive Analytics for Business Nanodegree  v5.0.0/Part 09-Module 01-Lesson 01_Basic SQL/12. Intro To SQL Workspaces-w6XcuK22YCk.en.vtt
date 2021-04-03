@@ -1,0 +1,112 @@
+WEBVTT
+Kind: captions
+Language: en
+
+00:00:00.000 --> 00:00:02.730
+The SQL workspace in your Udacity classroom
+
+00:00:02.730 --> 00:00:05.580
+provides you an environment to execute SQL queries.
+
+00:00:05.580 --> 00:00:08.699
+The SQL workspace has a light blue header saying "input" at the top,
+
+00:00:08.699 --> 00:00:10.229
+and another saying "output" at the bottom.
+
+00:00:10.230 --> 00:00:13.245
+In the "input" section, you'll always see the schema shown in the left panel,
+
+00:00:13.244 --> 00:00:15.254
+where all the tables on the database are shown.
+
+00:00:15.255 --> 00:00:17.760
+Here, we see the tables on our Parch &amp; Posey database that
+
+00:00:17.760 --> 00:00:20.429
+were shown in the entity relationship diagram earlier.
+
+00:00:20.429 --> 00:00:22.100
+If you click on one of the down arrows here,
+
+00:00:22.100 --> 00:00:24.315
+you'll see all the columns in that table,
+
+00:00:24.315 --> 00:00:26.550
+and we may have to scroll down a little bit to see all of
+
+00:00:26.550 --> 00:00:30.164
+them and to see all other tables as well.
+
+00:00:30.164 --> 00:00:33.195
+Clicking on the arrow again hides those columns.
+
+00:00:33.195 --> 00:00:37.299
+The right section of the panel lets us type in queries.
+
+00:00:43.850 --> 00:00:47.615
+The blue "Evaluate" button lets us execute them.
+
+00:00:47.615 --> 00:00:50.859
+Oops, I made a syntax error at or near form,
+
+00:00:50.859 --> 00:00:53.034
+that's because I misspelled it,
+
+00:00:53.034 --> 00:00:55.000
+and if I change that easily,
+
+00:00:55.000 --> 00:00:57.740
+then we can re-execute the query.
+
+00:01:00.259 --> 00:01:03.579
+This time, I get a success message indicating that there were
+
+00:01:03.579 --> 00:01:06.069
+no errors that occurred during the running of that query.
+
+00:01:06.069 --> 00:01:09.009
+Now, getting a success message doesn't mean that the query
+
+00:01:09.010 --> 00:01:12.070
+did it exactly what I intended it for it to do though,
+
+00:01:12.069 --> 00:01:16.329
+so I still need to look at the output at the bottom to see if I got what I wanted.
+
+00:01:16.329 --> 00:01:21.114
+I may need to scroll over further to the right to see all the columns on the output.
+
+00:01:21.114 --> 00:01:23.739
+There are some helpful features of
+
+00:01:23.739 --> 00:01:26.379
+this workspace that you'll see in all Udacity workspaces.
+
+00:01:26.379 --> 00:01:29.359
+In the upper right, we have a history menu that allows you
+
+00:01:29.359 --> 00:01:33.034
+to see all your previously run queries, if you have any.
+
+00:01:33.034 --> 00:01:36.319
+There's also a menu button that lets you toggle
+
+00:01:36.319 --> 00:01:39.679
+the schema panel from being visible or hidden.
+
+00:01:39.680 --> 00:01:42.605
+Another menu that lets you, in the lower left,
+
+00:01:42.605 --> 00:01:46.790
+refresh the workspace or reset data.
+
+00:01:46.790 --> 00:01:51.605
+Make sure you save any work you want before you do a reset data.
+
+00:01:51.605 --> 00:01:55.370
+There's also an expand and shrink button here as well.
+
+00:01:55.370 --> 00:01:57.910
+That's how you use the SQL workspace.
+

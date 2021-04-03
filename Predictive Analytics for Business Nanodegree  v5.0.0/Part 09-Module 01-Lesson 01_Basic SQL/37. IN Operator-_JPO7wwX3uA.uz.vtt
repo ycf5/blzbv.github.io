@@ -1,0 +1,55 @@
+WEBVTT
+Kind: captions
+Language: uz
+
+00:00:00.000 --> 00:00:02.835
+Tasavvur qiling siz Parch va Poseyda sotuv menejerisiz,
+
+00:00:02.835 --> 00:00:05.474
+va siz qanday qilib bir nechta kalit hisoblar ishlayotganini ko‘rishni xohlaysiz.
+
+00:00:05.474 --> 00:00:10.039
+IN funksiyasi sizga bir nechta ehtimoliy qiymatlarga asoslanib ma’lumotlarni filtrlash imkonini beradi.
+
+00:00:10.039 --> 00:00:11.939
+Demak, agar siz Walmart va Apple hisoblarining ma’lumotlarini ko‘rishni
+
+00:00:11.939 --> 00:00:15.250
+xohlasangiz, bu yerda uni qanday bajarilishi.
+
+00:00:15.250 --> 00:00:17.184
+Taqqoslash operatorlari bilan bo‘lganidek,
+
+00:00:17.184 --> 00:00:19.289
+Raqamli ma’lumotlar to‘g‘ridan-to‘g‘ri kira olgan paytida,
+
+00:00:19.289 --> 00:00:22.850
+IN raqamli bo‘lmagan ma’lumotlar atrofida qo‘shtirnoq talab qiladi.
+
+00:00:22.850 --> 00:00:26.094
+Keling o‘sha hisob bilan bog‘liq bo‘lgan haqiqiy buyurtmalarni ko‘rib chiqamiz.
+
+00:00:26.094 --> 00:00:28.355
+Dastlab bu yerdagi hisob identifikatsiyasidan qaydnoma olamiz,
+
+00:00:28.355 --> 00:00:33.509
+Walmart uchun 1001 va Apple uchun 1021.
+
+00:00:33.509 --> 00:00:37.945
+Endi biz 1001 va 1021 ga kelib tushgan individual buyurtmalarni ko‘rib chiqamiz,
+
+00:00:37.945 --> 00:00:39.600
+va ko‘rib turganingizdek, ular hammasi birgalikda qo‘shilib ketadi
+
+00:00:39.600 --> 00:00:42.299
+chunki bu so‘rovda ORDER BY bandi mavjud emas.
+
+00:00:42.299 --> 00:00:45.399
+Bu yerda yodda tutiladigan narsa ikki qiymat o‘rtasidagi verguldir.
+
+00:00:45.399 --> 00:00:48.179
+Siz qavslar ichiga xohlaganingizcha qiymatlar qo‘yishingiz mumkin,
+
+00:00:48.179 --> 00:00:51.090
+ammo siz har bir juft qiymat orasiga vergul qo‘yishingizga to‘g‘ri keladi.
+

@@ -1,0 +1,40 @@
+WEBVTT
+Kind: captions
+Language: uz
+
+00:00:00.020 --> 00:00:04.599
+Taqqoslash operatorlari raqamli bo‘lmagan ma’lumotlar bilan ham ishlay oladi.
+
+00:00:04.599 --> 00:00:08.125
+Mukammal to‘plashlarni yaratish uchun teng va teng emaslik.
+
+00:00:08.125 --> 00:00:12.390
+Ular sizga biror qiymatga mos keladigan yoki mos kelmaydigan qatorlarni tanlash imkonini beradi.
+
+00:00:12.390 --> 00:00:15.599
+Keling Parch and Posey ning hisob jadvalidan bir misolni ko‘rib chiqamizbu yerda ko‘rganingizdek barcha mijozlarni
+
+00:00:15.599 --> 00:00:20.739
+u shunchaki ko‘rib turganingizdek o‘z mijozlarining ro‘yxatini qiladi va xususiyatlari haqida aytadi.
+
+00:00:20.739 --> 00:00:23.690
+Bu operatorlarni ishlatishda bir nechta muhim qoidalar mavjud.
+
+00:00:23.690 --> 00:00:26.969
+Agar siz raqamli bo‘lmagan operatordan foydalanayotgan bo‘lsangiz,
+
+00:00:26.969 --> 00:00:29.500
+siz qiymatni yolg‘iz qo‘shtirnoqqa qo‘yishingiz kerak.
+
+00:00:29.500 --> 00:00:32.670
+Ko‘rib turganingizdek, ushbu ma’lumotlar to‘plami WHERE bandidagi shartga mos keladigan
+
+00:00:32.670 --> 00:00:36.780
+yolg‘iz qatorga yetguncha filtrlanadi.
+
+00:00:36.780 --> 00:00:39.134
+Agar biz operatorni teng emasga o‘zgartirsak,
+
+00:00:39.134 --> 00:00:43.000
+natijalar har bir qatorni ko‘rsatadi faqat United Technologies dan tashqari.
+

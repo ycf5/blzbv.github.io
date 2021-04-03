@@ -1,0 +1,127 @@
+WEBVTT
+Kind: captions
+Language: uz
+
+00:00:00.150 --> 00:00:03.160
+Keling yozishni ba’zi savollar bilan boshlaymiz.
+
+00:00:03.160 --> 00:00:05.469
+Dastlab, bitta ro‘yxat yaratmoqchimiz
+
+00:00:05.469 --> 00:00:08.305
+Parch va Posey qabul qilgan hamma buyurtmalar.
+
+00:00:08.305 --> 00:00:11.560
+Bu oddiy lekin tashkilot haqida o‘rganishning qimmatli yo‘li.
+
+00:00:11.560 --> 00:00:16.045
+ Parch va Posey hisobotlar ularning buyurtmalari jadvalda Buyurtmalar deyiladi.
+
+00:00:16.045 --> 00:00:18.954
+Bu jadval siz bu yerda ko‘rayotgan hamma ustunlarni o‘z ichiga oladi,
+
+00:00:18.954 --> 00:00:22.614
+har bittasi ba’zi xususiyat va buyurtmaga javob.
+
+00:00:22.614 --> 00:00:24.219
+Har bitta buyurtmada o‘ziga xos ID bor,
+
+00:00:24.219 --> 00:00:29.225
+bu buyurtma shuning uchun o‘rnatilganki vaqt muhri o‘rnatilishi va tartiblanishi uchun.
+
+00:00:29.225 --> 00:00:33.640
+Bu yana yillik daromad va sotuv hajmini yaratishni o‘z ichiga oladi har bir turdagi qog‘oz buyurtma uchun.
+
+00:00:33.640 --> 00:00:37.500
+hamma buyurtma uchun ro‘yxat yaratish maqsadida,
+
+00:00:37.500 --> 00:00:40.030
+biz SELECT bayonotnomasini yozamiz.
+
+00:00:40.030 --> 00:00:41.799
+SELECT bayonotnomasini sifatida o‘ylang
+
+00:00:41.799 --> 00:00:45.484
+ega bo‘lishga harakat qilayotgan natijaga erishish uchun anketani to‘ldirish.
+
+00:00:45.484 --> 00:00:47.380
+Bu anketada shunday turdagi savollar to‘plami bor,
+
+00:00:47.380 --> 00:00:49.030
+Tortib chiqarmoq uchun qaysi kunni xohlaysiz?
+
+00:00:49.030 --> 00:00:52.829
+Va kunning qaysi qismini tortib chiqarishni xohlaysiz?
+
+00:00:52.829 --> 00:00:56.369
+Bu savollar hamma vaqt bir xil buyurtma bilan tashkillashtiriladi.
+
+00:00:56.369 --> 00:00:59.539
+Ularning ba’zilari ixtiyoriy,ba’zilari majburiy.
+
+00:00:59.539 --> 00:01:02.274
+Qachonki SELECT hisobotnomasini to‘liq yozganda,
+
+00:01:02.274 --> 00:01:07.525
+bu har bitta savol oddiy so‘z orqali namoyish etiladi SELECT yoki FROM kabi.
+
+00:01:07.525 --> 00:01:10.510
+Bu so‘zlar bandlar deb ataladi.
+
+00:01:10.510 --> 00:01:13.864
+ FROM bandi qaysi sanada foydalanish savolini aytadi.
+
+00:01:13.864 --> 00:01:16.094
+Mana,biz buyutmalar jadvali qarayapmiz.
+
+00:01:16.094 --> 00:01:18.493
+Shuning uchun buni FROM dan keyin yozaman.
+
+00:01:18.493 --> 00:01:24.159
+ SELECT bandi bu jadvaldan qaysi ustunni o‘qish savolini aytadi.
+
+00:01:24.159 --> 00:01:30.635
+Ustun nomlari vergul bilan ajratiladi oxirgi ustun vergul bilan ajratilishi shart emas.
+
+00:01:30.635 --> 00:01:33.250
+Siz yana hamma ustindagi foydalanayotgan ismlarni tanlashingiz mumkin
+
+00:01:33.250 --> 00:01:38.590
+ hammasi ma’nosini anglatadigan * belgisi bilan belgilang.
+
+00:01:38.590 --> 00:01:42.040
+Odamlar odatda buni yulduz sifatida tanlashganini aytishadi.
+
+00:01:42.040 --> 00:01:46.685
+Ikkala SELECT va FROM bandlari majburiy.
+
+00:01:46.685 --> 00:01:50.629
+Siz ularni yozayotgan har bitta savolga kiritasiz kursning bir qismi sifatida.
+
+00:01:50.629 --> 00:01:52.855
+Agar ularning har ikkalasini kiritmasangiz,
+
+00:01:52.855 --> 00:01:57.155
+xohlangan natijadan ko‘ra xato xabarga ega bolasiz.
+
+00:01:57.155 --> 00:02:01.795
+Qachonki boshlash tugmasini bosganimda,ma’lumotlar bazasi savolni bajaradi va natijasi kelib chiqadi,
+
+00:02:01.795 --> 00:02:06.010
+buyurtmalar jadvalidagi har bitta qator hamma yaroqli ustunlarni ko‘rsatadi.
+
+00:02:06.010 --> 00:02:07.465
+Va hozir siz ko‘rayotganingiz bu,
+
+00:02:07.465 --> 00:02:10.740
+siz allaqachon qimmatli biron nima qilish uchun yetarlicha bilimga ega bo‘ldingiz.
+
+00:02:10.740 --> 00:02:11.844
+Siz jadvalni o‘qiy olasiz,
+
+00:02:11.844 --> 00:02:13.224
+va agar xohlasangiz,
+
+00:02:13.224 --> 00:02:17.000
+natijalaringizni ko‘rsatish uchun Excel kabi boshqa arizalarga jo‘nating.
+

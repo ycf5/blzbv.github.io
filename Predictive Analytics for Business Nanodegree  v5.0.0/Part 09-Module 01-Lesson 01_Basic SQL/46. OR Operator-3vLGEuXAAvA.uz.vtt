@@ -1,0 +1,79 @@
+WEBVTT
+Kind: captions
+Language: uz
+
+00:00:00.000 --> 00:00:03.794
+Yana bir bor tasavvur qiling siz Parch va Poseyda sotuv menejerisiz.
+
+00:00:03.794 --> 00:00:06.719
+Siz aniqladingizki, daromadlarni ko‘paytirishning yana bir ajoyib usuli
+
+00:00:06.719 --> 00:00:09.810
+yangi turdagi qog‘ozlarni mavjud mijozlarga sotishdir.
+
+00:00:09.810 --> 00:00:12.179
+Eng yuksak istiqbollarni aniqlash uchun,
+
+00:00:12.179 --> 00:00:16.260
+siz ba’zi qog‘oz turida buyurtmalari tushib qolgan mavjud mijozlarni ko‘rishni xohlaysiz.
+
+00:00:16.260 --> 00:00:18.510
+Turlicha qog‘oz turlariga buyurtmalar uch alohida ustunda
+
+00:00:18.510 --> 00:00:20.670
+ustunda Buyurtmalar jadvalida ko‘rsatilgan.
+
+00:00:20.670 --> 00:00:24.969
+Shunday qilib siz ushbu har bir ustunni mantiqiy taqqoslaydigan so‘rov yozishingiz kerak.
+
+00:00:24.969 --> 00:00:28.410
+Ko‘rib turganingizdek ko‘plab buyurtmalarning hammasi uch turdagi qog‘ozlar uchun.
+
+00:00:28.410 --> 00:00:30.285
+Endi keling bir qog‘oz turiga buyurtma berilmagan buyurtmalarni topish
+
+00:00:30.285 --> 00:00:33.310
+uchun mantiqiy amal qurishni boshlaymiz.
+
+00:00:33.310 --> 00:00:34.950
+Siz buni OR dan foydalanib qila olasiz.
+
+00:00:34.950 --> 00:00:37.799
+OR bu SQL dagi ikki shartdan birini qondiradigan qatorlarni
+
+00:00:37.799 --> 00:00:41.070
+tanlash imkonini beruvchi mantiqiy operatordir.
+
+00:00:41.070 --> 00:00:46.289
+U ikki shartni qondiruvchi ustunlarni tanlaydiga AND bilan bir xilda ishlaydi.
+
+00:00:46.289 --> 00:00:48.284
+Keling buni faqat standart qog‘oz tarkibiga kirmagan
+
+00:00:48.284 --> 00:00:51.719
+buyurtmalarni tanlash orqali yaratamiz.
+
+00:00:51.719 --> 00:00:55.320
+Ko‘rishingiz mumkin bu 825 natijani berdi.
+
+00:00:55.320 --> 00:00:58.140
+Endi keling OR dan foydalanib boshqa turni qo‘shamiz.
+
+00:00:58.140 --> 00:01:02.060
+Ko‘rib turganingizdek natijalar to‘plami avvalgisidan kattaroq.
+
+00:01:02.060 --> 00:01:04.795
+Chunki biz bu filtrni ko‘proq o‘z ichiga qamrab oladigan qildik.
+
+00:01:04.795 --> 00:01:06.900
+Endi u ushbu ikki mantiqiy bayonotdan biri to‘g‘ri sifatida
+
+00:01:06.900 --> 00:01:09.269
+hal qilingan natijalar bilan qaytadi.
+
+00:01:09.269 --> 00:01:11.275
+Yana bir mantiqiy bayonot qo‘shish orqali,
+
+00:01:11.275 --> 00:01:16.219
+biz ba’zi qog‘oz turlari tushurib qoldirilgan barcha buyurtmalarni beruvchi so‘rovga yetib kelamiz.
+

@@ -1,0 +1,79 @@
+WEBVTT
+Kind: captions
+Language: uz
+
+00:00:00.000 --> 00:00:03.720
+O‘zingizni Parch and Posey da hisob menejeri deb tasavvur qiling.
+
+00:00:03.720 --> 00:00:05.580
+Siz eng muhim mijozlaringizdan biri oldiga tashrif buyurish
+
+00:00:05.580 --> 00:00:08.189
+arafasidasiz va siz o‘zingizni tayyor ko‘rsatishni xohlaysiz,
+
+00:00:08.189 --> 00:00:13.439
+bu shuni anglatadiki siz ularning so‘nggi xaridlarini tezlashtirishga tayyorsiz.
+
+00:00:13.439 --> 00:00:15.539
+Siz aniq mijoz tomonidan qilingan barcha xaridlar ro‘yxatini
+
+00:00:15.539 --> 00:00:19.535
+yaratishda WHERE banidan foydalanasiz.
+
+00:00:19.535 --> 00:00:22.469
+WHERE bandi sizga Excelning filtrlash qobiliyatiga o‘xshash aniq mezonlarga
+
+00:00:22.469 --> 00:00:26.469
+asoslangan holda natijalar to‘plamini filtrlash imkonini beradi.
+
+00:00:26.469 --> 00:00:30.754
+WHERE bilan filtrlash sizga ko‘plab savollarga javob berish imkonini beradi.
+
+00:00:30.754 --> 00:00:33.494
+Siz uni o‘zingiz yozadigan ko‘plab so‘rovlarda ishlatasiz.
+
+00:00:33.494 --> 00:00:37.560
+WHERE bandi FROM keyin ammo ORDER BY yoki LIMIT dan oldin keladi.
+
+00:00:37.560 --> 00:00:39.880
+Oldingi so‘rovlardagidek,
+
+00:00:39.880 --> 00:00:43.780
+bandlar to‘g‘ri tartibda bo‘lishi kerak aks holda so‘rov xatoni bilan qaytadi.
+
+00:00:43.780 --> 00:00:45.575
+Hisob menejeri sifatida,
+
+00:00:45.575 --> 00:00:48.924
+biz bu yerda ko‘rsatilgan 4251 hisob raqamidagi eng yaxshi mijozlarimizning 
+
+00:00:48.924 --> 00:00:53.189
+buyurtmalarini ko‘rsatish uchun so‘rov yozamiz.
+
+00:00:53.189 --> 00:00:59.244
+Biz hisob raqam 4251 ga teng bo‘lgan bu oddiy tenglikni yozamiz.
+
+00:00:59.244 --> 00:01:02.380
+Bu 4251 hisob raqami ustunidagi qiymatlar qatorini
+
+00:01:02.380 --> 00:01:07.000
+o‘z ichiga olgan natijalar to‘plamini beradi.
+
+00:01:07.000 --> 00:01:11.840
+SQL dan foydalanganda ma’lumot qatorlari to‘laligicha ziyon yetmagan holda qoladi.
+
+00:01:11.840 --> 00:01:15.879
+Agar siz biz bu yerda bajarganimizdek bir ustundagi qiymatlarga asoslangan holda filtrlovchi WHERE bandini yozsangiz
+
+00:01:15.879 --> 00:01:21.295
+siz barcha ustunlardagi natijalar to‘plamini shartni qoniqtiradigan qatorlardan cheklab qo‘yasiz.
+
+00:01:21.295 --> 00:01:23.829
+G‘oya shuki har bir qator bitta ma’lumot nuqtasi yoki
+
+00:01:23.829 --> 00:01:28.795
+kuzatuvi va o‘sha qatordagi qamrab olingan barcha ma’lumot birgalikda bog‘liq bo‘ladi.
+
+00:01:28.795 --> 00:01:32.409
+Bir qatordagi hamma ma’lumot deyarli qog‘ozning bir buyurtmasi.
+
