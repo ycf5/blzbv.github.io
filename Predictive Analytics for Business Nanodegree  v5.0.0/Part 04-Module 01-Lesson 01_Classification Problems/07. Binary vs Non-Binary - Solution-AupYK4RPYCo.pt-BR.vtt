@@ -1,0 +1,85 @@
+WEBVTT
+Kind: captions
+Language: pt-BR
+
+00:00:00.367 --> 00:00:03.233
+Uma variável binária
+tem um valor "sim" ou um "não",
+
+00:00:03.267 --> 00:00:06.216
+um "1" ou um "0"
+ou um "Verdadeiro" ou "Falso"
+
+00:00:06.249 --> 00:00:07.533
+associado a ela.
+
+00:00:07.567 --> 00:00:10.600
+Logo, os problemas binários
+seriam:
+
+00:00:10.633 --> 00:00:13.438
+identificar se um e-mail
+é spam ou não.
+
+00:00:14.467 --> 00:00:18.967
+Por outro lado, variáveis
+não binárias são categóricas,
+
+00:00:19.000 --> 00:00:21.967
+ou seja, são valores que têm
+nomes ou rótulos,
+
+00:00:22.000 --> 00:00:24.367
+como "vermelho",
+"verde" e "azul"
+
+00:00:24.400 --> 00:00:26.733
+ou "pequeno", "médio"
+e "grande".
+
+00:00:26.767 --> 00:00:29.233
+Os problemas não binários
+seriam:
+
+00:00:29.267 --> 00:00:32.767
+"que revestimento é representado por
+um pixel de uma imagem de satélite?"
+
+00:00:32.800 --> 00:00:36.575
+e "que cor de camisa
+fica melhor em mim?"
+
+00:00:37.467 --> 00:00:40.500
+Quando analisamos o problema
+sobre o revestimento da Terra,
+
+00:00:40.533 --> 00:00:42.900
+sabemos que há mais de um
+tipo de revestimento,
+
+00:00:42.933 --> 00:00:47.900
+como grama, árvores, agricultura,
+água, cidades etc.
+
+00:00:47.933 --> 00:00:51.400
+Podemos dizer, então,
+que é um problema não binário.
+
+00:00:51.433 --> 00:00:53.968
+Mas, no problema da camisa,
+existem, obviamente,
+
+00:00:54.001 --> 00:00:56.333
+mais de duas cores de camisa
+para escolher,
+
+00:00:56.367 --> 00:00:59.100
+o que o torna
+um problema não binário.
+
+00:00:59.300 --> 00:01:00.600
+*END*
+
+00:01:00.633 --> 00:01:01.933
+*CODE*
+

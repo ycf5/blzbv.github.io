@@ -1,0 +1,119 @@
+WEBVTT
+Kind: captions
+Language: pt-BR
+
+00:00:00.433 --> 00:00:02.833
+Aqui está uma lista
+de problemas de classificação
+
+00:00:02.867 --> 00:00:04.567
+que eu inventei.
+
+00:00:04.600 --> 00:00:06.965
+Eles podem ser encontrados
+em negócios. Por exemplo,
+
+00:00:06.998 --> 00:00:11.333
+quando um e-mail chega,
+você classifica como spam ou inbox?
+
+00:00:11.700 --> 00:00:16.300
+Ou será que um cliente vai
+renovar o contrato com a operadora?
+
+00:00:16.333 --> 00:00:20.833
+Problemas de classificação também
+são vistos em casos científicos.
+
+00:00:20.867 --> 00:00:23.933
+Por exemplo, que tipo
+de revestimento da Terra
+
+00:00:23.967 --> 00:00:27.100
+um pixel em uma imagem
+de satélite indica?
+
+00:00:27.133 --> 00:00:30.500
+Ou será que um grão de soja
+tem uma doença ou não?
+
+00:00:30.533 --> 00:00:33.533
+Problemas de classificação
+também estão em todo canto
+
+00:00:33.566 --> 00:00:35.667
+em situações reais.
+
+00:00:35.700 --> 00:00:39.100
+Por exemplo, que cor de camisa
+fica melhor em mim?
+
+00:00:39.133 --> 00:00:43.467
+Ou também: que tipo de transporte
+os funcionários vão usar
+
+00:00:43.500 --> 00:00:46.833
+para ir trabalhar?
+Se analisarmos esta lista,
+
+00:00:46.867 --> 00:00:49.232
+você verá que existem
+problemas de classificação
+
+00:00:49.265 --> 00:00:53.967
+em negócios, na ciência
+e na vida real.
+
+00:00:54.000 --> 00:00:57.933
+Mas, se analisarmos cada um
+dos casos profundamente,
+
+00:00:57.967 --> 00:01:00.267
+podemos agrupá-los
+em dois setores:
+
+00:01:00.300 --> 00:01:02.933
+problemas binários
+e não binários.
+
+00:01:03.500 --> 00:01:06.400
+Variáveis binárias são aquelas
+que têm dois grupos
+
+00:01:06.433 --> 00:01:10.067
+e variáveis não binárias
+têm mais de dois grupos.
+
+00:01:10.100 --> 00:01:14.667
+Por exemplo, na pergunta:
+"A soja tem uma doença ou não?",
+
+00:01:14.700 --> 00:01:18.100
+só existem duas opções:
+"sim, a soja tem uma doença"
+
+00:01:18.133 --> 00:01:21.500
+ou "não, a soja
+não tem uma doença."
+
+00:01:21.533 --> 00:01:24.567
+Então este é um problema
+de classificação binário.
+
+00:01:24.600 --> 00:01:27.567
+No próximo exercício,
+é a sua vez
+
+00:01:27.600 --> 00:01:30.432
+de identificar problemas
+de classificação binários
+
+00:01:30.465 --> 00:01:33.033
+ou problemas não binários.
+
+00:01:33.067 --> 00:01:34.367
+*END*
+
+00:01:34.400 --> 00:01:35.700
+*CODE*
+

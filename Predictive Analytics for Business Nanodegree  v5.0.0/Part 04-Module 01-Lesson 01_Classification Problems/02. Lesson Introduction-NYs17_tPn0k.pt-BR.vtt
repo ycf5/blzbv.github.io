@@ -1,0 +1,67 @@
+WEBVTT
+Kind: captions
+Language: pt-BR
+
+00:00:00.634 --> 00:00:02.703
+Oi, sou Ben Burkholder
+
+00:00:02.736 --> 00:00:05.339
+e sou engenheiro de soluções
+na Alteryx.
+
+00:00:05.372 --> 00:00:07.674
+Eu trabalhei com sensoriamento
+remoto por satélite
+
+00:00:07.708 --> 00:00:09.710
+e usava classificação
+para atribuir pixels
+
+00:00:09.743 --> 00:00:11.879
+a vários tipos
+de revestimento da Terra.
+
+00:00:11.912 --> 00:00:14.248
+Imagine como seria incrível
+poder prever
+
+00:00:14.281 --> 00:00:17.384
+a probabilidade de um cliente
+renovar seu contrato,
+
+00:00:17.417 --> 00:00:19.620
+se um cliente
+vai pagar o empréstimo
+
+00:00:19.653 --> 00:00:22.189
+ou que produto
+um possível cliente vai comprar.
+
+00:00:22.222 --> 00:00:25.893
+Modelos de classificação permitem
+que essas previsões sejam feitas.
+
+00:00:25.926 --> 00:00:29.062
+Neste curso, você vai aprender
+a responder a esse tipo de pergunta
+
+00:00:29.096 --> 00:00:30.531
+usando esses modelos.
+
+00:00:30.564 --> 00:00:32.933
+Você também vai aprender
+a criar e comparar modelos
+
+00:00:32.966 --> 00:00:36.637
+para determinar que modelo
+você deve usar na sua previsão.
+
+00:00:36.670 --> 00:00:38.672
+Agora vamos começar.
+
+00:00:38.705 --> 00:00:40.007
+*END*
+
+00:00:40.040 --> 00:00:41.341
+*CODE*
+

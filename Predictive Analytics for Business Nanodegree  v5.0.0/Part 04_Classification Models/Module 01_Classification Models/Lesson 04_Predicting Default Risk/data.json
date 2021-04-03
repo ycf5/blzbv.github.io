@@ -1,0 +1,477 @@
+{
+  "data": {
+    "lesson": {
+      "id": 680859,
+      "key": "ee56f886-070e-40ca-bfc8-cab2c5cdde7d",
+      "title": "Predicting Default Risk",
+      "semantic_type": "Lesson",
+      "is_public": true,
+      "version": "1.0.0",
+      "locale": "en-us",
+      "summary": "A bank recently received an influx of loan applications. You will build and apply a classification model to provide a recommendation on which loan applicants the bank should lend to.",
+      "lesson_type": "Classroom",
+      "display_workspace_project_only": false,
+      "resources": null,
+      "project": {
+        "key": "3236f955-1e04-46ca-b61c-a4cd11cfbb78",
+        "version": "1.0.0",
+        "locale": "en-us",
+        "duration": 18720,
+        "semantic_type": "Project",
+        "title": "Predicting Default Risk",
+        "description": "After completing the project by filling out the submission template and reviewing it using the [project rubric](https://review.udacity.com/#!/rubrics/265/view), click the Submit Project button below and upload your submission. \n\nYou may include your Alteryx workflow if you'd like. If your submission does not meet specifications, having the workflow may help the review identify mistakes.\n",
+        "is_public": true,
+        "summary": null,
+        "forum_path": "c/nd008-bizand-classification-models/band-project-4",
+        "rubric_id": "265",
+        "terminal_project_id": "",
+        "resources": null,
+        "image": null
+      },
+      "lab": null,
+      "concepts": [
+        {
+          "id": 173992,
+          "key": "4863f554-f6fc-4cd1-9512-292ca84f80be",
+          "title": "Project Overview",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "4863f554-f6fc-4cd1-9512-292ca84f80be",
+            "completed_at": null,
+            "last_viewed_at": null,
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 173994,
+              "key": "627d2fb0-f195-465b-adbc-449b64a9c52f",
+              "title": "overview",
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "### Project Overview\n\nYou are a loan officer at a young and small bank (been in operations for two years)  that needs to come up with an efficient solution to classify new customers on whether they can be approved for a loan or not. You'll use a series of classification models to figure out the best model and provide a list of creditworthy customers to your manager.\n\n#### How Do I Complete this Project?\n\nThis project uses skills learned throughout the \"Classification Models” course. To complete this project:\n\n* Go through the course\n* Apply the skills learned in the course to solve the business problem given in the project details section. \n* Use our guidelines and rubric to help build your project.\n* When you're ready, submit it to us for review using the submission template found in the supporting materials section.\n\n#### Skills Required\n\nIn order to complete this project, you must be able to:\n\n* [Cleanup, format, and blend a wide range of data sources](https://classroom.udacity.com/nanodegrees/nd008t-ent/parts/ec4b7a7b-1694-4c0c-bfed-224d0733896c)\n* Build [predictive classification models](https://classroom.udacity.com/nanodegrees/nd008t-ent/parts/c44184d8-24f2-4351-8df0-adb09ec4b436/modules/7700b31f-1be5-428f-98f0-2dc9b5442690/lessons/3d887284-b0d7-4250-a7d6-626a261d8e26/concepts/af3f276e-4c58-4d3f-b5b6-53d1b55a8d69) using Logistic Regression, Decision Tree, Random Forest, and Boosted Model\n",
+              "instructor_notes": ""
+            }
+          ]
+        },
+        {
+          "id": 173991,
+          "key": "ac7bf309-3e98-4a2f-ad4e-555905d7cd07",
+          "title": "Project Details",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "ac7bf309-3e98-4a2f-ad4e-555905d7cd07",
+            "completed_at": null,
+            "last_viewed_at": null,
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 173995,
+              "key": "6ec88f45-d8fe-4f70-a8ed-38fdfd5f007d",
+              "title": "details",
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "### The Business Problem\n\nYou work for a small bank and are responsible for determining if customers are creditworthy to give a loan to. Your team typically gets 200 loan applications per week and approves them by hand. \n\nDue to a financial scandal that hit a competitive bank last week, you suddenly have an influx of new people applying for loans for your bank instead of the other bank in your city. All of a sudden you have nearly 500 loan applications to process this week!\n\nYour manager sees this new influx as a great opportunity and wants you to figure out how to process all of these loan applications within one week. \n\nFortunately for you, you just completed a course in classification modeling and know how to systematically evaluate the creditworthiness of these new loan applicants.\n\nFor this project, you will analyze the business problem using the Problem Solving Framework and provide a list of creditworthy customers to your manager in the next two days.\n\nYou have the following information to work with:\n\n1. Data on all past applications\n2. The list of customers that need to be processed in the next few days\n\n### Steps to Success\n\n#### Step 1: Business and Data Understanding\n\nYour project should include a description of the key business decisions that need to be made.\n\n#### Step 2: Explore and Cleanup the Data\n\nTo properly build the model, and select predictor variables, you need to explore and cleanup your data.\n\nHere are some guidelines to help you clean up the data:\n\n1. Are any of your numerical data fields highly-correlated with each other? The correlation should be at least .70 to be considered “high”.\n2. Are there any missing data for each of the data fields? Fields with a lot of missing data should be removed\n3. Are there only a few values in a subset of your data field? Does the data field look very uniform (there is only one value for the entire field?). This is called “low variability” and you should remove fields that have low variability. Refer to the \"Tips\" section to find examples of data fields with low-variability.\n4. Your clean data set should have 13 columns where the Average of `Age Years` should be 36 (rounded up)\n\n**Note:** If you decide to impute any data field, for the sake of consistency in the data cleanup process, impute the data using the median of the entire data field.\n\n#### Step 3. Train your Classification Models\n\nYou should choose 70% to create the Estimation set and 30% to create the Validation set. Set the Random Seed to 1 if you're using Alteryx.\n\nTrain your dataset using these models:\n\n* Logistic Regression\n* Decision Tree\n* Forest Model\n* Boosted Tree\n\n#### Step 4. Writeup\n\nCompare all of the models’ performance against each other. Decide on the best model and score your new customers. \n\n**Important**: Your manager only cares about how accurate you can identify people who qualify and do not qualify for loans for this problem.\n\nWrite a brief report on how you came up with your classification model and write down how many of the new customers would qualify for a loan.\n\n",
+              "instructor_notes": ""
+            }
+          ]
+        },
+        {
+          "id": 173993,
+          "key": "ae2a75c9-a9cb-4717-be6d-25c2c55aad12",
+          "title": "Supporting Materials",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "ae2a75c9-a9cb-4717-be6d-25c2c55aad12",
+            "completed_at": null,
+            "last_viewed_at": null,
+            "unstructured": null
+          },
+          "resources": {
+            "files": [
+              {
+                "name": "Credit Data Training",
+                "uri": "http://video.udacity-data.com.s3.amazonaws.com/topher/2016/October/57fd7d05_credit-data-training/credit-data-training.xlsx"
+              },
+              {
+                "name": "Customers to Score",
+                "uri": "http://video.udacity-data.com.s3.amazonaws.com/topher/2016/October/57fd7d13_customers-to-score/customers-to-score.xlsx"
+              },
+              {
+                "name": "Alteryx Workflow Template",
+                "uri": "http://video.udacity-data.com.s3.amazonaws.com/topher/2017/February/58990dbf_project-template/project-template.zip"
+              },
+              {
+                "name": "Submission Template",
+                "uri": "https://video.udacity-data.com/topher/2018/February/5a8117ad_submissiontemplate-3-1/submissiontemplate-3-1.docx"
+              },
+              {
+                "name": "All Project Files",
+                "uri": "https://video.udacity-data.com/topher/2018/February/5a8117e5_creditworthiness/creditworthiness.zip"
+              }
+            ],
+            "google_plus_link": null,
+            "career_resource_center_link": null,
+            "coaching_appointments_link": null,
+            "office_hours_link": null,
+            "aws_provisioning_link": null
+          },
+          "atoms": [
+            {
+              "id": 173996,
+              "key": "f2b37ab2-21bd-41e4-b264-f85b735ccbf7",
+              "title": "sm",
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "### Review\n\nUse the [project rubric](https://review.udacity.com/#!/rubrics/265/view) to review your project. If you are happy with your submission, then you're ready to submit your project. If you see room for improvement, keep working to improve your project.\n\n### Submission Template\n\nUse the submission template at the bottom of this section to submit your project.  After filling it out, save it as a PDF and submit the PDF in the next section. You may also include your Alteryx workflow if you'd like. If your submission does not meet specifications, having the workflow may help the review identify mistakes.\n\n### Workflow Template\n\nUse the Alteryx workflow template to help quickly get started with the project. For the sake of the reviews consistency, you must use this Alteryx workflow.\n\n#### Data\n\n*credit-data-training.xlsx* - This file contains all credit approvals from your past loan applicants the bank has ever completed.\n\n*customers-to-score.xlsx* - This is the new set of customers that you need to score on the classification model you will create.\n\n### Non Alteryx Software\n\nFor students using software other than Alteryx to create the classification models, make sure to format the data as follows and do not sort the data before you run it through your classification models. This allows you to get consistent results reviewers expect.\n\n| Variable                  | Data Type |\n|---------------------------|-----------|\n| Credit-Application-Result | String    |\n|Account-Balance\t|String|\n|Duration-of-Credit-Month |\tDouble|\n|Payment-Status-of-Previous-Credit\t|String|\n|Purpose\t|String|\n|Credit-Amount\t|Double|\n|Value-Savings-Stocks|\tString|\n|Length-of-current-employment|\tString|\n|Instalment-per-cent\t|Double|\n|Guarantors|\tString|\n|Duration-in-Current-address\t|Double|\n|Most-valuable-available-asset|\tDouble|\n|Age-years\t|Double|\n|Concurrent-Credits\t|String|\n|Type-of-apartment\t|Double|\n|No-of-Credits-at-this-Bank\t|String|\n|Occupation|\tDouble|\n|No-of-dependents\t|Double|\n|Telephone\t|Double|\n|Foreign-Worker\t|Double|\n",
+              "instructor_notes": ""
+            },
+            {
+              "id": 310679,
+              "key": "00e7574d-5682-4af1-8c86-a89801e4dfae",
+              "title": "Project Checklist",
+              "semantic_type": "TaskListAtom",
+              "is_public": true,
+              "instructor_notes": null,
+              "user_state": {
+                "node_key": "00e7574d-5682-4af1-8c86-a89801e4dfae",
+                "completed_at": null,
+                "last_viewed_at": null,
+                "unstructured": null
+              },
+              "tasks": [
+                "Showed which predictor variables are significant or the most important.",
+                "Showed the p-values or variable importance charts for all of the models.",
+                "Provided justification for why I imputed or removed these fields from the data.",
+                "I checked the rubric https://review.udacity.com/#!/rubrics/265/view",
+                "I have gone to Knowledge or Study Groups before submitting"
+              ],
+              "positive_feedback": "Great! You should be very prepared to submit your project.",
+              "video_feedback": null,
+              "description": "This is here to make sure you know the concepts necessary to complete the project and that you know where to go find answers if you need help. If you do not feel confident in the topics addressed please review the course material or reach out on Knowledge or Study Groups!"
+            },
+            {
+              "id": 310680,
+              "key": "d27815a8-3130-468d-90fc-936b7d4fa46b",
+              "title": null,
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "We have received some feedback around the legitimacy of excluding the Telephone variable since it potentially could be useful to collect debts so could make you more creditworthy. We think this is fair but for the sake of this project please exclude Telephone from your data with the reasoning that there is no logical reason for including the variable.\n\n* Forums: https://discussions.udacity.com/c/nd008-bizand-classification-models/band-project-4\n* Study Groups",
+              "instructor_notes": ""
+            },
+            {
+              "id": 300263,
+              "key": "fe4a4069-a6f6-41e6-8cc1-ff2c01801945",
+              "title": null,
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "If you run into errors in Alteryx or unexpected results from a tool we have a guide to help you figure out what is going on. \n\n**Alteryx Debugging Guide:**\n\nClick and open the Resources Tab in the left most panel of your classroom to find the Alteryx Debugging Guide\nor here's a [Google Doc](https://docs.google.com/document/d/1ec7SiDCMAZAMjbPvL3aegPoL1PZznHarsxEZ4bjptdI/edit?usp=sharing), please note if you are accessing Udacity from a corporate network you may not be able to view the Google Doc, please use the Resources tab instead. ",
+              "instructor_notes": ""
+            },
+            {
+              "id": 269163,
+              "key": "cd61a6fe-d2f5-400f-a544-f3dfb6548694",
+              "title": null,
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "**To Download Files below please right click on the link and select \"Save Link As\"**",
+              "instructor_notes": ""
+            }
+          ]
+        },
+        {
+          "id": 179066,
+          "key": "2278b13d-4750-4ac2-8bcc-d5c18eee505f",
+          "title": "Tips",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "2278b13d-4750-4ac2-8bcc-d5c18eee505f",
+            "completed_at": null,
+            "last_viewed_at": null,
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 418871,
+              "key": "92ea9026-8621-41bc-8335-1aa72527039b",
+              "title": null,
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "### Decision Tree Model\nIf you are getting errors for your Decision Tree Model regarding the complexity parameter. Set the complexity parameter to 0.",
+              "instructor_notes": ""
+            },
+            {
+              "id": 418872,
+              "key": "ed96509d-b39b-43bf-b232-2ccd2a6be0b5",
+              "title": null,
+              "semantic_type": "ImageAtom",
+              "is_public": true,
+              "url": "https://video.udacity-data.com/topher/2017/October/59d691f2_capture3/capture3.png",
+              "non_google_url": "https://s3.cn-north-1.amazonaws.com.cn/u-img/ed96509d-b39b-43bf-b232-2ccd2a6be0b5",
+              "caption": "",
+              "alt": "",
+              "width": 469,
+              "height": 540,
+              "instructor_notes": null
+            },
+            {
+              "id": 336009,
+              "key": "bc7d23ca-3113-4a91-862a-3804605a15a6",
+              "title": null,
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "### Field Summary Tool\n\nThe field summary tool is a great way to assess the variability of all your variables, be careful though. If you do not check both the interactive output and the report output you may miss a variable with low variability due to it's data type.",
+              "instructor_notes": ""
+            },
+            {
+              "id": 179067,
+              "key": "d67a3cd7-dd61-462c-b4c0-546504b42f74",
+              "title": "tips",
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "### Saving Reports to Your Computer\n\nIf you want to output the full reports from your models for later reference, you can use the **Render** tool in Alteryx to create a file that contains the report. \n\n### Low Variability\n\nThe following are two examples of low variability where a data field can heavily skew towards one type of data:\n",
+              "instructor_notes": ""
+            },
+            {
+              "id": 179130,
+              "key": "d5f5d2e5-85e2-49d1-b151-25b9420d0616",
+              "title": "graph",
+              "semantic_type": "ImageAtom",
+              "is_public": true,
+              "url": "https://video.udacity-data.com/topher/2016/August/57b3a670_low-variability-skew/low-variability-skew.png",
+              "non_google_url": "https://s3.cn-north-1.amazonaws.com.cn/u-img/d5f5d2e5-85e2-49d1-b151-25b9420d0616",
+              "caption": "The histograph of this variable shows that the majority of the data is skewed towards \"None\".",
+              "alt": null,
+              "width": 812,
+              "height": 506,
+              "instructor_notes": null
+            },
+            {
+              "id": 179131,
+              "key": "098bc7d6-7831-400b-81da-2a7ee2899744",
+              "title": "lv_2",
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "The other type of low variability occurs where the data is entirely uniform and there is no other variations of the data:",
+              "instructor_notes": ""
+            },
+            {
+              "id": 179133,
+              "key": "d71525b9-a5eb-409d-80c3-fd02dbcdc1bd",
+              "title": "graph",
+              "semantic_type": "ImageAtom",
+              "is_public": true,
+              "url": "https://video.udacity-data.com/topher/2016/August/57b3a76b_low-variability-no-othervariables/low-variability-no-othervariables.png",
+              "non_google_url": "https://s3.cn-north-1.amazonaws.com.cn/u-img/d71525b9-a5eb-409d-80c3-fd02dbcdc1bd",
+              "caption": "This histograph of this graph shows a variable that only contains the data \"Yes\"",
+              "alt": null,
+              "width": 812,
+              "height": 506,
+              "instructor_notes": null
+            },
+            {
+              "id": 619679,
+              "key": "7c63dfa1-51b4-445c-97c0-924558ab1e19",
+              "title": null,
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "# Discussing Bias\nYou should say how a model under or over predicts creditworthy and non-creditworthy applicants. Here is a great resource to better understanding the confusion matrix to make these statements around bias: http://www.dataschool.io/simple-guide-to-confusion-matrix-terminology/",
+              "instructor_notes": ""
+            },
+            {
+              "id": 297529,
+              "key": "609bafbb-1346-4354-8151-904ab39de34c",
+              "title": null,
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "Forum: https://knowledge.udacity.com/",
+              "instructor_notes": ""
+            }
+          ]
+        },
+        {
+          "id": 289025,
+          "key": "3d8e31d7-94fc-4d84-b1a0-dcabd33178f5",
+          "title": "Verify Answers for Project",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "3d8e31d7-94fc-4d84-b1a0-dcabd33178f5",
+            "completed_at": null,
+            "last_viewed_at": null,
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 292378,
+              "key": "b50c0660-dd40-46da-a59e-6624fbfada41",
+              "title": null,
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "We have included this quiz to help address a common issue we are seeing in the Creditworthiness Project. Check your answer to the question below **before submitting** to figure out how to make the right decision when it comes to missing values in this project.",
+              "instructor_notes": ""
+            },
+            {
+              "id": 292377,
+              "key": "2c059420-a1a9-4c03-82bb-016ec067d305",
+              "title": "Missing Data Check",
+              "semantic_type": "RadioQuizAtom",
+              "is_public": true,
+              "instructor_notes": null,
+              "user_state": {
+                "node_key": "2c059420-a1a9-4c03-82bb-016ec067d305",
+                "completed_at": null,
+                "last_viewed_at": null,
+                "unstructured": null
+              },
+              "question": {
+                "prompt": "What did you choose to do about the missing values in age-years?",
+                "answers": [
+                  {
+                    "id": "a1491857936599",
+                    "text": "Imputed missing values with the median 33",
+                    "is_correct": true
+                  },
+                  {
+                    "id": "a1491857974283",
+                    "text": "Imputed missing values with the average 36",
+                    "is_correct": false
+                  },
+                  {
+                    "id": "a1491857980612",
+                    "text": "Imputed missing values with the average 35.637295",
+                    "is_correct": false
+                  },
+                  {
+                    "id": "a1491857994908",
+                    "text": "Removed records with missing values",
+                    "is_correct": false
+                  }
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "id": 593859,
+          "key": "e516b125-f3b5-4066-b7ef-bb84e35aca9a",
+          "title": "Model Comparison Tool Errors",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "e516b125-f3b5-4066-b7ef-bb84e35aca9a",
+            "completed_at": null,
+            "last_viewed_at": null,
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 707853,
+              "key": "e65e15d0-f810-4e2a-ae65-76f72028eb81",
+              "title": null,
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "# Model Comparison Tool not in predictive tools tab in Alteryx\nIf you do not see the Model Comparison tool in the predictive tools tab in Alteryx please try the following options:\n\n1) Uninstall Alteryx and reinstall it making sure to select the box to install predictive tools\n\n2) Download the Model Comparison tool directly from the Alteryx: https://gallery.alteryx.com/#!app/Model-Comparison/56bbd3013df7da08b8fcd00a\n* After downloading this file open it and run the workflow in Alteryx\n* Then close Alteryx and restart your computer\n* (Note: This will only work if you are using the latest version of Alteryx\n\n3) If you are using an older version of Alteryx such as 11.7 try using this older version of the model comparison tool file and follow option 2 with it: https://s3.amazonaws.com/video.udacity-data.com/topher/2018/September/5b8dd003_model-comparison/model-comparison.yxzp\n\n4) Consult the Alteryx forums: https://community.alteryx.com/t5/forums/searchpage/tab/message?advanced=false&allow_punctuation=false&inactive=false",
+              "instructor_notes": ""
+            },
+            {
+              "id": 593861,
+              "key": "ed3edac8-a7f0-49ee-aa86-f2e220d6e02a",
+              "title": null,
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "# Model Comparison Tool Errors\n\nIf you get errors using this tool you should check the following.\n1. There should be no null values passed into the models\n2. All Tool Versions should be 1.0 (see images below on how to change Decision Tree and Logistic Regression to 1.0)",
+              "instructor_notes": ""
+            },
+            {
+              "id": 593863,
+              "key": "a1c55ab8-4b00-47e5-8da2-8d7cc1080642",
+              "title": null,
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "Right Click on the Decision Tree Tool, click Choose Tool Version, and then click 1.0",
+              "instructor_notes": ""
+            },
+            {
+              "id": 593862,
+              "key": "93184d64-111d-4fa5-956f-cb8155b76a83",
+              "title": null,
+              "semantic_type": "ImageAtom",
+              "is_public": true,
+              "url": "https://video.udacity-data.com/topher/2018/April/5ac7e816_capture4/capture4.png",
+              "non_google_url": "https://s3.cn-north-1.amazonaws.com.cn/u-img/93184d64-111d-4fa5-956f-cb8155b76a83",
+              "caption": "",
+              "alt": "",
+              "width": 688,
+              "height": 705,
+              "instructor_notes": null
+            },
+            {
+              "id": 593864,
+              "key": "0759da49-7e05-4329-b90b-98784638a5e6",
+              "title": null,
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "Right Click on the Logistic Regression Tool, click Choose Tool Version, and then click 1.0",
+              "instructor_notes": ""
+            },
+            {
+              "id": 593865,
+              "key": "90ca169c-f1d2-41f5-8a00-5c9dcb2c2ed8",
+              "title": null,
+              "semantic_type": "ImageAtom",
+              "is_public": true,
+              "url": "https://video.udacity-data.com/topher/2018/April/5ac7e84f_capture5/capture5.png",
+              "non_google_url": "https://s3.cn-north-1.amazonaws.com.cn/u-img/90ca169c-f1d2-41f5-8a00-5c9dcb2c2ed8",
+              "caption": "",
+              "alt": "",
+              "width": 737,
+              "height": 583,
+              "instructor_notes": null
+            },
+            {
+              "id": 620587,
+              "key": "0f1d883e-fa31-4c60-aaf2-aa60155ce267",
+              "title": null,
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "## If you do not see the ROC Graph\n### Make sure you have named each model by filling in the Model Name section in the configuration window of each of the models",
+              "instructor_notes": ""
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "_deprecated": [
+    {
+      "name": "non_google_url",
+      "reason": "(2016/8/18) Not sure, ask i18n team for reason"
+    },
+    {
+      "name": "non_google_url",
+      "reason": "(2016/8/18) Not sure, ask i18n team for reason"
+    },
+    {
+      "name": "non_google_url",
+      "reason": "(2016/8/18) Not sure, ask i18n team for reason"
+    },
+    {
+      "name": "non_google_url",
+      "reason": "(2016/8/18) Not sure, ask i18n team for reason"
+    },
+    {
+      "name": "non_google_url",
+      "reason": "(2016/8/18) Not sure, ask i18n team for reason"
+    }
+  ]
+}
