@@ -1,0 +1,189 @@
+WEBVTT
+Kind: captions
+Language: pt-BR
+
+00:00:01.033 --> 00:00:04.500
+Neste exemplo, vou juntar
+dados básicos sobre clientes
+
+00:00:04.533 --> 00:00:07.700
+com um conjunto de dados que
+inclui a data da 1ª compra deles,
+
+00:00:07.733 --> 00:00:12.667
+para que este campo seja inserido
+nos dados básicos dos clientes.
+
+00:00:12.700 --> 00:00:15.100
+Vou usar a ferramenta "Join"
+
+00:00:15.133 --> 00:00:19.833
+e conectar o "Core Customer Data"
+do lado esquerdo, marcado com "L",
+
+00:00:19.867 --> 00:00:23.567
+e o arquivo "First Purchase Data"
+do lado direito.
+
+00:00:23.600 --> 00:00:26.567
+Sempre que usar esta ferramenta,
+a 1ª coisa que tem que fazer
+
+00:00:26.600 --> 00:00:30.167
+é configurar a maneira
+como a junção será feita.
+
+00:00:30.200 --> 00:00:33.533
+Neste caso, temos
+um campo "CustomerID"
+
+00:00:33.567 --> 00:00:35.833
+em ambos
+os conjuntos de dados.
+
+00:00:35.867 --> 00:00:41.000
+Um se chama "CustomerID"
+e o outro se chama "ID",
+
+00:00:41.033 --> 00:00:44.500
+então podemos usar os campos
+de ambos os conjuntos de dados.
+
+00:00:44.533 --> 00:00:48.767
+Como podemos ver aqui,
+o campo "ID" tem nomes diferentes,
+
+00:00:48.800 --> 00:00:51.567
+mas, contanto que você
+esteja definindo manualmente
+
+00:00:51.600 --> 00:00:54.567
+que campos vai juntar,
+eles vão se juntar
+
+00:00:54.600 --> 00:00:59.433
+se o mesmo número de identificação
+existir nos dois conjuntos de dados.
+
+00:00:59.467 --> 00:01:02.167
+Vamos ativar o workflow
+para ver o resultado.
+
+00:01:02.200 --> 00:01:04.333
+Se analisarmos
+a ferramenta "Join" de perto,
+
+00:01:04.367 --> 00:01:08.367
+podemos ver três outputs:
+o "J" representa os dados
+
+00:01:08.400 --> 00:01:11.800
+que foram juntados
+a partir dos dois lados.
+
+00:01:11.833 --> 00:01:15.233
+Podemos ver os dados básicos
+dos clientes à esquerda
+
+00:01:15.267 --> 00:01:18.133
+e os dados sobre a 1ª compra
+à direita.
+
+00:01:18.167 --> 00:01:21.033
+Note que o campo "ID"
+que usamos para fazer a junção
+
+00:01:21.067 --> 00:01:25.333
+está duplicado:
+"CustomerID" e "ID".
+
+00:01:25.367 --> 00:01:27.400
+Podemos voltar
+à ferramenta "Join"
+
+00:01:27.433 --> 00:01:32.167
+e retirar a seleção do lado direito,
+para que só apareça uma vez.
+
+00:01:32.200 --> 00:01:35.733
+Então retire a seleção
+o campo "ID",
+
+00:01:35.767 --> 00:01:38.233
+e vamos ativar
+o workflow de novo.
+
+00:01:38.267 --> 00:01:43.067
+Note que o campo "ID" deixou
+de ser mostrado no resultado final.
+
+00:01:43.100 --> 00:01:47.067
+Se observarmos os dados
+que saem pelo lado "L",
+
+00:01:47.100 --> 00:01:49.167
+veremos os dados
+do arquivo à esquerda
+
+00:01:49.200 --> 00:01:52.600
+que não se juntaram
+ao arquivo à direita.
+
+00:01:52.633 --> 00:01:57.600
+Como estávamos juntando com base
+nos campos "CustomerID" e "ID",
+
+00:01:57.633 --> 00:02:01.533
+esse registro com a "ID" 456
+
+00:02:01.567 --> 00:02:03.800
+não existe nos dados
+
+00:02:03.833 --> 00:02:06.300
+que vieram do lado direito.
+
+00:02:06.333 --> 00:02:10.600
+Temos 6 identidades únicas
+que vieram do lado esquerdo
+
+00:02:10.633 --> 00:02:14.900
+e 5 identidades únicas
+que vieram da direita,
+
+00:02:14.933 --> 00:02:19.067
+então o resultado são
+cinco registros reunidos
+
+00:02:19.100 --> 00:02:23.067
+e um registro não reunido
+na esquerda.
+
+00:02:23.100 --> 00:02:25.933
+Se olharmos o output
+do lado direito,
+
+00:02:25.967 --> 00:02:27.667
+não veremos registro nenhum.
+
+00:02:27.700 --> 00:02:31.700
+Todos os registros do lado
+direito se juntaram ao esquerdo.
+
+00:02:31.733 --> 00:02:35.900
+É importante poder ver
+o que não se junta nos dados
+
+00:02:35.933 --> 00:02:38.733
+porque isso pode ajudar
+a identificar dados faltantes,
+
+00:02:38.767 --> 00:02:41.133
+dados brutos
+ou outros problemas.
+
+00:02:41.167 --> 00:02:42.467
+*END*
+
+00:02:42.500 --> 00:02:43.800
+*CODE*
+

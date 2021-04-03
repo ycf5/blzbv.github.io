@@ -1,0 +1,103 @@
+WEBVTT
+Kind: captions
+Language: pt-BR
+
+00:00:00.583 --> 00:00:02.750
+Você já deve ter passado
+por esta situação:
+
+00:00:02.783 --> 00:00:06.000
+alguém enviou dados a você,
+mas, por algum motivo,
+
+00:00:06.042 --> 00:00:09.042
+eles foram separados
+em vários arquivos.
+
+00:00:09.083 --> 00:00:12.083
+Isso costuma ser feito
+porque há registros demais
+
+00:00:12.125 --> 00:00:16.500
+e eles superam o número máximo de
+registros que o arquivo pode conter.
+
+00:00:16.542 --> 00:00:19.833
+Por exemplo, o número máximo
+de registros que podemos ter
+
+00:00:19.866 --> 00:00:23.458
+em uma planilha do Excel
+é pouco mais de um milhão.
+
+00:00:23.500 --> 00:00:26.208
+Se você tivesse três milhões
+de registros de dados
+
+00:00:26.241 --> 00:00:28.875
+e quisesse usar o Excel
+para guardar os dados,
+
+00:00:28.908 --> 00:00:32.125
+eles teriam que ser divididos
+em três planilhas.
+
+00:00:32.167 --> 00:00:36.750
+Mas como usar todos esses dados
+na sua análise?
+
+00:00:36.783 --> 00:00:38.917
+É aí que a união entra.
+
+00:00:38.958 --> 00:00:42.083
+A união permite que você
+reúna vários conjuntos de dados
+
+00:00:42.125 --> 00:00:44.163
+e lide com eles como um só.
+
+00:00:45.042 --> 00:00:48.500
+É mais fácil formatar ou limpar
+um grande conjunto de dados
+
+00:00:48.533 --> 00:00:51.125
+do que ter que repetir
+as mesmas operações
+
+00:00:51.167 --> 00:00:55.958
+em vários conjuntos de dados
+e depois reuni-los.
+
+00:00:55.991 --> 00:00:58.917
+A união insere
+vários fluxos de dados
+
+00:00:58.958 --> 00:01:01.792
+em um fluxo unificado.
+
+00:01:01.833 --> 00:01:03.833
+Isso cria um conjunto de dados
+mais longo,
+
+00:01:03.875 --> 00:01:07.958
+que contém registros
+de ambos os conjuntos originais.
+
+00:01:08.500 --> 00:01:10.917
+Imagine empilhar registros
+de um arquivo
+
+00:01:10.958 --> 00:01:13.375
+sobre registros
+de outro arquivo,
+
+00:01:13.408 --> 00:01:18.958
+garantindo que as colunas
+e campos comuns fiquem alinhados.
+
+00:01:18.991 --> 00:01:20.417
+*END*
+
+00:01:20.450 --> 00:01:21.875
+*CODE*
+

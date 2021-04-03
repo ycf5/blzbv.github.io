@@ -1,0 +1,158 @@
+WEBVTT
+Kind: captions
+Language: pt-BR
+
+00:00:00.467 --> 00:00:02.703
+Para responder à pergunta
+"quantos pacientes vivem
+
+00:00:02.736 --> 00:00:05.472
+a um raio de até 30 milhas
+do hospital 1?",
+
+00:00:05.506 --> 00:00:08.385
+vamos revisar o workflow
+que traz a solução.
+
+00:00:09.309 --> 00:00:11.745
+Como o arquivo geocodificado
+do hospital
+
+00:00:11.778 --> 00:00:15.148
+já tem um objeto espacial,
+
+00:00:15.181 --> 00:00:19.820
+podemos começar a criar as áreas
+de atuação dele imediatamente.
+
+00:00:19.853 --> 00:00:23.891
+Na ferramenta "Trade Area",
+vamos especificar o tamanho da área
+
+00:00:23.924 --> 00:00:28.695
+como "10", "20" e "30",
+com uma vírgula entre cada valor.
+
+00:00:28.729 --> 00:00:31.265
+A seguir, vamos passar
+ao arquivo de pacientes
+
+00:00:31.298 --> 00:00:35.903
+e notar que, apesar de ter
+campos "LATITUDE" e "LONGITUDE",
+
+00:00:35.936 --> 00:00:38.505
+não há objeto espacial,
+
+00:00:38.539 --> 00:00:40.874
+então vamos usar
+a ferramenta "Create Points"
+
+00:00:40.908 --> 00:00:42.776
+para acrescentar
+as localizações
+
+00:00:42.809 --> 00:00:46.980
+a partir da latitude
+e da longitude.
+
+00:00:47.347 --> 00:00:52.519
+No próximo passo, vamos renomear o
+campo "Spatial Object" dos pacientes
+
+00:00:52.553 --> 00:00:55.756
+para que seja mais fácil
+de reconhecer depois.
+
+00:00:55.789 --> 00:00:58.458
+Então, podemos configurar
+a ferramenta "Spatial Match"
+
+00:00:58.492 --> 00:01:03.463
+com a "Trade Area" em "Target"
+e "Pacients" em "Universe".
+
+00:01:03.497 --> 00:01:06.900
+O método para emparelhar
+espacialmente é "Intersects".
+
+00:01:06.934 --> 00:01:10.771
+Note, abaixo, que, para cada
+área de atuação do hospital,
+
+00:01:10.804 --> 00:01:13.874
+poderemos ligar
+a identidade de um paciente.
+
+00:01:13.907 --> 00:01:16.210
+Como apenas queremos
+contar o número de pacientes
+
+00:01:16.243 --> 00:01:18.178
+nas áreas de atuação
+do hospital,
+
+00:01:18.211 --> 00:01:20.881
+podemos simplesmente manter
+o campo "PacientID"
+
+00:01:20.914 --> 00:01:23.951
+e retirar a seleção
+do resto dos campos.
+
+00:01:23.984 --> 00:01:28.021
+Da ferramenta "Spatial Match",
+sairá uma lista de pacientes
+
+00:01:28.055 --> 00:01:31.124
+que estão dentro de cada
+área de atuação do hospital,
+
+00:01:31.158 --> 00:01:36.096
+junto à área de atuação
+e às identidades dos pacientes.
+
+00:01:36.129 --> 00:01:38.932
+Para contar o número de pacientes
+de cada área de atuação,
+
+00:01:38.966 --> 00:01:41.134
+vamos usar
+a ferramenta "Summarize".
+
+00:01:41.168 --> 00:01:44.671
+Vamos "Group By"
+pelo "Name" do hospital
+
+00:01:44.705 --> 00:01:48.475
+e pelo "RadiusSize"
+e contar o número de pacientes
+
+00:01:48.509 --> 00:01:50.811
+contando as "PacientIDs".
+
+00:01:50.844 --> 00:01:55.616
+Para selecionar o registro presente
+num raio de 30 milhas do hospital 1,
+
+00:01:55.649 --> 00:01:57.618
+podemos usar
+uma ferramenta "Filter"
+
+00:01:57.651 --> 00:02:00.921
+com base
+nesses dois critérios.
+
+00:02:00.954 --> 00:02:06.293
+O resultado é o número de pacientes
+a até 30 milhas do hospital 1,
+
+00:02:06.326 --> 00:02:09.296
+que é de 497 pacientes.
+
+00:02:09.329 --> 00:02:10.631
+*END*
+
+00:02:10.664 --> 00:02:11.965
+*CODE*
+

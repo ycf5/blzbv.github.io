@@ -1,0 +1,99 @@
+WEBVTT
+Kind: captions
+Language: pt-BR
+
+00:00:00.433 --> 00:00:02.667
+Temos que determinar
+quantos registros temos
+
+00:00:02.700 --> 00:00:04.800
+no conjunto de dados unido.
+
+00:00:04.833 --> 00:00:09.133
+Vamos primeiro ver os dados
+de cada um dos conjuntos.
+
+00:00:09.167 --> 00:00:12.400
+O 1º conjunto tem
+"StreamNumber",
+
+00:00:12.433 --> 00:00:15.433
+"ID", "FirstName"
+e "LastName".
+
+00:00:15.467 --> 00:00:20.767
+O 2º conjunto tem os mesmos campos,
+mas numa ordem diferente.
+
+00:00:20.800 --> 00:00:23.500
+Começa com "StreamNumber"
+
+00:00:23.533 --> 00:00:27.200
+e então vêm "LastName",
+"FirstName" e "ID".
+
+00:00:27.233 --> 00:00:30.867
+Para unir os conjuntos de dados,
+vamos pegar a ferramenta "Union"
+
+00:00:30.900 --> 00:00:34.233
+e jogá-la
+ao lado do 1º conjunto.
+
+00:00:34.267 --> 00:00:38.167
+Então vamos criar uma seta
+para conectar o 2º conjunto.
+
+00:00:38.200 --> 00:00:43.167
+O método padrão é usar
+"Auto Configure by Name".
+
+00:00:43.200 --> 00:00:45.533
+Então, apesar de os campos
+estarem em ordem diferente,
+
+00:00:45.567 --> 00:00:48.433
+quando ativamos o workflow,
+eles ficam alinhados
+
+00:00:48.467 --> 00:00:52.173
+porque serão alinhados
+com base nos nomes dos campos.
+
+00:00:52.833 --> 00:00:57.333
+Podemos ver que temos 8 registros
+que saem da ferramenta "Union".
+
+00:00:57.367 --> 00:01:01.300
+No entanto, se você quisesse
+contá-los com uma ferramenta,
+
+00:01:01.333 --> 00:01:04.100
+você poderia usar
+a ferramenta "Count Records".
+
+00:01:04.133 --> 00:01:07.700
+Você pode achá-la ao digitar
+a palavra "Count" na pesquisa.
+
+00:01:07.733 --> 00:01:09.900
+Encontre a ferramenta
+"Count Records"
+
+00:01:09.933 --> 00:01:12.367
+e conecte-a
+à ferramenta "Union".
+
+00:01:12.400 --> 00:01:16.533
+Então ative o workflow para
+ver o número total de registros.
+
+00:01:16.566 --> 00:01:18.100
+São oito.
+
+00:01:18.133 --> 00:01:19.467
+*END*
+
+00:01:19.500 --> 00:01:20.800
+*CODE*
+

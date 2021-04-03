@@ -1,0 +1,72 @@
+WEBVTT
+Kind: captions
+Language: pt-BR
+
+00:00:00.501 --> 00:00:03.403
+Até agora, aprendemos
+a importar conjuntos de dados
+
+00:00:03.437 --> 00:00:05.372
+e a formatar campos de dados.
+
+00:00:05.405 --> 00:00:08.609
+Também aprendemos a identificar
+e limpar dados brutos
+
+00:00:08.642 --> 00:00:12.312
+e a reformatar os conjuntos de dados
+no formato de que precisamos.
+
+00:00:12.346 --> 00:00:14.348
+Você vai ter que pensar
+nessas ideias
+
+00:00:14.381 --> 00:00:18.585
+e aplicá-las em todos os conjuntos
+de dados que usar em suas análises.
+
+00:00:18.619 --> 00:00:21.688
+No entanto, raramente
+temos um único arquivo
+
+00:00:21.722 --> 00:00:24.124
+com todos os dados
+de que precisamos.
+
+00:00:24.157 --> 00:00:28.662
+Você vai querer usar o máximo
+de dados possível na sua análise.
+
+00:00:28.695 --> 00:00:31.198
+Esses dados podem vir
+de lugares diferentes
+
+00:00:31.231 --> 00:00:34.401
+e, por causa disso, eles vão
+precisar ser misturados
+
+00:00:34.434 --> 00:00:36.403
+em um arquivo de dados.
+
+00:00:36.436 --> 00:00:38.638
+Isso é o que chamamos
+de "mesclagem de dados",
+
+00:00:38.671 --> 00:00:41.208
+e ela pode ser feita
+de muitas maneiras.
+
+00:00:41.241 --> 00:00:44.311
+Nesta aula, vamos aprender
+a mesclar dados
+
+00:00:44.344 --> 00:00:49.783
+através de uniões, junções,
+lógica difusa e dados espaciais.
+
+00:00:49.983 --> 00:00:51.251
+*END*
+
+00:00:51.284 --> 00:00:52.519
+*CODE*
+

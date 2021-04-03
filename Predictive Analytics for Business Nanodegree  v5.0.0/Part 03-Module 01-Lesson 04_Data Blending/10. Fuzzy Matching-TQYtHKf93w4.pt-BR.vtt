@@ -1,0 +1,122 @@
+WEBVTT
+Kind: captions
+Language: pt-BR
+
+00:00:00.500 --> 00:00:02.625
+Imagine que temos
+dois conjuntos de dados:
+
+00:00:02.667 --> 00:00:05.000
+um é uma lista
+de clientes existentes
+
+00:00:05.042 --> 00:00:07.167
+e o segundo é uma lista
+de possíveis clientes
+
+00:00:07.208 --> 00:00:09.583
+que você comprou
+de uma empresa.
+
+00:00:09.875 --> 00:00:13.375
+Queremos falar com os possíveis
+clientes para torná-los clientes,
+
+00:00:13.417 --> 00:00:15.500
+mas não queremos entrar
+em contato com pessoas
+
+00:00:15.542 --> 00:00:17.875
+que já são nossos clientes.
+
+00:00:17.917 --> 00:00:20.833
+O problema neste caso
+é que precisamos eliminar
+
+00:00:20.875 --> 00:00:24.417
+os clientes que já temos
+da lista de possíveis clientes.
+
+00:00:24.458 --> 00:00:28.625
+No entanto, como provavelmente
+não há um código de identificação
+
+00:00:28.667 --> 00:00:31.292
+para combinar
+estes dois arquivos,
+
+00:00:31.333 --> 00:00:33.833
+precisamos achar um modo
+de juntar os conjuntos de dados
+
+00:00:33.875 --> 00:00:36.083
+através de outros campos.
+
+00:00:36.250 --> 00:00:38.792
+Podemos usar os campos
+"Nome" e "Endereço",
+
+00:00:38.833 --> 00:00:42.917
+mas, na prática, notamos
+que não temos bons emparelhamentos
+
+00:00:42.958 --> 00:00:46.625
+entre nomes e endereços
+que representam as mesmas pessoas
+
+00:00:46.667 --> 00:00:49.958
+porque eles costumam ser
+escritos de forma diferente.
+
+00:00:50.000 --> 00:00:54.667
+Um Andrew Main,
+da R. State, 25,
+
+00:00:54.708 --> 00:00:57.958
+não vai se juntar
+a Andy Main,
+
+00:00:58.000 --> 00:01:02.125
+da Rua State, 25.
+
+00:01:02.167 --> 00:01:04.833
+É aí que a lógica difusa entra.
+
+00:01:04.875 --> 00:01:07.042
+A lógica difusa
+é muito poderosa
+
+00:01:07.083 --> 00:01:10.333
+e permite que você junte
+dois conjuntos de dados
+
+00:01:10.375 --> 00:01:12.875
+quando uma junção comum
+falha.
+
+00:01:12.917 --> 00:01:17.250
+A lógica difusa identifica
+dados duplicados não idênticos
+
+00:01:17.292 --> 00:01:20.375
+através da especificação
+de parâmetros de emparelhamento.
+
+00:01:20.417 --> 00:01:23.250
+Os valores não têm que ser
+exatamente iguais
+
+00:01:23.292 --> 00:01:26.167
+porque a lógica difusa
+usa algoritmos
+
+00:01:26.208 --> 00:01:29.542
+para calcular a similaridade
+de duas palavras ou expressões.
+
+00:01:29.958 --> 00:01:31.250
+*END*
+
+00:01:31.292 --> 00:01:32.583
+*CODE*
+

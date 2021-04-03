@@ -1,0 +1,85 @@
+WEBVTT
+Kind: captions
+Language: pt-BR
+
+00:00:00.467 --> 00:00:03.633
+Quantos registros se juntam
+nos dois conjuntos de dados?
+
+00:00:03.667 --> 00:00:07.333
+Para juntar estes conjuntos,
+podemos usar a ferramenta "Join"
+
+00:00:07.367 --> 00:00:10.133
+e lembrar de conectar
+os dois lados.
+
+00:00:10.167 --> 00:00:13.267
+Depois vamos selecionar
+os dois campos que farão a junção.
+
+00:00:13.300 --> 00:00:15.267
+Temos que entender
+os dados primeiro,
+
+00:00:15.300 --> 00:00:20.567
+então vamos analisar os campos
+que são iguais nos dois conjuntos.
+
+00:00:20.600 --> 00:00:24.233
+Então vamos selecionar
+"FirstName" e "LastName"
+
+00:00:24.267 --> 00:00:25.700
+no menu drop down.
+
+00:00:25.733 --> 00:00:28.533
+Note que, quando seleciono
+o campo à esquerda,
+
+00:00:28.567 --> 00:00:31.800
+o campo à direita
+é automaticamente preenchido.
+
+00:00:31.833 --> 00:00:34.467
+Isso porque ele está escrito
+exatamente da mesma forma
+
+00:00:34.500 --> 00:00:37.133
+no 2º conjunto de dados.
+Se não estivesse,
+
+00:00:37.167 --> 00:00:39.800
+teríamos que selecioná-lo
+manualmente.
+
+00:00:39.833 --> 00:00:42.833
+Quando ativamos o workflow,
+podemos conferir
+
+00:00:42.867 --> 00:00:45.467
+os outputs à esquerda
+e à direita
+
+00:00:45.500 --> 00:00:49.400
+para ver se houve alguma falha
+ou se algum registro não se juntou.
+
+00:00:49.433 --> 00:00:52.867
+No entanto, não há nenhum registro
+em nenhum dos lados,
+
+00:00:52.900 --> 00:00:56.233
+então vamos ao output "J"
+e podemos ver
+
+00:00:56.267 --> 00:00:58.367
+que 6 registros
+entraram na junção.
+
+00:00:58.400 --> 00:00:59.633
+*END*
+
+00:00:59.667 --> 00:01:01.100
+*CODE*
+

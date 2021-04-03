@@ -1,0 +1,175 @@
+WEBVTT
+Kind: captions
+Language: pt-BR
+
+00:00:00.600 --> 00:00:03.867
+Neste exemplo, vamos começar
+com dois conjuntos de dados:
+
+00:00:03.900 --> 00:00:06.700
+dados de clientes de 2010
+
+00:00:06.733 --> 00:00:09.539
+e dados de clientes de 2011.
+
+00:00:10.133 --> 00:00:12.100
+Queremos criar
+um único conjunto
+
+00:00:12.133 --> 00:00:16.667
+com os clientes
+de 2010 e 2011.
+
+00:00:16.700 --> 00:00:20.900
+No entanto, nem sempre temos
+conjuntos de dados no mesmo formato.
+
+00:00:20.933 --> 00:00:23.000
+Às vezes, eles têm nomes
+de campos diferentes
+
+00:00:23.033 --> 00:00:25.067
+e às vezes eles têm campos
+
+00:00:25.100 --> 00:00:27.833
+que não existem
+em todos os conjuntos de dados.
+
+00:00:27.867 --> 00:00:30.633
+Note que,
+no 1º conjunto de dados,
+
+00:00:30.667 --> 00:00:33.567
+temos o campo "ID" e "Name".
+
+00:00:33.600 --> 00:00:36.900
+Já o 2º conjunto de dados
+tem um campo diferente com os nomes,
+
+00:00:36.933 --> 00:00:41.667
+chamado "Full Name"
+e um campo a mais, chamado "Phone".
+
+00:00:41.700 --> 00:00:44.000
+Vamos unir os dois
+conjuntos de dados,
+
+00:00:44.033 --> 00:00:46.167
+apesar de terem campos
+com nomes diferentes
+
+00:00:46.200 --> 00:00:50.800
+e um campo que não é comum
+a ambos os conjuntos.
+
+00:00:50.833 --> 00:00:53.967
+Para fazer isso, basta pegar
+a ferramenta "Union"
+
+00:00:54.000 --> 00:00:57.567
+e deixá-la mais próxima
+do conjunto "Customer Data 2010"
+
+00:00:57.600 --> 00:01:01.000
+para que ela se ligue
+a este conjunto primeiro.
+
+00:01:01.300 --> 00:01:03.433
+Então vamos criar
+uma conexão manual
+
+00:01:03.467 --> 00:01:08.067
+do conjunto "Customer Data 2011"
+até a ferramenta "Union".
+
+00:01:08.100 --> 00:01:11.200
+Essa ferramenta pode conter
+inputs ilimitados,
+
+00:01:11.233 --> 00:01:15.067
+então você pode unir
+mais de dois conjuntos de dados.
+
+00:01:15.100 --> 00:01:17.133
+Agora podemos
+configurar a ferramenta.
+
+00:01:17.167 --> 00:01:19.900
+Se formos até as configurações
+à esquerda,
+
+00:01:19.933 --> 00:01:23.600
+vamos selecionar
+"Auto Configure by Name" em cima.
+
+00:01:23.633 --> 00:01:27.167
+É a maneira padrão
+de configurar esta ferramenta.
+
+00:01:27.200 --> 00:01:31.667
+Quando ativamos o workflow
+e observamos o resultado,
+
+00:01:31.700 --> 00:01:36.167
+vemos que os dados no campo "ID"
+estão alinhados,
+
+00:01:36.200 --> 00:01:40.233
+mas os dados do campo "Name"
+não estão,
+
+00:01:40.267 --> 00:01:43.767
+já que há um campo "Name"
+e outro "Full Name"
+
+00:01:43.800 --> 00:01:46.167
+que contêm nomes.
+
+00:01:46.200 --> 00:01:48.467
+Para fazer os campos
+se alinharem direito,
+
+00:01:48.500 --> 00:01:51.500
+vamos selecionar
+"Manually Configure Fields".
+
+00:01:51.533 --> 00:01:54.267
+Então vamos clicar
+em "Full Name"
+
+00:01:54.300 --> 00:01:56.733
+e clicar na seta
+para movê-lo para a esquerda
+
+00:01:56.767 --> 00:01:59.733
+para que agora esteja alinhado
+com o campo "Name".
+
+00:01:59.767 --> 00:02:03.767
+Para remover o espaço
+entre os dois campos,
+
+00:02:03.800 --> 00:02:07.433
+vamos selecionar "Phone"
+e clicar na seta esquerda de novo
+
+00:02:07.467 --> 00:02:10.067
+para mudar a posição do campo.
+
+00:02:10.267 --> 00:02:11.667
+Quando ativar o workflow,
+
+00:02:11.700 --> 00:02:15.800
+vai ver todos os nomes
+no campo "Name"
+
+00:02:15.833 --> 00:02:19.467
+e todos os campos alinhados,
+como esperado.
+
+00:02:19.500 --> 00:02:20.833
+*END*
+
+00:02:20.867 --> 00:02:22.167
+*CODE*
+

@@ -1,0 +1,556 @@
+WEBVTT
+Kind: captions
+Language: pt-BR
+
+00:00:00.333 --> 00:00:02.733
+Vamos começar
+com um workflow completo,
+
+00:00:02.767 --> 00:00:04.700
+em que temos
+um banco de dados principal
+
+00:00:04.733 --> 00:00:07.867
+com todas as pessoas com que
+entramos em contato anteriormente
+
+00:00:07.900 --> 00:00:10.100
+em campanhas
+de marketing direto.
+
+00:00:10.133 --> 00:00:13.367
+Note que os campos
+no fim do arquivo
+
+00:00:13.400 --> 00:00:15.867
+estão marcados com 0 ou 1.
+
+00:00:15.900 --> 00:00:20.133
+O "1" representa os clientes
+que foram contatados naquela data
+
+00:00:20.167 --> 00:00:22.600
+por uma campanha
+de marketing específica.
+
+00:00:22.633 --> 00:00:26.267
+O 2º conjunto de dados são clientes
+com quem entramos em contato
+
+00:00:26.300 --> 00:00:28.733
+na última campanha
+de marketing direto
+
+00:00:28.767 --> 00:00:31.933
+em 15 de janeiro de 2013.
+
+00:00:31.967 --> 00:00:34.833
+Quando emparelhamos conjuntos
+de dados por lógica difusa,
+
+00:00:34.867 --> 00:00:39.300
+eles precisam ser reunidos
+em um único conjunto de dados.
+
+00:00:39.333 --> 00:00:42.067
+No entanto,
+usamos um campo "ID"
+
+00:00:42.100 --> 00:00:45.733
+para identificar cada registro
+e usamos um campo "Source"
+
+00:00:45.767 --> 00:00:48.633
+para saber de onde
+o registro vem
+
+00:00:48.667 --> 00:00:53.767
+e poder diferenciar
+os dados que vêm de cada arquivo.
+
+00:00:53.800 --> 00:00:57.067
+Neste caso, esses campos
+já existem.
+
+00:00:57.100 --> 00:01:00.500
+Mas, se não tivermos esses campos
+nos conjuntos de dados,
+
+00:01:00.533 --> 00:01:02.367
+temos que criá-los.
+
+00:01:02.400 --> 00:01:04.400
+Vamos voltar à reunião.
+
+00:01:04.433 --> 00:01:07.367
+O que vamos fazer
+é importar os dados
+
+00:01:07.400 --> 00:01:12.033
+de "Customer" para os registros
+do conjunto de dados "Master".
+
+00:01:12.067 --> 00:01:14.333
+Então vamos usar
+a ferramenta "Union".
+
+00:01:14.367 --> 00:01:17.467
+Podemos ver os campos dos dois
+conjuntos de dados alinhados
+
+00:01:17.500 --> 00:01:22.733
+e os campos "Date" não alinhados,
+pois são diferentes em cada arquivo.
+
+00:01:22.767 --> 00:01:27.800
+Não há problema. No próximo passo,
+vamos usar a lógica difusa.
+
+00:01:27.833 --> 00:01:31.867
+Vamos escolher o modo "Merge",
+pois, como mencionamos,
+
+00:01:31.900 --> 00:01:33.865
+estamos trabalhando
+com dois conjuntos de dados
+
+00:01:33.898 --> 00:01:37.133
+que foram unidos ou fundidos.
+
+00:01:37.167 --> 00:01:42.133
+O "Source ID" é o campo
+que contém as fontes de dados.
+
+00:01:42.167 --> 00:01:46.233
+Este campo se chama "Source",
+e você pode ver que as células
+
+00:01:46.267 --> 00:01:49.967
+contêm as palavras "Master"
+ou "Customer".
+
+00:01:50.000 --> 00:01:52.400
+Podemos ver isso
+ao ativar o workflow.
+
+00:01:52.433 --> 00:01:58.000
+O campo "Record ID" é
+o que contém a identificação
+
+00:01:58.033 --> 00:01:59.933
+que nomeia cada registro.
+
+00:01:59.967 --> 00:02:02.833
+No nosso caso,
+ele se chama "HHID".
+
+00:02:02.867 --> 00:02:06.300
+Por fim, temos que definir
+o limite de emparelhamento.
+
+00:02:06.333 --> 00:02:10.600
+Ele é a porcentagem mínima
+de similaridade
+
+00:02:10.633 --> 00:02:13.133
+para que o registro seja
+considerado similar.
+
+00:02:13.167 --> 00:02:14.500
+Quanto mais alta
+a porcentagem,
+
+00:02:14.533 --> 00:02:17.167
+mais próximo ou preciso
+o registro vai ser.
+
+00:02:17.200 --> 00:02:20.033
+Quanto menor a porcentagem,
+menos precisa será a similaridade.
+
+00:02:20.066 --> 00:02:22.533
+No entanto, mais registros
+vão passar por ela.
+
+00:02:22.567 --> 00:02:26.433
+Definimos isso em 60%
+neste caso.
+
+00:02:26.467 --> 00:02:29.067
+Agora temos que identificar
+os campos emparelhados.
+
+00:02:29.100 --> 00:02:33.100
+São os campos em que
+vamos usar a lógica difusa.
+
+00:02:33.133 --> 00:02:35.567
+Vamos usar templates
+pré-existentes
+
+00:02:35.600 --> 00:02:37.400
+que foram estabelecidos
+como modos padrão
+
+00:02:37.433 --> 00:02:40.567
+de usar lógica difusa.
+
+00:02:40.600 --> 00:02:45.733
+Os campos que vamos emparelhar
+são "Primary Address",
+
+00:02:45.767 --> 00:02:49.604
+"ZIP" e "Last Name".
+
+00:02:50.567 --> 00:02:53.400
+"Primary Address"
+é o campo com o endereço,
+
+00:02:53.433 --> 00:02:56.633
+mas não sei se tem complementos
+ou apartamentos nele,
+
+00:02:56.667 --> 00:02:59.467
+então podemos escolher
+apenas "Address"
+
+00:02:59.500 --> 00:03:01.133
+em "Match Style".
+
+00:03:01.167 --> 00:03:04.300
+Se tivermos certeza de que não há
+complementos nem apartamentos,
+
+00:03:04.333 --> 00:03:08.100
+podemos escolher a opção
+"Address No Suite".
+
+00:03:08.967 --> 00:03:10.967
+Agora vamos acrescentar
+o campo "ZIP"
+
+00:03:11.000 --> 00:03:13.067
+como um campo adicional
+a ser emparelhado
+
+00:03:13.100 --> 00:03:16.067
+e vamos usar
+o estilo "Zip Code".
+
+00:03:16.967 --> 00:03:19.500
+Por fim, vamos emparelhar
+"Last Name"
+
+00:03:19.533 --> 00:03:22.767
+e, para isso, vamos escolher
+o estilo "Name".
+
+00:03:24.700 --> 00:03:26.933
+Depois de usar a ferramenta
+"Fuzzy Match",
+
+00:03:26.967 --> 00:03:31.900
+podemos ver os registros pareados
+nos dois conjuntos de dados:
+
+00:03:31.933 --> 00:03:37.600
+"HHID" 100390855
+
+00:03:37.633 --> 00:03:40.300
+é igual a "HHID"
+
+00:03:40.333 --> 00:03:45.167
+200011862
+
+00:03:45.200 --> 00:03:47.267
+no 2º conjunto de dados.
+
+00:03:47.300 --> 00:03:50.967
+Podemos encontrar pares duplicados
+dos mesmos registros
+
+00:03:51.000 --> 00:03:53.900
+por causa do modo como a ferramenta
+"Fuzzy Match" funciona.
+
+00:03:53.933 --> 00:03:56.467
+Por isso, vamos usar
+a ferramenta "Unique",
+
+00:03:56.500 --> 00:04:00.733
+da categoria "Preparation",
+e definir os campos como:
+
+00:04:00.767 --> 00:04:04.167
+"HHID" e "HHID2".
+
+00:04:04.200 --> 00:04:08.933
+A ferramenta "Unique" cria
+um conjunto de dados singulares
+
+00:04:08.967 --> 00:04:13.201
+através do lado "U"
+e os duplicados do lado "D".
+
+00:04:13.234 --> 00:04:14.908
+Não precisamos
+dos registros duplicados,
+
+00:04:14.941 --> 00:04:18.267
+então podemos continuar o workflow
+a partir do lado "U".
+
+00:04:18.300 --> 00:04:20.667
+Agora que sabemos
+que registros são iguais,
+
+00:04:20.700 --> 00:04:24.467
+temos que ligar as "IDs"
+aos arquivos originais
+
+00:04:24.500 --> 00:04:28.233
+para pegar o resto das informações
+contidas nesses registros
+
+00:04:28.267 --> 00:04:32.967
+e ver se os campos "Address",
+"Name" e "ZIP" são iguais mesmo.
+
+00:04:33.000 --> 00:04:36.033
+Se analisarmos os números,
+podemos ver
+
+00:04:36.067 --> 00:04:40.000
+que o arquivo "Master" tem
+números que começam com "1"
+
+00:04:40.033 --> 00:04:42.267
+no campo "HHID",
+
+00:04:42.300 --> 00:04:46.033
+mas o arquivo "Customer"
+começa com um "2"
+
+00:04:46.067 --> 00:04:48.367
+no campo "HHID".
+
+00:04:48.400 --> 00:04:50.533
+Então vamos usar
+uma ferramenta "Join"
+
+00:04:50.567 --> 00:04:53.300
+e conectar o campo "HHID"
+
+00:04:53.333 --> 00:04:57.000
+ao campo "HHID"
+do conjunto de dados "Master",
+
+00:04:57.033 --> 00:04:59.333
+puxando todos os campos.
+
+00:04:59.367 --> 00:05:03.333
+No entanto, vamos retirar
+o campo "HHID" da direita,
+
+00:05:03.367 --> 00:05:05.033
+já que são
+os registros duplicados.
+
+00:05:05.067 --> 00:05:09.600
+Dá para ver que são duplicados
+porque ele adicionou "Right_"
+
+00:05:09.633 --> 00:05:11.833
+como um prefixo do campo.
+
+00:05:11.867 --> 00:05:16.533
+Além disso, você pode notar
+que renomeamos alguns campos
+
+00:05:16.567 --> 00:05:19.833
+com o prefixo "Master_".
+
+00:05:19.867 --> 00:05:22.400
+Acrescentamos aos nomes
+dos campos adicionais
+
+00:05:22.433 --> 00:05:25.233
+para podermos identificar
+os campos mais facilmente
+
+00:05:25.267 --> 00:05:28.733
+depois que os unirmos
+aos registros do arquivo "Customer".
+
+00:05:28.767 --> 00:05:31.367
+Agora vamos usar
+uma 2ª ferramenta "Join"
+
+00:05:31.400 --> 00:05:34.967
+para podermos juntar todos
+os registros do arquivo "Customer"
+
+00:05:35.000 --> 00:05:37.133
+e inserir todos os campos
+de "Customer"
+
+00:05:37.167 --> 00:05:40.300
+juntando "HHID2"
+
+00:05:40.333 --> 00:05:43.467
+a "HHID" do arquivo "Customer".
+
+00:05:43.500 --> 00:05:48.067
+Neste caso, vamos, mais uma vez,
+remover o 2º campo "HHID"
+
+00:05:48.100 --> 00:05:49.933
+retirando a seleção dele.
+
+00:05:49.967 --> 00:05:52.867
+E vamos reordenar os campos
+na ferramenta "Join"
+
+00:05:52.900 --> 00:05:56.167
+para que os campos
+"Address", "ZIP" e "Name"
+
+00:05:56.200 --> 00:05:58.500
+fiquem lado a lado
+nos dois arquivos.
+
+00:05:58.533 --> 00:06:02.833
+Além disso, os campos emparelhados
+através da lógica difusa
+
+00:06:02.867 --> 00:06:07.233
+também vão ter um prefixo -
+neste caso "Customer_".
+
+00:06:07.267 --> 00:06:10.400
+Vamos passar
+"Customer_Primary_Address"
+
+00:06:10.433 --> 00:06:16.200
+para que fique ao lado
+de "Master_Primary_Address".
+
+00:06:16.233 --> 00:06:18.533
+"Customer_Zip"
+
+00:06:18.867 --> 00:06:22.000
+para que fique ao lado
+de "Master_Zip"
+
+00:06:22.033 --> 00:06:24.633
+e "Customer_LastName"
+
+00:06:24.667 --> 00:06:27.800
+para que fique ao lado
+de "Master_LastName".
+
+00:06:27.833 --> 00:06:30.600
+Agora podemos ver
+se os registros foram emparelhados
+
+00:06:30.633 --> 00:06:33.300
+e como a lógica difusa conseguiu
+emparelhar os registros
+
+00:06:33.333 --> 00:06:36.033
+que não estão escritos
+da mesma maneira.
+
+00:06:36.067 --> 00:06:39.133
+Note como a lógica difusa
+conseguiu parear
+
+00:06:39.167 --> 00:06:44.333
+muitos nomes que parecem iguais,
+mas não são escritos do mesmo modo.
+
+00:06:44.367 --> 00:06:46.933
+Os registros emparelhados
+são apenas um subgrupo
+
+00:06:46.967 --> 00:06:48.667
+do conjunto de dados
+principal.
+
+00:06:48.700 --> 00:06:51.500
+Então agora precisamos
+reunir os registros
+
+00:06:51.533 --> 00:06:56.400
+que não foram pareados
+e ficaram do lado esquerdo
+
+00:06:56.433 --> 00:07:00.167
+para voltar a reunir
+todo o conjunto de dados "Master"
+
+00:07:00.200 --> 00:07:04.900
+e depois retirar a seleção
+dos campos de que não precisamos.
+
+00:07:04.933 --> 00:07:09.167
+O resultado final
+exibido em "Browse"
+
+00:07:09.200 --> 00:07:12.333
+é o conjunto de dados "Master"
+inteiro.
+
+00:07:12.367 --> 00:07:16.233
+Note que os registros iniciais
+são os registros pareados
+
+00:07:16.267 --> 00:07:20.633
+e os do fim são os registros
+originais que não foram pareados
+
+00:07:20.667 --> 00:07:23.033
+com nenhum registro
+do arquivo "Customer".
+
+00:07:23.067 --> 00:07:27.600
+Note que todos os registros
+têm o valor de "1" no campo "Date",
+
+00:07:27.633 --> 00:07:31.100
+na nova data,
+"15 de janeiro de 2013",
+
+00:07:31.133 --> 00:07:33.233
+e o resto dos campos
+estão preenchidos com "Null"
+
+00:07:33.267 --> 00:07:35.167
+porque não foram pareados.
+
+00:07:35.200 --> 00:07:39.400
+Podemos substituir isso mais tarde
+com "0", se quisermos.
+
+00:07:39.433 --> 00:07:42.599
+Então este último conjunto de dados
+mostrado pela ferramenta "Browse"
+
+00:07:42.632 --> 00:07:45.333
+representa
+todo o arquivo "Master"
+
+00:07:45.367 --> 00:07:49.033
+com os registros
+que foram emparelhados,
+
+00:07:49.067 --> 00:07:54.967
+identificados como "1"
+na coluna "2013-01-15".
+
+00:07:55.000 --> 00:07:56.333
+*END*
+
+00:07:56.367 --> 00:07:57.667
+*CODE*
+

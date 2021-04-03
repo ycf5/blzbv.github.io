@@ -1,0 +1,99 @@
+WEBVTT
+Kind: captions
+Language: pt-BR
+
+00:00:00.868 --> 00:00:04.738
+Agora que sabemos que os dados
+podem ter um componente espacial,
+
+00:00:04.771 --> 00:00:08.475
+vamos falar da mesclagem de dois
+conjuntos de dados espaciais.
+
+00:00:08.509 --> 00:00:12.980
+Juntamos conjuntos de dados
+com base nos componentes espaciais
+
+00:00:13.013 --> 00:00:16.717
+quando não podemos usar campos
+para juntá-los.
+
+00:00:16.750 --> 00:00:20.621
+Por exemplo, se quisermos descobrir
+que clientes estão dentro
+
+00:00:20.654 --> 00:00:22.656
+da área de vendas de uma loja,
+
+00:00:22.689 --> 00:00:25.325
+não há nenhum campo
+que possa ser usado
+
+00:00:25.359 --> 00:00:27.794
+para juntar os clientes
+à área de vendas,
+
+00:00:27.828 --> 00:00:30.731
+então fazemos o que chamamos
+de emparelhamento espacial.
+
+00:00:30.764 --> 00:00:33.400
+Usamos os dados espaciais
+dos clientes,
+
+00:00:33.433 --> 00:00:35.469
+ou suas localizações,
+
+00:00:35.502 --> 00:00:40.007
+para ver se estão dentro ou
+interseccionando a área de vendas,
+
+00:00:40.040 --> 00:00:42.776
+representada
+pela área cinza.
+
+00:00:42.809 --> 00:00:46.747
+Dessa maneira, também podemos
+inserir os campos do arquivo da loja
+
+00:00:46.780 --> 00:00:50.284
+no arquivo de clientes,
+como o número da loja.
+
+00:00:50.317 --> 00:00:54.021
+Há muitos motivos para usar
+dados emparelhados espacialmente.
+
+00:00:54.054 --> 00:00:57.257
+Por exemplo, a única maneira
+de contar quantos clientes
+
+00:00:57.291 --> 00:00:59.393
+estão dentro da área
+de vendas de uma loja
+
+00:00:59.426 --> 00:01:02.663
+é emparelhá-los
+e atribuir um número de loja a eles
+
+00:01:02.696 --> 00:01:05.699
+e depois contar o número
+de clientes por loja.
+
+00:01:05.732 --> 00:01:08.435
+Ao atribuir um número de loja
+a cada cliente,
+
+00:01:08.468 --> 00:01:11.405
+também podemos usar isto
+para divulgar informações
+
+00:01:11.438 --> 00:01:13.607
+sobre aquela loja para eles.
+
+00:01:13.774 --> 00:01:15.075
+*END*
+
+00:01:15.108 --> 00:01:16.376
+*CODE*
+

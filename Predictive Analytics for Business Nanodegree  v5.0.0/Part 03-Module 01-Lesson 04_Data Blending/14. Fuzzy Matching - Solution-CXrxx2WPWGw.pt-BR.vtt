@@ -1,0 +1,95 @@
+WEBVTT
+Kind: captions
+Language: pt-BR
+
+00:00:00.633 --> 00:00:04.333
+Quantos registros de negócios
+são duplicatas de outros negócios?
+
+00:00:04.367 --> 00:00:06.500
+Para emparelhar os negócios
+através da lógica difusa,
+
+00:00:06.533 --> 00:00:08.767
+vamos conectar
+a ferramenta "Fuzzy Match"
+
+00:00:08.800 --> 00:00:10.767
+e depois selecionar
+o modo "Purge",
+
+00:00:10.800 --> 00:00:13.667
+já que vamos usar
+apenas um conjunto de dados.
+
+00:00:13.700 --> 00:00:16.900
+O campo "ID" pode ser
+usado como "Record ID",
+
+00:00:16.933 --> 00:00:19.400
+já que cada registro
+tem um diferente.
+
+00:00:19.433 --> 00:00:21.500
+Como podemos
+ter certeza disso?
+
+00:00:21.533 --> 00:00:23.533
+Podemos adicionar
+a ferramenta "Unique"
+
+00:00:23.567 --> 00:00:26.333
+e ver que nenhum registro
+duplicado aparece.
+
+00:00:26.367 --> 00:00:28.333
+Nenhum registro aparece
+no lado "D"
+
+00:00:28.367 --> 00:00:30.433
+e todos os registros
+aparecem no lado "U",
+
+00:00:30.467 --> 00:00:32.367
+então todos são únicos.
+
+00:00:32.400 --> 00:00:36.100
+Agora vamos selecionar o campo
+que contém o nome das empresas,
+
+00:00:36.133 --> 00:00:38.033
+que se chama "acct_holder".
+
+00:00:38.067 --> 00:00:39.967
+Então vamos selecionar
+o "Match Style"
+
+00:00:40.000 --> 00:00:43.733
+chamado "Company Name", já que
+ele se encaixa melhor com os dados.
+
+00:00:43.767 --> 00:00:47.000
+Por fim, vamos adicionar
+a ferramenta "Unique"
+
+00:00:47.033 --> 00:00:50.667
+e selecionamos "ID" e "ID2"
+
+00:00:50.700 --> 00:00:53.367
+para eliminar
+registros duplicados.
+
+00:00:53.400 --> 00:00:55.733
+Há 3 negócios que têm
+registros duplicados,
+
+00:00:55.767 --> 00:00:57.600
+e eles estão
+identificados aqui.
+
+00:00:57.633 --> 00:00:58.933
+*END*
+
+00:00:58.967 --> 00:01:00.267
+*CODE*
+

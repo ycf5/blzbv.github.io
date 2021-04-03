@@ -1,0 +1,161 @@
+WEBVTT
+Kind: captions
+Language: pt-BR
+
+00:00:00.458 --> 00:00:03.167
+Acabamos de aprender a pegar
+dois conjuntos de dados
+
+00:00:03.208 --> 00:00:07.375
+com os mesmos campos e uni-los
+para criar um conjunto maior.
+
+00:00:07.417 --> 00:00:09.917
+Mas e se você quiser mesclar
+vários conjuntos de dados
+
+00:00:09.958 --> 00:00:12.208
+com dados diferentes?
+Por exemplo,
+
+00:00:12.250 --> 00:00:17.125
+imagine que você queira ter
+uma ótima visão 360° dos clientes
+
+00:00:17.167 --> 00:00:20.125
+para poder criar
+um modelo preditivo a partir disso.
+
+00:00:20.167 --> 00:00:24.625
+Você vai querer começar com
+o máximo de informações que tiver,
+
+00:00:24.667 --> 00:00:29.167
+antes de determinar que variáveis
+vai usar no modelo.
+
+00:00:29.208 --> 00:00:31.168
+Vamos pegar um conjunto
+de dados transacionais
+
+00:00:31.201 --> 00:00:33.208
+em que dados dos clientes
+foram somados
+
+00:00:33.250 --> 00:00:37.283
+e que mostra as transações totais,
+o gasto total etc.
+
+00:00:38.375 --> 00:00:40.750
+Depois, queremos usar
+outro conjunto de dados
+
+00:00:40.792 --> 00:00:45.000
+que mostra a que campanhas
+de marketing eles responderam.
+
+00:00:45.042 --> 00:00:47.375
+Talvez até possamos usar
+um 3º conjunto de dados,
+
+00:00:47.417 --> 00:00:50.250
+com o endereço deles, mostrando
+a que distância esses clientes
+
+00:00:50.292 --> 00:00:53.245
+moram das lojas.
+
+00:00:53.790 --> 00:00:57.958
+Para mesclar esses dados, vamos
+precisar de uma informação comum,
+
+00:00:57.991 --> 00:01:00.792
+presente
+nestes três arquivos.
+
+00:01:00.833 --> 00:01:04.167
+É essa informação comum
+que vai ligar cada registro
+
+00:01:04.208 --> 00:01:08.125
+em cada conjunto de dados ao
+mesmo registro nos outros conjuntos.
+
+00:01:08.167 --> 00:01:12.000
+Neste exemplo, podemos ver
+que os três conjuntos de dados
+
+00:01:12.042 --> 00:01:15.458
+têm um número de identificação
+associado a cada registro.
+
+00:01:15.500 --> 00:01:19.083
+Usamos esse campo para juntar
+os três conjuntos de dados.
+
+00:01:19.125 --> 00:01:22.500
+No entanto, nem sempre temos
+um campo como "ID"
+
+00:01:22.542 --> 00:01:24.700
+para juntar
+conjuntos de dados.
+
+00:01:26.041 --> 00:01:28.458
+É preciso observar os campos
+dos seus conjuntos de dados
+
+00:01:28.500 --> 00:01:31.292
+e descobrir que campo
+pode ser usado
+
+00:01:31.325 --> 00:01:33.994
+para juntá-lo
+a outros conjuntos de dados.
+
+00:01:34.741 --> 00:01:39.750
+Por exemplo, talvez esteja juntando
+conjuntos de dados de produtos.
+
+00:01:39.783 --> 00:01:43.542
+Neste caso, talvez você possa
+usar um código de produto
+
+00:01:43.583 --> 00:01:47.125
+ou um "SKU", uma unidade
+de manutenção de estoque,
+
+00:01:47.158 --> 00:01:50.999
+que costuma ser representada
+por um código de barras.
+
+00:01:51.032 --> 00:01:54.125
+Ou talvez você tenha que usar
+uma combinação de campos
+
+00:01:54.167 --> 00:01:56.250
+que possam tornar
+o registro único.
+
+00:01:56.292 --> 00:02:00.250
+Por exemplo, se você não tiver
+a identidade do cliente no registro,
+
+00:02:00.292 --> 00:02:02.042
+talvez tenha que juntar
+os conjuntos
+
+00:02:02.083 --> 00:02:04.750
+com base nos campos "Nome",
+"Sobrenome" e "Endereço"
+
+00:02:04.792 --> 00:02:09.042
+para identificar os mesmos clientes
+em cada conjunto de dados.
+
+00:02:09.075 --> 00:02:10.250
+*END*
+
+00:02:10.292 --> 00:02:11.667
+*CODE*
+
