@@ -1,0 +1,2218 @@
+{
+  "data": {
+    "lesson": {
+      "id": 680841,
+      "key": "576552b9-a1b4-45be-9428-572331a4e186",
+      "title": "Linear Regression",
+      "semantic_type": "Lesson",
+      "is_public": true,
+      "version": "1.0.0",
+      "locale": "en-us",
+      "summary": "Build, validate, and apply linear regression models to solve a business problem",
+      "lesson_type": "Classroom",
+      "display_workspace_project_only": false,
+      "resources": {
+        "files": [
+          {
+            "name": "Videos Zip File",
+            "uri": "https://zips.udacity-data.com/576552b9-a1b4-45be-9428-572331a4e186/680841/1544455552267/Linear+Regression+Videos.zip"
+          },
+          {
+            "name": "Transcripts Zip File",
+            "uri": "https://zips.udacity-data.com/576552b9-a1b4-45be-9428-572331a4e186/680841/1544455538429/Linear+Regression+Subtitles.zip"
+          }
+        ],
+        "google_plus_link": null,
+        "career_resource_center_link": null,
+        "coaching_appointments_link": null,
+        "office_hours_link": null,
+        "aws_provisioning_link": null
+      },
+      "project": null,
+      "lab": null,
+      "concepts": [
+        {
+          "id": 7444,
+          "key": "dc105e00-66a9-4cc3-af26-d5ff2fcfd813",
+          "title": "The Business Problem",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "dc105e00-66a9-4cc3-af26-d5ff2fcfd813",
+            "completed_at": null,
+            "last_viewed_at": null,
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 7598,
+              "key": "a760bda7-002e-4305-9c75-1e6e14370e58",
+              "title": "Applying What We’ve Learned to a Business Problem",
+              "semantic_type": "VideoAtom",
+              "is_public": true,
+              "instructor_notes": null,
+              "video": {
+                "youtube_id": "MUkPuID54BI",
+                "china_cdn_id": "MUkPuID54BI.mp4"
+              }
+            },
+            {
+              "id": 7436,
+              "key": "5b2440b0-49e5-4776-89ed-f56b9cb9f98a",
+              "title": "Business Problem",
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "<h4>Business Problem</h4> “We’re onboarding a new client next month as part of a very large deal.  It’s critical that we support them with our excellent service levels.  I need to know how many tickets per week on average we can expect from this client so we can ensure we have enough help desk resources in place.” ",
+              "instructor_notes": ""
+            },
+            {
+              "id": 134720,
+              "key": "a09c6aee-5269-427d-bf64-e49a6b32c8eb",
+              "title": "Reminder",
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "<h4>Reminder</h4>\n\nAs a reminder, we're at the top of the chart in the Business Problem Solving framework where we are simply trying to understand the business issue at hand.",
+              "instructor_notes": ""
+            },
+            {
+              "id": 134700,
+              "key": "6a44c475-faa6-4c5d-9a85-853613883d47",
+              "title": "Problem Solving Framework",
+              "semantic_type": "ImageAtom",
+              "is_public": true,
+              "url": "https://video.udacity-data.com/topher/2016/June/57754572_crisp-dm-framework/crisp-dm-framework.jpeg",
+              "non_google_url": "https://s3.cn-north-1.amazonaws.com.cn/u-img/6a44c475-faa6-4c5d-9a85-853613883d47",
+              "caption": "",
+              "alt": null,
+              "width": 1920,
+              "height": 1080,
+              "instructor_notes": null
+            },
+            {
+              "id": 134776,
+              "key": "ac276c91-9013-4e02-97ef-33a96363d65a",
+              "title": "Quiz instructions",
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "<h4>Quiz</h4>\nLet's start at the beginning of the analytical problem solving framework and get a better understanding of the business issue. For our example, answer the following 3 questions.",
+              "instructor_notes": ""
+            },
+            {
+              "id": 8461,
+              "key": "561861e4-1322-40a4-9dfb-93ece2804bf1",
+              "title": "Quiz",
+              "semantic_type": "ReflectAtom",
+              "is_public": true,
+              "instructor_notes": null,
+              "user_state": {
+                "node_key": "561861e4-1322-40a4-9dfb-93ece2804bf1",
+                "completed_at": null,
+                "last_viewed_at": null,
+                "unstructured": null
+              },
+              "question": {
+                "title": null,
+                "semantic_type": "TextQuestion",
+                "evaluation_id": null,
+                "text": "<li>What decision needs to be made? <li>What information is needed to inform that decision? <li>What type of analysis is needed to get the information needed to make that decision?"
+              },
+              "answer": {
+                "text": "Thanks for your answer. Hit next to see the solution video.",
+                "video": null
+              }
+            }
+          ]
+        },
+        {
+          "id": 115026,
+          "key": "4f6ce1f5-dd95-4ea3-b7f5-5d3a3d4ad792",
+          "title": "Approaching the Business Problem",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "4f6ce1f5-dd95-4ea3-b7f5-5d3a3d4ad792",
+            "completed_at": null,
+            "last_viewed_at": null,
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 7635,
+              "key": "8de3e706-a922-4195-9a88-e2f212bb77c6",
+              "title": "Approaching the Business Problem",
+              "semantic_type": "VideoAtom",
+              "is_public": true,
+              "instructor_notes": null,
+              "video": {
+                "youtube_id": "TanVsPDXTAo",
+                "china_cdn_id": "TanVsPDXTAo.mp4"
+              }
+            },
+            {
+              "id": 7910,
+              "key": "1d630ace-bd56-4a0a-9c82-1d0786f4632a",
+              "title": "Answer",
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "<br>\n<br>\n<h5>What decisions need to be made?  </h5>\n\nThe decision the sales manager needs to make is, “Do we have enough capacity on the support team to handle the support tickets from the new customer?” and “If not, how many people do we need to add to the support team to reach the desired capacity?”\n\n<h5>What information do we need to inform this decision?  </h5>\n\nWe need to calculate the average number of tickets per customer per week.  We can then aggregate the average number of tickets for each customer to get a total average number of support tickets that we predict will be submitted per week.  Once we have this information, we need to compare the predicted average number of tickets with the current capacity of the support staff, specifically, the average number of tickets each team member can handle.\n\n<h5>What type of analysis is needed to get the information needed to make that decision?</h5>\n\nLet’s use our Methodology Map flowchart to help us determine the type of analysis we should use to provide the exact information needed to inform the decision. We want to predict the average number of tickets per week a new customer will submit.  Therefore, we’re looking to predict an outcome - that was easy.\n",
+              "instructor_notes": null
+            }
+          ]
+        },
+        {
+          "id": 8001,
+          "key": "a50523b1-292f-4a76-b23b-4a1544650cf8",
+          "title": "Data Understanding Quiz",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "a50523b1-292f-4a76-b23b-4a1544650cf8",
+            "completed_at": null,
+            "last_viewed_at": null,
+            "unstructured": null
+          },
+          "resources": {
+            "files": [
+              {
+                "name": "Linear Example Data",
+                "uri": "http://video.udacity-data.com.s3.amazonaws.com/topher/2016/June/576ae0a5_linear-example-data/linear-example-data.xlsx"
+              }
+            ],
+            "google_plus_link": null,
+            "career_resource_center_link": null,
+            "coaching_appointments_link": null,
+            "office_hours_link": null,
+            "aws_provisioning_link": null
+          },
+          "atoms": [
+            {
+              "id": 8326,
+              "key": "3b95ab63-cfd7-44cc-b795-b7a3fa32f36c",
+              "title": "quiz",
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "#### Data Understanding Quiz \nLooking at the data available in the Linear Example Data.xlsx file found at the bottom of the page, determine if the best methodology for solving this problem is: A/B Testing, a Continuous or Time-Base Numeric Model, or a Binary or Non-Binary Classification Model. Remember, we are trying to predict the number of tickets from a new client.",
+              "instructor_notes": ""
+            },
+            {
+              "id": 8456,
+              "key": "20279b96-eabd-4f9c-bee0-7c970530e331",
+              "title": "Quiz",
+              "semantic_type": "RadioQuizAtom",
+              "is_public": true,
+              "instructor_notes": null,
+              "user_state": {
+                "node_key": "20279b96-eabd-4f9c-bee0-7c970530e331",
+                "completed_at": null,
+                "last_viewed_at": null,
+                "unstructured": null
+              },
+              "question": {
+                "prompt": "Which methodology would best assist in solving the business problem?",
+                "answers": [
+                  {
+                    "id": "a1466621877644",
+                    "text": "A/B Testing",
+                    "is_correct": false
+                  },
+                  {
+                    "id": "a1466621878340",
+                    "text": "Continuous Numeric Model",
+                    "is_correct": true
+                  },
+                  {
+                    "id": "a1466621878804",
+                    "text": "Time-Based Numeric Model",
+                    "is_correct": false
+                  },
+                  {
+                    "id": "a1466621879403",
+                    "text": "Binary Classification Model",
+                    "is_correct": false
+                  },
+                  {
+                    "id": "a1466621910364",
+                    "text": "Non-binary Classification Model",
+                    "is_correct": false
+                  }
+                ]
+              }
+            },
+            {
+              "id": 8391,
+              "key": "2702fb70-e137-4eed-9d1f-931215e32411",
+              "title": "Describe your process",
+              "semantic_type": "ReflectAtom",
+              "is_public": true,
+              "instructor_notes": null,
+              "user_state": {
+                "node_key": "2702fb70-e137-4eed-9d1f-931215e32411",
+                "completed_at": null,
+                "last_viewed_at": null,
+                "unstructured": null
+              },
+              "question": {
+                "title": null,
+                "semantic_type": "TextQuestion",
+                "evaluation_id": null,
+                "text": "Describe the steps you took to determine the appropriate model."
+              },
+              "answer": {
+                "text": "Thanks for you answer. Hit next to see the solution video. ",
+                "video": null
+              }
+            }
+          ]
+        },
+        {
+          "id": 138862,
+          "key": "03beacd2-cb72-42c9-b6a6-899209a2bcc6",
+          "title": "Data Understanding Solution",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "03beacd2-cb72-42c9-b6a6-899209a2bcc6",
+            "completed_at": null,
+            "last_viewed_at": null,
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 7376,
+              "key": "c63aedcf-9618-4b76-b38c-0bb41b058010",
+              "title": "Data Understanding",
+              "semantic_type": "VideoAtom",
+              "is_public": true,
+              "instructor_notes": null,
+              "video": {
+                "youtube_id": "UVM_2SvF-hM",
+                "china_cdn_id": "UVM_2SvF-hM.mp4"
+              }
+            },
+            {
+              "id": 8712,
+              "key": "e98ecd87-ffd3-4e2a-a11f-4d5ae96f11a2",
+              "title": "Data Understanding",
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "<br>\n<h4>Selecting the Appropriate Methodology</h4>\n\n<h5>Step 1: Is this a data rich, or data poor problem?</h5>\n\nLet’s recall the difference between data rich and data poor.  If we have past data on the variable we’re trying to predict, then we are data rich.  Otherwise, we are data poor.\nTo determine whether we’re data rich or poor, we need to look at our data to get a better understanding. Looking at our data set, we see that we have the following information for each client:\n\n<li>The average number of tickets each client submits per week</li>\n<li>The number of employees per client</li>\n<li>The value of the contract with each client</li>\n<li>The industry of each client</li>\n\nSince we have the number of tickets for each client, we are data rich.  \n\n<h5>Step 2: Should we use a numeric or classification model?</h5>\nOur target outcome that we’re trying to predict is a number indicating the average number of tickets we can expect per client, therefore, we should use a Numeric Model.\n\n<h5>Step 3: Is our target variable continuous or time-based?</h5>\nWe’re looking for an average per week.  So, at first glance, we might think this is a time-based problem.  If we were looking to forecast a specific number per calendar week for a period of weeks, you’d be correct. However, in this problem, we just want an average per week and are not interested in a specific calendar week.  Therefore, we will use a continuous model to solve our problem.\n",
+              "instructor_notes": null
+            }
+          ]
+        },
+        {
+          "id": 111356,
+          "key": "54db2ca2-4f26-4b1f-97a1-3149606e8290",
+          "title": "The Problem Solving Framework",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "54db2ca2-4f26-4b1f-97a1-3149606e8290",
+            "completed_at": null,
+            "last_viewed_at": null,
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 9461,
+              "key": "50b01f4d-da9f-49e7-80bd-61ec73fa77b1",
+              "title": "Applying What We've Learned to a Business Problem",
+              "semantic_type": "VideoAtom",
+              "is_public": true,
+              "instructor_notes": null,
+              "video": {
+                "youtube_id": "BSvvZ9C05-s",
+                "china_cdn_id": "BSvvZ9C05-s.mp4"
+              }
+            }
+          ]
+        },
+        {
+          "id": 8944,
+          "key": "50223fb9-0a0a-4672-ba4c-deef74ebcc19",
+          "title": "Introduction to Linear Regression",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "50223fb9-0a0a-4672-ba4c-deef74ebcc19",
+            "completed_at": null,
+            "last_viewed_at": null,
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 7661,
+              "key": "b380aa26-6113-4283-8fd7-f3c15007cee6",
+              "title": "Introduction to Linear Regression",
+              "semantic_type": "VideoAtom",
+              "is_public": true,
+              "instructor_notes": null,
+              "video": {
+                "youtube_id": "ctoCtba2BDY",
+                "china_cdn_id": "ctoCtba2BDY.mp4"
+              }
+            },
+            {
+              "id": 134746,
+              "key": "390721e9-a166-46a3-9c43-49e20b6e032d",
+              "title": "Instructor Notes",
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "<h4>Instructor Notes</h4>\n\nIf you need a refresher on the slope-intercept form (y = mx + b), please read this [short article here](http://www.mathplanet.com/education/algebra-1/formulating-linear-equations/writing-linear-equations-using-the-slope-intercept-form).",
+              "instructor_notes": ""
+            },
+            {
+              "id": 134999,
+              "key": "220c210e-1701-4729-ae7c-b0598174b936",
+              "title": "Linear Regression",
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "<br>\n<h4>Linear Regression</h4>\nImagine we have the data displayed in the scatter plot.  It appears that we have a linear relationship between the number of employees and the number of tickets.  The relationship appears to be linear since it seems like we can draw a straight line through the data.\n\nIf we know the equation of the line, we can predict values for tickets given a certain number of employees. The simple equation for a line is: \n<center><h4> y = mx + b</h4></center>\n <center>Y = Target Variable</center>\n<center>X = Predictor Variable</center>\n<center>m = Slope of the line</center>\n<center> b = Y-intercept </center>\n\n<h5>Target Variable</h5>\nThe target variable is the variable we are trying to understand and predict. It is also referred to as the dependent variable. In our example, we are trying to predict Y, or the average number of tickets. \n\n<h5>Predictor Variable</h5>\nPredictor variables are used to try to predict the target variable and are also known as independent variables. In the example there is just one predictor variable, X, or the number of employees. It is used to predict the number of tickets based.",
+              "instructor_notes": ""
+            }
+          ]
+        },
+        {
+          "id": 138675,
+          "key": "4ee5cae6-f49d-4e86-8aa8-d1ee48477345",
+          "title": "Linear Equations in Google Sheets",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "4ee5cae6-f49d-4e86-8aa8-d1ee48477345",
+            "completed_at": null,
+            "last_viewed_at": null,
+            "unstructured": null
+          },
+          "resources": {
+            "files": [
+              {
+                "name": "Linear Equation Example Google Sheet",
+                "uri": "http://video.udacity-data.com.s3.amazonaws.com/topher/2016/September/57d8d7e2_linear-equation-example-google-sheets/linear-equation-example-google-sheets.xlsx"
+              }
+            ],
+            "google_plus_link": null,
+            "career_resource_center_link": null,
+            "coaching_appointments_link": null,
+            "office_hours_link": null,
+            "aws_provisioning_link": null
+          },
+          "atoms": [
+            {
+              "id": 7547,
+              "key": "ffd77498-92be-4c46-80c6-2e3f67ecb2d1",
+              "title": "Using Google Sheets To Calculate A Linear Equation",
+              "semantic_type": "VideoAtom",
+              "is_public": true,
+              "instructor_notes": null,
+              "video": {
+                "youtube_id": "voCJX6VpFvE",
+                "china_cdn_id": "voCJX6VpFvE.mp4"
+              }
+            },
+            {
+              "id": 9068,
+              "key": "44f3cc55-4e0e-4c1b-ba03-973a6742e4f2",
+              "title": "Regression Sheets",
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "<h4>Steps for Calculating the Linear Regression</h4>\n<li>Step 1: Open up the data **Linear Equation Example Google Sheets**.\n<li>Step 2: Use the Slope function SLOPE(data_y, data_x). Include the values for the target variable in the first field called 'data_y' and the values for the predictor variable in the second field called 'data_x'. The result should be 0.1833.</li>\n<li>Step 3: Use the Intercept function INTERCEPT(data_y, data_x) using the same values for the same fields. The result should be -11.055.</li>\nNow, we know the equation of our line:\n<center><h5> Y =0.1833X -11.055 </h5></center>\n",
+              "instructor_notes": ""
+            }
+          ]
+        },
+        {
+          "id": 111009,
+          "key": "dc61b11a-df8c-4a10-af6f-94838ea95e57",
+          "title": "Linear Regression Validation",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "dc61b11a-df8c-4a10-af6f-94838ea95e57",
+            "completed_at": null,
+            "last_viewed_at": null,
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 9029,
+              "key": "c367364b-846f-4c3a-844d-3f98f6a6db8a",
+              "title": "Linear Regression Validation",
+              "semantic_type": "VideoAtom",
+              "is_public": true,
+              "instructor_notes": "Use these links if you'd like to learn more about [correlation](https://www.mathsisfun.com/data/correlation.html) and [r-squared](http://blog.minitab.com/blog/adventures-in-statistics/regression-analysis-how-do-i-interpret-r-squared-and-assess-the-goodness-of-fit)",
+              "video": {
+                "youtube_id": "TCtDXmvXDUc",
+                "china_cdn_id": "TCtDXmvXDUc.mp4"
+              }
+            },
+            {
+              "id": 9021,
+              "key": "ea9b46ff-5583-4892-8602-95d332f0794c",
+              "title": "Validation",
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "\n<h4> Validation</h4>\n\nNow that we’ve performed the analysis and run the Linear Regression Model, we need to validate the results of the model. In other words, is there a way to measure how good the model is?  Or in this case, is the linear expression we calculated a good fit of our data? \n\n<h5>Step 1: Correlation</h5> Using the correlation function CORREL(data_y, data_x), we can calculate the correlation between the target and predictor variable. This value is often referred to as r.  The range of r is from -1 to +1. The closer r is to plus or minus 1, the higher the correlation between x and y. In our example, the value of r is 0.987, indicating a strong correlation. \n<h5>Step 2: Calculate r-squared</h5>\nWhile a strong correlation is good, we really want to know how well the data fits our line. Fortunately, we can get a sense of how good the formula is at approximating the data by calculating the coefficient of determination, or r-squared.  R-squared is a coefficient between 0 and 1.  R-squared is interpreted as the percent of variance in observations that is explained by the model, or the explanatory power of the model. An R-squared value close to 1 would mean that nearly all variance in the target variable is explained by the model.  An R-squared value close to 0 would mean that nearly none of the variance in the target variable is explained by the model.\n\n<h5>Caution about interpreting R-squared</h5>\nHow you interpret R-squared depends heavily on the problem you're trying to model and the data you use. For tough problems, a very low R-squared may be acceptable. Also, a high R-squared may result from a poor model. However, in general, the higher the R-squared the better, especially as you add and remove predictor variables to determine the strongest predictive model. To read more about interpreting R-squared, see [here](http://blog.minitab.com/blog/adventures-in-statistics/regression-analysis-how-do-i-interpret-r-squared-and-assess-the-goodness-of-fit).",
+              "instructor_notes": ""
+            },
+            {
+              "id": 9028,
+              "key": "4f3e8769-4247-4a3a-847a-ad27a94ab1cd",
+              "title": "Rsquared",
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "<h4>Validation in Google Sheets</h4>\n\nTake a look at the video below for a walk through of calculated and interpreting r-squared in Google Sheets.",
+              "instructor_notes": null
+            },
+            {
+              "id": 8981,
+              "key": "b665021c-b046-4d92-8edf-6680ea516195",
+              "title": "Validation in Google Sheets",
+              "semantic_type": "VideoAtom",
+              "is_public": true,
+              "instructor_notes": null,
+              "video": {
+                "youtube_id": "RGti0FEK76U",
+                "china_cdn_id": "RGti0FEK76U.mp4"
+              }
+            }
+          ]
+        },
+        {
+          "id": 9692,
+          "key": "db1428cd-1ee0-4e11-b839-a841524936ab",
+          "title": "Simple Linear Regression Quiz",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "db1428cd-1ee0-4e11-b839-a841524936ab",
+            "completed_at": null,
+            "last_viewed_at": null,
+            "unstructured": null
+          },
+          "resources": {
+            "files": [
+              {
+                "name": "Simple Linear Regression",
+                "uri": "http://video.udacity-data.com.s3.amazonaws.com/topher/2016/September/57d8d813_simple-linear-regression/simple-linear-regression.xlsx"
+              }
+            ],
+            "google_plus_link": null,
+            "career_resource_center_link": null,
+            "coaching_appointments_link": null,
+            "office_hours_link": null,
+            "aws_provisioning_link": null
+          },
+          "atoms": [
+            {
+              "id": 134741,
+              "key": "6f5855c7-0c37-4fd5-bdde-e3dfd7db59b8",
+              "title": "Regression Quiz",
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "Now, let’s consider a different data set.  Download the dataset called **'Simple Linear Regression.xlsx'** at the bottom of this page.",
+              "instructor_notes": ""
+            },
+            {
+              "id": 160293,
+              "key": "4eeb5024-a85b-42d3-b071-b49e778d2c71",
+              "title": "Next",
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "As you can see below, this data is more spread apart than the dataset we just looked at.",
+              "instructor_notes": ""
+            },
+            {
+              "id": 8743,
+              "key": "366327bf-eb80-49e5-9fbc-4fd29bbbf8f8",
+              "title": "Linear Quiz",
+              "semantic_type": "ImageAtom",
+              "is_public": true,
+              "url": "https://video.udacity-data.com/topher/2016/June/576c0ce5_capture/capture.png",
+              "non_google_url": "https://s3.cn-north-1.amazonaws.com.cn/u-img/366327bf-eb80-49e5-9fbc-4fd29bbbf8f8",
+              "caption": null,
+              "alt": null,
+              "width": 881,
+              "height": 539,
+              "instructor_notes": null
+            },
+            {
+              "id": 8739,
+              "key": "7b0ab0e8-6807-4503-bf82-bb05978d2426",
+              "title": "Quiz",
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "Using Google Sheets, or Microsoft Excel, calculate:\n\n* the slope of the line resulting from linear regression of the dataset.\n* y-value at which the line resulting from linear regression of the dataset will intersect the y-axis (x=0).\n* R-squared - the coefficient of determination\n* Using the regression results, how many tickets per week could we expect from a new client with 525 employees?",
+              "instructor_notes": null
+            },
+            {
+              "id": 8716,
+              "key": "57a14574-f85e-4998-beee-ca8c2b0e6477",
+              "title": "R-squared",
+              "semantic_type": "RadioQuizAtom",
+              "is_public": true,
+              "instructor_notes": null,
+              "user_state": {
+                "node_key": "57a14574-f85e-4998-beee-ca8c2b0e6477",
+                "completed_at": null,
+                "last_viewed_at": null,
+                "unstructured": null
+              },
+              "question": {
+                "prompt": "Based on the r-squared value, how strong is this model? ",
+                "answers": [
+                  {
+                    "id": "a1466700952108",
+                    "text": "Strong",
+                    "is_correct": true
+                  },
+                  {
+                    "id": "a1466700952920",
+                    "text": "Medium",
+                    "is_correct": false
+                  },
+                  {
+                    "id": "a1466700985352",
+                    "text": "Weak",
+                    "is_correct": false
+                  }
+                ]
+              }
+            },
+            {
+              "id": 8763,
+              "key": "16093119-54bc-4a9f-835e-30b373338b5c",
+              "title": "Regression Quis",
+              "semantic_type": "RadioQuizAtom",
+              "is_public": true,
+              "instructor_notes": null,
+              "user_state": {
+                "node_key": "16093119-54bc-4a9f-835e-30b373338b5c",
+                "completed_at": null,
+                "last_viewed_at": null,
+                "unstructured": null
+              },
+              "question": {
+                "prompt": "Using the regression results, how many tickets per week could we expect from a new client with 525 employees?",
+                "answers": [
+                  {
+                    "id": "a1466700660798",
+                    "text": "44",
+                    "is_correct": false
+                  },
+                  {
+                    "id": "a1466700662294",
+                    "text": "67",
+                    "is_correct": false
+                  },
+                  {
+                    "id": "a1466700663339",
+                    "text": "88",
+                    "is_correct": true
+                  },
+                  {
+                    "id": "a1466700664225",
+                    "text": "95",
+                    "is_correct": false
+                  }
+                ]
+              }
+            },
+            {
+              "id": 269188,
+              "key": "dcc350ef-0e31-4ab5-99e6-4af684bdae62",
+              "title": null,
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "**To Download Files below please right click on the link and select \"Save Link As\"**",
+              "instructor_notes": ""
+            }
+          ]
+        },
+        {
+          "id": 9779,
+          "key": "32935ef9-b14b-43ef-b1ab-64365219faa1",
+          "title": "Simple Linear Regression Solution",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "32935ef9-b14b-43ef-b1ab-64365219faa1",
+            "completed_at": null,
+            "last_viewed_at": null,
+            "unstructured": null
+          },
+          "resources": {
+            "files": [
+              {
+                "name": "Slope",
+                "uri": "https://video.udacity-data.com/topher/2019/November/5dc5efdc_slope/slope.pdf"
+              },
+              {
+                "name": "Intercept",
+                "uri": "https://video.udacity-data.com/topher/2019/November/5dc5efea_intercept-/intercept-.pdf"
+              },
+              {
+                "name": "Rsq",
+                "uri": "https://video.udacity-data.com/topher/2019/November/5dc5effa_rsq-/rsq-.pdf"
+              }
+            ],
+            "google_plus_link": null,
+            "career_resource_center_link": null,
+            "coaching_appointments_link": null,
+            "office_hours_link": null,
+            "aws_provisioning_link": null
+          },
+          "atoms": [
+            {
+              "id": 9216,
+              "key": "653aaa04-80bd-4921-91ac-4962d6f11864",
+              "title": "Steps",
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "#### Steps to Calculate Predicted Tickets.\n\n<h5>Step 1</h5>\nCalculate the slope of our line using the ['slope'](https://support.google.com/docs/answer/3094048?hl=en) function. In this case the slope is 0.1817, meaning that for each additional employee at a client, we will receive 0.1817 additional tickets.\n<h5>Step 2</h5>\nCalculate the y-intercept point using the ['intercept'](https://support.google.com/docs/answer/3093632?hl=en) function, giving us a value of -7.546.\n<h5>Step 3</h5>\nCalculate the coefficient of determination, or r squared using the ['rsq'](https://support.google.com/docs/answer/3094099) function, resulting in an r squared value of 0.7862.\n<h5>Step 4</h5>\nSubstitute the model results into the linear equation. Y = mX + b becomes Y = 0.1817x - 7.546 with an r-squared value of 0.7862.\n<h5>Step 5</h5>\nSubstitute 525 for X and then calculate the expected number of tickets. The equation becomes 0.1817(525) - 7.546 = 87.86 or approximately 88 tickets per week.\n",
+              "instructor_notes": ""
+            },
+            {
+              "id": 7410,
+              "key": "26695d32-ef4a-4bb6-add7-2ddfe18ad04e",
+              "title": "Simple linear regression",
+              "semantic_type": "VideoAtom",
+              "is_public": true,
+              "instructor_notes": "",
+              "video": {
+                "youtube_id": "1cqgBRB3r_k",
+                "china_cdn_id": "1cqgBRB3r_k.mp4"
+              }
+            }
+          ]
+        },
+        {
+          "id": 109534,
+          "key": "9f6ce43a-fe8e-417e-a627-bcabbfd407e3",
+          "title": "Introduction to Multiple Linear Regression",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "9f6ce43a-fe8e-417e-a627-bcabbfd407e3",
+            "completed_at": null,
+            "last_viewed_at": null,
+            "unstructured": null
+          },
+          "resources": {
+            "files": [
+              {
+                "name": "Introduction To Multiple Linear Regression",
+                "uri": "http://video.udacity-data.com.s3.amazonaws.com/topher/2016/July/57842b5e_introduction-to-multiple-linear-regression/introduction-to-multiple-linear-regression.xlsx"
+              }
+            ],
+            "google_plus_link": null,
+            "career_resource_center_link": null,
+            "coaching_appointments_link": null,
+            "office_hours_link": null,
+            "aws_provisioning_link": null
+          },
+          "atoms": [
+            {
+              "id": 7619,
+              "key": "c9f245d2-203b-4255-990f-6c41c9880c5d",
+              "title": "Introduction To Multiple Linear Regression",
+              "semantic_type": "VideoAtom",
+              "is_public": true,
+              "instructor_notes": "Use the data linked below if you'd like to follow along.",
+              "video": {
+                "youtube_id": "0c8ngwQuZpg",
+                "china_cdn_id": "0c8ngwQuZpg.mp4"
+              }
+            }
+          ]
+        },
+        {
+          "id": 7531,
+          "key": "a98b210a-6f0d-47f7-9a29-9c2820d891bd",
+          "title": "Multiple Linear Regression Concepts",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "a98b210a-6f0d-47f7-9a29-9c2820d891bd",
+            "completed_at": null,
+            "last_viewed_at": null,
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 7669,
+              "key": "7099b9f9-dc2c-4933-b131-e916be399968",
+              "title": "Multiple Linear Regression",
+              "semantic_type": "VideoAtom",
+              "is_public": true,
+              "instructor_notes": "",
+              "video": {
+                "youtube_id": "aW4rB0Intd0",
+                "china_cdn_id": "aW4rB0Intd0.mp4"
+              }
+            }
+          ]
+        },
+        {
+          "id": 111352,
+          "key": "631d190c-8626-4dd7-92df-f5bd96913c48",
+          "title": "Multiple Linear Regression with Excel",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "631d190c-8626-4dd7-92df-f5bd96913c48",
+            "completed_at": null,
+            "last_viewed_at": null,
+            "unstructured": null
+          },
+          "resources": {
+            "files": [
+              {
+                "name": "Linear Example Data",
+                "uri": "http://video.udacity-data.com.s3.amazonaws.com/topher/2016/September/57d8d84c_linear-example-data/linear-example-data.xlsx"
+              }
+            ],
+            "google_plus_link": null,
+            "career_resource_center_link": null,
+            "coaching_appointments_link": null,
+            "office_hours_link": null,
+            "aws_provisioning_link": null
+          },
+          "atoms": [
+            {
+              "id": 134172,
+              "key": "e10c2d88-8510-4e99-b21f-ed0b83417fd0",
+              "title": "Data Prep",
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "<h4>Initial Steps: Preparing and Understanding Your Data</h4>\n\nGiven any data set, we must make sure that the data is clean and not biased. In this demonstration, let's assume that the data we have has already been cleaned and does not have any bias to any of our variables. You can learn more about cleaning your data set in the [Creating an Analytical Dataset](https://classroom.udacity.com/courses/ud977/lessons/62614c2d-0e8c-45e6-a225-cdc34495e911/concepts/d200ff73-f9fa-4a16-b09b-4f1d1671984f) course.\n\nOnce we have a clean data set, the next step to prepare for your Multiple Linear Regression is to understand the relationship between each of your predictor variables and your target variable. We can do this visually by graphing a scatter-plot between each predictor variable and the target variable.\n\nBefore we start, please download the file **Linear Example Data.xlsx** and explore what this data looks like. You can access the file at the bottom of the page.\n\n**Note**: If you were to plot the histogram of Average Number of Tickets, you will see that the majority of the data is between the values of 0 and 100 and not normally distributed. Let's assume that this dataset represents all of the data we have in order to continue with this example in this part of the lesson.",
+              "instructor_notes": ""
+            },
+            {
+              "id": 134456,
+              "key": "4e2f5a11-b72d-46e0-93b3-71536ff023a4",
+              "title": "Num Employees",
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "<h4>Number of Employees</h4>\n\nLet's first create a scatter-plot between the variables Number of Employees and Average Number of Tickets.",
+              "instructor_notes": ""
+            },
+            {
+              "id": 160296,
+              "key": "c5883b77-2de1-4400-b444-c23750714794",
+              "title": "Number of Employees vs. Avg. Number of Tickets",
+              "semantic_type": "ImageAtom",
+              "is_public": true,
+              "url": "https://video.udacity-data.com/topher/2016/July/578435a4_tickets-employees-plot/tickets-employees-plot.png",
+              "non_google_url": "https://s3.cn-north-1.amazonaws.com.cn/u-img/c5883b77-2de1-4400-b444-c23750714794",
+              "caption": "",
+              "alt": null,
+              "width": 752,
+              "height": 451,
+              "instructor_notes": null
+            },
+            {
+              "id": 134182,
+              "key": "5dfdc49e-4d55-48fd-9da9-9425d95a5ec7",
+              "title": "Value Contract",
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "We can see that as the Number of Employees increases, the Average Number of Tickets increases too at an approximate linear fashion. The trend line in this graph shows that the predictor variable: Number of Employees is a good potential predictor variable to use to create our multiple linear regression model.\n\n**Important**: This is important because linear regression models assume that our numerical predictor variables should have a linear relationship with the target variable. It's good practice to analyze the individual variables first before you run your variables through the linear regression model.\n\n<h4>Value of Contract</h4>\n\nLet's now create a scatter-plot between the variables Value of Contract and Average Number of Tickets.",
+              "instructor_notes": ""
+            },
+            {
+              "id": 160297,
+              "key": "cedbbe7c-94c0-403e-ab5e-8841a2a62141",
+              "title": "Value of Contract vs. Avg. Number of Tickets",
+              "semantic_type": "ImageAtom",
+              "is_public": true,
+              "url": "https://video.udacity-data.com/topher/2016/July/578435da_tickets-value-plot/tickets-value-plot.png",
+              "non_google_url": "https://s3.cn-north-1.amazonaws.com.cn/u-img/cedbbe7c-94c0-403e-ab5e-8841a2a62141",
+              "caption": "",
+              "alt": null,
+              "width": 750,
+              "height": 451,
+              "instructor_notes": null
+            },
+            {
+              "id": 134384,
+              "key": "b3c552e1-593b-41a0-84b4-44950a12753d",
+              "title": "Value Contract (False)",
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "Even though the contract values are made up of discrete numbers, we can still see a linear relationship between the contract value and the number of tickets. As the contract value increases, the number of tickets increases too.\n\n<h4>Counter Example</h4>\n\nLet's assume that there is no relationship between Value Contract and Average Number of Tickets. What would that look like on a scatter-plot?",
+              "instructor_notes": ""
+            },
+            {
+              "id": 134168,
+              "key": "8b9e82a7-10ef-4d6c-bf8c-406207dd325e",
+              "title": "Value Contract vs Average Number of Tickets (Counter)",
+              "semantic_type": "ImageAtom",
+              "is_public": true,
+              "url": "https://video.udacity-data.com/topher/2016/July/57786d50_value-contract-no-linear-relationship/value-contract-no-linear-relationship.png",
+              "non_google_url": "https://s3.cn-north-1.amazonaws.com.cn/u-img/8b9e82a7-10ef-4d6c-bf8c-406207dd325e",
+              "caption": "",
+              "alt": null,
+              "width": 793,
+              "height": 540,
+              "instructor_notes": null
+            },
+            {
+              "id": 134164,
+              "key": "b21b2297-76bc-457a-89cc-c6a61edc097c",
+              "title": "Multicollinearity",
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "In this counter example, as the value of the contract increases, we do not see a trend that the Average Number of Tickets will increase (or decrease). The trend-line in this graph is flat and we can conclude that Value Contract is not a good variable to initially explore for our multiple linear regression model.",
+              "instructor_notes": ""
+            },
+            {
+              "id": 161096,
+              "key": "40597bc7-c22b-479b-a6a4-ce24ad856d39",
+              "title": "categorical variables",
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "#### What about categorical variables?\n\nDue to the nature of categorical variables, we cannot use a scatterplot or any other graph to see whether a linear relationship exists for categorical variables.\n\nThe best way to check for a linear relationship is to run the categorical variables through the regression model and see if the coefficients turn out to be significant with a high multiple-R-squared.  If there is a linear relationship, then the coefficients should be significant and the multiple-R-squared should be relatively high (.70). You will learn how to do this in the concept called *Linear Regression with Categorical Variables*, so don't worry about this for now.",
+              "instructor_notes": ""
+            },
+            {
+              "id": 134235,
+              "key": "0d38907a-75c9-438c-b53b-a28518c8c020",
+              "title": "Finalizing Pre Steps",
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "<h4>Finalizing Preparations</h4>\n\nTherefore for our initial modeling exercise, we should use Number of Employees and Value Contract to initially build our multiple linear regression model.",
+              "instructor_notes": ""
+            },
+            {
+              "id": 134294,
+              "key": "41ad6d92-b95e-4bdf-9c70-ebeff5f7a7ed",
+              "title": "Steps",
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "<h4>Steps for Multiple Linear Regression in Excel</h4>\n\n<h5>Step 1</h5> Make sure you have the Analysis ToolPak Add-In active in Microsoft Excel. You can find instructions [here.](https://support.office.com/en-us/article/Load-the-Analysis-ToolPak-305c260e-224f-4739-9777-2d86f1a5bd89)\n\n<h5>Step 2</h5>\nIn Excel, select Data Analysis. Select Regression in the Pop-up window and select OK. \n\n<h5>Step 3</h5>\nThe Input Y Range should be the range of your target variable, in this case the Average Number of Tickets. The Input X Range should be the range of data of your predictor variables, in this case the Number of Employees and the Value of the Contract because they each show potential to have a linear relationship between the Average Number of Tickets.\n\n<h5>Step 4</h5>\nClick OK to run the model and see the results. We can quickly see our coefficients of the linear equation, which results in:\n<h5><center>Y = -24.2667 + 0.1019 X1 + 0.00067 X2</center></h5>\n\nWhere X1 is the Number of Employees and X2 is the Value of Contract.\n\n\n",
+              "instructor_notes": ""
+            },
+            {
+              "id": 7554,
+              "key": "46e38367-e965-46bf-828c-a415a2455de9",
+              "title": "Multiple Linear Regression With Excel",
+              "semantic_type": "VideoAtom",
+              "is_public": true,
+              "instructor_notes": null,
+              "video": {
+                "youtube_id": "kShe0b-sK4o",
+                "china_cdn_id": "kShe0b-sK4o.mp4"
+              }
+            },
+            {
+              "id": 134568,
+              "key": "e92c16a9-12ed-4b15-beea-e93ae257a2c2",
+              "title": "adj r squared",
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "<h4>R-Squared vs Adjusted R-Squared</h4>\nThe adjusted r-squared value should be used with multiple linear regressions due to a phenomenon that occurs when adding additional variables to the model.  In a nutshell, the more variables that are included, the higher the r-squared value will be - even if there is no relationship between the additional variables and the target variable. Therefore, we use the Adjusted R-squared value.  \n\nYou can find more information on Adjusted R-squared [here](https://en.wikipedia.org/wiki/Coefficient_of_determination#Adjusted_R2). Note that 'explanatory variables' = 'predictor variables' in the linked article.",
+              "instructor_notes": ""
+            },
+            {
+              "id": 9253,
+              "key": "42a3ac39-a1ac-4dae-bf32-f42fe2933c30",
+              "title": "r-squared",
+              "semantic_type": "VideoAtom",
+              "is_public": true,
+              "instructor_notes": "",
+              "video": {
+                "youtube_id": "RiKojRP54vs",
+                "china_cdn_id": "RiKojRP54vs.mp4"
+              }
+            },
+            {
+              "id": 199174,
+              "key": "75ebd84a-7cbb-4f24-8389-4eab5dd8f8a5",
+              "title": "Applying the Regression Results",
+              "semantic_type": "RadioQuizAtom",
+              "is_public": true,
+              "instructor_notes": null,
+              "user_state": {
+                "node_key": "75ebd84a-7cbb-4f24-8389-4eab5dd8f8a5",
+                "completed_at": null,
+                "last_viewed_at": null,
+                "unstructured": null
+              },
+              "question": {
+                "prompt": "The model above gave the following equation:  Tickets = -24.267 + 0.1019 * Number of Employees + 0.0007 * Value of Contract. What would the model predict for the number of tickets for a customer with 750 employees and a contract of $13,000",
+                "answers": [
+                  {
+                    "id": "a1477539539825",
+                    "text": "61",
+                    "is_correct": true
+                  },
+                  {
+                    "id": "a1477539892968",
+                    "text": "93",
+                    "is_correct": false
+                  },
+                  {
+                    "id": "a1477539893481",
+                    "text": "112",
+                    "is_correct": false
+                  }
+                ]
+              }
+            },
+            {
+              "id": 269189,
+              "key": "c43cdc59-2b59-412a-8c53-331fcc948b9b",
+              "title": null,
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "**To Download Files below please right click on the link and select \"Save Link As\"**",
+              "instructor_notes": ""
+            }
+          ]
+        },
+        {
+          "id": 7600,
+          "key": "9955d7a5-8d4b-490a-949d-bf8e5ab5b355",
+          "title": "Multiple Linear Regression Validation",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "9955d7a5-8d4b-490a-949d-bf8e5ab5b355",
+            "completed_at": null,
+            "last_viewed_at": null,
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 7628,
+              "key": "6dbfb1c2-9e44-4d7e-ae72-5c27b4fa83a9",
+              "title": "Multiple Linear Regression Validation",
+              "semantic_type": "VideoAtom",
+              "is_public": true,
+              "instructor_notes": null,
+              "video": {
+                "youtube_id": "n_F9oWVDF4I",
+                "china_cdn_id": "n_F9oWVDF4I.mp4"
+              }
+            }
+          ]
+        },
+        {
+          "id": 198054,
+          "key": "e4ce950e-b079-4e7b-9898-62b1f4ec14cf",
+          "title": "Linear Regression with Categorical Variables",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "e4ce950e-b079-4e7b-9898-62b1f4ec14cf",
+            "completed_at": null,
+            "last_viewed_at": null,
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 199411,
+              "key": "ff208937-57de-48e9-aa6d-e0c6232ae595",
+              "title": null,
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "## Linear Regression using non-numeric predictor variables\n\nSo let’s talk about what happens in linear regression when you add a categorical variable to the mix of predictor variables. Here’s a general regression equation with two predictor variables.\n\n**<center> Y = &beta; <sub>0</sub> + &beta;<sub>1</sub>X<sub>1</sub> + &beta;<sub>2</sub> X <sub>2</sub> </center>**\n\nLike we discussed, the X's represent the values for each variable. These come directly from the data. The &beta;'s come from the linear regression model. &beta; <sub>0</sub> is the intercept. The other &beta;'s represent the relationship between the predictor variable X and the target variable Y.\n\n#### Adding a Categorical Predictor Variable\nNow let’s say you add a third variable that is a non-numeric, or categorical variable. Now putting in the actual value of a category into an equation wouldn’t work because you can't do math string variables, so we have to transform the variable somehow. An inexperienced analyst may simply assign a number to each category and plug it into the model. \n\n**<center> Y = &beta; <sub>0</sub> + &beta;<sub>1</sub>X<sub>1</sub> + &beta;<sub>2</sub> X <sub>2</sub> + &beta;<sub>3</sub> X <sub>3</sub></center>** \n\nLet's spend a moment exploring the problem with this. In linear regression, the coefficient or slope on each predictor variable represents the relationship between it has with the target variable. So if you transform a category into a numeric variable, you are assuming a linear relationship exists between the target variable and the category number. Since the category number is generally assigned arbitrarily, this doesn't make sense. \n\n#### Transforming Categorical Variables - Bad Example\n\nLet’s look at an example. We have a dataset with some information for each of the 50 states in the United States.",
+              "instructor_notes": ""
+            },
+            {
+              "id": 199175,
+              "key": "6a841a78-3794-400c-a243-1bd6175a697b",
+              "title": null,
+              "semantic_type": "ImageAtom",
+              "is_public": true,
+              "url": "https://video.udacity-data.com/topher/2016/October/58117a2a_data-pre/data-pre.png",
+              "non_google_url": "https://s3.cn-north-1.amazonaws.com.cn/u-img/6a841a78-3794-400c-a243-1bd6175a697b",
+              "caption": "",
+              "alt": null,
+              "width": 653,
+              "height": 316,
+              "instructor_notes": null
+            },
+            {
+              "id": 199448,
+              "key": "51c3819c-7f4c-4b34-9161-6eb5c7327a50",
+              "title": null,
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "We want to predict the per pupil student expenditures in a state. To do so, we'll use three predictor variables: average income of that state, the % of the population under 18, and the region in which the state falls. Below is the regression equation that would result after building the model. Region is a categorical variable with four values: west, midwest, northeast, and southeast. You assign them the numbers 1, 2, 3, and 4 respectively, and run the model. The results give you the following equation:\n\n**<center> Expenditures = -530 + 0.073 Avg_Income + 1406.36 Pct_Under_18 + 6.53 region</center>** \n\nNow let's briefly try and understand the coefficients:\n* The coefficient on average income implies that for every one dollar of additional average income, that state spends 7.3 more cents per pupil.\n* The coefficient on percent under 18 implies that for every one additional percentage point of the population under 18, the state spends about $14 more per pupil.\n* The coefficient on region implies that for every increase in one region, the state spends about $6.52 more per pupil. Now this one doesn't make logical sense. There was no logical order in the numbers, and this format doesn't allow us to take into account enough of the variation among regions.",
+              "instructor_notes": ""
+            },
+            {
+              "id": 198089,
+              "key": "23ae8f2b-2650-4861-b932-21c748d95a77",
+              "title": null,
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "#### Transforming Categorical Variables - Good Example\n\nA much better way of using categorical variables in regression is to use what are called dummy variables. A dummy variable can only take on two values, generally zero or one. You would add one dummy variable for one less than the number of unique values in the categorical variable. So if the variable is binary, you'd add one dummy. If there are four categories, you'd add three dummy variables. \n\nGoing back to our example, let's now use dummy variables to represent the categorical variable, region. To represent the four categories west, midwest, northeast, and southeast, you’ll need to add three dummy variables. Let’s create a dummy variable for midwest, southeast, and west. \n\n**<center> Expenditures = &beta; <sub>0</sub> + &beta;<sub>1</sub> Avg_Income + &beta;<sub>2</sub> Pct_Under_18 + &beta;<sub>3</sub> midwest + &beta;<sub>4</sub> southeast + &beta;<sub>5</sub> west </center>**  </center>\n\nEach of the variables takes on a value of either 1 or 0. If the state is in the southeast, then the value for the southeast variable would be 1 while the other two variables would be zero.  \n\nNow we didn't create a variable for northeast. That’s because the equation needs a baseline value that is not coded into a dummy variable. If a state is in the northeast, then the value for all three of the dummy variables would be zero. *You always create one less dummy variable than the number of categories* to make sure that one category is represented by zero values for the dummy variables. That one category, in this case the northeast region, becomes the category that others are compared to.\n\nNote: Many software tools, like Alteryx, will transform categorical variables into dummy variables automatically. If you were to do it manually, the data would now look like this:",
+              "instructor_notes": ""
+            },
+            {
+              "id": 199177,
+              "key": "65e9def4-d762-4685-9639-5605001fd8c9",
+              "title": null,
+              "semantic_type": "ImageAtom",
+              "is_public": true,
+              "url": "https://video.udacity-data.com/topher/2016/October/58117a44_data-post/data-post.png",
+              "non_google_url": "https://s3.cn-north-1.amazonaws.com.cn/u-img/65e9def4-d762-4685-9639-5605001fd8c9",
+              "caption": "",
+              "alt": null,
+              "width": 898,
+              "height": 316,
+              "instructor_notes": null
+            },
+            {
+              "id": 198081,
+              "key": "1907fedc-a537-4944-bde7-9a6dfa19d6d5",
+              "title": "Number of Dummy Variables Quiz",
+              "semantic_type": "RadioQuizAtom",
+              "is_public": true,
+              "instructor_notes": null,
+              "user_state": {
+                "node_key": "1907fedc-a537-4944-bde7-9a6dfa19d6d5",
+                "completed_at": null,
+                "last_viewed_at": null,
+                "unstructured": null
+              },
+              "question": {
+                "prompt": "If the categorical variable *Industry* is used in a regression, and it has three unique values, manufacturing, services, and retail, how many dummy variables should you use in the regression?",
+                "answers": [
+                  {
+                    "id": "a1477534053811",
+                    "text": "1",
+                    "is_correct": false
+                  },
+                  {
+                    "id": "a1477534159854",
+                    "text": "2",
+                    "is_correct": true
+                  },
+                  {
+                    "id": "a1477534160495",
+                    "text": "3",
+                    "is_correct": false
+                  }
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "id": 198082,
+          "key": "2ed99dd4-de90-48ad-8024-62742f2a62d9",
+          "title": "Dummy Variable Quiz",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "2ed99dd4-de90-48ad-8024-62742f2a62d9",
+            "completed_at": null,
+            "last_viewed_at": null,
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 198083,
+              "key": "ed04d97e-418e-4d03-a7c4-74f1ca16ca80",
+              "title": null,
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "### Evaluating an Equation\n\nLet’s do a manual calculation to demonstrate how it works. Let’s start with the following regression equation.\n\n**<center> School exp = -468 + (0.067 *x* avg income) + (1349 *x* pct under 18) - (14.4 *x* midwest) - (9.3 *x* southeast) + (16.5 *x* west) </center>**\n\nNow let’s say we have a state with an average income of 4011, % under 18 of 32.5%, and was in the northeast region. See below for the steps of the calculation.\n\n1. **School exp = -468 + (0.067 *x* avg income) + (1349 *x* pct under 18) - (14.4 *x* midwest) - (9.3 *x* southeast) + (16.5 *x* west)**\n2. **School exp = -468 + (0.067 *x* 4011) + (1349 *x* 0.325) - (14.4 *x* 0) - (9.3 *x* 0) + (16.5 *x* 0)**\n3. **School exp = -468 + 268.737 + 438.425 - 0 - 0 + 0**\n4. **School exp = 239.162 **\n\nWe’d plug in the numeric values and multiply them by their respective coefficients like this. Then for the region dummy variables, we’d plug in zeros for each of them since the state is in the northeast. Solving the equation results in a predictive school expenditure of about 239.\n\n### Interpreting the Dummy Coefficient\n\nOne way to explaining the interpretation of the coefficient of one of the dummy variable above is that it represents the average difference between the state expenditures in one region, compared to states in the northeast region, assuming all other variables are held constant. If a state in the midwest has the same pct under 18 and avg income as a state in the northeast, then we’d predict it will spend 14.4 dollars less per student.\n\nNow it's your turn to try making a prediction on your own.",
+              "instructor_notes": ""
+            },
+            {
+              "id": 198087,
+              "key": "c31cbcc4-e39b-465c-8da3-1ecb5fd545ae",
+              "title": "Question 1",
+              "semantic_type": "RadioQuizAtom",
+              "is_public": true,
+              "instructor_notes": null,
+              "user_state": {
+                "node_key": "c31cbcc4-e39b-465c-8da3-1ecb5fd545ae",
+                "completed_at": null,
+                "last_viewed_at": null,
+                "unstructured": null
+              },
+              "question": {
+                "prompt": "What is the predicted expenditures for a state with an average income of 5132, % under 18 of 33.4%, and is in the west region?",
+                "answers": [
+                  {
+                    "id": "a1477535561119",
+                    "text": "317.11",
+                    "is_correct": false
+                  },
+                  {
+                    "id": "a1477535767662",
+                    "text": "319.21",
+                    "is_correct": false
+                  },
+                  {
+                    "id": "a1477535768126",
+                    "text": "326.41",
+                    "is_correct": false
+                  },
+                  {
+                    "id": "a1477535853140",
+                    "text": "342.91",
+                    "is_correct": true
+                  }
+                ]
+              }
+            },
+            {
+              "id": 198088,
+              "key": "af8510bd-8f1a-410b-9bdb-f8083cb37ae6",
+              "title": "Question 2",
+              "semantic_type": "RadioQuizAtom",
+              "is_public": true,
+              "instructor_notes": null,
+              "user_state": {
+                "node_key": "af8510bd-8f1a-410b-9bdb-f8083cb37ae6",
+                "completed_at": null,
+                "last_viewed_at": null,
+                "unstructured": null
+              },
+              "question": {
+                "prompt": "What is the predicted expenditures for a state with an average income of 5889, % under 18 of 31.8%, and is in the northeast region?",
+                "answers": [
+                  {
+                    "id": "a1477535971997",
+                    "text": "341.145",
+                    "is_correct": false
+                  },
+                  {
+                    "id": "a1477535984445",
+                    "text": "346.245",
+                    "is_correct": false
+                  },
+                  {
+                    "id": "a1477535984893",
+                    "text": "355.545",
+                    "is_correct": true
+                  },
+                  {
+                    "id": "a1477535985478",
+                    "text": "372.045",
+                    "is_correct": false
+                  }
+                ]
+              }
+            },
+            {
+              "id": 627068,
+              "key": "75790464-7dd9-42a5-9423-742b799138ce",
+              "title": null,
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "## Answers\n\nHere is our linear regression formula\n\nSchool exp = -468 + (0.067 x avg income) + (1349 x pct under 18) - (14.4 x midwest) - (9.3 x southeast) + (16.5 x west)\n\n#### Question 1\nWhat is the predicted expenditures for a state with an average income of 5132, % under 18 of 33.4%, and is in the west region?\n\n\n\nNow we plug in these values into the formula to get our predicted expenditures\n\nSchool exp = -468 + (0.067 x 5132) + (1349 x 0.334) - (14.4 x 0) - (9.3 x 0) + (16.5 x 1)\n\nSchool exp = -468 + 343.844 + 450.566 - 0 - 0 + 16.5\n\nSchool exp = 342.91\n\n#### Question 2\nWhat is the predicted expenditures for a state with an average income of 5889, % under 18 of 31.8%, and is in the northeast region?\n\nNow we plug in these values into the formula to get our predicted expenditures\nSchool exp = -468 + (0.067 x 5889) + (1349 x 0.318) - (14.4 x 0) - (9.3 x 0) + (16.5 x 0)\n\nSchool exp = -468 + 394.563 + 428.982 - 0 - 0 + 0\n\nSchool exp = 355.545",
+              "instructor_notes": ""
+            }
+          ]
+        },
+        {
+          "id": 308429,
+          "key": "c2f3cdb9-700d-4ca3-8241-8c9411be7a86",
+          "title": "Introduction to Alteryx",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "c2f3cdb9-700d-4ca3-8241-8c9411be7a86",
+            "completed_at": null,
+            "last_viewed_at": null,
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 308437,
+              "key": "600f400a-29cc-43c9-85b9-83f02a7a8c67",
+              "title": null,
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "# Dean Stoeker, CEO of Alteryx Introduces Alteryx",
+              "instructor_notes": ""
+            },
+            {
+              "id": 308438,
+              "key": "56812ad6-3580-432d-b6aa-bc845e641eab",
+              "title": "Dean - Video 2",
+              "semantic_type": "VideoAtom",
+              "is_public": true,
+              "instructor_notes": "",
+              "video": {
+                "youtube_id": "cmKPGwXNQg4",
+                "china_cdn_id": "cmKPGwXNQg4.mp4"
+              }
+            }
+          ]
+        },
+        {
+          "id": 524533,
+          "key": "a739839e-cc6a-486f-b8b2-09e66382e010",
+          "title": "Downloading Alteryx",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "a739839e-cc6a-486f-b8b2-09e66382e010",
+            "completed_at": null,
+            "last_viewed_at": null,
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 570725,
+              "key": "2bd18820-e3e5-4ae4-8d81-443684fdc53b",
+              "title": null,
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "## Links to Download Alteryx\n\nThere are two links available to download Alteryx:\n\n1. Using File Download via [Product Support page](https://www.alteryx.com/resources/product-support/download-alteryx). <br>\n1.1.   Please download Alteryx Designer 2019.x with R-based Predictive Tools (advanced) for 64-bits  (x refers to the latest minor).  Note that Alteryx minor versions may change periodically.<br>\n1.2 .  Please use the Admin or Non-Admin installer based on your account permissions on your laptop. If using a corporate computer, you may need to request temporary Admin permission to install, please contact your IT team to submit that request.<BR>\n",
+              "instructor_notes": ""
+            },
+            {
+              "id": 1003521,
+              "key": "348d95b7-9e88-4a12-a35e-bc78e06ff2df",
+              "title": null,
+              "semantic_type": "ImageAtom",
+              "is_public": true,
+              "url": "https://video.udacity-data.com/topher/2020/March/5e5ef39f_alteryx-screenshot1/alteryx-screenshot1.png",
+              "non_google_url": "https://s3.cn-north-1.amazonaws.com.cn/u-img/348d95b7-9e88-4a12-a35e-bc78e06ff2df",
+              "caption": "",
+              "alt": "",
+              "width": 1600,
+              "height": 689,
+              "instructor_notes": null
+            },
+            {
+              "id": 1003520,
+              "key": "50580fea-3721-4e1a-832c-506902e05d4f",
+              "title": null,
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "\n\n2. Sign in to the Alteryx Downloads and Licenses portal at [licenses.alteryx.com](https://gallery.alteryx.com/?ref=downloads#!account).   \n2.1. Create an account to download Alteryx.\n\n",
+              "instructor_notes": ""
+            },
+            {
+              "id": 1003522,
+              "key": "1fe1252a-da56-4def-b6bb-90c02aa79e90",
+              "title": null,
+              "semantic_type": "ImageAtom",
+              "is_public": true,
+              "url": "https://video.udacity-data.com/topher/2020/March/5e5ef4ac_screen-shot-2020-03-03-at-4.21.24-pm/screen-shot-2020-03-03-at-4.21.24-pm.png",
+              "non_google_url": "https://s3.cn-north-1.amazonaws.com.cn/u-img/1fe1252a-da56-4def-b6bb-90c02aa79e90",
+              "caption": "",
+              "alt": "",
+              "width": 2248,
+              "height": 1338,
+              "instructor_notes": null
+            },
+            {
+              "id": 1003650,
+              "key": "af1c5dc3-c82e-4c22-a453-7acca09225a9",
+              "title": null,
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "2.2 Following this step, please choose Alteryx Designer 2019.x with R-based Predictive Tools (advanced) for 64-bit, where x refers to the minor version. Note that the versions can change periodically.",
+              "instructor_notes": ""
+            },
+            {
+              "id": 1003523,
+              "key": "e052c0ad-b55f-45fa-966f-04d578c9bc3f",
+              "title": null,
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "## Start a Free Trial \n\n3. Once you get to the following screen: __Download My Free Trial__ , fill out the Form to get a free trial and then click Start Now\n\nIf you are not currently working at a company and do not have the following details for the form:\n\nCompany\nBusiness Email Address\nBusiness Phone Number\nYou can use Udacity as the Company name. You can use the email address that you used for registration with Udacity for the business email address field. You can use your personal phone number for the business phone number field. click the version of the product you want to download:                \n",
+              "instructor_notes": ""
+            },
+            {
+              "id": 1003524,
+              "key": "98594e99-b957-4d83-9413-f48cdba7faf8",
+              "title": null,
+              "semantic_type": "ImageAtom",
+              "is_public": true,
+              "url": "https://video.udacity-data.com/topher/2020/March/5e5ef6ca_alyteryx1/alyteryx1.png",
+              "non_google_url": "https://s3.cn-north-1.amazonaws.com.cn/u-img/98594e99-b957-4d83-9413-f48cdba7faf8",
+              "caption": "",
+              "alt": "",
+              "width": 1122,
+              "height": 875,
+              "instructor_notes": null
+            },
+            {
+              "id": 1003525,
+              "key": "dc13b382-2cb6-42aa-bb31-8a8498f5965e",
+              "title": null,
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "### Download Manager\n4. The file will then download, click on the downloaded file to run it. (you may need to double click it.)\nThen you need to select Alteryx Designer 2019.x  with R-based Predictive Tools (advanced) for 64-bit, where x refers to the minor version. Note that the versions can change periodically.\n",
+              "instructor_notes": ""
+            },
+            {
+              "id": 1003526,
+              "key": "b4665a11-4fad-4fe0-b509-f1c7a68cc055",
+              "title": null,
+              "semantic_type": "ImageAtom",
+              "is_public": true,
+              "url": "https://video.udacity-data.com/topher/2020/March/5e5ef741_alteryx-3/alteryx-3.png",
+              "non_google_url": "https://s3.cn-north-1.amazonaws.com.cn/u-img/b4665a11-4fad-4fe0-b509-f1c7a68cc055",
+              "caption": "",
+              "alt": "",
+              "width": 532,
+              "height": 224,
+              "instructor_notes": null
+            },
+            {
+              "id": 1003527,
+              "key": "4decb513-6f0a-41e8-af7c-a3eb18deb729",
+              "title": null,
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "### Install\n5. Check the box to accept the license agreement and click Next. The software will begin installing. Click Ok to any windows that pop up or the predictive tools will not be installed.\n",
+              "instructor_notes": ""
+            },
+            {
+              "id": 1003528,
+              "key": "ac63c20a-06c3-4a8f-bde2-5c8577e314da",
+              "title": null,
+              "semantic_type": "ImageAtom",
+              "is_public": true,
+              "url": "https://video.udacity-data.com/topher/2020/March/5e5ef782_alteryx-5/alteryx-5.png",
+              "non_google_url": "https://s3.cn-north-1.amazonaws.com.cn/u-img/ac63c20a-06c3-4a8f-bde2-5c8577e314da",
+              "caption": "",
+              "alt": "",
+              "width": 493,
+              "height": 331,
+              "instructor_notes": null
+            },
+            {
+              "id": 570731,
+              "key": "4745a428-f628-48e6-8686-4457126c8edd",
+              "title": null,
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "### Download complete\n6. Then click Next through the setup/installation steps for the predictive tools.\n",
+              "instructor_notes": ""
+            },
+            {
+              "id": 1003529,
+              "key": "702d3c77-a169-4c52-8841-150b03411846",
+              "title": null,
+              "semantic_type": "ImageAtom",
+              "is_public": true,
+              "url": "https://video.udacity-data.com/topher/2020/March/5e5ef7c3_alteryx-6/alteryx-6.png",
+              "non_google_url": "https://s3.cn-north-1.amazonaws.com.cn/u-img/702d3c77-a169-4c52-8841-150b03411846",
+              "caption": "",
+              "alt": "",
+              "width": 480,
+              "height": 333,
+              "instructor_notes": null
+            },
+            {
+              "id": 570735,
+              "key": "d9667a9a-8825-4841-9976-9505820c7a3b",
+              "title": null,
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "After it is done downloading the predictive tools you can click Finish to run Alteryx.\n\nIf you run into any issues please email us at preanalytics-support@udacity.com\n\n**NOTE:** If you have any issues with **activating your license** please follow the offline license activation instructions here: https://community.alteryx.com/t5/Alteryx-Knowledge-Base/How-to-License-Alteryx/ta-p/140785",
+              "instructor_notes": ""
+            }
+          ]
+        },
+        {
+          "id": 263929,
+          "key": "0cbfb6d4-8c96-498f-b45a-cd1ba96749a7",
+          "title": "Alteryx Walkthrough",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "0cbfb6d4-8c96-498f-b45a-cd1ba96749a7",
+            "completed_at": null,
+            "last_viewed_at": null,
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 263931,
+              "key": "cd520b69-cd20-428c-b830-15d0fe6cedf0",
+              "title": null,
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "# Introduction to Alteryx\n\nAlteryx provides analysts with the ability to easily prep, blend, and analyze all of their data using a repeatable workflow, then deploy and share analytics at scale for deeper insights. Analysts can connect to and cleanse data from data warehouses, cloud applications, spreadsheets, and other sources; easily join this data together; then perform analytics – predictive, statistical and spatial – using the same intuitive user interface, without writing any code. \n\n### Walkthrough\n\nBelow is a quick walkthrough of the Alteryx interface. We also encourage you to go through a few of the tutorials to get a sense for how the program works.\n\n#### The Tools\n\nAlong the top of the interface, you'll see several different icons that are called Tools. You can navigate to different tools by either browsing through the tabs (In/Out, Preparation, Join, etc.) or by typing into the search bar. Once you find the tool you want, you can drag it onto the canvas.\n",
+              "instructor_notes": ""
+            },
+            {
+              "id": 263930,
+              "key": "f795fbf9-3b93-4529-bc41-d7fb7a4aaa6d",
+              "title": null,
+              "semantic_type": "ImageAtom",
+              "is_public": true,
+              "url": "https://video.udacity-data.com/topher/2017/February/589b589d_intro-to-alteryx-1/intro-to-alteryx-1.gif",
+              "non_google_url": "https://s3.cn-north-1.amazonaws.com.cn/u-img/f795fbf9-3b93-4529-bc41-d7fb7a4aaa6d",
+              "caption": "",
+              "alt": null,
+              "width": 960,
+              "height": 540,
+              "instructor_notes": null
+            },
+            {
+              "id": 263949,
+              "key": "78ed23ae-7c6c-4af0-99b4-09d7a5ccf92b",
+              "title": null,
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "#### The Configuration Panel\n\nOn the left side of the screen, you'll find the configuration panel where you select the configurations you want for each tool. If you need help or want to learn more about the different tools and their respective configurations, you can go to the help section along the top of the Alteryx interface or visit [help.alteryx.com](help.alteryx.com). \n\nThis particular example shows an input tool. In the configurations panel, you select the data connection, and you can see a sample of the data at the bottom.",
+              "instructor_notes": ""
+            },
+            {
+              "id": 263943,
+              "key": "84e0ae2d-0e89-48a7-9c27-d7d0610c8b15",
+              "title": null,
+              "semantic_type": "ImageAtom",
+              "is_public": true,
+              "url": "https://video.udacity-data.com/topher/2017/February/589b5f8c_intro-to-alteryx-2/intro-to-alteryx-2.gif",
+              "non_google_url": "https://s3.cn-north-1.amazonaws.com.cn/u-img/84e0ae2d-0e89-48a7-9c27-d7d0610c8b15",
+              "caption": "",
+              "alt": null,
+              "width": 960,
+              "height": 540,
+              "instructor_notes": null
+            },
+            {
+              "id": 263932,
+              "key": "50f5af09-7feb-43a7-96ab-46c53ab86b3e",
+              "title": null,
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "#### The Canvas\n\nThe canvas is where you place and connect all the various tools. It's a nice, visual way to see the process the data flows through. You can connect tools by clicking on the output node of one tool, and connecting it to the input node of another. Once you've configured the tools the way you'd like, you run the workflow by clicking on the green arrow icon at the top of the screen. You can then see the results in the results window at the bottom of the interface.",
+              "instructor_notes": ""
+            },
+            {
+              "id": 263944,
+              "key": "0b1e57e1-e9a8-4be0-9301-131eec260ed9",
+              "title": null,
+              "semantic_type": "ImageAtom",
+              "is_public": true,
+              "url": "https://video.udacity-data.com/topher/2017/February/589b5fa5_intro-to-alteryx-3/intro-to-alteryx-3.gif",
+              "non_google_url": "https://s3.cn-north-1.amazonaws.com.cn/u-img/0b1e57e1-e9a8-4be0-9301-131eec260ed9",
+              "caption": "",
+              "alt": null,
+              "width": 960,
+              "height": 540,
+              "instructor_notes": null
+            },
+            {
+              "id": 263956,
+              "key": "93e30975-7ad5-4e12-a1c5-00b374f3b33a",
+              "title": null,
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "These are just the basics. You'll continue to learn more about Alteryx as you go through the course. Let's keep moving!",
+              "instructor_notes": ""
+            }
+          ]
+        },
+        {
+          "id": 308439,
+          "key": "353317da-9c97-4b08-8903-8f9da749f03a",
+          "title": "Alteryx Tutorials",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "353317da-9c97-4b08-8903-8f9da749f03a",
+            "completed_at": null,
+            "last_viewed_at": null,
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 653871,
+              "key": "4e7fcce0-93ea-4a99-8f03-93fc2a3aae8f",
+              "title": null,
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "# Known Bug\nIf you get an error on a predictive model tool such as the Linear Regression tool that has dbDir, lang in it please watch this video to fix the issue: https://www.youtube.com/watch?reload=9&v=sMsKDch2Ymo&feature=youtu.be\n\nIf you are still unable to fix it please email bizanalyst-support@udacity.com",
+              "instructor_notes": ""
+            },
+            {
+              "id": 308525,
+              "key": "724b5d06-a55c-4cb0-89a3-63f9ed09083b",
+              "title": null,
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "# Getting Familiar with Alteryx\n\nWe highly encourage you to spend some time on the Alteryx Tutorials to become more familiar with the tools. You'll learn a lot about Alteryx throughout the program, and this will help you get started.\n\nWhen you open up Alteryx, the *Getting Started* window will immediately pop up. You should complete the Preparing Data, Filtering Data, Blending Data, and Analyzing Data tutorials. ",
+              "instructor_notes": ""
+            },
+            {
+              "id": 308527,
+              "key": "1afe8c14-ea87-45f2-ad9d-51f2f7afa98e",
+              "title": null,
+              "semantic_type": "ImageAtom",
+              "is_public": true,
+              "url": "https://video.udacity-data.com/topher/2017/May/5910c193_getting-started/getting-started.png",
+              "non_google_url": "https://s3.cn-north-1.amazonaws.com.cn/u-img/1afe8c14-ea87-45f2-ad9d-51f2f7afa98e",
+              "caption": "",
+              "alt": null,
+              "width": 1949,
+              "height": 924,
+              "instructor_notes": null
+            },
+            {
+              "id": 650967,
+              "key": "14e011be-9f91-4ef8-b708-e1993d45571c",
+              "title": null,
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "If it doesn't pop up you can access by clicking **Help** in the menu and then by clicking **Getting Started**",
+              "instructor_notes": ""
+            },
+            {
+              "id": 308532,
+              "key": "e9dbd096-9fb9-4098-b69f-42efc13a5ac4",
+              "title": null,
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "### Accessing Tutorials from the Help Menu\n\nYou can also access these tutorials from the help menu (see screenshot below).",
+              "instructor_notes": ""
+            },
+            {
+              "id": 308533,
+              "key": "6305f79c-b40e-41a0-95ad-12dda4a250ef",
+              "title": null,
+              "semantic_type": "ImageAtom",
+              "is_public": true,
+              "url": "https://video.udacity-data.com/topher/2017/May/5910c688_screenshot-2/screenshot-2.png",
+              "non_google_url": "https://s3.cn-north-1.amazonaws.com.cn/u-img/6305f79c-b40e-41a0-95ad-12dda4a250ef",
+              "caption": "",
+              "alt": null,
+              "width": 1481,
+              "height": 1002,
+              "instructor_notes": null
+            },
+            {
+              "id": 308529,
+              "key": "62ae3970-cccd-4e60-b487-a4c8a7d17a59",
+              "title": "Tutorials",
+              "semantic_type": "CheckboxQuizAtom",
+              "is_public": true,
+              "instructor_notes": null,
+              "user_state": {
+                "node_key": "62ae3970-cccd-4e60-b487-a4c8a7d17a59",
+                "completed_at": null,
+                "last_viewed_at": null,
+                "unstructured": null
+              },
+              "question": {
+                "prompt": "Once you've completed the tutorials, check them off and move to the next section.",
+                "answers": [
+                  {
+                    "id": "a1494270370754",
+                    "text": "Preparing Data",
+                    "is_correct": true
+                  },
+                  {
+                    "id": "a1494270398165",
+                    "text": "Filtering Data",
+                    "is_correct": true
+                  },
+                  {
+                    "id": "a1494270398773",
+                    "text": "Blending",
+                    "is_correct": true
+                  },
+                  {
+                    "id": "a1494270399373",
+                    "text": "Analyzing",
+                    "is_correct": true
+                  }
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "id": 138174,
+          "key": "cd0c2143-7268-4c76-8cf5-310be222da59",
+          "title": "Building your First Model in Alteryx",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "cd0c2143-7268-4c76-8cf5-310be222da59",
+            "completed_at": null,
+            "last_viewed_at": null,
+            "unstructured": null
+          },
+          "resources": {
+            "files": [
+              {
+                "name": "Linear-Example-Data",
+                "uri": "https://video.udacity-data.com/topher/2018/September/5b9fe448_linear-example-data-6/linear-example-data-6.xlsx"
+              },
+              {
+                "name": "Wikipedia on Linear Regression",
+                "uri": "https://video.udacity-data.com/topher/2019/November/5dc5e935_linear-regression-wikipedia/linear-regression-wikipedia.pdf"
+              },
+              {
+                "name": "Youtube video instructions for Alteryx errors",
+                "uri": "https://video.udacity-data.com/topher/2019/November/5dcb018b_alteryx-error-debug/alteryx-error-debug.pdf"
+              }
+            ],
+            "google_plus_link": null,
+            "career_resource_center_link": null,
+            "coaching_appointments_link": null,
+            "office_hours_link": null,
+            "aws_provisioning_link": null
+          },
+          "atoms": [
+            {
+              "id": 7634,
+              "key": "6487c47b-1de0-4ddb-a6cf-bbc8c71653db",
+              "title": "Building Your First Model In Alteryx",
+              "semantic_type": "VideoAtom",
+              "is_public": true,
+              "instructor_notes": "",
+              "video": {
+                "youtube_id": "qydCM1OXHEM",
+                "china_cdn_id": "qydCM1OXHEM.mp4"
+              }
+            },
+            {
+              "id": 134566,
+              "key": "fc08b486-abd5-4ad7-a9d4-cdf55d8f7550",
+              "title": "Steps",
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "\n<h4>Steps for Building your first model in Alteryx</h4>\n\n<h5>Step 1</h5>\nIf you have not done so already, download the 'Linear Example Data.xlsx' Excel file from the link at the bottom of this page. Open up Alteryx.\n\n<h5>Step 2</h5>\nDrag an \"Input Data\" tool from the toolbar and onto the canvas. Click on the drop down arrow in the configuration panel and select file browse. Navigate to where you saved the Linear Example Data.xlsx file and select it, then select \"open\". \n\nSince the data is coming from an Excel document, a window will pop up asking you to choose the sheet that you want to read.  In this case, there is only one sheet labeled “Sheet1”.  Select “Sheet1”, then click the “Ok” button. \n\nIf you click on the Input Tool, and you will see the configuration window on the left side of the screen, along with a preview of the data.\n\n<h5>Step 3</h5>\nFind the Linear Regression tool from the predictive tools category and drag it into the canvas next to the \"Input Data\" tool. \n\n<h5>Step 4</h5>\nIn the configuration panel, we can set up a linear regression. First, name the model. Next select the drop down that is labeled “Select the target variable”.  Select the column called “Average Number of Tickets” because this is the variable we’re looking to predict.\n\nIn the next box, which is labeled “Select the predictor variables,” select the variables “Number of Employees, Value of Contract, and Industry”\n\nNote: There are two additional check boxes in the tool configuration. We’re not going to check these options.  For more information, see the section below the video for additional materials.\n \n<h5>Step 5</h5>\nAdd a browse tool to the “R” output of the Linear Regression tool.  Right click on the Linear Regression Tool and select ‘Add Browse After (Reports).  This will produce a report that we can read and assess how good the model is.  \n\n<em>Note: You can use spreadsheet applications like Microsoft Excel to do multiple linear regression with categories by creating dummy variables. To learn more about dummy variables, go to http://dss.princeton.edu/online_help/analysis/dummy_variables.htm.<em>",
+              "instructor_notes": ""
+            },
+            {
+              "id": 134558,
+              "key": "a980593b-e73a-48fa-a56a-a403a0234115",
+              "title": "additional options",
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "<h4>Additional Options in Linear Regression Tool</h4>\n<h5>Omit a model constant</h5>\nThe first “Omit a model constant” will produce a model that does not have a B0 value in the linear regression equation. If the situation that is being modeled should not have a b0 value then you would select this option.  In this example b0 could be interpreted as the Average number of baseline tickets that any client would have, regardless of other variables.  Since this is reasonable, we likely would include a model constant, and would not check the box.  It can also be used if the model is producing a b0 value that does not make sense.  In the case of this example, if we were getting a model constant that was a negative value, then it would not make sense for the situation, and we could choose to ignore it (essentially set it to 0).  \n\n<h5>Use a weight variable for weighted least squares</h5>The second option, “Use a weight variable for weighted least squares” allows the user to set a weighting value to each row of data.  An example of when you might want to use this would be if you wanted to weight clients who were well established more than other clients who were relatively new because you felt that the Average number of tickets would be more accurate for the established clients.  \n\nThen you could add a column of data, setting the number 2 for each established client and a 1 for each new client.  This would weight the established clients twice as much in determining the equation for the linear regression.  For the sake of this example, we’re not going to use weighting.\n\nTo learn more go to https://en.wikipedia.org/wiki/Linear_regression.",
+              "instructor_notes": ""
+            },
+            {
+              "id": 9262,
+              "key": "46388500-718c-4c4a-b024-93697be9a404",
+              "title": "Alteryx Overview",
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "<h4>Alteryx Overview</h4>\nAlteryx Analytics provides analysts with the unique ability to easily prep, blend and analyze all of their data using a repeatable workflow, then deploy and share analytics at scale for deeper insights in hours, not weeks. Analysts love the Alteryx Analytics platform because they can connect to and cleanse data from data warehouses, cloud applications, spreadsheets and other sources, easily join this data together, then perform analytics – predictive, statistical and spatial – using the same intuitive user interface, without writing any code. Learn more at [Alteryx.com](http://www.alteryx.com/).",
+              "instructor_notes": null
+            },
+            {
+              "id": 671671,
+              "key": "f112204f-45b6-418e-bc09-7f8a6d12cf94",
+              "title": null,
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "# Known Bug\nIf you get an error on a predictive model tool such as the Linear Regression tool that has dbDir, lang in it please watch this video to fix the issue: https://www.youtube.com/watch?reload=9&v=sMsKDch2Ymo&feature=youtu.be\n\nIf you are still unable to fix it please email bizanalyst-support@udacity.com",
+              "instructor_notes": ""
+            }
+          ]
+        },
+        {
+          "id": 111486,
+          "key": "16e55e85-2513-44ed-9b17-f5aca2563197",
+          "title": "Running the Model",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "16e55e85-2513-44ed-9b17-f5aca2563197",
+            "completed_at": null,
+            "last_viewed_at": null,
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 7276,
+              "key": "d15f594c-08c5-4f20-b005-6523e4c8cef1",
+              "title": "Running The Model",
+              "semantic_type": "VideoAtom",
+              "is_public": true,
+              "instructor_notes": null,
+              "video": {
+                "youtube_id": "GNiEDZaBWyU",
+                "china_cdn_id": "GNiEDZaBWyU.mp4"
+              }
+            },
+            {
+              "id": 134547,
+              "key": "6c056785-dd82-47bd-8759-52da96492b76",
+              "title": "sTEPs",
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "<h4>Steps to run the model and see results</h4>\n\n1. Run the workflow by clicking on the green arrow located above the tool pallet.  \n2. Click the OK button to see the results.\n3. Click on the browse tool to see the configuration panel, which will show the output report of the Linear Regression.\n4. To open the report in a new window, click on the drop-down menu at the top of the Configuration panel and select 'New Window (All Records).' Now we can easily read the report in detail.\n\n<h4>Reading the results</h4>\n\nThe second table down, labeled 'Coefficients', has the values that correspond with the b0, b1, and b2 variables in the standard equation we just showed. These are listed in the column labeled 'Estimates', The intercept is the value of b0, and the rest of the coefficients have the labels of the actual variables that we will need to match up with the coefficients.\n",
+              "instructor_notes": ""
+            }
+          ]
+        },
+        {
+          "id": 161446,
+          "key": "82bfe969-921b-4175-adb5-797e84ba6107",
+          "title": "Interpreting Linear Regression Results",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "82bfe969-921b-4175-adb5-797e84ba6107",
+            "completed_at": null,
+            "last_viewed_at": null,
+            "unstructured": null
+          },
+          "resources": {
+            "files": [
+              {
+                "name": "Interpreting Regression Results",
+                "uri": "http://video.udacity-data.com.s3.amazonaws.com/topher/2017/February/589b742a_interpreting-regression-results/interpreting-regression-results.pdf"
+              }
+            ],
+            "google_plus_link": null,
+            "career_resource_center_link": null,
+            "coaching_appointments_link": null,
+            "office_hours_link": null,
+            "aws_provisioning_link": null
+          },
+          "atoms": [
+            {
+              "id": 161447,
+              "key": "661bd2c3-6d1f-4bdc-a0cc-5bb111b16346",
+              "title": "Staart",
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "# Interpreting Regression Results\nBelow you see the results of a linear regression. Results are similarly reported by almost any regression tool. Do not be intimidated by the complexity of the presentation of the results; we’ll walk you through the most important values and how to interpret and apply them. For purposes of this exercise, the focus will be on three values that are of particular importance: the coefficient estimates, the p-values, and the R-squared. \n\n*Note:* [Here](https://d17h27t6h515a5.cloudfront.net/topher/2017/February/589b742a_interpreting-regression-results/interpreting-regression-results.pdf) is a PDF version this concept that you can download and use later. You can also find the PDF at the bottom of the page.\n",
+              "instructor_notes": ""
+            },
+            {
+              "id": 161448,
+              "key": "d63112dc-989b-46b4-a25f-fd24811b2e50",
+              "title": "Results",
+              "semantic_type": "ImageAtom",
+              "is_public": true,
+              "url": "https://video.udacity-data.com/topher/2016/June/576d70d0_results/results.png",
+              "non_google_url": "https://s3.cn-north-1.amazonaws.com.cn/u-img/d63112dc-989b-46b4-a25f-fd24811b2e50",
+              "caption": "",
+              "alt": null,
+              "width": 814,
+              "height": 765,
+              "instructor_notes": null
+            },
+            {
+              "id": 161449,
+              "key": "5c0847e4-2e89-4a21-8f7e-4bde1b2a15b6",
+              "title": "Coefficients",
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "#### Coefficient Estimates\nRemember our regression equation? Y = B0+B1X1+B2X2…? These coefficients are the estimates of the B's. They represent the magnitude of the relationship between each predictor variable and the target variable. For example, the coefficient on the **number.of.employees** means that each additional employee will lead to roughly an additional 0.1 tickets, <em>holding all other variables constant</em>. A simpler way to think about this is that we can expect about 1 ticket for every 10 employees.\n",
+              "instructor_notes": ""
+            },
+            {
+              "id": 161450,
+              "key": "ca7e0ffe-e54a-42af-9f75-1c8072e079b7",
+              "title": "Coefficients",
+              "semantic_type": "ImageAtom",
+              "is_public": true,
+              "url": "https://video.udacity-data.com/topher/2016/June/576d70fe_pic4/pic4.png",
+              "non_google_url": "https://s3.cn-north-1.amazonaws.com.cn/u-img/ca7e0ffe-e54a-42af-9f75-1c8072e079b7",
+              "caption": "",
+              "alt": null,
+              "width": 404,
+              "height": 244,
+              "instructor_notes": null
+            },
+            {
+              "id": 161452,
+              "key": "0fb2e221-5b4d-4c72-90bd-6af2ea6015a8",
+              "title": "Pvalue",
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "#### P Value\nThe <em>p value</em> is the probability that observed results (the coefficient estimate) occurred by chance, and that there is no actual relationship between the predictor and target variable. In other words, the p-value is the probability that the coefficient is zero. The lower the p-value the higher the probability that a relationship exists between the predictor and target variable. If the p-value is high, we should not rely on the coefficient estimate. When a predictor variable has a p-value below 0.05, the relationship between it and the target variable is considered to be statistically significant. \n\n**Statistical Significance** - \"Statistical significance is a result that is not likely to occur randomly, but rather is likely to be attributable to a specific cause.\" - *[Investopedia](http://www.investopedia.com/terms/s/statistical-significance.asp#ixzz4FkclTfSz )*. \n\nApart from the p-value, the stars to the right indicate statistical significance as well. More *’s means more significance. In our example, we see that our predictor variables are significant, with the number of employees and the value of the contract being the most significant. Generally, we’ll want to remove variables from the model that are not statistically significant predictors of the target variable. ",
+              "instructor_notes": ""
+            },
+            {
+              "id": 161451,
+              "key": "ba62b369-bd10-4806-b364-d7a082f70eab",
+              "title": "P",
+              "semantic_type": "ImageAtom",
+              "is_public": true,
+              "url": "https://video.udacity-data.com/topher/2016/June/576d718c_pic1/pic1.png",
+              "non_google_url": "https://s3.cn-north-1.amazonaws.com.cn/u-img/ba62b369-bd10-4806-b364-d7a082f70eab",
+              "caption": "",
+              "alt": null,
+              "width": 818,
+              "height": 251,
+              "instructor_notes": null
+            },
+            {
+              "id": 161453,
+              "key": "53fd99dd-7ef8-46e3-9911-a612b54dd83f",
+              "title": "rsq",
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "#### R-Squared\nIn our example, the R-squared value is 0.9651, and the adjusted R-squared value is 0.9558.  Therefore, we’ve been able to improve the model with the addition of the category.  In a real life problem, we might run the model with different predictor variables, or see if we had additional information to add to the model.\n\nRemember, R-squared ranges from 0 to 1 and represents the amount of variation in the target variable explained by the variation in the predictor variables. The higher the r-squared, the higher the explanatory power of the model. \n\nNow that we have a strong model, we can perform our analysis.",
+              "instructor_notes": ""
+            },
+            {
+              "id": 249199,
+              "key": "5047614d-fa56-47a5-8f33-4192ed63ee8b",
+              "title": null,
+              "semantic_type": "ImageAtom",
+              "is_public": true,
+              "url": "https://video.udacity-data.com/topher/2017/January/58740a30_r2/r2.png",
+              "non_google_url": "https://s3.cn-north-1.amazonaws.com.cn/u-img/5047614d-fa56-47a5-8f33-4192ed63ee8b",
+              "caption": "",
+              "alt": null,
+              "width": 629,
+              "height": 262,
+              "instructor_notes": null
+            }
+          ]
+        },
+        {
+          "id": 111104,
+          "key": "94f760b1-c69f-49bc-ab8a-bdc629305225",
+          "title": "Evaluating an Equation",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "94f760b1-c69f-49bc-ab8a-bdc629305225",
+            "completed_at": null,
+            "last_viewed_at": null,
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 134518,
+              "key": "36985e71-04dd-4faf-bbc6-5fc620b1dc4e",
+              "title": "Quiz",
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "Going back to our problem - here is the additional information we have:\n* The new client has 732 employees, with a contract value that is worth $825,000, and is in the services industry.\n* Your company currently has 23 help desk resources on staff, and each resource has a capacity of 125 tickets per week.\n* The current average number of tickets that the help desk has been receiving is 2800 per week.\n\nFor easy reference, here are the coefficients from our linear equation from the last page:\n\n* Intercept: -18.45\n* Number of Employees: 0.1116\n* Value of Contract: 0.0004858\n* Industry - Manufacturing: 0\n* Industry - Retail: -8.725\n* Industry - Services: 12.49",
+              "instructor_notes": ""
+            },
+            {
+              "id": 9310,
+              "key": "c41b44cb-46aa-4d12-a437-54e25e2b46a1",
+              "title": "Quiz",
+              "semantic_type": "RadioQuizAtom",
+              "is_public": true,
+              "instructor_notes": null,
+              "user_state": {
+                "node_key": "c41b44cb-46aa-4d12-a437-54e25e2b46a1",
+                "completed_at": null,
+                "last_viewed_at": null,
+                "unstructured": null
+              },
+              "question": {
+                "prompt": "Given the current capacity of the help desk, how many additional people would the help desk need to hire to handle the expected increase in support tickets?",
+                "answers": [
+                  {
+                    "id": "a1466748352046",
+                    "text": "0",
+                    "is_correct": false
+                  },
+                  {
+                    "id": "a1466748352956",
+                    "text": "4",
+                    "is_correct": true
+                  },
+                  {
+                    "id": "a1466748353722",
+                    "text": "7",
+                    "is_correct": false
+                  },
+                  {
+                    "id": "a1466748354467",
+                    "text": "11",
+                    "is_correct": false
+                  }
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "id": 9368,
+          "key": "7df7f021-26b0-41d4-ad92-4715219217e7",
+          "title": "Evaluating an Equation Solution",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "7df7f021-26b0-41d4-ad92-4715219217e7",
+            "completed_at": null,
+            "last_viewed_at": null,
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 9654,
+              "key": "d537423a-2058-4b23-8d14-82819f38babe",
+              "title": "Solution",
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "<h4>Steps for Evaluating the Equation</h4>\n1. Use the coefficients of the linear regression model to determine the expected number of tickets from the new client.  \n    * Avg Number of tickets = 732*(0.1116) + 825000*(0.0004858) +12.49 - 18.45\n    * Avg Number of tickets = 476.52 so we can assume 477 additional tickets as a result of the new client.\n\n2. Next, determine the amount of capacity within the firm.  \n    * With 23 resources that have a capacity of 125 tickets per week\n    * The amount of total capacity available is 23*125 = 2875.  \n    * Therefore, the help desk can handle 2875 tickets per week.  \n3. Now, we need to determine if we have enough capacity, or if we need to add resources.  \n    * We are currently receiving 2800 tickets per week, therefore\n    * We currently have excess capacity of 75 tickets per week.  \n    * The new client will need support for 477 tickets per week, so we don’t have enough capacity to support the new client.  \n    * We need enough resources for 402 additional tickets per week, or 402/125 = 3.216 resources.  \n\n<em><center><h5>Therefore, we need to add 4 additional resources.</h5><center><em>\n",
+              "instructor_notes": ""
+            }
+          ]
+        },
+        {
+          "id": 5089,
+          "key": "bbb8703e-52d4-4755-8a1b-1df0f83266c6",
+          "title": "Analysis Summary",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "bbb8703e-52d4-4755-8a1b-1df0f83266c6",
+            "completed_at": null,
+            "last_viewed_at": null,
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 7611,
+              "key": "e6e859c6-d2d8-4bcb-a424-ab7acfa88ef9",
+              "title": "Analysis Summary",
+              "semantic_type": "VideoAtom",
+              "is_public": true,
+              "instructor_notes": "",
+              "video": {
+                "youtube_id": "tzF7GALld04",
+                "china_cdn_id": "tzF7GALld04.mp4"
+              }
+            }
+          ]
+        },
+        {
+          "id": 111349,
+          "key": "6679539c-a376-45d5-a69f-599d50a72a0a",
+          "title": "Course Recap",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "6679539c-a376-45d5-a69f-599d50a72a0a",
+            "completed_at": null,
+            "last_viewed_at": null,
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 8193,
+              "key": "d169c21f-d7ff-4af1-a193-165be877dfea",
+              "title": "Summary",
+              "semantic_type": "VideoAtom",
+              "is_public": true,
+              "instructor_notes": null,
+              "video": {
+                "youtube_id": "1zLN1Hr85UY",
+                "china_cdn_id": "1zLN1Hr85UY.mp4"
+              }
+            },
+            {
+              "id": 134467,
+              "key": "49e8c630-ce9a-4cfb-a41e-16b238568a5a",
+              "title": "Business Problem Framework",
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "<h4>Problem-Solving Framework</h4>\n\nHere is the Problem-Solving Framework for you to review again.",
+              "instructor_notes": ""
+            },
+            {
+              "id": 134517,
+              "key": "126f9ac8-a868-4bc0-bfcf-9c93c8345f5d",
+              "title": "Problem Solving Framework",
+              "semantic_type": "ImageAtom",
+              "is_public": true,
+              "url": "https://video.udacity-data.com/topher/2016/June/57754572_crisp-dm-framework/crisp-dm-framework.jpeg",
+              "non_google_url": "https://s3.cn-north-1.amazonaws.com.cn/u-img/126f9ac8-a868-4bc0-bfcf-9c93c8345f5d",
+              "caption": "",
+              "alt": null,
+              "width": 1920,
+              "height": 1080,
+              "instructor_notes": null
+            },
+            {
+              "id": 134451,
+              "key": "935812ad-0d00-4a38-9a13-577383ffe059",
+              "title": "MM",
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "<h4>Analytical Methodology</h4>\n\nHere is the Analytical Methodology we use to help us determine what kind of analysis we need to conduct.",
+              "instructor_notes": ""
+            },
+            {
+              "id": 134429,
+              "key": "1ca40e65-2801-404d-a8e4-a4a7ac78f373",
+              "title": "MM-pic",
+              "semantic_type": "ImageAtom",
+              "is_public": true,
+              "url": "https://video.udacity-data.com/topher/2016/June/576e0d7b_methodology-map/methodology-map.jpg",
+              "non_google_url": "https://s3.cn-north-1.amazonaws.com.cn/u-img/1ca40e65-2801-404d-a8e4-a4a7ac78f373",
+              "caption": "",
+              "alt": null,
+              "width": 1275,
+              "height": 717,
+              "instructor_notes": null
+            }
+          ]
+        },
+        {
+          "id": 310471,
+          "key": "dd011d28-08f1-4830-aaf5-c8ecebdb53bf",
+          "title": "Learning Summary",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "dd011d28-08f1-4830-aaf5-c8ecebdb53bf",
+            "completed_at": null,
+            "last_viewed_at": null,
+            "unstructured": null
+          },
+          "resources": {
+            "files": [
+              {
+                "name": "Linear-Regression-Playbook",
+                "uri": "https://video.udacity-data.com/topher/2018/July/5b3eacc2_linear-regression-playbook/linear-regression-playbook.pdf"
+              }
+            ],
+            "google_plus_link": null,
+            "career_resource_center_link": null,
+            "coaching_appointments_link": null,
+            "office_hours_link": null,
+            "aws_provisioning_link": null
+          },
+          "atoms": [
+            {
+              "id": 310472,
+              "key": "d5466e8b-76b0-4e84-b1b7-1110bf270047",
+              "title": null,
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "# Learning Summary\n\nThe purpose of this learning summary is to provide the high level steps to build and use a linear regression models to make a business decision. Along the side are suggested Alteryx tools to use while implementing the model. This walk learning summary may contain some content and tools we will discuss later in the course so do not worry if it is something you have not seen yet.\n\n<center><a href=\"https://d17h27t6h515a5.cloudfront.net/topher/2017/May/5915face_linear-regression-playbook/linear-regression-playbook.pdf\" target=\"_blank\"><button style=\"box-sizing: border-box; border-radius: 4px; background: #02B3E4; border: none; height: 44px; padding: 0 25px; color: white; cursor: pointer; font-family: Open Sans,sans-serif; display: inline-block; border: none; font-size: 12px; letter-spacing: 1px; font-weight: 600; text-transform: uppercase;\">Linear Regression Playbook</button></a></center>\n<br>\n<center><iframe src=\"https://d17h27t6h515a5.cloudfront.net/topher/2017/May/5915face_linear-regression-playbook/linear-regression-playbook.pdf\" width=\"700\" height=\"500\">\n</iframe></center>",
+              "instructor_notes": ""
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "_deprecated": [
+    {
+      "name": "non_google_url",
+      "reason": "(2016/8/18) Not sure, ask i18n team for reason"
+    },
+    {
+      "name": "non_google_url",
+      "reason": "(2016/8/18) Not sure, ask i18n team for reason"
+    },
+    {
+      "name": "non_google_url",
+      "reason": "(2016/8/18) Not sure, ask i18n team for reason"
+    },
+    {
+      "name": "non_google_url",
+      "reason": "(2016/8/18) Not sure, ask i18n team for reason"
+    },
+    {
+      "name": "non_google_url",
+      "reason": "(2016/8/18) Not sure, ask i18n team for reason"
+    },
+    {
+      "name": "non_google_url",
+      "reason": "(2016/8/18) Not sure, ask i18n team for reason"
+    },
+    {
+      "name": "non_google_url",
+      "reason": "(2016/8/18) Not sure, ask i18n team for reason"
+    },
+    {
+      "name": "non_google_url",
+      "reason": "(2016/8/18) Not sure, ask i18n team for reason"
+    },
+    {
+      "name": "non_google_url",
+      "reason": "(2016/8/18) Not sure, ask i18n team for reason"
+    },
+    {
+      "name": "non_google_url",
+      "reason": "(2016/8/18) Not sure, ask i18n team for reason"
+    },
+    {
+      "name": "non_google_url",
+      "reason": "(2016/8/18) Not sure, ask i18n team for reason"
+    },
+    {
+      "name": "non_google_url",
+      "reason": "(2016/8/18) Not sure, ask i18n team for reason"
+    },
+    {
+      "name": "non_google_url",
+      "reason": "(2016/8/18) Not sure, ask i18n team for reason"
+    },
+    {
+      "name": "non_google_url",
+      "reason": "(2016/8/18) Not sure, ask i18n team for reason"
+    },
+    {
+      "name": "non_google_url",
+      "reason": "(2016/8/18) Not sure, ask i18n team for reason"
+    },
+    {
+      "name": "non_google_url",
+      "reason": "(2016/8/18) Not sure, ask i18n team for reason"
+    },
+    {
+      "name": "non_google_url",
+      "reason": "(2016/8/18) Not sure, ask i18n team for reason"
+    },
+    {
+      "name": "non_google_url",
+      "reason": "(2016/8/18) Not sure, ask i18n team for reason"
+    },
+    {
+      "name": "non_google_url",
+      "reason": "(2016/8/18) Not sure, ask i18n team for reason"
+    },
+    {
+      "name": "non_google_url",
+      "reason": "(2016/8/18) Not sure, ask i18n team for reason"
+    },
+    {
+      "name": "non_google_url",
+      "reason": "(2016/8/18) Not sure, ask i18n team for reason"
+    },
+    {
+      "name": "non_google_url",
+      "reason": "(2016/8/18) Not sure, ask i18n team for reason"
+    },
+    {
+      "name": "non_google_url",
+      "reason": "(2016/8/18) Not sure, ask i18n team for reason"
+    },
+    {
+      "name": "non_google_url",
+      "reason": "(2016/8/18) Not sure, ask i18n team for reason"
+    }
+  ]
+}

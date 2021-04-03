@@ -1,0 +1,1709 @@
+{
+  "data": {
+    "lesson": {
+      "id": 680840,
+      "key": "dd9abb47-0d43-4653-b9c3-4ac992262e17",
+      "title": "Selecting an Analytical Framework",
+      "semantic_type": "Lesson",
+      "is_public": true,
+      "version": "1.0.0",
+      "locale": "en-us",
+      "summary": "Select the most appropriate analytical methodology based on the context of the business problem.",
+      "lesson_type": "Classroom",
+      "display_workspace_project_only": false,
+      "resources": {
+        "files": [
+          {
+            "name": "Videos Zip File",
+            "uri": "https://zips.udacity-data.com/dd9abb47-0d43-4653-b9c3-4ac992262e17/680840/1544455328571/Selecting+an+Analytical+Framework+Videos.zip"
+          },
+          {
+            "name": "Transcripts Zip File",
+            "uri": "https://zips.udacity-data.com/dd9abb47-0d43-4653-b9c3-4ac992262e17/680840/1544455324890/Selecting+an+Analytical+Framework+Subtitles.zip"
+          }
+        ],
+        "google_plus_link": null,
+        "career_resource_center_link": null,
+        "coaching_appointments_link": null,
+        "office_hours_link": null,
+        "aws_provisioning_link": null
+      },
+      "project": null,
+      "lab": null,
+      "concepts": [
+        {
+          "id": 8751,
+          "key": "c1a91555-1da3-418d-8a2f-6ea1e17575a6",
+          "title": "Selecting an Analytical Methodology",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "c1a91555-1da3-418d-8a2f-6ea1e17575a6",
+            "completed_at": null,
+            "last_viewed_at": null,
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 160289,
+              "key": "8ab388dd-41b6-4b1f-88b6-7bbbee437f84",
+              "title": "Selecting an Analytical Methodology",
+              "semantic_type": "VideoAtom",
+              "is_public": true,
+              "instructor_notes": "",
+              "video": {
+                "youtube_id": "bdHtEIHKfAo",
+                "china_cdn_id": "bdHtEIHKfAo.mp4"
+              }
+            },
+            {
+              "id": 7492,
+              "key": "8a5af0bc-4476-4d0f-a4bb-5b550bac214c",
+              "title": "MM",
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "<center><h3>Methodology Map</h3></center>\n\nThe Analytical Problem Solving framework helps systematically work through a business problem;  however, it doesn’t help us understand which methodology to use. \n\nThe Methodology Map will help us as we decide which methodology to use to solve a business problem, and is meant to be used as we work our way through the Problem Solving Framework. \n\n",
+              "instructor_notes": null
+            },
+            {
+              "id": 130770,
+              "key": "a4204931-9540-4a1a-8218-536e72d06448",
+              "title": "MM",
+              "semantic_type": "ImageAtom",
+              "is_public": true,
+              "url": "https://video.udacity-data.com/topher/2016/June/576e0d7b_methodology-map/methodology-map.jpg",
+              "non_google_url": "https://s3.cn-north-1.amazonaws.com.cn/u-img/a4204931-9540-4a1a-8218-536e72d06448",
+              "caption": null,
+              "alt": null,
+              "width": 1275,
+              "height": 717,
+              "instructor_notes": null
+            }
+          ]
+        },
+        {
+          "id": 109535,
+          "key": "b1698935-f8c3-426c-8778-203710be276b",
+          "title": "Non-Predictive Business Problems",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "b1698935-f8c3-426c-8778-203710be276b",
+            "completed_at": null,
+            "last_viewed_at": null,
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 7430,
+              "key": "9dce4ac1-2aed-4550-be3d-16c8739a7fd6",
+              "title": "Geospatial",
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "## Non-Predictive Analysis\n\nWe’ve broken down non-predictive data analysis into four categories: Geospatial, Segmentation, Aggregation, and Descriptive. Let's talk about each.\n\n<h4>Geospatial Analysis</h4>\nThis type of analysis uses location based data to help drive your conclusions. Examples include identifying customers by a geographic region, calculating the distance store locations or creating a trade area based upon customer locations.",
+              "instructor_notes": ""
+            },
+            {
+              "id": 129032,
+              "key": "578dcee0-1ab0-408f-b0d0-e42c956e4593",
+              "title": "Nd008 Ud976 P1 L2 A02 L Non-Predictive Business Problems",
+              "semantic_type": "VideoAtom",
+              "is_public": true,
+              "instructor_notes": "",
+              "video": {
+                "youtube_id": "S-rnJ5BChAQ",
+                "china_cdn_id": "S-rnJ5BChAQ.mp4"
+              }
+            },
+            {
+              "id": 7489,
+              "key": "3eb680d0-e418-4018-9f6f-97c3d3c3594e",
+              "title": "Segmentation Analysis",
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "<h4>Segmentation Analysis</h4>Segmentation is the process of grouping data together.  Groups can be simple, such as customers who have purchased different items, to more complex segmentation techniques where you identify stores that are similar based upon the demographics of their customers.\n",
+              "instructor_notes": null
+            },
+            {
+              "id": 7500,
+              "key": "f3196c2f-2167-45b1-bfd1-856281186e6d",
+              "title": "Segmentation Business Problems",
+              "semantic_type": "VideoAtom",
+              "is_public": true,
+              "instructor_notes": null,
+              "video": {
+                "youtube_id": "QDg048qSR-k",
+                "china_cdn_id": "QDg048qSR-k.mp4"
+              }
+            },
+            {
+              "id": 7461,
+              "key": "feda6d48-c158-408e-8d72-1eddf6a5d4b9",
+              "title": "Aggregation",
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "<h4>Aggregation Analysis</h4>\nThis methodology simply means calculating a value across a group or dimension and is commonly used in data analysis. For example, you may want to aggregate sales data for a salesperson by month - adding all of the sales closed for each month. Then, you may want to aggregate across dimensions, such as sales by month per sales territory. Aggregation is often done in reporting to be able to \"slice and dice\" information to help managers make decisions and view performance.\n",
+              "instructor_notes": ""
+            },
+            {
+              "id": 7504,
+              "key": "0f1e208c-4719-4e07-9d4c-f248d89551da",
+              "title": "Aggregation",
+              "semantic_type": "VideoAtom",
+              "is_public": true,
+              "instructor_notes": null,
+              "video": {
+                "youtube_id": "TUQgSOoYIjk",
+                "china_cdn_id": "TUQgSOoYIjk.mp4"
+              }
+            },
+            {
+              "id": 7521,
+              "key": "a92bd58b-6023-4c77-8c98-2caafa3c102d",
+              "title": "Descriptive",
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "<h4>Descriptive Analysis</h4>\nDescriptive statistics provides simple summaries of a data sample. Examples could be calculating average GPA for applicants to a school, or calculating the batting average of a professional baseball player. In our electricity supply scenario, we could use descriptive statistics to calculate the average temperature per hour, per day, or per date.\nSome of the commonly used descriptive statistics are Mean, Median, Mode, Standard Deviation, and Interquartile range.\n",
+              "instructor_notes": null
+            },
+            {
+              "id": 7509,
+              "key": "75b48d5c-2623-49bc-a2cf-667d925f58fe",
+              "title": "Descriptive",
+              "semantic_type": "VideoAtom",
+              "is_public": true,
+              "instructor_notes": null,
+              "video": {
+                "youtube_id": "-d2We-HAx-g",
+                "china_cdn_id": "-d2We-HAx-g.mp4"
+              }
+            },
+            {
+              "id": 134819,
+              "key": "3622970d-f40e-4b10-92d8-1aec2099a657",
+              "title": "Descriptive Statistics",
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "<h4>Descriptive Statistics</h4>\n\nYou can watch Udacity's course on [Descriptive Statistics](https://www.udacity.com/course/intro-to-descriptive-statistics--ud827) to help you refresh the statistical concepts that Patrick just mentioned.",
+              "instructor_notes": ""
+            }
+          ]
+        },
+        {
+          "id": 8781,
+          "key": "756ec3a7-c966-485d-88f1-f90b9d75a4f8",
+          "title": "Classifying Business Problems",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "756ec3a7-c966-485d-88f1-f90b9d75a4f8",
+            "completed_at": null,
+            "last_viewed_at": null,
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 111475,
+              "key": "9f63ee1e-0e64-4f07-ad9f-b5770c4143c4",
+              "title": "Quiz",
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "Let’s practice classifying business problems into groups.  For each of the following business problems identify the problem as one of the following:\n\n<li>Predictive<li>Geospatial<li>Segmentation<li>Aggregation <li>Descriptive\n",
+              "instructor_notes": null
+            },
+            {
+              "id": 8720,
+              "key": "7442ff00-bdb4-4402-b15c-502d8655fe5c",
+              "title": "1",
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "<h4>Scenario #1:</h4>\n\nQwiki Mart wants to build another store location.  It wants to build the store in the area where they will have the most business, but they want to make sure that it is not within four miles of another location. \n",
+              "instructor_notes": null
+            },
+            {
+              "id": 111158,
+              "key": "6b46ea73-af49-4f75-a88e-74ae3f7ff9be",
+              "title": "#1",
+              "semantic_type": "RadioQuizAtom",
+              "is_public": true,
+              "instructor_notes": null,
+              "user_state": {
+                "node_key": "6b46ea73-af49-4f75-a88e-74ae3f7ff9be",
+                "completed_at": null,
+                "last_viewed_at": null,
+                "unstructured": null
+              },
+              "question": {
+                "prompt": "What type of data analysis methodology would be best suited to answer this question? ",
+                "answers": [
+                  {
+                    "id": "a1466466953400",
+                    "text": "Predictive",
+                    "is_correct": false
+                  },
+                  {
+                    "id": "a1466466954096",
+                    "text": "Geospatial",
+                    "is_correct": true
+                  },
+                  {
+                    "id": "a1466466954584",
+                    "text": "Segmentation",
+                    "is_correct": false
+                  },
+                  {
+                    "id": "a1466466955072",
+                    "text": "Aggregation",
+                    "is_correct": false
+                  },
+                  {
+                    "id": "a1466466955607",
+                    "text": "Descriptive",
+                    "is_correct": false
+                  }
+                ]
+              }
+            },
+            {
+              "id": 134739,
+              "key": "16879525-2509-431c-92b2-a42cdab1ed01",
+              "title": "2",
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "<h4>Scenario #2:</h4>\nTShirts.com received complaints that their web pages are loading slowly. They want to understand what web traffic levels to expect in the future in order to ensure they have enough server capacity to handle the traffic.\n",
+              "instructor_notes": ""
+            },
+            {
+              "id": 111288,
+              "key": "34143d09-ebd1-49ee-9e4a-da0ca10009b8",
+              "title": "2",
+              "semantic_type": "RadioQuizAtom",
+              "is_public": true,
+              "instructor_notes": null,
+              "user_state": {
+                "node_key": "34143d09-ebd1-49ee-9e4a-da0ca10009b8",
+                "completed_at": null,
+                "last_viewed_at": null,
+                "unstructured": null
+              },
+              "question": {
+                "prompt": "What type of data analysis methodology would be best suited to answer this question? ",
+                "answers": [
+                  {
+                    "id": "a1466467119097",
+                    "text": "Predictive",
+                    "is_correct": true
+                  },
+                  {
+                    "id": "a1466467119655",
+                    "text": "Geospatial",
+                    "is_correct": false
+                  },
+                  {
+                    "id": "a1466467120160",
+                    "text": "Segmentation",
+                    "is_correct": false
+                  },
+                  {
+                    "id": "a1466467120688",
+                    "text": "Aggregation",
+                    "is_correct": false
+                  },
+                  {
+                    "id": "a1466467127207",
+                    "text": "Descriptive",
+                    "is_correct": false
+                  }
+                ]
+              }
+            },
+            {
+              "id": 111444,
+              "key": "6dffe059-4b21-455c-b0f2-f0fab66bbb39",
+              "title": "3",
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "<h4>Scenario #3:</h4>\nShipYourStuff.com wants to know how much they ship to each zip code, state, or region as different managers want summaries by different dimensions. ",
+              "instructor_notes": ""
+            },
+            {
+              "id": 8808,
+              "key": "0be94c8c-a73f-407d-a883-720195e74d57",
+              "title": "3",
+              "semantic_type": "RadioQuizAtom",
+              "is_public": true,
+              "instructor_notes": null,
+              "user_state": {
+                "node_key": "0be94c8c-a73f-407d-a883-720195e74d57",
+                "completed_at": null,
+                "last_viewed_at": null,
+                "unstructured": null
+              },
+              "question": {
+                "prompt": "What type of data analysis methodology would be best suited to answer this question? ",
+                "answers": [
+                  {
+                    "id": "a1466468126536",
+                    "text": "Predictive",
+                    "is_correct": false
+                  },
+                  {
+                    "id": "a1466468127080",
+                    "text": "Geospatial",
+                    "is_correct": false
+                  },
+                  {
+                    "id": "a1466468127504",
+                    "text": "Segmentation",
+                    "is_correct": false
+                  },
+                  {
+                    "id": "a1466468127904",
+                    "text": "Aggregation",
+                    "is_correct": true
+                  },
+                  {
+                    "id": "a1466468128512",
+                    "text": "Descriptive",
+                    "is_correct": false
+                  }
+                ]
+              }
+            },
+            {
+              "id": 134617,
+              "key": "717ab733-75ac-4daa-94ff-385cdb8bd15f",
+              "title": "4",
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "<h4>Scenario #4:</h4>\nPretty Faces Cosmetics wants to market to their top 3 customer segments.  They need to create the customer segments, calculate how many customers fall into each one, and then determine which segment has the most customers.",
+              "instructor_notes": ""
+            },
+            {
+              "id": 111148,
+              "key": "3d28b81f-02e0-49e1-8bb9-cbd6173f43a5",
+              "title": "4",
+              "semantic_type": "CheckboxQuizAtom",
+              "is_public": true,
+              "instructor_notes": null,
+              "user_state": {
+                "node_key": "3d28b81f-02e0-49e1-8bb9-cbd6173f43a5",
+                "completed_at": null,
+                "last_viewed_at": null,
+                "unstructured": null
+              },
+              "question": {
+                "prompt": "What type(s) of data analysis methodology would be best suited to answer this question? The answer may include more than one type. ",
+                "answers": [
+                  {
+                    "id": "a1466468327488",
+                    "text": "Predictive",
+                    "is_correct": false
+                  },
+                  {
+                    "id": "a1466468328032",
+                    "text": "Geospatial",
+                    "is_correct": false
+                  },
+                  {
+                    "id": "a1466468328488",
+                    "text": "Segmentation",
+                    "is_correct": true
+                  },
+                  {
+                    "id": "a1466468328984",
+                    "text": "Aggregation",
+                    "is_correct": true
+                  },
+                  {
+                    "id": "a1466468329472",
+                    "text": "Descriptive",
+                    "is_correct": false
+                  }
+                ]
+              }
+            },
+            {
+              "id": 4960,
+              "key": "4e5d3d68-8ffb-4ade-b106-4fd36430d962",
+              "title": "Definitions",
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "<h4>Predictive</h4>\nPredictive analytics uses existing data to predict a future outcome. For example, a company may use predictive analytics to forecast demand or whether a customer will respond to an advertising campaign.\n\n<h4>Geospatial</h4>\nThis type of analysis uses location based data to help drive your conclusions.  Some examples are:\n<li>Identifying customers by a geographic dimension such as zip code, state, or county, or <li>Calculating the distance between addresses and your stores, or <li>Creating a trade area based upon your customer locations for further analysis\n\nSome types of Geospatial analysis require the use of special software - such as software that can convert an address to  Latitude & Longitude, or can calculate the drive time between two geographic points on a map.\n\n<h4>Segmentation</h4>\nSegmentation is the process of grouping data together.  Groups can be simple, such as customers who have purchased different items, to more complex segmentation techniques where you identify stores that are similar based upon the demographics of their customers.\n\n<h4>Aggregation</h4>\nThis methodology simply means calculating a value across a group or dimension and is commonly used in data analysis. For example, you may want to aggregate sales data for a salesperson by month - adding all of the sales closed for each month. Then, you may want to aggregate across dimensions, such as sales by month per sales territory.  In this scenario, you could calculate the sales per month for each salesperson, and then add the sales per month for all salespeople in each region.\n\nAggregation is often done in reporting to be able to “ slice and dice” information to help managers make decisions and view performance. \n\n<h4>Descriptive</h4>\nDescriptive statistics provides simple summaries of a data sample. Examples could be calculating average GPA for applicants to a school, or calculating the batting average of a professional baseball player. In our electricity supply scenario, we could use descriptive statistics to calculate the average temperature per hour, per day, or per date.\n\nSome of the commonly used descriptive statistics are Mean, Median, Mode, Standard Deviation, and Interquartile range.",
+              "instructor_notes": null
+            }
+          ]
+        },
+        {
+          "id": 7438,
+          "key": "bf0b44f6-50c9-4033-af25-ea604acd2ab0",
+          "title": "Predictive Business Problems",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "bf0b44f6-50c9-4033-af25-ea604acd2ab0",
+            "completed_at": null,
+            "last_viewed_at": null,
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 7572,
+              "key": "9dd06b9b-4901-4407-bd7f-de580b1975da",
+              "title": "Predictive",
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "<h4>Predictive Business Problems</h4>",
+              "instructor_notes": null
+            },
+            {
+              "id": 7434,
+              "key": "2bca0877-ad26-48fd-88f3-3ad0bb2aa4d5",
+              "title": "Introduction to Predictive Business Problems",
+              "semantic_type": "VideoAtom",
+              "is_public": true,
+              "instructor_notes": null,
+              "video": {
+                "youtube_id": "vwmTj4goI30",
+                "china_cdn_id": "vwmTj4goI30.mp4"
+              }
+            },
+            {
+              "id": 7327,
+              "key": "fb180bb7-3910-4e39-b8b6-008b3a40322e",
+              "title": "Data Rich vs. Data Poor",
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "<h4>Data Rich vs. Data Poor</h4>\nDo you have data on what you are trying to predict?  If so, you can proceed down the data rich path, otherwise, the data poor path is your only option. See the following example that demonstrates a data poor scenario. \n",
+              "instructor_notes": null
+            },
+            {
+              "id": 7526,
+              "key": "4c83543c-cbdc-42d6-8261-59518129ce78",
+              "title": "predictive problems",
+              "semantic_type": "VideoAtom",
+              "is_public": true,
+              "instructor_notes": null,
+              "video": {
+                "youtube_id": "r8EOv8M0-x4",
+                "china_cdn_id": "r8EOv8M0-x4.mp4"
+              }
+            },
+            {
+              "id": 7541,
+              "key": "095c1d01-119b-4136-b10c-371f340adbd9",
+              "title": "DR vs DP Quiz",
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "<h4>Data Rich vs Data Poor Quiz</h4>For the electricity supply problem that we’ve been discussing, would you consider this a data rich or data poor problem, and why?  Take a few minutes to think about this - you may have to make assumptions about what type of data is available to the company. ",
+              "instructor_notes": null
+            },
+            {
+              "id": 7565,
+              "key": "fa6812be-aec9-4a35-b3ee-1399ef4f07a1",
+              "title": "DR vs DP",
+              "semantic_type": "RadioQuizAtom",
+              "is_public": true,
+              "instructor_notes": null,
+              "user_state": {
+                "node_key": "fa6812be-aec9-4a35-b3ee-1399ef4f07a1",
+                "completed_at": null,
+                "last_viewed_at": null,
+                "unstructured": null
+              },
+              "question": {
+                "prompt": "For the electricity supply problem that we’ve been discussing, would you consider this a data rich or data poor problem? ",
+                "answers": [
+                  {
+                    "id": "a1466554941816",
+                    "text": "Data Rich",
+                    "is_correct": true
+                  },
+                  {
+                    "id": "a1466554942583",
+                    "text": "Data Poor",
+                    "is_correct": false
+                  }
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "id": 109484,
+          "key": "e001a212-a4e3-4cff-a852-2800a74566ff",
+          "title": "Data Poor Business Problems",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "e001a212-a4e3-4cff-a852-2800a74566ff",
+            "completed_at": null,
+            "last_viewed_at": null,
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 122279,
+              "key": "1f4442c6-d535-4903-8f4c-75838cc456b1",
+              "title": "Data Poor Business Problems",
+              "semantic_type": "VideoAtom",
+              "is_public": true,
+              "instructor_notes": null,
+              "video": {
+                "youtube_id": "ftNtrbQgFpM",
+                "china_cdn_id": "ftNtrbQgFpM.mp4"
+              }
+            },
+            {
+              "id": 7462,
+              "key": "9b40b19c-9355-4498-826d-510d460b2f13",
+              "title": "Ab Tests",
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "<h4>A/B Tests</h4>If there is not sufficient usable data to solve the problem, then we need to set up an experiment to help us get the data we need.  An experiment in a business context is usually referred to as an A/B Test.  ",
+              "instructor_notes": null
+            }
+          ]
+        },
+        {
+          "id": 4694,
+          "key": "f265f076-c033-4bd4-b807-067ab493bdea",
+          "title": "Data Rich Business Problems",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "f265f076-c033-4bd4-b807-067ab493bdea",
+            "completed_at": null,
+            "last_viewed_at": null,
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 33460,
+              "key": "920d2975-db76-4b4a-9fa6-115986a0528c",
+              "title": "Data Rich Business Problems",
+              "semantic_type": "VideoAtom",
+              "is_public": true,
+              "instructor_notes": null,
+              "video": {
+                "youtube_id": "LkpkL7KmGLA",
+                "china_cdn_id": "LkpkL7KmGLA.mp4"
+              }
+            },
+            {
+              "id": 7580,
+              "key": "b93b7c42-e347-48b0-a7a3-f2bf415b63c8",
+              "title": "Data Rich",
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "<h4>Numeric vs. Non-Numeric Predictive Analysis</h4>\nAssuming we have enough data to proceed with the analysis, our next decision is to look at the outcome we’re trying to predict and determine if it’s a numeric outcome or a non-numeric outcome.\n\n<h5>Regression Models</h5>\nNumeric outcomes are those where the outcome is simply a number.  Predicting the demand for electricity or the hourly temperature are both numeric outcomes. Models predicting numeric data are called regression models.\n\n<h5>Classification Models</h5>Non-numeric outcomes are those where we’re trying to predict the category into which a case (e.g. customer) falls, such as whether a customer will pay on-time, pay late, or default on a payment.  Another example is  the whether an electronic device will fail before 1000 hours or not.  Models predicting non-numeric data are called classification models.",
+              "instructor_notes": null
+            }
+          ]
+        },
+        {
+          "id": 6103,
+          "key": "8f68a3a1-8785-4f1b-aa82-718f9eee11d0",
+          "title": "Numeric & Non-Numeric Outcomes",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "8f68a3a1-8785-4f1b-aa82-718f9eee11d0",
+            "completed_at": null,
+            "last_viewed_at": null,
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 33323,
+              "key": "9b96c060-3c66-46d7-b0b3-abc46228f53f",
+              "title": " Numeric Non-Numeric Outcomes",
+              "semantic_type": "VideoAtom",
+              "is_public": true,
+              "instructor_notes": null,
+              "video": {
+                "youtube_id": "cAIPn6YRPc0",
+                "china_cdn_id": "cAIPn6YRPc0.mp4"
+              }
+            },
+            {
+              "id": 7588,
+              "key": "f209fcbe-c9a0-4f16-9a5e-f51e79cec06d",
+              "title": "Numeric/nonnumeric",
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "<h4>Examples of Numeric & Non-Numeric Outcomes</h4>\nWe’ll use these examples throughout the rest of the lesson.  \n\n<h5>Tricycle Manufacturer's Production Department</h5>\nFor our first example, imagine that a manufacturer wants to use historical production data to know how many tricycles they’ll need to produce over the next six months to meet expected demand.  Since the outcome the manufacturer wants to predict is a number, then the target variable is numeric.  Therefore, they would use a numeric or regression model to solve this problem.\n<h5>Hot & Fresh Pizza's Marketing Department</h5>\nFor our second example, Hot & Fresh Pizza wants to use sales data from their existing stores and respective demographic data around those stores to predict how many pizzas they’ll sell at their new store location.  Since the outcome that Hot & Fresh Pizza is trying to predict is the number of pizzas, then the target variable is numeric and they would use a numeric or regression model to solve this problem.\n\n<h5>Risk Management Department at a Bank</h5>\nAnd for our third example, a bank wants to use historical data of their clients to predict whether a new customer will default on a loan, always pay on time, or sometimes pay.  Since the outcome the bank is trying to predict is a category that the new customer will fall into, they would use non-numeric or classification model to solve this problem. \n",
+              "instructor_notes": null
+            }
+          ]
+        },
+        {
+          "id": 111160,
+          "key": "6229a4b4-4a54-471a-b96e-9228d2e03225",
+          "title": "Numeric or Classification Quiz",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "6229a4b4-4a54-471a-b96e-9228d2e03225",
+            "completed_at": null,
+            "last_viewed_at": null,
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 115023,
+              "key": "354e8f98-b617-45d0-85dc-86fb8b281dc9",
+              "title": "Num vs class",
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "Let’s practice classifying data rich business problems.  For each of the following business problems identify whether a numeric or classification model should be used to solve the problem.\n\n<h4>Scenario #1</h4>\nAn ice cream vendor sells a different amount of ice cream every week.  She puts in an order for ice cream containers every Wednesday, but would like to know how much to order so she has enough ice cream to sell, but doesn’t spend too much on keeping excess inventory frozen.\n",
+              "instructor_notes": ""
+            },
+            {
+              "id": 111471,
+              "key": "da1f2863-fe07-4284-8271-3aa62480e342",
+              "title": "1",
+              "semantic_type": "RadioQuizAtom",
+              "is_public": true,
+              "instructor_notes": null,
+              "user_state": {
+                "node_key": "da1f2863-fe07-4284-8271-3aa62480e342",
+                "completed_at": null,
+                "last_viewed_at": null,
+                "unstructured": null
+              },
+              "question": {
+                "prompt": "Should a numeric or classification model be used to solve this problem?",
+                "answers": [
+                  {
+                    "id": "a1466469051768",
+                    "text": "Numeric",
+                    "is_correct": true
+                  },
+                  {
+                    "id": "a1466469052408",
+                    "text": "Classification",
+                    "is_correct": false
+                  }
+                ]
+              }
+            },
+            {
+              "id": 111174,
+              "key": "63b635ab-92a4-4087-ab70-6e3b3aac1b42",
+              "title": "2",
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "<h4>Scenario #2</h4>\nA financial organization provides loans to small businesses.  Once a pre-loan application is approved, the applicant has 90 days to apply for the actual loan.  The financial organization wants to predict how many loan applications they have to process from their pool of pre-loan applicants.",
+              "instructor_notes": ""
+            },
+            {
+              "id": 111447,
+              "key": "65798eab-606f-412a-b58e-833b40d58fa2",
+              "title": "2",
+              "semantic_type": "RadioQuizAtom",
+              "is_public": true,
+              "instructor_notes": null,
+              "user_state": {
+                "node_key": "65798eab-606f-412a-b58e-833b40d58fa2",
+                "completed_at": null,
+                "last_viewed_at": null,
+                "unstructured": null
+              },
+              "question": {
+                "prompt": "Should a numeric or classification model be used to solve this problem?",
+                "answers": [
+                  {
+                    "id": "a1466469180825",
+                    "text": "Numeric",
+                    "is_correct": true
+                  },
+                  {
+                    "id": "a1466469181385",
+                    "text": "Classification",
+                    "is_correct": false
+                  }
+                ]
+              }
+            },
+            {
+              "id": 111542,
+              "key": "df764bde-ba6c-4768-aa68-4b07bda67f90",
+              "title": "3",
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "<h4>Scenario #3</h4>\nA marketing organization wants to predict whether someone is likely to redeem a coupon as they would like to minimize costs and only send coupons to people who are likely to use them.",
+              "instructor_notes": null
+            },
+            {
+              "id": 111509,
+              "key": "57805808-c8b6-4203-9516-ee29edf61ab1",
+              "title": "3",
+              "semantic_type": "RadioQuizAtom",
+              "is_public": true,
+              "instructor_notes": null,
+              "user_state": {
+                "node_key": "57805808-c8b6-4203-9516-ee29edf61ab1",
+                "completed_at": null,
+                "last_viewed_at": null,
+                "unstructured": null
+              },
+              "question": {
+                "prompt": "Should a numeric or classification model be used to solve this problem?",
+                "answers": [
+                  {
+                    "id": "a1466469249560",
+                    "text": "Numeric",
+                    "is_correct": false
+                  },
+                  {
+                    "id": "a1466469250104",
+                    "text": "Classification",
+                    "is_correct": true
+                  }
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "id": 6130,
+          "key": "bd820603-be98-463f-a15d-f72fe452ac85",
+          "title": "Introduction to Numeric Models",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "bd820603-be98-463f-a15d-f72fe452ac85",
+            "completed_at": null,
+            "last_viewed_at": null,
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 135009,
+              "key": "bf81ece7-d5b7-431d-ab95-df8b34c974d5",
+              "title": "Introduction To Numeric Models",
+              "semantic_type": "VideoAtom",
+              "is_public": true,
+              "instructor_notes": "",
+              "video": {
+                "youtube_id": "Mqdn4lHyvrI",
+                "china_cdn_id": "Mqdn4lHyvrI.mp4"
+              }
+            },
+            {
+              "id": 134692,
+              "key": "3cff0df7-40c2-4785-824c-15dbaad7dafc",
+              "title": "Numeric Variables",
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "<h4>Target Variables</h4>\nTarget variables represent the outcome we are trying to predict.  In order to select the right predictive model, we first determine whether the target variable is numeric or non-numeric. The type of numeric or non-numeric target variables will then help us select which model is appropriate. Let’s start with numeric variables.\n<h4>Types of Numeric Variables</h4>\nThe three most common types of numeric variables are continuous, time-based, and count.  \n<h4>Continuous</h4>\nA continuous variable is one that can take on all values in a range.  For instance your height can be measured down to many decimal places.  We do not grow in even inch intervals.  \n<h4>Time-Based</h4>\nA time-based numeric variable is one where you are trying to predict what will happen over time.  This is often related to forecasting.  \n<h4>Count</h4>\nCount variables are numbers that are [discrete](https://www.mathsisfun.com/data/data-discrete-continuous.html), positive integers.  They’re called count numbers because they’re used to analyze variables that you can count.   As modeling these type of variables is not common in business, we won’t be covering this topic in this course. \n",
+              "instructor_notes": ""
+            }
+          ]
+        },
+        {
+          "id": 5087,
+          "key": "5c4ec296-340a-49e4-882f-ac58a7494257",
+          "title": "Introduction to Non-Numeric Models",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "5c4ec296-340a-49e4-882f-ac58a7494257",
+            "completed_at": null,
+            "last_viewed_at": null,
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 7457,
+              "key": "ab55e993-b2b6-45d6-b124-abec17420ec4",
+              "title": "Introduction To Non-Numeric Models",
+              "semantic_type": "VideoAtom",
+              "is_public": true,
+              "instructor_notes": null,
+              "video": {
+                "youtube_id": "lC7mxzS4L24",
+                "china_cdn_id": "lC7mxzS4L24.mp4"
+              }
+            },
+            {
+              "id": 134792,
+              "key": "de127402-fda4-488a-a62a-dd16d9661c46",
+              "title": "Non-Numeric",
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "<h4>Non-Numeric Variables</h4>\nA non-numeric variable is often called categorical, because the values of the variable take on a discrete number of possible values or categories.  Examples include whether an electronic device will fail before 1000 hours or not; whether a customer will pay on-time, pay late, or default on a payment, or whether a store is classified as large, medium or small.  \n<h4>Classification Models: Binary and Non-Binary</h4>\nWhen modeling categorical variables, the number of possible outcomes is an important factor.  If there are only two possible categorical outcomes, such as Yes or No, or True or False, then the variable can be described as Binary.  \n\nIf there are more than two possible categorical outcomes, such as small, medium, or large, or pay on-time, pay late, or default on a payment, then the variable can be described as non-binary. The important take-away from this lesson is the ability to determine if you should use a classification model, and whether it should be a binary model or a non-binary model.\nBen Burkholder will lead a course focused on classification models and will go into detail about these types of models.\n",
+              "instructor_notes": ""
+            }
+          ]
+        },
+        {
+          "id": 111280,
+          "key": "aab482a1-aea5-469c-9a94-76f90a2c77dd",
+          "title": "Determining Appropriate Models Quiz",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "aab482a1-aea5-469c-9a94-76f90a2c77dd",
+            "completed_at": null,
+            "last_viewed_at": null,
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 111549,
+              "key": "0f7c0afb-31b4-4a25-b073-21fc213ee5f2",
+              "title": "Models",
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "Let’s practice classifying data rich business problems.  For each of the following business problems, identify:\n<li>Should a numeric or classification model be used to solve the problem? <li>If numeric, should a continuous or time-based model be used?<li>If classification, should a binary or non-binary model be used?\n",
+              "instructor_notes": ""
+            },
+            {
+              "id": 8021,
+              "key": "9165ac8f-4b49-415e-9ebe-29e118efa04b",
+              "title": "Data Type",
+              "semantic_type": "RadioQuizAtom",
+              "is_public": true,
+              "instructor_notes": null,
+              "user_state": {
+                "node_key": "9165ac8f-4b49-415e-9ebe-29e118efa04b",
+                "completed_at": null,
+                "last_viewed_at": null,
+                "unstructured": null
+              },
+              "question": {
+                "prompt": "Using historical production data, a manufacturer wants to know how many tricycles they will need to produce per month over the next six months. ",
+                "answers": [
+                  {
+                    "id": "a1466613263538",
+                    "text": "Continuous Numeric",
+                    "is_correct": false
+                  },
+                  {
+                    "id": "a1466613264564",
+                    "text": "Time-based Numeric ",
+                    "is_correct": true
+                  },
+                  {
+                    "id": "a1466613265689",
+                    "text": "Binary Classification",
+                    "is_correct": false
+                  },
+                  {
+                    "id": "a1466613274728",
+                    "text": "Non-binary Classification",
+                    "is_correct": false
+                  }
+                ]
+              }
+            },
+            {
+              "id": 8049,
+              "key": "7ceae3aa-c1c5-4581-983e-f5b123eaaa65",
+              "title": "Hot&Fresh",
+              "semantic_type": "RadioQuizAtom",
+              "is_public": true,
+              "instructor_notes": null,
+              "user_state": {
+                "node_key": "7ceae3aa-c1c5-4581-983e-f5b123eaaa65",
+                "completed_at": null,
+                "last_viewed_at": null,
+                "unstructured": null
+              },
+              "question": {
+                "prompt": "Using sales data from their stores and respective demographic data around those stores, Hot & Fresh Pizza wants to predict how many pizzas they will sell at their new store location. ",
+                "answers": [
+                  {
+                    "id": "a1466613654384",
+                    "text": "Continuous Numeric",
+                    "is_correct": true
+                  },
+                  {
+                    "id": "a1466613655390",
+                    "text": "Time-based Numeric ",
+                    "is_correct": false
+                  },
+                  {
+                    "id": "a1466613656186",
+                    "text": "Binary Classification",
+                    "is_correct": false
+                  },
+                  {
+                    "id": "a1466613657029",
+                    "text": "Non-binary Classification",
+                    "is_correct": false
+                  }
+                ]
+              }
+            },
+            {
+              "id": 8052,
+              "key": "6c26f870-9e23-4ab1-bf5c-8dcbe68dde6d",
+              "title": "Bank",
+              "semantic_type": "RadioQuizAtom",
+              "is_public": true,
+              "instructor_notes": null,
+              "user_state": {
+                "node_key": "6c26f870-9e23-4ab1-bf5c-8dcbe68dde6d",
+                "completed_at": null,
+                "last_viewed_at": null,
+                "unstructured": null
+              },
+              "question": {
+                "prompt": "A bank wants to predict whether a new customer will default on a loan, always pay on time, or sometimes pay using historical data of their clients.  ",
+                "answers": [
+                  {
+                    "id": "a1466613975421",
+                    "text": "Continuous Numeric",
+                    "is_correct": false
+                  },
+                  {
+                    "id": "a1466613976350",
+                    "text": "Time-based Numeric ",
+                    "is_correct": false
+                  },
+                  {
+                    "id": "a1466613977194",
+                    "text": "Binary Classification",
+                    "is_correct": false
+                  },
+                  {
+                    "id": "a1466613977861",
+                    "text": "Non-binary Classification",
+                    "is_correct": true
+                  }
+                ]
+              }
+            },
+            {
+              "id": 7998,
+              "key": "b9266822-2bfa-4d70-a12f-d7bb3612e40d",
+              "title": "Don't Forcet!",
+              "semantic_type": "RadioQuizAtom",
+              "is_public": true,
+              "instructor_notes": null,
+              "user_state": {
+                "node_key": "b9266822-2bfa-4d70-a12f-d7bb3612e40d",
+                "completed_at": null,
+                "last_viewed_at": null,
+                "unstructured": null
+              },
+              "question": {
+                "prompt": "A marketing organization wants to predict whether someone is likely to redeem a coupon as they would like to minimize costs and only send coupons to people who are likely to use them.",
+                "answers": [
+                  {
+                    "id": "a1466614090713",
+                    "text": "Continuous Numeric",
+                    "is_correct": false
+                  },
+                  {
+                    "id": "a1466614091680",
+                    "text": "Time-based Numeric ",
+                    "is_correct": false
+                  },
+                  {
+                    "id": "a1466614093060",
+                    "text": "Binary Classification",
+                    "is_correct": true
+                  },
+                  {
+                    "id": "a1466614094219",
+                    "text": "Non-binary Classification",
+                    "is_correct": false
+                  }
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "id": 186649,
+          "key": "039fa5d5-ccc4-43bb-b5b0-3ee6fa6b1206",
+          "title": "Model Selection Assessment ",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "039fa5d5-ccc4-43bb-b5b0-3ee6fa6b1206",
+            "completed_at": null,
+            "last_viewed_at": null,
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 186707,
+              "key": "9c697ef6-6b08-4138-9d9b-a552bf8c5248",
+              "title": "Intro",
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "# Methodology Map Assessment\nNow that we’ve gone through several scenarios, let’s get some more practice determining the right methodology for a variety of business problems. For each of the following descriptions, select the correct methodology. Use the methodology map as a guide to help make the decision.",
+              "instructor_notes": ""
+            },
+            {
+              "id": 186705,
+              "key": "02a628fd-9112-42fe-9a7a-86b15c52eda2",
+              "title": "Methodology Map",
+              "semantic_type": "ImageAtom",
+              "is_public": true,
+              "url": "https://video.udacity-data.com/topher/2016/September/57d31456_methodology-map/methodology-map.jpg",
+              "non_google_url": "https://s3.cn-north-1.amazonaws.com.cn/u-img/02a628fd-9112-42fe-9a7a-86b15c52eda2",
+              "caption": "",
+              "alt": null,
+              "width": 1275,
+              "height": 717,
+              "instructor_notes": null
+            },
+            {
+              "id": 186735,
+              "key": "3e5020f1-7c2a-4e74-b491-a130d262f0bd",
+              "title": "Q10",
+              "semantic_type": "RadioQuizAtom",
+              "is_public": true,
+              "instructor_notes": null,
+              "user_state": {
+                "node_key": "3e5020f1-7c2a-4e74-b491-a130d262f0bd",
+                "completed_at": null,
+                "last_viewed_at": null,
+                "unstructured": null
+              },
+              "question": {
+                "prompt": "A large bank is contemplating changing operating hours at all of its bank branches. They want to use a data-driven way to estimate the impact of changing the operating hours before rolling out the change to all its branches.",
+                "answers": [
+                  {
+                    "id": "a1473453933855",
+                    "text": "Continuous",
+                    "is_correct": false
+                  },
+                  {
+                    "id": "a1473453934191",
+                    "text": "Time Based",
+                    "is_correct": false
+                  },
+                  {
+                    "id": "a1473453934751",
+                    "text": "Binary",
+                    "is_correct": false
+                  },
+                  {
+                    "id": "a1473453935390",
+                    "text": "Non Binary",
+                    "is_correct": false
+                  },
+                  {
+                    "id": "a1473453935855",
+                    "text": "A/B Testing",
+                    "is_correct": true
+                  },
+                  {
+                    "id": "a1473453936535",
+                    "text": "Non-Predictive",
+                    "is_correct": false
+                  }
+                ]
+              }
+            },
+            {
+              "id": 186721,
+              "key": "e44b692b-d760-46d2-852c-222dd1c98ac7",
+              "title": "Q1",
+              "semantic_type": "RadioQuizAtom",
+              "is_public": true,
+              "instructor_notes": null,
+              "user_state": {
+                "node_key": "e44b692b-d760-46d2-852c-222dd1c98ac7",
+                "completed_at": null,
+                "last_viewed_at": null,
+                "unstructured": null
+              },
+              "question": {
+                "prompt": "A high-end home goods manufacture wants to determine which customers in their mailing list are most likely to make a purchase if a catalog was sent to them. ",
+                "answers": [
+                  {
+                    "id": "a1473451165046",
+                    "text": "Continuous",
+                    "is_correct": false
+                  },
+                  {
+                    "id": "a1473451165528",
+                    "text": "Time Based",
+                    "is_correct": false
+                  },
+                  {
+                    "id": "a1473451165930",
+                    "text": "Binary",
+                    "is_correct": true
+                  },
+                  {
+                    "id": "a1473451166265",
+                    "text": "Non-Binary",
+                    "is_correct": false
+                  },
+                  {
+                    "id": "a1473451166913",
+                    "text": "A/B Testing",
+                    "is_correct": false
+                  },
+                  {
+                    "id": "a1473451167401",
+                    "text": "Non-Predictive",
+                    "is_correct": false
+                  }
+                ]
+              }
+            },
+            {
+              "id": 186722,
+              "key": "5d1d3b99-cef6-4fe6-99c5-ed2c465d94c0",
+              "title": "Q2",
+              "semantic_type": "RadioQuizAtom",
+              "is_public": true,
+              "instructor_notes": null,
+              "user_state": {
+                "node_key": "5d1d3b99-cef6-4fe6-99c5-ed2c465d94c0",
+                "completed_at": null,
+                "last_viewed_at": null,
+                "unstructured": null
+              },
+              "question": {
+                "prompt": "That same high-end home goods manufacture now wants to determine how much revenue they can expect if they send a catalog to their entire mailing list. ",
+                "answers": [
+                  {
+                    "id": "a1473452983346",
+                    "text": "Continuous",
+                    "is_correct": true
+                  },
+                  {
+                    "id": "a1473452983730",
+                    "text": "Time Based",
+                    "is_correct": false
+                  },
+                  {
+                    "id": "a1473452984115",
+                    "text": "Binary",
+                    "is_correct": false
+                  },
+                  {
+                    "id": "a1473452984491",
+                    "text": "Non-Binary",
+                    "is_correct": false
+                  },
+                  {
+                    "id": "a1473452984907",
+                    "text": "A/B Testing",
+                    "is_correct": false
+                  },
+                  {
+                    "id": "a1473453010465",
+                    "text": "Non-Predictive",
+                    "is_correct": false
+                  }
+                ]
+              }
+            },
+            {
+              "id": 186724,
+              "key": "6db40779-89fc-4e48-9ca3-85fda761537d",
+              "title": "Q3",
+              "semantic_type": "RadioQuizAtom",
+              "is_public": true,
+              "instructor_notes": null,
+              "user_state": {
+                "node_key": "6db40779-89fc-4e48-9ca3-85fda761537d",
+                "completed_at": null,
+                "last_viewed_at": null,
+                "unstructured": null
+              },
+              "question": {
+                "prompt": "A pet store chain has 13 stores and would like to expand and open a 14th store. In order to determine the best location, the company wants to predict the sales it could expect from each potential location. ",
+                "answers": [
+                  {
+                    "id": "a1473453085738",
+                    "text": "Continuous",
+                    "is_correct": true
+                  },
+                  {
+                    "id": "a1473453086234",
+                    "text": "Time Based",
+                    "is_correct": false
+                  },
+                  {
+                    "id": "a1473453086626",
+                    "text": "Binary",
+                    "is_correct": false
+                  },
+                  {
+                    "id": "a1473453087386",
+                    "text": "Non-Binary",
+                    "is_correct": false
+                  },
+                  {
+                    "id": "a1473453087850",
+                    "text": "A/B Testing",
+                    "is_correct": false
+                  },
+                  {
+                    "id": "a1473453088570",
+                    "text": "Non-Predictive",
+                    "is_correct": false
+                  }
+                ]
+              }
+            },
+            {
+              "id": 186725,
+              "key": "c9569433-6c5b-4bcb-8724-a766acbe05c5",
+              "title": "Q5",
+              "semantic_type": "RadioQuizAtom",
+              "is_public": true,
+              "instructor_notes": null,
+              "user_state": {
+                "node_key": "c9569433-6c5b-4bcb-8724-a766acbe05c5",
+                "completed_at": null,
+                "last_viewed_at": null,
+                "unstructured": null
+              },
+              "question": {
+                "prompt": "A small bank suddenly has an influx of new people applying for loans. It wants to determine which loan applicants are creditworthy by predicting whether or not each applicant is likely to default on their loan.",
+                "answers": [
+                  {
+                    "id": "a1473453147305",
+                    "text": "Continuous",
+                    "is_correct": false
+                  },
+                  {
+                    "id": "a1473453147651",
+                    "text": "Time Based",
+                    "is_correct": false
+                  },
+                  {
+                    "id": "a1473453148833",
+                    "text": "Binary",
+                    "is_correct": true
+                  },
+                  {
+                    "id": "a1473453149369",
+                    "text": "Non-Binary",
+                    "is_correct": false
+                  },
+                  {
+                    "id": "a1473453149817",
+                    "text": "A/B Testing",
+                    "is_correct": false
+                  },
+                  {
+                    "id": "a1473453151297",
+                    "text": "Non-Predictive",
+                    "is_correct": false
+                  }
+                ]
+              }
+            },
+            {
+              "id": 186726,
+              "key": "2bb6a806-f75b-4f80-b81e-74808fa9cd83",
+              "title": "Q6",
+              "semantic_type": "RadioQuizAtom",
+              "is_public": true,
+              "instructor_notes": null,
+              "user_state": {
+                "node_key": "2bb6a806-f75b-4f80-b81e-74808fa9cd83",
+                "completed_at": null,
+                "last_viewed_at": null,
+                "unstructured": null
+              },
+              "question": {
+                "prompt": "An upscale coffee chain wants to know whether a television campaign about their recent introduction of gourmet-sandwiches will provide a good return on investment. ",
+                "answers": [
+                  {
+                    "id": "a1473453232401",
+                    "text": "Continuous",
+                    "is_correct": false
+                  },
+                  {
+                    "id": "a1473453232825",
+                    "text": "Time Based",
+                    "is_correct": false
+                  },
+                  {
+                    "id": "a1473453233169",
+                    "text": "Binary",
+                    "is_correct": false
+                  },
+                  {
+                    "id": "a1473453233585",
+                    "text": "Non-Binary",
+                    "is_correct": false
+                  },
+                  {
+                    "id": "a1473453233945",
+                    "text": "A/B Testing",
+                    "is_correct": true
+                  },
+                  {
+                    "id": "a1473453234344",
+                    "text": "Non-Predictive",
+                    "is_correct": false
+                  }
+                ]
+              }
+            },
+            {
+              "id": 186739,
+              "key": "ef6eca47-9a69-49e8-b07d-fcd278a2a833",
+              "title": "Non-predictive",
+              "semantic_type": "RadioQuizAtom",
+              "is_public": true,
+              "instructor_notes": null,
+              "user_state": {
+                "node_key": "ef6eca47-9a69-49e8-b07d-fcd278a2a833",
+                "completed_at": null,
+                "last_viewed_at": null,
+                "unstructured": null
+              },
+              "question": {
+                "prompt": "A restaurant chain wants to see how much revenue each of its locations produced last year.",
+                "answers": [
+                  {
+                    "id": "a1473454722789",
+                    "text": "Continuous",
+                    "is_correct": false
+                  },
+                  {
+                    "id": "a1473454723230",
+                    "text": "Time Based",
+                    "is_correct": false
+                  },
+                  {
+                    "id": "a1473454724252",
+                    "text": "Binary",
+                    "is_correct": false
+                  },
+                  {
+                    "id": "a1473454724628",
+                    "text": "Non-Binary",
+                    "is_correct": false
+                  },
+                  {
+                    "id": "a1473454725053",
+                    "text": "A/B Testing",
+                    "is_correct": false
+                  },
+                  {
+                    "id": "a1473454725532",
+                    "text": "Non-Predictive",
+                    "is_correct": true
+                  }
+                ]
+              }
+            },
+            {
+              "id": 186727,
+              "key": "991f833c-ec5b-4e7d-abe4-9e87a21d9bf9",
+              "title": "Q7",
+              "semantic_type": "RadioQuizAtom",
+              "is_public": true,
+              "instructor_notes": null,
+              "user_state": {
+                "node_key": "991f833c-ec5b-4e7d-abe4-9e87a21d9bf9",
+                "completed_at": null,
+                "last_viewed_at": null,
+                "unstructured": null
+              },
+              "question": {
+                "prompt": "A company that creates and sells video games wants to forecast monthly sales data in order to synchronize supply with demand, aid in decision making that will help build a competitive infrastructure and measure company performance. ",
+                "answers": [
+                  {
+                    "id": "a1473453311419",
+                    "text": "Continuous",
+                    "is_correct": false
+                  },
+                  {
+                    "id": "a1473453311882",
+                    "text": "Time Based",
+                    "is_correct": true
+                  },
+                  {
+                    "id": "a1473453312217",
+                    "text": "Binary",
+                    "is_correct": false
+                  },
+                  {
+                    "id": "a1473453312833",
+                    "text": "Non-Binary",
+                    "is_correct": false
+                  },
+                  {
+                    "id": "a1473453313266",
+                    "text": "A/B Testing",
+                    "is_correct": false
+                  },
+                  {
+                    "id": "a1473453314185",
+                    "text": "Non-Predictive",
+                    "is_correct": false
+                  }
+                ]
+              }
+            },
+            {
+              "id": 186729,
+              "key": "14b73901-4e42-4fdf-b61b-c6d9b824de89",
+              "title": "Q8",
+              "semantic_type": "RadioQuizAtom",
+              "is_public": true,
+              "instructor_notes": null,
+              "user_state": {
+                "node_key": "14b73901-4e42-4fdf-b61b-c6d9b824de89",
+                "completed_at": null,
+                "last_viewed_at": null,
+                "unstructured": null
+              },
+              "question": {
+                "prompt": "A friend of yours is looking to find a good deal on a diamond for his soon to be fiancé. He has a large dataset of diamonds and wants to predict what the price of each diamond should be based on its physical attributes.",
+                "answers": [
+                  {
+                    "id": "a1473453386256",
+                    "text": "Continuous",
+                    "is_correct": true
+                  },
+                  {
+                    "id": "a1473453387193",
+                    "text": "Time Based",
+                    "is_correct": false
+                  },
+                  {
+                    "id": "a1473453387632",
+                    "text": "Binary",
+                    "is_correct": false
+                  },
+                  {
+                    "id": "a1473453388064",
+                    "text": "Non-Binary",
+                    "is_correct": false
+                  },
+                  {
+                    "id": "a1473453389192",
+                    "text": "A/B Testing",
+                    "is_correct": false
+                  },
+                  {
+                    "id": "a1473453389600",
+                    "text": "Non-Predictive",
+                    "is_correct": false
+                  }
+                ]
+              }
+            },
+            {
+              "id": 186734,
+              "key": "df9d388e-b040-41dc-adbf-77847d3cff77",
+              "title": "Q9",
+              "semantic_type": "RadioQuizAtom",
+              "is_public": true,
+              "instructor_notes": null,
+              "user_state": {
+                "node_key": "df9d388e-b040-41dc-adbf-77847d3cff77",
+                "completed_at": null,
+                "last_viewed_at": null,
+                "unstructured": null
+              },
+              "question": {
+                "prompt": "A university is concerned about dropouts. They want to be able to predict whether a student is likely to drop out so they can provide helpful interventions to help them succeed.",
+                "answers": [
+                  {
+                    "id": "a1473453527506",
+                    "text": "Continuous",
+                    "is_correct": false
+                  },
+                  {
+                    "id": "a1473453527903",
+                    "text": "Time Based",
+                    "is_correct": false
+                  },
+                  {
+                    "id": "a1473453528199",
+                    "text": "Binary",
+                    "is_correct": true
+                  },
+                  {
+                    "id": "a1473453528751",
+                    "text": "Non-Binary",
+                    "is_correct": false
+                  },
+                  {
+                    "id": "a1473453529072",
+                    "text": "A/B Testing",
+                    "is_correct": false
+                  },
+                  {
+                    "id": "a1473453530055",
+                    "text": "Non-Predictive",
+                    "is_correct": false
+                  }
+                ]
+              }
+            },
+            {
+              "id": 186737,
+              "key": "ee3366e2-2388-47b2-adec-f6f10130f8c6",
+              "title": "Q11",
+              "semantic_type": "RadioQuizAtom",
+              "is_public": true,
+              "instructor_notes": null,
+              "user_state": {
+                "node_key": "ee3366e2-2388-47b2-adec-f6f10130f8c6",
+                "completed_at": null,
+                "last_viewed_at": null,
+                "unstructured": null
+              },
+              "question": {
+                "prompt": "A large grocery chain wants to understand whether a change from a link to an image on its website will lead to more mobile app downloads. ",
+                "answers": [
+                  {
+                    "id": "a1473454004407",
+                    "text": "Continuous",
+                    "is_correct": false
+                  },
+                  {
+                    "id": "a1473454004847",
+                    "text": "Time Based",
+                    "is_correct": false
+                  },
+                  {
+                    "id": "a1473454005230",
+                    "text": "Binary",
+                    "is_correct": false
+                  },
+                  {
+                    "id": "a1473454005511",
+                    "text": "Non-Binary",
+                    "is_correct": false
+                  },
+                  {
+                    "id": "a1473454006055",
+                    "text": "A/B Testing",
+                    "is_correct": true
+                  },
+                  {
+                    "id": "a1473454006457",
+                    "text": "Non-Predictive",
+                    "is_correct": false
+                  }
+                ]
+              }
+            },
+            {
+              "id": 186738,
+              "key": "4c785cc8-9917-450c-b686-1b8a4c356420",
+              "title": "Q12",
+              "semantic_type": "RadioQuizAtom",
+              "is_public": true,
+              "instructor_notes": null,
+              "user_state": {
+                "node_key": "4c785cc8-9917-450c-b686-1b8a4c356420",
+                "completed_at": null,
+                "last_viewed_at": null,
+                "unstructured": null
+              },
+              "question": {
+                "prompt": "A mountain resort wants to predict the number of monthly room bookings it will have next year to help decide whether it should expand.",
+                "answers": [
+                  {
+                    "id": "a1473454070754",
+                    "text": "Continuous",
+                    "is_correct": false
+                  },
+                  {
+                    "id": "a1473454071071",
+                    "text": "Time Based",
+                    "is_correct": true
+                  },
+                  {
+                    "id": "a1473454071591",
+                    "text": "Binary",
+                    "is_correct": false
+                  },
+                  {
+                    "id": "a1473454071991",
+                    "text": "Non-Binary",
+                    "is_correct": false
+                  },
+                  {
+                    "id": "a1473454072382",
+                    "text": "A/B Testing",
+                    "is_correct": false
+                  },
+                  {
+                    "id": "a1473454072734",
+                    "text": "Non-Predictive",
+                    "is_correct": false
+                  }
+                ]
+              }
+            },
+            {
+              "id": 186741,
+              "key": "e2ab24ac-81ca-4ca1-8b16-e67cbe5fd4fb",
+              "title": "Congrats",
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "## Guess what? \n### <font color=\"red\">These problems were taken directly from later courses in the Predictive Analytics for Business Nanodegree Program! </font>\n\nGreat work! You've taken important first steps towards being able to produce useful results and recommendations for problems like the ones above. ",
+              "instructor_notes": ""
+            }
+          ]
+        },
+        {
+          "id": 8782,
+          "key": "3aa9bb8d-1b6a-4fda-bdb0-495f36ffb099",
+          "title": "Lesson Summary",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "3aa9bb8d-1b6a-4fda-bdb0-495f36ffb099",
+            "completed_at": null,
+            "last_viewed_at": null,
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 7465,
+              "key": "1637baba-632a-4a9b-a957-bcad4cdbe66d",
+              "title": "Lesson Summary",
+              "semantic_type": "VideoAtom",
+              "is_public": true,
+              "instructor_notes": "",
+              "video": {
+                "youtube_id": "RrcV-axGxvA",
+                "china_cdn_id": "RrcV-axGxvA.mp4"
+              }
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "_deprecated": [
+    {
+      "name": "non_google_url",
+      "reason": "(2016/8/18) Not sure, ask i18n team for reason"
+    },
+    {
+      "name": "non_google_url",
+      "reason": "(2016/8/18) Not sure, ask i18n team for reason"
+    }
+  ]
+}
