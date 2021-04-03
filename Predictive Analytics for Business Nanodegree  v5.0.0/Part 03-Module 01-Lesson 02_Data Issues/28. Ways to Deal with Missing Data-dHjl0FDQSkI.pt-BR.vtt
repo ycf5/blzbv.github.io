@@ -1,0 +1,201 @@
+WEBVTT
+Kind: captions
+Language: pt-BR
+
+00:00:00.734 --> 00:00:04.171
+Para calcular a média
+do número médio de chamados,
+
+00:00:04.204 --> 00:00:07.216
+vamos arrastar uma ferramenta
+"Summarize" para a tela.
+
+00:00:08.008 --> 00:00:11.044
+Podemos usar uma fórmula
+para calcular a média
+
+00:00:11.078 --> 00:00:14.915
+e excluir os valores faltantes
+ao mesmo tempo.
+
+00:00:14.948 --> 00:00:20.020
+É só usar a função
+"Avg No 0".
+
+00:00:20.053 --> 00:00:22.756
+Vamos clicar no campo
+"Average Number of Tickets"
+
+00:00:22.789 --> 00:00:26.226
+no painel "Configuration",
+selecionar "Add"
+
+00:00:26.260 --> 00:00:30.230
+e depois vamos selecionar
+a função "Average - Ignore 0's".
+
+00:00:30.263 --> 00:00:34.168
+Depois vamos acrescentar
+uma ferramenta "Append Fields",
+
+00:00:34.201 --> 00:00:36.570
+para podermos acrescentar
+o novo campo que calculamos
+
+00:00:36.603 --> 00:00:39.072
+em todas as linhas de dados.
+
+00:00:39.373 --> 00:00:42.409
+Agora vamos conectar
+todos os dados
+
+00:00:42.442 --> 00:00:45.812
+e selecionar "Allow All Appends"
+na parte de baixo.
+
+00:00:45.846 --> 00:00:48.315
+Agora que a média
+do número médio de chamados
+
+00:00:48.348 --> 00:00:52.619
+foi acrescentada a todos
+os registros do conjunto de dados,
+
+00:00:52.653 --> 00:00:57.891
+podemos substituir
+os registros com valor "Null"
+
+00:00:57.925 --> 00:01:00.093
+no número médio de registros
+
+00:01:00.127 --> 00:01:03.864
+pelo campo novo
+que calculamos.
+
+00:01:04.131 --> 00:01:07.334
+Para fazer isso, acrescente
+uma ferramenta "Formula"
+
+00:01:07.367 --> 00:01:11.839
+e atualize o campo chamado
+"Average Number of Tickets".
+
+00:01:11.872 --> 00:01:15.976
+Mas vamos construir
+uma expressão condicional
+
+00:01:16.009 --> 00:01:18.879
+que acha os lugares
+em que o valor é nulo
+
+00:01:18.912 --> 00:01:23.617
+e o substitui pelo valor novo
+que acabamos de calcular.
+
+00:01:23.650 --> 00:01:25.853
+Para fazer isso,
+vamos entrar em "Functions",
+
+00:01:25.886 --> 00:01:31.358
+selecionar "Conditional", escolher
+a 1ª condição "if then else"
+
+00:01:32.492 --> 00:01:34.261
+e construir a condição:
+
+00:01:34.294 --> 00:01:37.364
+"If Is Null..."
+
+00:01:37.397 --> 00:01:40.033
+Vamos entrar
+em "Text Functions"
+
+00:01:40.067 --> 00:01:45.072
+e procurar onde o campo
+"Average Number of Tickets" é nulo.
+
+00:01:45.105 --> 00:01:50.477
+Então o "t" se torna o campo
+que acabamos de calcular.
+
+00:01:50.511 --> 00:01:53.847
+Ou, "else", mantemos
+o valor original
+
+00:01:53.881 --> 00:01:56.483
+do número de chamados.
+
+00:01:56.517 --> 00:01:57.985
+Quando ativarmos o workflow,
+
+00:01:58.018 --> 00:02:02.322
+vamos poder verificar
+se a fórmula funcionou direito.
+
+00:02:02.356 --> 00:02:05.092
+Então vamos ver os resultados.
+
+00:02:05.125 --> 00:02:08.128
+Agora não há mais
+valores nulos aqui,
+
+00:02:08.161 --> 00:02:10.831
+e você pode ver que o valor
+que os substituiu
+
+00:02:10.864 --> 00:02:16.603
+foi a média do número
+médio de chamados.
+
+00:02:16.637 --> 00:02:18.772
+Por fim, podemos acrescentar
+uma ferramenta "Scatterplot"
+
+00:02:18.805 --> 00:02:20.607
+e observar o resultado.
+
+00:02:20.641 --> 00:02:24.111
+Vamos configurá-lo do mesmo modo
+que foi configurado antes.
+
+00:02:24.144 --> 00:02:28.348
+Agora podemos comparar
+o gráfico de dispersão ao original.
+
+00:02:28.382 --> 00:02:33.387
+À esquerda, vemos o gráfico
+original, com todos os dados
+
+00:02:33.420 --> 00:02:36.557
+e, à direita, vemos o gráfico
+
+00:02:36.590 --> 00:02:40.027
+com os dados
+e os valores imputados.
+
+00:02:40.060 --> 00:02:43.997
+Rapidamente, podemos ver
+que, ao usar a imputação,
+
+00:02:44.031 --> 00:02:48.669
+obtemos uma inclinação de reta
+muito parecida com a original,
+
+00:02:48.702 --> 00:02:52.806
+o que nos dá confiança de que
+essa pode ser a maneira certa
+
+00:02:52.840 --> 00:02:54.908
+de lidar com as linhas
+que estão faltando
+
+00:02:54.942 --> 00:02:57.277
+no campo
+com o número médio de chamados.
+
+00:02:57.310 --> 00:02:58.478
+*END*
+
+00:02:58.512 --> 00:02:59.813
+*CODE*
+

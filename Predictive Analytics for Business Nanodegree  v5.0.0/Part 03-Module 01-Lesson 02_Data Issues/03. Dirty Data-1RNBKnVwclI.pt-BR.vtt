@@ -1,0 +1,110 @@
+WEBVTT
+Kind: captions
+Language: pt-BR
+
+00:00:00.667 --> 00:00:03.133
+O que queremos dizer
+com "dados brutos"?
+
+00:00:03.167 --> 00:00:07.133
+Dados brutos são dados
+que contêm algum tipo de erro
+
+00:00:07.167 --> 00:00:10.934
+ou estão em formato
+não acessível ou não utilizável.
+
+00:00:10.968 --> 00:00:13.799
+Você vai ter que passar certo tempo
+limpando dados brutos
+
+00:00:13.832 --> 00:00:17.400
+para garantir que vai obter
+a resposta certa para a análise.
+
+00:00:17.434 --> 00:00:20.534
+Por exemplo, se quisermos
+contar clientes,
+
+00:00:20.567 --> 00:00:24.400
+mas alguns desses clientes aparecem
+em registros duplicados,
+
+00:00:24.434 --> 00:00:27.067
+então teremos que consertar
+o problema antes de contá-los
+
+00:00:27.100 --> 00:00:29.300
+ou vamos obter
+uma contagem errada.
+
+00:00:29.701 --> 00:00:31.666
+À medida que começarmos
+a analisar dados,
+
+00:00:31.699 --> 00:00:34.634
+poderemos encontrar
+vários tipos de dados brutos.
+
+00:00:34.667 --> 00:00:37.434
+Pense na maneira que os dados
+são coletados pelas empresas.
+
+00:00:37.467 --> 00:00:39.133
+Alguns são processados
+manualmente,
+
+00:00:39.167 --> 00:00:41.767
+e parte desses dados
+sempre vai ser suspeita
+
+00:00:41.801 --> 00:00:44.334
+por causa de, bem...
+Dos erros humanos.
+
+00:00:44.367 --> 00:00:47.068
+Vamos ver alguns exemplos
+de dados brutos.
+
+00:00:47.565 --> 00:00:51.767
+Quantas vezes seu nome foi soletrado
+errado numa correspondência?
+
+00:00:51.801 --> 00:00:54.033
+Isso provavelmente foi
+um erro de digitação
+
+00:00:54.067 --> 00:00:56.934
+feito por alguém
+que cadastrou seu nome manualmente.
+
+00:00:56.968 --> 00:01:00.100
+E quando recebemos a mesma
+propaganda duas vezes?
+
+00:01:00.133 --> 00:01:04.067
+Isso é um problema de duplicação
+do registro da mesma pessoa.
+
+00:01:04.100 --> 00:01:05.767
+E quando recebemos
+uma correspondência
+
+00:01:05.801 --> 00:01:08.934
+para alguém que morava
+no nosso endereço?
+
+00:01:08.968 --> 00:01:11.033
+Isso também é um tipo
+de dado bruto
+
+00:01:11.067 --> 00:01:14.567
+porque não é preciso,
+e a pessoa se mudou.
+
+00:01:14.600 --> 00:01:15.934
+*END*
+
+00:01:15.968 --> 00:01:17.267
+*CODE*
+

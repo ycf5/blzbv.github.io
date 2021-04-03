@@ -1,0 +1,167 @@
+WEBVTT
+Kind: captions
+Language: pt-BR
+
+00:00:00.367 --> 00:00:03.533
+Há vários modos de tentar
+encontrar valores atípicos
+
+00:00:03.567 --> 00:00:07.133
+de maneira mais metódica
+que apenas enxergá-los.
+
+00:00:07.167 --> 00:00:09.867
+Um deles é
+um diagrama em caixa.
+
+00:00:09.900 --> 00:00:14.233
+Com este tipo de visualização,
+podemos usar a regra geral
+
+00:00:14.267 --> 00:00:15.833
+que diz que,
+se um valor corresponder
+
+00:00:15.867 --> 00:00:20.267
+a 1,5 vez a amplitude interquartil
+de um conjunto de dados,
+
+00:00:20.300 --> 00:00:23.400
+então ele pode ser
+considerado um valor atípico.
+
+00:00:23.433 --> 00:00:26.867
+Acabamos de acrescentar à mistura
+o termo "amplitude interquartil",
+
+00:00:26.900 --> 00:00:29.267
+que pode não ser conhecido
+por todos.
+
+00:00:29.300 --> 00:00:33.467
+Então vamos ver
+o que é isto e o que significa.
+
+00:00:33.833 --> 00:00:36.433
+Aqui temos
+um diagrama em caixa simples,
+
+00:00:36.467 --> 00:00:41.200
+que usa os mesmos dados sobre renda
+com os quais criamos o histograma.
+
+00:00:41.233 --> 00:00:45.367
+Vamos revisar rapidamente
+os componentes desta visualização.
+
+00:00:45.833 --> 00:00:48.767
+A linha do meio é a mediana
+dos dados.
+
+00:00:48.800 --> 00:00:52.600
+É o valor central
+quando alinhamos todos os dados.
+
+00:00:52.633 --> 00:00:56.933
+Então temos duas linhas
+que identificam o 1º e o 3º quartis.
+
+00:00:56.967 --> 00:01:02.800
+As duas são a mediana das partes
+superior e inferior dos dados.
+
+00:01:02.833 --> 00:01:06.067
+Tudo que está no meio
+e é representado pela caixa laranja
+
+00:01:06.100 --> 00:01:08.733
+é a amplitude interquartil.
+
+00:01:08.767 --> 00:01:12.400
+Seu valor é a diferença
+entre o valor do 3º quartil
+
+00:01:12.433 --> 00:01:14.933
+e o valor do 1º quartil.
+
+00:01:14.967 --> 00:01:17.700
+De acordo
+com a nossa definição geral,
+
+00:01:17.733 --> 00:01:21.933
+se um ponto for 1,5 vez maior
+que a amplitude interquartil -
+
+00:01:21.967 --> 00:01:25.833
+acima do 3º quartil
+ou abaixo do primeiro -
+
+00:01:25.867 --> 00:01:28.400
+nós o consideramos
+um valor atípico.
+
+00:01:28.433 --> 00:01:32.567
+Para demonstrar como determinaríamos
+se um valor é atípico,
+
+00:01:32.600 --> 00:01:36.767
+incluí um exemplo
+na área abaixo do vídeo.
+
+00:01:37.167 --> 00:01:41.133
+No caso dos nossos dados,
+todos os dados menos um ponto -
+
+00:01:41.167 --> 00:01:45.200
+este círculo aqui em cima -
+param em 100 mil.
+
+00:01:45.233 --> 00:01:47.767
+Então é aqui
+que a linha é desenhada.
+
+00:01:47.967 --> 00:01:51.700
+Mas, por este diagrama, podemos
+ver como os dados são distribuídos
+
+00:01:51.733 --> 00:01:54.367
+e onde os valores extremos
+estão.
+
+00:01:54.400 --> 00:01:57.467
+Outra visualização que está
+se tornando mais reconhecida,
+
+00:01:57.500 --> 00:02:00.633
+que não vamos explicar em detalhes,
+mas devemos conhecer,
+
+00:02:00.667 --> 00:02:03.000
+é o violin plot.
+
+00:02:03.033 --> 00:02:07.400
+Ele tem componentes parecidos
+com os do diagrama em caixa,
+
+00:02:07.433 --> 00:02:10.700
+mas ele acrescenta um componente
+que mostra o volume
+
+00:02:10.733 --> 00:02:16.600
+da distribuição dos dados,
+indicado pela largura da área azul.
+
+00:02:16.633 --> 00:02:20.367
+Gosto de imaginar que ele combina
+os aspectos de um histograma
+
+00:02:20.400 --> 00:02:25.933
+e do diagrama em caixa para nos dar
+uma visão mais completa dos dados.
+
+00:02:25.966 --> 00:02:27.300
+*END*
+
+00:02:27.333 --> 00:02:28.633
+*CODE*
+

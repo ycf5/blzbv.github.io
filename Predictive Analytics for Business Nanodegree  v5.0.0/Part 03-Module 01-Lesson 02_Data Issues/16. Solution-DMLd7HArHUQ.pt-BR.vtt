@@ -1,0 +1,60 @@
+WEBVTT
+Kind: captions
+Language: pt-BR
+
+00:00:00.167 --> 00:00:02.700
+Depois de importar
+o arquivo "FuzzyData2",
+
+00:00:02.733 --> 00:00:04.767
+vamos adicionar
+uma ferramenta "Summarize",
+
+00:00:04.800 --> 00:00:09.267
+selecionar "Contact",
+ir até "Add" e escolher "Group By".
+
+00:00:09.300 --> 00:00:10.867
+Então vamos voltar a "Add".
+
+00:00:10.900 --> 00:00:13.867
+Vamos gerar uma contagem
+dos registros de contato,
+
+00:00:13.900 --> 00:00:15.733
+selecionando "Count".
+
+00:00:15.767 --> 00:00:18.867
+Para encontrar os registros com
+o valor mais alto no campo "Count",
+
+00:00:18.900 --> 00:00:20.667
+vamos selecionar
+a ferramenta "Sort"
+
+00:00:20.700 --> 00:00:24.100
+e ordenar o campo "Count"
+em ordem "Descending".
+
+00:00:24.133 --> 00:00:28.100
+Há um grande número de registros
+com valor "Null" no campo "Contact",
+
+00:00:28.133 --> 00:00:30.567
+mas, como pedimos
+o nome do contato,
+
+00:00:30.600 --> 00:00:34.400
+o registro seguinte com o maior
+número de duplicatas é "Tim Coyle".
+
+00:00:34.433 --> 00:00:36.967
+Então a resposta certa
+é "Tim Coyle".
+
+00:00:37.600 --> 00:00:38.900
+*END*
+
+00:00:38.933 --> 00:00:40.233
+*CODE*
+

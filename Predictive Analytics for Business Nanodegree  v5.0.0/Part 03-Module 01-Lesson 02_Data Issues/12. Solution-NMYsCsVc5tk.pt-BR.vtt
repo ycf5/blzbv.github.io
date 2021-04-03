@@ -1,0 +1,130 @@
+WEBVTT
+Kind: captions
+Language: pt-BR
+
+00:00:00.333 --> 00:00:01.667
+Como mencionei antes,
+
+00:00:01.700 --> 00:00:04.200
+os dados estão formatados
+de várias maneiras,
+
+00:00:04.233 --> 00:00:06.067
+e queremos deixá-los
+na mesma forma,
+
+00:00:06.100 --> 00:00:09.700
+com três números, um hífen,
+três números, um hífen
+
+00:00:09.733 --> 00:00:11.267
+e quatro números.
+
+00:00:11.300 --> 00:00:13.900
+Para fazer isso, podemos usar
+a ferramenta "Formula",
+
+00:00:13.933 --> 00:00:16.767
+mas precisamos fazer
+em dois passos.
+
+00:00:16.800 --> 00:00:19.767
+Primeiro, temos que limpar
+o símbolo anterior aos números
+
+00:00:19.800 --> 00:00:21.600
+e removê-lo totalmente.
+
+00:00:21.633 --> 00:00:24.500
+Para fazer isso, vamos usar
+a função "Replace".
+
+00:00:24.533 --> 00:00:28.933
+Escolha o campo "Phone"
+em "Output Field"
+
+00:00:28.967 --> 00:00:31.433
+e selecione
+a função "Replace".
+
+00:00:31.667 --> 00:00:35.500
+A string vai se tornar
+o campo "Phone",
+
+00:00:35.533 --> 00:00:40.367
+o "Target" vai se tornar
+o parêntese aberto entre aspas,
+
+00:00:40.400 --> 00:00:44.233
+e vamos substituí-lo
+por duas aspas sem nada no meio.
+
+00:00:45.267 --> 00:00:49.267
+Quando ativamos o Alteryx, vemos
+que isso consertou o 1º caractere
+
+00:00:49.300 --> 00:00:50.800
+e o removeu.
+
+00:00:50.833 --> 00:00:53.733
+Agora vamos acrescentar
+uma 2ª fórmula
+
+00:00:53.767 --> 00:00:57.067
+para consertar o caractere
+após os três primeiros números.
+
+00:00:57.100 --> 00:01:00.600
+Podemos usar a fórmula
+"ReplaceChar"
+
+00:01:00.633 --> 00:01:05.600
+porque vamos substituir
+tanto o parêntese fechado
+
+00:01:05.633 --> 00:01:10.633
+quanto a barra por um hífen.
+
+00:01:10.667 --> 00:01:13.900
+Vamos selecionar "Phone"
+como "Output Field" de novo
+
+00:01:13.933 --> 00:01:17.233
+e, em "Functions",
+escolher "ReplaceChar".
+
+00:01:17.267 --> 00:01:20.000
+A string será o campo "Phone".
+
+00:01:20.033 --> 00:01:23.133
+A letra "Y" será substituída
+
+00:01:23.167 --> 00:01:28.000
+pelo parêntese fechado
+e a barra entre aspas.
+
+00:01:28.033 --> 00:01:32.600
+Vamos substituir o "Z"
+por um hífen entre aspas.
+
+00:01:32.633 --> 00:01:36.900
+Ele vai procurar
+o parêntese fechado ou a barra
+
+00:01:36.933 --> 00:01:39.000
+e substituí-los por um hífen.
+
+00:01:39.033 --> 00:01:41.267
+Agora nossos dados
+estão padronizados
+
+00:01:41.300 --> 00:01:44.033
+no formato correto
+para números de telefone.
+
+00:01:44.066 --> 00:01:45.400
+*END*
+
+00:01:45.433 --> 00:01:46.733
+*CODE*
+

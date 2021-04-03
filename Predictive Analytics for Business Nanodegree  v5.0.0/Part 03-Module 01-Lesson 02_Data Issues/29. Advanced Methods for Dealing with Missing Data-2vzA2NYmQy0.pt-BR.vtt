@@ -1,0 +1,134 @@
+WEBVTT
+Kind: captions
+Language: pt-BR
+
+00:00:00.601 --> 00:00:02.767
+Já exploramos alguns
+métodos mais simples
+
+00:00:02.801 --> 00:00:04.734
+para lidar
+com dados faltantes.
+
+00:00:04.767 --> 00:00:08.467
+Deletar e imputar dados
+são ações relativamente fáceis,
+
+00:00:08.501 --> 00:00:12.868
+mas vimos que pode haver
+problemas nas duas abordagens.
+
+00:00:12.901 --> 00:00:15.133
+Agora, dependendo
+da análise de negócio,
+
+00:00:15.167 --> 00:00:17.367
+podemos progredir
+para métodos mais avançados
+
+00:00:17.400 --> 00:00:19.267
+de resolução
+de dados faltantes.
+
+00:00:19.300 --> 00:00:21.734
+Apesar de isso estar
+fora do escopo da aula,
+
+00:00:21.767 --> 00:00:25.400
+vou mencionar alguns métodos
+que você pode explorar sozinho.
+
+00:00:25.901 --> 00:00:29.067
+O primeiro é chamado
+de "Imputação múltipla".
+
+00:00:29.100 --> 00:00:32.601
+Neste caso, fazemos o processo
+de imputação várias vezes,
+
+00:00:32.634 --> 00:00:35.634
+usando um método
+que preveja os valores faltantes.
+
+00:00:35.667 --> 00:00:39.000
+Normalmente, usamos
+uma regressão de outras variáveis
+
+00:00:39.033 --> 00:00:41.834
+e acrescentamos
+um erro aleatório.
+
+00:00:41.868 --> 00:00:46.934
+Com estes vários conjuntos de dados,
+crie o modelo analítico várias vezes
+
+00:00:46.968 --> 00:00:50.267
+e misture esses modelos.
+
+00:00:50.901 --> 00:00:53.634
+Como já mencionamos,
+este é um método avançado
+
+00:00:53.667 --> 00:00:55.634
+e é bastante sofisticado.
+
+00:00:55.667 --> 00:00:57.868
+Mas, se o problema de negócio
+e os resultados
+
+00:00:57.901 --> 00:01:01.300
+estiverem muito errados quando
+você usar um método mais simples,
+
+00:01:01.334 --> 00:01:04.067
+talvez você queira
+explorar essa opção.
+
+00:01:04.734 --> 00:01:07.834
+Outro método avançado
+é a máxima verossimilhança
+
+00:01:07.868 --> 00:01:09.968
+de informação completa.
+
+00:01:10.001 --> 00:01:13.400
+Até o nome dá um pouco
+de medo, não é?
+
+00:01:13.434 --> 00:01:16.234
+Nela, os valores faltantes
+não são substituídos,
+
+00:01:16.267 --> 00:01:20.167
+mas controlados
+dentro do processo de modelagem.
+
+00:01:20.200 --> 00:01:22.534
+Isso só funciona
+com certos tipos de modelos
+
+00:01:22.567 --> 00:01:26.901
+e exige softwares especiais
+que possam lidar com a metodologia.
+
+00:01:26.934 --> 00:01:30.167
+Mais uma vez, ambos estão
+fora do escopo do curso,
+
+00:01:30.200 --> 00:01:32.501
+mas eu queria que você
+os conhecesse.
+
+00:01:32.534 --> 00:01:34.968
+Para obter mais informações,
+você pode ver alguns links
+
+00:01:35.000 --> 00:01:37.534
+na área abaixo do vídeo.
+
+00:01:37.567 --> 00:01:38.901
+*END*
+
+00:01:38.934 --> 00:01:40.234
+*CODE*
+

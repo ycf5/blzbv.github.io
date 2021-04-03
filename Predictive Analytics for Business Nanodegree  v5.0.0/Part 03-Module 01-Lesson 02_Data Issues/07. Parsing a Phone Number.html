@@ -1,0 +1,299 @@
+<!-- udacity2.0 -->
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Parsing a Phone Number</title>
+  <link rel="stylesheet" href="../assets/css/bootstrap.min.css">
+  <link rel="stylesheet" href="../assets/css/plyr.css">
+  <link rel="stylesheet" href="../assets/css/katex.min.css">
+  <link rel="stylesheet" href="../assets/css/jquery.mCustomScrollbar.min.css">
+  <link rel="stylesheet" href="../assets/css/styles.css">
+  <link rel="shortcut icon" type="image/png" href="../assets/img/udacimak.png" />
+</head>
+
+<body>
+  <div class="wrapper">
+    <nav id="sidebar">
+  <div class="sidebar-header">
+    <h3>Data Issues</h3>
+  </div>
+
+  <ul class="sidebar-list list-unstyled CTAs">
+    <li>
+      <a href="../index.html" class="article">Back to Home</a>
+    </li>
+  </ul>
+
+  <ul class="sidebar-list list-unstyled components">
+    <li class="">
+      <a href="01. Lesson Introduction.html">01. Lesson Introduction</a>
+    </li>
+    <li class="">
+      <a href="02. Interview - Importance of Data Cleaning.html">02. Interview - Importance of Data Cleaning</a>
+    </li>
+    <li class="">
+      <a href="03. Dirty Data.html">03. Dirty Data</a>
+    </li>
+    <li class="">
+      <a href="04. Examples of Dirty Data.html">04. Examples of Dirty Data</a>
+    </li>
+    <li class="">
+      <a href="05. Dirty Data - Parsing.html">05. Dirty Data - Parsing</a>
+    </li>
+    <li class="">
+      <a href="06. Dirty Data - Parsing Example in Alteryx.html">06. Dirty Data - Parsing Example in Alteryx</a>
+    </li>
+    <li class="">
+      <a href="07. Parsing a Phone Number.html">07. Parsing a Phone Number</a>
+    </li>
+    <li class="">
+      <a href="08. Parsing a Phone Number Solution.html">08. Parsing a Phone Number Solution</a>
+    </li>
+    <li class="">
+      <a href="09. Dirty Data - Extra Characters.html">09. Dirty Data - Extra Characters</a>
+    </li>
+    <li class="">
+      <a href="10. Dirty Data - Extra Characters Example.html">10. Dirty Data - Extra Characters Example</a>
+    </li>
+    <li class="">
+      <a href="11. Dirty Data - Extra Characters Exercise.html">11. Dirty Data - Extra Characters Exercise</a>
+    </li>
+    <li class="">
+      <a href="12. Dirty Data - Extra Characters Solution.html">12. Dirty Data - Extra Characters Solution</a>
+    </li>
+    <li class="">
+      <a href="13. Dirty Data - Duplicate Data .html">13. Dirty Data - Duplicate Data </a>
+    </li>
+    <li class="">
+      <a href="14. Dirty Data - Duplicate Data Example.html">14. Dirty Data - Duplicate Data Example</a>
+    </li>
+    <li class="">
+      <a href="15. Deduping - Exercise .html">15. Deduping - Exercise </a>
+    </li>
+    <li class="">
+      <a href="16. Deduping - Solution.html">16. Deduping - Solution</a>
+    </li>
+    <li class="">
+      <a href="17. Missing Data.html">17. Missing Data</a>
+    </li>
+    <li class="">
+      <a href="18. What Does Missing Data Look Like.html">18. What Does Missing Data Look Like?</a>
+    </li>
+    <li class="">
+      <a href="19. Why Do We Care About Missing Data.html">19. Why Do We Care About Missing Data?</a>
+    </li>
+    <li class="">
+      <a href="20. Dealing with Missing Data - Deletion Exercise.html">20. Dealing with Missing Data - Deletion Exercise</a>
+    </li>
+    <li class="">
+      <a href="21. Dealing with Missing Data - Deletion Solution.html">21. Dealing with Missing Data - Deletion Solution</a>
+    </li>
+    <li class="">
+      <a href="22. Effect of Deletion on Model .html">22. Effect of Deletion on Model </a>
+    </li>
+    <li class="">
+      <a href="23. Dealing with Missing Data - Deletion Exercise 2.html">23. Dealing with Missing Data - Deletion Exercise 2</a>
+    </li>
+    <li class="">
+      <a href="24. Dealing with Missing Data - Deletion Solution 2.html">24. Dealing with Missing Data - Deletion Solution 2</a>
+    </li>
+    <li class="">
+      <a href="25. Imputation.html">25. Imputation</a>
+    </li>
+    <li class="">
+      <a href="26. Dealing with Missing Data - Imputation.html">26. Dealing with Missing Data - Imputation</a>
+    </li>
+    <li class="">
+      <a href="27. Dealing with Missing Data - Imputation Exercise.html">27. Dealing with Missing Data - Imputation Exercise</a>
+    </li>
+    <li class="">
+      <a href="28. Dealing with Missing Data - Imputation Solution.html">28. Dealing with Missing Data - Imputation Solution</a>
+    </li>
+    <li class="">
+      <a href="29. Advanced Methods for Dealing with Missing Data.html">29. Advanced Methods for Dealing with Missing Data</a>
+    </li>
+    <li class="">
+      <a href="30. Missing Data Factors to Consider.html">30. Missing Data Factors to Consider</a>
+    </li>
+    <li class="">
+      <a href="31. Introduction to Outliers.html">31. Introduction to Outliers</a>
+    </li>
+    <li class="">
+      <a href="32. Interview - Importance of Catching Outliers.html">32. Interview - Importance of Catching Outliers</a>
+    </li>
+    <li class="">
+      <a href="33. What is an Outlier.html">33. What is an Outlier?</a>
+    </li>
+    <li class="">
+      <a href="34. Why Do We Care About Outliers.html">34. Why Do We Care About Outliers?</a>
+    </li>
+    <li class="">
+      <a href="35. Effect of Outliers on Our Model.html">35. Effect of Outliers on Our Model</a>
+    </li>
+    <li class="">
+      <a href="36. Effect of Outliers - Exercise.html">36. Effect of Outliers - Exercise</a>
+    </li>
+    <li class="">
+      <a href="37. Effect of Outliers - Solution.html">37. Effect of Outliers - Solution</a>
+    </li>
+    <li class="">
+      <a href="38. Identifying Outliers.html">38. Identifying Outliers</a>
+    </li>
+    <li class="">
+      <a href="39. Identifying Outliers Exercise.html">39. Identifying Outliers Exercise</a>
+    </li>
+    <li class="">
+      <a href="40. Dealing with Outliers.html">40. Dealing with Outliers</a>
+    </li>
+    <li class="">
+      <a href="41. Outliers Quiz 1.html">41. Outliers Quiz 1</a>
+    </li>
+    <li class="">
+      <a href="42. Outliers Quiz 2.html">42. Outliers Quiz 2</a>
+    </li>
+    <li class="">
+      <a href="43. Outliers Quiz 3.html">43. Outliers Quiz 3</a>
+    </li>
+    <li class="">
+      <a href="44. Wrap Up.html">44. Wrap Up</a>
+    </li>
+  </ul>
+
+  <ul class="sidebar-list list-unstyled CTAs">
+    <li>
+      <a href="../index.html" class="article">Back to Home</a>
+    </li>
+  </ul>
+</nav>
+
+    <div id="content">
+      <header class="container-fluild header">
+        <div class="container">
+          <div class="row">
+            <div class="col-12">
+              <div class="align-items-middle">
+                <button type="button" id="sidebarCollapse" class="btn btn-toggle-sidebar">
+                  <div></div>
+                  <div></div>
+                  <div></div>
+                </button>
+
+                <h1 style="display: inline-block">07. Parsing a Phone Number</h1>
+              </div>
+            </div>
+          </div>
+        </div>
+      </header>
+
+      <main class="container">
+        <div class="row">
+          <div class="col-12">
+            <div class="ud-atom">
+  <h3><p>Parsing a Phone Number</p></h3>
+  <video controls>
+  <source src="07. Parsing a Phone Number-RNzR57mAWQU.mp4" type="video/mp4">
+
+  <track default="false" kind="subtitles" srclang="zh-CN" src="07. Parsing a Phone Number-RNzR57mAWQU.zh-CN.vtt" label="zh-CN">
+  <track default="true" kind="subtitles" srclang="en" src="07. Parsing a Phone Number-RNzR57mAWQU.en.vtt" label="en">
+  <track default="false" kind="subtitles" srclang="pt-BR" src="07. Parsing a Phone Number-RNzR57mAWQU.pt-BR.vtt" label="pt-BR">
+</video>
+
+
+</div>
+<div class="divider"></div>
+          </div>
+
+          <div class="col-12">
+            <p class="text-right">
+              <a href="08. Parsing a Phone Number Solution.html" class="btn btn-outline-primary mt-4" role="button">Next Concept</a>
+            </p>
+          </div>
+        </div>
+      </main>
+
+      <footer class="footer">
+        <div class="container">
+          <div class="row">
+            <div class="col-12">
+              <p class="text-center">
+                <a href="https://us-udacity.github.io/" target="_blank">【udacity2.0 】If you need more courses, please add wechat：udacity6</a>
+              </p>
+            </div>
+          </div>
+        </div>
+      </footer>
+    </div>
+  </div>
+
+
+  <script src="../assets/js/jquery-3.3.1.min.js"></script>
+  <script src="../assets/js/plyr.polyfilled.min.js"></script>
+  <script src="../assets/js/bootstrap.min.js"></script>
+  <script src="../assets/js/jquery.mCustomScrollbar.concat.min.js"></script>
+  <script src="../assets/js/katex.min.js"></script>
+  <script>
+    // Initialize Plyr video players
+    const players = Array.from(document.querySelectorAll('video')).map(p => new Plyr(p));
+
+    // render math equations
+    let elMath = document.getElementsByClassName('mathquill');
+    for (let i = 0, len = elMath.length; i < len; i += 1) {
+      const el = elMath[i];
+
+      katex.render(el.textContent, el, {
+        throwOnError: false
+      });
+    }
+
+    // this hack will make sure Bootstrap tabs work when using Handlebars
+    if ($('#question-tabs').length && $('#user-answer-tabs').length) {
+      $("#question-tabs a.nav-link").on('click', function () {
+        $("#question-tab-contents .tab-pane").hide();
+        $($(this).attr("href")).show();
+      });
+      $("#user-answer-tabs a.nav-link").on('click', function () {
+        $("#user-answer-tab-contents .tab-pane").hide();
+        $($(this).attr("href")).show();
+      });
+    } else {
+      $("a.nav-link").on('click', function () {
+        $(".tab-pane").hide();
+        $($(this).attr("href")).show();
+      });
+    }
+
+    // side bar events
+    $(document).ready(function () {
+      $("#sidebar").mCustomScrollbar({
+        theme: "minimal"
+      });
+
+      $('#sidebarCollapse').on('click', function () {
+        $('#sidebar, #content').toggleClass('active');
+        $('.collapse.in').toggleClass('in');
+        $('a[aria-expanded=true]').attr('aria-expanded', 'false');
+      });
+
+      // scroll to first video on page loading
+      if ($('video').length) {
+        $('html,body').animate({ scrollTop: $('div.plyr').prev().offset().top});
+      }
+
+      // auto play first video: this may not work with chrome/safari due to autoplay policy
+      if (players && players.length > 0) {
+        players[0].play();
+      }
+
+      // scroll sidebar to current concept
+      const currentInSideBar = $( "ul.sidebar-list.components li a:contains('07. Parsing a Phone Number')" )
+      currentInSideBar.css( "text-decoration", "underline" );
+      $("#sidebar").mCustomScrollbar('scrollTo', currentInSideBar);
+    });
+  </script>
+</body>
+
+</html>

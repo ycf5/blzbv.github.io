@@ -1,0 +1,152 @@
+WEBVTT
+Kind: captions
+Language: pt-BR
+
+00:00:00.067 --> 00:00:02.200
+Por que nos importamos
+com dados faltantes?
+
+00:00:02.233 --> 00:00:06.433
+Vamos falar sobre alguns motivos
+para lidar com dados faltantes
+
+00:00:06.467 --> 00:00:10.433
+antes de completar uma análise
+com certo conjunto de dados.
+
+00:00:10.833 --> 00:00:14.167
+Um dos motivos mais básicos
+para nos importarmos
+
+00:00:14.200 --> 00:00:17.333
+é o fato de alguns algoritmos
+estatísticos não funcionarem
+
+00:00:17.367 --> 00:00:19.933
+quando há valores faltantes
+nos dados.
+
+00:00:20.533 --> 00:00:23.533
+Obviamente não podemos
+continuar fazendo uma análise
+
+00:00:23.567 --> 00:00:27.067
+se o processo que estamos usando
+não nos leva ao resultado final.
+
+00:00:27.100 --> 00:00:31.633
+Então, nesses casos, temos
+que lidar com os dados faltantes.
+
+00:00:32.300 --> 00:00:34.067
+Um 2º motivo, mais sutil,
+
+00:00:34.100 --> 00:00:37.700
+é que itens faltantes podem
+adicionar viés ao modelo.
+
+00:00:38.233 --> 00:00:40.533
+O termo "viés" em estatística
+
+00:00:40.567 --> 00:00:43.167
+se refere à tendência
+de uma análise
+
+00:00:43.200 --> 00:00:49.033
+a superestimar ou subestimar valores
+de um campo ou parâmetro específico.
+
+00:00:49.067 --> 00:00:52.067
+Em outras palavras,
+quando há vieses presentes,
+
+00:00:52.100 --> 00:00:55.033
+isso pode aumentar ou diminuir
+os resultados do modelo,
+
+00:00:55.067 --> 00:00:57.367
+dependendo de quantos
+vieses existam
+
+00:00:57.400 --> 00:01:00.067
+em uma das variáveis
+que estamos usando.
+
+00:01:00.567 --> 00:01:03.333
+Por exemplo,
+na nossa pesquisa hipotética,
+
+00:01:03.367 --> 00:01:06.267
+em que uma das perguntas
+tem a ver com a idade,
+
+00:01:06.300 --> 00:01:10.733
+muitas pessoas mais velhas
+podem hesitar em fornecer sua idade.
+
+00:01:10.767 --> 00:01:14.633
+Se pudéssemos saber qual é
+a idade verdadeira dessas pessoas,
+
+00:01:14.667 --> 00:01:17.333
+então teríamos
+uma imagem mais precisa.
+
+00:01:18.200 --> 00:01:19.967
+Um dos fatos
+que descobriríamos
+
+00:01:20.000 --> 00:01:25.400
+é que a média de idade
+das pessoas é, na verdade, 44,5.
+
+00:01:25.600 --> 00:01:27.767
+Mas, sem os dados verdadeiros,
+
+00:01:27.800 --> 00:01:30.700
+estaríamos trabalhando
+com uma média de idade de 40 anos.
+
+00:01:30.733 --> 00:01:33.267
+Dependendo do que a pergunta
+de negócio e a análise
+
+00:01:33.300 --> 00:01:34.767
+estivessem tentando resolver,
+
+00:01:34.800 --> 00:01:37.700
+estaríamos criando um viés
+
+00:01:37.733 --> 00:01:41.933
+que tenderia a uma população
+mais jovem no modelo analítico.
+
+00:01:41.967 --> 00:01:43.433
+Isso poderia afetar
+os resultados,
+
+00:01:43.467 --> 00:01:46.100
+e, sobretudo,
+as decisões de negócio
+
+00:01:46.133 --> 00:01:49.133
+poderiam ser feitas
+sobre modelos errôneos.
+
+00:01:49.167 --> 00:01:52.800
+Um comentário: se quiser mais
+informações sobre os vários modos
+
+00:01:52.833 --> 00:01:55.731
+como os vieses podem
+afetar o processamento de modelos,
+
+00:01:55.764 --> 00:01:57.800
+dê uma olhada nestes links.
+
+00:01:57.833 --> 00:01:59.167
+*END*
+
+00:01:59.200 --> 00:02:00.500
+*CODE*
+

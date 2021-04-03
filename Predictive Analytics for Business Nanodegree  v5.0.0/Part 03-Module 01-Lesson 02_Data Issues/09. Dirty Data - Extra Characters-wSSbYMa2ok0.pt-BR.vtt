@@ -1,0 +1,73 @@
+WEBVTT
+Kind: captions
+Language: pt-BR
+
+00:00:00.900 --> 00:00:03.467
+Outro problema que encontramos
+ao lidar com dados
+
+00:00:03.500 --> 00:00:06.100
+são caracteres extras
+nos campos.
+
+00:00:06.133 --> 00:00:09.833
+Eles podem ser tudo,
+de símbolos monetários a sinais.
+
+00:00:09.867 --> 00:00:13.667
+Temos que removê-los
+antes de trocar os tipos de campos.
+
+00:00:13.700 --> 00:00:17.533
+Por exemplo, talvez tenhamos
+que trocar strings por números
+
+00:00:17.567 --> 00:00:19.533
+para podermos fazer
+operações aritméticas.
+
+00:00:19.567 --> 00:00:22.767
+Talvez estejamos trabalhando
+com campos com símbolos estranhos
+
+00:00:22.800 --> 00:00:24.967
+que vieram de um sistema
+
+00:00:25.000 --> 00:00:28.600
+que acrescenta o símbolo
+ao campo automaticamente.
+
+00:00:28.633 --> 00:00:31.433
+A maneira mais fácil de consertar
+esse tipo de erro
+
+00:00:31.467 --> 00:00:33.800
+é simplesmente se livrar
+dos caracteres.
+
+00:00:34.867 --> 00:00:38.333
+Nesta seção, vamos analisar
+três problemas diferentes
+
+00:00:38.367 --> 00:00:41.167
+em que encontramos
+caracteres extras em campos.
+
+00:00:41.200 --> 00:00:46.733
+No 1º campo, temos aspas
+em nomes e teremos que removê-las.
+
+00:00:46.767 --> 00:00:49.733
+O 2º campo tem uma letra
+após o CEP.
+
+00:00:49.767 --> 00:00:55.533
+O 3º tem um símbolo monetário antes
+do número no campo "Quantidade".
+
+00:00:56.200 --> 00:00:57.500
+*END*
+
+00:00:57.533 --> 00:00:58.833
+*CODE*
+

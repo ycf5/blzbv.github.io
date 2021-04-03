@@ -1,0 +1,107 @@
+WEBVTT
+Kind: captions
+Language: pt-BR
+
+00:00:00.733 --> 00:00:02.900
+Aqui temos um pequeno
+conjuntos de dados
+
+00:00:02.933 --> 00:00:05.167
+que poderia ter vindo
+de uma pesquisa.
+
+00:00:05.200 --> 00:00:06.633
+Podemos ver
+como cada registro -
+
+00:00:06.667 --> 00:00:10.133
+também conhecido, em linguagem
+estatística, como "observação" -
+
+00:00:10.167 --> 00:00:12.733
+tem um número que identifica
+quem respondeu a pesquisa
+
+00:00:12.767 --> 00:00:16.833
+e o modo como responderam
+a várias perguntas da pesquisa.
+
+00:00:17.233 --> 00:00:20.267
+Por algum motivo, alguns
+dos registros ou observações
+
+00:00:20.300 --> 00:00:22.033
+não estão completos.
+
+00:00:22.067 --> 00:00:24.900
+Podemos ver nestes dados
+que são, basicamente,
+
+00:00:24.933 --> 00:00:27.433
+células limpas ou vazias.
+
+00:00:27.467 --> 00:00:30.967
+No entanto, dependendo
+de onde os dados vêm -
+
+00:00:31.000 --> 00:00:34.300
+talvez de um banco de dados,
+um arquivo .csv ou Excel -,
+
+00:00:34.333 --> 00:00:37.800
+os dados faltantes podem
+ter formatos diferentes.
+
+00:00:37.833 --> 00:00:41.333
+Por exemplo, se os dados vierem
+de um arquivo .csv,
+
+00:00:41.367 --> 00:00:44.633
+eles podem ficar
+como na nossa tela inicial,
+
+00:00:44.667 --> 00:00:47.367
+em que os dados faltantes
+são células vazias.
+
+00:00:47.400 --> 00:00:50.367
+No entanto, se os dados vierem
+de um banco de dados,
+
+00:00:50.400 --> 00:00:53.867
+poderemos vê-los representados
+pelo valor (Null).
+
+00:00:53.900 --> 00:00:58.267
+Esse é o modo de o banco de dados
+dizer que não sabe qual é o valor.
+
+00:00:58.300 --> 00:01:01.167
+Outra representação
+de dados faltantes
+
+00:01:01.200 --> 00:01:04.600
+pode ser o valor "N/A",
+
+00:01:04.633 --> 00:01:09.233
+que significa "não disponível"
+nos programas que usamos.
+
+00:01:09.267 --> 00:01:11.167
+Mas, seja qual for o modo
+como ele aparece,
+
+00:01:11.200 --> 00:01:13.267
+ainda temos
+que lidar com o fato
+
+00:01:13.300 --> 00:01:16.567
+de termos valores faltantes
+no nosso conjunto de dados.
+
+00:01:16.600 --> 00:01:17.933
+*END*
+
+00:01:17.967 --> 00:01:19.267
+*CODE*
+

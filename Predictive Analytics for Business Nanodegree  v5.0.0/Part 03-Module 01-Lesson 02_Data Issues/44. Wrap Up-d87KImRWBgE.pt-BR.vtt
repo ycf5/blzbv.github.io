@@ -1,0 +1,77 @@
+WEBVTT
+Kind: captions
+Language: pt-BR
+
+00:00:00.901 --> 00:00:02.536
+Tenho certeza de que você
+já entendeu
+
+00:00:02.569 --> 00:00:05.005
+que todo tipo de erro
+pode ocorrer nos dados.
+
+00:00:05.038 --> 00:00:06.907
+Para criar um ótimo
+conjunto de dados analíticos,
+
+00:00:06.940 --> 00:00:08.942
+é preciso conhecer
+os possíveis problemas,
+
+00:00:08.976 --> 00:00:11.345
+saber o que procurar
+e o que fazer.
+
+00:00:11.378 --> 00:00:13.647
+Falamos sobre como consertar
+dados brutos,
+
+00:00:13.680 --> 00:00:16.183
+por exemplo, dados
+que precisam ser parseados,
+
+00:00:16.216 --> 00:00:19.119
+ou em que caracteres ou registros
+extras precisam ser removidos.
+
+00:00:19.152 --> 00:00:22.422
+Também falamos sobre alguns métodos
+para lidar com dados faltantes,
+
+00:00:22.456 --> 00:00:24.758
+como a deleção e a imputação.
+
+00:00:24.791 --> 00:00:28.362
+Por fim, vimos como podemos
+identificar valores atípicos,
+
+00:00:28.395 --> 00:00:31.798
+por que é importante entendê-los
+e como lidar com eles.
+
+00:00:31.832 --> 00:00:33.934
+Agora que sabemos como limpar
+nossos dados brutos,
+
+00:00:33.967 --> 00:00:38.572
+faltantes ou anômalos,
+é hora de aprender a formatar dados.
+
+00:00:38.605 --> 00:00:41.241
+Na próxima aula, vamos
+conhecer alguns métodos
+
+00:00:41.275 --> 00:00:43.944
+usados para massagear os dados
+para deixá-los no formato exigido
+
+00:00:43.977 --> 00:00:47.514
+para construir o último
+conjunto de dados analíticos.
+
+00:00:47.547 --> 00:00:48.882
+*END*
+
+00:00:48.916 --> 00:00:50.184
+*CODE*
+

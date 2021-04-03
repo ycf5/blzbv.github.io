@@ -1,0 +1,74 @@
+WEBVTT
+Kind: captions
+Language: pt-BR
+
+00:00:00.834 --> 00:00:03.167
+Um 2º método para lidar
+com dados faltantes
+
+00:00:03.200 --> 00:00:07.234
+é imputar valores
+nas células vazias dos dados.
+
+00:00:07.267 --> 00:00:10.400
+Se você não conhece
+o termo "imputação",
+
+00:00:10.434 --> 00:00:15.267
+na estatística, é o processo
+de substituição de valores dos dados
+
+00:00:15.300 --> 00:00:17.133
+quando há valores faltando.
+
+00:00:17.167 --> 00:00:20.267
+Isso basicamente significa que,
+quando imputamos valores,
+
+00:00:20.300 --> 00:00:22.534
+estamos "inventando" todos.
+
+00:00:22.567 --> 00:00:25.934
+Alguns estatísticos podem
+não gostar dessa terminologia,
+
+00:00:25.968 --> 00:00:28.801
+mas é importante entender
+o que estamos fazendo
+
+00:00:28.834 --> 00:00:30.567
+quando imputamos dados.
+
+00:00:30.601 --> 00:00:32.868
+Estamos criando dados falsos
+
+00:00:32.901 --> 00:00:36.033
+para desenvolver um modelo
+que faça sentido
+
+00:00:36.067 --> 00:00:39.100
+e fique o mais próximo
+possível da realidade.
+
+00:00:39.133 --> 00:00:42.567
+A última parte dessa frase
+é a mais importante.
+
+00:00:42.601 --> 00:00:47.501
+Queremos desenvolver o modelo
+mais próximo possível da realidade.
+
+00:00:47.534 --> 00:00:50.067
+Então vamos voltar
+ao nosso conjunto de dados
+
+00:00:50.100 --> 00:00:55.100
+e ver o que pode significar imputar
+dados nos resultados da pesquisa.
+
+00:00:55.133 --> 00:00:56.400
+*END*
+
+00:00:56.433 --> 00:00:57.801
+*CODE*
+

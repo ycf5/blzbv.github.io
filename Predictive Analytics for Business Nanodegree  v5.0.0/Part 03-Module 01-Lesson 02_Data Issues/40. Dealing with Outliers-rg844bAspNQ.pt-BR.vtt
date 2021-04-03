@@ -1,0 +1,193 @@
+WEBVTT
+Kind: captions
+Language: pt-BR
+
+00:00:00.367 --> 00:00:02.867
+Agora que sabemos como
+identificar valores atípicos,
+
+00:00:02.900 --> 00:00:05.433
+o que precisamos fazer,
+como dissemos antes,
+
+00:00:05.467 --> 00:00:07.600
+é conferir os valores atípicos
+
+00:00:07.633 --> 00:00:10.933
+para ver se é provável
+que os dados estejam incorretos.
+
+00:00:10.967 --> 00:00:13.667
+Por exemplo, nos dados
+da última amostra,
+
+00:00:13.700 --> 00:00:17.800
+se a idade em uma das observações
+fosse 299,
+
+00:00:17.833 --> 00:00:20.233
+então teríamos justificativas
+para decidir
+
+00:00:20.267 --> 00:00:23.867
+que isso é um tipo de erro
+de relatório ou digitação.
+
+00:00:23.900 --> 00:00:28.500
+Possivelmente a data correta era
+29 e um 9 extra foi acrescentado.
+
+00:00:28.533 --> 00:00:32.167
+Ou talvez houvesse
+um aluno de 99 anos
+
+00:00:32.200 --> 00:00:33.933
+frequentando a faculdade
+
+00:00:33.967 --> 00:00:38.900
+e alguém colocou um 2
+na frente do valor correto.
+
+00:00:38.933 --> 00:00:43.633
+O melhor a fazer neste caso
+é tentar voltar à fonte original
+
+00:00:43.667 --> 00:00:45.700
+para determinar
+qual é o dado correto.
+
+00:00:45.733 --> 00:00:47.333
+Mas, se isso não for possível,
+
+00:00:47.367 --> 00:00:51.400
+então a melhor coisa é apagar
+o registro do conjunto de dados.
+
+00:00:52.767 --> 00:00:55.233
+Mas e se não tivermos
+um erro óbvio
+
+00:00:55.267 --> 00:00:58.767
+e não tivermos certeza
+se o dado está correto ou não?
+
+00:00:58.800 --> 00:01:02.967
+Se tivermos uma situação
+como essas duas,
+
+00:01:03.000 --> 00:01:07.167
+em que o dado pode estar correto
+e ser apenas anormal,
+
+00:01:07.200 --> 00:01:11.167
+então a análise e a modelagem
+devem incluir esses dados.
+
+00:01:11.200 --> 00:01:16.033
+Dito isso, é legítimo criar modelos
+sem esses dados também
+
+00:01:16.067 --> 00:01:17.600
+para comparar os resultados.
+
+00:01:17.633 --> 00:01:22.500
+Mas é preciso informar que modelos
+têm ou não têm os valores atípicos.
+
+00:01:22.533 --> 00:01:25.067
+Como estamos falando
+de análise de negócios,
+
+00:01:25.100 --> 00:01:30.133
+alguém vai ter que escolher
+com que modelo vai trabalhar.
+
+00:01:30.167 --> 00:01:34.533
+Mas o que não se deve fazer
+é abandonar as observações
+
+00:01:34.567 --> 00:01:37.700
+só porque é mais fácil
+trabalhar sem elas.
+
+00:01:37.733 --> 00:01:41.000
+Por outro lado, se,
+como no 1º exemplo,
+
+00:01:41.033 --> 00:01:43.733
+o valor atípico não mudar
+realmente o resultado -
+
+00:01:43.767 --> 00:01:48.600
+no exemplo, a linha de regressão
+manteve a inclinação original -,
+
+00:01:48.633 --> 00:01:53.033
+então pode ser legítimo
+retirar essa observação.
+
+00:01:53.067 --> 00:01:55.767
+Outra maneira de os analistas
+trabalharem com valores atípicos
+
+00:01:55.800 --> 00:01:57.900
+se chama truncamento.
+
+00:01:57.933 --> 00:02:01.700
+Isso é usado, por exemplo,
+quando sabemos que certo valor
+
+00:02:01.733 --> 00:02:04.933
+só pode ficar abaixo
+de um certo máximo
+
+00:02:04.967 --> 00:02:07.900
+e um valor aparece
+acima disso.
+
+00:02:07.933 --> 00:02:10.500
+Pode fazer sentido
+manter a observação
+
+00:02:10.533 --> 00:02:13.933
+e truncar o valor
+como o valor máximo.
+
+00:02:13.967 --> 00:02:17.467
+Um exemplo disso
+seria uma análise
+
+00:02:17.500 --> 00:02:20.433
+da efetividade
+de aprendizado de uma turma
+
+00:02:20.467 --> 00:02:24.333
+e nós soubéssemos que a turma só
+pudesse ter certo número de alunos.
+
+00:02:24.367 --> 00:02:29.033
+Por exemplo, 20. No entanto,
+uma observação mencionava 40.
+
+00:02:30.000 --> 00:02:33.067
+Aqui talvez faça sentido
+trocar o valor para 20,
+
+00:02:33.100 --> 00:02:36.267
+em vez de eliminar
+a observação completamente.
+
+00:02:36.300 --> 00:02:40.100
+Mas lembre-se: sempre que
+esse tipo de decisão é feito,
+
+00:02:40.133 --> 00:02:44.567
+ele deve ser anotado
+no relatório do processo.
+
+00:02:44.600 --> 00:02:45.933
+*END*
+
+00:02:45.967 --> 00:02:47.267
+*CODE*
+

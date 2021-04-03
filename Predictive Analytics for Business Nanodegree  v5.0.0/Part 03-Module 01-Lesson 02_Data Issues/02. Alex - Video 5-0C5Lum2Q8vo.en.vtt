@@ -1,0 +1,85 @@
+WEBVTT
+Kind: captions
+Language: en
+
+00:00:00.000 --> 00:00:02.930
+Data preparation, data cleaning,
+
+00:00:02.930 --> 00:00:09.070
+it's janitorial work and it's not that that's bad, but it's necessary.
+
+00:00:09.070 --> 00:00:12.685
+We have to clean the data because it's not always perfect.
+
+00:00:12.685 --> 00:00:16.020
+What I mean by that is that sometimes you don't have validation.
+
+00:00:16.020 --> 00:00:20.820
+So, let's just say a date isn't in a standard date format,
+
+00:00:20.820 --> 00:00:24.400
+and you wanted to find the thing that was the oldest.
+
+00:00:24.400 --> 00:00:27.570
+If you don't have some kind of a cleaning process,
+
+00:00:27.570 --> 00:00:29.160
+you might miss something.
+
+00:00:29.160 --> 00:00:35.220
+So, if you put in a date say September 1st, 1980,
+
+00:00:35.220 --> 00:00:37.750
+but I type it out,
+
+00:00:37.750 --> 00:00:39.845
+I spell it out September,
+
+00:00:39.845 --> 00:00:42.590
+S-E-P, how are you going to filter that?
+
+00:00:42.590 --> 00:00:45.400
+How are you going to equate those to the same date?
+
+00:00:45.400 --> 00:00:47.180
+So, you have to cleanse it.
+
+00:00:47.180 --> 00:00:50.270
+That process of cleansing basically create
+
+00:00:50.270 --> 00:00:54.960
+structure within the dataset so that there's a continuity,
+
+00:00:54.960 --> 00:00:56.550
+there is what we call normalization,
+
+00:00:56.550 --> 00:01:00.200
+where you know everything in there follows some set of rule.
+
+00:01:00.200 --> 00:01:03.170
+So, if a column is only going to have ones and zeros,
+
+00:01:03.170 --> 00:01:07.770
+you better not have an A or a three in there or an empty space.
+
+00:01:07.770 --> 00:01:12.595
+If there is, you have to understand it and either get rid of it.
+
+00:01:12.595 --> 00:01:14.605
+Or when say cleanse,
+
+00:01:14.605 --> 00:01:17.120
+we want to either get rid of it or turn it into
+
+00:01:17.120 --> 00:01:20.320
+a real value that you can understand and measure.
+
+00:01:20.320 --> 00:01:24.590
+So, data cleansing, it's integral part at the very beginning.
+
+00:01:24.590 --> 00:01:26.810
+If you don't cleanse your data,
+
+00:01:26.810 --> 00:01:30.390
+your output and your analysis can be all wrong.
+

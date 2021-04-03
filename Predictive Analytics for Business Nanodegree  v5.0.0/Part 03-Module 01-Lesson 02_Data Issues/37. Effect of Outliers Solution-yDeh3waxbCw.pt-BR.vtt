@@ -1,0 +1,92 @@
+WEBVTT
+Kind: captions
+Language: pt-BR
+
+00:00:00.634 --> 00:00:04.801
+Vamos começar importando
+o arquivo Excel "OutlierData".
+
+00:00:04.834 --> 00:00:07.000
+Depois vamos adicionar
+a ferramenta "Scatterplot"
+
+00:00:07.033 --> 00:00:09.834
+e definir o campo "Age"
+como "X"
+
+00:00:09.868 --> 00:00:13.367
+e o campo "Income" como "Y".
+
+00:00:13.400 --> 00:00:15.501
+Então vamos clicar
+na aba "Plot elements"
+
+00:00:15.534 --> 00:00:18.067
+e tirar a seleção
+de "Smooth line".
+
+00:00:18.100 --> 00:00:21.968
+Vamos adicionar uma ferramenta
+"Browse" à "Scatterplot",
+
+00:00:22.001 --> 00:00:27.033
+ativar e ver como o gráfico fica
+se usarmos todos os dados.
+
+00:00:28.100 --> 00:00:31.934
+Agora, para remover valores atípicos
+de pessoas acima de 60 anos,
+
+00:00:31.968 --> 00:00:33.600
+vamos adicionar
+uma ferramenta "Filter"
+
+00:00:33.633 --> 00:00:37.634
+e selecionar
+"Age less than 60".
+
+00:00:38.267 --> 00:00:39.634
+O lado verdadeiro do "output"
+
+00:00:39.667 --> 00:00:43.072
+vai mostrar os registros
+em que a idade é menor que 60 anos.
+
+00:00:43.734 --> 00:00:47.300
+Há 11 registros
+que se encaixam nos critérios.
+
+00:00:47.334 --> 00:00:49.299
+Agora adicionamos
+a ferramenta "Scatterplot"
+
+00:00:49.332 --> 00:00:53.133
+ao fluxo de dados filtrados,
+configurá-la como fizemos antes
+
+00:00:53.167 --> 00:00:55.901
+e acrescentar uma ferramenta
+"Browse" para ver o resultado.
+
+00:00:55.934 --> 00:00:58.467
+Vamos ver o 1º gráfico de dispersão
+de novo.
+
+00:00:58.501 --> 00:01:01.501
+Há três valores atípicos
+no gráfico de dispersão.
+
+00:01:01.534 --> 00:01:05.534
+A reta fica mais inclinada
+sem os valores atípicos.
+
+00:01:05.567 --> 00:01:10.434
+Logo, os valores atípicos fizeram
+o modelo seguir outra direção.
+
+00:01:10.467 --> 00:01:11.801
+*END*
+
+00:01:11.834 --> 00:01:13.133
+*CODE*
+

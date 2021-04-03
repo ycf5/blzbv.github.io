@@ -1,0 +1,99 @@
+WEBVTT
+Kind: captions
+Language: pt-BR
+
+00:00:00.968 --> 00:00:04.771
+Como vimos nas aulas anteriores,
+dados podem ter problemas.
+
+00:00:04.805 --> 00:00:07.441
+Um conjunto de dados perfeito
+não costuma estar disponível
+
+00:00:07.474 --> 00:00:08.976
+no mundo real.
+
+00:00:09.009 --> 00:00:11.945
+Nós não apenas temos que formatar
+o conjunto de dados existente
+
+00:00:11.979 --> 00:00:14.181
+para que seja utilizável
+em análises,
+
+00:00:14.214 --> 00:00:17.150
+mas também vimos que, às vezes,
+existem dados faltantes
+
+00:00:17.184 --> 00:00:19.853
+e temos que descobrir
+o que fazer com eles:
+
+00:00:19.887 --> 00:00:24.191
+não usá-los ou inventar algo
+para preencher as lacunas.
+
+00:00:24.224 --> 00:00:26.727
+Outro problema que vamos
+explorar nesta aula
+
+00:00:26.760 --> 00:00:30.264
+é o fato de, às vezes,
+alguns registros presentes nos dados
+
+00:00:30.297 --> 00:00:33.934
+não se encaixarem
+com o conjunto total de dados.
+
+00:00:33.967 --> 00:00:37.871
+Se for um campo numérico, pode haver
+números que parecem extremos,
+
+00:00:37.905 --> 00:00:39.873
+ou grandes ou pequenos demais,
+
+00:00:39.907 --> 00:00:42.843
+quando comparados
+aos outros valores do campo.
+
+00:00:42.876 --> 00:00:45.846
+Se forem dados de categoria,
+pode haver um valor
+
+00:00:45.879 --> 00:00:49.483
+que só aparece uma vez
+num grande conjunto de dados.
+
+00:00:49.516 --> 00:00:52.619
+Em estatística, o nome usado
+para este tipo de dado
+
+00:00:52.653 --> 00:00:54.354
+é valor atípico.
+
+00:00:54.388 --> 00:00:57.724
+Às vezes pode haver bons motivos
+para os dados parecerem estranhos
+
+00:00:57.758 --> 00:01:01.528
+e às vezes isso pode acontecer
+porque os dados estão errados.
+
+00:01:01.562 --> 00:01:06.333
+Nesta aula, vamos ver como verificar
+a presença de valores atípicos,
+
+00:01:06.366 --> 00:01:09.570
+entender como eles
+podem afetar o seu modelo
+
+00:01:09.603 --> 00:01:13.574
+e conhecer alguns métodos comuns
+para reduzir esse efeito ao máximo.
+
+00:01:14.408 --> 00:01:15.776
+*END*
+
+00:01:15.809 --> 00:01:17.110
+*CODE*
+

@@ -1,0 +1,102 @@
+WEBVTT
+Kind: captions
+Language: pt-BR
+
+00:00:00.868 --> 00:00:03.934
+Não seria maravilhoso se os dados
+que estivéssemos usando na análise
+
+00:00:03.968 --> 00:00:06.601
+fossem perfeitos?
+Pouparíamos muito tempo
+
+00:00:06.634 --> 00:00:09.501
+se pudéssemos apenas
+reuni-los e usá-los.
+
+00:00:09.534 --> 00:00:11.534
+Mas isso quase nunca acontece.
+
+00:00:11.567 --> 00:00:14.033
+Normalmente, quando coletamos dados,
+percebemos problemas
+
+00:00:14.066 --> 00:00:18.567
+e acabamos gastando uma enorme
+quantidade de tempo limpando-os.
+
+00:00:18.601 --> 00:00:21.701
+Podemos receber um arquivo
+que não foi parseado.
+
+00:00:21.734 --> 00:00:25.067
+Talvez haja várias colunas
+aparecendo numa mesma coluna
+
+00:00:25.100 --> 00:00:26.868
+e tenhamos que resolver isso.
+
+00:00:26.901 --> 00:00:28.300
+Pode haver lixo num campo,
+
+00:00:28.334 --> 00:00:31.033
+como caracteres estranhos
+que tenhamos que limpar.
+
+00:00:31.067 --> 00:00:35.167
+Também é possível haver registros
+duplicados no conjunto de dados.
+
+00:00:35.200 --> 00:00:39.434
+Todos esses problemas tornam difícil
+usar os dados diretamente
+
+00:00:39.467 --> 00:00:43.167
+e todos exigem um certo esforço
+para acabar com o problema,
+
+00:00:43.200 --> 00:00:45.033
+antes que os dados
+sejam usados.
+
+00:00:45.834 --> 00:00:48.666
+Nesta aula, vamos conhecer
+os problemas mais comuns
+
+00:00:48.699 --> 00:00:50.167
+que encontramos nos dados.
+
+00:00:50.200 --> 00:00:53.567
+Vamos discutir algumas abordagens
+para resolver esses problemas
+
+00:00:53.601 --> 00:00:56.067
+e fazer a limpeza
+de alguns conjuntos de dados.
+
+00:00:56.100 --> 00:01:00.467
+No fim desta aula, você conseguirá
+identificar problemas nos dados,
+
+00:01:00.501 --> 00:01:02.868
+como dados faltantes
+e valores atípicos,
+
+00:01:02.901 --> 00:01:06.133
+e usar algumas das técnicas
+que aprendemos para limpá-los.
+
+00:01:06.167 --> 00:01:09.067
+Conjuntos de dados limpos
+vão nos colocar no melhor caminho
+
+00:01:09.100 --> 00:01:11.501
+para realizar
+as melhores análises.
+
+00:01:11.534 --> 00:01:12.868
+*END*
+
+00:01:12.901 --> 00:01:14.200
+*CODE*
+

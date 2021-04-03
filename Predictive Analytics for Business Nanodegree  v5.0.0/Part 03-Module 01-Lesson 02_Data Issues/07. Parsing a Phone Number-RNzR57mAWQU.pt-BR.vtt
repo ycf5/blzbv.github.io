@@ -1,0 +1,37 @@
+WEBVTT
+Kind: captions
+Language: pt-BR
+
+00:00:00.767 --> 00:00:02.900
+Agora é sua oportunidade
+de testar o que aprendeu.
+
+00:00:02.933 --> 00:00:07.900
+Abra o workflow do Alteryx
+chamado "parsing exercise.yxmd",
+
+00:00:07.933 --> 00:00:10.333
+localizado nas anotações
+abaixo do vídeo
+
+00:00:10.367 --> 00:00:14.067
+e parseie a variável "Phone number"
+em três componentes.
+
+00:00:14.100 --> 00:00:19.100
+Os três componentes são: o código
+de área, ou os primeiros 3 números,
+
+00:00:19.133 --> 00:00:22.967
+o número da região,
+ou os três números seguintes,
+
+00:00:23.000 --> 00:00:25.533
+e os quatro últimos números.
+
+00:00:25.566 --> 00:00:26.900
+*END*
+
+00:00:26.933 --> 00:00:28.233
+*CODE*
+

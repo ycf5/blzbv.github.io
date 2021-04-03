@@ -1,0 +1,199 @@
+WEBVTT
+Kind: captions
+Language: pt-BR
+
+00:00:00.534 --> 00:00:03.737
+Vamos recuar um pouco
+e falar sobre por que nos importamos
+
+00:00:03.770 --> 00:00:05.506
+com o fato
+de termos valores atípicos.
+
+00:00:05.539 --> 00:00:07.641
+Lembre que o que
+estamos fazendo aqui
+
+00:00:07.674 --> 00:00:10.277
+não é apenas
+um exercício acadêmico,
+
+00:00:10.310 --> 00:00:12.513
+mas que normalmente estamos
+analisando dados
+
+00:00:12.546 --> 00:00:15.048
+para nos ajudar a responder
+a uma pergunta de negócio.
+
+00:00:15.082 --> 00:00:17.417
+Para saber por que
+um comportamento acontece
+
+00:00:17.451 --> 00:00:22.089
+ou talvez até para poder prever
+o que vai acontecer no futuro.
+
+00:00:22.122 --> 00:00:24.124
+Para fazer isso,
+temos que ter dados
+
+00:00:24.157 --> 00:00:26.593
+que estejam o mais próximo
+possível da realidade.
+
+00:00:26.627 --> 00:00:31.131
+É aí que a identificação
+de valores atípicos entra.
+
+00:00:31.164 --> 00:00:34.468
+Muitas vezes, dados
+estranhos ou extremos
+
+00:00:34.501 --> 00:00:37.137
+podem ser assim
+por dois motivos:
+
+00:00:37.171 --> 00:00:42.976
+primeiro, dados incorretos ou, dois,
+dados anormais, mas corretos.
+
+00:00:43.010 --> 00:00:45.879
+Dados podem estar errados
+por muitos motivos -
+
+00:00:45.913 --> 00:00:49.349
+de problemas de sistemas
+a métodos ruins de coleta
+
+00:00:49.383 --> 00:00:52.186
+e erros de digitação simples
+causados pela digitação manual.
+
+00:00:52.219 --> 00:00:56.223
+O essencial é
+que esses dados incorretos
+
+00:00:56.256 --> 00:00:59.326
+podem influenciar as respostas
+aos problemas de negócio
+
+00:00:59.359 --> 00:01:00.858
+quando estamos
+tentando explicar
+
+00:01:00.891 --> 00:01:03.730
+por que algo aconteceu
+de certa forma
+
+00:01:03.764 --> 00:01:06.308
+ou o que vai acontecer
+no futuro.
+
+00:01:07.100 --> 00:01:09.670
+Valores atípicos anormais,
+mas corretos,
+
+00:01:09.703 --> 00:01:11.672
+apesar de serem
+dados corretos,
+
+00:01:11.705 --> 00:01:13.640
+também podem impactar
+sua análise.
+
+00:01:13.674 --> 00:01:16.944
+Você talvez tenha que fazer
+ajustes a partir deles.
+
+00:01:16.977 --> 00:01:20.981
+Então, ao identificar os valores
+que podem estar errados,
+
+00:01:21.014 --> 00:01:24.518
+temos a chance de corrigi-los
+quando estiverem errados.
+
+00:01:24.551 --> 00:01:28.488
+Ou entender as exceções
+que são reais.
+
+00:01:28.522 --> 00:01:30.891
+Na verdade, por causa
+da natureza dos dados,
+
+00:01:30.924 --> 00:01:33.327
+podemos esperar encontrar
+dados extremos
+
+00:01:33.360 --> 00:01:35.262
+em praticamente
+qualquer conjunto.
+
+00:01:35.295 --> 00:01:38.599
+O fato de haver valores atípicos
+não necessariamente significa
+
+00:01:38.632 --> 00:01:40.934
+que eles são inválidos
+ou incorretos.
+
+00:01:40.968 --> 00:01:42.803
+Mas deveríamos saber
+que eles existem
+
+00:01:42.836 --> 00:01:46.206
+para ajustarmos a análise
+da maneira mais apropriada.
+
+00:01:46.240 --> 00:01:51.311
+Um exemplo disso é visto nos dados
+sobre renda que analisamos.
+
+00:01:51.345 --> 00:01:54.381
+Imagine que tentamos analisar
+o comportamento dos clientes
+
+00:01:54.414 --> 00:01:56.583
+com base na renda deles.
+
+00:01:56.617 --> 00:02:01.788
+Os dados mostram que a maioria
+dos clientes ganha menos de 100 mil.
+
+00:02:01.822 --> 00:02:05.492
+Então, se virmos nos dados
+que existe um único cliente
+
+00:02:05.526 --> 00:02:07.528
+que ganha
+um milhão de dólares,
+
+00:02:07.561 --> 00:02:11.532
+podemos tentar
+confirmar se é realmente o caso
+
+00:02:11.565 --> 00:02:15.569
+ou não considerar este cliente
+na análise,
+
+00:02:15.602 --> 00:02:17.771
+já que ele pode distorcer
+as conclusões
+
+00:02:17.804 --> 00:02:20.073
+e afastá-las da realidade.
+
+00:02:20.107 --> 00:02:21.875
+Isso nos leva a pergunta:
+
+00:02:21.909 --> 00:02:25.746
+que efeitos valores atípicos
+podem ter nas análises?
+
+00:02:25.779 --> 00:02:27.114
+*END*
+
+00:02:27.147 --> 00:02:28.415
+*CODE*
+

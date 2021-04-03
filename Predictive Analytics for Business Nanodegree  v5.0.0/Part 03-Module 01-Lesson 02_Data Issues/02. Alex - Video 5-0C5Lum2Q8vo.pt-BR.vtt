@@ -1,0 +1,130 @@
+WEBVTT
+Kind: captions
+Language: pt-BR
+
+00:00:00.250 --> 00:00:02.751
+A preparação dos dados
+e a limpeza dos dados
+
+00:00:02.792 --> 00:00:05.334
+é um trabalho de zeladoria.
+
+00:00:05.375 --> 00:00:07.125
+Não significa
+que seja ruim,
+
+00:00:07.167 --> 00:00:08.792
+mas é necessário.
+
+00:00:08.834 --> 00:00:12.584
+Nós precisamos limpá-los, pois
+nem sempre eles estão perfeitos.
+
+00:00:12.626 --> 00:00:14.751
+O que eu quero dizer
+é que, às vezes,
+
+00:00:14.792 --> 00:00:16.167
+você não tem validação.
+
+00:00:16.209 --> 00:00:20.501
+Digamos que uma data
+não está no formato padrão,
+
+00:00:20.542 --> 00:00:24.001
+e você queira encontrar
+algo que seja mais antigo.
+
+00:00:24.626 --> 00:00:27.501
+Se não houver
+um processo de limpeza,
+
+00:00:27.542 --> 00:00:29.250
+você pode deixar passar
+alguma coisa.
+
+00:00:29.292 --> 00:00:32.292
+Se você quiser uma data,
+por exemplo,
+
+00:00:32.334 --> 00:00:35.334
+1º de setembro de 1980,
+
+00:00:35.368 --> 00:00:41.250
+e eu coloquei "setembro"
+como "sep" em vez de "set",
+
+00:00:41.292 --> 00:00:42.626
+como você filtrará isso?
+
+00:00:42.667 --> 00:00:45.417
+Como você equalizará
+os dois na mesma data?
+
+00:00:45.459 --> 00:00:47.501
+Então é preciso
+fazer uma limpeza.
+
+00:00:47.542 --> 00:00:51.250
+E a limpeza serve
+para criar uma estrutura
+
+00:00:51.292 --> 00:00:52.834
+dentro do conjunto de dados,
+
+00:00:52.876 --> 00:00:54.876
+assim haverá
+uma continuação
+
+00:00:54.918 --> 00:00:56.501
+ou uma normatização,
+
+00:00:56.542 --> 00:00:59.959
+na qual tudo
+segue um conjunto de regras.
+
+00:01:00.000 --> 00:01:02.959
+Se uma coluna só terá
+números 1 e zero,
+
+00:01:02.993 --> 00:01:06.125
+então não poderá haver
+uma letra A, um número três
+
+00:01:06.167 --> 00:01:07.667
+ou um espaço vazio.
+
+00:01:07.709 --> 00:01:09.959
+Caso haja, você precisa
+entender...
+
+00:01:11.375 --> 00:01:13.209
+para se livrar dele.
+
+00:01:13.250 --> 00:01:16.125
+Na limpeza, nós precisamos
+nos livrar dele
+
+00:01:16.167 --> 00:01:17.918
+ou transformá-lo
+em um valor real
+
+00:01:17.959 --> 00:01:20.334
+que você possa entender
+e mesurar.
+
+00:01:20.375 --> 00:01:22.167
+A limpeza de dados
+
+00:01:22.209 --> 00:01:24.709
+faz parte do começo
+do processo.
+
+00:01:24.751 --> 00:01:26.751
+Se você não limpar
+os seus dados,
+
+00:01:26.792 --> 00:01:30.042
+o seu resultado e a análise
+podem estar errados.
+

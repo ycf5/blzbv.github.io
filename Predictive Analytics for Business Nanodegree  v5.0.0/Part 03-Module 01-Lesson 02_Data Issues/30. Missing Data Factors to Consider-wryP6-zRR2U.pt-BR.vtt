@@ -1,0 +1,171 @@
+WEBVTT
+Kind: captions
+Language: pt-BR
+
+00:00:00.601 --> 00:00:02.803
+Existem alguns fatores gerais
+a considerar
+
+00:00:02.836 --> 00:00:04.838
+quando lidamos
+com dados faltantes,
+
+00:00:04.872 --> 00:00:07.107
+e as respostas
+para algumas dessas perguntas
+
+00:00:07.140 --> 00:00:09.476
+podem nos ajudar a saber
+que metodologia
+
+00:00:09.510 --> 00:00:11.712
+é a melhor abordagem.
+
+00:00:11.745 --> 00:00:14.915
+Por exemplo, uma pergunta
+a se considerar é:
+
+00:00:14.948 --> 00:00:17.918
+quantos dados
+estão realmente faltando?
+
+00:00:17.985 --> 00:00:22.923
+Como vimos no exemplo, apagar todos
+os registros com dados faltantes
+
+00:00:22.956 --> 00:00:26.793
+eliminava metade
+de todos os dados.
+
+00:00:26.827 --> 00:00:30.664
+Isso, obviamente,
+não seria uma solução aceitável.
+
+00:00:30.697 --> 00:00:34.668
+Mas e se estivéssemos trabalhando
+com 10 mil observações
+
+00:00:34.701 --> 00:00:37.938
+e tivéssemos valores faltantes
+em apenas 200 delas?
+
+00:00:37.971 --> 00:00:42.309
+Como isso significa que poderíamos
+manter 98% dos registros,
+
+00:00:42.342 --> 00:00:45.078
+mesmo depois de eliminar
+os dados faltantes,
+
+00:00:45.112 --> 00:00:50.284
+então, nesta situação, o método
+de deleção pode ser apropriado.
+
+00:00:51.251 --> 00:00:53.654
+Outra pergunta que devemos fazer
+é: como os dados faltantes
+
+00:00:53.687 --> 00:00:56.456
+estão distribuídos
+pelo conjunto de dados?
+
+00:00:56.490 --> 00:00:58.592
+Como lembramos, no exemplo,
+
+00:00:58.625 --> 00:01:01.628
+tínhamos dados faltantes
+em todas as variáveis.
+
+00:01:01.662 --> 00:01:03.764
+O fato de a maioria
+dos dados faltantes estar
+
+00:01:03.797 --> 00:01:06.533
+num subconjunto menor
+de variáveis disponíveis
+
+00:01:06.567 --> 00:01:09.570
+vai nos ajudar a escolher
+como trabalhar com eles.
+
+00:01:09.603 --> 00:01:15.075
+Um exemplo seria um conjunto de
+dados com 10 variáveis preditivas.
+
+00:01:15.108 --> 00:01:18.078
+Se a maioria dos valores faltantes
+estivesse predominantemente
+
+00:01:18.111 --> 00:01:19.847
+em duas das 10 variáveis,
+
+00:01:19.880 --> 00:01:24.418
+poderíamos lidar com eles
+testando variável por variável.
+
+00:01:24.451 --> 00:01:28.188
+Uma pergunta a considerar
+é se estas variáveis
+
+00:01:28.222 --> 00:01:31.058
+são realmente significativas
+para a análise
+
+00:01:31.091 --> 00:01:33.360
+e para o processo de criação
+do modelo.
+
+00:01:33.393 --> 00:01:35.162
+Voltando ao nosso exemplo,
+
+00:01:35.195 --> 00:01:38.131
+se o fato de a pessoa ter
+uma casa não for relevante
+
+00:01:38.165 --> 00:01:39.867
+para a pergunta de negócio,
+
+00:01:39.900 --> 00:01:44.571
+termos dados faltantes
+nessa variável não vai importar.
+
+00:01:44.605 --> 00:01:49.042
+E, na verdade, podemos eliminar
+totalmente essa variável
+
+00:01:49.076 --> 00:01:51.912
+da análise do nosso modelo.
+
+00:01:51.945 --> 00:01:56.149
+Uma outra pergunta que podemos
+fazer para escolher uma abordagem é:
+
+00:01:56.183 --> 00:02:01.555
+a variável com os dados faltantes
+é numérica ou de categoria?
+
+00:02:01.588 --> 00:02:03.957
+Um exemplo disso,
+tirado da amostra da pesquisa,
+
+00:02:03.991 --> 00:02:05.993
+é a variável "Educação".
+
+00:02:06.026 --> 00:02:08.395
+Ela não é muito fácil
+de imputar,
+
+00:02:08.428 --> 00:02:11.365
+já que chegar a uma média
+para o nível de educação
+
+00:02:11.398 --> 00:02:15.702
+pode ser mais complexo, então
+isso pode limitar nossa abordagem.
+
+00:02:15.736 --> 00:02:17.070
+*END*
+
+00:02:17.104 --> 00:02:18.405
+*CODE*
+

@@ -1,0 +1,88 @@
+WEBVTT
+Kind: captions
+Language: pt-BR
+
+00:00:00.167 --> 00:00:02.767
+O parseamento é feito quando
+dividimos os dados em partes
+
+00:00:02.800 --> 00:00:04.867
+com base em algum tipo
+de delimitador.
+
+00:00:04.900 --> 00:00:07.300
+Para um arquivo com valores
+separados por vírgulas,
+
+00:00:07.333 --> 00:00:11.600
+ou arquivo .csv, os dados
+são delimitados por vírgulas.
+
+00:00:11.633 --> 00:00:15.000
+Quando abertos em um programa
+como o Excel ou o Alteryx,
+
+00:00:15.033 --> 00:00:18.100
+as vírgulas são usadas
+para separar os campos.
+
+00:00:18.133 --> 00:00:21.533
+Mas podemos encontrar arquivos
+que têm outros delimitadores,
+
+00:00:21.567 --> 00:00:24.733
+como o símbolo "|"
+ou o símbolo "~".
+
+00:00:24.767 --> 00:00:28.767
+Seja qual for o delimitador usado,
+ele precisa ser um caractere
+
+00:00:28.800 --> 00:00:31.467
+que não costuma ser encontrado
+nos dados
+
+00:00:31.500 --> 00:00:33.700
+para que, quando for usado
+para parsear campos,
+
+00:00:33.733 --> 00:00:38.167
+ele não separe campos de dados
+de forma inesperada.
+
+00:00:38.200 --> 00:00:41.199
+Agora que sabemos um pouco mais
+sobre o que é o parseamento,
+
+00:00:41.232 --> 00:00:43.533
+vamos explorar
+alguns exemplos.
+
+00:00:43.567 --> 00:00:47.233
+Neste 1º exemplo, dois valores
+estão agrupados nos dados,
+
+00:00:47.267 --> 00:00:50.633
+no mesmo campo,
+separados por um ponto.
+
+00:00:50.667 --> 00:00:53.600
+O ponto pode ser usado
+para delimitar os dados,
+
+00:00:53.633 --> 00:00:57.500
+separando-os em três campos:
+
+00:00:57.533 --> 00:01:01.667
+um contendo a palavra "data",
+outro contendo o 1º número
+
+00:01:01.700 --> 00:01:03.633
+e o terceiro, o 2º número.
+
+00:01:03.666 --> 00:01:05.000
+*END*
+
+00:01:05.033 --> 00:01:06.333
+*CODE*
+

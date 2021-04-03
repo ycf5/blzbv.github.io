@@ -1,0 +1,262 @@
+WEBVTT
+Kind: captions
+Language: pt-BR
+
+00:00:00.534 --> 00:00:02.901
+Para saber quantos campos
+têm dados faltantes,
+
+00:00:02.934 --> 00:00:04.634
+podemos fazer algumas coisas.
+
+00:00:04.667 --> 00:00:07.934
+Pessoalmente,
+ao importar um arquivo,
+
+00:00:07.968 --> 00:00:10.767
+gosto de usar a ferramenta
+"Field Summary" nele
+
+00:00:10.801 --> 00:00:13.067
+para ver detalhes
+sobre os dados.
+
+00:00:13.100 --> 00:00:15.801
+Eu acrescento a ferramenta,
+adiciono ferramentas "Browse" a ela
+
+00:00:15.834 --> 00:00:17.467
+e ativo o workflow.
+
+00:00:17.501 --> 00:00:19.901
+Se olharmos
+o resultado interativo,
+
+00:00:20.834 --> 00:00:24.434
+podemos abrir
+a janela do browser
+
+00:00:24.467 --> 00:00:30.267
+e ver, imediatamente, que há
+valores faltantes em vários campos
+
+00:00:30.300 --> 00:00:33.300
+pela parte vermelha
+desta linha aqui.
+
+00:00:33.968 --> 00:00:36.267
+Há dados faltantes
+em todos os campos,
+
+00:00:36.300 --> 00:00:39.567
+com exceção
+do campo "Client ID".
+
+00:00:39.601 --> 00:00:43.968
+Se os expandirmos, podemos
+ver mais detalhes sobre os campos.
+
+00:00:44.000 --> 00:00:47.834
+Para remover os registros vazios
+do conjunto de dados,
+
+00:00:47.868 --> 00:00:50.734
+acrescente uma ferramenta "Filter"
+e filtre os locais
+
+00:00:50.767 --> 00:00:54.801
+em que os campos
+"Value of Contract" "Is Not Null".
+
+00:00:54.834 --> 00:00:57.033
+Então faremos o mesmo
+com os campos "Industry"
+
+00:00:57.067 --> 00:01:00.167
+e "Average Number of Tickets".
+
+00:01:00.200 --> 00:01:03.767
+Então vamos acrescentar
+mais uma ferramenta "Filter"
+
+00:01:03.801 --> 00:01:06.334
+para a última variável,
+
+00:01:06.367 --> 00:01:08.934
+que é "Number of Employees".
+
+00:01:08.968 --> 00:01:12.300
+Também temos que garantir
+que ela não esteja vazia.
+
+00:01:12.334 --> 00:01:14.667
+Quando ativarmos o workflow,
+
+00:01:14.701 --> 00:01:18.701
+veremos que temos
+175 registros sobrando.
+
+00:01:18.734 --> 00:01:22.868
+Outra maneira de contar
+o número de registros verdadeiros
+
+00:01:22.901 --> 00:01:26.501
+é acrescentar uma ferramenta
+chamada "Count Records".
+
+00:01:26.534 --> 00:01:28.634
+Quando ativamos o workflow,
+
+00:01:30.067 --> 00:01:33.567
+o número de registros
+que passam pelo crivo aparece aqui.
+
+00:01:33.601 --> 00:01:35.601
+175.
+
+00:01:35.634 --> 00:01:38.767
+Agora vamos adicionar a ferramenta
+"Scatterplot" ao workflow.
+
+00:01:38.801 --> 00:01:40.801
+Uma para todos os dados
+
+00:01:40.834 --> 00:01:44.567
+e a segunda para os dados
+sem os valores faltantes.
+
+00:01:44.601 --> 00:01:47.200
+Então vamos abrir os resultados
+na janela do browser
+
+00:01:47.234 --> 00:01:50.868
+e analisar os gráficos de dispersão
+lado a lado.
+
+00:01:50.901 --> 00:01:53.868
+Ao olhar os dois gráficos
+lado a lado,
+
+00:01:53.901 --> 00:01:57.167
+podemos ver,
+ao olhar para o eixo de Y,
+
+00:01:57.200 --> 00:02:00.267
+que a inclinação da reta
+definitivamente mudou.
+
+00:02:00.300 --> 00:02:04.033
+O gráfico da esquerda
+contém todos os dados
+
+00:02:04.067 --> 00:02:07.934
+e, como podemos ver pelo eixo Y,
+a inclinação sobe
+
+00:02:07.968 --> 00:02:11.634
+e ultrapassa 100 chamados.
+
+00:02:11.667 --> 00:02:14.667
+Já no lado direito,
+
+00:02:14.701 --> 00:02:19.267
+o gráfico foi feito com os dados
+limpos, sem os valores faltantes.
+
+00:02:19.300 --> 00:02:23.934
+Podemos calcular a inclinação
+da reta de cada gráfico.
+
+00:02:23.968 --> 00:02:28.400
+Com todos os dados,
+podemos usar os pontos do eixo X
+
+00:02:28.434 --> 00:02:31.334
+para 200 e 1.000 empregados.
+
+00:02:31.367 --> 00:02:34.701
+Com 200 empregados,
+o número médio de chamados
+
+00:02:34.734 --> 00:02:38.067
+com todos os dados
+chega a cerca de 20 chamados.
+
+00:02:38.100 --> 00:02:39.934
+Com 1.000 empregados,
+
+00:02:39.968 --> 00:02:43.968
+o número médio de chamados
+é de cerca de 105.
+
+00:02:44.000 --> 00:02:46.801
+A inclinação é igual
+à diferença de Y
+
+00:02:46.834 --> 00:02:48.934
+dividida pela diferença de X.
+
+00:02:48.968 --> 00:02:51.200
+A inclinação da reta é,
+aproximadamente,
+
+00:02:51.234 --> 00:02:53.767
+105 menos 20
+
+00:02:53.801 --> 00:02:56.901
+dividida por 1.000 menos 200.
+
+00:02:56.934 --> 00:02:59.701
+Ou 85/800,
+
+00:02:59.734 --> 00:03:02.934
+o que dá 0,11.
+
+00:03:02.968 --> 00:03:07.467
+Usando o mesmo método no gráfico
+sem os dados faltantes,
+
+00:03:07.501 --> 00:03:10.901
+podemos ver que o número médio
+de chamados para 1.000 empregados
+
+00:03:10.934 --> 00:03:12.834
+é cerca de 40.
+
+00:03:12.868 --> 00:03:17.367
+E para 200 empregados,
+o número é de cerca de 25.
+
+00:03:17.400 --> 00:03:19.634
+Logo, a inclinação é igual
+
+00:03:19.667 --> 00:03:21.501
+a 40 menos 25
+
+00:03:21.534 --> 00:03:24.501
+dividida por 1.000 menos 200.
+
+00:03:24.534 --> 00:03:27.133
+Ou 15/800,
+
+00:03:27.167 --> 00:03:29.667
+o que dá 0,02.
+
+00:03:29.701 --> 00:03:33.033
+A inclinação da reta
+com certeza foi reduzida.
+
+00:03:33.067 --> 00:03:35.334
+Vamos ver se outro método
+de imputação
+
+00:03:35.367 --> 00:03:37.701
+vai ser melhor
+para nossa análise.
+
+00:03:37.734 --> 00:03:39.067
+*END*
+
+00:03:39.100 --> 00:03:40.434
+*CODE*
+

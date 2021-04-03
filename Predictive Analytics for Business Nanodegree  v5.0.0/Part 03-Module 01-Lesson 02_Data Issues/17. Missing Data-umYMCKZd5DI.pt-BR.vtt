@@ -1,0 +1,61 @@
+WEBVTT
+Kind: captions
+Language: pt-BR
+
+00:00:00.634 --> 00:00:02.803
+Quase nunca recebemos
+um conjunto de dados perfeito
+
+00:00:02.836 --> 00:00:05.005
+para a análise
+que estamos tentando fazer.
+
+00:00:05.038 --> 00:00:09.309
+Nesta seção, vamos falar
+sobre o que um analista deve fazer
+
+00:00:09.343 --> 00:00:11.144
+quando está diante
+de dados faltantes
+
+00:00:11.178 --> 00:00:14.815
+ao preparar dados
+para um processo analítico.
+
+00:00:14.848 --> 00:00:19.920
+No início da aula, vimos problemas
+causados por dados brutos.
+
+00:00:19.953 --> 00:00:24.725
+Outro problema é que, às vezes,
+alguns elementos não existem.
+
+00:00:24.758 --> 00:00:27.060
+Neste caso,
+seja qual for o motivo,
+
+00:00:27.094 --> 00:00:30.464
+estamos lidando com registros
+com falhas nos dados.
+
+00:00:30.497 --> 00:00:33.167
+Mas, antes de começar
+a falar desses conceitos,
+
+00:00:33.200 --> 00:00:35.669
+vamos dar uma olhada
+no que queremos dizer
+
+00:00:35.702 --> 00:00:37.404
+ao falar de dados faltantes
+
+00:00:37.437 --> 00:00:40.741
+e nas formas em que eles podem
+aparecer nos conjuntos de dados.
+
+00:00:40.941 --> 00:00:42.242
+*END*
+
+00:00:42.276 --> 00:00:43.577
+*CODE*
+

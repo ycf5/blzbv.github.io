@@ -1,0 +1,128 @@
+WEBVTT
+Kind: captions
+Language: pt-BR
+
+00:00:00.833 --> 00:00:03.633
+Estamos falando sobre dados brutos
+para fazer você pensar
+
+00:00:03.667 --> 00:00:06.400
+no que deve procurar
+nos conjuntos de dados.
+
+00:00:06.433 --> 00:00:10.233
+Depois vamos falar sobre
+como limpar ou lidar com os dados
+
+00:00:10.267 --> 00:00:12.467
+antes de fazer a análise.
+
+00:00:12.500 --> 00:00:15.600
+Quando penso em todos os problemas
+que já vi em dados brutos,
+
+00:00:15.633 --> 00:00:19.133
+penso em dados
+que não foram parseados direito
+
+00:00:19.167 --> 00:00:23.567
+e aparecem em um campo só,
+em vez de vários;
+
+00:00:23.600 --> 00:00:26.267
+caracteres estranhos nos campos
+que fazem com que seja difícil
+
+00:00:26.300 --> 00:00:28.167
+usar os dados prontamente,
+
+00:00:28.200 --> 00:00:33.600
+porque esses caracteres extras têm
+que ser removidos antes da análise;
+
+00:00:33.633 --> 00:00:35.433
+dados com erros de digitação,
+
+00:00:35.467 --> 00:00:38.967
+que podem acontecer facilmente
+quando inserimos dados manualmente;
+
+00:00:39.000 --> 00:00:41.133
+registros duplicados,
+que podem acontecer
+
+00:00:41.167 --> 00:00:45.467
+por causa de várias inserções
+de dados sobre a mesma informação,
+
+00:00:45.500 --> 00:00:50.467
+e dados incorretos, como a data
+1 de janeiro de 1900.
+
+00:00:50.500 --> 00:00:53.632
+Isso pode acontecer quando
+um usuário trabalha com um sistema
+
+00:00:53.665 --> 00:00:57.467
+que exige um valor
+que não está disponível na hora.
+
+00:00:57.500 --> 00:01:01.333
+O costume, então, é digitar
+uma data estática
+
+00:01:01.367 --> 00:01:04.300
+que chame atenção, ou seja,
+esteja claramente errada,
+
+00:01:04.333 --> 00:01:07.767
+como 1 de janeiro de 1900.
+
+00:01:07.800 --> 00:01:11.300
+Dados que não se encaixam
+com o padrão esperado.
+
+00:01:11.333 --> 00:01:15.300
+Por exemplo, podemos ter um campo
+que contém endereços de e-mail,
+
+00:01:15.333 --> 00:01:18.667
+mas nem todos os e-mails
+estão no formato certo:
+
+00:01:18.700 --> 00:01:21.200
+nome@servidor.
+
+00:01:21.233 --> 00:01:24.767
+Poderíamos pensar em outros,
+mas, para melhor entender
+
+00:01:24.800 --> 00:01:27.667
+como reconhecer dados brutos
+e consertá-los,
+
+00:01:27.700 --> 00:01:30.267
+vamos trabalhar
+nestes três problemas:
+
+00:01:30.300 --> 00:01:33.367
+parseamento de dados,
+caracteres extras nos campos
+
+00:01:33.400 --> 00:01:35.067
+e dados duplicados.
+
+00:01:35.100 --> 00:01:36.933
+Agora vamos explorar
+o 1º problema -
+
+00:01:36.967 --> 00:01:39.700
+dados incorretamente parseados -
+em mais detalhes.
+
+00:01:39.733 --> 00:01:41.067
+*END*
+
+00:01:41.100 --> 00:01:42.400
+*CODE*
+

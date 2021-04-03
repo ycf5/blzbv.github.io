@@ -1,0 +1,285 @@
+WEBVTT
+Kind: captions
+Language: pt-BR
+
+00:00:00.600 --> 00:00:03.900
+Agora vamos ver como podemos
+parsear dados com o Alteryx.
+
+00:00:03.933 --> 00:00:07.533
+Neste exemplo, vamos usar
+a ferramenta "Text Input",
+
+00:00:07.567 --> 00:00:12.133
+que é uma maneira de importar dados
+sem ter que importar um arquivo.
+
+00:00:12.167 --> 00:00:14.067
+Podemos simplesmente
+digitar os dados,
+
+00:00:14.100 --> 00:00:16.133
+algo que é normalmente feito
+quando precisamos
+
+00:00:16.167 --> 00:00:18.333
+de um ou dois registros
+para fazer um teste,
+
+00:00:18.367 --> 00:00:21.067
+ou podemos colar registros
+retirados do Excel
+
+00:00:21.100 --> 00:00:24.367
+ou de outra fonte,
+que é o que vou fazer.
+
+00:00:25.233 --> 00:00:27.200
+Depois,
+para parsear os dados,
+
+00:00:27.233 --> 00:00:30.767
+vamos conectar
+a ferramenta "Text To Columns".
+
+00:00:30.800 --> 00:00:32.667
+Na janela "Configuration",
+
+00:00:32.700 --> 00:00:34.700
+vamos indicar o campo
+que queremos parsear
+
+00:00:34.733 --> 00:00:38.267
+e depois estabelecer
+o delimitador para "."
+
+00:00:38.300 --> 00:00:40.300
+porque, como podemos ver,
+
+00:00:40.333 --> 00:00:44.833
+o ponto está delimitando
+os componentes dos dados.
+
+00:00:44.867 --> 00:00:48.100
+O Alteryx os separa
+em colunas por padrão
+
+00:00:48.133 --> 00:00:52.067
+e, nesta opção aqui,
+"# of columns",
+
+00:00:52.100 --> 00:00:56.500
+você pode definir quantos campos
+serão gerados pelo parseamento.
+
+00:00:56.533 --> 00:00:59.967
+Precisamos de três campos:
+um para a palavra "data",
+
+00:01:00.000 --> 00:01:04.500
+um para o 1º número
+e outro para o 2º número.
+
+00:01:04.700 --> 00:01:07.333
+Podemos definir
+o "Output Root Name"
+
+00:01:07.367 --> 00:01:11.333
+como uma palavra específica,
+como "Col", de "coluna".
+
+00:01:11.367 --> 00:01:13.867
+Quando os dados forem parseados,
+eles ficarão em colunas
+
+00:01:13.900 --> 00:01:18.067
+que terão este nome
+acompanhado de um número.
+
+00:01:18.100 --> 00:01:21.600
+Quando ativarmos o Alteryx,
+veremos que ele gerará três campos
+
+00:01:21.633 --> 00:01:24.133
+com os dados esperados
+em cada coluna,
+
+00:01:24.167 --> 00:01:27.103
+"Col1", "Col2" e "Col3".
+
+00:01:27.632 --> 00:01:30.767
+Neste segundo exemplo, vemos
+que temos um campo "Address",
+
+00:01:30.800 --> 00:01:36.567
+que contém o nome da rua,
+o estado e o CEP num campo só.
+
+00:01:36.600 --> 00:01:41.700
+No entanto, se você quisesse
+contar os registros de cada CEP,
+
+00:01:41.733 --> 00:01:44.600
+seria muito mais fácil
+trabalhar com esses dados
+
+00:01:44.633 --> 00:01:46.533
+se o nome da rua estivesse
+em um campo,
+
+00:01:46.567 --> 00:01:50.667
+a cidade num 2º campo,
+o estado num 3º campo
+
+00:01:50.700 --> 00:01:53.000
+e o CEP num 4º campo.
+
+00:01:53.033 --> 00:01:54.300
+Isso pode ser feito facilmente
+
+00:01:54.333 --> 00:01:58.233
+se parsearmos os dados
+usando caracteres.
+
+00:01:58.267 --> 00:02:02.933
+Note que os três componentes do
+endereço são separados por vírgulas.
+
+00:02:02.967 --> 00:02:07.333
+O nome da rua, a cidade
+e o estado junto ao CEP.
+
+00:02:07.367 --> 00:02:09.500
+Se usarmos a vírgula
+como delimitador,
+
+00:02:09.533 --> 00:02:12.967
+podemos dividir os dados
+nesses três componentes.
+
+00:02:13.000 --> 00:02:14.333
+Então vamos fazer isso agora.
+
+00:02:14.367 --> 00:02:16.967
+Vamos pegar a ferramenta
+"Text To Columns",
+
+00:02:17.000 --> 00:02:21.433
+conectá-la, definir o campo
+a parsear, "Address",
+
+00:02:21.467 --> 00:02:23.833
+e a vírgula como "Delimitor",
+
+00:02:23.867 --> 00:02:28.067
+e vamos dividir isso
+em três colunas.
+
+00:02:28.100 --> 00:02:31.000
+"Address1"
+é o endereço original,
+
+00:02:31.033 --> 00:02:33.167
+"Address2" é a cidade
+
+00:02:33.200 --> 00:02:37.500
+e "Address3"
+é o estado e o CEP.
+
+00:02:37.533 --> 00:02:41.800
+Agora precisamos separar
+o estado do CEP.
+
+00:02:41.833 --> 00:02:44.933
+Isso pode ser feito usando
+o espaço como delimitador.
+
+00:02:44.967 --> 00:02:47.900
+Como pode ver,
+o espaço é o delimitador
+
+00:02:47.933 --> 00:02:50.300
+entre os dois componentes.
+
+00:02:50.333 --> 00:02:54.600
+No entanto, também queremos separar
+os cinco primeiros dígitos do CEP
+
+00:02:54.633 --> 00:02:56.400
+dos últimos quatro dígitos,
+
+00:02:56.433 --> 00:03:00.067
+e você pode ver que um hífen
+separa os dois.
+
+00:03:00.100 --> 00:03:03.967
+Para separar os dois componentes
+do campo "Address3",
+
+00:03:04.000 --> 00:03:06.900
+vamos pegar outra ferramenta
+"Text To Columns",
+
+00:03:06.933 --> 00:03:09.267
+indicar o campo "Address3"
+
+00:03:09.300 --> 00:03:14.867
+e definir o delimitador
+como um espaço e um hífen.
+
+00:03:14.900 --> 00:03:18.800
+São três colunas
+que queremos dividir em duas,
+
+00:03:18.833 --> 00:03:23.900
+e todas vão
+começar com "Addr".
+
+00:03:23.933 --> 00:03:28.500
+Como vemos,
+o campo "Address3" foi separado
+
+00:03:28.533 --> 00:03:30.600
+em três componentes.
+
+00:03:30.633 --> 00:03:32.700
+Agora podemos limpar
+o conjunto de dados
+
+00:03:32.733 --> 00:03:35.500
+para nos livrar de certos campos
+e renomeá-los.
+
+00:03:35.533 --> 00:03:37.233
+Pegue a ferramenta "Select",
+
+00:03:37.267 --> 00:03:39.567
+retire os campos
+de que não precisamos mais,
+
+00:03:39.600 --> 00:03:41.900
+como "Address" e "Address3",
+
+00:03:41.933 --> 00:03:44.733
+e renomeie
+os campos restantes.
+
+00:03:44.767 --> 00:03:47.667
+"Address", "City",
+
+00:03:47.700 --> 00:03:52.867
+"State", "ZIP" "ZIP4".
+
+00:03:54.233 --> 00:03:57.767
+O resultado são
+os dados parseados
+
+00:03:57.800 --> 00:04:00.267
+nos campos corretos.
+
+00:04:00.300 --> 00:04:01.633
+*END*
+
+00:04:01.667 --> 00:04:02.967
+*CODE*
+

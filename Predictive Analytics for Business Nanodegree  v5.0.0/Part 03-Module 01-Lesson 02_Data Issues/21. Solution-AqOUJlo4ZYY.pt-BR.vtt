@@ -1,0 +1,105 @@
+WEBVTT
+Kind: captions
+Language: pt-BR
+
+00:00:00.501 --> 00:00:03.537
+Para criar um conjunto de dados
+em que existam apenas colunas
+
+00:00:03.570 --> 00:00:05.038
+sem células vazias,
+
+00:00:05.072 --> 00:00:09.142
+vamos primeiro ativar o workflow
+depois de importar o arquivo.
+
+00:00:09.176 --> 00:00:11.545
+Podemos ver valores faltantes
+nos campos,
+
+00:00:11.578 --> 00:00:14.715
+mas, como há células vazias
+nos campos "Idade" e "Renda",
+
+00:00:14.748 --> 00:00:20.487
+imagino que esses campos não sejam
+do tipo numérico, e sim strings.
+
+00:00:20.521 --> 00:00:23.257
+Isso é confirmado
+quando clico em "Metadata",
+
+00:00:23.290 --> 00:00:27.094
+pois "Age" e "Income"
+aparecem como "V_string".
+
+00:00:27.127 --> 00:00:29.062
+Então, vou acrescentar
+uma ferramenta "Select"
+
+00:00:29.096 --> 00:00:33.467
+e mudar os tipos de campo de "Age"
+e "Income" para um tipo numérico.
+
+00:00:33.500 --> 00:00:35.235
+Agora, quando o workflow
+é ativado,
+
+00:00:35.269 --> 00:00:39.239
+nenhum valor aparece
+nesses dois campos.
+
+00:00:39.273 --> 00:00:42.242
+Agora posso criar um filtro
+para retirar todos os registros
+
+00:00:42.276 --> 00:00:45.279
+em que a palavra "Null"
+aparece nestes campos
+
+00:00:45.312 --> 00:00:47.514
+e removê-los
+do conjunto de dados.
+
+00:00:47.548 --> 00:00:52.052
+Vou puxar a 1ª ferramenta "Filter"
+e estabelecer "Age" e "Is Not Null".
+
+00:00:52.085 --> 00:00:55.528
+Então vou fazer o mesmo
+com os outros campos.
+
+00:00:56.056 --> 00:00:59.760
+Vou terminar
+com "Homeowner" e "Is Not Empty".
+
+00:00:59.793 --> 00:01:04.731
+Com estes quatro filtros,
+consegui selecionar os registros
+
+00:01:04.765 --> 00:01:08.368
+em que nenhum destes campos
+é "Null".
+
+00:01:08.402 --> 00:01:10.637
+Eu poderia ter criado
+uma única ferramenta "Filter"
+
+00:01:10.671 --> 00:01:13.507
+para fazer a mesma operação,
+se usasse "Or"
+
+00:01:13.540 --> 00:01:18.412
+entre cada expressão
+"Is Not Null" de cada campo.
+
+00:01:18.445 --> 00:01:24.017
+No fim, ficamos com cinco registros
+com valores em todos os campos.
+
+00:01:24.284 --> 00:01:25.586
+*END*
+
+00:01:25.619 --> 00:01:26.920
+*CODE*
+

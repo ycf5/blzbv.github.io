@@ -1,0 +1,98 @@
+WEBVTT
+Kind: captions
+Language: pt-BR
+
+00:00:01.067 --> 00:00:04.467
+Agora que sabemos um pouco
+sobre o que é um valor atípico,
+
+00:00:04.500 --> 00:00:07.142
+vamos dar uma olhada
+em um exemplo disso.
+
+00:00:08.132 --> 00:00:11.500
+Aqui temos dados sobre renda
+espalhados por um histograma
+
+00:00:11.533 --> 00:00:14.700
+para mostrar como os valores
+são distribuídos.
+
+00:00:14.733 --> 00:00:18.200
+Fica claro que a maioria dos valores
+que representam a renda das pessoas
+
+00:00:18.233 --> 00:00:22.533
+fica entre 0 e 100 mil.
+
+00:00:22.567 --> 00:00:26.067
+Mas há um valor que mostra
+que alguém ganha um milhão
+
+00:00:26.100 --> 00:00:29.200
+e que podemos ver
+aqui à direita.
+
+00:00:29.233 --> 00:00:34.433
+Isso se encaixa no que descrevemos
+como dados extremos ou anormais
+
+00:00:34.467 --> 00:00:39.000
+ou a uma grande distância da maioria
+dos valores do conjunto de dados.
+
+00:00:39.033 --> 00:00:44.267
+Se pensarmos nisso, uma ocorrência
+de renda de um milhão de dólares
+
+00:00:44.300 --> 00:00:49.433
+comparada a 40 outros valores
+que vão de 0 a 100.000
+
+00:00:49.466 --> 00:00:52.133
+é realmente anormal.
+
+00:00:52.167 --> 00:00:55.506
+Podemos provavelmente considerar
+que este é um valor atípico.
+
+00:00:56.133 --> 00:00:59.867
+Mas e se esse único valor
+fosse apenas 200 mil
+
+00:00:59.900 --> 00:01:02.400
+e o gráfico fosse assim?
+
+00:01:03.500 --> 00:01:06.967
+Ele está mais à direita
+e parece ser extremo,
+
+00:01:07.000 --> 00:01:12.133
+mas 200 mil, comparado
+ao intervalo de 0 a 100 mil,
+
+00:01:12.167 --> 00:01:16.767
+não é muito extremo,
+então será que é um valor atípico?
+
+00:01:16.800 --> 00:01:18.467
+Na verdade, pode não importar
+
+00:01:18.500 --> 00:01:21.533
+se identificamos ou não
+um ponto como um valor atípico.
+
+00:01:21.567 --> 00:01:25.333
+O que importa é identificarmos
+dados extremos
+
+00:01:25.367 --> 00:01:28.667
+e entendermos como isso
+impacta os resultados.
+
+00:01:28.700 --> 00:01:30.033
+*END*
+
+00:01:30.067 --> 00:01:31.367
+*CODE*
+

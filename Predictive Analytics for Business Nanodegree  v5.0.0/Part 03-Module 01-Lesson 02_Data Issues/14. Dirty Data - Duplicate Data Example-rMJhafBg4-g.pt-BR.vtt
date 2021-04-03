@@ -1,0 +1,180 @@
+WEBVTT
+Kind: captions
+Language: pt-BR
+
+00:00:00.367 --> 00:00:03.733
+Vamos ver como podemos identificar
+registros duplicados no Alteryx.
+
+00:00:03.767 --> 00:00:07.833
+Vamos começar com um conjunto
+de dados com nomes e telefones.
+
+00:00:07.867 --> 00:00:10.800
+Números de telefone podem passar
+de uma pessoa para a outra,
+
+00:00:10.833 --> 00:00:12.433
+e os conjuntos de dados
+podem demorar
+
+00:00:12.466 --> 00:00:15.900
+a atualizar os números certos
+para as pessoas certas.
+
+00:00:15.933 --> 00:00:18.367
+Então, neste conjunto de dados,
+seria bom saber
+
+00:00:18.400 --> 00:00:23.000
+que números de telefone foram
+associados a mais de uma pessoa.
+
+00:00:23.033 --> 00:00:26.067
+Uma maneira de fazer isso
+é usar a ferramenta "Summarize".
+
+00:00:26.100 --> 00:00:29.867
+Quando a acrescentarmos,
+vamos selecionar o campo "Phone",
+
+00:00:29.900 --> 00:00:33.133
+selecionar "Add" e "Group By".
+
+00:00:33.167 --> 00:00:37.133
+Quando ativarmos o Alteryx,
+teremos uma lista de telefones.
+
+00:00:37.167 --> 00:00:40.600
+Se observarmos as mensagens,
+veremos que 14 registros
+
+00:00:40.633 --> 00:00:43.133
+foram reunidos em 11 grupos.
+
+00:00:43.167 --> 00:00:45.433
+Então sabemos que há
+registros duplicados.
+
+00:00:45.467 --> 00:00:47.867
+Para saber que telefones
+estão duplicados,
+
+00:00:47.900 --> 00:00:50.433
+vamos voltar
+à ferramenta "Summarize".
+
+00:00:50.467 --> 00:00:54.633
+Selecione o campo "Phone",
+vá até "Add" e selecione "Count".
+
+00:00:54.667 --> 00:00:56.367
+Depois que ativarmos
+o workflow,
+
+00:00:56.400 --> 00:00:59.500
+teremos o número de registros
+para cada telefone
+
+00:00:59.533 --> 00:01:02.833
+e que telefones aparecem nos dados
+várias vezes.
+
+00:01:02.867 --> 00:01:06.233
+Se quisermos ver os nomes
+associados a esses telefones,
+
+00:01:06.267 --> 00:01:09.667
+podemos acrescentá-los como um campo
+adicional na ferramenta "Summarize"
+
+00:01:09.700 --> 00:01:13.267
+ao selecionar
+"Contact", "Add",
+
+00:01:13.300 --> 00:01:16.467
+"String" e "Concatenate".
+
+00:01:17.767 --> 00:01:21.467
+O resultado é uma lista de nomes
+separados por vírgulas.
+
+00:01:21.500 --> 00:01:24.633
+Se tivéssemos milhares
+ou milhões de registros
+
+00:01:24.667 --> 00:01:27.167
+e quiséssemos identificar
+os duplicados,
+
+00:01:27.200 --> 00:01:32.333
+poderíamos filtrá-los da lista
+e revisar a nova lista.
+
+00:01:32.367 --> 00:01:34.733
+Para fazer isso, adicione
+a ferramenta "Filter"
+
+00:01:34.767 --> 00:01:36.500
+depois de "Summarize".
+
+00:01:36.533 --> 00:01:41.200
+Vamos selecionar o campo
+"Count" e "greater than 1".
+
+00:01:42.200 --> 00:01:44.500
+Do lado verdadeiro,
+está uma lista
+
+00:01:44.533 --> 00:01:48.833
+com números de telefone
+que aparecem em mais de um registro.
+
+00:01:48.867 --> 00:01:52.133
+Mas há outra maneira
+de achar registros duplicados.
+
+00:01:52.167 --> 00:01:54.967
+A ferramenta "Unique"
+faz exatamente isto,
+
+00:01:55.000 --> 00:01:58.033
+mas ela vasculha todos os campos
+presentes nos dados.
+
+00:01:58.067 --> 00:02:01.467
+Selecionamos a ferramenta "Unique"
+da categoria "Preparation",
+
+00:02:02.067 --> 00:02:04.633
+conectamos ao "Input Text"
+
+00:02:04.667 --> 00:02:07.600
+e escolhemos
+o campo "Phone Number"
+
+00:02:07.633 --> 00:02:10.933
+como o lugar em que vamos
+tentar achar registros duplicados.
+
+00:02:10.967 --> 00:02:12.967
+Ative o workflow.
+
+00:02:13.000 --> 00:02:17.367
+No lado "U", estão todos
+os registros que são únicos.
+
+00:02:17.400 --> 00:02:20.267
+E no lado "Duplicate"
+estão os três registros
+
+00:02:20.300 --> 00:02:24.367
+que são duplicatas
+dos registros do lado "Unique".
+
+00:02:24.700 --> 00:02:26.000
+*END*
+
+00:02:26.033 --> 00:02:27.333
+*CODE*
+

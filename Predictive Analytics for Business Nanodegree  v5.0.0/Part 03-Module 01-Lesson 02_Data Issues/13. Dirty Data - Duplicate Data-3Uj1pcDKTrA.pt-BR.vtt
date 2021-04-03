@@ -1,0 +1,57 @@
+WEBVTT
+Kind: captions
+Language: pt-BR
+
+00:00:00.501 --> 00:00:04.271
+Já falamos de algumas abordagens
+de limpeza de dados em campos,
+
+00:00:04.304 --> 00:00:06.406
+mas, depois de realizar
+esse passo,
+
+00:00:06.440 --> 00:00:09.710
+você ainda pode ter problemas
+com registros duplicados.
+
+00:00:09.743 --> 00:00:12.446
+Registros duplicados podem
+entrar em seu conjunto de dados
+
+00:00:12.479 --> 00:00:16.950
+por causa de um erro manual, se
+o registro foi digitado duas vezes,
+
+00:00:16.984 --> 00:00:19.386
+ou por um erro de programação,
+
+00:00:19.419 --> 00:00:22.055
+em que alguns dados
+foram inseridos duas vezes.
+
+00:00:22.089 --> 00:00:27.361
+Como falei antes sobre receber
+uma carta com seu nome errado,
+
+00:00:27.394 --> 00:00:30.564
+alguma vez você já recebeu
+a mesma carta duas vezes?
+
+00:00:30.597 --> 00:00:33.467
+É um erro caro que não deve
+acontecer nunca,
+
+00:00:33.500 --> 00:00:36.003
+já que remover registro duplicados
+de um conjunto de dados
+
+00:00:36.036 --> 00:00:39.406
+pode ser feito
+de maneira muito fácil.
+
+00:00:39.640 --> 00:00:40.941
+*END*
+
+00:00:40.974 --> 00:00:42.276
+*CODE*
+
