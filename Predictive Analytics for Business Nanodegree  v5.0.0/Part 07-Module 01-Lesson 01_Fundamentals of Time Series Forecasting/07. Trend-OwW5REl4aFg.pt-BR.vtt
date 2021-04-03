@@ -1,0 +1,96 @@
+WEBVTT
+Kind: captions
+Language: pt-BR
+
+00:00:00.434 --> 00:00:03.234
+Na análise da série temporal,
+a tendência é uma mudança
+
+00:00:03.267 --> 00:00:05.967
+ou movimento gradual para valores
+relativamente maiores ou menores
+
+00:00:06.000 --> 00:00:07.901
+num longo período de tempo.
+
+00:00:07.934 --> 00:00:11.300
+Quando a tendência apresenta
+um padrão geral para cima,
+
+00:00:11.334 --> 00:00:13.701
+mesmo com pontos mais altos
+e pontos mais baixos,
+
+00:00:13.734 --> 00:00:15.868
+chamamos isso
+de "tendência ascendente".
+
+00:00:15.901 --> 00:00:18.868
+Quando a tendência apresenta
+um padrão geral para baixo,
+
+00:00:18.901 --> 00:00:21.067
+mesmo com pontos mais altos
+e pontos mais baixos,
+
+00:00:21.100 --> 00:00:23.341
+chamamos isso
+de "tendência descendente".
+
+00:00:24.100 --> 00:00:26.266
+Uma série temporal pode apresentar
+mudança de direção
+
+00:00:26.299 --> 00:00:29.300
+e passar de uma tendência ascendente
+para uma tendência descendente.
+
+00:00:29.334 --> 00:00:30.625
+Quando não há tendência,
+
+00:00:30.658 --> 00:00:33.467
+chamamos de "tendência horizontal
+ou estacionária".
+
+00:00:33.501 --> 00:00:35.334
+Cada tendência que vemos
+em uma série temporal
+
+00:00:35.367 --> 00:00:37.534
+é chamada
+de "ciclo de tendências".
+
+00:00:37.567 --> 00:00:40.467
+Se olharmos o gráfico com os dados
+das reservas do Bates Hotel,
+
+00:00:40.501 --> 00:00:44.000
+vemos que o hotel continua
+aumentando as reservas ano após ano,
+
+00:00:44.033 --> 00:00:46.734
+criando uma tendência ascendente
+em uma série temporal.
+
+00:00:46.767 --> 00:00:48.634
+Se o Bates Hotel
+chegar à capacidade máxima,
+
+00:00:48.667 --> 00:00:51.501
+a tendência se tornará estacionária
+e, se um hotel concorrente
+
+00:00:51.534 --> 00:00:54.033
+fosse aberto no fim da rua
+e roubasse as reservas deles,
+
+00:00:54.067 --> 00:00:56.601
+o hotel viveria
+uma tendência descendente.
+
+00:00:56.901 --> 00:00:58.200
+*END*
+
+00:00:58.234 --> 00:00:59.534
+*CODE*
+

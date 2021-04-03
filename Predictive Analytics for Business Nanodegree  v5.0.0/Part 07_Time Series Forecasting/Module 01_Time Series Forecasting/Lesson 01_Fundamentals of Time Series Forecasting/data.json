@@ -1,0 +1,1196 @@
+{
+  "data": {
+    "lesson": {
+      "id": 680867,
+      "key": "3fc78ee1-8fed-4a12-9b26-dcd836353cea",
+      "title": "Fundamentals of Time Series Forecasting",
+      "semantic_type": "Lesson",
+      "is_public": true,
+      "version": "1.0.0",
+      "locale": "en-us",
+      "summary": "In this lesson you’ll learn what attributes make data a time series. You’ll also learn the key components used in time series forecasting, such as seasonality, trends, and cyclical patterns.",
+      "lesson_type": "Classroom",
+      "display_workspace_project_only": false,
+      "resources": {
+        "files": [
+          {
+            "name": "Videos Zip File",
+            "uri": "https://zips.udacity-data.com/3fc78ee1-8fed-4a12-9b26-dcd836353cea/680867/1544455189216/Fundamentals+of+Time+Series+Forecasting+Videos.zip"
+          },
+          {
+            "name": "Transcripts Zip File",
+            "uri": "https://zips.udacity-data.com/3fc78ee1-8fed-4a12-9b26-dcd836353cea/680867/1544455185371/Fundamentals+of+Time+Series+Forecasting+Subtitles.zip"
+          }
+        ],
+        "google_plus_link": null,
+        "career_resource_center_link": null,
+        "coaching_appointments_link": null,
+        "office_hours_link": null,
+        "aws_provisioning_link": null
+      },
+      "project": null,
+      "lab": null,
+      "concepts": [
+        {
+          "id": 182978,
+          "key": "3bd0b742-e58c-476c-a44c-b316c19a6f81",
+          "title": "Welcome to Time Series Forecasting",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "3bd0b742-e58c-476c-a44c-b316c19a6f81",
+            "completed_at": null,
+            "last_viewed_at": null,
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 187525,
+              "key": "e3ded1ac-92e2-40e2-84f3-4756671fbf2c",
+              "title": "Welcome to Time Series Forecasting",
+              "semantic_type": "VideoAtom",
+              "is_public": true,
+              "instructor_notes": "If you're not familiar with the course, \"Problem Solving with Advanced Analytics\", please go [here to learn](https://www.udacity.com/course/problem-solving-with-advanced-analytics--ud976) more about the problem solving methodology and to get familiar with the [Alteryx software](http://www.alteryx.com). ",
+              "video": {
+                "youtube_id": "NN9lbMyXjOA",
+                "china_cdn_id": "NN9lbMyXjOA.mp4"
+              }
+            }
+          ]
+        },
+        {
+          "id": 182979,
+          "key": "2423dfb7-8f1f-46c4-b8fc-4d7ca44f8ea1",
+          "title": "Introduction to Time Series",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "2423dfb7-8f1f-46c4-b8fc-4d7ca44f8ea1",
+            "completed_at": null,
+            "last_viewed_at": null,
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 187906,
+              "key": "4bbf4153-097d-4f01-92b1-f62f15b2b5cb",
+              "title": "Introduction to Time Series",
+              "semantic_type": "VideoAtom",
+              "is_public": true,
+              "instructor_notes": "",
+              "video": {
+                "youtube_id": "xvgubPMqtc8",
+                "china_cdn_id": "xvgubPMqtc8.mp4"
+              }
+            },
+            {
+              "id": 188987,
+              "key": "0b3920e7-2206-443a-a37b-3dfa9784947a",
+              "title": "Note",
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "### Attributes of a Time Series\n\n* It's over a continuous time interval \n* There are sequential measurements across that interval\n* There is equal spacing between every two consecutive measurements\n* Each time unit within the time interval has at most one data point\n",
+              "instructor_notes": ""
+            }
+          ]
+        },
+        {
+          "id": 182980,
+          "key": "c98d125c-b6bf-45c3-9e6b-2a71c1c815d4",
+          "title": "The Business Problem",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "c98d125c-b6bf-45c3-9e6b-2a71c1c815d4",
+            "completed_at": null,
+            "last_viewed_at": null,
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 187526,
+              "key": "47a47e05-12e5-4a2a-8041-5ae9b31e66ff",
+              "title": "The Business Problem",
+              "semantic_type": "VideoAtom",
+              "is_public": true,
+              "instructor_notes": "",
+              "video": {
+                "youtube_id": "R8Lxt0ooQ9I",
+                "china_cdn_id": "R8Lxt0ooQ9I.mp4"
+              }
+            }
+          ]
+        },
+        {
+          "id": 182981,
+          "key": "2c859a82-32af-4f17-ab92-f424f009c22a",
+          "title": "Time Series Fundamentals Quiz",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "2c859a82-32af-4f17-ab92-f424f009c22a",
+            "completed_at": null,
+            "last_viewed_at": null,
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 182995,
+              "key": "33097de8-65ff-479f-a78d-8e4ff1f7ca49",
+              "title": "Intro",
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "Let's take a quick break to make sure you feel good about the basics. Answer the questions below.",
+              "instructor_notes": ""
+            },
+            {
+              "id": 182993,
+              "key": "b7bb0428-8b8a-4447-982e-f52b5e50671d",
+              "title": "Q1",
+              "semantic_type": "CheckboxQuizAtom",
+              "is_public": true,
+              "instructor_notes": null,
+              "user_state": {
+                "node_key": "b7bb0428-8b8a-4447-982e-f52b5e50671d",
+                "completed_at": null,
+                "last_viewed_at": null,
+                "unstructured": null
+              },
+              "question": {
+                "prompt": "A time series is a sequence of data points with the follow characteristics (choose all that apply):",
+                "answers": [
+                  {
+                    "id": "a1472222603365",
+                    "text": "Random intervals of time between each data point",
+                    "is_correct": false
+                  },
+                  {
+                    "id": "a1472222604250",
+                    "text": "Covers a continuous time interval",
+                    "is_correct": true
+                  },
+                  {
+                    "id": "a1472222605163",
+                    "text": "Equal spacing between every two consecutive measurements",
+                    "is_correct": true
+                  },
+                  {
+                    "id": "a1472222605970",
+                    "text": "Is considered data poor",
+                    "is_correct": false
+                  },
+                  {
+                    "id": "a1472222632345",
+                    "text": "Each time unit within the time interval has at most one data point",
+                    "is_correct": true
+                  }
+                ]
+              }
+            },
+            {
+              "id": 182994,
+              "key": "9ec9863b-ea8d-4e9c-8a8a-572e73db8d31",
+              "title": "Q2",
+              "semantic_type": "CheckboxQuizAtom",
+              "is_public": true,
+              "instructor_notes": null,
+              "user_state": {
+                "node_key": "9ec9863b-ea8d-4e9c-8a8a-572e73db8d31",
+                "completed_at": null,
+                "last_viewed_at": null,
+                "unstructured": null
+              },
+              "question": {
+                "prompt": "We would use time series forecasting to predict values for which following business situations (select all that apply):",
+                "answers": [
+                  {
+                    "id": "a1472222929414",
+                    "text": "Monthly beach bike rentals",
+                    "is_correct": true
+                  },
+                  {
+                    "id": "a1472222930308",
+                    "text": "A stock’s daily closing value",
+                    "is_correct": true
+                  },
+                  {
+                    "id": "a1472222934300",
+                    "text": "Amount of time to close a sales cycle",
+                    "is_correct": false
+                  },
+                  {
+                    "id": "a1472222935164",
+                    "text": "Demographic analysis on trade areas surrounding a toy store",
+                    "is_correct": false
+                  },
+                  {
+                    "id": "a1472222936557",
+                    "text": "Annual sheep population",
+                    "is_correct": true
+                  }
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "id": 182982,
+          "key": "f95dd573-7fa2-44a5-971b-c8152ed79eb0",
+          "title": "Simple Forecasting Methods",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "f95dd573-7fa2-44a5-971b-c8152ed79eb0",
+            "completed_at": null,
+            "last_viewed_at": null,
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 187527,
+              "key": "ecf57e35-df66-4eee-a932-fcfecda95793",
+              "title": "Simple Forecasting Methods",
+              "semantic_type": "VideoAtom",
+              "is_public": true,
+              "instructor_notes": "",
+              "video": {
+                "youtube_id": "kIcI43KHFlE",
+                "china_cdn_id": "kIcI43KHFlE.mp4"
+              }
+            },
+            {
+              "id": 188988,
+              "key": "1f8f5747-db80-4cdd-b4ed-6dee68f90bac",
+              "title": "Note",
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "### Simple Exponential Smoothing in Excel\n\nTo read more about how to do simple exponential smoothing, [this link](http://www.excel-easy.com/examples/exponential-smoothing.html) has a walk through on how to do it in Excel.",
+              "instructor_notes": ""
+            }
+          ]
+        },
+        {
+          "id": 182983,
+          "key": "9412fbd4-b392-43f9-bb34-1d8a82c90f3a",
+          "title": "Time Series Components",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "9412fbd4-b392-43f9-bb34-1d8a82c90f3a",
+            "completed_at": null,
+            "last_viewed_at": null,
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 187528,
+              "key": "dc599181-81e2-4ba6-9241-32f3c2ae0800",
+              "title": "Time Series Components",
+              "semantic_type": "VideoAtom",
+              "is_public": true,
+              "instructor_notes": "",
+              "video": {
+                "youtube_id": "ueMuuaEz1xI",
+                "china_cdn_id": "ueMuuaEz1xI.mp4"
+              }
+            }
+          ]
+        },
+        {
+          "id": 182984,
+          "key": "66f5b8de-a249-4605-8dd6-e0e87748bfcb",
+          "title": "Trend",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "66f5b8de-a249-4605-8dd6-e0e87748bfcb",
+            "completed_at": null,
+            "last_viewed_at": null,
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 187529,
+              "key": "6b652e6e-6541-465e-9a23-ba7efaa8528b",
+              "title": "Trend",
+              "semantic_type": "VideoAtom",
+              "is_public": true,
+              "instructor_notes": "",
+              "video": {
+                "youtube_id": "OwW5REl4aFg",
+                "china_cdn_id": "OwW5REl4aFg.mp4"
+              }
+            }
+          ]
+        },
+        {
+          "id": 182985,
+          "key": "91beb1f4-c0d4-4662-93c1-08a284203da7",
+          "title": "Trends Quiz",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "91beb1f4-c0d4-4662-93c1-08a284203da7",
+            "completed_at": null,
+            "last_viewed_at": null,
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 182996,
+              "key": "1bf041a3-5bf3-4d84-b1c4-e261ab27d010",
+              "title": "Intro",
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "Let’s reexamine this material now with a quiz. Match each time series plot below with its corresponding trend.",
+              "instructor_notes": ""
+            },
+            {
+              "id": 183005,
+              "key": "b97f427f-2733-4d36-8bf4-5ea71fd58fd0",
+              "title": "Q1",
+              "semantic_type": "ImageAtom",
+              "is_public": true,
+              "url": "https://video.udacity-data.com/topher/2016/August/57c060a4_q1/q1.png",
+              "non_google_url": "https://s3.cn-north-1.amazonaws.com.cn/u-img/b97f427f-2733-4d36-8bf4-5ea71fd58fd0",
+              "caption": "",
+              "alt": null,
+              "width": 451,
+              "height": 245,
+              "instructor_notes": null
+            },
+            {
+              "id": 182997,
+              "key": "58f60d9e-d783-4185-88ad-6707671c85cf",
+              "title": "Q1",
+              "semantic_type": "RadioQuizAtom",
+              "is_public": true,
+              "instructor_notes": null,
+              "user_state": {
+                "node_key": "58f60d9e-d783-4185-88ad-6707671c85cf",
+                "completed_at": null,
+                "last_viewed_at": null,
+                "unstructured": null
+              },
+              "question": {
+                "prompt": " Match the above time series to its corresponding trend.",
+                "answers": [
+                  {
+                    "id": "a1472223517859",
+                    "text": "Uptrend",
+                    "is_correct": false
+                  },
+                  {
+                    "id": "a1472223518567",
+                    "text": "Downtrend",
+                    "is_correct": true
+                  },
+                  {
+                    "id": "a1472223519482",
+                    "text": "Horizontal (no trend)",
+                    "is_correct": false
+                  },
+                  {
+                    "id": "a1472223520259",
+                    "text": "Downtrend to Uptrend",
+                    "is_correct": false
+                  },
+                  {
+                    "id": "a1472223521315",
+                    "text": "Uptrend to Downtrend",
+                    "is_correct": false
+                  }
+                ]
+              }
+            },
+            {
+              "id": 183001,
+              "key": "ea56c7b9-8d94-465d-b8ec-8b5c5a0c7220",
+              "title": "Q2",
+              "semantic_type": "ImageAtom",
+              "is_public": true,
+              "url": "https://video.udacity-data.com/topher/2016/August/57c05f31_q2/q2.png",
+              "non_google_url": "https://s3.cn-north-1.amazonaws.com.cn/u-img/ea56c7b9-8d94-465d-b8ec-8b5c5a0c7220",
+              "caption": "",
+              "alt": null,
+              "width": 450,
+              "height": 245,
+              "instructor_notes": null
+            },
+            {
+              "id": 182998,
+              "key": "e0560b6e-6e4b-4a5e-964d-8c5498e1be86",
+              "title": "Q2",
+              "semantic_type": "RadioQuizAtom",
+              "is_public": true,
+              "instructor_notes": null,
+              "user_state": {
+                "node_key": "e0560b6e-6e4b-4a5e-964d-8c5498e1be86",
+                "completed_at": null,
+                "last_viewed_at": null,
+                "unstructured": null
+              },
+              "question": {
+                "prompt": " Match the above time series to its corresponding trend.",
+                "answers": [
+                  {
+                    "id": "a1472224325989",
+                    "text": "Uptrend",
+                    "is_correct": true
+                  },
+                  {
+                    "id": "a1472224326963",
+                    "text": "Downtrend",
+                    "is_correct": false
+                  },
+                  {
+                    "id": "a1472224327848",
+                    "text": "Horizontal trend (no trend)",
+                    "is_correct": false
+                  },
+                  {
+                    "id": "a1472224328686",
+                    "text": "Downtrend to Uptrend",
+                    "is_correct": false
+                  },
+                  {
+                    "id": "a1472224329372",
+                    "text": "Uptrend to Downtrend",
+                    "is_correct": false
+                  }
+                ]
+              }
+            },
+            {
+              "id": 183003,
+              "key": "44b8be90-db44-4111-bfea-79a787a66fae",
+              "title": "Q3",
+              "semantic_type": "ImageAtom",
+              "is_public": true,
+              "url": "https://video.udacity-data.com/topher/2016/August/57c0605e_q3/q3.png",
+              "non_google_url": "https://s3.cn-north-1.amazonaws.com.cn/u-img/44b8be90-db44-4111-bfea-79a787a66fae",
+              "caption": "",
+              "alt": null,
+              "width": 617,
+              "height": 243,
+              "instructor_notes": null
+            },
+            {
+              "id": 1059620,
+              "key": "ad60b332-e6ae-4642-bf93-c49e470d2ef6",
+              "title": "Q3",
+              "semantic_type": "RadioQuizAtom",
+              "is_public": true,
+              "instructor_notes": null,
+              "user_state": {
+                "node_key": "ad60b332-e6ae-4642-bf93-c49e470d2ef6",
+                "completed_at": null,
+                "last_viewed_at": null,
+                "unstructured": null
+              },
+              "question": {
+                "prompt": "Match the above time series to its corresponding trend.",
+                "answers": [
+                  {
+                    "id": "a1599762108744",
+                    "text": "Uptrend",
+                    "is_correct": false
+                  },
+                  {
+                    "id": "a1599762125120",
+                    "text": "Downtrend",
+                    "is_correct": false
+                  },
+                  {
+                    "id": "a1599762129573",
+                    "text": "Horizontal (no trend)",
+                    "is_correct": false
+                  },
+                  {
+                    "id": "a1599762139653",
+                    "text": "Downtrend to uptrend",
+                    "is_correct": false
+                  },
+                  {
+                    "id": "a1599762156607",
+                    "text": "Uptrend to downtrend",
+                    "is_correct": true
+                  }
+                ]
+              }
+            },
+            {
+              "id": 183006,
+              "key": "82e3f03d-49c0-49bd-bf92-2522b592fd60",
+              "title": "Q4",
+              "semantic_type": "ImageAtom",
+              "is_public": true,
+              "url": "https://video.udacity-data.com/topher/2016/August/57c06119_q4/q4.png",
+              "non_google_url": "https://s3.cn-north-1.amazonaws.com.cn/u-img/82e3f03d-49c0-49bd-bf92-2522b592fd60",
+              "caption": "",
+              "alt": null,
+              "width": 449,
+              "height": 247,
+              "instructor_notes": null
+            },
+            {
+              "id": 1059621,
+              "key": "9950aab0-75ff-4a14-b3c1-1d230fe763d8",
+              "title": "Q4",
+              "semantic_type": "RadioQuizAtom",
+              "is_public": true,
+              "instructor_notes": null,
+              "user_state": {
+                "node_key": "9950aab0-75ff-4a14-b3c1-1d230fe763d8",
+                "completed_at": null,
+                "last_viewed_at": null,
+                "unstructured": null
+              },
+              "question": {
+                "prompt": "Match the above time series to its corresponding trend.",
+                "answers": [
+                  {
+                    "id": "a1599762291783",
+                    "text": "Uptrend",
+                    "is_correct": false
+                  },
+                  {
+                    "id": "a1599762309859",
+                    "text": "Downtrend",
+                    "is_correct": false
+                  },
+                  {
+                    "id": "a1599762314634",
+                    "text": "Horizontal trend",
+                    "is_correct": false
+                  },
+                  {
+                    "id": "a1599762319235",
+                    "text": "Downtrend to uptrend",
+                    "is_correct": true
+                  },
+                  {
+                    "id": "a1599762324210",
+                    "text": "Uptrend to downtrend",
+                    "is_correct": false
+                  }
+                ]
+              }
+            },
+            {
+              "id": 183012,
+              "key": "ffef8b58-a81f-4087-88b0-08358e866634",
+              "title": "Q5",
+              "semantic_type": "ImageAtom",
+              "is_public": true,
+              "url": "https://video.udacity-data.com/topher/2016/August/57c073f5_q5/q5.png",
+              "non_google_url": "https://s3.cn-north-1.amazonaws.com.cn/u-img/ffef8b58-a81f-4087-88b0-08358e866634",
+              "caption": "",
+              "alt": null,
+              "width": 448,
+              "height": 246,
+              "instructor_notes": null
+            },
+            {
+              "id": 183007,
+              "key": "035e2356-a151-4b1a-9f3e-5851cce46189",
+              "title": "Q5",
+              "semantic_type": "RadioQuizAtom",
+              "is_public": true,
+              "instructor_notes": null,
+              "user_state": {
+                "node_key": "035e2356-a151-4b1a-9f3e-5851cce46189",
+                "completed_at": null,
+                "last_viewed_at": null,
+                "unstructured": null
+              },
+              "question": {
+                "prompt": " Match the above time series to its corresponding trend.",
+                "answers": [
+                  {
+                    "id": "a1472225894613",
+                    "text": "Uptrend",
+                    "is_correct": false
+                  },
+                  {
+                    "id": "a1472225894962",
+                    "text": "Downtrend",
+                    "is_correct": false
+                  },
+                  {
+                    "id": "a1472225896064",
+                    "text": "Horizontal trend",
+                    "is_correct": true
+                  },
+                  {
+                    "id": "a1472225897008",
+                    "text": "Downtrend to Uptrend",
+                    "is_correct": false
+                  },
+                  {
+                    "id": "a1472225898253",
+                    "text": "Uptrend to Downtrend",
+                    "is_correct": false
+                  }
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "id": 182986,
+          "key": "7030d40b-22a1-4dbb-a76e-eb9eb556708d",
+          "title": "Seasonality",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "7030d40b-22a1-4dbb-a76e-eb9eb556708d",
+            "completed_at": null,
+            "last_viewed_at": null,
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 199407,
+              "key": "aa529208-21bf-4511-b4a6-4f631d3c2eb4",
+              "title": "Seasonality",
+              "semantic_type": "VideoAtom",
+              "is_public": true,
+              "instructor_notes": "",
+              "video": {
+                "youtube_id": "LnqF6AgJ4_0",
+                "china_cdn_id": "LnqF6AgJ4_0.mp4"
+              }
+            }
+          ]
+        },
+        {
+          "id": 182989,
+          "key": "17dcc44d-7d32-4484-9b5f-7aa3317abf61",
+          "title": "Seasonality Plot",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "17dcc44d-7d32-4484-9b5f-7aa3317abf61",
+            "completed_at": null,
+            "last_viewed_at": null,
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 187531,
+              "key": "b2c114a5-72de-483d-9939-b1968bde314b",
+              "title": "Seasonality Plot",
+              "semantic_type": "VideoAtom",
+              "is_public": true,
+              "instructor_notes": "",
+              "video": {
+                "youtube_id": "Rcfw87IqRZo",
+                "china_cdn_id": "Rcfw87IqRZo.mp4"
+              }
+            }
+          ]
+        },
+        {
+          "id": 182991,
+          "key": "58baf2ea-428c-4bb8-898a-cff86b1d5065",
+          "title": "Cyclical Patterns",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "58baf2ea-428c-4bb8-898a-cff86b1d5065",
+            "completed_at": null,
+            "last_viewed_at": null,
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 187532,
+              "key": "3bb362ab-d1ab-484a-8eff-b243c64c1ef2",
+              "title": "Cyclical Patterns",
+              "semantic_type": "VideoAtom",
+              "is_public": true,
+              "instructor_notes": "",
+              "video": {
+                "youtube_id": "-L-DoRF21Fg",
+                "china_cdn_id": "-L-DoRF21Fg.mp4"
+              }
+            }
+          ]
+        },
+        {
+          "id": 182990,
+          "key": "ba34d31c-7b28-4984-bb83-b0b56ff9eaa2",
+          "title": "Seasonal or Cyclical Quiz",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "ba34d31c-7b28-4984-bb83-b0b56ff9eaa2",
+            "completed_at": null,
+            "last_viewed_at": null,
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 183017,
+              "key": "25d9cab2-3cc2-4017-9ad8-761bbdbf15bc",
+              "title": "Intro",
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "Here's an opportunity to test your ability to recognize the difference between cyclical and seasonal time series. Mark each time series plots as seasonal, cyclical, both or neither.\n",
+              "instructor_notes": ""
+            },
+            {
+              "id": 183013,
+              "key": "d64f621e-cc05-48a8-8634-d139b23d18c2",
+              "title": "Q1",
+              "semantic_type": "ImageAtom",
+              "is_public": true,
+              "url": "https://video.udacity-data.com/topher/2016/August/57c0761f_s-v-c-1/s-v-c-1.png",
+              "non_google_url": "https://s3.cn-north-1.amazonaws.com.cn/u-img/d64f621e-cc05-48a8-8634-d139b23d18c2",
+              "caption": "",
+              "alt": null,
+              "width": 555,
+              "height": 551,
+              "instructor_notes": null
+            },
+            {
+              "id": 183018,
+              "key": "1938930b-b832-4981-a026-92d904026f79",
+              "title": "Q1",
+              "semantic_type": "RadioQuizAtom",
+              "is_public": true,
+              "instructor_notes": null,
+              "user_state": {
+                "node_key": "1938930b-b832-4981-a026-92d904026f79",
+                "completed_at": null,
+                "last_viewed_at": null,
+                "unstructured": null
+              },
+              "question": {
+                "prompt": " Mark the time series plots as seasonal, cyclical, both or neither.",
+                "answers": [
+                  {
+                    "id": "a1472232002730",
+                    "text": "Cyclical",
+                    "is_correct": false
+                  },
+                  {
+                    "id": "a1472232003786",
+                    "text": "Seasonal",
+                    "is_correct": true
+                  },
+                  {
+                    "id": "a1472232004534",
+                    "text": "Both",
+                    "is_correct": false
+                  },
+                  {
+                    "id": "a1472232011451",
+                    "text": "Neither",
+                    "is_correct": false
+                  }
+                ]
+              }
+            },
+            {
+              "id": 183014,
+              "key": "99f9d36f-b243-4443-94ae-c23545060e27",
+              "title": "Q2",
+              "semantic_type": "ImageAtom",
+              "is_public": true,
+              "url": "https://video.udacity-data.com/topher/2016/August/57c077a7_s-v-c-2/s-v-c-2.png",
+              "non_google_url": "https://s3.cn-north-1.amazonaws.com.cn/u-img/99f9d36f-b243-4443-94ae-c23545060e27",
+              "caption": "",
+              "alt": null,
+              "width": 568,
+              "height": 520,
+              "instructor_notes": null
+            },
+            {
+              "id": 183019,
+              "key": "bcc02c9f-aa76-44b1-85d9-58ee2cadae19",
+              "title": "Q2",
+              "semantic_type": "RadioQuizAtom",
+              "is_public": true,
+              "instructor_notes": null,
+              "user_state": {
+                "node_key": "bcc02c9f-aa76-44b1-85d9-58ee2cadae19",
+                "completed_at": null,
+                "last_viewed_at": null,
+                "unstructured": null
+              },
+              "question": {
+                "prompt": " Mark the time series plots as seasonal, cyclical, both or neither.",
+                "answers": [
+                  {
+                    "id": "a1472232109351",
+                    "text": "Cyclical",
+                    "is_correct": true
+                  },
+                  {
+                    "id": "a1472232110231",
+                    "text": "Seasonal",
+                    "is_correct": false
+                  },
+                  {
+                    "id": "a1472232111941",
+                    "text": "Both",
+                    "is_correct": false
+                  },
+                  {
+                    "id": "a1472232112857",
+                    "text": "Neither",
+                    "is_correct": false
+                  }
+                ]
+              }
+            },
+            {
+              "id": 183015,
+              "key": "dacf01bb-982c-4053-b108-3fdb9b9c3d7c",
+              "title": "Q3",
+              "semantic_type": "ImageAtom",
+              "is_public": true,
+              "url": "https://video.udacity-data.com/topher/2016/August/57c077ba_s-v-c-3/s-v-c-3.png",
+              "non_google_url": "https://s3.cn-north-1.amazonaws.com.cn/u-img/dacf01bb-982c-4053-b108-3fdb9b9c3d7c",
+              "caption": "",
+              "alt": null,
+              "width": 535,
+              "height": 526,
+              "instructor_notes": null
+            },
+            {
+              "id": 183021,
+              "key": "2a4cfefe-cb50-435f-b89d-be8de7ec7dad",
+              "title": "Q3",
+              "semantic_type": "RadioQuizAtom",
+              "is_public": true,
+              "instructor_notes": null,
+              "user_state": {
+                "node_key": "2a4cfefe-cb50-435f-b89d-be8de7ec7dad",
+                "completed_at": null,
+                "last_viewed_at": null,
+                "unstructured": null
+              },
+              "question": {
+                "prompt": " Mark the time series plots as seasonal, cyclical, both or neither.",
+                "answers": [
+                  {
+                    "id": "a1472232499105",
+                    "text": "Cyclical",
+                    "is_correct": false
+                  },
+                  {
+                    "id": "a1472232500220",
+                    "text": "Seasonal",
+                    "is_correct": false
+                  },
+                  {
+                    "id": "a1472232501084",
+                    "text": "Both",
+                    "is_correct": false
+                  },
+                  {
+                    "id": "a1472232501829",
+                    "text": "Neither",
+                    "is_correct": true
+                  }
+                ]
+              }
+            },
+            {
+              "id": 183016,
+              "key": "6f9bd530-34b8-42d4-b5c3-767ec8c34675",
+              "title": "Q4",
+              "semantic_type": "ImageAtom",
+              "is_public": true,
+              "url": "https://video.udacity-data.com/topher/2016/August/57c077ca_s-v-c-4/s-v-c-4.png",
+              "non_google_url": "https://s3.cn-north-1.amazonaws.com.cn/u-img/6f9bd530-34b8-42d4-b5c3-767ec8c34675",
+              "caption": "",
+              "alt": null,
+              "width": 548,
+              "height": 539,
+              "instructor_notes": null
+            },
+            {
+              "id": 183022,
+              "key": "4ed0ef86-57f2-439c-86b2-a71a9ca2f20e",
+              "title": "Q4",
+              "semantic_type": "RadioQuizAtom",
+              "is_public": true,
+              "instructor_notes": null,
+              "user_state": {
+                "node_key": "4ed0ef86-57f2-439c-86b2-a71a9ca2f20e",
+                "completed_at": null,
+                "last_viewed_at": null,
+                "unstructured": null
+              },
+              "question": {
+                "prompt": " Mark the time series plots as seasonal, cyclical, both or neither.",
+                "answers": [
+                  {
+                    "id": "a1472233045198",
+                    "text": "Cyclical",
+                    "is_correct": false
+                  },
+                  {
+                    "id": "a1472233046082",
+                    "text": "Seasonal",
+                    "is_correct": false
+                  },
+                  {
+                    "id": "a1472233046901",
+                    "text": "Both",
+                    "is_correct": true
+                  },
+                  {
+                    "id": "a1472233047730",
+                    "text": "Neither",
+                    "is_correct": false
+                  }
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "id": 183023,
+          "key": "b6ce2519-fddd-4b72-9dc7-7cd5d1dd209e",
+          "title": "Seasonal or Cyclical Solution",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "b6ce2519-fddd-4b72-9dc7-7cd5d1dd209e",
+            "completed_at": null,
+            "last_viewed_at": null,
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 183032,
+              "key": "00cb33b2-5227-4df7-92df-3c8ef792ac85",
+              "title": "Intro",
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "Take a look below for a brief note about each of the time series in the quiz.",
+              "instructor_notes": ""
+            },
+            {
+              "id": 183025,
+              "key": "d5a46439-8539-4f48-8094-bdb4b4818569",
+              "title": "Q1",
+              "semantic_type": "ImageAtom",
+              "is_public": true,
+              "url": "https://video.udacity-data.com/topher/2016/August/57c07fc2_s-v-c-s1/s-v-c-s1.png",
+              "non_google_url": "https://s3.cn-north-1.amazonaws.com.cn/u-img/d5a46439-8539-4f48-8094-bdb4b4818569",
+              "caption": "",
+              "alt": null,
+              "width": 555,
+              "height": 551,
+              "instructor_notes": null
+            },
+            {
+              "id": 183024,
+              "key": "758bcfa7-85f0-4928-8666-30008b0a2b1c",
+              "title": "S1",
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "#1: Seasonal - Peak electricity in summer and winter months repeats every year",
+              "instructor_notes": ""
+            },
+            {
+              "id": 183026,
+              "key": "4aca61b3-b653-4737-9565-34ec931e47e5",
+              "title": "Q2",
+              "semantic_type": "ImageAtom",
+              "is_public": true,
+              "url": "https://video.udacity-data.com/topher/2016/August/57c08002_s-v-c-s2/s-v-c-s2.png",
+              "non_google_url": "https://s3.cn-north-1.amazonaws.com.cn/u-img/4aca61b3-b653-4737-9565-34ec931e47e5",
+              "caption": "",
+              "alt": null,
+              "width": 568,
+              "height": 520,
+              "instructor_notes": null
+            },
+            {
+              "id": 183027,
+              "key": "1ce2ed41-e11e-4231-a68d-f237aca65990",
+              "title": "Q2",
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "#3 Cyclical - shows pattern of downtrend every few years. The years are not fixed though.",
+              "instructor_notes": ""
+            },
+            {
+              "id": 183028,
+              "key": "ecae77f1-6921-447e-a286-c77b8f7d095e",
+              "title": "Q3",
+              "semantic_type": "ImageAtom",
+              "is_public": true,
+              "url": "https://video.udacity-data.com/topher/2016/August/57c0811f_s-v-c-3/s-v-c-3.png",
+              "non_google_url": "https://s3.cn-north-1.amazonaws.com.cn/u-img/ecae77f1-6921-447e-a286-c77b8f7d095e",
+              "caption": "",
+              "alt": null,
+              "width": 535,
+              "height": 526,
+              "instructor_notes": null
+            },
+            {
+              "id": 183029,
+              "key": "1ef7fe77-d218-40e5-84cc-7d12934dd77d",
+              "title": "Q3",
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "#3 None - There doesn't appear to be any cyclical or seasonal pattern in this time series.",
+              "instructor_notes": ""
+            },
+            {
+              "id": 183030,
+              "key": "235ead83-47ef-4483-a854-47de887b2916",
+              "title": "Q4",
+              "semantic_type": "ImageAtom",
+              "is_public": true,
+              "url": "https://video.udacity-data.com/topher/2016/August/57c081c4_s-v-c-s4/s-v-c-s4.png",
+              "non_google_url": "https://s3.cn-north-1.amazonaws.com.cn/u-img/235ead83-47ef-4483-a854-47de887b2916",
+              "caption": "",
+              "alt": null,
+              "width": 548,
+              "height": 539,
+              "instructor_notes": null
+            },
+            {
+              "id": 183031,
+              "key": "0e8de117-fbac-41dc-abed-44e3106b3069",
+              "title": "Q4",
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "#4 Both - Seasonal patterns each year with cyclical pattern showing about every 9 years",
+              "instructor_notes": ""
+            }
+          ]
+        },
+        {
+          "id": 182992,
+          "key": "224c8e06-0745-4718-b7c8-53fa69b22ff1",
+          "title": "Outro",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "224c8e06-0745-4718-b7c8-53fa69b22ff1",
+            "completed_at": null,
+            "last_viewed_at": null,
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 187533,
+              "key": "3909d474-0603-4e92-be68-2f394c93b127",
+              "title": "Outro",
+              "semantic_type": "VideoAtom",
+              "is_public": true,
+              "instructor_notes": "",
+              "video": {
+                "youtube_id": "e1jszqylQis",
+                "china_cdn_id": "e1jszqylQis.mp4"
+              }
+            }
+          ]
+        },
+        {
+          "id": 1059440,
+          "key": "6a32ade9-ede5-48cb-90f8-a8c7d9095caa",
+          "title": "Glossary",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "6a32ade9-ede5-48cb-90f8-a8c7d9095caa",
+            "completed_at": null,
+            "last_viewed_at": null,
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 1059442,
+              "key": "8b5570ab-fd0b-4453-9cc6-a40fcca4bc9f",
+              "title": null,
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "## Glossary\n\n\n**Average method:** a simple forecasting method that assumes the best predictor of future values is the average of all past values\n\n**Cyclical pattern:** an observable pattern in data that is not tied to some aspect of the calendar year (i.e. is not seasonal)\n\n**Moving average method:** a simple forecasting method that takes the average of values from a defined period of time (e.g. the last 12 months) as a prediction of future values\n\n**Naive method:** a simple forecasting method that takes the last observed value as a prediction for a future value. Can also be seasonal, in which case there is an assumption of constant magnitude of a seasonal pattern\n\n**Time series:** a sequence of data points that covers a continuous time interval, with equal spacing between each two consecutive measurements and each time unit having at most one data point\n\n**Time series forecasting:** use of a statistical model to predict future values based on past values\n\n**Time series plot:** a graphical representation of a relationship between time and a target variable\n\n**Trend:** a gradual shift in data to either higher or lower values over an extended period of time. Can be upwards, downwards, or horizontal\n\n**Seasonality:** a pattern repeating at fixed intervals within the same calendar year",
+              "instructor_notes": ""
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "_deprecated": [
+    {
+      "name": "non_google_url",
+      "reason": "(2016/8/18) Not sure, ask i18n team for reason"
+    },
+    {
+      "name": "non_google_url",
+      "reason": "(2016/8/18) Not sure, ask i18n team for reason"
+    },
+    {
+      "name": "non_google_url",
+      "reason": "(2016/8/18) Not sure, ask i18n team for reason"
+    },
+    {
+      "name": "non_google_url",
+      "reason": "(2016/8/18) Not sure, ask i18n team for reason"
+    },
+    {
+      "name": "non_google_url",
+      "reason": "(2016/8/18) Not sure, ask i18n team for reason"
+    },
+    {
+      "name": "non_google_url",
+      "reason": "(2016/8/18) Not sure, ask i18n team for reason"
+    },
+    {
+      "name": "non_google_url",
+      "reason": "(2016/8/18) Not sure, ask i18n team for reason"
+    },
+    {
+      "name": "non_google_url",
+      "reason": "(2016/8/18) Not sure, ask i18n team for reason"
+    },
+    {
+      "name": "non_google_url",
+      "reason": "(2016/8/18) Not sure, ask i18n team for reason"
+    },
+    {
+      "name": "non_google_url",
+      "reason": "(2016/8/18) Not sure, ask i18n team for reason"
+    },
+    {
+      "name": "non_google_url",
+      "reason": "(2016/8/18) Not sure, ask i18n team for reason"
+    },
+    {
+      "name": "non_google_url",
+      "reason": "(2016/8/18) Not sure, ask i18n team for reason"
+    },
+    {
+      "name": "non_google_url",
+      "reason": "(2016/8/18) Not sure, ask i18n team for reason"
+    }
+  ]
+}

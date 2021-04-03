@@ -1,0 +1,123 @@
+WEBVTT
+Kind: captions
+Language: pt-BR
+
+00:00:00.200 --> 00:00:03.567
+Vamos examinar alguns princípios
+fundamentais de uma série temporal.
+
+00:00:03.601 --> 00:00:05.567
+Desde que a humanidade notou
+
+00:00:05.601 --> 00:00:07.834
+o movimento regular
+do Sol e das estrelas,
+
+00:00:07.868 --> 00:00:10.100
+nós nos perguntamos
+sobre a passagem do tempo.
+
+00:00:10.133 --> 00:00:11.734
+Nossos antepassados
+registraram
+
+00:00:11.767 --> 00:00:14.267
+as fases da Lua
+pela 1ª vez há 30 mil anos,
+
+00:00:14.300 --> 00:00:16.634
+e o registro do tempo tem sido
+o modo com que a humanidade
+
+00:00:16.667 --> 00:00:19.601
+vem representando
+o progresso da civilização.
+
+00:00:19.634 --> 00:00:21.801
+É assim que planejamos,
+marcamos e criamos um arranjo
+
+00:00:21.834 --> 00:00:23.601
+quando algo tem que acontecer
+e ser feito.
+
+00:00:23.634 --> 00:00:26.934
+São os acontecimentos do passado,
+do presente e do futuro.
+
+00:00:27.567 --> 00:00:30.067
+Para nós, neste curso,
+vamos discutir o tempo
+
+00:00:30.100 --> 00:00:31.767
+de maneira
+um pouco menos filosófica
+
+00:00:31.801 --> 00:00:35.501
+e nos concentrar em dados que são
+coletados em períodos determinados.
+
+00:00:35.534 --> 00:00:37.868
+A 1ª característica definidora
+de uma série temporal
+
+00:00:37.901 --> 00:00:41.300
+é uma lista de observações
+em que a ordem importa.
+
+00:00:41.334 --> 00:00:44.501
+A ordenação é muito importante
+porque ela depende do tempo,
+
+00:00:44.534 --> 00:00:47.534
+e mudar a ordem pode mudar
+o significado dos dados.
+
+00:00:47.901 --> 00:00:50.601
+Para prever valores futuros,
+
+00:00:50.634 --> 00:00:52.534
+precisamos que cada segmento
+de dados seja coletado
+
+00:00:52.567 --> 00:00:54.934
+em intervalos sequenciais
+iguais
+
+00:00:54.968 --> 00:00:59.100
+e que cada unidade de tempo
+tenha no máximo um ponto de dados.
+
+00:00:59.501 --> 00:01:01.968
+Depois de coletar os dados,
+como um analista de negócios,
+
+00:01:02.000 --> 00:01:03.767
+temos dois objetivos em mente:
+
+00:01:03.801 --> 00:01:05.767
+primeiro, identificar
+os padrões
+
+00:01:05.801 --> 00:01:08.400
+representados
+pela sequência de observações
+
+00:01:08.434 --> 00:01:13.167
+e, segundo, prever futuros valores
+da série temporal.
+
+00:01:13.869 --> 00:01:15.667
+Os padrões que observamos
+vão contar a história
+
+00:01:15.700 --> 00:01:17.868
+de como nosso negócio
+interage com o tempo.
+
+00:01:17.901 --> 00:01:19.200
+*END*
+
+00:01:19.233 --> 00:01:20.501
+*CODE*
+

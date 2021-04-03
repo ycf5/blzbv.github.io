@@ -1,0 +1,81 @@
+WEBVTT
+Kind: captions
+Language: pt-BR
+
+00:00:00.667 --> 00:00:03.467
+Antes de começarmos a usar números
+e montarmos um modelo preditivo,
+
+00:00:03.501 --> 00:00:05.000
+faremos um gráfico com os dados
+
+00:00:05.033 --> 00:00:07.968
+para ter noção
+do que é uma série temporal.
+
+00:00:08.001 --> 00:00:10.734
+Um gráfico de séries temporais
+mostra uma representação gráfica
+
+00:00:10.767 --> 00:00:14.567
+da relação entre tempo e a variável
+de uma série temporal.
+
+00:00:14.601 --> 00:00:16.501
+O tempo está
+no eixo horizontal,
+
+00:00:16.534 --> 00:00:19.834
+e os valores da variável-alvo
+são mostrados no eixo vertical.
+
+00:00:19.868 --> 00:00:23.000
+O 1º gráfico mostra a série
+temporal completa do Bates Hotel.
+
+00:00:23.033 --> 00:00:25.267
+Podemos ver que a série
+mostra uma tendência de subida
+
+00:00:25.300 --> 00:00:28.868
+e para a direita. Chamamos
+isso de "tendência ascendente".
+
+00:00:28.901 --> 00:00:31.934
+Por fim, o gráfico de reservas
+mostra dois padrões principais.
+
+00:00:31.968 --> 00:00:34.267
+Primeiro, vemos
+a tendência ascendente.
+
+00:00:34.300 --> 00:00:39.801
+Depois, vemos flutuações recorrentes
+dentro do mesmo ano.
+
+00:00:39.834 --> 00:00:42.000
+Chamamos isso
+de padrão sazonal.
+
+00:00:42.033 --> 00:00:44.033
+Fazer um gráfico da série temporal
+ajuda a visualizar
+
+00:00:44.066 --> 00:00:45.601
+esses padrões
+e comportamentos.
+
+00:00:45.634 --> 00:00:48.199
+Podemos usar o que descobrimos
+no gráfico de série temporal
+
+00:00:48.232 --> 00:00:51.534
+para criar e aprimorar
+modelos de previsão sofisticados.
+
+00:00:51.567 --> 00:00:52.868
+*END*
+
+00:00:52.901 --> 00:00:54.200
+*CODE*
+
