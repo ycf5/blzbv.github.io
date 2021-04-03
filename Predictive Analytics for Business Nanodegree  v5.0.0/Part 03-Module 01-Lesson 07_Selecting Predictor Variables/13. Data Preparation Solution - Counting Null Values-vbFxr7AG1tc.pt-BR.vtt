@@ -1,0 +1,115 @@
+WEBVTT
+Kind: captions
+Language: pt-BR
+
+00:00:00.133 --> 00:00:03.200
+No Alteryx, existem alguns modos
+de determinar
+
+00:00:03.234 --> 00:00:05.934
+quantos valores nulos
+temos no conjunto de dados.
+
+00:00:05.968 --> 00:00:09.767
+O modo que escolhi fazer isso -
+e, para mim, o mais fácil -
+
+00:00:09.801 --> 00:00:11.400
+é usar uma ferramenta
+"Summarize".
+
+00:00:11.434 --> 00:00:14.334
+Então vamos arrastá-la
+para a tela.
+
+00:00:14.367 --> 00:00:18.234
+Vou colocá-la entre as ferramentas
+"Input Data" e "Browse".
+
+00:00:18.267 --> 00:00:21.033
+Depois vou selecionar
+todos os campos que tenho,
+
+00:00:21.067 --> 00:00:24.467
+ou seja, quero que as ações
+atinjam todos estes campos.
+
+00:00:24.501 --> 00:00:26.567
+A "Action" que vou fazer
+
+00:00:26.601 --> 00:00:31.334
+está no menu "Add":
+"Count Null".
+
+00:00:31.367 --> 00:00:34.801
+Isto vai me mostrar
+todas as variáveis diferentes
+
+00:00:34.834 --> 00:00:37.133
+e mudar um pouco
+o nome dos campos.
+
+00:00:37.167 --> 00:00:39.033
+Vou ativar o workflow agora.
+
+00:00:39.067 --> 00:00:42.567
+Podemos ver que a maioria
+dos campos não tem valores nulos.
+
+00:00:42.601 --> 00:00:43.934
+Podem ver os "0".
+
+00:00:43.968 --> 00:00:46.033
+Mas o número
+de mensagens de voice mail
+
+00:00:46.067 --> 00:00:49.400
+tem um valor muito alto
+de registros faltantes.
+
+00:00:49.434 --> 00:00:52.334
+E também temos alguns
+para "total day calls"
+
+00:00:52.367 --> 00:00:56.267
+e temos 95 campos vazios
+em "total night calls".
+
+00:00:56.300 --> 00:01:00.100
+Para mim, essa é a maneira
+mais fácil de simplesmente contar
+
+00:01:00.133 --> 00:01:02.501
+do número de registros nulos
+dentro do conjunto de dados.
+
+00:01:02.534 --> 00:01:05.033
+Há outras abordagens,
+como mencionei antes.
+
+00:01:05.067 --> 00:01:07.901
+Uma ótima maneira de analisar
+nulos em um conjunto de dados
+
+00:01:07.934 --> 00:01:11.734
+de maneira holística é usar
+a ferramenta "Field Summary",
+
+00:01:11.767 --> 00:01:15.200
+que vai nos dar a porcentagem
+de registros faltantes no conjunto.
+
+00:01:15.234 --> 00:01:18.000
+É uma abordagem que podemos
+usar mais tarde para determinar
+
+00:01:18.033 --> 00:01:21.934
+como queremos realmente
+lidar com esses dados faltantes.
+
+00:01:21.968 --> 00:01:23.267
+*END*
+
+00:01:23.300 --> 00:01:24.634
+*CODE*
+

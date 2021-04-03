@@ -1,0 +1,64 @@
+WEBVTT
+Kind: captions
+Language: pt-BR
+
+00:00:00.033 --> 00:00:03.300
+Os valores destes campos
+são 0,209,
+
+00:00:03.333 --> 00:00:06.567
+ou seja, têm
+uma correlação positiva.
+
+00:00:06.600 --> 00:00:09.833
+Isso significa que, quando o total
+de minutos por dia aumenta,
+
+00:00:09.867 --> 00:00:12.833
+o total de valores verdadeiros
+também aumenta.
+
+00:00:12.867 --> 00:00:15.200
+Mas também notei
+que o valor crítico
+
+00:00:15.233 --> 00:00:17.268
+é de menos de 0,05,
+
+00:00:17.301 --> 00:00:19.245
+o que, como aprendemos
+na aula do Patrick,
+
+00:00:19.278 --> 00:00:22.567
+significa que são
+estatisticamente significativos.
+
+00:00:22.600 --> 00:00:26.600
+Os asteriscos à direita
+indicam a significância
+
+00:00:26.633 --> 00:00:31.000
+e, quanto mais asteriscos,
+mais significantes são.
+
+00:00:31.033 --> 00:00:35.000
+Esta tabela que obtemos
+no Alteryx nos mostra bem
+
+00:00:35.033 --> 00:00:38.667
+que variáveis devemos considerar
+para usar em nosso modelo.
+
+00:00:38.700 --> 00:00:42.867
+Com esta lista, agora temos
+que examinar a correlação interna
+
+00:00:42.900 --> 00:00:44.733
+entre as variáveis preditivas.
+
+00:00:44.767 --> 00:00:46.067
+*END*
+
+00:00:46.100 --> 00:00:47.400
+*CODE*
+

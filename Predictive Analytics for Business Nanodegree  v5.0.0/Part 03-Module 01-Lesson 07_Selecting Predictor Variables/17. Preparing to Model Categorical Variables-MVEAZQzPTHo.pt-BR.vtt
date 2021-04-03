@@ -1,0 +1,86 @@
+WEBVTT
+Kind: captions
+Language: pt-BR
+
+00:00:00.467 --> 00:00:02.135
+Agora que retiramos
+os valores nulos,
+
+00:00:02.169 --> 00:00:04.771
+podemos começar a analisar
+um pouco mais os dados.
+
+00:00:04.805 --> 00:00:07.341
+Vamos ver agora
+variáveis de categoria
+
+00:00:07.374 --> 00:00:10.110
+e examinar a frequência
+de cada valor.
+
+00:00:10.143 --> 00:00:11.712
+Por que nos importamos
+com a frequência
+
+00:00:11.745 --> 00:00:13.981
+de um grupo
+dentro da variável?
+
+00:00:14.014 --> 00:00:17.384
+Bem, se tivermos uma porcentagem
+muito pequena de um grupo,
+
+00:00:17.417 --> 00:00:19.853
+pode ser difícil,
+primeiro, prevê-lo
+
+00:00:19.887 --> 00:00:22.623
+ou, segundo, usá-lo
+como variável preditiva.
+
+00:00:22.656 --> 00:00:25.158
+Por exemplo, se tivermos
+uma variável preditiva
+
+00:00:25.191 --> 00:00:28.428
+que diga se o cliente tem
+um plano internacional ou não
+
+00:00:28.462 --> 00:00:31.665
+e os dados se concentrarem
+muito no lado verdadeiro ou falso,
+
+00:00:31.698 --> 00:00:34.768
+então essa não seria
+uma variável preditiva muito útil.
+
+00:00:34.801 --> 00:00:36.904
+Há algumas técnicas avançadas
+para corrigir isso,
+
+00:00:36.937 --> 00:00:40.874
+como a sobreamostragem, mas
+não vamos falar delas neste curso.
+
+00:00:40.908 --> 00:00:43.577
+Se quiser saber mais
+acerca de sobreamostragem,
+
+00:00:43.610 --> 00:00:46.079
+há um link nas anotações
+deste vídeo.
+
+00:00:46.113 --> 00:00:48.182
+Por enquanto, vamos usar
+as ferramentas do Alteryx
+
+00:00:48.215 --> 00:00:51.518
+para definir a frequência
+das variáveis de categoria.
+
+00:00:51.552 --> 00:00:52.853
+*END*
+
+00:00:52.886 --> 00:00:54.188
+*CODE*
+

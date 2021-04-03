@@ -1,0 +1,48 @@
+WEBVTT
+Kind: captions
+Language: pt-BR
+
+00:00:00.801 --> 00:00:01.934
+Sei que parece bobagem,
+
+00:00:01.968 --> 00:00:04.067
+mas o melhor jeito
+de escolher variáveis preditivas
+
+00:00:04.100 --> 00:00:06.167
+é usar a lógica.
+
+00:00:06.200 --> 00:00:08.033
+Veja qual você acha que é
+a melhor chance
+
+00:00:08.067 --> 00:00:10.801
+de construir um modelo
+e use isso.
+
+00:00:10.834 --> 00:00:13.234
+O que vamos tentar prever
+neste exemplo
+
+00:00:13.267 --> 00:00:17.834
+é se o cliente renovará o contrato
+com uma operadora de celular.
+
+00:00:17.868 --> 00:00:20.834
+A 1ª coisa que devemos fazer
+é usar a lógica
+
+00:00:20.868 --> 00:00:22.567
+para determinar
+quais podem ser
+
+00:00:22.601 --> 00:00:25.467
+as melhores variáveis preditivas
+neste caso.
+
+00:00:25.500 --> 00:00:26.834
+*END*
+
+00:00:26.868 --> 00:00:28.167
+*CODE*
+

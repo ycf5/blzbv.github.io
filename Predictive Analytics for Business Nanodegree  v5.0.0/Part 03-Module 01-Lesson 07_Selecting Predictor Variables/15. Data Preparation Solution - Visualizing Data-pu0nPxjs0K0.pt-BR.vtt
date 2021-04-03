@@ -1,0 +1,115 @@
+WEBVTT
+Kind: captions
+Language: pt-BR
+
+00:00:00.467 --> 00:00:03.634
+No último vídeo, usamos
+uma ferramenta "Summarize"
+
+00:00:03.667 --> 00:00:07.267
+para contar os registros nulos
+presentes no conjunto de dados.
+
+00:00:07.300 --> 00:00:09.234
+Agora vou mostrar
+outra abordagem,
+
+00:00:09.267 --> 00:00:12.901
+que é usar a ferramenta "Field
+Summary" para obter a porcentagem
+
+00:00:12.934 --> 00:00:15.801
+de registros nulos
+dentro do conjunto de dados.
+
+00:00:15.834 --> 00:00:20.100
+Então já tenho a ferramenta "Input
+Data" e o arquivo "ChurnData".
+
+00:00:20.133 --> 00:00:23.934
+Agora, o que vou fazer, é pegar
+a ferramenta "Field Summary"
+
+00:00:23.968 --> 00:00:28.267
+e pedir para obter uma análise
+completa de todos os campos.
+
+00:00:28.300 --> 00:00:31.701
+Vou arrastar uma ferramenta "Browse"
+e ligá-la ao "Interactive Browse".
+
+00:00:31.734 --> 00:00:33.601
+Vou ativar o workflow
+
+00:00:33.634 --> 00:00:36.534
+e depois vou abrir o browse.
+
+00:00:37.267 --> 00:00:40.300
+Com o browse interativo,
+podemos ver várias coisas.
+
+00:00:40.334 --> 00:00:42.467
+Mas, neste vídeo,
+quero me concentrar
+
+00:00:42.501 --> 00:00:44.934
+nesta barra verde.
+O que ela representa
+
+00:00:44.968 --> 00:00:47.334
+é o número de registros
+disponíveis,
+
+00:00:47.367 --> 00:00:51.567
+ou seja, quantos registros
+são válidos em cada campo.
+
+00:00:51.601 --> 00:00:53.601
+Como pode ver,
+o campo "phone number"
+
+00:00:53.634 --> 00:00:55.501
+tem 100% dos dados
+disponíveis.
+
+00:00:55.534 --> 00:00:58.000
+Se formos até
+"number vmail messages",
+
+00:00:58.033 --> 00:01:00.567
+podemos ver que 74%
+dos dados estão faltando.
+
+00:01:00.601 --> 00:01:04.734
+O que significa que 74%
+dos registros são nulos ou vazios.
+
+00:01:04.767 --> 00:01:08.534
+Também temos 2% aqui
+em "total day calls"
+
+00:01:08.567 --> 00:01:12.968
+e 2% aqui,
+em "total night calls".
+
+00:01:13.001 --> 00:01:15.968
+Agora o que vamos fazer
+é usar algumas das técnicas
+
+00:01:16.000 --> 00:01:17.934
+que aprendemos
+no curso da Maureen
+
+00:01:17.968 --> 00:01:21.868
+para decidir como vamos lidar
+com cada um destes 3 campos
+
+00:01:21.901 --> 00:01:23.266
+e seus registros faltantes.
+
+00:01:23.299 --> 00:01:24.400
+*END*
+
+00:01:24.433 --> 00:01:25.634
+*CODE*
+

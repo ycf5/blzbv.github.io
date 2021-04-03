@@ -1,0 +1,460 @@
+WEBVTT
+Kind: captions
+Language: pt-BR
+
+00:00:00.901 --> 00:00:04.371
+Agora que aprendemos a interpretar
+correlações entre variáveis
+
+00:00:04.404 --> 00:00:06.073
+usando alguns tipos
+de gráficos,
+
+00:00:06.106 --> 00:00:09.543
+vamos ver como consegui
+criar esses gráficos.
+
+00:00:09.576 --> 00:00:13.413
+Vamos abrir o Alteryx e examinar
+como conseguimos criar um workflow
+
+00:00:13.447 --> 00:00:17.251
+para construir esses valores
+de correlação entre variáveis.
+
+00:00:17.284 --> 00:00:19.253
+No Alteryx, a 1ª coisa
+que vamos fazer
+
+00:00:19.286 --> 00:00:22.022
+é usar a ferramenta "Input Data"
+para importar o conjunto de dados.
+
+00:00:22.055 --> 00:00:23.857
+Vamos pegar
+a ferramenta "Input Data",
+
+00:00:23.891 --> 00:00:27.127
+vamos até o menu "Configuration",
+abrir o drop down
+
+00:00:27.160 --> 00:00:30.464
+e escolher o arquivo
+"Churndata.yxdb".
+
+00:00:30.497 --> 00:00:32.733
+A 1ª coisa que vou fazer
+é olhar o menu "Preview"
+
+00:00:32.766 --> 00:00:35.903
+para ver que campos tenho
+e como meus dados estão
+
+00:00:35.936 --> 00:00:37.704
+dentro deste conjunto
+de dados.
+
+00:00:37.738 --> 00:00:41.441
+Parece que temos informações
+sobre cada cliente.
+
+00:00:41.475 --> 00:00:44.912
+Em que estado estão,
+há quanto tempo são clientes,
+
+00:00:44.945 --> 00:00:46.446
+número de telefone,
+código de área,
+
+00:00:46.480 --> 00:00:48.782
+se têm um plano
+para ligações internacionais,
+
+00:00:48.815 --> 00:00:51.251
+além de um histórico
+de ligações -
+
+00:00:51.285 --> 00:00:53.487
+agregado em relação
+ao cliente.
+
+00:00:53.520 --> 00:00:57.691
+Coisas como: quantas ligações
+fazem durante o dia,
+
+00:00:57.724 --> 00:01:01.094
+por quantos minutos eles usam
+o telefone durante o dia,
+
+00:01:01.128 --> 00:01:04.398
+à noite, em ligações
+internacionais etc.
+
+00:01:04.431 --> 00:01:07.100
+Então, na ponta direita,
+temos o campo "Churn",
+
+00:01:07.134 --> 00:01:09.069
+e é ele que estamos
+tentando entender.
+
+00:01:09.102 --> 00:01:11.637
+Se eles realmente largam a empresa,
+ou seja, um valor verdadeiro,
+
+00:01:11.670 --> 00:01:14.808
+ou se não largam,
+ou seja, um valor falso.
+
+00:01:14.842 --> 00:01:19.980
+Então agora quero determinar
+a correlação entre as variáveis.
+
+00:01:20.013 --> 00:01:22.683
+Ou seja, entre o campo "Churn"
+e todos estes campos
+
+00:01:22.716 --> 00:01:25.452
+e destes campos entre si.
+
+00:01:25.485 --> 00:01:26.820
+Para fazer isso, vamos usar
+
+00:01:26.854 --> 00:01:28.655
+uma ferramenta
+"Association Analysis",
+
+00:01:28.689 --> 00:01:32.092
+que fica dentro da categoria
+"Data Investigation".
+
+00:01:32.125 --> 00:01:35.162
+Vou pegar a ferramenta
+"Association Analysis".
+
+00:01:35.195 --> 00:01:39.032
+Há três opções
+de configurações e seleções
+
+00:01:39.066 --> 00:01:40.501
+que temos que fazer.
+
+00:01:40.534 --> 00:01:42.569
+A primeira é decidir
+se queremos
+
+00:01:42.603 --> 00:01:45.272
+usar um campo
+numa análise mais detalhada.
+
+00:01:45.305 --> 00:01:49.610
+Neste exemplo, queremos entender
+o campo "Churn" melhor,
+
+00:01:49.643 --> 00:01:53.580
+então, sim, temos um "Target Field"
+que queremos entender melhor.
+
+00:01:53.614 --> 00:01:57.117
+Vamos marcar isto
+e definir qual é o campo.
+
+00:01:57.518 --> 00:01:58.952
+É o campo "Churn".
+
+00:01:58.986 --> 00:02:03.323
+Então aqui perguntam
+sobre o "Target level of interest".
+
+00:02:03.357 --> 00:02:05.392
+Temos que definir se queremos
+entender melhor
+
+00:02:05.425 --> 00:02:09.162
+os valores "verdadeiro" ou "falso",
+os "sim" ou "não" ou os "1" ou "0".
+
+00:02:09.196 --> 00:02:12.199
+Não se concentre muito nisso.
+A única coisa que vai significar
+
+00:02:12.232 --> 00:02:15.936
+é se queremos correlações
+positivas com valores verdadeiros
+
+00:02:15.969 --> 00:02:18.505
+ou correlações negativas
+com valores verdadeiros.
+
+00:02:18.539 --> 00:02:20.874
+Mas não se concentre
+muito nisso.
+
+00:02:20.908 --> 00:02:22.876
+A 2ª grande opção que temos
+
+00:02:22.910 --> 00:02:25.512
+dentro da ferramenta
+"Association Analysis"
+
+00:02:25.545 --> 00:02:31.385
+é decidir que campos e variáveis
+queremos adicionar ao modelo
+
+00:02:31.418 --> 00:02:34.254
+e se queremos determinar
+a correlação entre elas
+
+00:02:34.288 --> 00:02:38.725
+e também a variável-alvo
+e as possíveis variáveis preditivas.
+
+00:02:38.759 --> 00:02:43.063
+No nosso exemplo,
+vamos selecionar todas.
+
+00:02:43.096 --> 00:02:47.401
+A 3ª e última opção é decidir
+a partir de que medida de associação
+
+00:02:47.434 --> 00:02:52.940
+vamos julgar as correlações:
+Pearson, Spearman ou Hoeffding.
+
+00:02:52.973 --> 00:02:55.075
+Como você se lembra,
+em seções anteriores,
+
+00:02:55.108 --> 00:02:58.946
+mencionei que só íamos
+usar em Pearson neste exemplo.
+
+00:02:58.979 --> 00:03:01.582
+Então vamos manter
+o Pearson, que é o padrão.
+
+00:03:01.615 --> 00:03:03.584
+A próxima coisa que vou fazer
+é trazer um "Browse"
+
+00:03:03.617 --> 00:03:06.053
+para o "R",
+ou output de relatório,
+
+00:03:06.086 --> 00:03:09.923
+e outra ferramenta "Browse" para
+o "I", ou output browse interativo.
+
+00:03:09.957 --> 00:03:14.061
+Agora vamos ativar o workflow
+e vamos revisar o resultado depois.
+
+00:03:14.094 --> 00:03:16.196
+Primeiro, vamos pegar
+o "report output"
+
+00:03:16.230 --> 00:03:18.332
+e maximizá-lo.
+
+00:03:18.365 --> 00:03:21.301
+Agora vou arrastá-lo
+para a outra tela.
+
+00:03:21.335 --> 00:03:23.971
+Como podem ver, estes são
+os mesmos resultados
+
+00:03:24.004 --> 00:03:26.907
+que vimos
+nos exemplos anteriores.
+
+00:03:26.940 --> 00:03:29.476
+Estamos tentando entender melhor
+o campo "Churn"
+
+00:03:29.510 --> 00:03:32.980
+e o nível de associação
+que todas essas variáveis preditivas
+
+00:03:33.013 --> 00:03:36.517
+têm com o campo "Churn".
+Elas estão em ordem decrescente,
+
+00:03:36.550 --> 00:03:40.354
+então, no topo, temos as variáveis
+mais associadas com o "Churn":
+
+00:03:40.387 --> 00:03:42.655
+o número de ligações
+para o atendimento ao cliente,
+
+00:03:42.688 --> 00:03:46.660
+o total de minutos internacionais,
+o valor cobrado por eles etc.
+
+00:03:46.693 --> 00:03:48.896
+Também podemos ver
+os valores críticos,
+
+00:03:48.929 --> 00:03:52.466
+ou a significância estatística
+que estas variáveis têm
+
+00:03:52.499 --> 00:03:55.202
+em relação ao campo "Churn".
+Quanto mais estrelas,
+
+00:03:55.235 --> 00:03:57.638
+mais significativos estatisticamente
+eles serão.
+
+00:03:57.671 --> 00:04:00.741
+Parece que temos 5 variáveis
+significativas estatisticamente,
+
+00:04:00.774 --> 00:04:03.844
+mas vou examiná-las melhor
+na próxima seção.
+
+00:04:03.877 --> 00:04:06.380
+Este é o relatório
+que vimos antes.
+
+00:04:06.413 --> 00:04:08.982
+Agora vamos
+ao browse interativo.
+
+00:04:10.350 --> 00:04:12.986
+Dentro do browse interativo,
+temos duas partes diferentes,
+
+00:04:13.020 --> 00:04:16.223
+como vimos antes. Temos
+uma matriz de correlação à esquerda
+
+00:04:16.256 --> 00:04:18.825
+e um gráfico de dispersão
+à direita.
+
+00:04:18.859 --> 00:04:21.695
+Estamos procurando 3 coisas:
+marcas bem vermelhas,
+
+00:04:21.728 --> 00:04:26.533
+de correlações positivas,
+pouca cor que mostra correlação 0
+
+00:04:26.567 --> 00:04:28.969
+e marcas azuis,
+de correlações negativas.
+
+00:04:29.002 --> 00:04:32.139
+Então vamos selecionar
+dois valores para comparar.
+
+00:04:32.172 --> 00:04:36.910
+Isto mostra uma correlação
+de 1,00 entre estas variáveis.
+
+00:04:36.944 --> 00:04:38.745
+Como vemos aqui à direita,
+
+00:04:38.779 --> 00:04:41.548
+são o total de minutos consumidos
+à noite e o valor cobrado por isso.
+
+00:04:41.582 --> 00:04:44.051
+Como vemos, o valor
+era de 1,00,
+
+00:04:44.084 --> 00:04:48.155
+o que significa que têm
+uma correlação positiva perfeita.
+
+00:04:48.188 --> 00:04:50.357
+Como vemos pelo gráfico
+de dispersão,
+
+00:04:50.390 --> 00:04:54.027
+quando um se move
+o outro se move paralelo a ele.
+
+00:04:54.061 --> 00:04:57.331
+Estas duas coisas, eu suponho,
+são variáveis duplicadas
+
+00:04:57.364 --> 00:05:00.334
+e não deveríamos incluir
+ambas no nosso modelo.
+
+00:05:00.367 --> 00:05:05.506
+A outra coisa que podemos ver são
+duas variáveis com pouca correlação.
+
+00:05:05.539 --> 00:05:10.544
+Estas duas, por exemplo,
+têm correlação de 0,03.
+
+00:05:10.577 --> 00:05:13.447
+São o total de ligações diurnas
+e total de ligações internacionais.
+
+00:05:13.480 --> 00:05:15.949
+Como elas são possíveis
+variáveis preditivas,
+
+00:05:15.983 --> 00:05:18.886
+vemos que há pouca ou quase
+nenhuma correlação entre elas,
+
+00:05:18.919 --> 00:05:23.023
+logo podemos supor que é seguro
+usar estas duas variáveis
+
+00:05:23.056 --> 00:05:25.425
+no modelo preditivo depois.
+
+00:05:25.459 --> 00:05:31.031
+Posso determinar isso por causa
+da correlação muito baixa, de 0,03
+
+00:05:31.064 --> 00:05:34.735
+e também, no gráfico de dispersão,
+não vejo nenhuma tendência
+
+00:05:34.768 --> 00:05:37.638
+quando comparamos
+essas duas variáveis.
+
+00:05:37.671 --> 00:05:39.106
+Então este é um exemplo
+
+00:05:39.139 --> 00:05:41.408
+de como podemos
+criar um workflow
+
+00:05:41.441 --> 00:05:44.912
+para ver a matriz de correlação,
+os gráficos de dispersão
+
+00:05:44.945 --> 00:05:48.248
+e os relatórios para determinar
+a correlação
+
+00:05:48.282 --> 00:05:52.052
+entre a variável-alvo
+e as possíveis variáveis preditivas
+
+00:05:52.085 --> 00:05:55.422
+e também examinar se existem
+correlações internas
+
+00:05:55.455 --> 00:05:57.322
+entre as variáveis preditivas.
+
+00:05:57.355 --> 00:05:58.492
+*END*
+
+00:05:58.525 --> 00:05:59.827
+*CODE*
+

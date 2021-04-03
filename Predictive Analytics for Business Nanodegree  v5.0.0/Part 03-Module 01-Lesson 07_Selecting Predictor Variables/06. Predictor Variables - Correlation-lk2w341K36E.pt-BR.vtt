@@ -1,0 +1,106 @@
+WEBVTT
+Kind: captions
+Language: pt-BR
+
+00:00:00.200 --> 00:00:04.167
+Usamos a lógica para obter
+uma lista de possíveis variáveis,
+
+00:00:04.200 --> 00:00:07.467
+depois conferimos para ver
+se não havia variáveis duplicadas
+
+00:00:07.500 --> 00:00:10.267
+e, agora, a última coisa
+que queremos fazer
+
+00:00:10.300 --> 00:00:13.600
+é conferir as correlações
+entre as variáveis.
+
+00:00:13.633 --> 00:00:16.067
+A correlação é uma medida
+da associação
+
+00:00:16.100 --> 00:00:17.733
+entre duas variáveis.
+
+00:00:17.767 --> 00:00:21.833
+Em termos leigos, isso significa
+que, se uma variável mudar,
+
+00:00:21.867 --> 00:00:24.500
+será que a outra variável
+vai mudar junto a ela?
+
+00:00:24.533 --> 00:00:26.499
+Os valores
+do coeficiente de correlação
+
+00:00:26.532 --> 00:00:28.733
+vão de -1 a 1,
+
+00:00:28.767 --> 00:00:31.800
+sendo 1
+uma correlação totalmente positiva,
+
+00:00:31.833 --> 00:00:34.067
+[]0, a ausência de correlação
+
+00:00:34.100 --> 00:00:37.800
+e -1, uma correlação
+totalmente negativa.
+
+00:00:37.833 --> 00:00:41.900
+Para explicar melhor, entender isto
+pode nos mostrar duas coisas.
+
+00:00:41.933 --> 00:00:46.800
+A primeira seria: qual é
+uma boa variável preditiva?
+
+00:00:46.833 --> 00:00:50.900
+A 2ª coisa seria determinar
+se existe correlação interna
+
+00:00:50.933 --> 00:00:54.067
+entre as variáveis preditivas.
+
+00:00:54.100 --> 00:00:58.200
+A correlação pode ser medida
+com vários tipos de associação:
+
+00:00:58.233 --> 00:01:01.572
+de Pearson, Spearman
+ou Hoeffding.
+
+00:01:02.200 --> 00:01:05.267
+Neste curso, usaremos
+a correlação de Pearson.
+
+00:01:05.300 --> 00:01:07.300
+Mas você pode ler mais
+sobre as diferenças
+
+00:01:07.333 --> 00:01:10.800
+entre os tipos de correlação
+nas anotações.
+
+00:01:10.833 --> 00:01:12.732
+Agora, vamos dar uma olhada
+nos nossos dados
+
+00:01:12.765 --> 00:01:15.767
+e na correlação medida
+através de Pearson,
+
+00:01:15.800 --> 00:01:19.233
+além dos gráficos de dispersão
+correspondentes no Alteryx.
+
+00:01:19.267 --> 00:01:20.567
+*END*
+
+00:01:20.600 --> 00:01:21.900
+*CODE*
+

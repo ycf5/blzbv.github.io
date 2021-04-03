@@ -1,0 +1,69 @@
+WEBVTT
+Kind: captions
+Language: pt-BR
+
+00:00:00.333 --> 00:00:01.900
+Depois que usarmos a lógica
+
+00:00:01.933 --> 00:00:05.000
+para criar uma lista
+de possíveis variáveis preditivas,
+
+00:00:05.033 --> 00:00:08.700
+vamos garantir que não escolhemos
+nenhuma variável duplicada.
+
+00:00:08.733 --> 00:00:11.100
+Uma variável duplicada
+é apenas uma variável
+
+00:00:11.133 --> 00:00:15.000
+que representa a mesma coisa
+que outra variável.
+
+00:00:15.033 --> 00:00:18.700
+Um exemplo disto seria "Proprietário
+do imóvel" e "Locatário",
+
+00:00:18.733 --> 00:00:21.833
+já que uma resposta "sim" ou "não"
+para "Proprietário do imóvel"
+
+00:00:21.867 --> 00:00:25.800
+também responde
+se o cliente é um "Locatário".
+
+00:00:25.833 --> 00:00:29.167
+Outro exemplo seria
+"Faixa etária" e "Idade".
+
+00:00:29.200 --> 00:00:32.300
+Ou, em beisebol,
+"Run" e "Runs por jogo".
+
+00:00:32.333 --> 00:00:35.433
+Todas essas variáveis
+representam a mesma coisa,
+
+00:00:35.467 --> 00:00:39.500
+ou seja, teríamos duas variáveis
+preditivas iguais no modelo.
+
+00:00:39.533 --> 00:00:41.667
+Ter variáveis duplicadas
+no modelo
+
+00:00:41.700 --> 00:00:44.233
+prejudica nossa capacidade
+de prever.
+
+00:00:44.267 --> 00:00:47.767
+Por isso, devemos apenas
+escolher uma e usá-la.
+
+00:00:47.800 --> 00:00:49.133
+*END*
+
+00:00:49.167 --> 00:00:50.467
+*CODE*
+

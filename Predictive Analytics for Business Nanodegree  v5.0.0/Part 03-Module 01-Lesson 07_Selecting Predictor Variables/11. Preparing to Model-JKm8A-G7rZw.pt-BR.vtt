@@ -1,0 +1,71 @@
+WEBVTT
+Kind: captions
+Language: pt-BR
+
+00:00:00.501 --> 00:00:02.736
+Vamos parar um pouco e revisar
+
+00:00:02.769 --> 00:00:04.738
+o que aprendemos até aqui.
+
+00:00:04.771 --> 00:00:07.841
+Você aprendeu a identificar
+uma variável-alvo.
+
+00:00:07.875 --> 00:00:11.512
+Você também pôde identificar
+o que é uma variável preditiva.
+
+00:00:11.545 --> 00:00:13.947
+E, por fim, você
+aprendeu a identificar
+
+00:00:13.981 --> 00:00:17.684
+que variáveis preditivas
+podem ser usadas no modelo.
+
+00:00:17.885 --> 00:00:21.255
+Agora é hora de resolver
+alguns problemas de classificação.
+
+00:00:21.288 --> 00:00:23.824
+Sei que Maureen ficaria
+muito chateada
+
+00:00:23.857 --> 00:00:26.927
+se tivesse passado pelo curso dela,
+aprendido a preparar dados
+
+00:00:26.960 --> 00:00:28.929
+e não tivesse usado
+algumas daquelas técnicas.
+
+00:00:28.962 --> 00:00:30.864
+Mas não se preocupe.
+Nesta seção,
+
+00:00:30.898 --> 00:00:33.467
+vamos pegar as técnicas
+de preparação de dados
+
+00:00:33.500 --> 00:00:36.403
+que você aprendeu
+e aplicá-las no nosso curso
+
+00:00:36.436 --> 00:00:39.840
+para, por exemplo,
+lidar com dados brutos
+
+00:00:39.873 --> 00:00:42.974
+e fazer considerações ao trabalhar
+com variáveis de categoria.
+
+00:00:43.007 --> 00:00:44.545
+Então vamos começar.
+
+00:00:44.578 --> 00:00:45.879
+*END*
+
+00:00:45.913 --> 00:00:47.214
+*CODE*
+
