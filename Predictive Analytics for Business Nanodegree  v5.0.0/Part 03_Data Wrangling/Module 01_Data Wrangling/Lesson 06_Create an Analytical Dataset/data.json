@@ -1,0 +1,320 @@
+{
+  "data": {
+    "lesson": {
+      "id": 680851,
+      "key": "8207eb5c-8e75-4abb-aa72-f6f5c02bec25",
+      "title": "Create an Analytical Dataset",
+      "semantic_type": "Lesson",
+      "is_public": true,
+      "version": "1.0.0",
+      "locale": "en-us",
+      "summary": "A pet store chain is selecting the location for its next store. You will use data preparation techniques to build a robust analytic dataset, then build a predictive model to select the best location.",
+      "lesson_type": "Classroom",
+      "display_workspace_project_only": false,
+      "resources": {
+        "files": [
+          {
+            "name": "Videos Zip File",
+            "uri": "https://zips.udacity-data.com/8207eb5c-8e75-4abb-aa72-f6f5c02bec25/680851/1544455633047/Create+an+Analytical+Dataset+Videos.zip"
+          },
+          {
+            "name": "Transcripts Zip File",
+            "uri": "https://zips.udacity-data.com/8207eb5c-8e75-4abb-aa72-f6f5c02bec25/680851/1544455629964/Create+an+Analytical+Dataset+Subtitles.zip"
+          }
+        ],
+        "google_plus_link": null,
+        "career_resource_center_link": null,
+        "coaching_appointments_link": null,
+        "office_hours_link": null,
+        "aws_provisioning_link": null
+      },
+      "project": {
+        "key": "32364c9f-3b1c-4c6b-a521-b0731d5c541b",
+        "version": "1.0.0",
+        "locale": "en-us",
+        "duration": 17280,
+        "semantic_type": "Project",
+        "title": "Create an Analytical Dataset",
+        "description": "After completing the project by filling out the submission template and reviewing it using the [project rubric](https://review.udacity.com/#!/rubrics/382/view), click the Submit Project button below and upload your submission.\n\nYou may also include your Alteryx workflow if you'd like. If your submission does not meet specifications, having the workflow may help the review identify mistakes.",
+        "is_public": true,
+        "summary": null,
+        "forum_path": "",
+        "rubric_id": "382",
+        "terminal_project_id": null,
+        "resources": null,
+        "image": null
+      },
+      "lab": null,
+      "concepts": [
+        {
+          "id": 263582,
+          "key": "f9665350-0204-4fc2-8709-5c6c04c296d2",
+          "title": "Introducing Project: Create an Analytical Dataset",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "f9665350-0204-4fc2-8709-5c6c04c296d2",
+            "completed_at": null,
+            "last_viewed_at": null,
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 263583,
+              "key": "2aa35532-2d95-4d6c-b028-b5b924c3de8f",
+              "title": "PAND L7 01",
+              "semantic_type": "VideoAtom",
+              "is_public": true,
+              "instructor_notes": "",
+              "video": {
+                "youtube_id": "29QDgpgDQ6s",
+                "china_cdn_id": "29QDgpgDQ6s.mp4"
+              }
+            }
+          ]
+        },
+        {
+          "id": 187151,
+          "key": "c13ef592-7839-4a04-8acd-1edcff8b5470",
+          "title": "Project Overview",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "c13ef592-7839-4a04-8acd-1edcff8b5470",
+            "completed_at": null,
+            "last_viewed_at": null,
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 187152,
+              "key": "88686636-bc29-4373-832e-26f1a1cb11cf",
+              "title": "overview",
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "## Project Overview\n\nThis project is the first part of a two-part series. In the first part, you will blend and format data and deal with outliers.\n\nFor the second part, you will use your cleaned up dataset to create another linear regression model. The difference this time is that you will have to choose which variable(s) are the most important for the model using new techniques learned in the Selecting Predictor Variables section.\n\n### Scenario\n\nPawdacity is a leading pet store chain in Wyoming with 13 stores throughout the state.  This year, Pawdacity would like to expand and open a 14th store. Your manager has asked you to perform an analysis to recommend the city for Pawdacity’s newest store, based on predicted yearly sales.\n\n#### How Do I Complete this Project?\n\nThis project uses skills learned throughout the \"Data Preparation” lessons. To complete this project:\n\n* Go through the course.\n* Apply the skills learned in the course to solve the business problem given in the project details. \n* Use our guidelines and rubric to help build your project.\n* When you're ready, submit it to us for review using the submission template found in the supporting materials section.\n\n#### Skills Required\n\nIn order to complete this project, you must be able to:\n\n* Understand different data types. Review Lesson 1 Understanding Data\n* Deal with a variety of data issues. Review Lesson 2 Data Issues\n* Format data appropriately. Review Lesson 3 Data Formatting\n* Blend data together using joins and unions. Review Lesson 4 Data Blending",
+              "instructor_notes": ""
+            }
+          ]
+        },
+        {
+          "id": 187353,
+          "key": "99803678-4241-40ee-9dee-c88784e116b8",
+          "title": "Project Details",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "99803678-4241-40ee-9dee-c88784e116b8",
+            "completed_at": null,
+            "last_viewed_at": null,
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 187354,
+              "key": "47625eb3-b030-450d-b55a-bc60dd429d01",
+              "title": "details",
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "### The Business Problem\n\nPawdacity is a leading pet store chain in Wyoming with 13 stores throughout the state.  This year, Pawdacity would like to expand and open a 14th store. Your manager has asked you to perform an analysis to recommend the city for Pawdacity’s newest store, based on predicted yearly sales.\n\nYour first step in predicting yearly sales is to first format and blend together data from different datasets and deal with outliers.\n\nYour manager has given you the following information to work with:\n\n1. The monthly sales data for all of the Pawdacity stores for the year 2010.\n2. NAICS data on the most current sales of all competitor stores where total sales is equal to 12 months of sales.\n3. A partially parsed data file that can be used for population numbers.\n4. Demographic data (Households with individuals under 18, Land Area, Population Density, and Total Families) for each city and county in the state of Wyoming. For people who are unfamiliar with the US city system, a state contains counties and counties contains one or more cities.\n\n<center> **Map of Wyoming Counties**</center>",
+              "instructor_notes": ""
+            },
+            {
+              "id": 188002,
+              "key": "0b1898e5-510c-4c8e-b08e-1ef74f73f5f5",
+              "title": "Map of Wyoming Counties",
+              "semantic_type": "ImageAtom",
+              "is_public": true,
+              "url": "https://video.udacity-data.com/topher/2019/August/5d47a493_wyoming-county-map/wyoming-county-map.gif",
+              "non_google_url": "https://s3.cn-north-1.amazonaws.com.cn/u-img/0b1898e5-510c-4c8e-b08e-1ef74f73f5f5",
+              "caption": "",
+              "alt": null,
+              "width": 749,
+              "height": 593,
+              "instructor_notes": null
+            },
+            {
+              "id": 188003,
+              "key": "79de9eb7-b44a-4106-bf5c-8d2efd83ec86",
+              "title": "Success Steps",
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "\n### Steps to Success\n\n#### Step 1: Business and Data Understanding\n\nYour project should include a description of the key business decisions that need to be made.\n\n#### Step 2: Building the Training Set\n\nTo properly build the model, and select predictor variables, create a dataset with the following columns:\n\n`City`<br>\n`2010 Census Population`<br>\n`Total Pawdacity Sales`<br>\n`Households with Under 18`<br>\n`Land Area`<br>\n`Population Density`<br>\n`Total Families`\n\nThis dataset will be your training set to help you build a regression model in order to predict sales in the Practice Project in the next lesson. Every row should have sales data because we're trying to predict sales.\n\n**Notes**\n\nYou should be consolidating the data at the city level and **not at the store level.** We only have data at the city wide level so any analysis at the store level will not be sufficient to complete this analysis. \n\nWe simply need to focus on cleaning up and blending the data together in this step.\n\nIf you’ve done everything correctly, the sum for each of the above columns should be:\n\n- **Census Population:** 213,862\n- **Total Pawdacity Sales:** 3,773,304\n- **Households with Under 18:** 34,064\n- **Land Area:** 33,071\n- **Population Density:** 63\n- **Total Families:** 62,653\n\nwith **11 rows of data**\n\nFor Alteryx users:\n\n* Use the Autofield Tool to help quickly convert your data fields into the appropriate datafields for analysis.\n\n* Research these [three specific formulas](http://help.alteryx.com/10.6/index.htm#Reference/Functions.htm#String) to help you get rid of unwanted characters in the Formula tool: ReplaceFirst, Left, FindString\n\n#### Step 3: Dealing with Outliers\n\nOnce you have created the dataset, look for outliers and figure out how deal with your outliers. Use the IQR method to determine if there are outlier cities for each of the variables and then justify which city that has at least one outlier value should be removed.\n\n**IQR Steps**\n\nTo calculate the upper fence and the lower fence, here are the exact steps:\n\n1 . Calculate 1st quartile Q1 and 3rd quartile Q3 of the dataset. You can use the Excel function QUARTILE.INC or QUARTILE.EXC\n\n2 . Calculate the Interquartile Range: IQR = Q3 - Q1\n\n3 . Add 1.5 * IQR to Q3 to get the upper fence: Upper Fence = Q3 + 1.5 * IQR\n\n4 . Subtract 1.5 * IQR to Q1 to get the lower fence: Lower Fence = Q1 - 1.5 * IQR\n\n5 . Values above the Upper Fence and values below the Lower Fence are outliers\n",
+              "instructor_notes": ""
+            }
+          ]
+        },
+        {
+          "id": 187357,
+          "key": "df850dfa-ae70-4b29-8ccb-b58c01590cbf",
+          "title": "Supporting Materials",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "df850dfa-ae70-4b29-8ccb-b58c01590cbf",
+            "completed_at": null,
+            "last_viewed_at": null,
+            "unstructured": null
+          },
+          "resources": {
+            "files": [
+              {
+                "name": "Competitor Sales",
+                "uri": "http://video.udacity-data.com.s3.amazonaws.com/topher/2016/July/578ec224_p2-wy-453910-naics-data/p2-wy-453910-naics-data.csv"
+              },
+              {
+                "name": "Demographic Data",
+                "uri": "http://video.udacity-data.com.s3.amazonaws.com/topher/2016/November/58250a54_p2-wy-demographic-data/p2-wy-demographic-data.csv"
+              },
+              {
+                "name": "Population Data",
+                "uri": "http://video.udacity-data.com.s3.amazonaws.com/topher/2016/November/58250a7b_p2-partially-parsed-wy-web-scrape/p2-partially-parsed-wy-web-scrape.csv"
+              },
+              {
+                "name": "Pawdacity Monthly Sales",
+                "uri": "https://d17h27t6h515a5.cloudfront.net/topher/2017/November/5a2086fc_p2-2010-pawdacity-monthly-sales-p2-2010-pawdacity-monthly-sales/p2-2010-pawdacity-monthly-sales-p2-2010-pawdacity-monthly-sales.csv"
+              },
+              {
+                "name": "All Project Files",
+                "uri": "https://d17h27t6h515a5.cloudfront.net/topher/2017/November/5a208765_p2-files/p2-files.zip"
+              },
+              {
+                "name": "P2.1 Submission Template",
+                "uri": "https://d17h27t6h515a5.cloudfront.net/topher/2018/January/5a4e9f92_p2.1-submission-template-make-a-copy/p2.1-submission-template-make-a-copy.docx"
+              },
+              {
+                "name": "Debugging Alteryx",
+                "uri": "https://video.udacity-data.com/topher/2018/October/5bbfb1ac_debugging-alteryx/debugging-alteryx.pdf"
+              }
+            ],
+            "google_plus_link": null,
+            "career_resource_center_link": null,
+            "coaching_appointments_link": null,
+            "office_hours_link": null,
+            "aws_provisioning_link": null
+          },
+          "atoms": [
+            {
+              "id": 187358,
+              "key": "360d9ca1-7048-4f09-9d6f-3b989da28a41",
+              "title": "review",
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "### Review\n\nUse the [project rubric](https://review.udacity.com/#!/rubrics/382/view) to review your project. If you are happy with your submission, then you're ready to submit your project. If you see room for improvement, keep working to improve your project.\n\n### Submission Template\n\nUse the [submission template](https://d17h27t6h515a5.cloudfront.net/topher/2018/January/5a4e9f92_p2.1-submission-template-make-a-copy/p2.1-submission-template-make-a-copy.docx) to submit your project. (You can access a Google doc [here](https://docs.google.com/document/d/1-HPXFFAl2AXDPQfe2eWn82hKcxYJwomRw3aDfiLGwsk/edit).) After filling it out, save it as a PDF and submit the PDF in the next section. You may also include your Alteryx workflow if you'd like. If your submission does not meet specifications, having the workflow may help the review identify mistakes.\n\n#### Data\n\n*p2-2010-pawdacity-monthly-sales.csv* - This file contains all of the monthly sales for all Pawdacity stores for 2010.\n\n*p2-partially-parsed-wy-web-scrape.csv* - This is a partially parsed data file that can be used for population numbers.\n\n*p2-wy-453910-naics-data.csv* - NAICS data on the sales of all competitor stores where total sales is equal to 12 months of sales\n\n*p2-wy-demographic-data.csv* - This file contains demographic data for each city and county in Wyoming.\n\n",
+              "instructor_notes": ""
+            },
+            {
+              "id": 310652,
+              "key": "87af0c0b-8745-427f-810c-b6d4198b5996",
+              "title": "Project Checklist",
+              "semantic_type": "TaskListAtom",
+              "is_public": true,
+              "instructor_notes": null,
+              "user_state": {
+                "node_key": "87af0c0b-8745-427f-810c-b6d4198b5996",
+                "completed_at": null,
+                "last_viewed_at": null,
+                "unstructured": null
+              },
+              "tasks": [
+                "You end up with 11 rows of data",
+                "Checked workflow for accidentally dropping values during cleaning",
+                "Checked joins for not matching cities due to small differences",
+                "Checked the rubric: https://review.udacity.com/#!/rubrics/382/view",
+                "I have gone to Knowledge or Study Groups before submitting"
+              ],
+              "positive_feedback": "Great! You should be very prepared to submit your project.",
+              "video_feedback": null,
+              "description": "This is here to make sure you know the concepts necessary to complete the project and that you know where to go find answers if you need help. If you do not feel confident in the topics addressed please review the course material or reach out on Knowledge or Study Groups!"
+            },
+            {
+              "id": 310653,
+              "key": "a34885ed-9ab1-464e-8f8f-cfd321e8f0a5",
+              "title": null,
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "If you are not getting 11 Cities, add browse tools to check your cleaning process. There might be an issue in your join where you are not matching all the cities because the city names do not exactly match.\n\nIf your numbers are not the same as the following:\n\n* Census Population: 213,862\n* Total Pawdacity Sales: 3,773,304\n* Households with Under 18: 34,064\n* Land Area: 33,071\n* Population Density: 63\n* Total Families: 62,653\n\nAdd browse tools to check your cleaning process. There might be an area where you are dropping parts of a value. Look at the original values and what they become by the end of the cleaning. Be careful of commas!\n\n* Forums: https://knowledge.udacity.com\n* Study Groups",
+              "instructor_notes": ""
+            },
+            {
+              "id": 300262,
+              "key": "76c7f725-c12c-4412-af12-07f89ba26b0d",
+              "title": null,
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "If you run into errors in Alteryx or unexpected results from a tool we have a guide to help you figure out what is going on. \n\n**Alteryx Debugging Guide:**\n\n[Word doc](https://s3.amazonaws.com/video.udacity-data.com/topher/2018/October/5bbfb1ac_debugging-alteryx/debugging-alteryx.pdf)\n\n[Google doc](https://docs.google.com/document/d/1ec7SiDCMAZAMjbPvL3aegPoL1PZznHarsxEZ4bjptdI/edit)",
+              "instructor_notes": ""
+            },
+            {
+              "id": 269161,
+              "key": "cdaee38a-89e3-45c5-ae22-2c03e0b7dfe2",
+              "title": null,
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "**To Download Files below please right click on the link and select \"Save Link As\"**\n\nThe Competitor Sales data file (p2-wy-453910-naics-data.csv) **should not be used in this project** it will be used in the follow up practice project.",
+              "instructor_notes": ""
+            }
+          ]
+        },
+        {
+          "id": 310459,
+          "key": "97c26e0f-5266-480e-858f-1d9f237660c3",
+          "title": "Project Checklist",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "97c26e0f-5266-480e-858f-1d9f237660c3",
+            "completed_at": null,
+            "last_viewed_at": null,
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 310460,
+              "key": "274e81dc-46b7-435c-a32a-39cefc26d21b",
+              "title": "Project Checklist",
+              "semantic_type": "TaskListAtom",
+              "is_public": true,
+              "instructor_notes": null,
+              "user_state": {
+                "node_key": "274e81dc-46b7-435c-a32a-39cefc26d21b",
+                "completed_at": null,
+                "last_viewed_at": null,
+                "unstructured": null
+              },
+              "tasks": [
+                "You end up with 11 rows of data",
+                "Checked workflow for accidentally dropping values during cleaning",
+                "Checked joins for not matching cities due to small differences",
+                "Checked the rubric: https://review.udacity.com/#!/rubrics/382/view",
+                "I have gone to the Forums, Slack, or set up a One on One before submitting"
+              ],
+              "positive_feedback": "Great! You should be very prepared to submit your project.",
+              "video_feedback": null,
+              "description": "This is here to make sure you know the concepts necessary to complete the project and that you know where to go find answers if you need help. If you do not feel confident in the topics addressed please review the course material or reach out on the forums, slack, or on a one on one!"
+            },
+            {
+              "id": 310461,
+              "key": "a4614b0b-687e-4d7f-9f1b-2178b93e65af",
+              "title": null,
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "If you are not getting 11 Cities, add browse tools to check your cleaning process. There might be an issue in your join where you are not matching all the cities because the city names do not exactly match.\n\nIf your numbers are not the same as the following:\n\n* Census Population: 213,862\n* Total Pawdacity Sales: 3,773,304\n* Households with Under 18: 34,064\n* Land Area: 33,071\n* Population Density: 63\n* Total Families: 62,653\n\nAdd browse tools to check your cleaning process. There might be an area where you are dropping parts of a value. Look at the original values and what they become by the end of the cleaning. Be careful of commas!\n\n# Outliers\nUse the IQR method for each attribute (Census Population, Total Pawdacity Sales, Households with Under 18, Land Area, Population Density, Total Families) of the cities to see which cities have outlier values for any of these.\n\n* Forums: https://knowledge.udacity.com\n",
+              "instructor_notes": ""
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "_deprecated": [
+    {
+      "name": "non_google_url",
+      "reason": "(2016/8/18) Not sure, ask i18n team for reason"
+    }
+  ]
+}

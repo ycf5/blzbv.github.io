@@ -1,0 +1,2043 @@
+{
+  "data": {
+    "lesson": {
+      "id": 680847,
+      "key": "62a0dd03-f5d4-43e5-9d72-70c23df42b14",
+      "title": "Data Issues",
+      "semantic_type": "Lesson",
+      "is_public": true,
+      "version": "1.0.0",
+      "locale": "en-us",
+      "summary": "Identify common types of dirty data. Make adjustments to dirty data to prepare a dataset. Identify and adjust for outliers.",
+      "lesson_type": "Classroom",
+      "display_workspace_project_only": false,
+      "resources": {
+        "files": [
+          {
+            "name": "Videos Zip File",
+            "uri": "https://zips.udacity-data.com/62a0dd03-f5d4-43e5-9d72-70c23df42b14/680847/1544455230256/Data+Issues+Videos.zip"
+          },
+          {
+            "name": "Transcripts Zip File",
+            "uri": "https://zips.udacity-data.com/62a0dd03-f5d4-43e5-9d72-70c23df42b14/680847/1544455222949/Data+Issues+Subtitles.zip"
+          }
+        ],
+        "google_plus_link": null,
+        "career_resource_center_link": null,
+        "coaching_appointments_link": null,
+        "office_hours_link": null,
+        "aws_provisioning_link": null
+      },
+      "project": null,
+      "lab": null,
+      "concepts": [
+        {
+          "id": 134530,
+          "key": "b81f3724-8aa0-4db4-863d-236c91d598e9",
+          "title": "Lesson Introduction",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "b81f3724-8aa0-4db4-863d-236c91d598e9",
+            "completed_at": null,
+            "last_viewed_at": null,
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 160071,
+              "key": "08b37351-5e7d-47a4-934a-047882f9c2ef",
+              "title": "Lesson Introduction",
+              "semantic_type": "VideoAtom",
+              "is_public": true,
+              "instructor_notes": "",
+              "video": {
+                "youtube_id": "YPPoy2ndmUM",
+                "china_cdn_id": "YPPoy2ndmUM.mp4"
+              }
+            }
+          ]
+        },
+        {
+          "id": 308431,
+          "key": "85de8f62-a2ae-41f6-968e-5e42cbc98de6",
+          "title": "Interview - Importance of Data Cleaning",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "85de8f62-a2ae-41f6-968e-5e42cbc98de6",
+            "completed_at": null,
+            "last_viewed_at": null,
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 308435,
+              "key": "cef365ad-7d21-4b2a-9027-abd225cc163d",
+              "title": null,
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "# Thoughts on Data Cleaning from  a Business Analyst\n\nAlex Huang is a business analyst in the quality division Hyundai Motor America. Here he discuss how important data cleaning and preparation are in his work.",
+              "instructor_notes": ""
+            },
+            {
+              "id": 308434,
+              "key": "2af4a73e-8544-4925-b634-537d69f9ddee",
+              "title": "Alex - Video 5",
+              "semantic_type": "VideoAtom",
+              "is_public": true,
+              "instructor_notes": "",
+              "video": {
+                "youtube_id": "0C5Lum2Q8vo",
+                "china_cdn_id": "0C5Lum2Q8vo.mp4"
+              }
+            }
+          ]
+        },
+        {
+          "id": 134441,
+          "key": "0597853b-2cdc-4229-96a9-71bba95ed558",
+          "title": "Dirty Data",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "0597853b-2cdc-4229-96a9-71bba95ed558",
+            "completed_at": null,
+            "last_viewed_at": null,
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 160073,
+              "key": "c36975f4-f3c8-4c82-9002-90bade13a82d",
+              "title": "Dirty Data",
+              "semantic_type": "VideoAtom",
+              "is_public": true,
+              "instructor_notes": "",
+              "video": {
+                "youtube_id": "1RNBKnVwclI",
+                "china_cdn_id": "1RNBKnVwclI.mp4"
+              }
+            }
+          ]
+        },
+        {
+          "id": 134529,
+          "key": "0ae1d820-6d3c-4821-9c1a-fd1c2b5484f0",
+          "title": "Examples of Dirty Data",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "0ae1d820-6d3c-4821-9c1a-fd1c2b5484f0",
+            "completed_at": null,
+            "last_viewed_at": null,
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 160078,
+              "key": "c39789e0-4943-4972-adb1-a284a89d7055",
+              "title": "Examples of Dirty Data",
+              "semantic_type": "VideoAtom",
+              "is_public": true,
+              "instructor_notes": "",
+              "video": {
+                "youtube_id": "Z7ffLdRsftg",
+                "china_cdn_id": "Z7ffLdRsftg.mp4"
+              }
+            }
+          ]
+        },
+        {
+          "id": 134440,
+          "key": "ff606afd-a769-4ec0-9114-02dc69dad2b7",
+          "title": "Dirty Data - Parsing",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "ff606afd-a769-4ec0-9114-02dc69dad2b7",
+            "completed_at": null,
+            "last_viewed_at": null,
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 160037,
+              "key": "bed05706-4e00-4274-a4a5-75e58151364c",
+              "title": "Dirty Data - Parsing",
+              "semantic_type": "VideoAtom",
+              "is_public": true,
+              "instructor_notes": "",
+              "video": {
+                "youtube_id": "D0fl4fI_UQE",
+                "china_cdn_id": "D0fl4fI_UQE.mp4"
+              }
+            }
+          ]
+        },
+        {
+          "id": 134424,
+          "key": "7627d719-653a-4dcb-aaa6-ff7d1e60f8bf",
+          "title": "Dirty Data - Parsing Example in Alteryx",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "7627d719-653a-4dcb-aaa6-ff7d1e60f8bf",
+            "completed_at": null,
+            "last_viewed_at": null,
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 189661,
+              "key": "4c80d560-7fe6-44d1-9558-42868621ae50",
+              "title": "Dirty Data - Parsing Example In Alteryx",
+              "semantic_type": "VideoAtom",
+              "is_public": true,
+              "instructor_notes": "",
+              "video": {
+                "youtube_id": "XCa98RTIz2s",
+                "china_cdn_id": "XCa98RTIz2s.mp4"
+              }
+            }
+          ]
+        },
+        {
+          "id": 134324,
+          "key": "58ede4cb-59f2-404e-aa50-23f1817cee2e",
+          "title": "Parsing a Phone Number",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "58ede4cb-59f2-404e-aa50-23f1817cee2e",
+            "completed_at": null,
+            "last_viewed_at": null,
+            "unstructured": null
+          },
+          "resources": {
+            "files": [
+              {
+                "name": "Parsing Exercise",
+                "uri": "http://video.udacity-data.com.s3.amazonaws.com/topher/2016/July/578555fd_parsing-exercise/parsing-exercise.yxmd"
+              }
+            ],
+            "google_plus_link": null,
+            "career_resource_center_link": null,
+            "coaching_appointments_link": null,
+            "office_hours_link": null,
+            "aws_provisioning_link": null
+          },
+          "atoms": [
+            {
+              "id": 160074,
+              "key": "9bcd0119-16e2-4166-a592-2bc44202c2ec",
+              "title": "Parsing a Phone Number",
+              "semantic_type": "VideoAtom",
+              "is_public": true,
+              "instructor_notes": "",
+              "video": {
+                "youtube_id": "RNzR57mAWQU",
+                "china_cdn_id": "RNzR57mAWQU.mp4"
+              }
+            }
+          ]
+        },
+        {
+          "id": 134439,
+          "key": "e3178093-61ec-42ec-b3e9-66857472a29a",
+          "title": "Parsing a Phone Number Solution",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "e3178093-61ec-42ec-b3e9-66857472a29a",
+            "completed_at": null,
+            "last_viewed_at": null,
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 160196,
+              "key": "3774f574-4a41-4fc3-9065-76becd08e3d7",
+              "title": "Solution",
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "<h3>Using Text to Columns</h3>\n\nWhen we look at the phone numbers, there are different characters delimiting the sets of numbers in the phone number.  After the first three phone numbers is either a Close Parenthesis, a Dash or a Forward Slash.\n\nWhen using the Text To Columns tool, you can enter all of these characters to delimit the data.",
+              "instructor_notes": ""
+            },
+            {
+              "id": 263391,
+              "key": "262bd0d6-6f7f-4998-80bd-489fe61c2ba5",
+              "title": null,
+              "semantic_type": "ImageAtom",
+              "is_public": true,
+              "url": "https://video.udacity-data.com/topher/2017/February/5898ef45_parsing1/parsing1.png",
+              "non_google_url": "https://s3.cn-north-1.amazonaws.com.cn/u-img/262bd0d6-6f7f-4998-80bd-489fe61c2ba5",
+              "caption": "",
+              "alt": null,
+              "width": 481,
+              "height": 215,
+              "instructor_notes": null
+            },
+            {
+              "id": 263392,
+              "key": "dd6fabda-6548-4944-9f6f-d361a76c766a",
+              "title": null,
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "We add a Text To Columns tool and in the Delimiters area, we enter a Forward Slash, a dash and a Close Parenthesis: `)/-`",
+              "instructor_notes": ""
+            },
+            {
+              "id": 263394,
+              "key": "f68e0f6a-3fc6-4b47-a9dd-a0aa303dd79a",
+              "title": null,
+              "semantic_type": "ImageAtom",
+              "is_public": true,
+              "url": "https://video.udacity-data.com/topher/2017/February/5898f007_parsing2/parsing2.png",
+              "non_google_url": "https://s3.cn-north-1.amazonaws.com.cn/u-img/f68e0f6a-3fc6-4b47-a9dd-a0aa303dd79a",
+              "caption": "",
+              "alt": null,
+              "width": 400,
+              "height": 330,
+              "instructor_notes": null
+            },
+            {
+              "id": 263395,
+              "key": "1e9b157d-10a5-4d69-b985-c62680d08c61",
+              "title": null,
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "Then we run Alteryx.  We see the data properly parsed into the three fields.  The first column still has a parenthesis before the numbers...and in the next section, we will look at how to clean up extra characters in fields.",
+              "instructor_notes": ""
+            },
+            {
+              "id": 263396,
+              "key": "badc32ac-f2c0-4af1-a583-749b8c61ca13",
+              "title": null,
+              "semantic_type": "ImageAtom",
+              "is_public": true,
+              "url": "https://video.udacity-data.com/topher/2017/February/5898f06a_parsing3/parsing3.png",
+              "non_google_url": "https://s3.cn-north-1.amazonaws.com.cn/u-img/badc32ac-f2c0-4af1-a583-749b8c61ca13",
+              "caption": "",
+              "alt": null,
+              "width": 585,
+              "height": 200,
+              "instructor_notes": null
+            }
+          ]
+        },
+        {
+          "id": 134402,
+          "key": "562296c6-7927-4b96-b91e-48c911d437f9",
+          "title": "Dirty Data - Extra Characters",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "562296c6-7927-4b96-b91e-48c911d437f9",
+            "completed_at": null,
+            "last_viewed_at": null,
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 160079,
+              "key": "25932d9b-4871-4421-9adb-e399ca001158",
+              "title": "Dirty Data - Extra Characters",
+              "semantic_type": "VideoAtom",
+              "is_public": true,
+              "instructor_notes": "",
+              "video": {
+                "youtube_id": "wSSbYMa2ok0",
+                "china_cdn_id": "wSSbYMa2ok0.mp4"
+              }
+            }
+          ]
+        },
+        {
+          "id": 134263,
+          "key": "af9b931b-8921-4038-83e5-5cdf6b9c6428",
+          "title": "Dirty Data - Extra Characters Example",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "af9b931b-8921-4038-83e5-5cdf6b9c6428",
+            "completed_at": null,
+            "last_viewed_at": null,
+            "unstructured": null
+          },
+          "resources": {
+            "files": [
+              {
+                "name": "Dirty Data Workflow",
+                "uri": "http://video.udacity-data.com.s3.amazonaws.com/topher/2017/February/5894cd71_dirty-data/dirty-data.yxmd"
+              }
+            ],
+            "google_plus_link": null,
+            "career_resource_center_link": null,
+            "coaching_appointments_link": null,
+            "office_hours_link": null,
+            "aws_provisioning_link": null
+          },
+          "atoms": [
+            {
+              "id": 160118,
+              "key": "8386199a-9bc4-4f3a-bf12-5a73fd8a34ba",
+              "title": "Dirty Data - Extra Characters Example",
+              "semantic_type": "VideoAtom",
+              "is_public": true,
+              "instructor_notes": "To follow along with this video, open the following data file | dirty_data.yxmd ",
+              "video": {
+                "youtube_id": "hxWpnWPXtvY",
+                "china_cdn_id": "hxWpnWPXtvY.mp4"
+              }
+            },
+            {
+              "id": 160351,
+              "key": "3463e43c-c3c1-4631-a1cf-a17b981e1d97",
+              "title": "Notes",
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "#### Instructor Notes\n\nThe list of characters for the `StringChar` function are \"$₯\" where \"₯\" is the Greek Dracma currency symbol.\n\nYou can look up more `String` functions in the help documentation for Alteryx:\n\nhttp://help.alteryx.com/10.5/index.htm#Reference/Functions.htm#String\n\n",
+              "instructor_notes": ""
+            }
+          ]
+        },
+        {
+          "id": 134412,
+          "key": "4cdcd4f0-6e2d-4005-ae72-5ed4ee093006",
+          "title": "Dirty Data - Extra Characters Exercise",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "4cdcd4f0-6e2d-4005-ae72-5ed4ee093006",
+            "completed_at": null,
+            "last_viewed_at": null,
+            "unstructured": null
+          },
+          "resources": {
+            "files": [
+              {
+                "name": "Dirty Data Exercise",
+                "uri": "http://video.udacity-data.com.s3.amazonaws.com/topher/2016/July/578d7bba_dirty-data-exercise/dirty-data-exercise.yxmd"
+              }
+            ],
+            "google_plus_link": null,
+            "career_resource_center_link": null,
+            "coaching_appointments_link": null,
+            "office_hours_link": null,
+            "aws_provisioning_link": null
+          },
+          "atoms": [
+            {
+              "id": 160115,
+              "key": "70d0ca44-2dc6-422d-9218-f858e17e29cf",
+              "title": "Quiz",
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "Open the Alteryx workflow called **dirty_data_exercise.yxmd** located at the bottom of the page. \n\nIn this exercise, we have a bunch of nine digit phone numbers but they are formatted differently.  Some have parentheses around the area code, some have a dash and some have a slash between the area code and the rest of the phone number.  \n\nThe objective of the exercise is to use Alteryx to take all of these different ways of listing a phone number and structure them in one consistent way.  You’ll want the end result to be 3 numbers, a dash, 3 numbers, a dash, and 4 numbers.",
+              "instructor_notes": ""
+            },
+            {
+              "id": 160117,
+              "key": "fc455b91-b00d-4b89-8ff5-a8af8c0d2107",
+              "title": "Phones",
+              "semantic_type": "ImageAtom",
+              "is_public": true,
+              "url": "https://video.udacity-data.com/topher/2016/July/577c33be_phone-numbers/phone-numbers.png",
+              "non_google_url": "https://s3.cn-north-1.amazonaws.com.cn/u-img/fc455b91-b00d-4b89-8ff5-a8af8c0d2107",
+              "caption": "",
+              "alt": null,
+              "width": 1049,
+              "height": 385,
+              "instructor_notes": null
+            }
+          ]
+        },
+        {
+          "id": 134401,
+          "key": "3e225462-2e47-41de-a7ef-27157fc52104",
+          "title": "Dirty Data - Extra Characters Solution",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "3e225462-2e47-41de-a7ef-27157fc52104",
+            "completed_at": null,
+            "last_viewed_at": null,
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 160081,
+              "key": "ca178498-dcab-4966-b6c5-6945ee0b1a6e",
+              "title": "Solution",
+              "semantic_type": "VideoAtom",
+              "is_public": true,
+              "instructor_notes": "",
+              "video": {
+                "youtube_id": "NMYsCsVc5tk",
+                "china_cdn_id": "NMYsCsVc5tk.mp4"
+              }
+            },
+            {
+              "id": 160359,
+              "key": "e67c6532-c377-4685-adf8-35f2dec8148a",
+              "title": "Bonus Exercise",
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "#### Bonus Exercise\n\nRemember the [Parsing a Phone Number](https://classroom.udacity.com/courses/ud977/lessons/56630bff-890b-4f55-ab05-26c65eafc4f0/concepts/58ede4cb-59f2-404e-aa50-23f1817cee2e) exercise a few videos back?\n\nHow would you use the String functions get rid of the remaining open parentheses \"(\" character?",
+              "instructor_notes": ""
+            }
+          ]
+        },
+        {
+          "id": 134323,
+          "key": "958038ec-c4de-49c0-80c4-3a17b7baf683",
+          "title": "Dirty Data - Duplicate Data ",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "958038ec-c4de-49c0-80c4-3a17b7baf683",
+            "completed_at": null,
+            "last_viewed_at": null,
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 160080,
+              "key": "ec0a2fbe-101d-4d91-a89a-559af08398aa",
+              "title": "Dirty Data - Duplicate Data",
+              "semantic_type": "VideoAtom",
+              "is_public": true,
+              "instructor_notes": "",
+              "video": {
+                "youtube_id": "3Uj1pcDKTrA",
+                "china_cdn_id": "3Uj1pcDKTrA.mp4"
+              }
+            }
+          ]
+        },
+        {
+          "id": 134320,
+          "key": "af5ad90d-02b6-408d-936b-ba68d9d49f3f",
+          "title": "Dirty Data - Duplicate Data Example",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "af5ad90d-02b6-408d-936b-ba68d9d49f3f",
+            "completed_at": null,
+            "last_viewed_at": null,
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 160082,
+              "key": "b439996c-9c57-4977-a3ad-f26ffd85933e",
+              "title": "Dirty Data - Duplicate Data Example",
+              "semantic_type": "VideoAtom",
+              "is_public": true,
+              "instructor_notes": "",
+              "video": {
+                "youtube_id": "rMJhafBg4-g",
+                "china_cdn_id": "rMJhafBg4-g.mp4"
+              }
+            }
+          ]
+        },
+        {
+          "id": 134339,
+          "key": "03763d7e-3b05-46b0-8b09-f3eee789df59",
+          "title": "Deduping - Exercise ",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "03763d7e-3b05-46b0-8b09-f3eee789df59",
+            "completed_at": null,
+            "last_viewed_at": null,
+            "unstructured": null
+          },
+          "resources": {
+            "files": [
+              {
+                "name": "Fuzzy Data2",
+                "uri": "http://video.udacity-data.com.s3.amazonaws.com/topher/2016/July/578d7ce6_fuzzydata2/fuzzydata2.csv"
+              }
+            ],
+            "google_plus_link": null,
+            "career_resource_center_link": null,
+            "coaching_appointments_link": null,
+            "office_hours_link": null,
+            "aws_provisioning_link": null
+          },
+          "atoms": [
+            {
+              "id": 160098,
+              "key": "7c844523-eec4-4cb2-89a8-48131bff3427",
+              "title": "Data",
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "Use the **FuzzyData2** dataset found at the bottom of the page to answer the question below.\n\n**Hint**: The [Sort Tool](http://help.alteryx.com/10.5/index.htm#Sort.htm) would be useful for you to use in Alteryx to help you sort through your data.",
+              "instructor_notes": ""
+            },
+            {
+              "id": 160083,
+              "key": "71af7f3e-f9e6-4314-8921-85a58c166c10",
+              "title": "Most duplicates",
+              "semantic_type": "RadioQuizAtom",
+              "is_public": true,
+              "instructor_notes": null,
+              "user_state": {
+                "node_key": "71af7f3e-f9e6-4314-8921-85a58c166c10",
+                "completed_at": null,
+                "last_viewed_at": null,
+                "unstructured": null
+              },
+              "question": {
+                "prompt": "Identify the duplicates based on the Contact field and select the name of the Contact with the most duplicates.",
+                "answers": [
+                  {
+                    "id": "a1467754393014",
+                    "text": "Jeff Davis",
+                    "is_correct": false
+                  },
+                  {
+                    "id": "a1467754393639",
+                    "text": "Don Landry",
+                    "is_correct": false
+                  },
+                  {
+                    "id": "a1467754394232",
+                    "text": "Tim Coyle",
+                    "is_correct": true
+                  }
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "id": 134259,
+          "key": "ef630020-487a-462f-9147-7a915241c012",
+          "title": "Deduping - Solution",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "ef630020-487a-462f-9147-7a915241c012",
+            "completed_at": null,
+            "last_viewed_at": null,
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 160085,
+              "key": "ae232ad4-61a4-4bcc-89d4-6c3bd75bcfd1",
+              "title": "Solution",
+              "semantic_type": "VideoAtom",
+              "is_public": true,
+              "instructor_notes": "",
+              "video": {
+                "youtube_id": "DMLd7HArHUQ",
+                "china_cdn_id": "DMLd7HArHUQ.mp4"
+              }
+            }
+          ]
+        },
+        {
+          "id": 134437,
+          "key": "ee9f79d6-000f-49ba-b1d3-77ef303a12bf",
+          "title": "Missing Data",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "ee9f79d6-000f-49ba-b1d3-77ef303a12bf",
+            "completed_at": null,
+            "last_viewed_at": null,
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 160088,
+              "key": "4adab3d7-3e0e-42a4-9f36-f6d6e1369703",
+              "title": "Missing Data",
+              "semantic_type": "VideoAtom",
+              "is_public": true,
+              "instructor_notes": "",
+              "video": {
+                "youtube_id": "umYMCKZd5DI",
+                "china_cdn_id": "umYMCKZd5DI.mp4"
+              }
+            }
+          ]
+        },
+        {
+          "id": 134255,
+          "key": "e0a4632a-7b61-44ff-83e9-7405ac3c8360",
+          "title": "What Does Missing Data Look Like?",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "e0a4632a-7b61-44ff-83e9-7405ac3c8360",
+            "completed_at": null,
+            "last_viewed_at": null,
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 160047,
+              "key": "e453d87d-f0b3-4e03-a8a2-63e9a2f8070f",
+              "title": "What Does Missing Data Look Like?",
+              "semantic_type": "VideoAtom",
+              "is_public": true,
+              "instructor_notes": "",
+              "video": {
+                "youtube_id": "xk1rh1SDOwE",
+                "china_cdn_id": "xk1rh1SDOwE.mp4"
+              }
+            }
+          ]
+        },
+        {
+          "id": 134436,
+          "key": "5d56357e-a0ab-4b6b-81ef-c24ba6b83f34",
+          "title": "Why Do We Care About Missing Data?",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "5d56357e-a0ab-4b6b-81ef-c24ba6b83f34",
+            "completed_at": null,
+            "last_viewed_at": null,
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 160093,
+              "key": "1eee9e72-cec5-4393-b653-43afa161659b",
+              "title": "Why Do We Care About Missing Data?",
+              "semantic_type": "VideoAtom",
+              "is_public": true,
+              "instructor_notes": "",
+              "video": {
+                "youtube_id": "xMrC-cjLdag",
+                "china_cdn_id": "xMrC-cjLdag.mp4"
+              }
+            },
+            {
+              "id": 160813,
+              "key": "79e24831-8334-4b05-a19b-3fff67f66b76",
+              "title": "read",
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "<h3>Readings on Bias</h3>\n* General article: https://en.wikipedia.org/wiki/Sampling_bias\n* Detailed article: http://www.ncbi.nlm.nih.gov/pmc/articles/PMC2917255/\n",
+              "instructor_notes": ""
+            }
+          ]
+        },
+        {
+          "id": 134387,
+          "key": "ce257f45-82b4-4e8b-9d03-5eb15fca4248",
+          "title": "Dealing with Missing Data - Deletion Exercise",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "ce257f45-82b4-4e8b-9d03-5eb15fca4248",
+            "completed_at": null,
+            "last_viewed_at": null,
+            "unstructured": null
+          },
+          "resources": {
+            "files": [
+              {
+                "name": "Missing Data",
+                "uri": "http://video.udacity-data.com.s3.amazonaws.com/topher/2016/July/57851a75_missingdata/missingdata.xlsx"
+              }
+            ],
+            "google_plus_link": null,
+            "career_resource_center_link": null,
+            "coaching_appointments_link": null,
+            "office_hours_link": null,
+            "aws_provisioning_link": null
+          },
+          "atoms": [
+            {
+              "id": 160076,
+              "key": "9db3f2b9-fe2c-4e77-8956-5fd824bec935",
+              "title": "Missing Data Exercise",
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "## Dealing with Missing Data\n\nWe’ve taken a look at what missing data can look like, and we’ve also seen why it’s important to deal with. The end result that we are trying to get to is having data that creates a model based on data that eliminates as much bias as possible.\n\nSo now let’s talk through different ways that you can deal with the data that’s missing. Through these next steps, we’ll see that how we approach the missing data will have different effects on the resulting model process. There are several options an analyst can use to deal with missing data. The first option is to delete records with missing data. For example, let's start by identifying and removing missing data from the dataset.\n\n## Deleting Missing Data\n\nDeleting missing data is often the default method because of it's simplicity. No decisions that need to be made that might confuse the data.  You just get rid of records where there are missing values. \n\nHowever, you should make sure that deleting missing data doesn't have adverse effects on your analysis. For example, if a particular demographic tended to leave a response blank in a survey, then removing records with blank entries will mean that a part of the population is underrepresented. \n\nOne of the downsides is that eliminating missing data reduces the size of the dataset. As you'll see in your exercise removing records with missing values eliminates half of the observations in the dataset. This can be especially problematic when collecting the data is expensive, such as paying people for a survey.\n\n## Exercise\n\nUsing Alteryx, load the data in the **MissingData** file found at the bottom of the page and create a dataset where only rows of data exist without empty cells.\n",
+              "instructor_notes": ""
+            },
+            {
+              "id": 160102,
+              "key": "4c59c09e-877a-4d0a-b3e8-055510ea97eb",
+              "title": "missing",
+              "semantic_type": "ImageAtom",
+              "is_public": true,
+              "url": "https://video.udacity-data.com/topher/2016/July/577c36cc_missing-data/missing-data.png",
+              "non_google_url": "https://s3.cn-north-1.amazonaws.com.cn/u-img/4c59c09e-877a-4d0a-b3e8-055510ea97eb",
+              "caption": "",
+              "alt": null,
+              "width": 637,
+              "height": 672,
+              "instructor_notes": null
+            }
+          ]
+        },
+        {
+          "id": 134385,
+          "key": "3c36b7ff-a59a-4e38-a987-881ec4cc22e0",
+          "title": "Dealing with Missing Data - Deletion Solution",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "3c36b7ff-a59a-4e38-a987-881ec4cc22e0",
+            "completed_at": null,
+            "last_viewed_at": null,
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 160099,
+              "key": "b62ba413-59b1-48ab-b627-31458a9e19ff",
+              "title": "Solution",
+              "semantic_type": "VideoAtom",
+              "is_public": true,
+              "instructor_notes": "",
+              "video": {
+                "youtube_id": "AqOUJlo4ZYY",
+                "china_cdn_id": "AqOUJlo4ZYY.mp4"
+              }
+            },
+            {
+              "id": 729397,
+              "key": "c1898515-f3b9-4f14-8cbd-c725013b45fd",
+              "title": null,
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "At 1:08 the instructor mentions using is not Null OR in one filter tool to get the same result. Note that you will have to use AND with is not Null. Alternatively you could use is Null with OR and look at the F output of the filter tool to get the same result.",
+              "instructor_notes": ""
+            }
+          ]
+        },
+        {
+          "id": 134400,
+          "key": "af72e0c4-a0a1-4bc3-8ed1-6d3cd87cd319",
+          "title": "Effect of Deletion on Model ",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "af72e0c4-a0a1-4bc3-8ed1-6d3cd87cd319",
+            "completed_at": null,
+            "last_viewed_at": null,
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 160052,
+              "key": "1faa993d-6011-499c-befa-7324deef9617",
+              "title": "Effect of Deletion on Model",
+              "semantic_type": "VideoAtom",
+              "is_public": true,
+              "instructor_notes": "",
+              "video": {
+                "youtube_id": "i9DLAvkiRv8",
+                "china_cdn_id": "i9DLAvkiRv8.mp4"
+              }
+            }
+          ]
+        },
+        {
+          "id": 134514,
+          "key": "b0b72969-7cde-4b8e-8ee9-f7e68bc22d28",
+          "title": "Dealing with Missing Data - Deletion Exercise 2",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "b0b72969-7cde-4b8e-8ee9-f7e68bc22d28",
+            "completed_at": null,
+            "last_viewed_at": null,
+            "unstructured": null
+          },
+          "resources": {
+            "files": [
+              {
+                "name": "Dealing with Missing Data",
+                "uri": "http://video.udacity-data.com.s3.amazonaws.com/topher/2016/July/578d7fc4_dealing-with-missing-data/dealing-with-missing-data.xlsx"
+              }
+            ],
+            "google_plus_link": null,
+            "career_resource_center_link": null,
+            "coaching_appointments_link": null,
+            "office_hours_link": null,
+            "aws_provisioning_link": null
+          },
+          "atoms": [
+            {
+              "id": 160048,
+              "key": "fc2d7e9c-14a1-41b9-97b2-213e62419c31",
+              "title": "Q1",
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "Use Alteryx to remove the rows with missing values from the dataset in the **Dealing with Missing Data** file found in the supporting materials section at the bottom of the page.\n\n",
+              "instructor_notes": ""
+            },
+            {
+              "id": 160091,
+              "key": "7f6d69be-9197-4580-a007-b42f472d00ee",
+              "title": "Q2",
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "Create two scatterplots, each showing the Average Number of Tickets on the Y-axis, and the Number of Employees on the X-axis. Include all rows in one plot, and exclude rows with missing data from the other. \n\n",
+              "instructor_notes": ""
+            },
+            {
+              "id": 160058,
+              "key": "c9948f9e-9d44-4618-bb47-a7f932005da2",
+              "title": "remove",
+              "semantic_type": "RadioQuizAtom",
+              "is_public": true,
+              "instructor_notes": null,
+              "user_state": {
+                "node_key": "c9948f9e-9d44-4618-bb47-a7f932005da2",
+                "completed_at": null,
+                "last_viewed_at": null,
+                "unstructured": null
+              },
+              "question": {
+                "prompt": "After removing the records, how many records are left in the dataset?",
+                "answers": [
+                  {
+                    "id": "a1467758892611",
+                    "text": "175",
+                    "is_correct": true
+                  },
+                  {
+                    "id": "a1467758893179",
+                    "text": "189",
+                    "is_correct": false
+                  },
+                  {
+                    "id": "a1467758893698",
+                    "text": "201",
+                    "is_correct": false
+                  }
+                ]
+              }
+            },
+            {
+              "id": 160039,
+              "key": "73eebf52-1f55-442f-8720-50ae571a599a",
+              "title": "Impact",
+              "semantic_type": "RadioQuizAtom",
+              "is_public": true,
+              "instructor_notes": null,
+              "user_state": {
+                "node_key": "73eebf52-1f55-442f-8720-50ae571a599a",
+                "completed_at": null,
+                "last_viewed_at": null,
+                "unstructured": null
+              },
+              "question": {
+                "prompt": "What is the impact of deleting the rows of data on the slope of the line?",
+                "answers": [
+                  {
+                    "id": "a1467759493251",
+                    "text": "Increased the slope",
+                    "is_correct": false
+                  },
+                  {
+                    "id": "a1467759493831",
+                    "text": "Decreased the slope",
+                    "is_correct": true
+                  },
+                  {
+                    "id": "a1467759494361",
+                    "text": "No change",
+                    "is_correct": false
+                  }
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "id": 134411,
+          "key": "65e1f718-01c5-403f-8b01-fdb3290f7d99",
+          "title": "Dealing with Missing Data - Deletion Solution 2",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "65e1f718-01c5-403f-8b01-fdb3290f7d99",
+            "completed_at": null,
+            "last_viewed_at": null,
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 160876,
+              "key": "0538d565-3db3-4dc9-b92f-b1c1591189ed",
+              "title": "Dealing with Missing Data - Deletion Solution 2",
+              "semantic_type": "VideoAtom",
+              "is_public": true,
+              "instructor_notes": "",
+              "video": {
+                "youtube_id": "QhFE66AivKw",
+                "china_cdn_id": "QhFE66AivKw.mp4"
+              }
+            },
+            {
+              "id": 485864,
+              "key": "d5a254e6-9438-4c66-bb2c-71d11c22677b",
+              "title": null,
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "At 3:10 the instructor mistakenly says that the average number of tickets at 1000 is 40. \n\nThe correct number is 70 for the average number of tickets at 1000 employees. So the math would be 70 - 25 = 45. And then 45/800 = 0.05625 which is the slope and is less than the original graph.",
+              "instructor_notes": ""
+            }
+          ]
+        },
+        {
+          "id": 160190,
+          "key": "32f92952-80c4-46c7-ae4d-e4c0d8f25167",
+          "title": "Imputation",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "32f92952-80c4-46c7-ae4d-e4c0d8f25167",
+            "completed_at": null,
+            "last_viewed_at": null,
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 160192,
+              "key": "f900cbc8-d00f-42cb-ac98-f9cafe0723c3",
+              "title": "Imputation",
+              "semantic_type": "VideoAtom",
+              "is_public": true,
+              "instructor_notes": "",
+              "video": {
+                "youtube_id": "UCmN2WbWFvA",
+                "china_cdn_id": "UCmN2WbWFvA.mp4"
+              }
+            }
+          ]
+        },
+        {
+          "id": 160100,
+          "key": "211af22c-f994-4bc3-973d-97eed9af9260",
+          "title": "Dealing with Missing Data - Imputation",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "211af22c-f994-4bc3-973d-97eed9af9260",
+            "completed_at": null,
+            "last_viewed_at": null,
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 160062,
+              "key": "8aab0bb9-2bf3-4e90-9cac-490ec9a3f50a",
+              "title": "Ways to Deal with Missing Data",
+              "semantic_type": "VideoAtom",
+              "is_public": true,
+              "instructor_notes": "",
+              "video": {
+                "youtube_id": "v5x2D9fUugU",
+                "china_cdn_id": "v5x2D9fUugU.mp4"
+              }
+            }
+          ]
+        },
+        {
+          "id": 160040,
+          "key": "48b20d5d-af00-46ed-8005-aaee2d0ed07b",
+          "title": "Dealing with Missing Data - Imputation Exercise",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "48b20d5d-af00-46ed-8005-aaee2d0ed07b",
+            "completed_at": null,
+            "last_viewed_at": null,
+            "unstructured": null
+          },
+          "resources": {
+            "files": [
+              {
+                "name": "Dealing with Missing Data",
+                "uri": "http://video.udacity-data.com.s3.amazonaws.com/topher/2016/July/578d7fc4_dealing-with-missing-data/dealing-with-missing-data.xlsx"
+              }
+            ],
+            "google_plus_link": null,
+            "career_resource_center_link": null,
+            "coaching_appointments_link": null,
+            "office_hours_link": null,
+            "aws_provisioning_link": null
+          },
+          "atoms": [
+            {
+              "id": 160130,
+              "key": "1b0ee261-11c4-428e-a834-18a1d1efd61b",
+              "title": "Quiz",
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "<h3>Imputation in Alteryx</h3>\nFollow these steps to use imputation in Alteryx to fill in missing data points in the dataset from the **Dealing with Missing Data** file found at the bottom of this page.\n\n* Replace any value that is missing in the Average Number of Tickets field with the Mean of the Average Number of Tickets.\n* Create a scatterplot of the Average Number of Tickets on the y-axis, and the Number of employees on the x-axis and compare to the original scatterplot.\n\nHINT:  When calculating the mean, be sure to exclude the missing values.",
+              "instructor_notes": ""
+            }
+          ]
+        },
+        {
+          "id": 160069,
+          "key": "4c94cb6b-1041-4dde-b63e-e14121d68e96",
+          "title": "Dealing with Missing Data - Imputation Solution",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "4c94cb6b-1041-4dde-b63e-e14121d68e96",
+            "completed_at": null,
+            "last_viewed_at": null,
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 160104,
+              "key": "b2b6beda-fb3a-4a04-80e2-826b1cd7de85",
+              "title": "Ways to Deal with Missing Data",
+              "semantic_type": "VideoAtom",
+              "is_public": true,
+              "instructor_notes": "### Note about Imputation Tool in Alteryx\n\nThis video shows how to manually impute missing data. The *Imputation* tool in Alteryx makes this much simpler. You can read more about it [here](https://help.alteryx.com/2018.3/Imputation_Macro.htm).",
+              "video": {
+                "youtube_id": "dHjl0FDQSkI",
+                "china_cdn_id": "dHjl0FDQSkI.mp4"
+              }
+            }
+          ]
+        },
+        {
+          "id": 160066,
+          "key": "314f73c0-7cee-483a-abc0-73d8ee2457da",
+          "title": "Advanced Methods for Dealing with Missing Data",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "314f73c0-7cee-483a-abc0-73d8ee2457da",
+            "completed_at": null,
+            "last_viewed_at": null,
+            "unstructured": null
+          },
+          "resources": {
+            "files": [
+              {
+                "name": "Link to further reading on multiple imputation",
+                "uri": "https://video.udacity-data.com/topher/2019/November/5dc1eba3_flexible-imputation-of-missing-data.-second-edition-stef-van-buuren/flexible-imputation-of-missing-data.-second-edition-stef-van-buuren.pdf"
+              },
+              {
+                "name": "Link to further reading on full maximum likelihood",
+                "uri": "https://video.udacity-data.com/topher/2019/November/5dc46ecd_two-recommended-solutions-the-analysis-factor/two-recommended-solutions-the-analysis-factor.pdf"
+              }
+            ],
+            "google_plus_link": null,
+            "career_resource_center_link": null,
+            "coaching_appointments_link": null,
+            "office_hours_link": null,
+            "aws_provisioning_link": null
+          },
+          "atoms": [
+            {
+              "id": 161033,
+              "key": "3179fee5-829f-46cd-8f54-9f4ac2bc1218",
+              "title": "Advanced Methods for Dealing with Missing Data",
+              "semantic_type": "VideoAtom",
+              "is_public": true,
+              "instructor_notes": "",
+              "video": {
+                "youtube_id": "2vzA2NYmQy0",
+                "china_cdn_id": "2vzA2NYmQy0.mp4"
+              }
+            },
+            {
+              "id": 197853,
+              "key": "f66bb5ab-00c3-4df0-b7a6-51b478e713fc",
+              "title": null,
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "[Link to further reading on multiple imputation](https://stefvanbuuren.name/publication/2018-01-01_vanbuuuren2018/)\n\n[Link to further reading on full maximum likelihood](http://www.theanalysisfactor.com/missing-data-two-recommended-solutions/)",
+              "instructor_notes": ""
+            }
+          ]
+        },
+        {
+          "id": 160042,
+          "key": "e6abc703-06d4-4ec6-ba71-f90b624023ac",
+          "title": "Missing Data Factors to Consider",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "e6abc703-06d4-4ec6-ba71-f90b624023ac",
+            "completed_at": null,
+            "last_viewed_at": null,
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 160105,
+              "key": "6fd5d1d5-ddc2-4f22-ad86-c68a053ab5d8",
+              "title": "Missing Data Factors to Consider",
+              "semantic_type": "VideoAtom",
+              "is_public": true,
+              "instructor_notes": "",
+              "video": {
+                "youtube_id": "wryP6-zRR2U",
+                "china_cdn_id": "wryP6-zRR2U.mp4"
+              }
+            }
+          ]
+        },
+        {
+          "id": 160064,
+          "key": "a252a8ec-5e9c-4b55-8285-e0743d64e1b5",
+          "title": "Introduction to Outliers",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "a252a8ec-5e9c-4b55-8285-e0743d64e1b5",
+            "completed_at": null,
+            "last_viewed_at": null,
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 160089,
+              "key": "d8c2dc7e-fbea-4a33-a3f2-3fcc42482047",
+              "title": "Introduction To Outliers",
+              "semantic_type": "VideoAtom",
+              "is_public": true,
+              "instructor_notes": "",
+              "video": {
+                "youtube_id": "lI8vjoykDg8",
+                "china_cdn_id": "lI8vjoykDg8.mp4"
+              }
+            }
+          ]
+        },
+        {
+          "id": 308432,
+          "key": "108f6ab3-a447-4a42-ac08-d61bcf127705",
+          "title": "Interview - Importance of Catching Outliers",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "108f6ab3-a447-4a42-ac08-d61bcf127705",
+            "completed_at": null,
+            "last_viewed_at": null,
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 308433,
+              "key": "93517b11-d565-4d23-a17e-6d6a848e41a0",
+              "title": null,
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "# Outliers at Hyundai Motors\n\nLet's hear again from Alex Huang, a Business Analyst at Hyundai Motors, on how identifying outliers is crucial in his field.",
+              "instructor_notes": ""
+            },
+            {
+              "id": 308436,
+              "key": "f8252ba8-1626-492b-8ac8-a9d67eb9a557",
+              "title": "Alex - Video 4",
+              "semantic_type": "VideoAtom",
+              "is_public": true,
+              "instructor_notes": "",
+              "video": {
+                "youtube_id": "TlqB-HudcEM",
+                "china_cdn_id": "TlqB-HudcEM.mp4"
+              }
+            }
+          ]
+        },
+        {
+          "id": 160046,
+          "key": "b8095465-76f6-4292-98c1-86f75933102e",
+          "title": "What is an Outlier?",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "b8095465-76f6-4292-98c1-86f75933102e",
+            "completed_at": null,
+            "last_viewed_at": null,
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 160101,
+              "key": "fd2dc826-5da2-489f-9f5c-5adb5eebd681",
+              "title": "What is an Outlier?",
+              "semantic_type": "VideoAtom",
+              "is_public": true,
+              "instructor_notes": "",
+              "video": {
+                "youtube_id": "aUKfwkHfgiA",
+                "china_cdn_id": "aUKfwkHfgiA.mp4"
+              }
+            },
+            {
+              "id": 160493,
+              "key": "285a0803-47b7-42bc-bb28-53e9dc62f851",
+              "title": "summary",
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "#### Key Summary\n\nThe point is not to simply find outliers, but to understand what the extreme data points that exist in your data that may affect your analysis.",
+              "instructor_notes": ""
+            }
+          ]
+        },
+        {
+          "id": 160057,
+          "key": "b36b2c27-3f44-4254-89fa-11e3e8c15ccb",
+          "title": "Why Do We Care About Outliers?",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "b36b2c27-3f44-4254-89fa-11e3e8c15ccb",
+            "completed_at": null,
+            "last_viewed_at": null,
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 161029,
+              "key": "39fae9c0-155b-41c4-8c0b-68c0772d272a",
+              "title": "Why do we care about Outliers?",
+              "semantic_type": "VideoAtom",
+              "is_public": true,
+              "instructor_notes": "",
+              "video": {
+                "youtube_id": "eOoJGPWcb_M",
+                "china_cdn_id": "eOoJGPWcb_M.mp4"
+              }
+            }
+          ]
+        },
+        {
+          "id": 134389,
+          "key": "43536bd5-a2de-4c82-9949-e391717171ab",
+          "title": "Effect of Outliers on Our Model",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "43536bd5-a2de-4c82-9949-e391717171ab",
+            "completed_at": null,
+            "last_viewed_at": null,
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 134311,
+              "key": "30783d73-e6f1-45eb-b9e2-f58a60a8966a",
+              "title": "Examples",
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "<h3>Examples of Outlier Effects</h3>\nSo let’s take a look at just a couple examples of what effect outliers can have on the analysis of the data. \n\nHere we are back to comparing age and income. As we can see from the chart, we have a population that ranges from 20 to 35 years of age, with the income values generally increasing as  age increases.",
+              "instructor_notes": ""
+            },
+            {
+              "id": 134390,
+              "key": "e333d14c-18d3-40ce-99bc-5c9f543aab42",
+              "title": "Age/Income",
+              "semantic_type": "ImageAtom",
+              "is_public": true,
+              "url": "https://video.udacity-data.com/topher/2016/July/5776e793_n29/n29.png",
+              "non_google_url": "https://s3.cn-north-1.amazonaws.com.cn/u-img/e333d14c-18d3-40ce-99bc-5c9f543aab42",
+              "caption": "",
+              "alt": null,
+              "width": 572,
+              "height": 527,
+              "instructor_notes": null
+            },
+            {
+              "id": 134515,
+              "key": "b05277da-16e7-401b-a21d-fd02bdb77cf2",
+              "title": "Add old guy",
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "From the box-and-whisker plots on each axis, we find that the age of the population seems to be within reason. However, there appears to be one income value that is a little out of the norm. \n\nIf you need a review of what box-and-whisker plots are or haven't heard of these type of plots before, box-and-whisker plots help us visually see the distributions of our data by labeling the quantiles for the data set. \n\nPlease read up more on [box-and-whisker plots](http://www.purplemath.com/modules/boxwhisk.htm) and quantiles here if you need a refresher before reading further in this lesson. \n",
+              "instructor_notes": ""
+            },
+            {
+              "id": 160496,
+              "key": "41dfb857-5865-47e8-a503-80b818636422",
+              "title": "scenario",
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "<h4>Outlier on Both Axes</h4>\n\nSo let’s introduce a new observation to the data...a 60-year-old that makes $60,000.",
+              "instructor_notes": ""
+            },
+            {
+              "id": 134404,
+              "key": "8a338b64-de53-465a-a4ba-a6f53c2a2332",
+              "title": "Age/income2",
+              "semantic_type": "ImageAtom",
+              "is_public": true,
+              "url": "https://video.udacity-data.com/topher/2016/July/5776e8cb_n29-2/n29-2.png",
+              "non_google_url": "https://s3.cn-north-1.amazonaws.com.cn/u-img/8a338b64-de53-465a-a4ba-a6f53c2a2332",
+              "caption": "",
+              "alt": null,
+              "width": 1000,
+              "height": 1000,
+              "instructor_notes": null
+            },
+            {
+              "id": 134308,
+              "key": "e75052bb-4a25-4ef1-a9e2-be8ef6080026",
+              "title": "Add old guy",
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "As we can see from the new plot, both with age and income, this observation seems to be an outlier. But if we look at the slope of the regression line, we can see that the slope has stayed fairly consistent with the slope of the original plot. That is to say, that the analysis and potential models that we might build based on the data with the outlier would stay consistent with what we might have without the outlier. \n\nThis points out the fact that outliers are not “bad” for a model. In fact if they are valid data, they can be some of the most interesting parts of the data. Just for instance, say each observation represented a member of a community college class. The fact that there is a 60-year-old attending would definitely raise some “why” questions that could lead to further insights. \n\n<h4>Outlier on Y-Axis</h4>\n\nNow let’s move on to where the age is consistent with the group (we can see that from the box plot on the age axis), but the income is definitely extreme. ",
+              "instructor_notes": ""
+            },
+            {
+              "id": 134403,
+              "key": "1f69e9d9-47e4-4895-a870-88790c14975b",
+              "title": "Add rich guy",
+              "semantic_type": "ImageAtom",
+              "is_public": true,
+              "url": "https://video.udacity-data.com/topher/2016/July/5776e9ca_n29-3/n29-3.png",
+              "non_google_url": "https://s3.cn-north-1.amazonaws.com.cn/u-img/1f69e9d9-47e4-4895-a870-88790c14975b",
+              "caption": "",
+              "alt": null,
+              "width": 1000,
+              "height": 1000,
+              "instructor_notes": null
+            },
+            {
+              "id": 134278,
+              "key": "f5a56d2d-fbdc-4948-bc5b-7ed2b5c16977",
+              "title": "explanation",
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "The result is that any model built using this data would be significantly affected by this one observation. The slope of the line would be much higher if the observation is kept compared to a model where it was excluded.\n\n<h4>Outlier on X-Axis</h4>\n\nAs we can see from the plot below, if the income is consistent with the group, but the age is extreme , we see that the slope of the line has decreased significantly. The outlier observation is basically pulling the slope down, and it would also significantly affect any model that we might try to build using this data.",
+              "instructor_notes": ""
+            },
+            {
+              "id": 134459,
+              "key": "61f8c757-3ae2-4a80-a1df-256358941bf7",
+              "title": "Downward effect",
+              "semantic_type": "ImageAtom",
+              "is_public": true,
+              "url": "https://video.udacity-data.com/topher/2016/July/5776f60c_n29-4/n29-4.png",
+              "non_google_url": "https://s3.cn-north-1.amazonaws.com.cn/u-img/61f8c757-3ae2-4a80-a1df-256358941bf7",
+              "caption": "",
+              "alt": null,
+              "width": 1000,
+              "height": 1000,
+              "instructor_notes": null
+            },
+            {
+              "id": 134295,
+              "key": "7bdce7a0-8b54-4977-b156-000af20ff33b",
+              "title": "Outlier Effects",
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "<h4>Takeaway</h4>\n\nIdentifying outliers in the data helps us understand how vulnerable our model would be to a small set of observations. In all the cases above, the data itself could actually be valid and accurate, or it could be erroneous information. In either case, what we handle the outliers will depend on the purpose of the analysis.",
+              "instructor_notes": ""
+            }
+          ]
+        },
+        {
+          "id": 160077,
+          "key": "b516c800-015d-4a2f-ad6c-c1b177f15d18",
+          "title": "Effect of Outliers - Exercise",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "b516c800-015d-4a2f-ad6c-c1b177f15d18",
+            "completed_at": null,
+            "last_viewed_at": null,
+            "unstructured": null
+          },
+          "resources": {
+            "files": [
+              {
+                "name": "OutlierData",
+                "uri": "http://video.udacity-data.com.s3.amazonaws.com/topher/2016/July/577c4aaa_outlierdata/outlierdata.xlsx"
+              }
+            ],
+            "google_plus_link": null,
+            "career_resource_center_link": null,
+            "coaching_appointments_link": null,
+            "office_hours_link": null,
+            "aws_provisioning_link": null
+          },
+          "atoms": [
+            {
+              "id": 160149,
+              "key": "ec971f74-43d2-4702-848e-80a89cfac447",
+              "title": "Exercise",
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "<h3>Identifying outliers and their impact on a linear model</h3>\n\nTo answer the following questions, use the dataset found in the **OutlierData** file linked at the bottom of the page.\n\n",
+              "instructor_notes": ""
+            },
+            {
+              "id": 160152,
+              "key": "d35c639f-bdb1-447e-958e-a17a467462fa",
+              "title": "# of outliers",
+              "semantic_type": "RadioQuizAtom",
+              "is_public": true,
+              "instructor_notes": null,
+              "user_state": {
+                "node_key": "d35c639f-bdb1-447e-958e-a17a467462fa",
+                "completed_at": null,
+                "last_viewed_at": null,
+                "unstructured": null
+              },
+              "question": {
+                "prompt": "How many outliers are there based on Age in the original data?\n",
+                "answers": [
+                  {
+                    "id": "a1467762984694",
+                    "text": "1",
+                    "is_correct": false
+                  },
+                  {
+                    "id": "a1467762985289",
+                    "text": "2",
+                    "is_correct": false
+                  },
+                  {
+                    "id": "a1467762985784",
+                    "text": "3",
+                    "is_correct": true
+                  }
+                ]
+              }
+            },
+            {
+              "id": 160153,
+              "key": "dbc506ff-faea-4b9f-8c67-74f150638496",
+              "title": "Impact",
+              "semantic_type": "RadioQuizAtom",
+              "is_public": true,
+              "instructor_notes": null,
+              "user_state": {
+                "node_key": "dbc506ff-faea-4b9f-8c67-74f150638496",
+                "completed_at": null,
+                "last_viewed_at": null,
+                "unstructured": null
+              },
+              "question": {
+                "prompt": "Do the outliers impact the linear model? If so, what impact do the outliers have on the slope?",
+                "answers": [
+                  {
+                    "id": "a1467763134507",
+                    "text": "Increase the slope",
+                    "is_correct": false
+                  },
+                  {
+                    "id": "a1467763135073",
+                    "text": "Decrease the slope",
+                    "is_correct": true
+                  },
+                  {
+                    "id": "a1467763135518",
+                    "text": "No impact",
+                    "is_correct": false
+                  }
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "id": 160090,
+          "key": "e3953447-6b89-4099-8f4f-f959b3dc0890",
+          "title": "Effect of Outliers - Solution",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "e3953447-6b89-4099-8f4f-f959b3dc0890",
+            "completed_at": null,
+            "last_viewed_at": null,
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 161059,
+              "key": "8cb846c0-8fb6-43a5-afe7-d02d791a4a21",
+              "title": "Effect of Outliers Solution",
+              "semantic_type": "VideoAtom",
+              "is_public": true,
+              "instructor_notes": "",
+              "video": {
+                "youtube_id": "yDeh3waxbCw",
+                "china_cdn_id": "yDeh3waxbCw.mp4"
+              }
+            },
+            {
+              "id": 161403,
+              "key": "0c23e2a1-0166-46f1-b2f3-b496501c64eb",
+              "title": "Note",
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "<h2>Important note for visualizing data</h2>\n\nYou may be wondering why the video says that the slope is steeper without outliers when it appears flatter. This is because the scale of each plot is dramatically different. It's important to maintain the same scale on the axes when visualizing data across plots. The course <em>Data Visualization with Tableau</em> goes into more detail on principles like this. \n\nThe scatterplot tool in Alteryx automatically generates the plots without options to change the scale. Below are two scatter plots created with a spreadsheets tool. With the scales the same across charts, it's easier to visually see the difference in the slopes. Also, these plots show the equation of the fitted line, that show you the actual slopes of the lines. Click on the image to take a closer look.",
+              "instructor_notes": ""
+            },
+            {
+              "id": 161410,
+              "key": "a1ca88e9-a4e2-4b71-b428-a96402b6baed",
+              "title": "Plots",
+              "semantic_type": "ImageAtom",
+              "is_public": true,
+              "url": "https://video.udacity-data.com/topher/2016/July/579a3ce7_outliersdata-plot/outliersdata-plot.png",
+              "non_google_url": "https://s3.cn-north-1.amazonaws.com.cn/u-img/a1ca88e9-a4e2-4b71-b428-a96402b6baed",
+              "caption": "",
+              "alt": null,
+              "width": 1406,
+              "height": 407,
+              "instructor_notes": null
+            }
+          ]
+        },
+        {
+          "id": 160063,
+          "key": "279fa22a-f798-45bb-8105-a112141433fb",
+          "title": "Identifying Outliers",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "279fa22a-f798-45bb-8105-a112141433fb",
+            "completed_at": null,
+            "last_viewed_at": null,
+            "unstructured": null
+          },
+          "resources": {
+            "files": [
+              {
+                "name": "Learn more about using z-scores",
+                "uri": "https://video.udacity-data.com/topher/2019/November/5dc4722d_outliers-and-missing-data-real-statistics-using-excel/outliers-and-missing-data-real-statistics-using-excel.pdf"
+              }
+            ],
+            "google_plus_link": null,
+            "career_resource_center_link": null,
+            "coaching_appointments_link": null,
+            "office_hours_link": null,
+            "aws_provisioning_link": null
+          },
+          "atoms": [
+            {
+              "id": 160111,
+              "key": "83f22093-561a-4a16-9802-cdace76b5ecf",
+              "title": "Identifying Outliers",
+              "semantic_type": "VideoAtom",
+              "is_public": true,
+              "instructor_notes": "Correction: At 0:18, Maureen's definition of an outlier is not fully correct. She meant to say that the value needs to be 1.5 times the Interquartile range beyond the first and third quartile.",
+              "video": {
+                "youtube_id": "Ept0oZCNLag",
+                "china_cdn_id": "Ept0oZCNLag.mp4"
+              }
+            },
+            {
+              "id": 160595,
+              "key": "5157c64f-d4a0-4da9-b486-a3d7e4b00ac8",
+              "title": "interquartile",
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "### Steps\n\nTo calculate the upper fence and the lower fence, here are the exact steps:\n\n* 1 . Calculate 1st quartile `Q1` and 3rd quartile `Q3` of the dataset. You can use the Excel function `QUARTILE.INC` or `QUARTILE.EXC`\n* 2 . Calculate the Interquartile Range: `IQR = Q3 - Q1`\n* 3 .  Add `1.5 * IQR` to Q3 to get the upper fence: `Upper Fence = Q3 + 1.5 * IQR`\n* 4 .  Subtract `1.5 * IQR` to Q1 to get the lower fence: `Lower Fence = Q1 - 1.5 * IQR`",
+              "instructor_notes": ""
+            },
+            {
+              "id": 160162,
+              "key": "166c1279-ee20-431a-a549-e7774251298c",
+              "title": "Other methods for identifying outliers",
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "<h3>Other methods for identifying outliers</h3>\n\nDetermining outliers is not an exact science so there is no “one” definition as to what defines an outlier.  We’ve decided to cover the Interquartile Range methodology but there are additional methodologies that people use such as z-scores or standard deviations. See [here](http://www.real-statistics.com/sampling-distributions/identifying-outliers-missing-data/) to learn more about using z-scores. You can read more about violin plots [here](http://help.alteryx.com/9.5/Violin_Plot.htm). ",
+              "instructor_notes": ""
+            }
+          ]
+        },
+        {
+          "id": 160163,
+          "key": "ce5c8fed-9635-4cbd-bbe8-d12a23cad160",
+          "title": "Identifying Outliers Exercise",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "ce5c8fed-9635-4cbd-bbe8-d12a23cad160",
+            "completed_at": null,
+            "last_viewed_at": null,
+            "unstructured": null
+          },
+          "resources": {
+            "files": [
+              {
+                "name": "IQR Quiz",
+                "uri": "http://video.udacity-data.com.s3.amazonaws.com/topher/2016/July/577edeaf_iqr-quiz/iqr-quiz.xlsx"
+              }
+            ],
+            "google_plus_link": null,
+            "career_resource_center_link": null,
+            "coaching_appointments_link": null,
+            "office_hours_link": null,
+            "aws_provisioning_link": null
+          },
+          "atoms": [
+            {
+              "id": 160164,
+              "key": "3417a178-2e67-48ae-84a8-979e4bc14661",
+              "title": "Identifying Outliers Exercise",
+              "semantic_type": "RadioQuizAtom",
+              "is_public": true,
+              "instructor_notes": null,
+              "user_state": {
+                "node_key": "3417a178-2e67-48ae-84a8-979e4bc14661",
+                "completed_at": null,
+                "last_viewed_at": null,
+                "unstructured": null
+              },
+              "question": {
+                "prompt": "Using the **IQR Quiz** file linked at the bottom of the page, calculate the following: Median, Q1, Q3, Interquartile Range, Upper Fence, Lower Fence.\n\nDo you have any outliers in your data set?",
+                "answers": [
+                  {
+                    "id": "a1467932403282",
+                    "text": "Yes",
+                    "is_correct": false
+                  },
+                  {
+                    "id": "a1467932403999",
+                    "text": "No",
+                    "is_correct": true
+                  }
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "id": 160075,
+          "key": "b8b4ca72-c26f-49f4-a1a8-d8bb16cfb0a1",
+          "title": "Dealing with Outliers",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "b8b4ca72-c26f-49f4-a1a8-d8bb16cfb0a1",
+            "completed_at": null,
+            "last_viewed_at": null,
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 160106,
+              "key": "7c0bdcb6-1881-42b4-9d1e-5fde00698d11",
+              "title": "Dealing with Outliers",
+              "semantic_type": "VideoAtom",
+              "is_public": true,
+              "instructor_notes": "",
+              "video": {
+                "youtube_id": "rg844bAspNQ",
+                "china_cdn_id": "rg844bAspNQ.mp4"
+              }
+            }
+          ]
+        },
+        {
+          "id": 160172,
+          "key": "1512244c-3b16-456f-93bd-69aa2edc0c2b",
+          "title": "Outliers Quiz 1",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "1512244c-3b16-456f-93bd-69aa2edc0c2b",
+            "completed_at": null,
+            "last_viewed_at": null,
+            "unstructured": null
+          },
+          "resources": {
+            "files": [
+              {
+                "name": "Outliers Quiz",
+                "uri": "http://video.udacity-data.com.s3.amazonaws.com/topher/2016/July/577ee7f7_outliers-quiz/outliers-quiz.xlsx"
+              }
+            ],
+            "google_plus_link": null,
+            "career_resource_center_link": null,
+            "coaching_appointments_link": null,
+            "office_hours_link": null,
+            "aws_provisioning_link": null
+          },
+          "atoms": [
+            {
+              "id": 160175,
+              "key": "812a2f94-4041-4ccc-9049-05e7ed401195",
+              "title": "Q1",
+              "semantic_type": "RadioQuizAtom",
+              "is_public": true,
+              "instructor_notes": null,
+              "user_state": {
+                "node_key": "812a2f94-4041-4ccc-9049-05e7ed401195",
+                "completed_at": null,
+                "last_viewed_at": null,
+                "unstructured": null
+              },
+              "question": {
+                "prompt": "Download the data from the file **Outliers Quiz** found at the bottom of the page. How many outliers are in the data?",
+                "answers": [
+                  {
+                    "id": "a1467934739830",
+                    "text": "1",
+                    "is_correct": false
+                  },
+                  {
+                    "id": "a1467934740310",
+                    "text": "2",
+                    "is_correct": false
+                  },
+                  {
+                    "id": "a1467934740791",
+                    "text": "3",
+                    "is_correct": true
+                  }
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "id": 160173,
+          "key": "ea635294-91d2-4af1-b7a2-a69c8c2358f6",
+          "title": "Outliers Quiz 2",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "ea635294-91d2-4af1-b7a2-a69c8c2358f6",
+            "completed_at": null,
+            "last_viewed_at": null,
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 160176,
+              "key": "7f94508d-2693-4024-bff2-d8956b304941",
+              "title": "Q2",
+              "semantic_type": "RadioQuizAtom",
+              "is_public": true,
+              "instructor_notes": null,
+              "user_state": {
+                "node_key": "7f94508d-2693-4024-bff2-d8956b304941",
+                "completed_at": null,
+                "last_viewed_at": null,
+                "unstructured": null
+              },
+              "question": {
+                "prompt": "Which outlier is probably the result of a typo?",
+                "answers": [
+                  {
+                    "id": "a1467934811703",
+                    "text": "Age = 65, Income = 25000 ",
+                    "is_correct": false
+                  },
+                  {
+                    "id": "a1467934813152",
+                    "text": "Age = 65, Income = 35000 ",
+                    "is_correct": false
+                  },
+                  {
+                    "id": "a1467934814336",
+                    "text": "Age = 560, Income = 38000",
+                    "is_correct": true
+                  }
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "id": 160166,
+          "key": "9de2768a-c979-418d-8fb3-5cb78899471b",
+          "title": "Outliers Quiz 3",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "9de2768a-c979-418d-8fb3-5cb78899471b",
+            "completed_at": null,
+            "last_viewed_at": null,
+            "unstructured": null
+          },
+          "resources": {
+            "files": [
+              {
+                "name": "Outliers Quiz",
+                "uri": "http://video.udacity-data.com.s3.amazonaws.com/topher/2016/July/577ee313_outliers-quiz/outliers-quiz.xlsx"
+              }
+            ],
+            "google_plus_link": null,
+            "career_resource_center_link": null,
+            "coaching_appointments_link": null,
+            "office_hours_link": null,
+            "aws_provisioning_link": null
+          },
+          "atoms": [
+            {
+              "id": 160169,
+              "key": "6bf31b7d-b896-4d51-a84a-23978dbbd355",
+              "title": "q3",
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "<h3>Adjusting for outliers</h3>\nUpdate the data in the **Outliers Quiz** file using the following steps.\n* Update the outlier in row 15 such that the age is 56\n* Create 3 new worksheet tabs, each with a copy of the data. We assume you're using a spreadsheet software such as Excel.\n* Rename the tabs Outlier1, Outlier2, Outlier3\n* In the Outlier1 tab, delete rows 14 and 15 (removing outliers 2 & 3 from the dataset)\n* In the Outlier2 tab, delete rows 10 and 15 (removing outliers 1 & 3 from the dataset)\n* In the Outlier3 tab, delete rows 10 and 14 (removing outliers 1 & 2)\n* Create a Scatterplot for each dataset\n",
+              "instructor_notes": ""
+            },
+            {
+              "id": 160170,
+              "key": "a25b296c-6557-4cc3-a529-44b1d8d0c628",
+              "title": "q3",
+              "semantic_type": "RadioQuizAtom",
+              "is_public": true,
+              "instructor_notes": null,
+              "user_state": {
+                "node_key": "a25b296c-6557-4cc3-a529-44b1d8d0c628",
+                "completed_at": null,
+                "last_viewed_at": null,
+                "unstructured": null
+              },
+              "question": {
+                "prompt": "Based on the four scatterplots you created, what would you determine your next step in the analysis to be:",
+                "answers": [
+                  {
+                    "id": "a1467934204282",
+                    "text": "Create a linear model with all three outliers",
+                    "is_correct": false
+                  },
+                  {
+                    "id": "a1467934205045",
+                    "text": "Create a linear model with some of the outliers",
+                    "is_correct": false
+                  },
+                  {
+                    "id": "a1467934205750",
+                    "text": "Create a linear model with none of the outliers",
+                    "is_correct": false
+                  },
+                  {
+                    "id": "a1467934206767",
+                    "text": "Look for other predictor variables as there may not be a relationship between Age and Income",
+                    "is_correct": true
+                  }
+                ]
+              }
+            },
+            {
+              "id": 160171,
+              "key": "df5e6ae0-9d88-461f-ae67-df72e35614da",
+              "title": "explanation",
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "<h3>Adjusting for Outliers Explanation</h3>\nSometimes we may have a data set where there’s no association between two variables, for example here, there’s no relationship between age and income that we can determine. But an outlier is present and actually causing the relationship. \n\nWe see here where age and income are fairly random with no association between how old a person is and how much income they have. \nBut the outlier creates the slope of the line by just being present... so without outlier 1 (row 10), we have a steep positive slope, but without outliers 2 (row 14) and 3 (row 15), we have a negative slope.\n\nIn other words without the outlier we wouldn’t really be able to draw a legitimate line at all, but the presence of the outlier is what creates the model effect. \nIn cases such as this, we should definitely remove the outlier and investigate other predictor variables.\n",
+              "instructor_notes": ""
+            }
+          ]
+        },
+        {
+          "id": 160107,
+          "key": "2a39613a-5072-4c31-9c48-81081c0e0c4f",
+          "title": "Wrap Up",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "2a39613a-5072-4c31-9c48-81081c0e0c4f",
+            "completed_at": null,
+            "last_viewed_at": null,
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 160094,
+              "key": "faaa282b-2211-414e-84ba-6bd9e5350c14",
+              "title": "Wrap Up",
+              "semantic_type": "VideoAtom",
+              "is_public": true,
+              "instructor_notes": "",
+              "video": {
+                "youtube_id": "d87KImRWBgE",
+                "china_cdn_id": "d87KImRWBgE.mp4"
+              }
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "_deprecated": [
+    {
+      "name": "non_google_url",
+      "reason": "(2016/8/18) Not sure, ask i18n team for reason"
+    },
+    {
+      "name": "non_google_url",
+      "reason": "(2016/8/18) Not sure, ask i18n team for reason"
+    },
+    {
+      "name": "non_google_url",
+      "reason": "(2016/8/18) Not sure, ask i18n team for reason"
+    },
+    {
+      "name": "non_google_url",
+      "reason": "(2016/8/18) Not sure, ask i18n team for reason"
+    },
+    {
+      "name": "non_google_url",
+      "reason": "(2016/8/18) Not sure, ask i18n team for reason"
+    },
+    {
+      "name": "non_google_url",
+      "reason": "(2016/8/18) Not sure, ask i18n team for reason"
+    },
+    {
+      "name": "non_google_url",
+      "reason": "(2016/8/18) Not sure, ask i18n team for reason"
+    },
+    {
+      "name": "non_google_url",
+      "reason": "(2016/8/18) Not sure, ask i18n team for reason"
+    },
+    {
+      "name": "non_google_url",
+      "reason": "(2016/8/18) Not sure, ask i18n team for reason"
+    },
+    {
+      "name": "non_google_url",
+      "reason": "(2016/8/18) Not sure, ask i18n team for reason"
+    }
+  ]
+}

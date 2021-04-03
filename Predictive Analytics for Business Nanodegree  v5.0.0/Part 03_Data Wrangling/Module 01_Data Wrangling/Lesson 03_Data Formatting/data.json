@@ -1,0 +1,606 @@
+{
+  "data": {
+    "lesson": {
+      "id": 680848,
+      "key": "6dd6ddf9-f8f1-4927-8427-474b06b6be5e",
+      "title": "Data Formatting",
+      "semantic_type": "Lesson",
+      "is_public": true,
+      "version": "1.0.0",
+      "locale": "en-us",
+      "summary": "Summarize, cross-tabulate, transpose, and reformat data to prepare a dataset for analysis.",
+      "lesson_type": "Classroom",
+      "display_workspace_project_only": false,
+      "resources": {
+        "files": [
+          {
+            "name": "Videos Zip File",
+            "uri": "https://zips.udacity-data.com/6dd6ddf9-f8f1-4927-8427-474b06b6be5e/680848/1544455424536/Data+Formatting+Videos.zip"
+          },
+          {
+            "name": "Transcripts Zip File",
+            "uri": "https://zips.udacity-data.com/6dd6ddf9-f8f1-4927-8427-474b06b6be5e/680848/1544455420905/Data+Formatting+Subtitles.zip"
+          }
+        ],
+        "google_plus_link": null,
+        "career_resource_center_link": null,
+        "coaching_appointments_link": null,
+        "office_hours_link": null,
+        "aws_provisioning_link": null
+      },
+      "project": null,
+      "lab": null,
+      "concepts": [
+        {
+          "id": 134465,
+          "key": "e1158263-8c45-4fb3-983f-cb6be1556e8c",
+          "title": "Lesson Introduction",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "e1158263-8c45-4fb3-983f-cb6be1556e8c",
+            "completed_at": null,
+            "last_viewed_at": null,
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 134342,
+              "key": "7df000e9-a198-4f7f-b89c-ad96c7904b4d",
+              "title": "Lesson Introduction",
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "<h2>Getting Started</h2>\n\nIn our last lesson, we learned how to identify and clean up dirty data as we build up our optimal analytic dataset.  \n\nOnce data is clean, it might not be formatted properly for us to use in building models.   \n\n<h2>Why format data?</h2>\n\"We might want to build a model forecasting product sales by month over the next 6 months.  \n\nIf the data we have available is daily product sales, then we're going to need to sum this daily data up for each month\".  \n\n<h2>What will you learn?</h2>\n* How to identify when your data needs to be formatted. \n* How to massage data into the correct format\n* How to aggregate it to the form required",
+              "instructor_notes": ""
+            },
+            {
+              "id": 160108,
+              "key": "949b1133-6eba-4204-9758-d3da28f558df",
+              "title": "n008_P2_L3_A01_l_Welcome to the lesson",
+              "semantic_type": "VideoAtom",
+              "is_public": true,
+              "instructor_notes": "",
+              "video": {
+                "youtube_id": "3i2NHaliUAo",
+                "china_cdn_id": "3i2NHaliUAo.mp4"
+              }
+            }
+          ]
+        },
+        {
+          "id": 134398,
+          "key": "ccde69da-80fa-4338-a818-ab7dacb1c7a6",
+          "title": "Transposing Data",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "ccde69da-80fa-4338-a818-ab7dacb1c7a6",
+            "completed_at": null,
+            "last_viewed_at": null,
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 160123,
+              "key": "2d4884fd-49e3-47a2-b241-7793d641395c",
+              "title": "Transposing Data",
+              "semantic_type": "VideoAtom",
+              "is_public": true,
+              "instructor_notes": "",
+              "video": {
+                "youtube_id": "2WvuNDxLuO8",
+                "china_cdn_id": "2WvuNDxLuO8.mp4"
+              }
+            }
+          ]
+        },
+        {
+          "id": 134378,
+          "key": "46746bd6-38f6-4f36-9cd7-80367d107b42",
+          "title": "Transposing in Alteryx ",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "46746bd6-38f6-4f36-9cd7-80367d107b42",
+            "completed_at": null,
+            "last_viewed_at": null,
+            "unstructured": null
+          },
+          "resources": {
+            "files": [
+              {
+                "name": "transpose-exercise.yxmd",
+                "uri": "http://video.udacity-data.com.s3.amazonaws.com/topher/2016/August/57c5f269_transpose-exercise/transpose-exercise.yxmd"
+              }
+            ],
+            "google_plus_link": null,
+            "career_resource_center_link": null,
+            "coaching_appointments_link": null,
+            "office_hours_link": null,
+            "aws_provisioning_link": null
+          },
+          "atoms": [
+            {
+              "id": 189662,
+              "key": "3ba88c25-f2d8-4838-a0d4-76adf27dd5ff",
+              "title": "Transposing In Alteryx",
+              "semantic_type": "VideoAtom",
+              "is_public": true,
+              "instructor_notes": "",
+              "video": {
+                "youtube_id": "JXOlDBeVJY4",
+                "china_cdn_id": "JXOlDBeVJY4.mp4"
+              }
+            }
+          ]
+        },
+        {
+          "id": 134372,
+          "key": "88e8ec4b-9704-454a-ad35-4c0b09674bdc",
+          "title": "Transposing - Exercise",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "88e8ec4b-9704-454a-ad35-4c0b09674bdc",
+            "completed_at": null,
+            "last_viewed_at": null,
+            "unstructured": null
+          },
+          "resources": {
+            "files": [
+              {
+                "name": "Transpose Exercise",
+                "uri": "http://video.udacity-data.com.s3.amazonaws.com/topher/2016/July/57851b9b_transpose-exercise/transpose-exercise.yxmd"
+              }
+            ],
+            "google_plus_link": null,
+            "career_resource_center_link": null,
+            "coaching_appointments_link": null,
+            "office_hours_link": null,
+            "aws_provisioning_link": null
+          },
+          "atoms": [
+            {
+              "id": 160054,
+              "key": "1f1a5c1b-4938-4dde-8734-f02911157cb3",
+              "title": "Transposing - Exercise",
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "<h3>Complete the following exercise</h3>\n\n* Download the **Transpose exercise.yxmd** workflow found at the bottom of the page. \n* Sum up the Sales by Products and Category for January and February months only. \n\n**Hint:** Use the Transpose tool, as well as a few tools we have introduced earlier.\n",
+              "instructor_notes": ""
+            },
+            {
+              "id": 160053,
+              "key": "0e20884e-2b14-4609-a286-26f7f4f1574f",
+              "title": "Transposing Exercise",
+              "semantic_type": "RadioQuizAtom",
+              "is_public": true,
+              "instructor_notes": null,
+              "user_state": {
+                "node_key": "0e20884e-2b14-4609-a286-26f7f4f1574f",
+                "completed_at": null,
+                "last_viewed_at": null,
+                "unstructured": null
+              },
+              "question": {
+                "prompt": "What is the value for Encyclopedias?",
+                "answers": [
+                  {
+                    "id": "a1467739265616",
+                    "text": "78818",
+                    "is_correct": false
+                  },
+                  {
+                    "id": "a1467739271277",
+                    "text": "125452",
+                    "is_correct": true
+                  },
+                  {
+                    "id": "a1467739276825",
+                    "text": "238811",
+                    "is_correct": false
+                  }
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "id": 134357,
+          "key": "9a18c8e2-9c51-404d-8c4c-f702411cd324",
+          "title": "Transposing - Solution",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "9a18c8e2-9c51-404d-8c4c-f702411cd324",
+            "completed_at": null,
+            "last_viewed_at": null,
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 189663,
+              "key": "cb7b4371-99a6-4dd8-bae1-69e4c32dfb4e",
+              "title": "Transposing - Solution",
+              "semantic_type": "VideoAtom",
+              "is_public": true,
+              "instructor_notes": "",
+              "video": {
+                "youtube_id": "F05eoet9fQo",
+                "china_cdn_id": "F05eoet9fQo.mp4"
+              }
+            }
+          ]
+        },
+        {
+          "id": 134444,
+          "key": "1a3ef240-e9cf-47cb-90ef-7f76e7deadc7",
+          "title": "Aggregating Data",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "1a3ef240-e9cf-47cb-90ef-7f76e7deadc7",
+            "completed_at": null,
+            "last_viewed_at": null,
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 160126,
+              "key": "e0bd3614-3f97-4dd4-ae12-6a0e5417ff0a",
+              "title": "Aggregating Data",
+              "semantic_type": "VideoAtom",
+              "is_public": true,
+              "instructor_notes": "",
+              "video": {
+                "youtube_id": "zaAr38_fh2M",
+                "china_cdn_id": "zaAr38_fh2M.mp4"
+              }
+            }
+          ]
+        },
+        {
+          "id": 134344,
+          "key": "b81c7fab-7f4e-4b7b-bbde-b9970d5a412c",
+          "title": "Aggregating Data - Example",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "b81c7fab-7f4e-4b7b-bbde-b9970d5a412c",
+            "completed_at": null,
+            "last_viewed_at": null,
+            "unstructured": null
+          },
+          "resources": {
+            "files": [
+              {
+                "name": "Summarizing Workflow",
+                "uri": "http://video.udacity-data.com.s3.amazonaws.com/topher/2016/December/5841e0b4_summarizing-workflow-1/summarizing-workflow-1.yxmd"
+              }
+            ],
+            "google_plus_link": null,
+            "career_resource_center_link": null,
+            "coaching_appointments_link": null,
+            "office_hours_link": null,
+            "aws_provisioning_link": null
+          },
+          "atoms": [
+            {
+              "id": 189664,
+              "key": "d7d1c489-e539-4660-84a2-b4f4085da2d3",
+              "title": "Aggregating Data Example In Alteryx",
+              "semantic_type": "VideoAtom",
+              "is_public": true,
+              "instructor_notes": "",
+              "video": {
+                "youtube_id": "QcXcYqSRPiI",
+                "china_cdn_id": "QcXcYqSRPiI.mp4"
+              }
+            }
+          ]
+        },
+        {
+          "id": 134388,
+          "key": "aaa23fac-9d9d-42d4-b890-4ec6d28bdaed",
+          "title": "Aggregating Data - Exercise",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "aaa23fac-9d9d-42d4-b890-4ec6d28bdaed",
+            "completed_at": null,
+            "last_viewed_at": null,
+            "unstructured": null
+          },
+          "resources": {
+            "files": [
+              {
+                "name": "Wyoming Schools",
+                "uri": "http://video.udacity-data.com.s3.amazonaws.com/topher/2016/July/57851b23_wyoming-schools/wyoming-schools.dbf"
+              }
+            ],
+            "google_plus_link": null,
+            "career_resource_center_link": null,
+            "coaching_appointments_link": null,
+            "office_hours_link": null,
+            "aws_provisioning_link": null
+          },
+          "atoms": [
+            {
+              "id": 160127,
+              "key": "eaf0a23a-1d81-43a4-ba80-1e8c22360c0c",
+              "title": "Aggregating Data - Exercise ",
+              "semantic_type": "VideoAtom",
+              "is_public": true,
+              "instructor_notes": "\n**Summary of Exercise presented in video**\n\n* Open Wyoming Schools Sample file\n* Summarize the school data by ZIP code\n* Count the total school enrollment by ZIP code\n* Count the number of schools in each zip code",
+              "video": {
+                "youtube_id": "CVljgzTJ12g",
+                "china_cdn_id": "CVljgzTJ12g.mp4"
+              }
+            },
+            {
+              "id": 197883,
+              "key": "d153f83a-864a-40d8-a937-78a270fcb6ac",
+              "title": null,
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "### Summary of task presented in video\n\n* Open Wyoming Schools Sample file\n* Summarize the school data by ZIP code\n* Count the total school enrollment by ZIP code\n* Count the number of schools in each zip code\n",
+              "instructor_notes": ""
+            },
+            {
+              "id": 160055,
+              "key": "7d14a156-9bf6-4846-a4b0-75f625d16c26",
+              "title": "Aggregating Data - Exercise",
+              "semantic_type": "RadioQuizAtom",
+              "is_public": true,
+              "instructor_notes": null,
+              "user_state": {
+                "node_key": "7d14a156-9bf6-4846-a4b0-75f625d16c26",
+                "completed_at": null,
+                "last_viewed_at": null,
+                "unstructured": null
+              },
+              "question": {
+                "prompt": "What is the total enrollment in ZIP Code 82009? Use the Wyoming Schools file found at the bottom of the page.",
+                "answers": [
+                  {
+                    "id": "a1467739865363",
+                    "text": "4183",
+                    "is_correct": true
+                  },
+                  {
+                    "id": "a1467739867966",
+                    "text": "5239",
+                    "is_correct": false
+                  },
+                  {
+                    "id": "a1467739871354",
+                    "text": "1382",
+                    "is_correct": false
+                  }
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "id": 134337,
+          "key": "5f82e097-10c4-4585-907c-93909832d0b5",
+          "title": "Aggregating Data - Solution",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "5f82e097-10c4-4585-907c-93909832d0b5",
+            "completed_at": null,
+            "last_viewed_at": null,
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 160041,
+              "key": "0840c12e-85d4-4146-a91b-7f7e02e7797a",
+              "title": "Aggregating Data - Solution",
+              "semantic_type": "VideoAtom",
+              "is_public": true,
+              "instructor_notes": "",
+              "video": {
+                "youtube_id": "-4YWTmPe6Mc",
+                "china_cdn_id": "-4YWTmPe6Mc.mp4"
+              }
+            }
+          ]
+        },
+        {
+          "id": 134386,
+          "key": "7aa19b42-06cd-4cc6-94ee-36e25170d15c",
+          "title": "Cross Tabulation",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "7aa19b42-06cd-4cc6-94ee-36e25170d15c",
+            "completed_at": null,
+            "last_viewed_at": null,
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 160059,
+              "key": "b8fcdadb-6601-4e4d-9fcd-9a1457e56640",
+              "title": "Cross Tabulation",
+              "semantic_type": "VideoAtom",
+              "is_public": true,
+              "instructor_notes": "",
+              "video": {
+                "youtube_id": "g7ac1OwyGgw",
+                "china_cdn_id": "g7ac1OwyGgw.mp4"
+              }
+            }
+          ]
+        },
+        {
+          "id": 134354,
+          "key": "8464b148-da24-440d-a16b-188c459a98d0",
+          "title": "Cross Tabulation - Example",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "8464b148-da24-440d-a16b-188c459a98d0",
+            "completed_at": null,
+            "last_viewed_at": null,
+            "unstructured": null
+          },
+          "resources": {
+            "files": [
+              {
+                "name": "Wyoming Schools",
+                "uri": "http://video.udacity-data.com.s3.amazonaws.com/topher/2016/July/5785234b_wyoming-schools/wyoming-schools.dbf"
+              }
+            ],
+            "google_plus_link": null,
+            "career_resource_center_link": null,
+            "coaching_appointments_link": null,
+            "office_hours_link": null,
+            "aws_provisioning_link": null
+          },
+          "atoms": [
+            {
+              "id": 160119,
+              "key": "a3945625-7da9-4fb3-b8cb-9372782fb126",
+              "title": "Cross Tabulation - Example",
+              "semantic_type": "VideoAtom",
+              "is_public": true,
+              "instructor_notes": "",
+              "video": {
+                "youtube_id": "MOqxHEkCWX4",
+                "china_cdn_id": "MOqxHEkCWX4.mp4"
+              }
+            }
+          ]
+        },
+        {
+          "id": 134330,
+          "key": "3cffaa8b-0395-4251-b49a-e7d26bdfd793",
+          "title": "Cross Tabulation - Exercise",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "3cffaa8b-0395-4251-b49a-e7d26bdfd793",
+            "completed_at": null,
+            "last_viewed_at": null,
+            "unstructured": null
+          },
+          "resources": {
+            "files": [
+              {
+                "name": "Wyoming Schools",
+                "uri": "http://video.udacity-data.com.s3.amazonaws.com/topher/2016/July/578523d1_wyoming-schools/wyoming-schools.dbf"
+              }
+            ],
+            "google_plus_link": null,
+            "career_resource_center_link": null,
+            "coaching_appointments_link": null,
+            "office_hours_link": null,
+            "aws_provisioning_link": null
+          },
+          "atoms": [
+            {
+              "id": 160056,
+              "key": "b6597ed6-9d60-4e37-86e3-22e237c7215f",
+              "title": "Cross Tabulation - Exercise",
+              "semantic_type": "RadioQuizAtom",
+              "is_public": true,
+              "instructor_notes": null,
+              "user_state": {
+                "node_key": "b6597ed6-9d60-4e37-86e3-22e237c7215f",
+                "completed_at": null,
+                "last_viewed_at": null,
+                "unstructured": null
+              },
+              "question": {
+                "prompt": "What is the number of enrollments for the city Laramie where TypeDesc equals `Voc_Tech_Other`? Use the Wyoming Schools file.",
+                "answers": [
+                  {
+                    "id": "a1467739995355",
+                    "text": "141",
+                    "is_correct": true
+                  },
+                  {
+                    "id": "a1467739999248",
+                    "text": "1878",
+                    "is_correct": false
+                  },
+                  {
+                    "id": "a1467740002681",
+                    "text": "124",
+                    "is_correct": false
+                  }
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "id": 134322,
+          "key": "5ec8436c-b556-4f6f-9796-5fb4331455ee",
+          "title": "Cross Tabulation - Solution",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "5ec8436c-b556-4f6f-9796-5fb4331455ee",
+            "completed_at": null,
+            "last_viewed_at": null,
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 160129,
+              "key": "7b92c4fd-3cf9-4e5f-a85e-0e7a88f782b3",
+              "title": "Cross Tabulation - Solution",
+              "semantic_type": "VideoAtom",
+              "is_public": true,
+              "instructor_notes": "",
+              "video": {
+                "youtube_id": "Fb9brszWz5k",
+                "china_cdn_id": "Fb9brszWz5k.mp4"
+              }
+            }
+          ]
+        },
+        {
+          "id": 134373,
+          "key": "6bf8be87-a65a-49e9-a5d3-be082a84520a",
+          "title": "Wrap Up",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "6bf8be87-a65a-49e9-a5d3-be082a84520a",
+            "completed_at": null,
+            "last_viewed_at": null,
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 160043,
+              "key": "effdb9ed-1ce2-447b-a04e-1da54deb3f3c",
+              "title": "Wrap Up",
+              "semantic_type": "VideoAtom",
+              "is_public": true,
+              "instructor_notes": "",
+              "video": {
+                "youtube_id": "LkYRkbOLjDI",
+                "china_cdn_id": "LkYRkbOLjDI.mp4"
+              }
+            }
+          ]
+        }
+      ]
+    }
+  }
+}
