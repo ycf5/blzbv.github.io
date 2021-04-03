@@ -1,0 +1,86 @@
+WEBVTT
+Kind: captions
+Language: pt-BR
+
+00:00:00.968 --> 00:00:04.100
+Tanto o método linear de Holt quanto
+o método da tendência exponencial
+
+00:00:04.133 --> 00:00:07.801
+são ótimos para prever
+uma série temporal sem sazonalidade.
+
+00:00:07.834 --> 00:00:11.300
+No entanto, às vezes, o modelo
+pode sobreprever resultados,
+
+00:00:11.334 --> 00:00:14.334
+já que a previsão gerada exibe
+uma reta de tendência constante
+
+00:00:14.367 --> 00:00:16.868
+que extrapola valores
+para o futuro.
+
+00:00:17.701 --> 00:00:19.868
+Métodos de tendência amortecida
+são uma solução que usa
+
+00:00:19.901 --> 00:00:23.300
+um parâmetro que amortece
+a linha de tendência e a torna reta
+
+00:00:23.334 --> 00:00:26.133
+em algum momento do futuro
+e ambos podem ser aplicados
+
+00:00:26.167 --> 00:00:29.200
+de maneira aditiva
+ou multiplicativa.
+
+00:00:29.234 --> 00:00:31.701
+O parâmetro de amortecimento
+é chamado de Phi.
+
+00:00:31.734 --> 00:00:34.434
+Modelos com valores pequenos de Phi
+pressupõem que a tendência
+
+00:00:34.467 --> 00:00:36.868
+muda muito lentamente
+com o tempo.
+
+00:00:36.901 --> 00:00:40.534
+Já modelos com Phi maiores
+pressupõem que ela muda rapidamente.
+
+00:00:41.167 --> 00:00:44.232
+Se você não tem certeza se
+o método amortecido deve ser usado,
+
+00:00:44.265 --> 00:00:48.234
+pode usar um modelo amortecido
+e a versão original lado a lado
+
+00:00:48.267 --> 00:00:52.334
+e conferir os erros previstos
+para ver qual se encaixa melhor.
+
+00:00:52.367 --> 00:00:54.834
+Vamos passar à comparação
+de modelos em outra aula,
+
+00:00:54.868 --> 00:00:56.732
+mas, com previsões
+de séries temporais,
+
+00:00:56.765 --> 00:00:59.801
+testamos vários modelos
+na mesma série.
+
+00:00:59.834 --> 00:01:01.133
+*END*
+
+00:01:01.167 --> 00:01:02.467
+*CODE*
+

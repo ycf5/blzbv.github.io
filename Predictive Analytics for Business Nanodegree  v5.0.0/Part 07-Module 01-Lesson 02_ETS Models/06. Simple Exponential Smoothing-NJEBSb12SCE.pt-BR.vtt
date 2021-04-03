@@ -1,0 +1,111 @@
+WEBVTT
+Kind: captions
+Language: pt-BR
+
+00:00:00.233 --> 00:00:03.133
+Para entender melhor
+o conceito de médias ponderadas
+
+00:00:03.167 --> 00:00:06.433
+e de como um uma suavização
+exponencial simples é calculada,
+
+00:00:06.467 --> 00:00:10.233
+vamos para o Excel aplicar uma média
+ponderada a vários pontos
+
+00:00:10.267 --> 00:00:12.000
+e prever o próximo valor.
+
+00:00:12.033 --> 00:00:14.600
+O arquivo
+"Stock_Weekly_Values.slsx"
+
+00:00:14.633 --> 00:00:18.700
+tem quatro colunas: a data,
+a data de fechamento da ação,
+
+00:00:18.733 --> 00:00:21.700
+uma coluna para o peso
+e outra para a previsão.
+
+00:00:21.733 --> 00:00:25.233
+Note que, se você somar os pesos,
+o resultado é "1".
+
+00:00:25.267 --> 00:00:28.600
+Isso representa um período completo
+da série temporal.
+
+00:00:28.633 --> 00:00:32.133
+Também deixei um cálculo alfa
+no fim da coluna "E".
+
+00:00:32.167 --> 00:00:34.700
+Ele mostra como podemos
+calcular o decaimento dos pesos
+
+00:00:34.733 --> 00:00:36.900
+para um método
+de suavização exponencial.
+
+00:00:36.933 --> 00:00:39.167
+Você vai ver que os quatro valores
+da coluna alfa
+
+00:00:39.200 --> 00:00:41.267
+são iguais aos quatro
+últimos pesos.
+
+00:00:41.300 --> 00:00:44.900
+Isso porque a coluna de pesos
+é um decaimento exponencial
+
+00:00:44.933 --> 00:00:47.967
+do valor alfa 0,6.
+
+00:00:48.000 --> 00:00:52.333
+O cálculo para isto é: alfa
+multiplicado pela diferença para 1
+
+00:00:52.367 --> 00:00:55.900
+menos alfa elevado à potência
+do número de períodos de tempo
+
+00:00:55.933 --> 00:00:58.633
+que temos até
+o valor mais recente.
+
+00:00:58.967 --> 00:01:00.767
+Vamos começar
+nosso cálculo preditivo
+
+00:01:00.800 --> 00:01:03.867
+multiplicando cada valor
+da coluna "Close"
+
+00:01:03.900 --> 00:01:06.333
+por seu respectivo "Weight".
+
+00:01:08.200 --> 00:01:11.000
+Agora some os valores
+da coluna "Forecast"
+
+00:01:11.033 --> 00:01:13.700
+e você terá o próximo
+valor previsto.
+
+00:01:13.733 --> 00:01:15.333
+Você pode
+continuar esse processo
+
+00:01:15.367 --> 00:01:18.198
+para extrapolar sua previsão
+para outros períodos.
+
+00:01:18.231 --> 00:01:19.367
+*END*
+
+00:01:19.400 --> 00:01:20.700
+*CODE*
+

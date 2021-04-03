@@ -1,0 +1,77 @@
+WEBVTT
+Kind: captions
+Language: pt-BR
+
+00:00:00.000 --> 00:00:01.501
+Modelos ARIMA sazonais
+são usados
+
+00:00:01.534 --> 00:00:04.267
+quando a série temporal
+apresenta sinais de sazonalidade.
+
+00:00:04.300 --> 00:00:06.767
+São muito parecidos
+com modelos ARIMA não sazonais,
+
+00:00:06.801 --> 00:00:08.433
+mas temos que adicionar
+alguns termos
+
+00:00:08.466 --> 00:00:10.534
+para nos ajustar
+ao componente sazonal.
+
+00:00:10.567 --> 00:00:14.868
+Modelos não sazonais
+são chamados de ARIMA (p,d,q),
+
+00:00:14.901 --> 00:00:18.734
+com os parâmetros "p", "d"
+e "q" como termos do modelo.
+
+00:00:18.767 --> 00:00:21.033
+O "p" é o número de termos
+autorregressivos,
+
+00:00:21.066 --> 00:00:22.968
+"d" é o número
+de diferenciações
+
+00:00:23.000 --> 00:00:26.000
+e "q", o número
+de termos de média móvel.
+
+00:00:26.234 --> 00:00:28.300
+E modelos ARIMA sazonais
+são chamados
+
+00:00:28.334 --> 00:00:32.701
+de ARIMA (p,d,q) (P,D,Q) m.
+
+00:00:32.734 --> 00:00:35.467
+O "m" é o número de períodos
+em cada temporada,
+
+00:00:35.501 --> 00:00:39.968
+e "P,D,Q" se refere aos termos
+autorregressivos, de diferenciação
+
+00:00:40.000 --> 00:00:43.267
+e de média móvel
+da parte sazonal do modelo.
+
+00:00:43.300 --> 00:00:45.234
+Vamos voltar a mencionar
+o exemplo do Bates Hotel
+
+00:00:45.267 --> 00:00:47.200
+à medida que trabalhamos
+ARIMAs sazonais.
+
+00:00:47.234 --> 00:00:48.534
+*END*
+
+00:00:48.567 --> 00:00:49.868
+*CODE*
+

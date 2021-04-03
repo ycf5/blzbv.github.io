@@ -1,0 +1,70 @@
+WEBVTT
+Kind: captions
+Language: pt-BR
+
+00:00:00.200 --> 00:00:03.602
+Já cobrimos os princípios básicos
+da análise de séries temporais
+
+00:00:03.635 --> 00:00:05.667
+e podemos começar a discutir
+o 1º tipo de modelo
+
+00:00:05.700 --> 00:00:07.334
+que vamos conhecer
+neste curso:
+
+00:00:07.367 --> 00:00:09.501
+os modelos
+de suavização exponencial.
+
+00:00:09.901 --> 00:00:11.532
+Previsões
+com suavização exponencial
+
+00:00:11.565 --> 00:00:13.934
+usam médias ponderadas
+de observações antigas,
+
+00:00:13.968 --> 00:00:16.300
+dando mais peso
+para a observação mais recente.
+
+00:00:16.334 --> 00:00:17.934
+O peso vai ficando
+cada vez menor
+
+00:00:17.968 --> 00:00:20.200
+à medida que a observação
+fica mais velha.
+
+00:00:21.167 --> 00:00:24.334
+Os termos ETS representam
+como o erro, a tendência
+
+00:00:24.367 --> 00:00:27.667
+e a sazonalidade são aplicados
+no cálculo do método de suavização.
+
+00:00:27.701 --> 00:00:29.968
+Cada termo pode ser aplicado
+de forma aditiva,
+
+00:00:30.001 --> 00:00:34.734
+multiplicativa ou, em alguns casos,
+ser deixado de fora do modelo.
+
+00:00:34.767 --> 00:00:36.533
+Este framework permite
+um espectro enorme
+
+00:00:36.566 --> 00:00:39.832
+de análises de série temporais,
+devido à simplicidade do cálculo.
+
+00:00:39.865 --> 00:00:41.000
+*END*
+
+00:00:41.033 --> 00:00:42.334
+*CODE*
+

@@ -1,0 +1,89 @@
+WEBVTT
+Kind: captions
+Language: pt-BR
+
+00:00:00.067 --> 00:00:02.334
+Um modelo puramente AR
+prevê a variável
+
+00:00:02.367 --> 00:00:05.367
+usando uma combinação
+de valores antigos da variável.
+
+00:00:05.400 --> 00:00:07.634
+Modelos AR agem
+como modelos de regressão linear
+
+00:00:07.667 --> 00:00:11.934
+e, quanto mais termos "AR" temos,
+mais períodos anteriores usamos.
+
+00:00:11.968 --> 00:00:14.033
+Depois de estacionarizar
+a série temporal,
+
+00:00:14.067 --> 00:00:16.934
+o próximo passo é determinar
+quantos termos "AR" são necessários
+
+00:00:16.968 --> 00:00:20.300
+para lidar com as autocorrelações
+que sobraram na série.
+
+00:00:20.334 --> 00:00:23.200
+Como acabamos de ver,
+os gráficos de FAC e FACP
+
+00:00:23.234 --> 00:00:26.934
+nos ajudam a determinar o número
+de termos "AR" que devemos incluir.
+
+00:00:26.968 --> 00:00:30.434
+No entanto, sozinhos, eles não podem
+nos dizer qual é o melhor modelo.
+
+00:00:30.467 --> 00:00:33.601
+Estes gráficos nos ajudam a escolher
+alguns modelos para comparar.
+
+00:00:33.634 --> 00:00:37.000
+Escolher um modelo manualmente pode
+ser um processo muito repetitivo,
+
+00:00:37.033 --> 00:00:38.866
+mas ferramentas
+como o Alteryx automatizam
+
+00:00:38.899 --> 00:00:40.968
+a maior parte do processo
+para você.
+
+00:00:41.000 --> 00:00:43.901
+Para relembrar as aulas
+sobre FAC e FACP,
+
+00:00:43.934 --> 00:00:47.167
+vamos ver o que indica que
+podemos usar termos "AR" num modelo.
+
+00:00:47.200 --> 00:00:50.501
+O gráfico de FAC vai mostrar
+a autocorrelação decaindo para "0",
+
+00:00:50.534 --> 00:00:53.966
+e o gráfico FACP vai cair
+bruscamente para "0".
+
+00:00:53.999 --> 00:00:57.567
+Se o FAC da série estacionarizada
+for positivo em Lag-1,
+
+00:00:57.601 --> 00:00:59.066
+os termos "AR" são melhores.
+
+00:00:59.099 --> 00:01:00.267
+*END*
+
+00:01:00.300 --> 00:01:01.601
+*CODE*
+

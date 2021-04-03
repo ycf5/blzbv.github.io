@@ -1,0 +1,128 @@
+WEBVTT
+Kind: captions
+Language: pt-BR
+
+00:00:00.534 --> 00:00:04.367
+Como decidir o modo de aplicar
+o erro, a tendência e a sazonalidade
+
+00:00:04.400 --> 00:00:05.968
+de um modelo de suavização
+exponencial?
+
+00:00:06.001 --> 00:00:08.234
+Uma boa maneira de começar
+é visualizar os dados
+
+00:00:08.267 --> 00:00:11.132
+usando um gráfico
+de decomposição de série temporal.
+
+00:00:11.165 --> 00:00:13.367
+Esse gráfico separa
+a série temporal
+
+00:00:13.400 --> 00:00:16.767
+em seus componentes
+sazonal, de tendência e de erro.
+
+00:00:16.800 --> 00:00:19.868
+Vamos começar observando
+os dados do problema de negócio.
+
+00:00:19.901 --> 00:00:22.767
+O 1º gráfico mostra
+a série temporal.
+
+00:00:22.801 --> 00:00:25.968
+A parte sazonal mostra
+se há padrões sazonais.
+
+00:00:26.000 --> 00:00:27.601
+Podemos ver nas reservas
+do Bates Hotel
+
+00:00:27.634 --> 00:00:29.667
+que a sazonalidade ocorre
+em intervalos regulares
+
+00:00:29.701 --> 00:00:32.200
+e magnitude crescente,
+o que significa que as reservas
+
+00:00:32.234 --> 00:00:35.400
+estão aumentando em maior velocidade
+a cada período sazonal.
+
+00:00:35.434 --> 00:00:38.734
+O gráfico de tendência indica
+a direção ou tendência geral
+
+00:00:38.767 --> 00:00:40.234
+da série temporal.
+
+00:00:40.267 --> 00:00:42.667
+Ela é a média móvel centrada
+da série temporal
+
+00:00:42.701 --> 00:00:45.334
+e se encaixa entre os picos
+e vales sazonais.
+
+00:00:45.367 --> 00:00:48.267
+Esta linha é considerada
+dessazonalizada.
+
+00:00:48.300 --> 00:00:52.167
+Por fim, resta o erro
+no modelo que calcula a diferença
+
+00:00:52.200 --> 00:00:55.467
+entre o valor observado e
+a estimativa da linha de tendência.
+
+00:00:55.501 --> 00:00:58.634
+É a parte que não é explicada
+ao combinar a parte sazonal
+
+00:00:58.667 --> 00:01:00.067
+com a parte da tendência.
+
+00:01:00.100 --> 00:01:02.133
+Todas as séries temporais
+têm um erro residual
+
+00:01:02.167 --> 00:01:05.634
+para explicar o que a tendência
+e a sazonalidade não explicam.
+
+00:01:05.667 --> 00:01:08.300
+Usar os gráficos de tendência,
+sazonalidade e erro,
+
+00:01:08.334 --> 00:01:10.534
+mostrados juntos
+no gráfico de decomposição,
+
+00:01:10.567 --> 00:01:13.968
+permite identificar os principais
+componentes da série temporal.
+
+00:01:14.000 --> 00:01:16.100
+Mais tarde, podemos extrair
+esses componentes
+
+00:01:16.133 --> 00:01:18.534
+para configurar o modelo
+de suavização exponencial
+
+00:01:18.567 --> 00:01:21.868
+para melhor representar os dados
+da série temporal.
+
+00:01:21.901 --> 00:01:23.200
+*END*
+
+00:01:23.234 --> 00:01:24.567
+*CODE*
+

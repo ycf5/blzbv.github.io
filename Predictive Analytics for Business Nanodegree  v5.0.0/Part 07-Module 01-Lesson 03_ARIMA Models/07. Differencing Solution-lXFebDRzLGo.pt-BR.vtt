@@ -1,0 +1,29 @@
+WEBVTT
+Kind: captions
+Language: pt-BR
+
+00:00:00.833 --> 00:00:03.167
+Para calcular a 1ª diferença
+de uma série temporal,
+
+00:00:03.200 --> 00:00:07.337
+vamos pegar qualquer período
+e subtraí-lo do período anterior.
+
+00:00:08.033 --> 00:00:10.767
+A 2ª diferença usa
+o mesmo cálculo,
+
+00:00:10.800 --> 00:00:13.467
+mas faremos a diferença
+da 1ª diferença,
+
+00:00:13.500 --> 00:00:16.333
+e não da série temporal em si.
+
+00:00:16.367 --> 00:00:17.667
+*END*
+
+00:00:17.700 --> 00:00:19.000
+*CODE*
+

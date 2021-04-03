@@ -1,0 +1,134 @@
+WEBVTT
+Kind: captions
+Language: pt-BR
+
+00:00:00.100 --> 00:00:02.801
+A parte sazonal de um modelo ARIMA
+tem a mesma estrutura
+
+00:00:02.834 --> 00:00:05.834
+da parte não sazonal.
+Ela pode ter um termo "AR",
+
+00:00:05.868 --> 00:00:08.934
+um termo "MA"
+e um componente de diferenciação.
+
+00:00:08.968 --> 00:00:11.334
+Um comportamento sazonal
+"AR" ou "MA" puro
+
+00:00:11.367 --> 00:00:15.501
+é similar ao comportamento
+de termos "AR" e "MA" não sazonais,
+
+00:00:15.534 --> 00:00:18.868
+só que os padrões aparecem
+nos gráficos de FAC e FACP
+
+00:00:18.901 --> 00:00:20.968
+que usam defasagens sazonais.
+
+00:00:21.000 --> 00:00:22.934
+Nos modelos que usam
+apenas termos "AR",
+
+00:00:22.968 --> 00:00:26.901
+o FAC decai lentamente
+e o FACP trunca para 0.
+
+00:00:26.934 --> 00:00:30.033
+Do mesmo modo, um modelo
+que só usa termos "MA"
+
+00:00:30.067 --> 00:00:32.767
+tem picos no FACP
+que decaem para 0
+
+00:00:32.801 --> 00:00:35.267
+e o FAC trunca para 0.
+
+00:00:35.300 --> 00:00:37.400
+Um modelo sazonal AR
+é mais apropriado
+
+00:00:37.434 --> 00:00:39.567
+quando a autocorrelação sazonal
+é positiva.
+
+00:00:39.601 --> 00:00:42.100
+Já o modelo sazonal MA
+é mais apropriado
+
+00:00:42.133 --> 00:00:44.567
+quando a autocorrelação sazonal
+é negativa.
+
+00:00:44.601 --> 00:00:48.200
+Vamos voltar ao exemplo do Bates
+Hotel para ver como isso aparece.
+
+00:00:48.234 --> 00:00:50.834
+Vamos abrir de novo
+o workflow ARIMA no Alteryx
+
+00:00:50.868 --> 00:00:52.733
+e dar uma olhada
+no gráfico de série temporal
+
+00:00:52.766 --> 00:00:55.033
+da 1ª diferença sazonal.
+
+00:00:55.067 --> 00:00:57.567
+Quando procuramos os valores
+de "p" e "q" não sazonais
+
+00:00:57.601 --> 00:00:59.367
+em dados diferenciados
+sazonalmente,
+
+00:00:59.400 --> 00:01:02.701
+podemos ignorar qualquer
+significância nos lags sazonais.
+
+00:01:02.734 --> 00:01:06.400
+Isso pode ser encontrado
+nos gráficos de FAC e FACP.
+
+00:01:06.433 --> 00:01:10.133
+Elas estão nos lag 12,
+24 e em outros
+
+00:01:10.167 --> 00:01:12.067
+porque temos dados mensais.
+
+00:01:12.100 --> 00:01:14.801
+Quando encontramos
+valores de "p" e "q" sazonais,
+
+00:01:14.834 --> 00:01:18.434
+só vamos procurar significância
+nos lags sazonais.
+
+00:01:18.467 --> 00:01:21.334
+Nos gráficos de FAC e FACP
+da 1ª diferença sazonal
+
+00:01:21.367 --> 00:01:25.167
+do arquivo "Bookings", vemos
+um lag negativo significante em 12
+
+00:01:25.200 --> 00:01:27.734
+e que ele trunca para 0
+no lag 24,
+
+00:01:27.767 --> 00:01:30.901
+sugerindo termos sazonais
+"MA (1)".
+
+00:01:30.934 --> 00:01:32.234
+*END*
+
+00:01:32.267 --> 00:01:33.567
+*CODE*
+

@@ -1,0 +1,93 @@
+WEBVTT
+Kind: captions
+Language: pt-BR
+
+00:00:00.000 --> 00:00:02.469
+Acabamos de ouvir que uma série
+temporal pode ser transformada
+
+00:00:02.503 --> 00:00:04.938
+através da diferenciação
+para se tornar estacionária.
+
+00:00:04.972 --> 00:00:06.640
+O que isso significa
+exatamente?
+
+00:00:06.673 --> 00:00:09.243
+Para começar,
+uma série temporal estacionária
+
+00:00:09.276 --> 00:00:10.844
+é uma em que uma média
+e uma variância
+
+00:00:10.878 --> 00:00:12.445
+são constantes
+com o passar do tempo.
+
+00:00:12.478 --> 00:00:15.048
+Modelos ARIMA fazem
+um ajuste em seu cálculo
+
+00:00:15.082 --> 00:00:17.050
+para tornar
+as séries estacionárias.
+
+00:00:17.084 --> 00:00:20.354
+Séries estacionarizadas são
+fáceis de prever para os modelos.
+
+00:00:20.387 --> 00:00:22.955
+Eles simplesmente preveem
+que a média e a variância dela
+
+00:00:22.988 --> 00:00:25.993
+serão iguais no futuro
+ao que foram no passado.
+
+00:00:26.026 --> 00:00:28.028
+Uma série temporal estacionária
+também vai nos permitir
+
+00:00:28.061 --> 00:00:31.899
+estatísticas significativas
+como médias, variantes e correlações
+
+00:00:31.932 --> 00:00:34.301
+sem ter as variáveis.
+As estatísticas só são
+
+00:00:34.334 --> 00:00:36.803
+descritores úteis
+se a série for estacionária.
+
+00:00:36.837 --> 00:00:40.541
+Por exemplo, se uma série cresce
+regularmente com o tempo,
+
+00:00:40.574 --> 00:00:43.610
+como o que vimos na série
+de reservas do Bates Hotel,
+
+00:00:43.644 --> 00:00:46.513
+a média e a variância da amostra vão
+crescer com o tamanho da amostra,
+
+00:00:46.547 --> 00:00:49.716
+e os modelos preditivos sempre vão
+subestimar a média e a variância
+
+00:00:49.750 --> 00:00:51.285
+em outros períodos.
+
+00:00:51.318 --> 00:00:53.787
+É por isso que precisamos de
+um conjunto de dados estacionário.
+
+00:00:53.820 --> 00:00:55.122
+*END*
+
+00:00:55.155 --> 00:00:56.423
+*CODE*
+

@@ -1,0 +1,90 @@
+WEBVTT
+Kind: captions
+Language: pt-BR
+
+00:00:00.267 --> 00:00:02.634
+Quando juntamos tudo,
+modelos ARIMA não sazonais
+
+00:00:02.667 --> 00:00:05.734
+são exibidos como ARIMA (pdq).
+
+00:00:05.767 --> 00:00:09.400
+Os valores "p", "d" e "q" são
+o número de períodos de defasagem
+
+00:00:09.434 --> 00:00:12.567
+no cálculo do ARIMA.
+Basicamente, isso significa
+
+00:00:12.601 --> 00:00:14.501
+que se "p" for igual a 2,
+
+00:00:14.534 --> 00:00:19.868
+usaremos os 2 períodos anteriores na
+porção autorregressiva do cálculo.
+
+00:00:19.901 --> 00:00:23.200
+Isso ajuda a reta
+que vai prever a série.
+
+00:00:23.234 --> 00:00:25.901
+Modelos AR puros
+vão parecer uma regressão linear
+
+00:00:25.934 --> 00:00:29.033
+em que as variáveis preditivas são
+certo número de períodos anteriores,
+
+00:00:29.067 --> 00:00:32.067
+que são representados por "p".
+O termo diferenciador se refere
+
+00:00:32.100 --> 00:00:34.467
+ao processo que usamos
+para transformar uma série temporal
+
+00:00:34.501 --> 00:00:35.968
+em uma série estacionária.
+
+00:00:36.001 --> 00:00:38.868
+Isso é uma série
+sem tendência nem sazonalidade.
+
+00:00:38.901 --> 00:00:40.701
+Esse processo é chamado
+de diferenciação,
+
+00:00:40.734 --> 00:00:44.267
+e o "d" se refere ao número de
+transformações usadas no processo.
+
+00:00:44.300 --> 00:00:46.200
+O termo de média móvel
+
+00:00:46.234 --> 00:00:48.501
+se refere a uma defasagem
+do componente de erro.
+
+00:00:48.534 --> 00:00:52.067
+Lembrando: o componente de erro
+se refere à parte da série temporal
+
+00:00:52.100 --> 00:00:54.901
+que não é explicada pela tendência
+nem pela sazonalidade.
+
+00:00:54.934 --> 00:00:57.100
+Modelos MA parecem
+modelos de regressão linear,
+
+00:00:57.133 --> 00:01:00.334
+em que as variáveis preditivas são
+as versões "q" prévias dos erros.
+
+00:01:00.367 --> 00:01:01.667
+*END*
+
+00:01:01.700 --> 00:01:03.033
+*CODE*
+

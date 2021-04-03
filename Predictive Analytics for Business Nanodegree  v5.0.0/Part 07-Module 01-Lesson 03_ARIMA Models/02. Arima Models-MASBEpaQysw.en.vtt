@@ -1,0 +1,80 @@
+WEBVTT
+Kind: captions
+Language: en
+
+00:00:00.255 --> 00:00:02.000
+When we put it all together,
+
+00:00:02.000 --> 00:00:05.802
+non-seasonal ARIMA models
+are displayed as ARIMA p, d, q.
+
+00:00:05.802 --> 00:00:09.237
+The p, d, and q values represent
+the amount of periods to lag for
+
+00:00:09.237 --> 00:00:10.715
+in our ARIMA calculation.
+
+00:00:10.715 --> 00:00:14.505
+Basically, that means
+that we said p = 2.
+
+00:00:14.505 --> 00:00:18.275
+We'll be using the two previous periods
+of our time series in the autoregressive
+
+00:00:18.275 --> 00:00:20.095
+portion of the calculation.
+
+00:00:20.095 --> 00:00:23.385
+This helps adjust the line
+fitted to forecast the series.
+
+00:00:23.385 --> 00:00:26.195
+Purely AR models will look
+like a linear regression where
+
+00:00:26.195 --> 00:00:29.215
+the predictive variables are a certain
+number of previous periods
+
+00:00:29.215 --> 00:00:31.015
+which is represented by p.
+
+00:00:31.015 --> 00:00:34.115
+The differencing term refers to
+the process we use to transform a time
+
+00:00:34.115 --> 00:00:36.210
+series into a stationary one.
+
+00:00:36.210 --> 00:00:39.080
+That is a series without trend or
+seasonality.
+
+00:00:39.080 --> 00:00:41.090
+This process is called differencing and
+
+00:00:41.090 --> 00:00:44.590
+the d refers to the number of
+transformations used in the process.
+
+00:00:44.590 --> 00:00:48.502
+And, the moving average term refers
+to the lag of the error component.
+
+00:00:48.502 --> 00:00:52.766
+As a quick reminder, the error component
+refers to the part of the time series
+
+00:00:52.766 --> 00:00:55.008
+not explained by trend or seasonality.
+
+00:00:55.008 --> 00:00:58.467
+MA models look like linear regression
+models where the predictive variables
+
+00:00:58.467 --> 00:01:00.180
+are the previous q periods of errors.
+

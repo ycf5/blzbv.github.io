@@ -1,0 +1,232 @@
+WEBVTT
+Kind: captions
+Language: pt-BR
+
+00:00:00.200 --> 00:00:03.670
+Para construir um modelo ARIMA,
+é importante entender se,
+
+00:00:03.704 --> 00:00:07.307
+e em que nível, uma autocorrelação
+existe em uma série temporal.
+
+00:00:07.341 --> 00:00:10.511
+A autocorrelação é a medida
+de correlação de uma série temporal
+
+00:00:10.544 --> 00:00:12.212
+com seus valores anteriores.
+
+00:00:12.246 --> 00:00:14.181
+Vamos ver um exemplo.
+
+00:00:14.214 --> 00:00:15.782
+O gráfico de função
+de autocorrelação
+
+00:00:15.816 --> 00:00:17.885
+mostra uma série correlacionada
+consigo mesma.
+
+00:00:17.918 --> 00:00:19.887
+O eixo "x" são
+as unidades de tempo.
+
+00:00:19.920 --> 00:00:22.623
+Se pegássemos cada um dos números
+de correlação que calculamos
+
+00:00:22.656 --> 00:00:26.057
+e fizéssemos um gráfico, teríamos o
+gráfico de função de autocorrelação,
+
+00:00:26.090 --> 00:00:27.394
+ou gráfico de FAC.
+
+00:00:27.427 --> 00:00:29.730
+Usamos esse gráfico para ver
+a correlação entre pontos
+
+00:00:29.763 --> 00:00:32.799
+até e incluindo
+a unidade de defasagem.
+
+00:00:32.833 --> 00:00:35.302
+Se analisarmos o gráfico de FAC
+da série das escovas,
+
+00:00:35.335 --> 00:00:38.805
+vemos o coeficiente de correlação
+representado no eixo vertical,
+
+00:00:38.839 --> 00:00:41.942
+e o número de defasagens
+aparece no eixo horizontal.
+
+00:00:41.975 --> 00:00:44.111
+Isso vai nos mostrar
+até quando a série temporal
+
+00:00:44.144 --> 00:00:45.812
+é correlacionada
+consigo mesma.
+
+00:00:45.846 --> 00:00:48.447
+Esta série não foi diferenciada
+e tem um leve decaimento
+
+00:00:48.480 --> 00:00:49.850
+em direção à correlação 0.
+
+00:00:49.883 --> 00:00:53.185
+Ou seja, os valores atuais são mais
+correlacionados a valores recentes
+
+00:00:53.218 --> 00:00:55.289
+do que os valores
+mais antigos.
+
+00:00:55.322 --> 00:00:57.691
+Isso sugere que a série
+não é estacionária
+
+00:00:57.724 --> 00:01:00.561
+e terá que ser diferenciada
+para se tornar estacionária.
+
+00:01:00.594 --> 00:01:03.363
+Este gráfico é do mesmo
+conjunto de dados das escovas,
+
+00:01:03.397 --> 00:01:05.399
+mas agora fizemos
+a 1ª diferença.
+
+00:01:05.432 --> 00:01:07.467
+Podemos ver que "Lag-1"
+é significante,
+
+00:01:07.501 --> 00:01:12.072
+mas, dessa vez, a significância
+após o "Lag-1" é bem menor,
+
+00:01:12.105 --> 00:01:14.775
+sugerindo que agora
+a série é estacionária.
+
+00:01:14.808 --> 00:01:16.743
+Podemos usar este gráfico
+para nos ajudar a determinar
+
+00:01:16.777 --> 00:01:20.214
+se devemos usar a AR,
+a MA ou ambos os componentes
+
+00:01:20.247 --> 00:01:22.350
+e quantas defasagens
+devemos usar.
+
+00:01:22.383 --> 00:01:24.548
+Vamos discutir algumas coisas
+sobre como selecionar
+
+00:01:24.581 --> 00:01:27.387
+componentes AR e MA
+em um modelo ARIMA.
+
+00:01:27.421 --> 00:01:31.825
+Normalmente, o modelo
+usa apenas um termo AR ou MA.
+
+00:01:31.859 --> 00:01:34.862
+Modelos que usam ambos os termos
+são menos comuns.
+
+00:01:34.895 --> 00:01:38.432
+Se a série estacionária tem
+autocorrelação positiva em lag-1,
+
+00:01:38.465 --> 00:01:40.100
+termos AR são melhores.
+
+00:01:40.133 --> 00:01:42.536
+Se tiver uma autocorrelação
+negativa em lag-1,
+
+00:01:42.569 --> 00:01:44.638
+então os termos MA
+são melhores.
+
+00:01:44.671 --> 00:01:46.874
+O decaimento ou truncamento
+da FAC
+
+00:01:46.907 --> 00:01:48.908
+vai nos dar a dica
+de que termos devemos usar,
+
+00:01:48.941 --> 00:01:51.345
+além dos picos
+que decaem em direção a 0.
+
+00:01:51.378 --> 00:01:53.146
+Analisando o gráfico
+que acabamos de ver,
+
+00:01:53.180 --> 00:01:55.382
+temos uma sugestão
+de modelo AR(1),
+
+00:01:55.415 --> 00:01:58.185
+pois, depois que estacionarizarmos
+os dados com as diferenças,
+
+00:01:58.218 --> 00:02:00.621
+há uma autocorrelação positiva
+no "Lag-1",
+
+00:02:00.654 --> 00:02:02.856
+e os picos decaem
+em direção a 0.
+
+00:02:02.890 --> 00:02:05.692
+Estas são dicas úteis,
+mas o processo de seleção
+
+00:02:05.726 --> 00:02:07.459
+do modelo manualmente
+deve envolver
+
+00:02:07.492 --> 00:02:10.330
+várias rodadas de diferenciação,
+de revisão de gráficos
+
+00:02:10.364 --> 00:02:11.932
+e de comparação de modelos.
+
+00:02:11.965 --> 00:02:14.835
+Ferramentas estatísticas
+mais avançadas, como o Alteryx,
+
+00:02:14.868 --> 00:02:18.438
+fazem esse processo automaticamente,
+e vamos falar disso mais tarde.
+
+00:02:18.471 --> 00:02:22.075
+Agora que vimos os possíveis
+termos AR e MA no gráfico de FAC,
+
+00:02:22.109 --> 00:02:25.104
+podemos ver o gráfico
+da função de autocorrelação parcial,
+
+00:02:25.137 --> 00:02:27.848
+ou FACP, para confirmar
+o que descobrimos.
+
+00:02:27.881 --> 00:02:29.183
+*END*
+
+00:02:29.216 --> 00:02:30.517
+*CODE*
+

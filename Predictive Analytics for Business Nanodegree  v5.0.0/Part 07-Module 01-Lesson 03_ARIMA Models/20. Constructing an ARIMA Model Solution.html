@@ -1,0 +1,409 @@
+<!-- udacity2.0 -->
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Constructing an ARIMA Model Solution</title>
+  <link rel="stylesheet" href="../assets/css/bootstrap.min.css">
+  <link rel="stylesheet" href="../assets/css/plyr.css">
+  <link rel="stylesheet" href="../assets/css/katex.min.css">
+  <link rel="stylesheet" href="../assets/css/jquery.mCustomScrollbar.min.css">
+  <link rel="stylesheet" href="../assets/css/styles.css">
+  <link rel="shortcut icon" type="image/png" href="../assets/img/udacimak.png" />
+</head>
+
+<body>
+  <div class="wrapper">
+    <nav id="sidebar">
+  <div class="sidebar-header">
+    <h3>ARIMA Models</h3>
+  </div>
+
+  <ul class="sidebar-list list-unstyled CTAs">
+    <li>
+      <a href="../index.html" class="article">Back to Home</a>
+    </li>
+  </ul>
+
+  <ul class="sidebar-list list-unstyled components">
+    <li class="">
+      <a href="01. Introduction to ARIMA Models.html">01. Introduction to ARIMA Models</a>
+    </li>
+    <li class="">
+      <a href="02. ARIMA Models.html">02. ARIMA Models</a>
+    </li>
+    <li class="">
+      <a href="03. Stationarity.html">03. Stationarity</a>
+    </li>
+    <li class="">
+      <a href="04. Stationary vs Non-Stationary Quiz.html">04. Stationary vs Non-Stationary Quiz</a>
+    </li>
+    <li class="">
+      <a href="05. Differencing.html">05. Differencing</a>
+    </li>
+    <li class="">
+      <a href="06. Differencing Quiz.html">06. Differencing Quiz</a>
+    </li>
+    <li class="">
+      <a href="07. Differencing Solution.html">07. Differencing Solution</a>
+    </li>
+    <li class="">
+      <a href="08. Autocorrelation Function Plot.html">08. Autocorrelation Function Plot</a>
+    </li>
+    <li class="">
+      <a href="09. Partial Autocorrelation Function Plot.html">09. Partial Autocorrelation Function Plot</a>
+    </li>
+    <li class="">
+      <a href="10. Autoregressive Component.html">10. Autoregressive Component</a>
+    </li>
+    <li class="">
+      <a href="11. Moving Average Component.html">11. Moving Average Component</a>
+    </li>
+    <li class="">
+      <a href="12. ACF and PACF Plots Quiz.html">12. ACF and PACF Plots Quiz</a>
+    </li>
+    <li class="">
+      <a href="13. Integrated Component.html">13. Integrated Component</a>
+    </li>
+    <li class="">
+      <a href="14. Seasonal ARIMA Models.html">14. Seasonal ARIMA Models</a>
+    </li>
+    <li class="">
+      <a href="15. Seasonal Differencing.html">15. Seasonal Differencing</a>
+    </li>
+    <li class="">
+      <a href="16. Seasonal Differencing Quiz.html">16. Seasonal Differencing Quiz</a>
+    </li>
+    <li class="">
+      <a href="17. Seasonal AR and MA Terms.html">17. Seasonal AR and MA Terms</a>
+    </li>
+    <li class="">
+      <a href="18. Constructing an ARIMA Model.html">18. Constructing an ARIMA Model</a>
+    </li>
+    <li class="">
+      <a href="19. Constructing an ARIMA Model Quiz.html">19. Constructing an ARIMA Model Quiz</a>
+    </li>
+    <li class="">
+      <a href="20. Constructing an ARIMA Model Solution.html">20. Constructing an ARIMA Model Solution</a>
+    </li>
+    <li class="">
+      <a href="21. Learning Summary.html">21. Learning Summary</a>
+    </li>
+    <li class="">
+      <a href="22. Glossary.html">22. Glossary</a>
+    </li>
+  </ul>
+
+  <ul class="sidebar-list list-unstyled CTAs">
+    <li>
+      <a href="../index.html" class="article">Back to Home</a>
+    </li>
+  </ul>
+</nav>
+
+    <div id="content">
+      <header class="container-fluild header">
+        <div class="container">
+          <div class="row">
+            <div class="col-12">
+              <div class="align-items-middle">
+                <button type="button" id="sidebarCollapse" class="btn btn-toggle-sidebar">
+                  <div></div>
+                  <div></div>
+                  <div></div>
+                </button>
+
+                <h1 style="display: inline-block">20. Constructing an ARIMA Model Solution</h1>
+              </div>
+            </div>
+          </div>
+        </div>
+      </header>
+
+      <main class="container">
+        <div class="row">
+          <div class="col-12">
+            <div class="ud-atom">
+  <h3><p>Intro to Solution</p></h3>
+  <div>
+  <h2 id="building-your-first-arima-model">Building Your First ARIMA Model</h2>
+<p><strong>Step 1 - Check stationarity:</strong> First thing to do is to visualize the data with a <em>TS Plot</em>. Connect a browse tool to the <strong>I</strong> output node and take a look at the output. You can see some seasonality and perhaps some trend as well.</p>
+</div>
+
+</div>
+<div class="divider"></div><div class="ud-atom">
+  <h3><p>Visualize</p></h3>
+  <div>
+  <figure class="figure">
+    <img src="img/stationarity.png" alt="" class="img img-fluid">
+    <figcaption class="figure-caption">
+      
+    </figcaption>
+  </figure>
+</div>
+
+
+</div>
+<div class="divider"></div><div class="ud-atom">
+  <h3><p>Time Series</p></h3>
+  <div>
+  <figure class="figure">
+    <img src="img/arima-time-series.png" alt="" class="img img-fluid">
+    <figcaption class="figure-caption">
+      
+    </figcaption>
+  </figure>
+</div>
+
+
+</div>
+<div class="divider"></div><div class="ud-atom">
+  <h3><p>S2</p></h3>
+  <div>
+  <p><strong>Step 2 - Difference:</strong> Let's start with a seasonal difference and observe the resulting plot. To take the seasonal difference, you use a <em>Multi-Row Formula</em> tool and use the formula <strong>[Champagne Sales] - [Row-12:Champagne Sales]</strong>. Attach a browse tool and look at the plot. It looks like the seasonal differencing was enough to make the time series stationary!</p>
+</div>
+
+</div>
+<div class="divider"></div><div class="ud-atom">
+  <h3><p>Seasonal Differencing</p></h3>
+  <div>
+  <figure class="figure">
+    <img src="img/seasonal-differencing.png" alt="" class="img img-fluid">
+    <figcaption class="figure-caption">
+      
+    </figcaption>
+  </figure>
+</div>
+
+
+</div>
+<div class="divider"></div><div class="ud-atom">
+  <h3><p>Differenced Series</p></h3>
+  <div>
+  <figure class="figure">
+    <img src="img/differenced-time-series.png" alt="" class="img img-fluid">
+    <figcaption class="figure-caption">
+      
+    </figcaption>
+  </figure>
+</div>
+
+
+</div>
+<div class="divider"></div><div class="ud-atom">
+  <h3><p>L</p></h3>
+  <div>
+  <p>** Step 3 - Filter out a validation sample:** This is done the same was it was done with the ETS model. Attach a <em>Record ID</em> and <em>Filter</em> tools to the <em>Data Input</em> tool and filter out the last 6 periods. </p>
+</div>
+
+</div>
+<div class="divider"></div><div class="ud-atom">
+  <h3><p>Filter</p></h3>
+  <div>
+  <figure class="figure">
+    <img src="img/filter.png" alt="" class="img img-fluid">
+    <figcaption class="figure-caption">
+      
+    </figcaption>
+  </figure>
+</div>
+
+
+</div>
+<div class="divider"></div><div class="ud-atom">
+  <h3><p>S4</p></h3>
+  <div>
+  <p>** Step 4 - Select AR and MA terms:** Let's take a look at the ACF and PACF of the seasonally differenced dataset. There appears to be significant positive autocorrelation at periods 1 and 13. The positive autocorrelation points towards AR terms, so I'd suggest starting with one AR term for both the seasonal and non-seasonal parts of the ARIMA model for: </p>
+<h4 id="arima10011012">ARIMA(1,0,0)(1,1,0)12</h4>
+<p>Remember, selecting these terms manually generally means choosing several models and comparing them against a validation sample. In our case, we'll just build out one manual model for practice, then use the auto settings to have the tool choose the best model for us.</p>
+</div>
+
+</div>
+<div class="divider"></div><div class="ud-atom">
+  <h3><p>ACF</p></h3>
+  <div>
+  <figure class="figure">
+    <img src="img/acf.png" alt="" class="img img-fluid">
+    <figcaption class="figure-caption">
+      
+    </figcaption>
+  </figure>
+</div>
+
+
+</div>
+<div class="divider"></div><div class="ud-atom">
+  <h3><p>PACF</p></h3>
+  <div>
+  <figure class="figure">
+    <img src="img/pacf.png" alt="" class="img img-fluid">
+    <figcaption class="figure-caption">
+      
+    </figcaption>
+  </figure>
+</div>
+
+
+</div>
+<div class="divider"></div><div class="ud-atom">
+  <h3><p>S5</p></h3>
+  <div>
+  <p>** Step 5 - Build the model:** Build the model using the <em>ARIMA</em> tool and set the number of periods to forecast to 6. Attach a browse tool to the <strong>I</strong> output node. After running the model, you can see the forecast of the last six periods. The forecast of the final period is 13,366.</p>
+</div>
+
+</div>
+<div class="divider"></div><div class="ud-atom">
+  <h3><p>Model</p></h3>
+  <div>
+  <figure class="figure">
+    <img src="img/arima-model.png" alt="" class="img img-fluid">
+    <figcaption class="figure-caption">
+      
+    </figcaption>
+  </figure>
+</div>
+
+
+</div>
+<div class="divider"></div><div class="ud-atom">
+  <h3><p>Forecast</p></h3>
+  <div>
+  <figure class="figure">
+    <img src="img/arima-forecast.png" alt="" class="img img-fluid">
+    <figcaption class="figure-caption">
+      
+    </figcaption>
+  </figure>
+</div>
+
+
+</div>
+<div class="divider"></div><div class="ud-atom">
+  <h3><p>S6</p></h3>
+  <div>
+  <p>** Step 6 - Validate model:** Compare the predicted values to the actuals in the validation sample using the <em>TS Compare</em> tool. For the final period, the ARIMA model forecasted  13,366 vs the actual of 12,670.</p>
+</div>
+
+</div>
+<div class="divider"></div><div class="ud-atom">
+  <h3><p>Compare</p></h3>
+  <div>
+  <figure class="figure">
+    <img src="img/arima-model-compare.png" alt="" class="img img-fluid">
+    <figcaption class="figure-caption">
+      
+    </figcaption>
+  </figure>
+</div>
+
+
+</div>
+<div class="divider"></div><div class="ud-atom">
+  <h3><p>compare plot</p></h3>
+  <div>
+  <figure class="figure">
+    <img src="img/compare-plot.png" alt="" class="img img-fluid">
+    <figcaption class="figure-caption">
+      
+    </figcaption>
+  </figure>
+</div>
+
+
+</div>
+<div class="divider"></div>
+          </div>
+
+          <div class="col-12">
+            <p class="text-right">
+              <a href="21. Learning Summary.html" class="btn btn-outline-primary mt-4" role="button">Next Concept</a>
+            </p>
+          </div>
+        </div>
+      </main>
+
+      <footer class="footer">
+        <div class="container">
+          <div class="row">
+            <div class="col-12">
+              <p class="text-center">
+                <a href="https://us-udacity.github.io/" target="_blank">【udacity2.0 】If you need more courses, please add wechat：udacity6</a>
+              </p>
+            </div>
+          </div>
+        </div>
+      </footer>
+    </div>
+  </div>
+
+
+  <script src="../assets/js/jquery-3.3.1.min.js"></script>
+  <script src="../assets/js/plyr.polyfilled.min.js"></script>
+  <script src="../assets/js/bootstrap.min.js"></script>
+  <script src="../assets/js/jquery.mCustomScrollbar.concat.min.js"></script>
+  <script src="../assets/js/katex.min.js"></script>
+  <script>
+    // Initialize Plyr video players
+    const players = Array.from(document.querySelectorAll('video')).map(p => new Plyr(p));
+
+    // render math equations
+    let elMath = document.getElementsByClassName('mathquill');
+    for (let i = 0, len = elMath.length; i < len; i += 1) {
+      const el = elMath[i];
+
+      katex.render(el.textContent, el, {
+        throwOnError: false
+      });
+    }
+
+    // this hack will make sure Bootstrap tabs work when using Handlebars
+    if ($('#question-tabs').length && $('#user-answer-tabs').length) {
+      $("#question-tabs a.nav-link").on('click', function () {
+        $("#question-tab-contents .tab-pane").hide();
+        $($(this).attr("href")).show();
+      });
+      $("#user-answer-tabs a.nav-link").on('click', function () {
+        $("#user-answer-tab-contents .tab-pane").hide();
+        $($(this).attr("href")).show();
+      });
+    } else {
+      $("a.nav-link").on('click', function () {
+        $(".tab-pane").hide();
+        $($(this).attr("href")).show();
+      });
+    }
+
+    // side bar events
+    $(document).ready(function () {
+      $("#sidebar").mCustomScrollbar({
+        theme: "minimal"
+      });
+
+      $('#sidebarCollapse').on('click', function () {
+        $('#sidebar, #content').toggleClass('active');
+        $('.collapse.in').toggleClass('in');
+        $('a[aria-expanded=true]').attr('aria-expanded', 'false');
+      });
+
+      // scroll to first video on page loading
+      if ($('video').length) {
+        $('html,body').animate({ scrollTop: $('div.plyr').prev().offset().top});
+      }
+
+      // auto play first video: this may not work with chrome/safari due to autoplay policy
+      if (players && players.length > 0) {
+        players[0].play();
+      }
+
+      // scroll sidebar to current concept
+      const currentInSideBar = $( "ul.sidebar-list.components li a:contains('20. Constructing an ARIMA Model Solution')" )
+      currentInSideBar.css( "text-decoration", "underline" );
+      $("#sidebar").mCustomScrollbar('scrollTo', currentInSideBar);
+    });
+  </script>
+</body>
+
+</html>

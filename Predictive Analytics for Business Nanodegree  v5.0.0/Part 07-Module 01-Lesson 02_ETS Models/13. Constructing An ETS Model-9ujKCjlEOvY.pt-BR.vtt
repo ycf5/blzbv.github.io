@@ -1,0 +1,289 @@
+WEBVTT
+Kind: captions
+Language: pt-BR
+
+00:00:00.067 --> 00:00:02.933
+Agora que falamos sobre modelos de
+suavização exponencial em detalhes,
+
+00:00:02.967 --> 00:00:05.567
+vamos começar a construir
+um modelo para prever as reservas
+
+00:00:05.600 --> 00:00:08.067
+do Bates Hotel
+usando o Alteryx.
+
+00:00:08.100 --> 00:00:11.333
+Vamos começar levando uma ferramenta
+"Input Data" para a tela
+
+00:00:11.367 --> 00:00:14.000
+e importando "Bookings.xlsx"
+
+00:00:14.033 --> 00:00:17.949
+Vamos usar esses dados para prever
+os próximos 6 meses de reservas.
+
+00:00:21.733 --> 00:00:24.200
+A seguir, vamos pegar
+uma ferramenta "Record ID".
+
+00:00:24.233 --> 00:00:25.833
+Ela apenas
+numera os registros,
+
+00:00:25.867 --> 00:00:29.000
+mas fazer isto vai permitir
+que filtremos uma amostra holdout.
+
+00:00:29.033 --> 00:00:32.167
+Vamos falar mais sobre amostras
+holdout ainda neste curso.
+
+00:00:32.200 --> 00:00:35.133
+Agora vamos filtrar os últimos
+6 registros da série temporal
+
+00:00:35.167 --> 00:00:37.767
+para usar como a amostra holdout
+estabelecendo um filtro
+
+00:00:37.800 --> 00:00:42.867
+que inclua os registros menores
+ou iguais a "Record ID" 114.
+
+00:00:43.067 --> 00:00:46.100
+Agora que preparamos
+os dados para construir o modelo,
+
+00:00:46.133 --> 00:00:47.766
+podemos ver os gráficos
+de série temporal
+
+00:00:47.799 --> 00:00:50.032
+para determinar como devemos
+aplicar os componentes
+
+00:00:50.065 --> 00:00:53.400
+de tendência, sazonalidade
+e erro no cálculo do modelo.
+
+00:00:53.433 --> 00:00:56.567
+Vamos conectar as ferramentas
+"Record ID" e "TS Plot"
+
+00:00:56.600 --> 00:00:59.533
+e, na "Configuration" da "TS Plot",
+vamos selecionar "Bookings"
+
+00:00:59.567 --> 00:01:03.333
+como o "target field", "monthly"
+para "target field frequency"
+
+00:01:03.367 --> 00:01:05.900
+e "Times series plot"
+em "Plot type".
+
+00:01:05.933 --> 00:01:10.000
+Conecte um "Browse" ao nó interativo
+da ferramenta "TS Plot".
+
+00:01:10.033 --> 00:01:11.932
+Pode fazer isso clicando
+com o botão direito nela
+
+00:01:11.965 --> 00:01:14.600
+e selecionando "Add Browse
+After (Interactive)".
+
+00:01:14.633 --> 00:01:16.300
+Agora clique em "Run".
+
+00:01:16.333 --> 00:01:20.233
+O output interativo da "TS Plot"
+nos mostra muita informação.
+
+00:01:20.267 --> 00:01:22.867
+Vamos dar uma olhada
+no "Decomposition Plot".
+
+00:01:22.900 --> 00:01:26.067
+A partir do gráfico,
+vemos que a tendência é linear,
+
+00:01:26.100 --> 00:01:28.733
+sugerindo que ela seja aplicada
+de maneira aditiva.
+
+00:01:28.767 --> 00:01:32.667
+A sazonalidade dos dados
+parece ser a mesma todo ano,
+
+00:01:32.700 --> 00:01:35.833
+mas será que é? A parte sazonal
+do gráfico de decomposição
+
+00:01:35.867 --> 00:01:38.067
+nos permite confirmar
+que é verdade.
+
+00:01:38.100 --> 00:01:42.433
+Ao olhar para os picos e vales,
+vemos que a sazonalidade aumenta
+
+00:01:42.467 --> 00:01:45.466
+a cada período sazonal.
+Isso sugere que devemos aplicar
+
+00:01:45.499 --> 00:01:47.933
+a sazonalidade
+de maneira multiplicativa.
+
+00:01:48.300 --> 00:01:51.933
+Por fim, o restante, ou erro,
+mostra variâncias distintas
+
+00:01:51.967 --> 00:01:53.933
+com o passar
+da série temporal.
+
+00:01:53.967 --> 00:01:56.733
+Isso significa que devemos
+usar o erro de forma multiplicativa.
+
+00:01:56.767 --> 00:02:00.167
+O próximo passo, depois de
+determinar como aplicar a tendência,
+
+00:02:00.200 --> 00:02:02.167
+a sazonalidade e o erro,
+
+00:02:02.200 --> 00:02:05.167
+vai ser construir o modelo
+com a ferramenta "ETS".
+
+00:02:05.200 --> 00:02:07.933
+Vamos arrastá-la para a tela.
+
+00:02:07.967 --> 00:02:09.867
+Vamos chamar o modelo
+de "MAM",
+
+00:02:09.900 --> 00:02:12.500
+para mostrar como vamos aplicar
+os vários componentes.
+
+00:02:12.533 --> 00:02:15.167
+Depois, selecione "Bookings"
+como "target field"
+
+00:02:15.200 --> 00:02:18.267
+e "monthly" como
+a "Target field frequency".
+
+00:02:18.300 --> 00:02:20.267
+Na aba "Model Type",
+podemos definir
+
+00:02:20.300 --> 00:02:23.833
+os vários componentes:
+"Err" será "Multiplicative",
+
+00:02:23.867 --> 00:02:26.833
+"Trend" será "Additive",
+"Trend Dampening" será "No"
+
+00:02:26.867 --> 00:02:29.767
+e "Seasonal type"
+será "Multiplicative".
+
+00:02:30.367 --> 00:02:34.933
+Na aba "Other Options", vamos usar 6
+como "number of periods to include"
+
+00:02:34.967 --> 00:02:39.267
+e estabelecer
+o início da série como 2006.1.
+
+00:02:39.600 --> 00:02:41.200
+Vamos também testar
+se o amortecimento
+
+00:02:41.233 --> 00:02:43.333
+terá um efeito positivo
+no modelo.
+
+00:02:43.367 --> 00:02:47.433
+Então copie e cole
+a ferramenta "ETS" na tela
+
+00:02:47.867 --> 00:02:51.267
+e confira se a configuração
+está igual à do 1º modelo.
+
+00:02:51.300 --> 00:02:54.467
+Mas, agora, defina
+"Trend dampening" como "Yes"
+
+00:02:54.500 --> 00:02:56.667
+e não se esqueça de adicionar
+"dampened" ao nome do modelo
+
+00:02:56.700 --> 00:03:00.367
+para sabermos a diferença
+quando virmos o relatório final.
+
+00:03:00.833 --> 00:03:03.933
+O alfa, ou valor de suavização,
+é calculado automaticamente
+
+00:03:03.967 --> 00:03:06.467
+para maximizar
+a redução de erro,
+
+00:03:06.500 --> 00:03:08.867
+então não teremos
+que configurar isso.
+
+00:03:08.900 --> 00:03:11.367
+Antes de ativar o modelo,
+adicione um "Browse" ao "R",
+
+00:03:11.400 --> 00:03:13.933
+ou nó de relatório,
+das ferramentas "ETS".
+
+00:03:13.967 --> 00:03:16.900
+Podemos clicar no botão "Play"
+para construir os modelos.
+
+00:03:16.933 --> 00:03:20.000
+O output da ferramenta "ETS" vai
+nos mostrar informações importantes,
+
+00:03:20.033 --> 00:03:24.067
+como a medida de erro da amostra,
+critérios de informação
+
+00:03:24.100 --> 00:03:26.100
+e o valor de alfa selecionado.
+
+00:03:26.133 --> 00:03:30.700
+Vamos ver como comparar, prever e
+visualizar os resultados na aula 4.
+
+00:03:30.733 --> 00:03:32.767
+Por enquanto,
+salve este workflow
+
+00:03:32.800 --> 00:03:35.767
+porque vamos voltar a usá-lo
+mais tarde no curso.
+
+00:03:35.800 --> 00:03:37.100
+*END*
+
+00:03:37.133 --> 00:03:38.433
+*CODE*
+

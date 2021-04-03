@@ -1,0 +1,41 @@
+WEBVTT
+Kind: captions
+Language: pt-BR
+
+00:00:00.234 --> 00:00:02.603
+Uma variação
+do método linear de Holt
+
+00:00:02.636 --> 00:00:04.805
+é o método de tendência
+exponencial.
+
+00:00:04.838 --> 00:00:07.841
+Este cálculo usa os mesmos
+componentes de nível e tendência,
+
+00:00:07.875 --> 00:00:12.379
+mas, agora, os dois são aplicados
+de maneira multiplicativa.
+
+00:00:12.412 --> 00:00:14.081
+Isso significa que a tendência
+vai subir
+
+00:00:14.114 --> 00:00:16.951
+ou diminuir exponencialmente,
+e não linearmente,
+
+00:00:16.984 --> 00:00:19.216
+e exibir previsões numa taxa
+de crescimento de tendência
+
+00:00:19.249 --> 00:00:21.253
+fatorial e não aditiva.
+
+00:00:21.288 --> 00:00:22.589
+*END*
+
+00:00:22.623 --> 00:00:23.924
+*CODE*
+

@@ -1,0 +1,179 @@
+WEBVTT
+Kind: captions
+Language: pt-BR
+
+00:00:00.000 --> 00:00:03.234
+A autocorrelação parcial é
+um conceito bastante complicado.
+
+00:00:03.267 --> 00:00:06.334
+É a correlação entre duas variáveis
+que controlam os valores
+
+00:00:06.367 --> 00:00:08.200
+de outro grupo de variáveis.
+
+00:00:08.234 --> 00:00:09.934
+Por exemplo, se considerarmos
+
+00:00:09.968 --> 00:00:12.400
+três valores consecutivos
+em uma série temporal,
+
+00:00:12.434 --> 00:00:15.200
+todos têm algum tipo
+de correlação uns com os outros.
+
+00:00:15.234 --> 00:00:17.868
+A correlação entre
+o período atual e o Lag 2
+
+00:00:17.901 --> 00:00:20.033
+seria uma autocorrelação.
+
+00:00:20.067 --> 00:00:23.300
+O mesmo cálculo para controlar
+o valor de Lag 1
+
+00:00:23.334 --> 00:00:25.834
+seria uma autocorrelação
+parcial.
+
+00:00:25.868 --> 00:00:28.367
+Para entender melhor
+a autocorrelação parcial,
+
+00:00:28.400 --> 00:00:30.140
+veja o link abaixo do vídeo.
+
+00:00:30.767 --> 00:00:35.367
+Enquanto o FAC calcula a correlação
+dos pontos anteriores com um valor,
+
+00:00:35.400 --> 00:00:37.734
+a FACP mostra a correlação
+desses pontos,
+
+00:00:37.767 --> 00:00:41.701
+controlando os valores de todas as
+variáveis de defasagem anteriores.
+
+00:00:41.734 --> 00:00:43.400
+Vamos dar uma olhada
+no gráfico de FACP
+
+00:00:43.434 --> 00:00:45.567
+do conjunto de dados
+de escovas de dentes.
+
+00:00:45.601 --> 00:00:49.801
+Note que ele tem um pico
+significante apenas no Lag 1.
+
+00:00:49.834 --> 00:00:51.933
+Isso significa que todas
+as autocorrelações
+
+00:00:51.966 --> 00:00:55.501
+são explicadas
+pela autocorrelação de Lag 1.
+
+00:00:55.734 --> 00:00:59.400
+Analisar o FACP vai sugerir
+quantos termos AR você vai usar
+
+00:00:59.434 --> 00:01:02.567
+para explicar o padrão de
+autocorrelação numa série temporal.
+
+00:01:02.601 --> 00:01:05.801
+Se a autocorrelação parcial
+cair no Lag-k,
+
+00:01:05.834 --> 00:01:08.534
+em geral ela indica
+um modelo AR (k).
+
+00:01:08.567 --> 00:01:12.267
+Se ela cair gradualmente,
+ela sugere um modelo MA.
+
+00:01:12.300 --> 00:01:16.234
+No nosso exemplo, vemos
+que o FACP cai depois do Lag 1,
+
+00:01:16.267 --> 00:01:19.734
+que confirma que a série
+sugere um modelo AR (1).
+
+00:01:20.734 --> 00:01:21.968
+Você entendeu tudo?
+
+00:01:22.000 --> 00:01:24.167
+Vamos dar uma olhada
+em alguns exemplos.
+
+00:01:24.434 --> 00:01:27.167
+Vamos abrir o Alteryx para ver
+onde podemos encontrar
+
+00:01:27.200 --> 00:01:29.701
+os gráficos de FAC e FACP.
+
+00:01:29.734 --> 00:01:33.367
+Vamos começar importando
+o arquivo "TB_Sales.xlsx"
+
+00:01:33.400 --> 00:01:36.067
+e conectá-lo
+a uma ferramenta "TS Plot".
+
+00:01:36.267 --> 00:01:38.534
+Na "Configuration" da "TS Plot",
+vamos estabelecer
+
+00:01:38.567 --> 00:01:41.033
+o "Target field"
+como "Toothbrush Sales",
+
+00:01:41.067 --> 00:01:43.501
+a "target field frequency"
+será "monthly"
+
+00:01:43.534 --> 00:01:46.767
+e o "Plot type"
+será "times series plot".
+
+00:01:46.801 --> 00:01:49.901
+Agora adicione uma ferramenta
+"Browse" ao nó interativo
+
+00:01:49.934 --> 00:01:51.337
+e aperte "Run".
+
+00:01:51.701 --> 00:01:53.601
+Na parte de baixo
+do relatório final,
+
+00:01:53.634 --> 00:01:58.167
+os gráficos de FAC e FACP
+mostram a autocorrelação da série
+
+00:01:58.200 --> 00:02:01.367
+ou como ela se correlaciona
+consigo mesma.
+
+00:02:01.400 --> 00:02:04.267
+O coeficiente de correlação
+está no eixo vertical,
+
+00:02:04.300 --> 00:02:08.032
+e o valor de defasagem
+está no eixo horizontal.
+
+00:02:08.065 --> 00:02:09.167
+*END*
+
+00:02:09.200 --> 00:02:10.501
+*CODE*
+

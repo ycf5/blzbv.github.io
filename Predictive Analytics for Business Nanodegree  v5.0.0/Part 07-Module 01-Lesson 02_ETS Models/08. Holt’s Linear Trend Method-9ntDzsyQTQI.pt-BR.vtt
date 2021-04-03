@@ -1,0 +1,72 @@
+WEBVTT
+Kind: captions
+Language: pt-BR
+
+00:00:00.300 --> 00:00:02.767
+O método de suavização exponencial
+simples foi expandido
+
+00:00:02.801 --> 00:00:05.667
+para incluir dados preditivos
+com uma tendência.
+
+00:00:05.701 --> 00:00:08.400
+Este novo método se chama
+suavização exponencial dupla
+
+00:00:08.434 --> 00:00:10.634
+ou método linear de Holt.
+
+00:00:10.667 --> 00:00:13.200
+O método desenvolve
+a suavização exponencial simples
+
+00:00:13.234 --> 00:00:18.234
+ao incluir não apenas o nível,
+mas também a tendência no cálculo.
+
+00:00:18.267 --> 00:00:21.033
+Ele faz isso ao combinar
+dois cálculos de suavização:
+
+00:00:21.067 --> 00:00:23.767
+um para o nível
+e outro para a tendência.
+
+00:00:23.801 --> 00:00:25.834
+A tendência neste método
+é sempre aplicada
+
+00:00:25.868 --> 00:00:28.334
+de maneira linear ou aditiva.
+
+00:00:28.367 --> 00:00:31.367
+Ao acrescentar esse componente
+ao método de suavização simples,
+
+00:00:31.400 --> 00:00:33.334
+nossa previsão não será
+mais plana,
+
+00:00:33.367 --> 00:00:36.000
+mas gerará uma inclinação
+para cima ou para baixo.
+
+00:00:36.033 --> 00:00:38.133
+Por isso, a previsão
+é uma função linear.
+
+00:00:39.267 --> 00:00:41.601
+O método linear de Holt
+é um modelo ótimo para aplicar
+
+00:00:41.634 --> 00:00:43.234
+em qualquer análise
+de um conjunto de dados.
+
+00:00:43.267 --> 00:00:44.601
+*END*
+
+00:00:44.634 --> 00:00:45.968
+*CODE*
+

@@ -1,0 +1,120 @@
+WEBVTT
+Kind: captions
+Language: pt-BR
+
+00:00:00.334 --> 00:00:02.100
+Definir se
+uma série temporal exibe
+
+00:00:02.133 --> 00:00:04.734
+comportamento aditivo
+ou multiplicativo em seus termos
+
+00:00:04.767 --> 00:00:07.348
+depende da habilidade do analista
+para ver padrões de tendência,
+
+00:00:07.381 --> 00:00:09.300
+sazonalidade e erro.
+
+00:00:09.334 --> 00:00:12.133
+Apesar de visualizar os dados
+não parecer muito científico,
+
+00:00:12.167 --> 00:00:15.834
+é uma das maneiras mais eficazes de
+determinar como aplicar um modelo.
+
+00:00:15.868 --> 00:00:18.868
+O método aditivo é útil quando a
+variação de tendência e sazonalidade
+
+00:00:18.901 --> 00:00:21.067
+são relativamente constantes
+com o passar do tempo.
+
+00:00:21.100 --> 00:00:24.660
+Já o método multiplicativo é útil
+quando a variação de tendência
+
+00:00:24.693 --> 00:00:29.635
+e sazonalidade aumenta
+ou reduz de tamanho com o tempo.
+
+00:00:29.668 --> 00:00:31.799
+Determinar o método
+para o componente de tendência
+
+00:00:31.832 --> 00:00:34.234
+é um pouco mais fácil
+do que o fator sazonal.
+
+00:00:34.267 --> 00:00:36.167
+Para tendências,
+podemos ver no gráfico
+
+00:00:36.200 --> 00:00:38.533
+que uma tendência aditiva
+mostra um comportamento linear,
+
+00:00:38.566 --> 00:00:41.467
+enquanto a multiplicativa mostra
+um comportamento exponencial.
+
+00:00:41.501 --> 00:00:43.901
+O componente sazonal
+pode ser um pouco mais difícil.
+
+00:00:43.934 --> 00:00:46.634
+Vamos usar o Bates Hotel
+para explicar melhor.
+
+00:00:46.667 --> 00:00:49.167
+Se o hotel tivesse um aumento
+nas reservas de janeiro
+
+00:00:49.200 --> 00:00:53.400
+de mil reservas por ano,
+apenas somaríamos mil reservas
+
+00:00:53.434 --> 00:00:57.067
+ou usaríamos um método aditivo
+para lidar com a flutuação.
+
+00:00:57.100 --> 00:01:00.734
+Se o Bates Hotel tiver aumento
+de 50% nas reservas em janeiro,
+
+00:01:00.767 --> 00:01:03.567
+ou seja, um aumento
+de fator 1,5,
+
+00:01:03.601 --> 00:01:07.133
+a sazonalidade deve ser aplicada
+com o método multiplicativo.
+
+00:01:07.167 --> 00:01:09.300
+Se olharmos para a série temporal
+das reservas
+
+00:01:09.334 --> 00:01:11.601
+ou voltarmos
+ao gráfico de decomposição,
+
+00:01:11.634 --> 00:01:14.968
+vemos que o tamanho das variações
+sazonais aumenta com o tempo,
+
+00:01:15.001 --> 00:01:18.200
+indicando a variação multiplicativa,
+e não uma variação constante,
+
+00:01:18.234 --> 00:01:20.267
+que seria aditiva.
+
+00:01:20.300 --> 00:01:21.601
+*END*
+
+00:01:21.634 --> 00:01:22.934
+*CODE*
+

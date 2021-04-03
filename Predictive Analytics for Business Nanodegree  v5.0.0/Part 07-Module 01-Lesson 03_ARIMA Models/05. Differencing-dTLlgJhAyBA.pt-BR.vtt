@@ -1,0 +1,88 @@
+WEBVTT
+Kind: captions
+Language: pt-BR
+
+00:00:00.633 --> 00:00:03.100
+Se observarmos
+o arquivo "TB Sales.xlsx",
+
+00:00:03.133 --> 00:00:06.267
+podemos ver o número de escovas
+de dentes vendidas na coluna "B".
+
+00:00:06.300 --> 00:00:09.033
+Agora vamos calcular a "First
+Difference" na coluna "C".
+
+00:00:09.067 --> 00:00:11.533
+A 1ª diferença de uma série temporal
+é uma série de mudanças
+
+00:00:11.567 --> 00:00:13.300
+de um período para o outro.
+
+00:00:13.333 --> 00:00:16.500
+Para calcular isso,
+pegamos o valor do período atual
+
+00:00:16.533 --> 00:00:19.133
+e o subtraímos pelo valor
+do período anterior.
+
+00:00:19.167 --> 00:00:22.100
+Essa diferença vai nos dizer
+se temos uma média
+
+00:00:22.133 --> 00:00:24.833
+e uma variância constantes
+com o passar do tempo.
+
+00:00:24.866 --> 00:00:27.400
+Ao montar um gráfico
+das diferentes séries,
+
+00:00:27.433 --> 00:00:30.700
+podemos ver que a diferença gira
+em torno de uma média de quase 0
+
+00:00:30.733 --> 00:00:33.167
+e tem uma variância
+relativamente constante.
+
+00:00:33.200 --> 00:00:35.700
+Se a 1ª diferença da série
+for incapaz de transformar
+
+00:00:35.733 --> 00:00:38.800
+os dados em estacionários,
+calculamos a 2ª diferença,
+
+00:00:38.833 --> 00:00:43.100
+a 3ª diferença e continuaríamos
+até a série se tornar estacionária.
+
+00:00:43.133 --> 00:00:46.433
+Note que a 2ª diferença não é
+a diferença de dois períodos atrás,
+
+00:00:46.467 --> 00:00:49.833
+mas a 1ª diferença
+da 1ª diferença,
+
+00:00:49.867 --> 00:00:51.933
+como calculamos aqui.
+
+00:00:51.967 --> 00:00:55.333
+A 3ª, 4ª, 5ª
+e quaisquer outras diferenças
+
+00:00:55.367 --> 00:00:57.433
+seriam calculadas
+da mesma maneira.
+
+00:00:57.467 --> 00:00:58.767
+*END*
+
+00:00:58.800 --> 00:01:00.100
+*CODE*
+

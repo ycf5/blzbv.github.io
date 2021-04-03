@@ -1,0 +1,200 @@
+WEBVTT
+Kind: captions
+Language: pt-BR
+
+00:00:00.533 --> 00:00:03.167
+Para começar,
+podemos abrir o workflow ARIMA
+
+00:00:03.200 --> 00:00:06.900
+das aulas de diferenciação
+e de seleção de termos "AR" e "MA".
+
+00:00:06.933 --> 00:00:09.167
+Agora, como fizemos
+com o modelo ETS,
+
+00:00:09.200 --> 00:00:12.367
+vamos usar um "Record ID"
+para definir uma amostra holdout.
+
+00:00:12.967 --> 00:00:15.500
+Vimos antes, na aula
+sobre diferenciação sazonal,
+
+00:00:15.533 --> 00:00:19.067
+que a autocorrelação,
+após a 1ª diferenciação sazonal,
+
+00:00:19.100 --> 00:00:20.767
+baixou a ponto
+de podermos adicionar
+
+00:00:20.800 --> 00:00:22.767
+termos autorregressivos
+e de média móvel
+
+00:00:22.800 --> 00:00:25.467
+para analisar quaisquer
+autocorrelações que restarem.
+
+00:00:25.500 --> 00:00:29.833
+Isso também significa que os valores
+de "d" e de "D" serão "1",
+
+00:00:29.867 --> 00:00:33.433
+já que usamos uma diferença
+sazonal e uma 1ª diferença.
+
+00:00:34.000 --> 00:00:37.733
+No gráfico de FAC, vemos uma
+autocorrelação negativa no lag 1,
+
+00:00:37.767 --> 00:00:40.100
+e isso é confirmado na FACP.
+
+00:00:40.133 --> 00:00:42.967
+Isso sugere um valor
+de "q = 1".
+
+00:00:43.000 --> 00:00:45.200
+Também há uma autocorrelação
+significativa
+
+00:00:45.233 --> 00:00:47.733
+no lag 12 do primeiro
+período sazonal.
+
+00:00:47.767 --> 00:00:51.200
+Adicione um "Q" de valor "1"
+para considerar isto na análise.
+
+00:00:51.833 --> 00:00:55.333
+Agora que temos os termos,
+vamos usar uma ferramenta "ARIMA".
+
+00:00:55.367 --> 00:00:57.167
+Vamos chamar o modelo
+de "ARIMA",
+
+00:00:57.200 --> 00:00:59.267
+definir "target field"
+como "Bookings"
+
+00:00:59.300 --> 00:01:02.433
+e definir a "Target field frequency"
+para "Monthly".
+
+00:01:02.467 --> 00:01:04.033
+Na aba
+"Model Customization",
+
+00:01:04.067 --> 00:01:07.100
+selecione "Completely
+user specified model"
+
+00:01:07.133 --> 00:01:08.633
+e configure os termos.
+
+00:01:08.667 --> 00:01:13.733
+O "autoregressive component"
+não sazonal, "p", é 0.
+
+00:01:13.767 --> 00:01:16.800
+O "degree of first differencing"
+é 1.
+
+00:01:16.833 --> 00:01:20.033
+A "order of the moving
+average component" é 1.
+
+00:01:20.067 --> 00:01:23.233
+O "seasonal autoregressive
+component" é 0.
+
+00:01:23.267 --> 00:01:26.233
+O "degree of seasonal
+differencing" é 1,
+
+00:01:26.267 --> 00:01:29.733
+e a "order of the seasonal
+moving average" é 1.
+
+00:01:29.767 --> 00:01:32.300
+Na aba "Other Options",
+defina a data de início
+
+00:01:32.333 --> 00:01:35.133
+e o "number of periods
+to forecast for".
+
+00:01:35.167 --> 00:01:38.933
+Como é bom criar mais modelos
+e comparar os resultados,
+
+00:01:38.967 --> 00:01:41.367
+vamos copiar e colar
+a ferramenta "ARIMA" na tela
+
+00:01:41.400 --> 00:01:44.000
+e mudar o valor de "Q"
+para "2".
+
+00:01:44.033 --> 00:01:46.000
+Vamos usar
+mais termos "MA" sazonais
+
+00:01:46.033 --> 00:01:48.300
+porque nossa série
+é muito sazonal,
+
+00:01:48.333 --> 00:01:51.533
+e queremos que esse componente
+sazonal seja considerado na análise.
+
+00:01:51.567 --> 00:01:53.067
+Antes de darmos início
+à análise,
+
+00:01:53.100 --> 00:01:56.967
+acrescente um "Browse" ao "R", ou nó
+de relatório, da ferramenta "ARIMA".
+
+00:01:57.000 --> 00:02:00.500
+Agora aperte o botão "Play"
+para construir os modelos.
+
+00:02:00.533 --> 00:02:02.300
+Os resultados fornecidos
+vão mostrar
+
+00:02:02.333 --> 00:02:05.433
+medidas importantes,
+como os critérios de informação,
+
+00:02:05.467 --> 00:02:10.233
+medidas de erros amostrais e
+os gráficos de FAC e FACP restantes.
+
+00:02:10.267 --> 00:02:12.500
+Vamos discutir a comparação,
+a previsão
+
+00:02:12.533 --> 00:02:15.000
+e a visualização dos resultados
+na aula 4.
+
+00:02:15.033 --> 00:02:17.033
+Por enquanto,
+salve este workflow,
+
+00:02:17.067 --> 00:02:20.067
+pois voltaremos a ele
+mais tarde.
+
+00:02:20.100 --> 00:02:21.400
+*END*
+
+00:02:21.433 --> 00:02:22.767
+*CODE*
+

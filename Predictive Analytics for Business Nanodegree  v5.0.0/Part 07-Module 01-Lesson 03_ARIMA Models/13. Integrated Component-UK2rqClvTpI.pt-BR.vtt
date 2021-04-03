@@ -1,0 +1,59 @@
+WEBVTT
+Kind: captions
+Language: pt-BR
+
+00:00:00.300 --> 00:00:02.834
+O termo do componente integrado
+representa o número de vezes
+
+00:00:02.868 --> 00:00:04.534
+que precisamos diferenciar
+o conjunto de dados
+
+00:00:04.567 --> 00:00:05.901
+para torná-lo estacionário.
+
+00:00:05.934 --> 00:00:08.633
+Se a série precisa ser diferenciada
+para se tornar estacionária,
+
+00:00:08.666 --> 00:00:10.167
+nós a consideramos integrada.
+
+00:00:10.200 --> 00:00:12.801
+Então, se só precisarmos
+calcular a 1ª diferença
+
+00:00:12.834 --> 00:00:16.234
+para deixar a série estacionária,
+então os termos "I" serão "1".
+
+00:00:16.267 --> 00:00:18.300
+Se voltarmos ao exemplo
+das escovas de dentes,
+
+00:00:18.334 --> 00:00:21.133
+para torná-lo estacionário,
+tivemos que diferenciá-lo uma vez.
+
+00:00:21.167 --> 00:00:23.067
+Então o termo "I" será "1".
+
+00:00:23.100 --> 00:00:25.734
+Se juntarmos tudo,
+tínhamos "1" termo "AR",
+
+00:00:25.767 --> 00:00:28.434
+"0" termos "MA"
+e "1" termo "I",
+
+00:00:28.467 --> 00:00:32.868
+então chamaríamos este modelo
+de "ARIMA (1,1,0)".
+
+00:00:32.901 --> 00:00:34.200
+*END*
+
+00:00:34.234 --> 00:00:35.534
+*CODE*
+
