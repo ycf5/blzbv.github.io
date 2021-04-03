@@ -1,0 +1,25 @@
+WEBVTT
+Kind: captions
+Language: en
+
+00:00:00.000 --> 00:00:04.220
+Joins allow you to combine two data sets side by side.
+
+00:00:04.220 --> 00:00:09.375
+But sometimes, it's necessary to stack one on top of another.
+
+00:00:09.375 --> 00:00:12.140
+This might come in the form of several lists of events,
+
+00:00:12.140 --> 00:00:17.475
+email addresses, or anything else that might be stored in a few different places.
+
+00:00:17.475 --> 00:00:20.250
+Alternatively, you might want to append an aggregation,
+
+00:00:20.250 --> 00:00:24.090
+like a sum, to the end of a list of individual records.
+
+00:00:24.090 --> 00:00:25.310
+You can do this with a union.
+

@@ -1,0 +1,25 @@
+WEBVTT
+Kind: captions
+Language: en
+
+00:00:00.060 --> 00:00:04.465
+Since you're writing two separate select statements when you union,
+
+00:00:04.465 --> 00:00:07.345
+you can treat them differently before appending.
+
+00:00:07.345 --> 00:00:13.000
+For example, you can filter them differently using different where clauses.
+
+00:00:18.370 --> 00:00:23.610
+These results show only rows where the channel is equal to
+
+00:00:23.610 --> 00:00:27.175
+Facebook coming from demo.webevents.
+
+00:00:27.175 --> 00:00:30.360
+These results show only rows from the Facebook channel for
+
+00:00:30.360 --> 00:00:35.670
+the first event table where all rows from the events two table will be returned.
+

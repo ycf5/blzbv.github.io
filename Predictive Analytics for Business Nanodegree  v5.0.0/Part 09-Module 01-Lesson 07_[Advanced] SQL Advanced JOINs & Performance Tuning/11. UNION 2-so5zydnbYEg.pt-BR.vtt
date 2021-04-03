@@ -1,0 +1,38 @@
+WEBVTT
+Kind: captions
+Language: pt-BR
+
+00:00:00.800 --> 00:00:04.633
+Como escrevemos duas
+instruções "select" ao unir,
+
+00:00:04.667 --> 00:00:07.400
+podemos tratá-las de forma
+diferente antes de anexar.
+
+00:00:07.467 --> 00:00:09.667
+Podemos filtrá-las
+de forma distinta,
+
+00:00:09.700 --> 00:00:11.833
+utilizando
+diferentes cláusulas "where".
+
+00:00:20.333 --> 00:00:24.367
+O resultado exibe somente as linhas
+cujo canal é igual a "Facebook"
+
+00:00:24.400 --> 00:00:27.167
+vindo de "demo.webevents".
+
+00:00:27.200 --> 00:00:30.000
+Os resultados exibem somente
+linhas do canal Facebook
+
+00:00:30.033 --> 00:00:31.833
+da tabela de eventos 1,
+
+00:00:31.900 --> 00:00:35.567
+que serão retornadas nas linhas
+da tabela de eventos 2.
+

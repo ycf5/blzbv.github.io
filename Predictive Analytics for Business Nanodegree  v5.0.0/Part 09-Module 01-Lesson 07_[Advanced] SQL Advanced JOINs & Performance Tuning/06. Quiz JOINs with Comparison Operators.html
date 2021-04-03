@@ -1,0 +1,265 @@
+<!-- udacity2.0 -->
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Quiz: JOINs with Comparison Operators</title>
+  <link rel="stylesheet" href="../assets/css/bootstrap.min.css">
+  <link rel="stylesheet" href="../assets/css/plyr.css">
+  <link rel="stylesheet" href="../assets/css/katex.min.css">
+  <link rel="stylesheet" href="../assets/css/jquery.mCustomScrollbar.min.css">
+  <link rel="stylesheet" href="../assets/css/styles.css">
+  <link rel="shortcut icon" type="image/png" href="../assets/img/udacimak.png" />
+</head>
+
+<body>
+  <div class="wrapper">
+    <nav id="sidebar">
+  <div class="sidebar-header">
+    <h3>[Advanced] SQL Advanced JOINs &amp; Performance Tuning</h3>
+  </div>
+
+  <ul class="sidebar-list list-unstyled CTAs">
+    <li>
+      <a href="../index.html" class="article">Back to Home</a>
+    </li>
+  </ul>
+
+  <ul class="sidebar-list list-unstyled components">
+    <li class="">
+      <a href="01. Video Introduction to Advanced SQL.html">01. Video: Introduction to Advanced SQL</a>
+    </li>
+    <li class="">
+      <a href="02. Text + Images FULL OUTER JOIN.html">02. Text + Images: FULL OUTER JOIN</a>
+    </li>
+    <li class="">
+      <a href="03. Quiz FULL OUTER JOIN.html">03. Quiz: FULL OUTER JOIN</a>
+    </li>
+    <li class="">
+      <a href="04. Solutions FULL OUTER JOIN.html">04. Solutions: FULL OUTER JOIN</a>
+    </li>
+    <li class="">
+      <a href="05. Video JOINs with Comparison Operators.html">05. Video: JOINs with Comparison Operators</a>
+    </li>
+    <li class="">
+      <a href="06. Quiz JOINs with Comparison Operators.html">06. Quiz: JOINs with Comparison Operators</a>
+    </li>
+    <li class="">
+      <a href="07. Solutions JOINs with Comparison Operators.html">07. Solutions: JOINs with Comparison Operators</a>
+    </li>
+    <li class="">
+      <a href="08. Video Self JOINs.html">08. Video: Self JOINs</a>
+    </li>
+    <li class="">
+      <a href="09. Quiz Self JOINs.html">09. Quiz: Self JOINs</a>
+    </li>
+    <li class="">
+      <a href="10. Solutions Self JOINs.html">10. Solutions: Self JOINs</a>
+    </li>
+    <li class="">
+      <a href="11. Video UNION.html">11. Video: UNION</a>
+    </li>
+    <li class="">
+      <a href="12. Quiz UNION.html">12. Quiz: UNION</a>
+    </li>
+    <li class="">
+      <a href="13. Solutions UNION.html">13. Solutions: UNION</a>
+    </li>
+    <li class="">
+      <a href="14. Video Performance Tuning Motivation.html">14. Video: Performance Tuning Motivation</a>
+    </li>
+    <li class="">
+      <a href="15. Video + Quiz Performance Tuning 1.html">15. Video + Quiz: Performance Tuning 1</a>
+    </li>
+    <li class="">
+      <a href="16. Video  Performance Tuning 2.html">16. Video:  Performance Tuning 2</a>
+    </li>
+    <li class="">
+      <a href="17. Video Performance Tuning 3.html">17. Video: Performance Tuning 3</a>
+    </li>
+    <li class="">
+      <a href="18. Video JOINing Subqueries.html">18. Video: JOINing Subqueries</a>
+    </li>
+    <li class="">
+      <a href="19. Video SQL Completion Congratulations.html">19. Video: SQL Completion Congratulations</a>
+    </li>
+  </ul>
+
+  <ul class="sidebar-list list-unstyled CTAs">
+    <li>
+      <a href="../index.html" class="article">Back to Home</a>
+    </li>
+  </ul>
+</nav>
+
+    <div id="content">
+      <header class="container-fluild header">
+        <div class="container">
+          <div class="row">
+            <div class="col-12">
+              <div class="align-items-middle">
+                <button type="button" id="sidebarCollapse" class="btn btn-toggle-sidebar">
+                  <div></div>
+                  <div></div>
+                  <div></div>
+                </button>
+
+                <h1 style="display: inline-block">06. Quiz: JOINs with Comparison Operators</h1>
+              </div>
+            </div>
+          </div>
+        </div>
+      </header>
+
+      <main class="container">
+        <div class="row">
+          <div class="col-12">
+            <div class="ud-atom">
+  <h3></h3>
+  <div>
+  <h2 id="inequality-joins">Inequality JOINs</h2>
+<p>The query in Derek's video was pretty long. Let's now use a shorter query to showcase the power of joining with comparison operators.</p>
+<p>Inequality operators (a.k.a. comparison operators) don't only need to be date times or numbers, they also work on strings! You'll see how this works by completing the following quiz, which will also reinforce the concept of joining with comparison operators.</p>
+<p>In the following SQL Explorer, write a query that left joins the <code>accounts</code> table and the <code>sales_reps</code> tables on each sale rep's ID number <em>and</em> joins it using the <code>&lt;</code> comparison operator on <code>accounts.primary_poc</code> and <code>sales_reps.name</code>, like so:</p>
+<pre><code>accounts.primary_poc &lt; sales_reps.name</code></pre>
+<p>The query results should be a table with three columns: the account name (e.g. Johnson Controls), the primary contact name (e.g. Cammy Sosnowski), and the sales representative's name (e.g. Samuel Racine). Then answer the subsequent multiple choice question.</p>
+</div>
+
+</div>
+<div class="divider"></div><div class="ud-atom">
+  <h3></h3>
+  <div class="jumbotron">
+  <h3>Code</h3>
+
+  <p class="lead">If you need a code on the <a href="https://github.com/udacity"
+    target="_blank">https://github.com/udacity</a>. </p>
+
+  </ul>
+</div>
+
+</div>
+<div class="divider"></div><div class="ud-atom">
+  <h3><p>Joining with Comparison Operators</p></h3>
+  <div>
+  <form>
+    <fieldset>
+      <legend><p>What is the relationship between <code>accounts.primary_poc</code> and <code>sales_reps.name</code>?</p></legend>
+    </fieldset>
+
+      <div>
+        <input type="radio" value="a1510952814685" name="463881" id="a1510952814685">
+        <label for="a1510952814685"><p>The primary point of contact's full name comes <em>before</em> the sales representative's name alphabetically</p></label>
+      </div>
+      <div>
+        <input type="radio" value="a1510952870791" name="463881" id="a1510952870791">
+        <label for="a1510952870791"><p>The primary point of contact's full name comes <em>after</em> the sales representative's name alphabetically</p></label>
+      </div>
+      <div>
+        <input type="radio" value="a1510952919996" name="463881" id="a1510952919996">
+        <label for="a1510952919996"><p>The company name comes <em>after</em> the sales representative's name alphabetically</p></label>
+      </div>
+  </form>
+
+  <details>
+    <summary><strong>SOLUTION:</strong></summary>
+    The primary point of contact's full name comes *before* the sales representative's name alphabetically
+  </details>
+</div>
+
+</div>
+<div class="divider"></div>
+          </div>
+
+          <div class="col-12">
+            <p class="text-right">
+              <a href="07. Solutions JOINs with Comparison Operators.html" class="btn btn-outline-primary mt-4" role="button">Next Concept</a>
+            </p>
+          </div>
+        </div>
+      </main>
+
+      <footer class="footer">
+        <div class="container">
+          <div class="row">
+            <div class="col-12">
+              <p class="text-center">
+                <a href="https://us-udacity.github.io/" target="_blank">【udacity2.0 】If you need more courses, please add wechat：udacity6</a>
+              </p>
+            </div>
+          </div>
+        </div>
+      </footer>
+    </div>
+  </div>
+
+
+  <script src="../assets/js/jquery-3.3.1.min.js"></script>
+  <script src="../assets/js/plyr.polyfilled.min.js"></script>
+  <script src="../assets/js/bootstrap.min.js"></script>
+  <script src="../assets/js/jquery.mCustomScrollbar.concat.min.js"></script>
+  <script src="../assets/js/katex.min.js"></script>
+  <script>
+    // Initialize Plyr video players
+    const players = Array.from(document.querySelectorAll('video')).map(p => new Plyr(p));
+
+    // render math equations
+    let elMath = document.getElementsByClassName('mathquill');
+    for (let i = 0, len = elMath.length; i < len; i += 1) {
+      const el = elMath[i];
+
+      katex.render(el.textContent, el, {
+        throwOnError: false
+      });
+    }
+
+    // this hack will make sure Bootstrap tabs work when using Handlebars
+    if ($('#question-tabs').length && $('#user-answer-tabs').length) {
+      $("#question-tabs a.nav-link").on('click', function () {
+        $("#question-tab-contents .tab-pane").hide();
+        $($(this).attr("href")).show();
+      });
+      $("#user-answer-tabs a.nav-link").on('click', function () {
+        $("#user-answer-tab-contents .tab-pane").hide();
+        $($(this).attr("href")).show();
+      });
+    } else {
+      $("a.nav-link").on('click', function () {
+        $(".tab-pane").hide();
+        $($(this).attr("href")).show();
+      });
+    }
+
+    // side bar events
+    $(document).ready(function () {
+      $("#sidebar").mCustomScrollbar({
+        theme: "minimal"
+      });
+
+      $('#sidebarCollapse').on('click', function () {
+        $('#sidebar, #content').toggleClass('active');
+        $('.collapse.in').toggleClass('in');
+        $('a[aria-expanded=true]').attr('aria-expanded', 'false');
+      });
+
+      // scroll to first video on page loading
+      if ($('video').length) {
+        $('html,body').animate({ scrollTop: $('div.plyr').prev().offset().top});
+      }
+
+      // auto play first video: this may not work with chrome/safari due to autoplay policy
+      if (players && players.length > 0) {
+        players[0].play();
+      }
+
+      // scroll sidebar to current concept
+      const currentInSideBar = $( "ul.sidebar-list.components li a:contains('06. Quiz: JOINs with Comparison Operators')" )
+      currentInSideBar.css( "text-decoration", "underline" );
+      $("#sidebar").mCustomScrollbar('scrollTo', currentInSideBar);
+    });
+  </script>
+</body>
+
+</html>

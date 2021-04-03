@@ -1,0 +1,115 @@
+WEBVTT
+Kind: captions
+Language: en
+
+00:00:00.000 --> 00:00:04.410
+Sub queries can be especially helpful in improving the performance of your queries.
+
+00:00:04.410 --> 00:00:07.266
+Imagine you're doing some high level reporting for Parch and Posey.
+
+00:00:07.266 --> 00:00:10.785
+You'd like to see a bunch of metrics rolled up on a daily basis.
+
+00:00:10.785 --> 00:00:13.110
+You could use this to power a dashboard that would help run
+
+00:00:13.110 --> 00:00:16.440
+the business day to day by quickly identifying anomalies.
+
+00:00:16.440 --> 00:00:20.500
+To do this, you'll need to join data from a few tables and then aggregate by day.
+
+00:00:20.500 --> 00:00:23.125
+You could do all of this in one main query,
+
+00:00:23.125 --> 00:00:27.150
+but there are some big advantages to aggregating the tables individually in sub queries,
+
+00:00:27.150 --> 00:00:29.875
+then joining the pre-aggregated sub queries.
+
+00:00:29.875 --> 00:00:33.930
+First, let's look at how we would do this with one big query.
+
+00:00:33.930 --> 00:00:36.690
+One thing you can see here is that to do this properly,
+
+00:00:36.690 --> 00:00:41.400
+we have to join date fields which causes what you might call a data explosion.
+
+00:00:41.400 --> 00:00:45.630
+Basically, what happens is that you're joining every row in a given day from
+
+00:00:45.630 --> 00:00:51.500
+one table onto every row with the same day in the other table.
+
+00:00:51.500 --> 00:00:54.135
+So the number of rows returned is incredibly great.
+
+00:00:54.135 --> 00:00:56.023
+Because of this multiplicative effect,
+
+00:00:56.023 --> 00:00:58.200
+you need to use count distinct instead of
+
+00:00:58.200 --> 00:01:01.975
+regular counts to get accurate counts of the sales rep,
+
+00:01:01.975 --> 00:01:04.725
+the orders, and ultimately, the web visits.
+
+00:01:04.725 --> 00:01:10.281
+Just take a look at how big this data set gets before aggregating.
+
+00:01:50.317 --> 00:01:54.880
+You can see that executing the join this way returned
+
+00:01:54.880 --> 00:01:58.800
+79,000 rows which then needed to be aggregated.
+
+00:01:58.800 --> 00:02:01.030
+You can get the same result set much more
+
+00:02:01.030 --> 00:02:04.060
+efficiently by aggregating the tables separately so that
+
+00:02:04.060 --> 00:02:09.004
+the counts are performed across far smaller data sets.
+
+00:03:04.700 --> 00:03:10.370
+Here, we have written the first sub query.
+
+00:04:03.920 --> 00:04:08.850
+And here's the second sub query.
+
+00:04:08.850 --> 00:04:13.970
+As you can see, both of these sub queries are around 1000 rows.
+
+00:04:13.970 --> 00:04:16.160
+This way, when we write our join,
+
+00:04:16.160 --> 00:04:19.730
+we'll be joining 1000 onto 1000 rows and
+
+00:04:19.730 --> 00:04:26.830
+joining dates onto other dates that match so it would be much less expensive.
+
+00:06:04.223 --> 00:06:08.030
+We're using a full join here just in case
+
+00:06:08.030 --> 00:06:11.645
+one table has observations in a month that the other table doesn't.
+
+00:06:11.645 --> 00:06:16.634
+As we saw, both sub queries resolved to just about a 1000 rows,
+
+00:06:16.634 --> 00:06:20.655
+and the final query ends up at just about a 1000 rows as well.
+
+00:06:20.655 --> 00:06:24.020
+So this is a whole lot better than the 79,000 rows that we
+
+00:06:24.020 --> 00:06:28.010
+saw earlier when we were joining without pre-aggregating in sub queries.
+

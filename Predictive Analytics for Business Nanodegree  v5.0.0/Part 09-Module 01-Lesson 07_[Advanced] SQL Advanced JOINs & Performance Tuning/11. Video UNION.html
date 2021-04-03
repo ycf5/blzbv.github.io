@@ -1,0 +1,357 @@
+<!-- udacity2.0 -->
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Video: UNION</title>
+  <link rel="stylesheet" href="../assets/css/bootstrap.min.css">
+  <link rel="stylesheet" href="../assets/css/plyr.css">
+  <link rel="stylesheet" href="../assets/css/katex.min.css">
+  <link rel="stylesheet" href="../assets/css/jquery.mCustomScrollbar.min.css">
+  <link rel="stylesheet" href="../assets/css/styles.css">
+  <link rel="shortcut icon" type="image/png" href="../assets/img/udacimak.png" />
+</head>
+
+<body>
+  <div class="wrapper">
+    <nav id="sidebar">
+  <div class="sidebar-header">
+    <h3>[Advanced] SQL Advanced JOINs &amp; Performance Tuning</h3>
+  </div>
+
+  <ul class="sidebar-list list-unstyled CTAs">
+    <li>
+      <a href="../index.html" class="article">Back to Home</a>
+    </li>
+  </ul>
+
+  <ul class="sidebar-list list-unstyled components">
+    <li class="">
+      <a href="01. Video Introduction to Advanced SQL.html">01. Video: Introduction to Advanced SQL</a>
+    </li>
+    <li class="">
+      <a href="02. Text + Images FULL OUTER JOIN.html">02. Text + Images: FULL OUTER JOIN</a>
+    </li>
+    <li class="">
+      <a href="03. Quiz FULL OUTER JOIN.html">03. Quiz: FULL OUTER JOIN</a>
+    </li>
+    <li class="">
+      <a href="04. Solutions FULL OUTER JOIN.html">04. Solutions: FULL OUTER JOIN</a>
+    </li>
+    <li class="">
+      <a href="05. Video JOINs with Comparison Operators.html">05. Video: JOINs with Comparison Operators</a>
+    </li>
+    <li class="">
+      <a href="06. Quiz JOINs with Comparison Operators.html">06. Quiz: JOINs with Comparison Operators</a>
+    </li>
+    <li class="">
+      <a href="07. Solutions JOINs with Comparison Operators.html">07. Solutions: JOINs with Comparison Operators</a>
+    </li>
+    <li class="">
+      <a href="08. Video Self JOINs.html">08. Video: Self JOINs</a>
+    </li>
+    <li class="">
+      <a href="09. Quiz Self JOINs.html">09. Quiz: Self JOINs</a>
+    </li>
+    <li class="">
+      <a href="10. Solutions Self JOINs.html">10. Solutions: Self JOINs</a>
+    </li>
+    <li class="">
+      <a href="11. Video UNION.html">11. Video: UNION</a>
+    </li>
+    <li class="">
+      <a href="12. Quiz UNION.html">12. Quiz: UNION</a>
+    </li>
+    <li class="">
+      <a href="13. Solutions UNION.html">13. Solutions: UNION</a>
+    </li>
+    <li class="">
+      <a href="14. Video Performance Tuning Motivation.html">14. Video: Performance Tuning Motivation</a>
+    </li>
+    <li class="">
+      <a href="15. Video + Quiz Performance Tuning 1.html">15. Video + Quiz: Performance Tuning 1</a>
+    </li>
+    <li class="">
+      <a href="16. Video  Performance Tuning 2.html">16. Video:  Performance Tuning 2</a>
+    </li>
+    <li class="">
+      <a href="17. Video Performance Tuning 3.html">17. Video: Performance Tuning 3</a>
+    </li>
+    <li class="">
+      <a href="18. Video JOINing Subqueries.html">18. Video: JOINing Subqueries</a>
+    </li>
+    <li class="">
+      <a href="19. Video SQL Completion Congratulations.html">19. Video: SQL Completion Congratulations</a>
+    </li>
+  </ul>
+
+  <ul class="sidebar-list list-unstyled CTAs">
+    <li>
+      <a href="../index.html" class="article">Back to Home</a>
+    </li>
+  </ul>
+</nav>
+
+    <div id="content">
+      <header class="container-fluild header">
+        <div class="container">
+          <div class="row">
+            <div class="col-12">
+              <div class="align-items-middle">
+                <button type="button" id="sidebarCollapse" class="btn btn-toggle-sidebar">
+                  <div></div>
+                  <div></div>
+                  <div></div>
+                </button>
+
+                <h1 style="display: inline-block">11. Video: UNION</h1>
+              </div>
+            </div>
+          </div>
+        </div>
+      </header>
+
+      <main class="container">
+        <div class="row">
+          <div class="col-12">
+            <div class="ud-atom">
+  <h3></h3>
+  <div>
+  <h2 id="appending-data-via-union">Appending Data via UNION</h2>
+<h3 id="union-use-case">UNION Use Case</h3>
+<ul>
+<li>The UNION operator is used to combine the result sets of 2 or more SELECT statements. It removes duplicate rows between the various SELECT statements.</li>
+<li>Each SELECT statement within the UNION must have the same number of fields in the result sets with similar data types.</li>
+<li>Typically, the use case for leveraging the UNION command in SQL is when a user wants to pull together distinct values of specified columns that are spread across multiple tables. For example, a chef wants to pull together the ingredients and respective aisle across three separate meals that are maintained in different tables. </li>
+</ul>
+<h3 id="details-of-union">Details of UNION</h3>
+<ul>
+<li>There must be the same number of expressions in both SELECT statements.</li>
+<li>The corresponding expressions must have the same data type in the SELECT statements. For example: expression1 must be the same data type in both the first and second SELECT statement.</li>
+</ul>
+<h3 id="expert-tip">Expert Tip</h3>
+<ul>
+<li>UNION removes duplicate rows.</li>
+<li>UNION ALL does not remove duplicate rows.</li>
+</ul>
+<h3 id="resources">Resources</h3>
+<p>The resource <a href="https://www.techonthenet.com/sql/union.php" rel="noopener noreferrer" target="_blank">here</a> on SQL UNIONs is helpful in understanding syntax and examples.</p>
+</div>
+
+</div>
+<div class="divider"></div><div class="ud-atom">
+  <h3><p>UNION Motivation</p></h3>
+  <video controls>
+  <source src="11. UNION Motivation-0eRr2K8lo-I.mp4" type="video/mp4">
+
+  <track default="false" kind="subtitles" srclang="zh-CN" src="11. UNION Motivation-0eRr2K8lo-I.zh-CN.vtt" label="zh-CN">
+  <track default="false" kind="subtitles" srclang="ar" src="11. UNION Motivation-0eRr2K8lo-I.ar.vtt" label="ar">
+  <track default="false" kind="subtitles" srclang="pt-BR" src="11. UNION Motivation-0eRr2K8lo-I.pt-BR.vtt" label="pt-BR">
+  <track default="true" kind="subtitles" srclang="en" src="11. UNION Motivation-0eRr2K8lo-I.en.vtt" label="en">
+</video>
+
+
+</div>
+<div class="divider"></div><div class="ud-atom">
+  <h3></h3>
+  <div>
+  <h2 id="appending-data-via-union-demonstration">Appending Data via UNION Demonstration</h2>
+</div>
+
+</div>
+<div class="divider"></div><div class="ud-atom">
+  <h3><p>UNION 1</p></h3>
+  <video controls>
+  <source src="11. UNION 1-APRpwqFpGwI.mp4" type="video/mp4">
+
+  <track default="false" kind="subtitles" srclang="zh-CN" src="11. UNION 1-APRpwqFpGwI.zh-CN.vtt" label="zh-CN">
+  <track default="false" kind="subtitles" srclang="ar" src="11. UNION 1-APRpwqFpGwI.ar.vtt" label="ar">
+  <track default="false" kind="subtitles" srclang="pt-BR" src="11. UNION 1-APRpwqFpGwI.pt-BR.vtt" label="pt-BR">
+  <track default="true" kind="subtitles" srclang="en" src="11. UNION 1-APRpwqFpGwI.en.vtt" label="en">
+</video>
+
+
+</div>
+<div class="divider"></div><div class="ud-atom">
+  <h3></h3>
+  <div>
+  <p>SQL's two strict rules for appending data:</p>
+<ol>
+<li>Both tables must have the same number of columns.</li>
+<li>Those columns must have the same data types in the same order as the first table.</li>
+</ol>
+<p>A common misconception is that column names have to be the same. Column names, in fact, <strong>don't</strong> need to be the same to append two tables but you will find that they typically are.</p>
+</div>
+
+</div>
+<div class="divider"></div><div class="ud-atom">
+  <h3></h3>
+  <div>
+  <h2 id="pretreating-tables-before-doing-a-union">Pretreating Tables before doing a UNION</h2>
+</div>
+
+</div>
+<div class="divider"></div><div class="ud-atom">
+  <h3><p>UNION 2</p></h3>
+  <video controls>
+  <source src="11. UNION 2-so5zydnbYEg.mp4" type="video/mp4">
+
+  <track default="false" kind="subtitles" srclang="zh-CN" src="11. UNION 2-so5zydnbYEg.zh-CN.vtt" label="zh-CN">
+  <track default="false" kind="subtitles" srclang="ar" src="11. UNION 2-so5zydnbYEg.ar.vtt" label="ar">
+  <track default="false" kind="subtitles" srclang="pt-BR" src="11. UNION 2-so5zydnbYEg.pt-BR.vtt" label="pt-BR">
+  <track default="true" kind="subtitles" srclang="en" src="11. UNION 2-so5zydnbYEg.en.vtt" label="en">
+</video>
+
+
+</div>
+<div class="divider"></div><div class="ud-atom">
+  <h3></h3>
+  <div>
+  <h2 id="performing-operations-on-a-combined-dataset">Performing Operations on a Combined Dataset</h2>
+</div>
+
+</div>
+<div class="divider"></div><div class="ud-atom">
+  <h3><p>UNION 3</p></h3>
+  <video controls>
+  <source src="11. UNION 3-oVGmi4zBOT8.mp4" type="video/mp4">
+
+  <track default="false" kind="subtitles" srclang="zh-CN" src="11. UNION 3-oVGmi4zBOT8.zh-CN.vtt" label="zh-CN">
+  <track default="false" kind="subtitles" srclang="ar" src="11. UNION 3-oVGmi4zBOT8.ar.vtt" label="ar">
+  <track default="false" kind="subtitles" srclang="pt-BR" src="11. UNION 3-oVGmi4zBOT8.pt-BR.vtt" label="pt-BR">
+  <track default="true" kind="subtitles" srclang="en" src="11. UNION 3-oVGmi4zBOT8.en.vtt" label="en">
+</video>
+
+
+</div>
+<div class="divider"></div><div class="ud-atom">
+  <h3><p>Quiz: UNION I</p></h3>
+  <div>
+  <form>
+    <fieldset>
+      <legend><p>What use case below is it appropriate to use a union?</p></legend>
+    </fieldset>
+
+    <div>
+      <input type="checkbox" value="a1587081269075" name="1014467" id="a1587081269075">
+      <label for="a1587081269075"><p>When you want to determine all reasons students are late. Currently, each late reason is maintained within tables corresponding to the grade the student is in.</p></label>
+    </div>
+    <div>
+      <input type="checkbox" value="a1587081319267" name="1014467" id="a1587081319267">
+      <label for="a1587081319267"><p>When you want to determine which state students live. Currently, there is one table for students and their academic performance and another table with their demographic and location information.</p></label>
+    </div>
+    <div>
+      <input type="checkbox" value="a1587081329189" name="1014467" id="a1587081329189">
+      <label for="a1587081329189"><p>When you want to determine the average price of products that sold over $10k in revenue. Currently, there is one table that has all products and their respective pricing.</p></label>
+    </div>
+    <div>
+      <input type="checkbox" value="a1587081339431" name="1014467" id="a1587081339431">
+      <label for="a1587081339431"><p>When you want to determine the total number of teachers by neighborhood in a particular city. Currently, there is one table that maintains the teacher’s information, including which neighborhood they teach in.</p></label>
+    </div>
+  </form>
+
+  <details>
+    <summary><strong>SOLUTION:</strong></summary>
+    <ul>
+      <li>When you want to determine all reasons students are late. Currently, each late reason is maintained within tables corresponding to the grade the student is in.</li>
+  </ul>
+  </details>
+</div>
+
+</div>
+<div class="divider"></div>
+          </div>
+
+          <div class="col-12">
+            <p class="text-right">
+              <a href="12. Quiz UNION.html" class="btn btn-outline-primary mt-4" role="button">Next Concept</a>
+            </p>
+          </div>
+        </div>
+      </main>
+
+      <footer class="footer">
+        <div class="container">
+          <div class="row">
+            <div class="col-12">
+              <p class="text-center">
+                <a href="https://us-udacity.github.io/" target="_blank">【udacity2.0 】If you need more courses, please add wechat：udacity6</a>
+              </p>
+            </div>
+          </div>
+        </div>
+      </footer>
+    </div>
+  </div>
+
+
+  <script src="../assets/js/jquery-3.3.1.min.js"></script>
+  <script src="../assets/js/plyr.polyfilled.min.js"></script>
+  <script src="../assets/js/bootstrap.min.js"></script>
+  <script src="../assets/js/jquery.mCustomScrollbar.concat.min.js"></script>
+  <script src="../assets/js/katex.min.js"></script>
+  <script>
+    // Initialize Plyr video players
+    const players = Array.from(document.querySelectorAll('video')).map(p => new Plyr(p));
+
+    // render math equations
+    let elMath = document.getElementsByClassName('mathquill');
+    for (let i = 0, len = elMath.length; i < len; i += 1) {
+      const el = elMath[i];
+
+      katex.render(el.textContent, el, {
+        throwOnError: false
+      });
+    }
+
+    // this hack will make sure Bootstrap tabs work when using Handlebars
+    if ($('#question-tabs').length && $('#user-answer-tabs').length) {
+      $("#question-tabs a.nav-link").on('click', function () {
+        $("#question-tab-contents .tab-pane").hide();
+        $($(this).attr("href")).show();
+      });
+      $("#user-answer-tabs a.nav-link").on('click', function () {
+        $("#user-answer-tab-contents .tab-pane").hide();
+        $($(this).attr("href")).show();
+      });
+    } else {
+      $("a.nav-link").on('click', function () {
+        $(".tab-pane").hide();
+        $($(this).attr("href")).show();
+      });
+    }
+
+    // side bar events
+    $(document).ready(function () {
+      $("#sidebar").mCustomScrollbar({
+        theme: "minimal"
+      });
+
+      $('#sidebarCollapse').on('click', function () {
+        $('#sidebar, #content').toggleClass('active');
+        $('.collapse.in').toggleClass('in');
+        $('a[aria-expanded=true]').attr('aria-expanded', 'false');
+      });
+
+      // scroll to first video on page loading
+      if ($('video').length) {
+        $('html,body').animate({ scrollTop: $('div.plyr').prev().offset().top});
+      }
+
+      // auto play first video: this may not work with chrome/safari due to autoplay policy
+      if (players && players.length > 0) {
+        players[0].play();
+      }
+
+      // scroll sidebar to current concept
+      const currentInSideBar = $( "ul.sidebar-list.components li a:contains('11. Video: UNION')" )
+      currentInSideBar.css( "text-decoration", "underline" );
+      $("#sidebar").mCustomScrollbar('scrollTo', currentInSideBar);
+    });
+  </script>
+</body>
+
+</html>

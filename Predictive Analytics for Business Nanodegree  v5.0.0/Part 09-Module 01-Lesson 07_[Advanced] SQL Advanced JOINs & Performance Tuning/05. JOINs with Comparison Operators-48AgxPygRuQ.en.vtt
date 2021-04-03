@@ -1,0 +1,73 @@
+WEBVTT
+Kind: captions
+Language: en
+
+00:00:00.000 --> 00:00:04.180
+We'll start with a query that returns the first order from each account.
+
+00:00:04.180 --> 00:00:07.972
+We're borrowing this directly from the earlier segment on subqueries.
+
+00:00:07.972 --> 00:00:14.332
+Now, let's join the web events full table using an inequality join.
+
+00:01:28.346 --> 00:01:34.777
+You can see here that there are multiple conditional statements in the JOIN clause.
+
+00:01:34.777 --> 00:01:37.860
+The first thing this query does is join events for which
+
+00:01:37.860 --> 00:01:41.580
+the account ID matches the account ID from the orders table.
+
+00:01:41.580 --> 00:01:43.830
+Even when using inequalities and joins,
+
+00:01:43.830 --> 00:01:48.435
+you'll often have some type of equality to make sure the right results get joined.
+
+00:01:48.435 --> 00:01:52.530
+The next line adds an additional filter using a less than operator.
+
+00:01:52.530 --> 00:01:55.080
+This works the same way that an equal sign works.
+
+00:01:55.080 --> 00:01:58.320
+Each row in the web events table is evaluated using
+
+00:01:58.320 --> 00:02:02.750
+that statement and the rows that are evaluated to be true are joined.
+
+00:02:02.750 --> 00:02:06.390
+One thing to keep in mind is that it's a little bit harder to predict what the results
+
+00:02:06.390 --> 00:02:10.140
+will look like when joining using inequalities.
+
+00:02:10.140 --> 00:02:13.045
+When joining the orders and accounts tables, for example,
+
+00:02:13.045 --> 00:02:14.550
+it's pretty predictable there will be
+
+00:02:14.550 --> 00:02:17.655
+at least one and probably many orders for each account.
+
+00:02:17.655 --> 00:02:21.110
+Every order will have an account record that corresponds to it.
+
+00:02:21.110 --> 00:02:24.300
+But when figuring out whether there are web events that took place
+
+00:02:24.300 --> 00:02:27.735
+prior to an accounts first order as we're doing here,
+
+00:02:27.735 --> 00:02:31.650
+we have no guarantees about how these results should look.
+
+00:02:31.650 --> 00:02:35.975
+So the results won't give us any hints as to whether we've got the right query.
+
+00:02:35.975 --> 00:02:40.490
+It's worth double checking your query logic to make sure that doing the thing you want.
+

@@ -1,0 +1,77 @@
+WEBVTT
+Kind: captions
+Language: pt-BR
+
+00:00:01.267 --> 00:00:04.667
+Podemos adicionar "explain"
+no início de qualquer consulta
+
+00:00:04.733 --> 00:00:06.967
+para ter noção
+de quanto tempo ela levará.
+
+00:00:07.033 --> 00:00:08.600
+Isso não é preciso,
+
+00:00:08.667 --> 00:00:10.233
+mas é uma ferramenta útil.
+
+00:00:12.800 --> 00:00:15.967
+Teremos este resultado
+chamado de plano de consulta,
+
+00:00:16.000 --> 00:00:18.767
+que exibe a ordem
+na qual a consulta rodará.
+
+00:00:18.833 --> 00:00:21.400
+Este é um plano de consulta
+simples.
+
+00:00:21.467 --> 00:00:24.033
+Vamos adicionar um limite
+para ver como isso muda.
+
+00:00:27.067 --> 00:00:29.433
+Como sabemos que o limite
+acontece por último,
+
+00:00:29.500 --> 00:00:33.267
+temos uma ideia da ordem
+na qual a consulta será executada.
+
+00:00:33.300 --> 00:00:35.933
+Primeiro o filtro é aplicado,
+
+00:00:35.967 --> 00:00:38.533
+depois o banco de dados
+lê as linhas que faltam
+
+00:00:38.567 --> 00:00:42.967
+e as limita, se aplicável,
+a 100 linhas.
+
+00:00:43.033 --> 00:00:47.067
+Vemos a medida de custo
+ao lado do número de linhas.
+
+00:00:47.100 --> 00:00:49.700
+Valores altos significam
+tempo de execução maior.
+
+00:00:49.733 --> 00:00:53.000
+Usamos isso mais como referência
+do que como medida absoluta.
+
+00:00:53.033 --> 00:00:56.933
+Para ficar claro, isso é mais útil
+se rodamos "explain" na consulta,
+
+00:00:57.000 --> 00:00:59.000
+modificamos os passos
+que são caros
+
+00:00:59.033 --> 00:01:01.900
+e rodamos "explain" para ver
+se o custo foi reduzido.
+

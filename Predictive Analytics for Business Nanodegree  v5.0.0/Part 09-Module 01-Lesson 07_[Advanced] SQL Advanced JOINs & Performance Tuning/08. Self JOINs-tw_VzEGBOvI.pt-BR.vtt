@@ -1,0 +1,117 @@
+WEBVTT
+Kind: captions
+Language: pt-BR
+
+00:00:00.533 --> 00:00:04.467
+Às vezes pode ser útil
+unir uma tabela a ela mesma.
+
+00:00:04.500 --> 00:00:07.367
+Na maioria das vezes,
+fazemos isso para encontrar casos
+
+00:00:07.400 --> 00:00:11.033
+de quando dois eventos
+acontecem consecutivamente.
+
+00:00:11.067 --> 00:00:15.100
+Por exemplo, queremos saber
+quais contas fizeram vários pedidos
+
+00:00:15.133 --> 00:00:16.833
+no período de 30 dias.
+
+00:00:16.867 --> 00:00:20.567
+Uma forma de fazer isso
+seria unir a tabela de pedidos
+
+00:00:20.600 --> 00:00:22.567
+usando o "join"
+de desigualdade.
+
+00:00:24.400 --> 00:00:27.133
+Vamos observar a lógica
+deste "join",
+
+00:00:27.200 --> 00:00:29.100
+porque é um pouco complicada.
+
+00:00:30.067 --> 00:00:34.500
+Primeiro verificamos se estamos
+unindo na mesma conta.
+
+00:00:34.533 --> 00:00:39.633
+Na primeira tabela de pedidos,
+rotulada como "o1",
+
+00:00:39.667 --> 00:00:41.567
+observamos o ID da conta
+
+00:00:41.633 --> 00:00:47.267
+e comparamos com o ID
+da segunda tabela, "o2".
+
+00:00:47.967 --> 00:00:50.167
+É a mesma tabela,
+
+00:00:50.200 --> 00:00:54.133
+mas estamos unindo-a a ela mesma
+e atribuindo um codinome.
+
+00:00:54.167 --> 00:00:58.567
+Como queremos que os registros
+de "o2" sejam dentro de 28 dias
+
+00:00:58.600 --> 00:01:01.067
+após os registros de "o1",
+
+00:01:01.100 --> 00:01:04.400
+configuramos duas instruções
+condicionais na cláusula "join",
+
+00:01:04.467 --> 00:01:06.267
+ambas de desigualdade.
+
+00:01:06.300 --> 00:01:10.667
+Primeiro uniremos
+quando "o2.occurred_at"
+
+00:01:10.700 --> 00:01:13.667
+for maior
+do que "o1.ocurred_at".
+
+00:01:13.700 --> 00:01:15.900
+Encontraremos pedidos
+que ocorreram
+
+00:01:15.933 --> 00:01:18.300
+após o primeiro pedido.
+
+00:01:19.400 --> 00:01:23.533
+Depois encontraremos pedidos
+nos quais "o2.ocurred_at"
+
+00:01:23.600 --> 00:01:28.467
+seja menor ou igual
+a 28 dias após "o2.ocurred_at",
+
+00:01:28.500 --> 00:01:32.300
+então limitamos
+o tempo dos registros.
+
+00:01:33.433 --> 00:01:36.167
+Algo que devemos lembrar
+ao juntar a mesma tabela
+
+00:01:36.233 --> 00:01:39.967
+é que usamos codinomes
+para distinguir entre elas,
+
+00:01:40.033 --> 00:01:45.933
+pois não ficaria claro deixar
+uma delas com o nome original.
+
+00:01:46.000 --> 00:01:49.033
+Aqui estamos utilizando
+"o1" e "o2".
+

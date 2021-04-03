@@ -1,0 +1,48 @@
+WEBVTT
+Kind: captions
+Language: pt-BR
+
+00:00:00.500 --> 00:00:03.167
+Após unir
+duas instruções "select",
+
+00:00:03.233 --> 00:00:06.000
+podemos combinar operações
+no conjunto combinado
+
+00:00:06.067 --> 00:00:08.367
+em vez de fazê-lo
+em partes individuais.
+
+00:00:08.400 --> 00:00:11.600
+Fazemos isso unindo tudo
+em uma subconsulta
+
+00:00:11.633 --> 00:00:15.267
+para que os resultados combinados
+sejam vistos como um conjunto único.
+
+00:00:47.333 --> 00:00:50.433
+Aqui pegamos os resultados
+combinados dessas tabelas
+
+00:00:50.500 --> 00:00:53.900
+e contamos todas as sessões
+por canal.
+
+00:00:53.967 --> 00:00:56.267
+Uma forma mais limpa
+seria unir
+
+00:00:56.333 --> 00:01:00.300
+em uma expressão de tabela comum
+e agregar à consulta principal.
+
+00:01:17.667 --> 00:01:20.600
+Como podemos ver,
+os resultados são os mesmos,
+
+00:01:20.633 --> 00:01:23.300
+mas ficou mais fácil
+ler a lógica da consulta.
+

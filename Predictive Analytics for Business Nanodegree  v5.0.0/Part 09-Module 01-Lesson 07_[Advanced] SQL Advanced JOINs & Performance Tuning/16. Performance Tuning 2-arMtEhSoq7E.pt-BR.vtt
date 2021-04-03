@@ -1,0 +1,99 @@
+WEBVTT
+Kind: captions
+Language: pt-BR
+
+00:00:00.233 --> 00:00:03.567
+A segunda possibilidade é deixar
+os "joins" menos complicados.
+
+00:00:03.600 --> 00:00:07.433
+Podemos reduzir as linhas
+que são avaliadas durante o "join".
+
+00:00:08.133 --> 00:00:11.200
+Da mesma forma que é melhor
+reduzir os dados da consulta
+
+00:00:11.233 --> 00:00:12.933
+que é executada previamente,
+
+00:00:12.967 --> 00:00:16.267
+é melhor reduzir o tamanho da tabela
+antes de uni-las.
+
+00:00:16.333 --> 00:00:18.800
+Observe o exemplo que une
+a tabela de contas
+
+00:00:18.833 --> 00:00:20.700
+com a de eventos
+na internet.
+
+00:00:21.600 --> 00:00:25.800
+Existem 9.073 linhas
+na tabela de eventos.
+
+00:00:25.867 --> 00:00:29.733
+Isso significa que 9.073 linhas
+precisam ser avaliadas
+
+00:00:29.767 --> 00:00:32.300
+para combinar
+com a outra tabela.
+
+00:00:32.333 --> 00:00:35.633
+Mas, se a tabela
+de eventos fosse pré-agregada,
+
+00:00:35.667 --> 00:00:39.733
+reduziríamos a quantidade de linhas
+avaliadas em um "join".
+
+00:00:39.767 --> 00:00:43.600
+Primeiro vamos observar
+a pré-agregação.
+
+00:01:04.000 --> 00:01:07.600
+A consulta retorna
+somente 351 linhas.
+
+00:01:07.633 --> 00:01:10.833
+Colocar isso em uma subconsulta
+e unir à consulta "outer"
+
+00:01:10.867 --> 00:01:13.867
+reduzirá o custo do "join"
+de forma substancial.
+
+00:02:06.667 --> 00:02:08.167
+Neste caso em particular,
+
+00:02:08.200 --> 00:02:09.833
+não notaremos muita diferença,
+
+00:02:09.867 --> 00:02:11.967
+pois processar 9.073 linhas
+
+00:02:12.000 --> 00:02:14.467
+não é difícil
+para o banco de dados.
+
+00:02:14.533 --> 00:02:17.400
+Mas, quando falamos
+de centenas de milhares de linhas,
+
+00:02:17.433 --> 00:02:20.700
+notamos a melhora
+ao agregar antes da união.
+
+00:02:20.733 --> 00:02:24.167
+Ao fazer isso, garanta que seja
+logicamente consistente.
+
+00:02:24.200 --> 00:02:26.367
+Preocupe-se
+com a precisão do trabalho
+
+00:02:26.400 --> 00:02:28.300
+antes de pensar na velocidade.
+

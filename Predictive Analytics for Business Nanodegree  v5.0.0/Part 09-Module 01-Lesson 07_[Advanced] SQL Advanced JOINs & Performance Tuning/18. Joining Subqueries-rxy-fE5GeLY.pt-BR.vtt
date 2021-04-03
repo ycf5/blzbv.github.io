@@ -1,0 +1,167 @@
+WEBVTT
+Kind: captions
+Language: pt-BR
+
+00:00:00.300 --> 00:00:04.300
+As subconsultas ajudam a melhorar
+o desempenho das consultas.
+
+00:00:04.333 --> 00:00:07.433
+Imagine um relatório avançado
+para a Parch &amp; Posey.
+
+00:00:07.500 --> 00:00:10.667
+Queremos ver métricas
+no nosso dia a dia,
+
+00:00:10.700 --> 00:00:14.400
+e, com isso, potencializamos painéis
+que ajudam a administrar o negócio
+
+00:00:14.467 --> 00:00:16.433
+identificando anomalias.
+
+00:00:16.500 --> 00:00:18.933
+Para isso, uniremos dados
+de algumas tabelas,
+
+00:00:19.000 --> 00:00:20.533
+agregados por dia.
+
+00:00:20.600 --> 00:00:23.200
+Poderíamos fazer isso
+em uma consulta principal,
+
+00:00:23.233 --> 00:00:27.067
+mas existem vantagens
+em agregar tabelas em subconsultas
+
+00:00:27.133 --> 00:00:29.800
+e unir as consultas
+pré-agregadas.
+
+00:00:29.867 --> 00:00:33.567
+Primeiro vejamos como fazer isso
+em uma única consulta.
+
+00:00:33.600 --> 00:00:38.433
+Para fazer isso adequadamente,
+unimos os campos de data,
+
+00:00:38.467 --> 00:00:41.367
+que causam o que chamamos
+de explosão de dados.
+
+00:00:41.433 --> 00:00:45.233
+Basicamente, estamos unindo
+cada linha de um dia específico
+
+00:00:45.267 --> 00:00:49.767
+em uma tabela com cada linha
+com o mesmo dia
+
+00:00:49.800 --> 00:00:51.467
+de outra tabela.
+
+00:00:51.533 --> 00:00:54.267
+A quantidade de linhas
+é incrivelmente grande.
+
+00:00:54.300 --> 00:00:56.067
+Por conta
+dessa multiplicação,
+
+00:00:56.133 --> 00:00:59.333
+precisamos utilizar a contagem
+distinta em vez da regular,
+
+00:00:59.367 --> 00:01:02.833
+para obter a contagem precisa
+dos vendedores, dos pedidos
+
+00:01:02.867 --> 00:01:04.867
+e, por fim,
+das visitas na internet.
+
+00:01:04.900 --> 00:01:08.900
+Observe como o conjunto de dados
+fica grande antes da agregação.
+
+00:01:51.900 --> 00:01:56.733
+Executando a união desta forma,
+obtivemos 79 mil linhas
+
+00:01:56.767 --> 00:01:58.667
+que precisaram ser agregadas.
+
+00:01:58.700 --> 00:02:01.767
+Podemos obter esses resultados
+de forma mais eficaz
+
+00:02:01.833 --> 00:02:03.700
+agregando tabelas
+de forma separada,
+
+00:02:03.733 --> 00:02:05.433
+para que as contagens
+aconteçam
+
+00:02:05.467 --> 00:02:07.867
+em conjuntos de dados
+bem menores.
+
+00:03:06.600 --> 00:03:08.967
+Aqui escrevemos
+a primeira subconsulta.
+
+00:04:05.933 --> 00:04:08.067
+E aqui está
+a segunda subconsulta.
+
+00:04:10.267 --> 00:04:14.233
+Como vemos, as duas subconsultas
+possuem cerca de mil linhas.
+
+00:04:14.267 --> 00:04:16.200
+Desta forma,
+ao escrever uma união,
+
+00:04:16.233 --> 00:04:19.433
+uniremos mil linhas
+a mil linhas,
+
+00:04:19.467 --> 00:04:22.567
+e uniremos datas
+a outras datas que combinam.
+
+00:04:22.633 --> 00:04:24.933
+Isso será bem mais barato.
+
+00:06:05.733 --> 00:06:08.967
+Utilizamos o "full join"
+para o caso de uma tabela
+
+00:06:09.033 --> 00:06:11.867
+possuir observações de um mês
+e a outra não possuir.
+
+00:06:11.900 --> 00:06:14.100
+Como vimos,
+as duas subconsultas
+
+00:06:14.167 --> 00:06:16.600
+se resolveram
+em cerca de mil linhas,
+
+00:06:16.633 --> 00:06:20.567
+e a consulta final
+possui cerca de mil linhas também.
+
+00:06:20.633 --> 00:06:24.867
+Isso é bem melhor do que
+as 79 mil linhas que vimos antes,
+
+00:06:24.933 --> 00:06:27.633
+quando unimos sem pré-agregar
+em subconsultas.
+

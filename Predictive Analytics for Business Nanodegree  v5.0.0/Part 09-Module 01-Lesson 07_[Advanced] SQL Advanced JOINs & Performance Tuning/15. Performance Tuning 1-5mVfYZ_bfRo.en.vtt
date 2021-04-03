@@ -1,0 +1,118 @@
+WEBVTT
+Kind: captions
+Language: en
+
+00:00:00.000 --> 00:00:03.615
+Filtering the data to include only the observations you need,
+
+00:00:03.615 --> 00:00:05.825
+can dramatically improve query speed.
+
+00:00:05.825 --> 00:00:10.070
+How you do this will depend entirely on the problem you're trying to solve.
+
+00:00:10.070 --> 00:00:13.040
+For example, if you've got time series data,
+
+00:00:13.040 --> 00:00:19.420
+limiting to a small time window can make your queries run much more quickly.
+
+00:00:35.310 --> 00:00:41.570
+Keep in mind that you can always perform exploratory analysis on a subset of data.
+
+00:00:41.570 --> 00:00:43.760
+Refine your work into a final query,
+
+00:00:43.760 --> 00:00:48.005
+then remove the limitation and run your work across the entire data set.
+
+00:00:48.005 --> 00:00:50.270
+The final query might take a long time to run,
+
+00:00:50.270 --> 00:00:53.120
+but at least you can run the intermediate steps quickly.
+
+00:00:53.120 --> 00:00:58.360
+This is why most SQL editors automatically append a limit to most SQL queries.
+
+00:00:58.360 --> 00:01:00.915
+They expect that for exploration,
+
+00:01:00.915 --> 00:01:03.490
+a limited result set is fine.
+
+00:01:03.490 --> 00:01:04.895
+Once you have a final query,
+
+00:01:04.895 --> 00:01:08.810
+you can turn off the limit and get the full results.
+
+00:01:08.810 --> 00:01:14.685
+It's worth noting that limit doesn't quite work the same way with aggregations.
+
+00:01:14.685 --> 00:01:17.105
+The aggregation is performed first,
+
+00:01:17.105 --> 00:01:21.217
+then the results are limited to the specified number of rows.
+
+00:01:21.217 --> 00:01:24.050
+So, if you're aggregating into one row,
+
+00:01:24.050 --> 00:01:37.117
+limit 10 will do nothing to speed up your query.
+
+00:01:40.377 --> 00:01:45.525
+Again, if your results is more than 10 rows,
+
+00:01:45.525 --> 00:01:49.565
+this will limit it down at only the last step.
+
+00:01:49.565 --> 00:01:52.295
+So the most expensive parts of the query,
+
+00:01:52.295 --> 00:01:55.005
+the aggregations will be performed first.
+
+00:01:55.005 --> 00:01:57.540
+Then, the result set will be limited,
+
+00:01:57.540 --> 00:02:04.935
+which won't save you that much time.
+
+00:02:04.935 --> 00:02:06.660
+If you want to limit the data set before
+
+00:02:06.660 --> 00:02:09.150
+performing the count to speed things up a little more,
+
+00:02:09.150 --> 00:02:13.127
+you'll need to do it in a sub query.
+
+00:02:25.930 --> 00:02:35.835
+In general, when working with sub queries,
+
+00:02:35.835 --> 00:02:37.950
+you should make sure to limit the amount of data you're working
+
+00:02:37.950 --> 00:02:40.365
+with in the place where it will be executed first,
+
+00:02:40.365 --> 00:02:43.980
+in order for it to have maximum impact on a query runtime.
+
+00:02:43.980 --> 00:02:49.230
+This means usually putting limit in the sub query not the outer query.
+
+00:02:49.230 --> 00:02:53.505
+Keep in mind, that applying a limit to a sub query will dramatically alter your results.
+
+00:02:53.505 --> 00:02:57.630
+So, you should use it to test query logic but not to get actual results.
+
+00:02:57.630 --> 00:03:00.720
+As you can see, the results from this query
+
+00:03:00.720 --> 00:03:04.000
+are much different than when we used the limit in the outer query.
+

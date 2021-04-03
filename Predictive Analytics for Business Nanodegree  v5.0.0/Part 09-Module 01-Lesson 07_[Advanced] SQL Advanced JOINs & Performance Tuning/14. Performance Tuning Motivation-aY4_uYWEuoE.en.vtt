@@ -1,0 +1,37 @@
+WEBVTT
+Kind: captions
+Language: en
+
+00:00:00.000 --> 00:00:03.255
+One place where SQL really excels,
+
+00:00:03.255 --> 00:00:06.255
+is in it's ability to work with massive datasets.
+
+00:00:06.255 --> 00:00:07.845
+To be more accurate,
+
+00:00:07.845 --> 00:00:10.845
+modern databases can scale to work with huge amounts of data
+
+00:00:10.845 --> 00:00:14.670
+and SQL is one of the most common and convenient ways to work with them.
+
+00:00:14.670 --> 00:00:17.145
+Even though databases are powerful,
+
+00:00:17.145 --> 00:00:20.945
+you may still find yourself running queries that take hours to return.
+
+00:00:20.945 --> 00:00:24.720
+In those cases, you want to take a little extra effort to write your queries
+
+00:00:24.720 --> 00:00:29.255
+in ways that will allow the database to execute them as fast as possible.
+
+00:00:29.255 --> 00:00:31.620
+In this section, you'll learn to identify when
+
+00:00:31.620 --> 00:00:34.080
+your queries can be improved and how to improve them.
+

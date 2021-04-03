@@ -1,0 +1,168 @@
+WEBVTT
+Kind: captions
+Language: pt-BR
+
+00:00:00.633 --> 00:00:03.567
+Filtrar dados para incluir
+observações necessárias
+
+00:00:03.633 --> 00:00:06.200
+pode melhorar muito
+a velocidade da consulta.
+
+00:00:06.233 --> 00:00:10.000
+Isso dependerá do problema
+que desejamos resolver.
+
+00:00:10.067 --> 00:00:13.300
+Por exemplo, se tivermos
+dados de série de tempo,
+
+00:00:13.367 --> 00:00:17.400
+limitar a uma pequena janela
+de tempo agilizará a consulta.
+
+00:00:37.167 --> 00:00:40.100
+Podemos realizar
+análise exploratória
+
+00:00:40.133 --> 00:00:41.800
+em um subconjunto de dados.
+
+00:00:41.867 --> 00:00:43.933
+Refine o trabalho
+em uma consulta final,
+
+00:00:43.967 --> 00:00:47.967
+remova a limitação e rode o trabalho
+por todo o conjunto de dados.
+
+00:00:48.000 --> 00:00:50.200
+A consulta final
+pode demorar a rodar,
+
+00:00:50.233 --> 00:00:53.100
+mas podemos rodar os passos
+intermediários rapidamente.
+
+00:00:53.133 --> 00:00:55.267
+É por isso que a maioria
+dos editores SQL
+
+00:00:55.300 --> 00:00:58.767
+anexam um limite automaticamente
+para a maioria das consultas SQL.
+
+00:00:58.800 --> 00:01:01.067
+Eles fazem isso
+para a exploração.
+
+00:01:01.133 --> 00:01:03.533
+Um conjunto limitado
+de resultados funciona.
+
+00:01:03.600 --> 00:01:05.900
+Após a consulta final,
+desligamos o limite
+
+00:01:05.933 --> 00:01:07.800
+e obtemos
+todos os resultados.
+
+00:01:09.467 --> 00:01:13.733
+Note que a limitação não funciona
+da mesma forma com a agregação.
+
+00:01:14.767 --> 00:01:17.467
+A agregação é realizada
+primeiro,
+
+00:01:17.500 --> 00:01:21.400
+então os resultados são limitados
+ao número específico de linhas.
+
+00:01:21.433 --> 00:01:24.200
+Ao agregar em uma linha,
+
+00:01:24.267 --> 00:01:27.233
+o limite 10 não agilizará
+a consulta.
+
+00:01:42.000 --> 00:01:46.033
+Se o conjunto de resultados
+possuir mais do que 10 linhas,
+
+00:01:46.067 --> 00:01:49.600
+isso limitará
+somente no último passo.
+
+00:01:49.667 --> 00:01:53.233
+As partes mais caras
+das consultas, as agregações,
+
+00:01:53.300 --> 00:01:55.300
+serão realizadas primeiro,
+
+00:01:55.333 --> 00:01:57.767
+depois virão os resultados
+que serão limitados,
+
+00:01:57.833 --> 00:02:00.667
+e isso não economiza
+muito tempo.
+
+00:02:04.900 --> 00:02:07.567
+Para limitar o conjunto de dados
+antes da contagem
+
+00:02:07.633 --> 00:02:11.633
+e agilizar as coisas,
+é preciso fazer a subconsulta.
+
+00:02:33.533 --> 00:02:35.767
+Em geral,
+ao trabalhar com subconsultas,
+
+00:02:35.833 --> 00:02:38.267
+devemos limitar os dados
+com os quais trabalhamos
+
+00:02:38.300 --> 00:02:40.467
+no local onde elas serão
+executadas primeiro,
+
+00:02:40.533 --> 00:02:43.867
+para obter maior impacto
+no tempo de consulta.
+
+00:02:43.933 --> 00:02:47.000
+Isso significa
+limitar a subconsulta,
+
+00:02:47.033 --> 00:02:49.033
+não a consulta "outer".
+
+00:02:49.100 --> 00:02:51.433
+Atribuir limite
+a uma subconsulta
+
+00:02:51.500 --> 00:02:53.433
+altera drasticamente
+os resultados.
+
+00:02:53.467 --> 00:02:55.867
+Fazemos isso para testar
+a lógica da consulta,
+
+00:02:55.900 --> 00:02:57.667
+mas não
+para obter resultados.
+
+00:02:57.733 --> 00:03:01.467
+Como vemos, os resultados
+desta consulta são diferentes
+
+00:03:01.533 --> 00:03:03.700
+de quando limitamos
+a consulta "outer".
+

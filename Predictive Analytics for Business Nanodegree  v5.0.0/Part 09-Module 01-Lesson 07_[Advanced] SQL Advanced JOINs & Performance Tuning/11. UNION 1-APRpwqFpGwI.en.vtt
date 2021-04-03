@@ -1,0 +1,61 @@
+WEBVTT
+Kind: captions
+Language: en
+
+00:00:00.000 --> 00:00:02.385
+SQL has strict rules for appending data.
+
+00:00:02.385 --> 00:00:05.520
+First, both tables must have the same number of columns.
+
+00:00:05.520 --> 00:00:10.240
+Second, those columns must have the same data types in the same order as the first table.
+
+00:00:10.240 --> 00:00:11.835
+Running each of these queries,
+
+00:00:11.835 --> 00:00:15.445
+will individually show this to be true.
+
+00:00:15.445 --> 00:00:17.185
+Here you can see four columns,
+
+00:00:17.185 --> 00:00:20.885
+id, account_id, occurred_at, and channel.
+
+00:00:20.885 --> 00:00:23.890
+And here, you can see those same columns with
+
+00:00:23.890 --> 00:00:27.765
+the same names and same data types to make things easy for this example.
+
+00:00:27.765 --> 00:00:31.475
+While the column names don't necessarily have to be the same,
+
+00:00:31.475 --> 00:00:33.190
+you'll find that they typically are.
+
+00:00:33.190 --> 00:00:36.220
+This is because most instances in which you'd want to use
+
+00:00:36.220 --> 00:00:39.995
+UNION involve stitching together different parts of the same dataset.
+
+00:00:39.995 --> 00:00:43.870
+One thing to note is, that UNION only appends distinct values.
+
+00:00:43.870 --> 00:00:46.823
+More specifically, when you use UNION,
+
+00:00:46.823 --> 00:00:49.030
+the dataset is appended and any rows in
+
+00:00:49.030 --> 00:00:53.930
+the appended dataset that are exactly identical to rows in the first table are dropped.
+
+00:00:53.930 --> 00:00:58.960
+If you'd like to append all of the values from the second table, use UNION ALL.
+
+00:00:58.960 --> 00:01:03.000
+You'll likely use UNION ALL far more often than you use UNION.
+

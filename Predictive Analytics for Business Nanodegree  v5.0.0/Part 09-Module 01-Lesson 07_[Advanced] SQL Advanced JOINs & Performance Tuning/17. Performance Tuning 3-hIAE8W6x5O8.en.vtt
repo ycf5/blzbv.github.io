@@ -1,0 +1,64 @@
+WEBVTT
+Kind: captions
+Language: en
+
+00:00:00.350 --> 00:00:03.585
+You can add explain at the beginning of
+
+00:00:03.585 --> 00:00:07.090
+any working query to get a sense of how long it will take.
+
+00:00:07.090 --> 00:00:08.565
+It's not perfectly accurate,
+
+00:00:08.565 --> 00:00:11.365
+but it's a useful tool.
+
+00:00:11.365 --> 00:00:14.140
+You'll get this output,
+
+00:00:14.140 --> 00:00:15.805
+which is called the query plan,
+
+00:00:15.805 --> 00:00:18.695
+and it shows the order in which your query will be executed.
+
+00:00:18.695 --> 00:00:21.290
+This is a pretty simple query plan.
+
+00:00:21.290 --> 00:00:25.270
+Let's add a limit and see how this changes.
+
+00:00:25.270 --> 00:00:29.255
+Since we know that the limit happens last,
+
+00:00:29.255 --> 00:00:33.610
+you can get a sense of the order in which the query plan is executed.
+
+00:00:33.610 --> 00:00:35.725
+First, the filter is applied.
+
+00:00:35.725 --> 00:00:39.850
+Then, the database reads the remaining rows and limits them,
+
+00:00:39.850 --> 00:00:42.960
+if applicable, to 100 rows.
+
+00:00:42.960 --> 00:00:47.180
+You can see this measure of cost listed next to the number of rows.
+
+00:00:47.180 --> 00:00:49.520
+Higher numbers means a longer run time.
+
+00:00:49.520 --> 00:00:52.975
+You should use this more as a reference than an absolute measure.
+
+00:00:52.975 --> 00:00:56.905
+To be clear, this is most useful if you run explain on a query,
+
+00:00:56.905 --> 00:00:58.945
+modify the steps that are expensive,
+
+00:00:58.945 --> 00:01:01.090
+then run explain again to see if the cost
+

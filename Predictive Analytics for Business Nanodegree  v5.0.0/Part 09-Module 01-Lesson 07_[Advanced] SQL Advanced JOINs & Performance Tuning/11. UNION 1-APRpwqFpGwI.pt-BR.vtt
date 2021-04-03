@@ -1,0 +1,81 @@
+WEBVTT
+Kind: captions
+Language: pt-BR
+
+00:00:00.133 --> 00:00:02.467
+O SQL possui regras
+para anexar dados.
+
+00:00:02.500 --> 00:00:05.700
+Primeiro as tabelas devem ter
+a mesma quantidade de colunas.
+
+00:00:05.733 --> 00:00:08.433
+E as colunas devem ter
+o mesmo tipo de dados,
+
+00:00:08.500 --> 00:00:10.367
+na mesma ordem
+da primeira tabela.
+
+00:00:10.400 --> 00:00:13.967
+Rodar essas consultas mostrará
+que isso é verdadeiro.
+
+00:00:15.333 --> 00:00:17.233
+Vemos quatro colunas:
+
+00:00:17.267 --> 00:00:20.933
+ID, account_id,
+occurred_at e channel.
+
+00:00:20.967 --> 00:00:24.700
+Aqui vemos as mesmas colunas
+com os mesmos nomes
+
+00:00:24.733 --> 00:00:28.067
+e mesmos tipos de dados,
+para facilitar o exemplo.
+
+00:00:28.133 --> 00:00:31.200
+Embora os nomes das colunas
+não precisem ser iguais,
+
+00:00:31.267 --> 00:00:33.467
+veremos que eles costumam ser.
+
+00:00:33.533 --> 00:00:36.667
+É porque a maioria das instruções
+nas quais usaremos "union"
+
+00:00:36.700 --> 00:00:39.967
+unem partes
+do mesmo conjunto de dados.
+
+00:00:40.033 --> 00:00:43.733
+Lembre-se que "union"
+só anexa valores distintos.
+
+00:00:43.767 --> 00:00:48.167
+Especificamente, utilizando "union"
+o conjunto de dados é anexado,
+
+00:00:48.200 --> 00:00:50.067
+e qualquer linha
+do conjunto anexado
+
+00:00:50.100 --> 00:00:54.067
+que seja igual à linha
+da primeira tabela será abandonada.
+
+00:00:54.100 --> 00:00:57.300
+Para anexar todos os valores
+da segunda tabela,
+
+00:00:57.333 --> 00:00:59.100
+use "union all".
+
+00:00:59.167 --> 00:01:02.833
+Você fará muito mais uso dele
+do que de "union".
+

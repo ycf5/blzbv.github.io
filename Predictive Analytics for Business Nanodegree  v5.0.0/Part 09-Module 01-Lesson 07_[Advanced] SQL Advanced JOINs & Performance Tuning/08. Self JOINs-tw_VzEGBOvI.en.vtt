@@ -1,0 +1,82 @@
+WEBVTT
+Kind: captions
+Language: en
+
+00:00:00.000 --> 00:00:04.570
+Sometimes it can be useful to join a table onto itself.
+
+00:00:04.570 --> 00:00:07.600
+Most of the time, you'll do this in order to find cases where
+
+00:00:07.600 --> 00:00:11.060
+two events both occur one after another.
+
+00:00:11.060 --> 00:00:16.675
+For example, imagine you want to know which accounts made multiple orders within 30 days.
+
+00:00:16.675 --> 00:00:20.030
+One way to do this, would be to join the orders table onto
+
+00:00:20.030 --> 00:00:24.535
+itself with an inequality join.
+
+00:00:24.535 --> 00:00:29.495
+Let's quickly walk through the logic in this join because it's a little bit complicated.
+
+00:00:29.495 --> 00:00:34.580
+First, we want to make sure that we're joining on the same account.
+
+00:00:34.580 --> 00:00:37.035
+So, in the first orders table,
+
+00:00:37.035 --> 00:00:39.255
+which we've labeled o1,
+
+00:00:39.255 --> 00:00:42.700
+we'll look up the account ID and compare it to
+
+00:00:42.700 --> 00:00:47.525
+the account ID in the second orders table o2.
+
+00:00:47.525 --> 00:00:50.015
+It's really the same table.
+
+00:00:50.015 --> 00:00:53.820
+We're just joining it to itself and giving it a different alias.
+
+00:00:53.820 --> 00:01:01.000
+Since we want the records in o2 to be within 28 days after the records in o1,
+
+00:01:01.000 --> 00:01:03.270
+we're going to set up two conditional statements in
+
+00:01:03.270 --> 00:01:06.240
+the join clause, both with inequalities.
+
+00:01:06.240 --> 00:01:13.580
+First, we're going to join where o2.occurred_at is greater than o1.occurred_at.
+
+00:01:13.580 --> 00:01:18.645
+So we're going to find orders that happened after the original order was placed.
+
+00:01:18.645 --> 00:01:25.575
+And then, we're going to find orders where o2.occurred_at is less than or equal to,
+
+00:01:25.575 --> 00:01:33.500
+28 days after o1.occurred_at so we're going to time bound the records.
+
+00:01:33.500 --> 00:01:36.115
+One thing to keep in mind when doing self joins
+
+00:01:36.115 --> 00:01:39.090
+is that you'll need to use aliases to distinguish between the left and
+
+00:01:39.090 --> 00:01:42.030
+right tables since it would be unclear if you were
+
+00:01:42.030 --> 00:01:45.525
+just refer to one of them as orders in this case.
+
+00:01:45.525 --> 00:01:49.000
+Here, again, we're using o1 and o2.
+

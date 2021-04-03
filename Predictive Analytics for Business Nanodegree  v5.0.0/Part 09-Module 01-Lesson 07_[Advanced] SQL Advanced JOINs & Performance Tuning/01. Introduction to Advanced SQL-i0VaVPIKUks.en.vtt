@@ -1,0 +1,40 @@
+WEBVTT
+Kind: captions
+Language: en
+
+00:00:00.000 --> 00:00:01.650
+In this last lesson,
+
+00:00:01.650 --> 00:00:04.410
+we're going to cover more advanced joints and learn how to make
+
+00:00:04.410 --> 00:00:09.250
+queries that run quickly even over giant data sets.
+
+00:00:09.250 --> 00:00:12.767
+Most of the work in this lesson is about covering edge cases.
+
+00:00:12.767 --> 00:00:15.373
+You're not going to use these functions day in and day out,
+
+00:00:15.373 --> 00:00:16.590
+but when you need them,
+
+00:00:16.590 --> 00:00:18.180
+you'll be glad that you learn them.
+
+00:00:18.180 --> 00:00:19.778
+With these remaining skills,
+
+00:00:19.778 --> 00:00:21.515
+you have a pretty complete toolkit.
+
+00:00:21.515 --> 00:00:24.690
+You'll certainly be ready for any analytics job that I've ever held.
+
+00:00:24.690 --> 00:00:26.533
+So without any further delay,
+
+00:00:26.533 --> 00:00:29.250
+let's move on to the last lesson of this course.
+

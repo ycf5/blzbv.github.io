@@ -1,0 +1,50 @@
+WEBVTT
+Kind: captions
+Language: pt-BR
+
+00:00:00.834 --> 00:00:03.200
+A maior potencialidade
+do SQL
+
+00:00:03.234 --> 00:00:06.334
+é a capacidade de trabalhar
+com conjuntos de dados pesados.
+
+00:00:06.367 --> 00:00:07.601
+Para ser mais preciso,
+
+00:00:07.667 --> 00:00:10.901
+conjuntos de dados modernos
+trabalham com muitos dados,
+
+00:00:10.968 --> 00:00:13.400
+e o SQL é uma das formas
+mais convenientes
+
+00:00:13.434 --> 00:00:14.767
+de trabalhar com eles.
+
+00:00:14.834 --> 00:00:17.167
+Mesmo que os bancos de dados
+sejam bons,
+
+00:00:17.234 --> 00:00:20.934
+ainda rodamos consultas
+que levam horas para retornar.
+
+00:00:21.001 --> 00:00:25.133
+Nesses casos, o melhor a fazer
+é compor as consultas de forma
+
+00:00:25.167 --> 00:00:28.968
+que permita ao banco de dados
+retorná-las o mais rápido possível.
+
+00:00:29.033 --> 00:00:31.300
+Nesta seção,
+aprenderemos a identificar
+
+00:00:31.334 --> 00:00:34.200
+que consultas podem ser melhoradas
+e como fazer isso.
+

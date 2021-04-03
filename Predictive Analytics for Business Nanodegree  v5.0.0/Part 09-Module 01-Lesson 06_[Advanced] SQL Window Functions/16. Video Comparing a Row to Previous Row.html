@@ -1,0 +1,616 @@
+<!-- udacity2.0 -->
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Video: Comparing a Row to Previous Row</title>
+  <link rel="stylesheet" href="../assets/css/bootstrap.min.css">
+  <link rel="stylesheet" href="../assets/css/plyr.css">
+  <link rel="stylesheet" href="../assets/css/katex.min.css">
+  <link rel="stylesheet" href="../assets/css/jquery.mCustomScrollbar.min.css">
+  <link rel="stylesheet" href="../assets/css/styles.css">
+  <link rel="shortcut icon" type="image/png" href="../assets/img/udacimak.png" />
+</head>
+
+<body>
+  <div class="wrapper">
+    <nav id="sidebar">
+  <div class="sidebar-header">
+    <h3>[Advanced] SQL Window Functions</h3>
+  </div>
+
+  <ul class="sidebar-list list-unstyled CTAs">
+    <li>
+      <a href="../index.html" class="article">Back to Home</a>
+    </li>
+  </ul>
+
+  <ul class="sidebar-list list-unstyled components">
+    <li class="">
+      <a href="01. Video Introduction to Window Functions.html">01. Video: Introduction to Window Functions</a>
+    </li>
+    <li class="">
+      <a href="02. Video Window Functions 1.html">02. Video: Window Functions 1</a>
+    </li>
+    <li class="">
+      <a href="03. Quiz Window Functions 1.html">03. Quiz: Window Functions 1</a>
+    </li>
+    <li class="">
+      <a href="04. Solutions Window Functions 1.html">04. Solutions: Window Functions 1</a>
+    </li>
+    <li class="">
+      <a href="05. Quiz Window Functions 2.html">05. Quiz: Window Functions 2</a>
+    </li>
+    <li class="">
+      <a href="06. Solutions Window Functions 2.html">06. Solutions: Window Functions 2</a>
+    </li>
+    <li class="">
+      <a href="07. Video ROW_NUMBER &amp; RANK.html">07. Video: ROW_NUMBER &amp; RANK</a>
+    </li>
+    <li class="">
+      <a href="08. Quiz ROW_NUMBER &amp; RANK.html">08. Quiz: ROW_NUMBER &amp; RANK</a>
+    </li>
+    <li class="">
+      <a href="09. Solutions ROW_NUMBER &amp; RANK.html">09. Solutions: ROW_NUMBER &amp; RANK</a>
+    </li>
+    <li class="">
+      <a href="10. Video Aggregates in Window Functions.html">10. Video: Aggregates in Window Functions</a>
+    </li>
+    <li class="">
+      <a href="11. Quiz Aggregates in Window Functions.html">11. Quiz: Aggregates in Window Functions</a>
+    </li>
+    <li class="">
+      <a href="12. Solutions Aggregates in Window Functions.html">12. Solutions: Aggregates in Window Functions</a>
+    </li>
+    <li class="">
+      <a href="13. Video Aliases for Multiple Window Functions.html">13. Video: Aliases for Multiple Window Functions</a>
+    </li>
+    <li class="">
+      <a href="14. Quiz Aliases for Multiple Window Functions.html">14. Quiz: Aliases for Multiple Window Functions</a>
+    </li>
+    <li class="">
+      <a href="15. Solutions Aliases for Multiple Window Functions.html">15. Solutions: Aliases for Multiple Window Functions</a>
+    </li>
+    <li class="">
+      <a href="16. Video Comparing a Row to Previous Row.html">16. Video: Comparing a Row to Previous Row</a>
+    </li>
+    <li class="">
+      <a href="17. Quiz Comparing a Row to Previous Row.html">17. Quiz: Comparing a Row to Previous Row</a>
+    </li>
+    <li class="">
+      <a href="18. Solutions Comparing a Row to Previous Row.html">18. Solutions: Comparing a Row to Previous Row</a>
+    </li>
+    <li class="">
+      <a href="19. Video Introduction to Percentiles.html">19. Video: Introduction to Percentiles</a>
+    </li>
+    <li class="">
+      <a href="20. Video Percentiles.html">20. Video: Percentiles</a>
+    </li>
+    <li class="">
+      <a href="21. Quiz Percentiles.html">21. Quiz: Percentiles</a>
+    </li>
+    <li class="">
+      <a href="22. Solutions Percentiles.html">22. Solutions: Percentiles</a>
+    </li>
+    <li class="">
+      <a href="23. Video Recap.html">23. Video: Recap</a>
+    </li>
+  </ul>
+
+  <ul class="sidebar-list list-unstyled CTAs">
+    <li>
+      <a href="../index.html" class="article">Back to Home</a>
+    </li>
+  </ul>
+</nav>
+
+    <div id="content">
+      <header class="container-fluild header">
+        <div class="container">
+          <div class="row">
+            <div class="col-12">
+              <div class="align-items-middle">
+                <button type="button" id="sidebarCollapse" class="btn btn-toggle-sidebar">
+                  <div></div>
+                  <div></div>
+                  <div></div>
+                </button>
+
+                <h1 style="display: inline-block">16. Video: Comparing a Row to Previous Row</h1>
+              </div>
+            </div>
+          </div>
+        </div>
+      </header>
+
+      <main class="container">
+        <div class="row">
+          <div class="col-12">
+            <div class="ud-atom">
+  <h3><p>Comparing Row to Previous Row</p></h3>
+  <video controls>
+  <source src="16. Comparing Row to Previous Row-Z_x5ZJyDZog.mp4" type="video/mp4">
+
+  <track default="false" kind="subtitles" srclang="zh-CN" src="16. Comparing Row to Previous Row-Z_x5ZJyDZog.zh-CN.vtt" label="zh-CN">
+  <track default="false" kind="subtitles" srclang="ar" src="16. Comparing Row to Previous Row-Z_x5ZJyDZog.ar.vtt" label="ar">
+  <track default="false" kind="subtitles" srclang="pt-BR" src="16. Comparing Row to Previous Row-Z_x5ZJyDZog.pt-BR.vtt" label="pt-BR">
+  <track default="true" kind="subtitles" srclang="en" src="16. Comparing Row to Previous Row-Z_x5ZJyDZog.en.vtt" label="en">
+</video>
+
+
+</div>
+<div class="divider"></div><div class="ud-atom">
+  <h3></h3>
+  <div>
+  <p><strong>Instructor Notes</strong></p>
+<p>Let’s look at this again. We have broken down the syntax to explain LAG and LEAD functions separately.</p>
+<h3 id="lag-function">LAG function</h3>
+<p><strong>Purpose</strong><br><br />
+It returns the value from a previous row to the current row in the table.<br></p>
+<p><strong>Step 1:</strong><br><br />
+Let’s first look at the <strong>inner query</strong> and see what this creates.</p>
+<pre><code>SELECT     account_id, SUM(standard_qty) AS standard_sum
+FROM       orders
+GROUP BY   1</code></pre>
+<p><strong>What you see after running this SQL code:</strong></p>
+<ol>
+<li>The query sums the standard_qty amounts for each account_id to give the standard paper each account has purchased over all time. E.g., account_id 2951 has purchased 8181 units of standard paper. </li>
+<li>Notice that the results are not ordered by account_id or standard_qty.</li>
+</ol>
+</div>
+
+</div>
+<div class="divider"></div><div class="ud-atom">
+  <h3></h3>
+  <div>
+  <figure class="figure">
+    <img src="img/lag-1-innerquery.png" alt="" class="img img-fluid">
+    <figcaption class="figure-caption">
+      
+    </figcaption>
+  </figure>
+</div>
+
+
+</div>
+<div class="divider"></div><div class="ud-atom">
+  <h3></h3>
+  <div>
+  <p>**Step 2: **<br><br />
+We start building the <strong>outer query</strong>, and name the inner query as <code>sub</code>.</p>
+<pre><code>SELECT account_id, standard_sum   
+FROM   (
+        SELECT   account_id, SUM(standard_qty) AS standard_sum
+        FROM     orders
+        GROUP BY 1
+       ) sub</code></pre>
+<p><br></p>
+<p>This still returns the same table you see above, which is also shown below.</p>
+</div>
+
+</div>
+<div class="divider"></div><div class="ud-atom">
+  <h3></h3>
+  <div>
+  <figure class="figure">
+    <img src="img/screen-shot-2018-06-13-at-6.32.38-pm.png" alt="" class="img img-fluid">
+    <figcaption class="figure-caption">
+      
+    </figcaption>
+  </figure>
+</div>
+
+
+</div>
+<div class="divider"></div><div class="ud-atom">
+  <h3></h3>
+  <div>
+  <p><strong>Step 3 (Part A):</strong><br><br />
+We add the Window Function <code>OVER (ORDER BY standard_sum)</code> in the outer query that will create a result set in ascending order based on the <em>standard_sum</em> column.</p>
+<pre><code>SELECT account_id, 
+       standard_sum,
+       LAG(standard_sum) OVER (ORDER BY standard_sum) AS lag
+FROM   (
+        SELECT   account_id, SUM(standard_qty) AS standard_sum
+        FROM     orders
+        GROUP BY 1
+       ) sub</code></pre>
+<p>This ordered column will set us up for the other part of the Window Function (see below).</p>
+</div>
+
+</div>
+<div class="divider"></div><div class="ud-atom">
+  <h3></h3>
+  <div>
+  <p><strong>Step 3 (Part B):</strong><br><br />
+The <code>LAG</code> function creates a new column called <em>lag</em> as part of the <strong>outer query</strong>: <code>LAG(standard_sum) OVER (ORDER BY standard_sum) AS lag</code>. This new column named <em>lag</em> uses the values from the ordered <em>standard_sum</em> (Part A within Step 3). </p>
+<pre><code>SELECT account_id,
+       standard_sum,
+       LAG(standard_sum) OVER (ORDER BY standard_sum) AS lag
+FROM   (
+        SELECT   account_id,
+                 SUM(standard_qty) AS standard_sum
+        FROM     demo.orders
+        GROUP BY 1
+       ) sub</code></pre>
+<p>Each row’s value in <em>lag</em> is pulled from the previous row. E.g., for account_id 1901, the value in <em>lag</em> will come from the previous row. However, since there is no previous row to pull from, the value in <em>lag</em> for account_id 1901 will be NULL. For account_id 3371, the value in <em>lag</em> will be pulled from the previous row (i.e., account_id 1901), which will be 0. This goes on for each row in the table.</p>
+<p><strong>What you see after running this SQL code:</strong></p>
+</div>
+
+</div>
+<div class="divider"></div><div class="ud-atom">
+  <h3></h3>
+  <div>
+  <figure class="figure">
+    <img src="img/lag.png" alt="" class="img img-fluid">
+    <figcaption class="figure-caption">
+      
+    </figcaption>
+  </figure>
+</div>
+
+
+</div>
+<div class="divider"></div><div class="ud-atom">
+  <h3></h3>
+  <div>
+  <p><strong>Step 4:</strong><br><br />
+To compare the values between the rows, we need to use both columns (<em>standard_sum</em> and <em>lag</em>). We add a new column named <code>lag_difference</code>, which subtracts the <em>lag</em> value from the value in <em>standard_sum</em> for each row in the table:<br><code>standard_sum - LAG(standard_sum) OVER (ORDER BY standard_sum) AS lag_difference</code></p>
+<pre><code>SELECT account_id,
+       standard_sum,
+       LAG(standard_sum) OVER (ORDER BY standard_sum) AS lag,
+       standard_sum - LAG(standard_sum) OVER (ORDER BY standard_sum) AS lag_difference
+FROM (
+       SELECT account_id,
+       SUM(standard_qty) AS standard_sum
+       FROM orders 
+       GROUP BY 1
+      ) sub</code></pre>
+<p>Each value in <em>lag_difference</em> is comparing the row values between the 2 columns (<em>standard_sum</em> and <em>lag</em>). E.g., since the value for <em>lag</em> in the case of account_id 1901 is NULL, the value in <em>lag_difference</em> for account_id 1901 will be NULL. However, for account_id 3371, the value in <em>lag_difference</em> will compare the value 79 (<em>standard_sum</em> for account_id 3371) with 0 (<em>lag</em> for account_id 3371) resulting in 79. This goes on for each row in the table.</p>
+<p><strong>What you see after running this SQL code:</strong></p>
+</div>
+
+</div>
+<div class="divider"></div><div class="ud-atom">
+  <h3></h3>
+  <div>
+  <figure class="figure">
+    <img src="img/lag-diff.png" alt="" class="img img-fluid">
+    <figcaption class="figure-caption">
+      
+    </figcaption>
+  </figure>
+</div>
+
+
+</div>
+<div class="divider"></div><div class="ud-atom">
+  <h3><p>Untitled</p></h3>
+  <div>
+  <hr />
+</div>
+
+</div>
+<div class="divider"></div><div class="ud-atom">
+  <h3></h3>
+  <div>
+  <p>**Now let’s look at the LEAD function. **</p>
+<h3 id="lead-function">LEAD function</h3>
+<p><strong>Purpose</strong>:  <br />
+Return the value from the row following the current row in the table.</p>
+<p><strong>Step 1:</strong><br><br />
+Let’s first look at the <strong>inner query</strong> and see what this creates.</p>
+<pre><code>SELECT     account_id,
+           SUM(standard_qty) AS standard_sum
+FROM       demo.orders
+GROUP BY   1</code></pre>
+<p><strong>What you see after running this SQL code:</strong> </p>
+<ol>
+<li>The query sums the standard_qty amounts for each account_id to give the standard paper each account has purchased over all time. E.g., account_id 2951 has purchased 8181 units of standard paper. </li>
+<li>Notice that the results are not ordered by account_id or standard_qty. </li>
+</ol>
+</div>
+
+</div>
+<div class="divider"></div><div class="ud-atom">
+  <h3></h3>
+  <div>
+  <figure class="figure">
+    <img src="img/lag-1-innerquery.png" alt="" class="img img-fluid">
+    <figcaption class="figure-caption">
+      
+    </figcaption>
+  </figure>
+</div>
+
+
+</div>
+<div class="divider"></div><div class="ud-atom">
+  <h3></h3>
+  <div>
+  <p>**Step 2: **<br><br />
+We start building the <strong>outer query</strong>, and name the inner query as <code>sub</code>.</p>
+<pre><code>SELECT account_id,
+       standard_sum   
+FROM   (
+        SELECT   account_id,
+                 SUM(standard_qty) AS standard_sum
+        FROM     demo.orders
+        GROUP BY 1
+       ) sub</code></pre>
+<p>This will produce the same table as above, but sets us up for the next part.</p>
+</div>
+
+</div>
+<div class="divider"></div><div class="ud-atom">
+  <h3></h3>
+  <div>
+  <figure class="figure">
+    <img src="img/lag-1-innerquery.png" alt="" class="img img-fluid">
+    <figcaption class="figure-caption">
+      
+    </figcaption>
+  </figure>
+</div>
+
+
+</div>
+<div class="divider"></div><div class="ud-atom">
+  <h3></h3>
+  <div>
+  <p><strong>Step 3 (Part A):</strong><br><br />
+We add the Window Function <code>(OVER BY standard_sum)</code> in the outer query that will create a result set  ordered in ascending order of the <em>standard_sum</em> column.</p>
+<pre><code>SELECT account_id,
+       standard_sum,
+       LEAD(standard_sum) OVER (ORDER BY standard_sum) AS lead
+FROM   (
+        SELECT   account_id,
+                 SUM(standard_qty) AS standard_sum
+        FROM     demo.orders
+        GROUP BY 1
+       ) sub</code></pre>
+<p>This ordered column will set us up for the other part of the Window Function (see below).</p>
+</div>
+
+</div>
+<div class="divider"></div><div class="ud-atom">
+  <h3></h3>
+  <div>
+  <p><strong>Step 3 (Part B):</strong><br><br />
+The <code>LEAD</code> function in the Window Function statement creates a new column called <em>lead</em> as part of the outer query: <code>LEAD(standard_sum) OVER (ORDER BY standard_sum) AS lead</code></p>
+<p>This new column named <em>lead</em> uses the values from <em>standard_sum</em> (in the ordered table from Step 3 (Part A)). Each row’s value in <em>lead</em> is pulled from the row after it. E.g., for account_id 1901, the value in <em>lead</em> will come from the row following it (i.e., for account_id 3371). Since the value is 79, the value in <em>lead</em> for account_id 1901 will be 79. For account_id 3371, the value in <em>lead</em> will be pulled from the following row (i.e., account_id 1961), which will be 102. This goes on for each row in the table.</p>
+<pre><code>SELECT account_id,
+       standard_sum,
+       LEAD(standard_sum) OVER (ORDER BY standard_sum) AS lead
+FROM   (
+        SELECT   account_id,
+                 SUM(standard_qty) AS standard_sum
+        FROM     demo.orders
+        GROUP BY 1
+       ) sub</code></pre>
+<p><strong>What you see after running this SQL code:</strong></p>
+</div>
+
+</div>
+<div class="divider"></div><div class="ud-atom">
+  <h3></h3>
+  <div>
+  <figure class="figure">
+    <img src="img/lead-3.png" alt="" class="img img-fluid">
+    <figcaption class="figure-caption">
+      
+    </figcaption>
+  </figure>
+</div>
+
+
+</div>
+<div class="divider"></div><div class="ud-atom">
+  <h3></h3>
+  <div>
+  <p><strong>Step 4:</strong><br />
+To compare the values between the rows, we need to use both columns (<em>standard_sum</em> and <em>lag</em>). We add a column named <em>lead_difference</em>, which subtracts the value in <em>standard_sum</em> from <em>lead</em> for each row in the table:<br />
+<code>LEAD(standard_sum) OVER (ORDER BY standard_sum) - standard_sum AS lead_difference</code></p>
+<pre><code>SELECT account_id,
+       standard_sum,
+       LEAD(standard_sum) OVER (ORDER BY standard_sum) AS lead,
+       LEAD(standard_sum) OVER (ORDER BY standard_sum) - standard_sum AS lead_difference
+FROM (
+SELECT account_id,
+       SUM(standard_qty) AS standard_sum
+       FROM orders 
+       GROUP BY 1
+     ) sub</code></pre>
+<p>Each value in <em>lead_difference</em> is comparing the row values between the 2 columns (<em>standard_sum</em> and <em>lead</em>). E.g., for account_id 1901, the value in <em>lead_difference</em> will compare the value 0 (<em>standard_sum</em> for account_id 1901) with 79 (<em>lead</em> for account_id 1901) resulting in 79. This goes on for each row in the table. </p>
+<p><strong>What you see after running this SQL code:</strong></p>
+</div>
+
+</div>
+<div class="divider"></div><div class="ud-atom">
+  <h3></h3>
+  <div>
+  <figure class="figure">
+    <img src="img/lead-diff.png" alt="" class="img img-fluid">
+    <figcaption class="figure-caption">
+      
+    </figcaption>
+  </figure>
+</div>
+
+
+</div>
+<div class="divider"></div><div class="ud-atom">
+  <h3></h3>
+  <div>
+  <h3 id="scenarios-for-using-lag-and-lead-functions">Scenarios for using LAG and LEAD functions</h3>
+<p>You can use LAG and LEAD functions whenever you are trying to compare the values in adjacent rows or rows that are offset by a certain number.</p>
+<p>*Example 1: *<br />
+You have a sales dataset with the following data and need to compare how the market segments fare against each other on profits earned. </p>
+<table>
+<thead>
+<tr>
+<th id="market_segment" style="text-align:center;">Market Segment</th>
+<th id="profits_earned_by_each_market_segment" style="text-align:center;">Profits earned by each market segment</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align:center;">A</td>
+<td style="text-align:center;">$550</td>
+</tr>
+<tr>
+<td style="text-align:center;">B</td>
+<td style="text-align:center;">$500</td>
+</tr>
+<tr>
+<td style="text-align:center;">C</td>
+<td style="text-align:center;">$670</td>
+</tr>
+<tr>
+<td style="text-align:center;">D</td>
+<td style="text-align:center;">$730</td>
+</tr>
+<tr>
+<td style="text-align:center;">E</td>
+<td style="text-align:center;">$982</td>
+</tr>
+</tbody>
+</table>
+<p><em>Example 2:</em><br />
+You have an inventory dataset with the following data and need to compare the number of days elapsed between each subsequent order placed for Item A. </p>
+<table>
+<thead>
+<tr>
+<th id="inventory" style="text-align:center;">Inventory</th>
+<th id="order_id" style="text-align:center;">Order_id</th>
+<th id="dates_when_orders_were_placed" style="text-align:center;">Dates when orders were placed</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align:center;">Item A</td>
+<td style="text-align:center;">001</td>
+<td style="text-align:center;">11/2/2017</td>
+</tr>
+<tr>
+<td style="text-align:center;">Item A</td>
+<td style="text-align:center;">002</td>
+<td style="text-align:center;">11/5/2017</td>
+</tr>
+<tr>
+<td style="text-align:center;">Item A</td>
+<td style="text-align:center;">003</td>
+<td style="text-align:center;">11/8/2017</td>
+</tr>
+<tr>
+<td style="text-align:center;">Item A</td>
+<td style="text-align:center;">004</td>
+<td style="text-align:center;">11/15/2017</td>
+</tr>
+<tr>
+<td style="text-align:center;">Item A</td>
+<td style="text-align:center;">005</td>
+<td style="text-align:center;">11/28/2017</td>
+</tr>
+</tbody>
+</table>
+<p>As you can see, these are useful data analysis tools that you can use for more complex analysis!</p>
+</div>
+
+</div>
+<div class="divider"></div>
+          </div>
+
+          <div class="col-12">
+            <p class="text-right">
+              <a href="17. Quiz Comparing a Row to Previous Row.html" class="btn btn-outline-primary mt-4" role="button">Next Concept</a>
+            </p>
+          </div>
+        </div>
+      </main>
+
+      <footer class="footer">
+        <div class="container">
+          <div class="row">
+            <div class="col-12">
+              <p class="text-center">
+                <a href="https://us-udacity.github.io/" target="_blank">【udacity2.0 】If you need more courses, please add wechat：udacity6</a>
+              </p>
+            </div>
+          </div>
+        </div>
+      </footer>
+    </div>
+  </div>
+
+
+  <script src="../assets/js/jquery-3.3.1.min.js"></script>
+  <script src="../assets/js/plyr.polyfilled.min.js"></script>
+  <script src="../assets/js/bootstrap.min.js"></script>
+  <script src="../assets/js/jquery.mCustomScrollbar.concat.min.js"></script>
+  <script src="../assets/js/katex.min.js"></script>
+  <script>
+    // Initialize Plyr video players
+    const players = Array.from(document.querySelectorAll('video')).map(p => new Plyr(p));
+
+    // render math equations
+    let elMath = document.getElementsByClassName('mathquill');
+    for (let i = 0, len = elMath.length; i < len; i += 1) {
+      const el = elMath[i];
+
+      katex.render(el.textContent, el, {
+        throwOnError: false
+      });
+    }
+
+    // this hack will make sure Bootstrap tabs work when using Handlebars
+    if ($('#question-tabs').length && $('#user-answer-tabs').length) {
+      $("#question-tabs a.nav-link").on('click', function () {
+        $("#question-tab-contents .tab-pane").hide();
+        $($(this).attr("href")).show();
+      });
+      $("#user-answer-tabs a.nav-link").on('click', function () {
+        $("#user-answer-tab-contents .tab-pane").hide();
+        $($(this).attr("href")).show();
+      });
+    } else {
+      $("a.nav-link").on('click', function () {
+        $(".tab-pane").hide();
+        $($(this).attr("href")).show();
+      });
+    }
+
+    // side bar events
+    $(document).ready(function () {
+      $("#sidebar").mCustomScrollbar({
+        theme: "minimal"
+      });
+
+      $('#sidebarCollapse').on('click', function () {
+        $('#sidebar, #content').toggleClass('active');
+        $('.collapse.in').toggleClass('in');
+        $('a[aria-expanded=true]').attr('aria-expanded', 'false');
+      });
+
+      // scroll to first video on page loading
+      if ($('video').length) {
+        $('html,body').animate({ scrollTop: $('div.plyr').prev().offset().top});
+      }
+
+      // auto play first video: this may not work with chrome/safari due to autoplay policy
+      if (players && players.length > 0) {
+        players[0].play();
+      }
+
+      // scroll sidebar to current concept
+      const currentInSideBar = $( "ul.sidebar-list.components li a:contains('16. Video: Comparing a Row to Previous Row')" )
+      currentInSideBar.css( "text-decoration", "underline" );
+      $("#sidebar").mCustomScrollbar('scrollTo', currentInSideBar);
+    });
+  </script>
+</body>
+
+</html>

@@ -1,0 +1,31 @@
+WEBVTT
+Kind: captions
+Language: en
+
+00:00:00.000 --> 00:00:02.235
+So far in this course,
+
+00:00:02.235 --> 00:00:07.690
+we've only performed joins by exactly matching values from one table to another.
+
+00:00:07.690 --> 00:00:11.995
+There are plenty of cases where you might not want to join this way, though.
+
+00:00:11.995 --> 00:00:15.015
+Let's put on our marketing manager hats again.
+
+00:00:15.015 --> 00:00:18.720
+In order to understand how effective our campaigns are,
+
+00:00:18.720 --> 00:00:21.615
+we want to look at all the actions that a customer took
+
+00:00:21.615 --> 00:00:25.620
+prior to making their first paper purchase from Parch and Posey.
+
+00:00:25.620 --> 00:00:28.350
+To re-frame this, we want to look at all of
+
+00:00:28.350 --> 00:00:32.010
+the web traffic events that occurred before that account's first order.
+

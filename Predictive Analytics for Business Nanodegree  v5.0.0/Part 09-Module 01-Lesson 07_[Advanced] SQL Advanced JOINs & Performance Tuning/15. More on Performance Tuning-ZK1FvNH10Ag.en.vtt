@@ -1,0 +1,112 @@
+WEBVTT
+Kind: captions
+Language: en
+
+00:00:00.000 --> 00:00:03.220
+A database is a piece of software that runs on a computer,
+
+00:00:03.220 --> 00:00:06.595
+and it's subject to the same limitations as all software.
+
+00:00:06.595 --> 00:00:11.235
+It can only process as much information as the hardware is capable of handling.
+
+00:00:11.235 --> 00:00:13.155
+The way to make a query run faster,
+
+00:00:13.155 --> 00:00:16.320
+is to reduce the number of calculations that need to be performed.
+
+00:00:16.320 --> 00:00:22.435
+To do this, you'll need some understanding of how SQL actually makes those calculations.
+
+00:00:22.435 --> 00:00:24.210
+First, let's address some of
+
+00:00:24.210 --> 00:00:25.950
+the high level things that will affect
+
+00:00:25.950 --> 00:00:29.195
+the number of calculations a given query will make.
+
+00:00:29.195 --> 00:00:32.345
+Table size is incredibly important.
+
+00:00:32.345 --> 00:00:36.386
+If your query hits one or more tables with millions of rows or more,
+
+00:00:36.386 --> 00:00:38.330
+it could affect performance.
+
+00:00:38.330 --> 00:00:40.940
+If your query joins two tables,
+
+00:00:40.940 --> 00:00:44.171
+in a way that substantially increases the row count of the result set,
+
+00:00:44.171 --> 00:00:46.320
+your query is likely to be slow.
+
+00:00:46.320 --> 00:00:51.000
+And finally, aggregations can dramatically impact query runtime.
+
+00:00:51.000 --> 00:00:53.380
+Combining multiple rows to produce
+
+00:00:53.380 --> 00:00:58.030
+a result requires more computation than simply retrieving those rows.
+
+00:00:58.030 --> 00:01:02.605
+In particular, count distinct takes a very long time compared to the regular count,
+
+00:01:02.605 --> 00:01:07.535
+because it must check all rows against one another for duplicate values.
+
+00:01:07.535 --> 00:01:10.240
+Query runtime is also dependent on some things that you really
+
+00:01:10.240 --> 00:01:14.210
+can't control that are related to the database itself.
+
+00:01:14.210 --> 00:01:16.735
+The more queries running concurrently on a database,
+
+00:01:16.735 --> 00:01:19.300
+the more the database must process at a given time,
+
+00:01:19.300 --> 00:01:21.255
+and the slower everything will run.
+
+00:01:21.255 --> 00:01:23.750
+It can be especially bad if others are running
+
+00:01:23.750 --> 00:01:25.775
+particularly resource intensive queries
+
+00:01:25.775 --> 00:01:28.790
+that fulfill some of the criteria that we just went over.
+
+00:01:28.790 --> 00:01:33.430
+Also, different databases vary in speed for a given task.
+
+00:01:33.430 --> 00:01:37.590
+For example, Postgres is optimized to read and write new rows quickly,
+
+00:01:37.590 --> 00:01:41.750
+while Redshift is optimized to perform fast aggregations.
+
+00:01:41.750 --> 00:01:44.885
+This is something you probably can't control, but,
+
+00:01:44.885 --> 00:01:46.610
+if you know the system you're using,
+
+00:01:46.610 --> 00:01:50.330
+you can work within its bounds to make your queries more efficient.
+
+00:01:50.330 --> 00:01:52.220
+For now, let's ignore the things that you
+
+00:01:52.220 --> 00:01:55.000
+can't control and work on the things that you can.
+

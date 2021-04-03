@@ -1,0 +1,73 @@
+WEBVTT
+Kind: captions
+Language: en
+
+00:00:00.000 --> 00:00:01.530
+The second thing you can do,
+
+00:00:01.530 --> 00:00:03.420
+is make your joins less complicated.
+
+00:00:03.420 --> 00:00:06.900
+Meaning, you can reduce the number of rows that are evaluated during the join.
+
+00:00:06.900 --> 00:00:09.570
+In the same way that it's better to
+
+00:00:09.570 --> 00:00:12.740
+reduce data at a point in the query that is executed early,
+
+00:00:12.740 --> 00:00:16.380
+it's better to reduce table sizes before joining them.
+
+00:00:16.380 --> 00:00:21.720
+Take this example, which joins the accounts table onto the events table.
+
+00:00:21.720 --> 00:00:25.845
+There are 9,073 rows in the web events table.
+
+00:00:25.845 --> 00:00:32.215
+That means, that 9,073 rows need to be evaluated for matches in the other table.
+
+00:00:32.215 --> 00:00:35.595
+But, if the web events table was pre-aggregated,
+
+00:00:35.595 --> 00:00:38.790
+you could reduce the number of rows that need to be evaluated in the join.
+
+00:00:38.790 --> 00:00:45.200
+First, let's take a look at just a pre-aggregation.
+
+00:01:02.160 --> 00:01:07.620
+This query returns only 351 rows.
+
+00:01:07.620 --> 00:01:10.700
+So dropping this in a sub query and then joining it to the outer query,
+
+00:01:10.700 --> 00:01:15.622
+will reduce the cost of the join substantially.
+
+00:02:04.110 --> 00:02:08.150
+In this particular case,
+
+00:02:08.150 --> 00:02:09.770
+you won't notice a huge difference,
+
+00:02:09.770 --> 00:02:14.385
+because 9,073 rows, isn't too hard for the database to process.
+
+00:02:14.385 --> 00:02:17.360
+But if you were talking about hundreds of thousands of rows or more,
+
+00:02:17.360 --> 00:02:20.640
+you'd see a noticeable improvement by aggregating before joining.
+
+00:02:20.640 --> 00:02:24.320
+When you do this, make sure that what you're doing is logically consistent.
+
+00:02:24.320 --> 00:02:26.420
+You should worry about the accuracy of your work,
+
+00:02:26.420 --> 00:02:28.000
+before worrying about run speed.
+
