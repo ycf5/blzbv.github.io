@@ -1,0 +1,92 @@
+WEBVTT
+Kind: captions
+Language: uz
+
+00:00:00.000 --> 00:00:03.615
+left va right muayyan sharoitlarda juda yaxshi ishlaydi.
+
+00:00:03.615 --> 00:00:08.155
+Ma’lumotlar ma’lum miqdordagi belgilar bilan tuzilganida.
+
+00:00:08.155 --> 00:00:10.835
+Agar siz alohida shahar va davlatni 
+ajratib olishni xohlasangiz,
+
+00:00:10.835 --> 00:00:12.870
+siz biroz ko‘proq ish qilishingiz kerak bo‘ladi.
+
+00:00:12.870 --> 00:00:15.005
+Sizga yordam beradigan birinchi narsa - bu aynan 
+
+00:00:15.005 --> 00:00:17.690
+shahar va davlatni qaysi joydan 
+ajratishni tushunib olish.
+
+00:00:17.690 --> 00:00:19.610
+Har bir satr uchun u har xil bo‘ladi, 
+
+00:00:19.610 --> 00:00:21.200
+shuning uchun biz vergul topadigan 
+funksiyadan foydalanib
+
+00:00:21.200 --> 00:00:24.170
+vergul yozuvda qayerda joylashganini 
+aniqlashimiz kerak.
+
+00:00:24.170 --> 00:00:27.303
+Position sizga belgi yoki qismsatrni 
+belgilab, uni satringizda chapdan 
+
+00:00:27.303 --> 00:00:30.800
+boshlab qaysi o‘rinda kelganini 
+aniqlashga imkon beradi 
+
+00:00:30.800 --> 00:00:36.670
+va unga teng bo‘lgan raqamli 
+qiymatni qaytaradi.
+
+00:00:36.670 --> 00:00:42.000
+Bundan tashqari, xuddi shu natijaga 
+satr o‘rnini qaytaradigan 
+
+00:00:42.000 --> 00:00:46.695
+STRPOS funksiya yordamida 
+ham erishish mumkin.
+
+00:00:46.695 --> 00:00:53.520
+Faqat in ni vergul bilan almashtiring va satr va qism satrlarning o‘rnini almashtiring.
+
+00:00:53.950 --> 00:01:00.870
+Muhimi, satr va belgi o‘rinlari funksiyalari harflarning katta va kichikligini farqlaydi.
+
+00:01:00.870 --> 00:01:03.465
+Agar siz biror belgini harflarning katta-kichikligidan qat’iy nazar qidirmoqchi bo‘lsangiz,
+
+00:01:03.465 --> 00:01:06.905
+butun satrni katta yoki kichik harflarga keltirib bo‘lishingiz mumkin.
+
+00:01:06.905 --> 00:01:12.845
+Satrdagi har bir belgini kichik harfga aylantirish uchun siz lower dan foydalanishingiz mumkin.
+
+00:01:12.845 --> 00:01:18.843
+Xuddi shunday, barcha harflarni katta harf sifatida 
+ko‘rinishi uchun UPPER dan foydalanishingiz mumkin.
+
+00:01:18.843 --> 00:01:25.845
+Keling, siklni yakunlaymiz va faqat shaharni o‘z maydoniga tortamiz.
+
+00:01:25.845 --> 00:01:32.460
+Buning uchun biz left funksiyaga uning o‘rnini joylashtiramiz.
+
+00:01:32.460 --> 00:01:40.500
+Ko‘rinib turibdiki, biz istagan narsa to‘liq matnni vergul bilan emas,
+
+00:01:40.500 --> 00:01:43.090
+bir o‘rin oldin tugatmoqchimiz
+
+00:01:43.090 --> 00:01:46.650
+shunda vergul bizning shahar ustuniga kiritilmaydi.
+
+00:01:46.650 --> 00:01:51.000
+Buni left funksiyaning ichida birni ayirish orqali amalga oshirishimiz mumkin.
+

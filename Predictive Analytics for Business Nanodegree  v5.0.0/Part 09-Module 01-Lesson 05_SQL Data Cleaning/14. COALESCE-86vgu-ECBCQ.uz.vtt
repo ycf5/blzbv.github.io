@@ -1,0 +1,63 @@
+WEBVTT
+Kind: captions
+Language: uz
+
+00:00:00.080 --> 00:00:03.300
+Ba’zida ish yakunida sizda mavjud ma’lumotlar to‘plami 
+
+00:00:03.300 --> 00:00:06.805
+siz haqiqiy qiymatlarni o‘z ichiga olmoqchi bo‘lgan ba’zi joylarda null qiymatlar bo‘ladi.
+
+00:00:06.805 --> 00:00:08.565
+Hisoblar jadvaliga qarab,
+
+00:00:08.565 --> 00:00:14.558
+asosiy aloqa nuqtasini POC sifatida 
+aniq belgilashni xohlashingiz mumkin,
+
+00:00:14.558 --> 00:00:17.465
+shunda natijalar osonlikcha 
+tushunarli bo‘ladi.
+
+00:00:17.465 --> 00:00:23.920
+Bu kabi holatlarda, qiymatlarni nolga almashtirish 
+uchun coalesce dan foydalanishingiz mumkin.
+
+00:00:25.730 --> 00:00:29.770
+Bu raqamli ma’lumotlar bilan ishlayotganda 
+tez-tez qilinadigan ishdir
+
+00:00:29.770 --> 00:00:33.490
+null qiymatlarni nollar bilan almashtirish.
+
+00:00:33.490 --> 00:00:37.450
+Bundan tashqari, outer join natijasida 
+ba’zi bir-biriga mos kelmaydigan qatorlarda 
+
+00:00:37.450 --> 00:00:42.190
+nol qiymatdan boshqa narsani ko‘rsatishini 
+xohlashingiz mumkin.
+
+00:00:42.190 --> 00:00:45.760
+Albatta, bu NULL va nol qiymatlarni farqlaydigan 
+
+00:00:45.760 --> 00:00:50.790
+count yoki average kabi 
+funksiya bilan ishlashda o‘ta muhimdir.
+
+00:00:50.790 --> 00:00:54.130
+Biz buni coalesce ni count 
+funksiyasiga o‘rab POC 
+
+00:00:54.130 --> 00:01:02.100
+ustundagi qiymatlarni u bilan va usiz 
+hisoblash orqali ko‘rsatishimiz mumkin. 
+
+00:01:02.840 --> 00:01:08.155
+Ko‘rib turganingizdek, coalesce 
+o‘z ichiga olgan hisoblash,
+
+00:01:08.155 --> 00:01:12.490
+boshqaga qaraganda to‘qqizga ko‘proq 
+natijalarni o‘z ichiga oladi.
+
