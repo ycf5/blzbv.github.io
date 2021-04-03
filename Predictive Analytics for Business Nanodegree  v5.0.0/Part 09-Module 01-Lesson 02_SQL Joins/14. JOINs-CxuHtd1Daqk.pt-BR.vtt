@@ -1,0 +1,127 @@
+WEBVTT
+Kind: captions
+Language: pt-BR
+
+00:00:00.601 --> 00:00:02.167
+Para o próximo exemplo,
+
+00:00:02.201 --> 00:00:07.300
+usarei pequenos subconjuntos
+das tabelas de contas e pedidos.
+
+00:00:07.334 --> 00:00:10.834
+Primeiro vamos recapitular
+os inner joins.
+
+00:00:10.868 --> 00:00:14.968
+Isso retornará somente linhas
+que aparecem em ambas as tabelas.
+
+00:00:15.002 --> 00:00:17.100
+Escrever a seguinte consulta
+"inner join"
+
+00:00:17.134 --> 00:00:19.501
+para juntar as tabelas
+de conta e de pedidos
+
+00:00:19.534 --> 00:00:22.667
+pegará as colunas
+das tabelas de contas
+
+00:00:22.701 --> 00:00:25.534
+e as colunas de pedidos,
+
+00:00:25.568 --> 00:00:30.033
+somente os valores "account_id"
+da tabela de pedidos
+
+00:00:30.067 --> 00:00:33.834
+que combinam com o ID do campo
+da tabela de conta.
+
+00:00:33.868 --> 00:00:36.767
+Isso combinará estas três linhas
+da tabela de contas
+
+00:00:36.801 --> 00:00:38.467
+com estas cinco linhas
+
+00:00:38.501 --> 00:00:40.300
+da tabela de pedidos.
+
+00:00:40.901 --> 00:00:43.601
+A tabela final
+será parecida com esta.
+
+00:00:43.634 --> 00:00:46.300
+Perceba que temos somente
+três IDs de contas
+
+00:00:46.334 --> 00:00:48.400
+que estavam
+em ambas as tabelas.
+
+00:00:49.534 --> 00:00:51.734
+Uma forma de visualizar
+diferentes joins
+
+00:00:51.768 --> 00:00:53.701
+é com um Diagrama de Venn.
+
+00:00:53.734 --> 00:00:56.734
+Cada círculo do diagrama
+representa uma tabela.
+
+00:00:56.767 --> 00:00:59.200
+O círculo da esquerda
+inclui todas as linhas
+
+00:00:59.234 --> 00:01:02.701
+da tabela da expressão "from",
+que é a tabela de pedidos.
+
+00:01:03.567 --> 00:01:06.534
+O círculo à direita representa
+todas as linhas de dados
+
+00:01:06.568 --> 00:01:08.534
+na tabela
+da expressão "join",
+
+00:01:08.568 --> 00:01:11.467
+que, neste caso,
+é a tabela de contas.
+
+00:01:12.167 --> 00:01:15.100
+A seção sobreposta do meio
+representa todas as linhas
+
+00:01:15.134 --> 00:01:17.534
+nas quais a expressão "on"
+é verdadeira.
+
+00:01:17.568 --> 00:01:20.434
+Um inner join,
+como exibido aqui,
+
+00:01:20.467 --> 00:01:24.767
+retornará somente as linhas
+da interseção dos dois círculos.
+
+00:01:25.601 --> 00:01:28.667
+E a conta que ainda não fez
+nenhum pedido?
+
+00:01:28.701 --> 00:01:32.567
+Se quisermos exibir as contas
+que não estão na tabela de pedidos,
+
+00:01:32.601 --> 00:01:34.767
+o inner join
+não nos ajudará.
+
+00:01:34.801 --> 00:01:38.634
+A seguir, usaremos os outer joins
+para obter esse tipo de informação.
+

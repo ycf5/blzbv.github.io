@@ -1,0 +1,31 @@
+WEBVTT
+Kind: captions
+Language: en
+
+00:00:00.000 --> 00:00:02.815
+To understand what JOINS are and why they're helpful,
+
+00:00:02.815 --> 00:00:05.850
+let's think about Parch and Posey's orders table.
+
+00:00:05.850 --> 00:00:07.500
+Looking back at this table,
+
+00:00:07.500 --> 00:00:10.630
+you'll notice that none of the orders say the name of the customer.
+
+00:00:10.630 --> 00:00:15.560
+Instead, the table refers to customers by numerical values in the account ID column.
+
+00:00:15.560 --> 00:00:19.615
+We'll need to join another table in order to connect this data to names.
+
+00:00:19.615 --> 00:00:24.265
+But first, why isn't the customer's name in this table in the first place?
+
+00:00:24.265 --> 00:00:27.255
+There are a few reasons that someone might have made the decision to separate
+
+00:00:27.255 --> 00:00:31.650
+orders from the information about the customers placing those orders.
+

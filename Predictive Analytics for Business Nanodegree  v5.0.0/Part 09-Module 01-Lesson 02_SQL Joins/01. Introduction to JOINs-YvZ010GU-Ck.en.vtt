@@ -1,0 +1,58 @@
+WEBVTT
+Kind: captions
+Language: en
+
+00:00:00.000 --> 00:00:03.905
+Up to this point, we've only been working with one table at a time.
+
+00:00:03.905 --> 00:00:08.990
+But the real power of SQL comes from working with data across multiple tables at once.
+
+00:00:08.990 --> 00:00:11.100
+The term relational database refers to
+
+00:00:11.100 --> 00:00:14.489
+the fact that tables within it relate to one another.
+
+00:00:14.489 --> 00:00:16.590
+They contain common identifiers that allow
+
+00:00:16.590 --> 00:00:20.535
+information from multiple tables to be easily combined.
+
+00:00:20.535 --> 00:00:24.450
+Keeping all of a company's data, from purchasing transactions,
+
+00:00:24.450 --> 00:00:26.370
+to employee job satisfaction,
+
+00:00:26.370 --> 00:00:30.795
+to inventory in a single Excel dataset doesn't make a ton of sense.
+
+00:00:30.795 --> 00:00:33.720
+The table would hold a ton of information and it'd be hard
+
+00:00:33.720 --> 00:00:37.500
+to determine a row call and structure for so many different types of data.
+
+00:00:37.500 --> 00:00:42.925
+Databases give us the flexibility to keep things organized neatly in their own tables,
+
+00:00:42.925 --> 00:00:46.380
+so that they're easy to find and work with while also allowing us to
+
+00:00:46.380 --> 00:00:51.395
+combine tables as needed to solve problems that require several types of data.
+
+00:00:51.395 --> 00:00:53.430
+In this lesson, we're going to take a look at
+
+00:00:53.430 --> 00:00:56.200
+how to leverage SQL to link tables together.
+
+00:00:56.200 --> 00:00:59.370
+You're about to see why SQL is one of the most popular environments for
+
+00:00:59.370 --> 00:01:03.550
+working with data as we learn how to write what are known as Joints.
+

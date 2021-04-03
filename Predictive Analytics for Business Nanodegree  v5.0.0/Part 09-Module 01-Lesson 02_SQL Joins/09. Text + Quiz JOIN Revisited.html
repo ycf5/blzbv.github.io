@@ -1,0 +1,339 @@
+<!-- udacity2.0 -->
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Text + Quiz: JOIN Revisited</title>
+  <link rel="stylesheet" href="../assets/css/bootstrap.min.css">
+  <link rel="stylesheet" href="../assets/css/plyr.css">
+  <link rel="stylesheet" href="../assets/css/katex.min.css">
+  <link rel="stylesheet" href="../assets/css/jquery.mCustomScrollbar.min.css">
+  <link rel="stylesheet" href="../assets/css/styles.css">
+  <link rel="shortcut icon" type="image/png" href="../assets/img/udacimak.png" />
+</head>
+
+<body>
+  <div class="wrapper">
+    <nav id="sidebar">
+  <div class="sidebar-header">
+    <h3>SQL Joins</h3>
+  </div>
+
+  <ul class="sidebar-list list-unstyled CTAs">
+    <li>
+      <a href="../index.html" class="article">Back to Home</a>
+    </li>
+  </ul>
+
+  <ul class="sidebar-list list-unstyled components">
+    <li class="">
+      <a href="01. Video Motivation.html">01. Video: Motivation</a>
+    </li>
+    <li class="">
+      <a href="02. Video Why Would We Want to Split Data Into Separate Tables.html">02. Video: Why Would We Want to Split Data Into Separate Tables?</a>
+    </li>
+    <li class="">
+      <a href="03. Video Introduction to JOINs.html">03. Video: Introduction to JOINs</a>
+    </li>
+    <li class="">
+      <a href="04. Text + Quiz Your First JOIN.html">04. Text + Quiz: Your First JOIN</a>
+    </li>
+    <li class="">
+      <a href="05. Solution Your First JOIN.html">05. Solution: Your First JOIN</a>
+    </li>
+    <li class="">
+      <a href="06. Text ERD Reminder.html">06. Text: ERD Reminder</a>
+    </li>
+    <li class="">
+      <a href="07. Text Primary and Foreign Keys.html">07. Text: Primary and Foreign Keys</a>
+    </li>
+    <li class="">
+      <a href="08. Quiz Primary - Foreign Key Relationship.html">08. Quiz: Primary - Foreign Key Relationship</a>
+    </li>
+    <li class="">
+      <a href="09. Text + Quiz JOIN Revisited.html">09. Text + Quiz: JOIN Revisited</a>
+    </li>
+    <li class="">
+      <a href="10. Video Alias.html">10. Video: Alias</a>
+    </li>
+    <li class="">
+      <a href="11. Quiz JOIN Questions Part I.html">11. Quiz: JOIN Questions Part I</a>
+    </li>
+    <li class="">
+      <a href="12. Solutions JOIN Questions Part I.html">12. Solutions: JOIN Questions Part I</a>
+    </li>
+    <li class="">
+      <a href="13. Video Motivation for Other JOINs.html">13. Video: Motivation for Other JOINs</a>
+    </li>
+    <li class="">
+      <a href="14. Video LEFT and RIGHT JOINs.html">14. Video: LEFT and RIGHT JOINs</a>
+    </li>
+    <li class="">
+      <a href="15. Text Other JOIN Notes.html">15. Text: Other JOIN Notes</a>
+    </li>
+    <li class="">
+      <a href="16. LEFT and RIGHT JOIN.html">16. LEFT and RIGHT JOIN</a>
+    </li>
+    <li class="">
+      <a href="17. Solutions LEFT and RIGHT JOIN .html">17. Solutions: LEFT and RIGHT JOIN </a>
+    </li>
+    <li class="">
+      <a href="18. Video JOINs and Filtering.html">18. Video: JOINs and Filtering</a>
+    </li>
+    <li class="">
+      <a href="19. Quiz Last Check.html">19. Quiz: Last Check</a>
+    </li>
+    <li class="">
+      <a href="20. Solutions Last Check.html">20. Solutions: Last Check</a>
+    </li>
+    <li class="">
+      <a href="21. Text Recap &amp; Looking Ahead.html">21. Text: Recap &amp; Looking Ahead</a>
+    </li>
+  </ul>
+
+  <ul class="sidebar-list list-unstyled CTAs">
+    <li>
+      <a href="../index.html" class="article">Back to Home</a>
+    </li>
+  </ul>
+</nav>
+
+    <div id="content">
+      <header class="container-fluild header">
+        <div class="container">
+          <div class="row">
+            <div class="col-12">
+              <div class="align-items-middle">
+                <button type="button" id="sidebarCollapse" class="btn btn-toggle-sidebar">
+                  <div></div>
+                  <div></div>
+                  <div></div>
+                </button>
+
+                <h1 style="display: inline-block">09. Text + Quiz: JOIN Revisited</h1>
+              </div>
+            </div>
+          </div>
+        </div>
+      </header>
+
+      <main class="container">
+        <div class="row">
+          <div class="col-12">
+            <div class="ud-atom">
+  <h3></h3>
+  <div>
+  <h1 id="join-revisited">JOIN Revisited</h1>
+<p>Let's look back at the first JOIN you wrote.</p>
+<pre><code>SELECT orders.*
+FROM orders
+JOIN accounts
+ON orders.account_id = accounts.id;</code></pre>
+<p>Here is the ERD for these two tables:</p>
+</div>
+
+</div>
+<div class="divider"></div><div class="ud-atom">
+  <h3></h3>
+  <div>
+  <figure class="figure">
+    <img src="img/screen-shot-2017-08-11-at-11.54.30-am.png" alt="" class="img img-fluid">
+    <figcaption class="figure-caption">
+      
+    </figcaption>
+  </figure>
+</div>
+
+
+</div>
+<div class="divider"></div><div class="ud-atom">
+  <h3></h3>
+  <div>
+  <h1 id="notice">Notice</h1>
+<p>Notice our SQL query has the two tables we would like to join - one in the <strong>FROM</strong> and the other in the <strong>JOIN</strong>.  Then in the <strong>ON</strong>, we will <strong>ALWAYs</strong> have the <strong>PK</strong> equal to the <strong>FK</strong>:</p>
+<p>The way we join any two tables is in this way: linking the <strong>PK</strong> and <strong>FK</strong> (generally in an <strong>ON</strong> statement).</p>
+</div>
+
+</div>
+<div class="divider"></div><div class="ud-atom">
+  <h3></h3>
+  <div>
+  <figure class="figure">
+    <img src="img/screen-shot-2017-08-10-at-8.10.13-pm.png" alt="" class="img img-fluid">
+    <figcaption class="figure-caption">
+      
+    </figcaption>
+  </figure>
+</div>
+
+
+</div>
+<div class="divider"></div><div class="ud-atom">
+  <h3></h3>
+  <div>
+  <form>
+    <fieldset>
+      <legend><h1 id="practice">Practice</h1>
+<p>Use the image above to assist you.  If we wanted to join the <code>sales_reps</code> and <code>region</code> tables together, how would you do it</p></legend>
+    </fieldset>
+
+      <div>
+        <input type="radio" value="a1502478197685" name="369533" id="a1502478197685">
+        <label for="a1502478197685"><p>ON sales_reps.id = region.id</p></label>
+      </div>
+      <div>
+        <input type="radio" value="a1502478260991" name="369533" id="a1502478260991">
+        <label for="a1502478260991"><p>ON sales_reps.id = region.name</p></label>
+      </div>
+      <div>
+        <input type="radio" value="a1502478275040" name="369533" id="a1502478275040">
+        <label for="a1502478275040"><p>ON sales_reps.region_id = region.id</p></label>
+      </div>
+      <div>
+        <input type="radio" value="a1502478293023" name="369533" id="a1502478293023">
+        <label for="a1502478293023"><p>ON region.id = sales_reps.id</p></label>
+      </div>
+  </form>
+
+  <details>
+    <summary><strong>SOLUTION:</strong></summary>
+    ON sales_reps.region_id = region.id
+  </details>
+</div>
+
+</div>
+<div class="divider"></div><div class="ud-atom">
+  <h3></h3>
+  <div>
+  <h1 id="join-more-than-two-tables">JOIN More than Two Tables</h1>
+<p>This same logic can actually assist in joining more than two tables together.  Look at the three tables below.</p>
+</div>
+
+</div>
+<div class="divider"></div><div class="ud-atom">
+  <h3></h3>
+  <div>
+  <figure class="figure">
+    <img src="img/screen-shot-2017-08-11-at-3.21.34-pm.png" alt="" class="img img-fluid">
+    <figcaption class="figure-caption">
+      
+    </figcaption>
+  </figure>
+</div>
+
+
+</div>
+<div class="divider"></div><div class="ud-atom">
+  <h3></h3>
+  <div>
+  <h1 id="the-code">The Code</h1>
+<p>If we wanted to join all three of these tables, we could use the same logic.  The code below pulls all of the data from all of the joined tables.</p>
+<pre><code>SELECT *
+FROM web_events
+JOIN accounts
+ON web_events.account_id = accounts.id
+JOIN orders
+ON accounts.id = orders.account_id</code></pre>
+<p>Alternatively, we can create a <strong>SELECT</strong> statement that could pull specific columns from any of the three tables.  Again, our <strong>JOIN</strong> holds a table, and <strong>ON</strong> is a link for our <strong>PK</strong> to equal the <strong>FK</strong>.  </p>
+<p>To pull specific columns, the <strong>SELECT</strong> statement will need to specify the table that you are wishing to pull the column from, as well as the column name.  We could pull only three columns in the above by changing the select statement to the below, but maintaining the rest of the JOIN information:</p>
+<pre><code>SELECT web_events.channel, accounts.name, orders.total</code></pre>
+<p>We could continue this same process to link all of the tables if we wanted.  For efficiency reasons, we probably don't want to do this unless we actually need information from all of the tables.  </p>
+</div>
+
+</div>
+<div class="divider"></div>
+          </div>
+
+          <div class="col-12">
+            <p class="text-right">
+              <a href="10. Video Alias.html" class="btn btn-outline-primary mt-4" role="button">Next Concept</a>
+            </p>
+          </div>
+        </div>
+      </main>
+
+      <footer class="footer">
+        <div class="container">
+          <div class="row">
+            <div class="col-12">
+              <p class="text-center">
+                <a href="https://us-udacity.github.io/" target="_blank">【udacity2.0 】If you need more courses, please add wechat：udacity6</a>
+              </p>
+            </div>
+          </div>
+        </div>
+      </footer>
+    </div>
+  </div>
+
+
+  <script src="../assets/js/jquery-3.3.1.min.js"></script>
+  <script src="../assets/js/plyr.polyfilled.min.js"></script>
+  <script src="../assets/js/bootstrap.min.js"></script>
+  <script src="../assets/js/jquery.mCustomScrollbar.concat.min.js"></script>
+  <script src="../assets/js/katex.min.js"></script>
+  <script>
+    // Initialize Plyr video players
+    const players = Array.from(document.querySelectorAll('video')).map(p => new Plyr(p));
+
+    // render math equations
+    let elMath = document.getElementsByClassName('mathquill');
+    for (let i = 0, len = elMath.length; i < len; i += 1) {
+      const el = elMath[i];
+
+      katex.render(el.textContent, el, {
+        throwOnError: false
+      });
+    }
+
+    // this hack will make sure Bootstrap tabs work when using Handlebars
+    if ($('#question-tabs').length && $('#user-answer-tabs').length) {
+      $("#question-tabs a.nav-link").on('click', function () {
+        $("#question-tab-contents .tab-pane").hide();
+        $($(this).attr("href")).show();
+      });
+      $("#user-answer-tabs a.nav-link").on('click', function () {
+        $("#user-answer-tab-contents .tab-pane").hide();
+        $($(this).attr("href")).show();
+      });
+    } else {
+      $("a.nav-link").on('click', function () {
+        $(".tab-pane").hide();
+        $($(this).attr("href")).show();
+      });
+    }
+
+    // side bar events
+    $(document).ready(function () {
+      $("#sidebar").mCustomScrollbar({
+        theme: "minimal"
+      });
+
+      $('#sidebarCollapse').on('click', function () {
+        $('#sidebar, #content').toggleClass('active');
+        $('.collapse.in').toggleClass('in');
+        $('a[aria-expanded=true]').attr('aria-expanded', 'false');
+      });
+
+      // scroll to first video on page loading
+      if ($('video').length) {
+        $('html,body').animate({ scrollTop: $('div.plyr').prev().offset().top});
+      }
+
+      // auto play first video: this may not work with chrome/safari due to autoplay policy
+      if (players && players.length > 0) {
+        players[0].play();
+      }
+
+      // scroll sidebar to current concept
+      const currentInSideBar = $( "ul.sidebar-list.components li a:contains('09. Text + Quiz: JOIN Revisited')" )
+      currentInSideBar.css( "text-decoration", "underline" );
+      $("#sidebar").mCustomScrollbar('scrollTo', currentInSideBar);
+    });
+  </script>
+</body>
+
+</html>

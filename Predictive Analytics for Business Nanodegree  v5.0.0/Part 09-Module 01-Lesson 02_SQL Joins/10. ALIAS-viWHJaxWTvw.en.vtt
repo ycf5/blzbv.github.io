@@ -1,0 +1,49 @@
+WEBVTT
+Kind: captions
+Language: en
+
+00:00:00.000 --> 00:00:04.455
+When performing joins, it's easiest to give your table names aliases.
+
+00:00:04.455 --> 00:00:07.145
+Orders is a pretty long and annoying name to type.
+
+00:00:07.145 --> 00:00:09.480
+O is much easier.
+
+00:00:09.480 --> 00:00:12.090
+You can give a table an alias by adding a space after
+
+00:00:12.090 --> 00:00:15.450
+the table name and typing the intended name of the alias.
+
+00:00:15.450 --> 00:00:17.120
+As with column names,
+
+00:00:17.120 --> 00:00:18.450
+the best practice here is to use
+
+00:00:18.450 --> 00:00:22.535
+all lower case letters and underscores instead of spaces.
+
+00:00:22.535 --> 00:00:25.134
+Now that we've given our tables aliases,
+
+00:00:25.134 --> 00:00:29.465
+we can refer to columns in the select clause by using those alias names.
+
+00:00:29.465 --> 00:00:31.380
+We can also do the same thing anywhere else
+
+00:00:31.380 --> 00:00:33.855
+in the query that columns from these tables appear.
+
+00:00:33.855 --> 00:00:37.410
+In this case, the only other places the ON clause.
+
+00:00:37.410 --> 00:00:40.290
+As you can see, the results are exactly the
+
+00:00:40.290 --> 00:00:43.620
+same as the previous query without the aliases.
+

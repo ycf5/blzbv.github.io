@@ -1,0 +1,94 @@
+WEBVTT
+Kind: captions
+Language: pt-BR
+
+00:00:00.133 --> 00:00:03.667
+Até agora trabalhamos
+com uma tabela por vez,
+
+00:00:03.701 --> 00:00:06.367
+mas o verdadeiro poder do SQL
+é trabalhar com dados
+
+00:00:06.400 --> 00:00:08.868
+de várias tabelas
+de uma vez.
+
+00:00:08.901 --> 00:00:12.434
+O termo "banco de dados relacional"
+quer dizer que as tabelas
+
+00:00:12.467 --> 00:00:14.300
+se relacionam.
+
+00:00:14.334 --> 00:00:16.167
+Elas contêm
+identificadores comuns
+
+00:00:16.200 --> 00:00:20.434
+que permitem que as informações
+de várias tabelas sejam combinadas.
+
+00:00:21.067 --> 00:00:23.067
+Manter todos os dados
+de uma empresa,
+
+00:00:23.100 --> 00:00:26.334
+transações de compras,
+satisfação dos funcionários
+
+00:00:26.367 --> 00:00:29.000
+e inventário em um único
+conjunto de dados do Excel
+
+00:00:29.034 --> 00:00:30.734
+não faz sentido algum.
+
+00:00:30.767 --> 00:00:32.934
+A tabela teria
+muitas informações
+
+00:00:32.968 --> 00:00:35.267
+e seria difícil
+determinar a estrutura
+
+00:00:35.301 --> 00:00:37.734
+de tantos tipos de dados.
+
+00:00:37.768 --> 00:00:39.968
+Os bancos de dados
+nos dão a flexibilidade
+
+00:00:40.002 --> 00:00:43.067
+para manter as coisas organizadas
+em suas próprias tabelas.
+
+00:00:43.101 --> 00:00:44.968
+Elas são fáceis de trabalhar
+
+00:00:45.002 --> 00:00:47.968
+e nos permitem combinar
+quantas tabelas forem necessárias
+
+00:00:48.002 --> 00:00:51.267
+para resolver problemas que exigem
+diferentes tipos de dados.
+
+00:00:51.301 --> 00:00:54.334
+Nesta aula, veremos
+como alavancar o SQL
+
+00:00:54.368 --> 00:00:56.200
+para conectar tabelas.
+
+00:00:56.234 --> 00:00:59.133
+Veremos por que o SQL
+é um dos ambientes mais populares
+
+00:00:59.167 --> 00:01:00.501
+para trabalhar com dados,
+
+00:01:00.535 --> 00:01:02.701
+enquanto aprendemos
+a compor os JOINS.
+

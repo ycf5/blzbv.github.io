@@ -1,0 +1,70 @@
+WEBVTT
+Kind: captions
+Language: en
+
+00:00:00.000 --> 00:00:03.930
+One thing you might have noticed when working with Inner Joins is that the data you
+
+00:00:03.930 --> 00:00:08.849
+join can have a one to one or a one to many relationship.
+
+00:00:08.849 --> 00:00:11.490
+In other words, one account might only have placed
+
+00:00:11.490 --> 00:00:15.860
+a single order while another account might have placed many orders.
+
+00:00:15.860 --> 00:00:17.895
+Since we're focused primarily on the orders,
+
+00:00:17.895 --> 00:00:20.755
+you probably missed a different kind of relationship.
+
+00:00:20.755 --> 00:00:23.610
+A few of these accounts have just developed brand new relationships with
+
+00:00:23.610 --> 00:00:27.035
+Parch and Posy Sales Team and haven't placed any orders yet.
+
+00:00:27.035 --> 00:00:28.935
+So, when we join these tables,
+
+00:00:28.935 --> 00:00:31.150
+what happens to the accounts without any orders?
+
+00:00:31.150 --> 00:00:33.060
+Where do they go?
+
+00:00:33.060 --> 00:00:35.730
+It turns out you might want to keep them around or drop
+
+00:00:35.730 --> 00:00:39.390
+them from your result set depending on what you're going for.
+
+00:00:39.390 --> 00:00:43.245
+For example, if you're simply attaching account names to each order,
+
+00:00:43.245 --> 00:00:46.925
+then excluding these accounts without orders is probably fine.
+
+00:00:46.925 --> 00:00:49.890
+That's exactly what we did in our Inner Join earlier.
+
+00:00:49.890 --> 00:00:51.990
+If your goal is to count up all of the accounts in
+
+00:00:51.990 --> 00:00:54.690
+the region along with their quantities of paper purchased,
+
+00:00:54.690 --> 00:00:57.895
+you might want to include the accounts without any orders.
+
+00:00:57.895 --> 00:00:59.745
+This is done using an Outer Join.
+
+00:00:59.745 --> 00:01:02.340
+In the next section, I'll show you a few different types of
+
+00:01:02.340 --> 00:01:06.770
+Joins and give the opportunity to practice writing some yourself.
+

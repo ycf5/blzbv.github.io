@@ -1,0 +1,85 @@
+WEBVTT
+Kind: captions
+Language: en
+
+00:00:00.000 --> 00:00:02.190
+For the following example,
+
+00:00:02.190 --> 00:00:07.680
+I'll use small subsets of the Accounts and Orders tables shown here.
+
+00:00:07.680 --> 00:00:10.995
+First, let's quickly recap the INNER JOIN.
+
+00:00:10.995 --> 00:00:14.480
+This will return only rows that appear in both tables.
+
+00:00:14.480 --> 00:00:19.650
+Writing the following INNER JOIN query to join the Accounts and Orders tables will
+
+00:00:19.650 --> 00:00:25.245
+pull these columns from the Accounts table and these columns from the Orders table,
+
+00:00:25.245 --> 00:00:28.640
+nly for the values of the account ID in
+
+00:00:28.640 --> 00:00:33.360
+the Orders table that match with the ID field in the accounts table.
+
+00:00:33.360 --> 00:00:35.570
+This will pull these three rows from
+
+00:00:35.570 --> 00:00:40.320
+the Accounts table and match them with these five rows from the Orders table.
+
+00:00:40.320 --> 00:00:43.870
+So the table we'll get back will look like this.
+
+00:00:43.870 --> 00:00:48.840
+Notice we have only the three account IDs that were in both tables.
+
+00:00:48.840 --> 00:00:53.709
+A common way to visualize different JOINs is with a Venn diagram.
+
+00:00:53.709 --> 00:00:56.650
+Each circle in the diagram represents a table.
+
+00:00:56.650 --> 00:01:00.925
+The left circle includes all rows of data in the table in our FROM clause,
+
+00:01:00.925 --> 00:01:02.910
+which is the Orders table.
+
+00:01:02.910 --> 00:01:08.770
+The right circle represents all rows of data in the table in our JOIN clause.
+
+00:01:08.770 --> 00:01:11.445
+In this case, that's the Accounts table.
+
+00:01:11.445 --> 00:01:17.525
+The overlapping middle section represents all rows for which the ON clause is true.
+
+00:01:17.525 --> 00:01:20.415
+An INNER JOIN, as shown here,
+
+00:01:20.415 --> 00:01:25.440
+will return only rows at the intersection of these two circles.
+
+00:01:25.440 --> 00:01:28.665
+So what about this new account that hasn't placed any orders, yet?
+
+00:01:28.665 --> 00:01:30.750
+If we want to show that there are existing accounts
+
+00:01:30.750 --> 00:01:32.535
+that do not appear in the Orders table,
+
+00:01:32.535 --> 00:01:34.560
+an INNER JOIN is not going to help us.
+
+00:01:34.560 --> 00:01:36.120
+In the upcoming sections,
+
+00:01:36.120 --> 00:01:39.590
+we'll work with OUTER JOINs to pull that type of information.
+

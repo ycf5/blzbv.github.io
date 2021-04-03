@@ -1,0 +1,199 @@
+WEBVTT
+Kind: captions
+Language: pt-BR
+
+00:00:00.334 --> 00:00:03.567
+Se quisermos incluir dados
+que não existem nas duas tabelas,
+
+00:00:03.601 --> 00:00:07.701
+usaremos a instrução join.
+
+00:00:07.735 --> 00:00:10.767
+Existem três tipos de joins:
+
+00:00:10.801 --> 00:00:15.801
+o left join, o right join
+e o full outer join.
+
+00:00:15.835 --> 00:00:19.868
+Eles fornecem as linhas
+de um inner join,
+
+00:00:19.901 --> 00:00:22.534
+mas com linhas adicionais.
+
+00:00:22.567 --> 00:00:27.234
+O outer join terá pelo menos
+as mesmas linhas do inner join,
+
+00:00:27.267 --> 00:00:30.100
+com a mesma lógica
+da expressão "on".
+
+00:00:31.634 --> 00:00:35.968
+Veremos agora os joins
+right e left.
+
+00:00:37.100 --> 00:00:39.234
+Ao compor
+as instruções "select",
+
+00:00:39.267 --> 00:00:43.901
+a tabela da instrução "from"
+é considerada a da esquerda,
+
+00:00:43.935 --> 00:00:47.601
+e a da "join" é considerada
+a da direita.
+
+00:00:47.634 --> 00:00:50.000
+Vamos trocar o inner join
+por um left join,
+
+00:00:50.033 --> 00:00:52.767
+escrevendo a palavra "left".
+
+00:00:52.801 --> 00:00:57.334
+Os resultados incluirão
+os dados da tabela da direita,
+
+00:00:57.367 --> 00:00:59.234
+assim como no inner join.
+
+00:00:59.267 --> 00:01:02.133
+Mas também veremos os resultados
+da tabela da esquerda,
+
+00:01:02.167 --> 00:01:03.801
+que não combinam.
+
+00:01:05.033 --> 00:01:08.334
+Ao utilizar os subconjuntos
+das tabelas de contas e pedidos,
+
+00:01:08.367 --> 00:01:10.901
+cada linha
+da tabela de pedidos
+
+00:01:10.934 --> 00:01:13.701
+pode ser combinada com uma linha
+da tabela de contas,
+
+00:01:13.734 --> 00:01:15.901
+com o ID na tabela de contas
+
+00:01:15.934 --> 00:01:19.734
+correspondente ao ID
+na tabela dos pedidos.
+
+00:01:19.767 --> 00:01:24.367
+O resultado é exatamente igual
+ao que obtivemos com o inner join.
+
+00:01:25.434 --> 00:01:29.033
+O right join nos daria
+outro resultado.
+
+00:01:29.067 --> 00:01:31.834
+Existem quatro contas
+sem pedidos.
+
+00:01:31.868 --> 00:01:33.567
+São quatro linhas de dados
+
+00:01:33.601 --> 00:01:36.467
+que não satisfazem
+a condição deste join.
+
+00:01:36.501 --> 00:01:39.067
+Como é um right join,
+não um inner join,
+
+00:01:39.100 --> 00:01:42.367
+as linhas serão incluídas
+no fim dos resultados.
+
+00:01:42.400 --> 00:01:44.634
+Não há combinação
+com a tabela da esquerda,
+
+00:01:44.668 --> 00:01:49.133
+então não há nenhum dado
+sobre ela nesta tabela.
+
+00:01:49.167 --> 00:01:52.234
+Falaremos mais sobre isso
+em breve.
+
+00:01:53.367 --> 00:01:55.367
+Vemos que, após a junção,
+
+00:01:55.400 --> 00:01:59.734
+a tabela possui as mesmas linhas
+da tabela inner join,
+
+00:01:59.768 --> 00:02:03.000
+mas possui linhas extras
+da tabela de contas
+
+00:02:03.033 --> 00:02:05.868
+que não combinaram
+com nenhum pedido.
+
+00:02:05.902 --> 00:02:08.601
+Os joins left e right
+são intercambiáveis.
+
+00:02:08.635 --> 00:02:11.367
+Se alterássemos a consulta
+para que a tabela de contas
+
+00:02:11.400 --> 00:02:15.133
+estivesse na expressão "from",
+e a de pedidos, no join,
+
+00:02:15.167 --> 00:02:17.968
+as linhas extras estariam
+na tabela da esquerda.
+
+00:02:18.934 --> 00:02:22.300
+Podemos rodar um left join,
+e os resultados seriam os mesmos
+
+00:02:22.334 --> 00:02:25.734
+obtidos
+na consulta anterior.
+
+00:02:25.768 --> 00:02:28.701
+Como os joins left e right
+são intercambiáveis,
+
+00:02:28.734 --> 00:02:31.868
+usaremos o left join
+durante este curso.
+
+00:02:31.901 --> 00:02:34.667
+O mundo é padronizado
+para esse comportamento,
+
+00:02:34.701 --> 00:02:37.601
+então raramente vemos
+um right join.
+
+00:02:37.635 --> 00:02:39.901
+Isso facilita a leitura
+de outras consultas
+
+00:02:39.934 --> 00:02:43.000
+para entender o que deseja
+ser alcançado.
+
+00:02:43.033 --> 00:02:47.968
+A consistência importa ao compor
+uma consulta com vários joins.
+
+00:02:48.002 --> 00:02:50.300
+Ainda não chegamos lá,
+mas isso será rápido.
+

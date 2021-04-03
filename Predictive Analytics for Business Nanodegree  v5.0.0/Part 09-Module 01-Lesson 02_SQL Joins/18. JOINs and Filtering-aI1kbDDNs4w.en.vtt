@@ -1,0 +1,124 @@
+WEBVTT
+Kind: captions
+Language: en
+
+00:00:00.000 --> 00:00:05.205
+The tricky thing about Joins is that there are a means to do other types of analysis.
+
+00:00:05.205 --> 00:00:08.500
+Combining data isn't an end unto itself.
+
+00:00:08.500 --> 00:00:13.290
+It's a tool that allows you to filter or aggregate with an expanded set of information.
+
+00:00:13.290 --> 00:00:17.010
+That means queries involving joins can get pretty complicated.
+
+00:00:17.010 --> 00:00:19.403
+In order to get the exact results you're after,
+
+00:00:19.403 --> 00:00:22.730
+you need to be careful about exactly how you filter the data.
+
+00:00:22.730 --> 00:00:25.200
+As with joins, there are multiple options.
+
+00:00:25.200 --> 00:00:27.270
+To illustrate this, let's take a look at
+
+00:00:27.270 --> 00:00:30.490
+all the orders that were brought in by one particular sales rep.
+
+00:00:30.490 --> 00:00:33.809
+Imagine yourself as a sales manager at Parch and Posey.
+
+00:00:33.809 --> 00:00:36.900
+You'd like to make it easy for a sales rep to find her own deals rather than
+
+00:00:36.900 --> 00:00:41.005
+having to sift through all the orders and try and remember which were hers.
+
+00:00:41.005 --> 00:00:44.100
+Remember, sales rep ID isn't in the Orders table,
+
+00:00:44.100 --> 00:00:47.170
+so join isn't necessary to get that information.
+
+00:00:47.170 --> 00:00:49.200
+The first way to filter this data is something we're
+
+00:00:49.200 --> 00:00:52.085
+already familiar with, the WHERE clause.
+
+00:00:52.085 --> 00:00:55.980
+Let's take our combined orders and accounts tables and filter the results set to
+
+00:00:55.980 --> 00:01:01.290
+contain only the orders booked by sales rep 321500.
+
+00:01:01.290 --> 00:01:03.930
+As you can see, the only rows in our result
+
+00:01:03.930 --> 00:01:07.020
+set are the rows that fit the criteria in the WHERE clause.
+
+00:01:07.020 --> 00:01:12.080
+The ones that have a sales rep ID equal to 321500.
+
+00:01:12.080 --> 00:01:15.120
+But, what if we just want to mark all the orders that belong to rep 321500
+
+00:01:15.120 --> 00:01:19.950
+and keep all the other orders in the result set as well?
+
+00:01:19.950 --> 00:01:22.785
+We can do that by filtering in the ON clause.
+
+00:01:22.785 --> 00:01:25.200
+By changing where to end,
+
+00:01:25.200 --> 00:01:29.345
+we're moving this logical statement to become part of the ON clause.
+
+00:01:29.345 --> 00:01:32.855
+This effectively pre-filters the right table to include only rows with
+
+00:01:32.855 --> 00:01:38.335
+sales rep ID 321500 before the join is executed.
+
+00:01:38.335 --> 00:01:43.465
+In other words, it's like a WHERE clause that applies before the join rather than after.
+
+00:01:43.465 --> 00:01:47.345
+You can almost think of this like joining orders to a different table.
+
+00:01:47.345 --> 00:01:52.225
+One that only includes a subset of the rows in the original accounts table.
+
+00:01:52.225 --> 00:01:54.195
+Since this is a left join,
+
+00:01:54.195 --> 00:01:58.685
+we'll see a result set that includes all rows from the Orders table as well as
+
+00:01:58.685 --> 00:02:01.200
+any data in this new pre-filtered table that
+
+00:02:01.200 --> 00:02:04.920
+match with the account ID in the Orders table.
+
+00:02:04.920 --> 00:02:09.945
+As you can see, sales rep 321500 only had a few accounts.
+
+00:02:09.945 --> 00:02:13.250
+So, a lot of these orders remain unmatched.
+
+00:02:13.250 --> 00:02:17.294
+It might seem frivolous to leave so many orders in this result set without account names.
+
+00:02:17.294 --> 00:02:19.740
+But, this type of join will be incredibly useful once
+
+00:02:19.740 --> 00:02:23.390
+you move on to data aggregation in the next lesson.
+

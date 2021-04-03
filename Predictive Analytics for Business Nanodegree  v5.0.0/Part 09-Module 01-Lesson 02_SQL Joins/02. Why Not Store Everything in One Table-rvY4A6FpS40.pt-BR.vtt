@@ -1,0 +1,43 @@
+WEBVTT
+Kind: captions
+Language: pt-BR
+
+00:00:00.133 --> 00:00:02.734
+Para entender o que são JOINS
+e por que são úteis,
+
+00:00:02.768 --> 00:00:06.000
+vamos observar a tabela
+de pedidos da Parch &amp; Posey.
+
+00:00:06.034 --> 00:00:07.400
+Nesta tabela,
+
+00:00:07.434 --> 00:00:10.801
+percebemos que o nome do consumidor
+não está nos pedidos.
+
+00:00:10.835 --> 00:00:12.767
+A tabela referencia
+os consumidores
+
+00:00:12.801 --> 00:00:15.968
+a partir de valores numéricos
+na coluna "account_id".
+
+00:00:16.002 --> 00:00:19.601
+Precisamos utilizar outra tabela
+para conectar os dados aos nomes.
+
+00:00:19.635 --> 00:00:24.100
+Mas antes... Por que os nomes
+não estão nesta tabela?
+
+00:00:24.133 --> 00:00:27.601
+Há algumas razões
+para separar os pedidos
+
+00:00:27.634 --> 00:00:30.334
+e as informações
+sobre os consumidores.
+

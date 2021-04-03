@@ -1,0 +1,121 @@
+WEBVTT
+Kind: captions
+Language: uz
+
+00:00:00.030 --> 00:00:03.090
+Quyidagi misol uchun dastlab men bu yerda ko‘rsatilgan
+
+00:00:03.090 --> 00:00:04.799
+kichkina hisoblar va buyurtmalar jadvali varaqlaridan
+
+00:00:04.799 --> 00:00:08.639
+foydalanaman. Keling tezlik bilan
+
+00:00:08.639 --> 00:00:11.580
+INNER JOINni jalb qilamiz bu jadvalda
+
+00:00:11.580 --> 00:00:14.330
+ko‘ringan faqat ikkita qatorni beradi.
+
+00:00:14.330 --> 00:00:16.800
+Hisoblarni va buyurtmalar jadvalini qo‘shishda quyidagi
+
+00:00:16.800 --> 00:00:18.960
+INNER JOIN so‘rovini yozish
+
+00:00:18.960 --> 00:00:20.699
+ushbu ustunlarni hisoblar jadvalidan va
+
+00:00:20.699 --> 00:00:23.640
+mana bu ustunlarni buyurtmalar jadvalidan
+
+00:00:23.640 --> 00:00:27.180
+tortib oladi. Buyurtmalar jadvalidagi
+
+00:00:27.180 --> 00:00:30.240
+hisob raqamlari qiymati hisoblar jadvalidagi
+
+00:00:30.240 --> 00:00:32.279
+hisob identifikatsiya maydoni bilan
+
+00:00:32.279 --> 00:00:35.309
+moslashadi. Bu hisoblar jadvalidan uch qatorni
+
+00:00:35.309 --> 00:00:37.320
+tortadi va ularni buyurtmalar qatoridagi
+
+00:00:37.320 --> 00:00:39.059
+beshta qator bilan moslashtiradi.
+
+00:00:39.059 --> 00:00:42.300
+Shuning uchun biz qaytadigan jadval
+
+00:00:42.300 --> 00:00:45.149
+ushbu eslatmaga o‘xshaydi bizda ikkala
+
+00:00:45.149 --> 00:00:47.100
+jadvalda ham mavjud bo‘lgan faqat uchta
+
+00:00:47.100 --> 00:00:50.640
+hisob identifikatsiya bor. Turli qo‘shilmalarni
+
+00:00:50.640 --> 00:00:52.410
+tasvirlashning oddiy usuli Venn diagrammasidir.
+
+00:00:52.410 --> 00:00:55.620
+Diagrammadagi har bir aylana bitta jadvalni
+
+00:00:55.620 --> 00:00:58.710
+ifodalaydi chap aylana buyurtmalar jadvali
+
+00:00:58.710 --> 00:01:00.629
+FROM bandidagi barcha ma’lumotlar qatorini
+
+00:01:00.629 --> 00:01:03.989
+o‘z ichiga oladi o‘ng aylana
+
+00:01:03.989 --> 00:01:06.360
+jadvalda JOIN bandidagi barcha
+
+00:01:06.360 --> 00:01:09.000
+ma’lumotlar qatorini ifodalaydi bu
+
+00:01:09.000 --> 00:01:12.390
+vaziyatda, bu hisoblar jadvali
+
+00:01:12.390 --> 00:01:14.010
+bir-biriga mos keluvchi o‘rta qism
+
+00:01:14.010 --> 00:01:16.860
+ON bandi to‘g‘ri bo‘lgandagi qatorlarni ko‘rsatadi.
+
+00:01:16.860 --> 00:01:21.210
+Bu yerdagi ichki qo‘shilma faqat
+
+00:01:21.210 --> 00:01:23.580
+ikki aylananing kesishmasidagi qatorlarni
+
+00:01:23.580 --> 00:01:26.460
+qaytaradi xo‘sh, hali hech qanday
+
+00:01:26.460 --> 00:01:27.810
+buyurtma berilmagan hisoblarga
+
+00:01:27.810 --> 00:01:29.880
+nima bo‘ladi? Agar biz buyurtmalar jadvalida ko‘rinmagan
+
+00:01:29.880 --> 00:01:31.530
+mavjud hisoblarni ko‘rsatishni xohlasak,
+
+00:01:31.530 --> 00:01:33.509
+INNER JOIN bizga yordam bermaydi.
+
+00:01:33.509 --> 00:01:35.220
+Kelgusi bo‘limlarda 
+
+00:01:35.220 --> 00:01:37.350
+biz ma’lumot turini tortish uchun
+
+00:01:37.350 --> 00:01:40.189
+tashqi qo‘shilishlar bilan ishlaymiz.
+

@@ -1,0 +1,79 @@
+WEBVTT
+Kind: captions
+Language: uz
+
+00:00:00.000 --> 00:00:03.265
+JOIN lar so‘rovlaringizni biroz murakkablashtiradi.
+
+00:00:03.265 --> 00:00:05.160
+Keling JOIN ning barcha qismlarini nima sodir
+
+00:00:05.160 --> 00:00:08.179
+bo‘lishini ko‘rish uchun parchalaymiz.
+
+00:00:08.179 --> 00:00:10.410
+Biz INNER JOIN deb atalgan turini yozishdan boshlaymiz
+
+00:00:10.410 --> 00:00:13.949
+va biz tezda JOIN ning boshqa turlariga o‘tamiz.
+
+00:00:13.949 --> 00:00:15.070
+JOIN ni yozish uchun,
+
+00:00:15.070 --> 00:00:19.250
+birinchi kerak narsa xuddi boshqa so‘rovlardagidek SELECT va FROM bandlari.
+
+00:00:19.250 --> 00:00:22.179
+Bu vaziyatda biz hisob nomini har bir buyurtmaga qo‘shishni kutyapmiz.
+
+00:00:22.179 --> 00:00:25.035
+Shuning uchun biz Buyurtmalar jadvalidan boshlaymiz.
+
+00:00:25.035 --> 00:00:28.375
+Siz sezyapsizki men so‘rovni amalga oshiryapman garchi u tugallanmagan bo‘lsada.
+
+00:00:28.375 --> 00:00:30.269
+Bu so‘rovimning birinchi qismida xato va kamchiliklarni
+
+00:00:30.269 --> 00:00:32.924
+qilmaganligimni tekshirishning oson usuli.
+
+00:00:32.924 --> 00:00:37.179
+U ishlaganligidan biz JOIN ni yozishga o‘tamiz.
+
+00:00:37.179 --> 00:00:39.670
+Keyingi kerakli narsa JOIN bandi.
+
+00:00:39.670 --> 00:00:42.484
+Siz buni ikkinchi FROM bandi kabi o‘ylashingiz mumkin.
+
+00:00:42.484 --> 00:00:45.869
+U biz qo‘shishni xohlagan ma’lumotlar jadvalini aniqlaydi.
+
+00:00:45.869 --> 00:00:49.189
+Bu vaziyatda hisob nomlari Accounts jadvalida yotadi,
+
+00:00:49.189 --> 00:00:52.320
+demak bu biz yozganlar.
+
+00:00:52.320 --> 00:00:56.700
+Oxiri biz ikki jadval o‘rtasidagi munosabatni aniqlashtirishimiz kerak.
+
+00:00:56.700 --> 00:01:00.534
+Bu ON bandiga mantiqiy qiymat yozish orqali sodir bo‘ladi.
+
+00:01:00.534 --> 00:01:01.905
+Endi birikma tayyor,
+
+00:01:01.905 --> 00:01:03.899
+keling so‘rovni tugallash uchun SELECT bayonotiga Accounts
+
+00:01:03.899 --> 00:01:07.079
+jadvalidan bir nechta ustunlarni qo‘shamiz.
+
+00:01:07.079 --> 00:01:09.810
+Siz ko‘rishingiz mumkin natijalar buyurtmalar haqida ma’lumotlar
+
+00:01:09.810 --> 00:01:13.000
+va ulardan o‘rin olgan hisoblarni o‘z ichiga olgan.
+

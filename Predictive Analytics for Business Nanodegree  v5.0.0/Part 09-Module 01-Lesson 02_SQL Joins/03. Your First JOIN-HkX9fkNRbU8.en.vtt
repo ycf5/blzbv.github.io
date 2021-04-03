@@ -1,0 +1,79 @@
+WEBVTT
+Kind: captions
+Language: en
+
+00:00:00.000 --> 00:00:03.265
+JOINS will make your queries a little bit more complicated.
+
+00:00:03.265 --> 00:00:05.160
+Let's break down all the parts of a JOIN to
+
+00:00:05.160 --> 00:00:08.180
+see what they do before you write some of your own.
+
+00:00:08.180 --> 00:00:10.410
+We'll start by writing what's called an INNER JOIN
+
+00:00:10.410 --> 00:00:13.950
+and we'll move on to other types of JOINS shortly.
+
+00:00:13.950 --> 00:00:15.070
+In order to write a JOIN,
+
+00:00:15.070 --> 00:00:19.250
+the first thing will need are SELECT and FROM clauses just like any other query.
+
+00:00:19.250 --> 00:00:22.180
+In this case, we're looking to add account names to each order.
+
+00:00:22.180 --> 00:00:25.035
+So we'll start with the Orders table.
+
+00:00:25.035 --> 00:00:28.375
+You'll notice I'm running this query even though it's not yet finished.
+
+00:00:28.375 --> 00:00:30.270
+This is an easy way to make sure I haven't made
+
+00:00:30.270 --> 00:00:32.925
+any typos or errors in the first part of my query.
+
+00:00:32.925 --> 00:00:37.180
+Since it worked, we can move on to write the JOIN.
+
+00:00:37.180 --> 00:00:39.670
+The next thing we need is a JOIN clause.
+
+00:00:39.670 --> 00:00:42.485
+You can think of this like a second FROM clause.
+
+00:00:42.485 --> 00:00:45.870
+It identifies the table where the data that we want to join lives.
+
+00:00:45.870 --> 00:00:49.190
+In this case, account names live in the Accounts table,
+
+00:00:49.190 --> 00:00:52.320
+so that's what we've written.
+
+00:00:52.320 --> 00:00:56.700
+Finally, we need to specify the relationship between the two tables.
+
+00:00:56.700 --> 00:01:00.535
+This happens by writing a logical statement in the ON clause.
+
+00:01:00.535 --> 00:01:01.905
+Now that the join is complete,
+
+00:01:01.905 --> 00:01:03.900
+let's add some columns from the Accounts table
+
+00:01:03.900 --> 00:01:07.080
+into our SELECT statement to complete the query.
+
+00:01:07.080 --> 00:01:09.810
+You can see that the results now contain information
+
+00:01:09.810 --> 00:01:13.350
+about the orders and the accounts that placed them.
+

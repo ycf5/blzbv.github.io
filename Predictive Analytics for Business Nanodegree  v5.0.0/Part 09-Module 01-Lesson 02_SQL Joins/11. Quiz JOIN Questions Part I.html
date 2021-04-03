@@ -1,0 +1,336 @@
+<!-- udacity2.0 -->
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Quiz: JOIN Questions Part I</title>
+  <link rel="stylesheet" href="../assets/css/bootstrap.min.css">
+  <link rel="stylesheet" href="../assets/css/plyr.css">
+  <link rel="stylesheet" href="../assets/css/katex.min.css">
+  <link rel="stylesheet" href="../assets/css/jquery.mCustomScrollbar.min.css">
+  <link rel="stylesheet" href="../assets/css/styles.css">
+  <link rel="shortcut icon" type="image/png" href="../assets/img/udacimak.png" />
+</head>
+
+<body>
+  <div class="wrapper">
+    <nav id="sidebar">
+  <div class="sidebar-header">
+    <h3>SQL Joins</h3>
+  </div>
+
+  <ul class="sidebar-list list-unstyled CTAs">
+    <li>
+      <a href="../index.html" class="article">Back to Home</a>
+    </li>
+  </ul>
+
+  <ul class="sidebar-list list-unstyled components">
+    <li class="">
+      <a href="01. Video Motivation.html">01. Video: Motivation</a>
+    </li>
+    <li class="">
+      <a href="02. Video Why Would We Want to Split Data Into Separate Tables.html">02. Video: Why Would We Want to Split Data Into Separate Tables?</a>
+    </li>
+    <li class="">
+      <a href="03. Video Introduction to JOINs.html">03. Video: Introduction to JOINs</a>
+    </li>
+    <li class="">
+      <a href="04. Text + Quiz Your First JOIN.html">04. Text + Quiz: Your First JOIN</a>
+    </li>
+    <li class="">
+      <a href="05. Solution Your First JOIN.html">05. Solution: Your First JOIN</a>
+    </li>
+    <li class="">
+      <a href="06. Text ERD Reminder.html">06. Text: ERD Reminder</a>
+    </li>
+    <li class="">
+      <a href="07. Text Primary and Foreign Keys.html">07. Text: Primary and Foreign Keys</a>
+    </li>
+    <li class="">
+      <a href="08. Quiz Primary - Foreign Key Relationship.html">08. Quiz: Primary - Foreign Key Relationship</a>
+    </li>
+    <li class="">
+      <a href="09. Text + Quiz JOIN Revisited.html">09. Text + Quiz: JOIN Revisited</a>
+    </li>
+    <li class="">
+      <a href="10. Video Alias.html">10. Video: Alias</a>
+    </li>
+    <li class="">
+      <a href="11. Quiz JOIN Questions Part I.html">11. Quiz: JOIN Questions Part I</a>
+    </li>
+    <li class="">
+      <a href="12. Solutions JOIN Questions Part I.html">12. Solutions: JOIN Questions Part I</a>
+    </li>
+    <li class="">
+      <a href="13. Video Motivation for Other JOINs.html">13. Video: Motivation for Other JOINs</a>
+    </li>
+    <li class="">
+      <a href="14. Video LEFT and RIGHT JOINs.html">14. Video: LEFT and RIGHT JOINs</a>
+    </li>
+    <li class="">
+      <a href="15. Text Other JOIN Notes.html">15. Text: Other JOIN Notes</a>
+    </li>
+    <li class="">
+      <a href="16. LEFT and RIGHT JOIN.html">16. LEFT and RIGHT JOIN</a>
+    </li>
+    <li class="">
+      <a href="17. Solutions LEFT and RIGHT JOIN .html">17. Solutions: LEFT and RIGHT JOIN </a>
+    </li>
+    <li class="">
+      <a href="18. Video JOINs and Filtering.html">18. Video: JOINs and Filtering</a>
+    </li>
+    <li class="">
+      <a href="19. Quiz Last Check.html">19. Quiz: Last Check</a>
+    </li>
+    <li class="">
+      <a href="20. Solutions Last Check.html">20. Solutions: Last Check</a>
+    </li>
+    <li class="">
+      <a href="21. Text Recap &amp; Looking Ahead.html">21. Text: Recap &amp; Looking Ahead</a>
+    </li>
+  </ul>
+
+  <ul class="sidebar-list list-unstyled CTAs">
+    <li>
+      <a href="../index.html" class="article">Back to Home</a>
+    </li>
+  </ul>
+</nav>
+
+    <div id="content">
+      <header class="container-fluild header">
+        <div class="container">
+          <div class="row">
+            <div class="col-12">
+              <div class="align-items-middle">
+                <button type="button" id="sidebarCollapse" class="btn btn-toggle-sidebar">
+                  <div></div>
+                  <div></div>
+                  <div></div>
+                </button>
+
+                <h1 style="display: inline-block">11. Quiz: JOIN Questions Part I</h1>
+              </div>
+            </div>
+          </div>
+        </div>
+      </header>
+
+      <main class="container">
+        <div class="row">
+          <div class="col-12">
+            <div class="ud-atom">
+  <h3></h3>
+  <div>
+  <h1 id="question-mania">Question Mania</h1>
+<p>Now that you have been introduced to JOINs, let's practice to build your skills and comfort with this new tool.  Below I have provided the <strong>ERD</strong> and a bunch of questions.  The solutions for the questions can be found on the next concept for you to check your answers or just in case you get stuck!</p>
+</div>
+
+</div>
+<div class="divider"></div><div class="ud-atom">
+  <h3></h3>
+  <div>
+  <figure class="figure">
+    <img src="img/screen-shot-2017-11-16-at-3.54.06-pm.png" alt="" class="img img-fluid">
+    <figcaption class="figure-caption">
+      
+    </figcaption>
+  </figure>
+</div>
+
+
+</div>
+<div class="divider"></div><div class="ud-atom">
+  <h3></h3>
+  <div>
+  <p>I recommend testing your queries with the environment below, and then saving them to a file.  Then compare your file to my solutions on the next concept!</p>
+<h1 id="questions">Questions</h1>
+<ol>
+<li>Provide a table for all <strong>web_events</strong> associated with account <strong>name</strong> of <code>Walmart</code>.  There should be three columns.  Be sure to include the <code>primary_poc</code>, time of the event, and the <code>channel</code> for each event.  Additionally, you might choose to add a fourth column to assure only <code>Walmart</code> events were chosen. <br><br></li>
+<li>Provide a table that provides the <strong>region</strong> for each <strong>sales_rep</strong> along with their associated <strong>accounts</strong>.  Your final table should include three columns: the region <strong>name</strong>, the sales rep <strong>name</strong>, and the account <strong>name</strong>. Sort the accounts alphabetically (A-Z) according to account name. <br><br></li>
+<li>Provide the <strong>name</strong> for each region for every <strong>order</strong>, as well as the account <strong>name</strong> and the <strong>unit price</strong> they paid (total_amt_usd/total) for the order.  Your final table should have 3 columns: <strong>region name</strong>, <strong>account name</strong>, and <strong>unit price</strong>.  A few accounts have 0 for <strong>total</strong>, so I divided by (total + 0.01) to assure not dividing by zero.<br><br></li>
+</ol>
+</div>
+
+</div>
+<div class="divider"></div><div class="ud-atom">
+  <h3></h3>
+  <div class="jumbotron">
+  <h3>Code</h3>
+
+  <p class="lead">If you need a code on the <a href="https://github.com/udacity"
+    target="_blank">https://github.com/udacity</a>. </p>
+
+  </ul>
+</div>
+
+</div>
+<div class="divider"></div><div class="ud-atom">
+  <h3></h3>
+  <div>
+  <form>
+    <fieldset>
+      <legend><p>Mark all the below that are true.  </p></legend>
+    </fieldset>
+
+    <div>
+      <input type="checkbox" value="a1502725632679" name="371478" id="a1502725632679">
+      <label for="a1502725632679"><p>The <strong>ON</strong> statement <strong>should</strong> always occur with the foreign key being equal to the primary key.</p></label>
+    </div>
+    <div>
+      <input type="checkbox" value="a1502725698374" name="371478" id="a1502725698374">
+      <label for="a1502725698374"><p><strong>SQL</strong> <strong>requires</strong> the <strong>ON</strong> statement always occur with the foreign key being equal to the primary key.</p></label>
+    </div>
+    <div>
+      <input type="checkbox" value="a1502725721056" name="371478" id="a1502725721056">
+      <label for="a1502725721056"><p><strong>JOIN</strong> statements allow us to pull data from multiple tables in a <strong>SQL</strong> database.</p></label>
+    </div>
+    <div>
+      <input type="checkbox" value="a1502726132662" name="371478" id="a1502726132662">
+      <label for="a1502726132662"><p>You can use all of the commands we saw in the first lesson along with <strong>JOIN</strong> statements.</p></label>
+    </div>
+    <div>
+      <input type="checkbox" value="a1502726133344" name="371478" id="a1502726133344">
+      <label for="a1502726133344"><p>The only way to pull data together from multiple tables is using a <strong>JOIN</strong> statement.</p></label>
+    </div>
+  </form>
+
+  <details>
+    <summary><strong>SOLUTION:</strong></summary>
+    <ul>
+      <li>The **ON** statement **should** always occur with the foreign key being equal to the primary key.</li>
+      <li>**JOIN** statements allow us to pull data from multiple tables in a **SQL** database.</li>
+      <li>You can use all of the commands we saw in the first lesson along with **JOIN** statements.</li>
+  </ul>
+  </details>
+</div>
+
+</div>
+<div class="divider"></div><div class="ud-atom">
+  <h3></h3>
+  <div>
+  <form>
+    <fieldset>
+      <legend><p>Select all of the below statements that are true.</p></legend>
+    </fieldset>
+
+    <div>
+      <input type="checkbox" value="a1502732764332" name="371498" id="a1502732764332">
+      <label for="a1502732764332"><p>If we want to alias a table, we <strong>must</strong> use an <strong>AS</strong> in our query.</p></label>
+    </div>
+    <div>
+      <input type="checkbox" value="a1502733186945" name="371498" id="a1502733186945">
+      <label for="a1502733186945"><p>If we want to alias a column, we <strong>must</strong> use an <strong>AS</strong> in our query.</p></label>
+    </div>
+    <div>
+      <input type="checkbox" value="a1502733472038" name="371498" id="a1502733472038">
+      <label for="a1502733472038"><p>Aliasing is common to shorten table names when we start <strong>JOIN</strong>ing multiple tables together.  </p></label>
+    </div>
+  </form>
+
+  <details>
+    <summary><strong>SOLUTION:</strong></summary>
+    <ul>
+      <li>Aliasing is common to shorten table names when we start **JOIN**ing multiple tables together.  </li>
+  </ul>
+  </details>
+</div>
+
+</div>
+<div class="divider"></div>
+          </div>
+
+          <div class="col-12">
+            <p class="text-right">
+              <a href="12. Solutions JOIN Questions Part I.html" class="btn btn-outline-primary mt-4" role="button">Next Concept</a>
+            </p>
+          </div>
+        </div>
+      </main>
+
+      <footer class="footer">
+        <div class="container">
+          <div class="row">
+            <div class="col-12">
+              <p class="text-center">
+                <a href="https://us-udacity.github.io/" target="_blank">【udacity2.0 】If you need more courses, please add wechat：udacity6</a>
+              </p>
+            </div>
+          </div>
+        </div>
+      </footer>
+    </div>
+  </div>
+
+
+  <script src="../assets/js/jquery-3.3.1.min.js"></script>
+  <script src="../assets/js/plyr.polyfilled.min.js"></script>
+  <script src="../assets/js/bootstrap.min.js"></script>
+  <script src="../assets/js/jquery.mCustomScrollbar.concat.min.js"></script>
+  <script src="../assets/js/katex.min.js"></script>
+  <script>
+    // Initialize Plyr video players
+    const players = Array.from(document.querySelectorAll('video')).map(p => new Plyr(p));
+
+    // render math equations
+    let elMath = document.getElementsByClassName('mathquill');
+    for (let i = 0, len = elMath.length; i < len; i += 1) {
+      const el = elMath[i];
+
+      katex.render(el.textContent, el, {
+        throwOnError: false
+      });
+    }
+
+    // this hack will make sure Bootstrap tabs work when using Handlebars
+    if ($('#question-tabs').length && $('#user-answer-tabs').length) {
+      $("#question-tabs a.nav-link").on('click', function () {
+        $("#question-tab-contents .tab-pane").hide();
+        $($(this).attr("href")).show();
+      });
+      $("#user-answer-tabs a.nav-link").on('click', function () {
+        $("#user-answer-tab-contents .tab-pane").hide();
+        $($(this).attr("href")).show();
+      });
+    } else {
+      $("a.nav-link").on('click', function () {
+        $(".tab-pane").hide();
+        $($(this).attr("href")).show();
+      });
+    }
+
+    // side bar events
+    $(document).ready(function () {
+      $("#sidebar").mCustomScrollbar({
+        theme: "minimal"
+      });
+
+      $('#sidebarCollapse').on('click', function () {
+        $('#sidebar, #content').toggleClass('active');
+        $('.collapse.in').toggleClass('in');
+        $('a[aria-expanded=true]').attr('aria-expanded', 'false');
+      });
+
+      // scroll to first video on page loading
+      if ($('video').length) {
+        $('html,body').animate({ scrollTop: $('div.plyr').prev().offset().top});
+      }
+
+      // auto play first video: this may not work with chrome/safari due to autoplay policy
+      if (players && players.length > 0) {
+        players[0].play();
+      }
+
+      // scroll sidebar to current concept
+      const currentInSideBar = $( "ul.sidebar-list.components li a:contains('11. Quiz: JOIN Questions Part I')" )
+      currentInSideBar.css( "text-decoration", "underline" );
+      $("#sidebar").mCustomScrollbar('scrollTo', currentInSideBar);
+    });
+  </script>
+</body>
+
+</html>

@@ -1,0 +1,325 @@
+<!-- udacity2.0 -->
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Solutions: Last Check</title>
+  <link rel="stylesheet" href="../assets/css/bootstrap.min.css">
+  <link rel="stylesheet" href="../assets/css/plyr.css">
+  <link rel="stylesheet" href="../assets/css/katex.min.css">
+  <link rel="stylesheet" href="../assets/css/jquery.mCustomScrollbar.min.css">
+  <link rel="stylesheet" href="../assets/css/styles.css">
+  <link rel="shortcut icon" type="image/png" href="../assets/img/udacimak.png" />
+</head>
+
+<body>
+  <div class="wrapper">
+    <nav id="sidebar">
+  <div class="sidebar-header">
+    <h3>SQL Joins</h3>
+  </div>
+
+  <ul class="sidebar-list list-unstyled CTAs">
+    <li>
+      <a href="../index.html" class="article">Back to Home</a>
+    </li>
+  </ul>
+
+  <ul class="sidebar-list list-unstyled components">
+    <li class="">
+      <a href="01. Video Motivation.html">01. Video: Motivation</a>
+    </li>
+    <li class="">
+      <a href="02. Video Why Would We Want to Split Data Into Separate Tables.html">02. Video: Why Would We Want to Split Data Into Separate Tables?</a>
+    </li>
+    <li class="">
+      <a href="03. Video Introduction to JOINs.html">03. Video: Introduction to JOINs</a>
+    </li>
+    <li class="">
+      <a href="04. Text + Quiz Your First JOIN.html">04. Text + Quiz: Your First JOIN</a>
+    </li>
+    <li class="">
+      <a href="05. Solution Your First JOIN.html">05. Solution: Your First JOIN</a>
+    </li>
+    <li class="">
+      <a href="06. Text ERD Reminder.html">06. Text: ERD Reminder</a>
+    </li>
+    <li class="">
+      <a href="07. Text Primary and Foreign Keys.html">07. Text: Primary and Foreign Keys</a>
+    </li>
+    <li class="">
+      <a href="08. Quiz Primary - Foreign Key Relationship.html">08. Quiz: Primary - Foreign Key Relationship</a>
+    </li>
+    <li class="">
+      <a href="09. Text + Quiz JOIN Revisited.html">09. Text + Quiz: JOIN Revisited</a>
+    </li>
+    <li class="">
+      <a href="10. Video Alias.html">10. Video: Alias</a>
+    </li>
+    <li class="">
+      <a href="11. Quiz JOIN Questions Part I.html">11. Quiz: JOIN Questions Part I</a>
+    </li>
+    <li class="">
+      <a href="12. Solutions JOIN Questions Part I.html">12. Solutions: JOIN Questions Part I</a>
+    </li>
+    <li class="">
+      <a href="13. Video Motivation for Other JOINs.html">13. Video: Motivation for Other JOINs</a>
+    </li>
+    <li class="">
+      <a href="14. Video LEFT and RIGHT JOINs.html">14. Video: LEFT and RIGHT JOINs</a>
+    </li>
+    <li class="">
+      <a href="15. Text Other JOIN Notes.html">15. Text: Other JOIN Notes</a>
+    </li>
+    <li class="">
+      <a href="16. LEFT and RIGHT JOIN.html">16. LEFT and RIGHT JOIN</a>
+    </li>
+    <li class="">
+      <a href="17. Solutions LEFT and RIGHT JOIN .html">17. Solutions: LEFT and RIGHT JOIN </a>
+    </li>
+    <li class="">
+      <a href="18. Video JOINs and Filtering.html">18. Video: JOINs and Filtering</a>
+    </li>
+    <li class="">
+      <a href="19. Quiz Last Check.html">19. Quiz: Last Check</a>
+    </li>
+    <li class="">
+      <a href="20. Solutions Last Check.html">20. Solutions: Last Check</a>
+    </li>
+    <li class="">
+      <a href="21. Text Recap &amp; Looking Ahead.html">21. Text: Recap &amp; Looking Ahead</a>
+    </li>
+  </ul>
+
+  <ul class="sidebar-list list-unstyled CTAs">
+    <li>
+      <a href="../index.html" class="article">Back to Home</a>
+    </li>
+  </ul>
+</nav>
+
+    <div id="content">
+      <header class="container-fluild header">
+        <div class="container">
+          <div class="row">
+            <div class="col-12">
+              <div class="align-items-middle">
+                <button type="button" id="sidebarCollapse" class="btn btn-toggle-sidebar">
+                  <div></div>
+                  <div></div>
+                  <div></div>
+                </button>
+
+                <h1 style="display: inline-block">20. Solutions: Last Check</h1>
+              </div>
+            </div>
+          </div>
+        </div>
+      </header>
+
+      <main class="container">
+        <div class="row">
+          <div class="col-12">
+            <div class="ud-atom">
+  <h3></h3>
+  <div>
+  <h1 id="solutions">Solutions</h1>
+<ol>
+<li>Provide a table that provides the <strong>region</strong> for each <strong>sales_rep</strong> along with their associated <strong>accounts</strong>.  This time only for the <code>Midwest</code> region.  Your final table should include three columns: the region <strong>name</strong>, the sales rep <strong>name</strong>, and the account <strong>name</strong>. Sort the accounts alphabetically (A-Z) according to account name.</li>
+</ol>
+<pre><code>SELECT r.name region, s.name rep, a.name account
+FROM sales_reps s
+JOIN region r
+ON s.region_id = r.id
+JOIN accounts a
+ON a.sales_rep_id = s.id
+WHERE r.name = 'Midwest'
+ORDER BY a.name;</code></pre>
+<ol start="2">
+<li>Provide a table that provides the <strong>region</strong> for each <strong>sales_rep</strong> along with their associated <strong>accounts</strong>.  This time only for accounts where the sales rep has a first name starting with <code>S</code> and in the <code>Midwest</code> region.  Your final table should include three columns: the region <strong>name</strong>, the sales rep <strong>name</strong>, and the account <strong>name</strong>.  Sort the accounts alphabetically (A-Z) according to account name.</li>
+</ol>
+<pre><code>SELECT r.name region, s.name rep, a.name account
+FROM sales_reps s
+JOIN region r
+ON s.region_id = r.id
+JOIN accounts a
+ON a.sales_rep_id = s.id
+WHERE r.name = 'Midwest' AND s.name LIKE 'S%'
+ORDER BY a.name;</code></pre>
+<ol start="3">
+<li>Provide a table that provides the <strong>region</strong> for each <strong>sales_rep</strong> along with their associated <strong>accounts</strong>.  This time only for accounts where the sales rep has a <strong>last</strong> name starting with <code>K</code> and in the <code>Midwest</code> region.  Your final table should include three columns: the region <strong>name</strong>, the sales rep <strong>name</strong>, and the account <strong>name</strong>. Sort the accounts alphabetically (A-Z) according to account name.</li>
+</ol>
+<pre><code>SELECT r.name region, s.name rep, a.name account
+FROM sales_reps s
+JOIN region r
+ON s.region_id = r.id
+JOIN accounts a
+ON a.sales_rep_id = s.id
+WHERE r.name = 'Midwest' AND s.name LIKE '% K%'
+ORDER BY a.name;</code></pre>
+<ol start="4">
+<li>Provide the <strong>name</strong> for each region for every <strong>order</strong>, as well as the account <strong>name</strong> and the <strong>unit price</strong> they paid (total_amt_usd/total) for the order.  However, you should only provide the results if the <strong>standard order quantity</strong> exceeds <code>100</code>. Your final table should have 3 columns: <strong>region name</strong>, <strong>account name</strong>, and <strong>unit price</strong>. </li>
+</ol>
+<pre><code>SELECT r.name region, a.name account, o.total_amt_usd/(o.total + 0.01) unit_price
+FROM region r
+JOIN sales_reps s
+ON s.region_id = r.id
+JOIN accounts a
+ON a.sales_rep_id = s.id
+JOIN orders o
+ON o.account_id = a.id
+WHERE o.standard_qty &gt; 100;</code></pre>
+<ol start="5">
+<li>Provide the <strong>name</strong> for each region for every <strong>order</strong>, as well as the account <strong>name</strong> and the <strong>unit price</strong> they paid (total_amt_usd/total) for the order.  However, you should only provide the results if the <strong>standard order quantity</strong> exceeds <code>100</code> and the <strong>poster order quantity</strong> exceeds <code>50</code>.  Your final table should have 3 columns: <strong>region name</strong>, <strong>account name</strong>, and <strong>unit price</strong>. Sort for the smallest <strong>unit price</strong> first. </li>
+</ol>
+<pre><code>SELECT r.name region, a.name account, o.total_amt_usd/(o.total + 0.01) unit_price
+FROM region r
+JOIN sales_reps s
+ON s.region_id = r.id
+JOIN accounts a
+ON a.sales_rep_id = s.id
+JOIN orders o
+ON o.account_id = a.id
+WHERE o.standard_qty &gt; 100 AND o.poster_qty &gt; 50
+ORDER BY unit_price;</code></pre>
+<ol start="6">
+<li>Provide the <strong>name</strong> for each region for every <strong>order</strong>, as well as the account <strong>name</strong> and the <strong>unit price</strong> they paid (total_amt_usd/total) for the order.  However, you should only provide the results if the <strong>standard order quantity</strong> exceeds <code>100</code> and the <strong>poster order quantity</strong> exceeds <code>50</code>.  Your final table should have 3 columns: <strong>region name</strong>, <strong>account name</strong>, and <strong>unit price</strong>. Sort for the largest <strong>unit price</strong> first. </li>
+</ol>
+<pre><code>SELECT r.name region, a.name account, o.total_amt_usd/(o.total + 0.01) unit_price
+FROM region r
+JOIN sales_reps s
+ON s.region_id = r.id
+JOIN accounts a
+ON a.sales_rep_id = s.id
+JOIN orders o
+ON o.account_id = a.id
+WHERE o.standard_qty &gt; 100 AND o.poster_qty &gt; 50
+ORDER BY unit_price DESC;</code></pre>
+<ol start="7">
+<li>What are the different <strong>channel</strong>s used by <strong>account id</strong> <code>1001</code>?  Your final table should have only 2 columns: <strong>account name</strong> and the different <strong>channel</strong>s.  You can try <strong>SELECT DISTINCT</strong> to narrow down the results to only the unique values.</li>
+</ol>
+<pre><code>SELECT DISTINCT a.name, w.channel
+FROM accounts a
+JOIN web_events w
+ON a.id = w.account_id
+WHERE a.id = '1001';</code></pre>
+<ol start="8">
+<li>Find all the orders that occurred in <code>2015</code>.  Your final table should have 4 columns: <strong>occurred_at</strong>, <strong>account name</strong>, <strong>order total</strong>, and <strong>order total_amt_usd</strong>.  </li>
+</ol>
+<pre><code>SELECT o.occurred_at, a.name, o.total, o.total_amt_usd
+FROM accounts a
+JOIN orders o
+ON o.account_id = a.id
+WHERE o.occurred_at BETWEEN '01-01-2015' AND '01-01-2016'
+ORDER BY o.occurred_at DESC;</code></pre>
+</div>
+
+</div>
+<div class="divider"></div><div class="ud-atom">
+  <h3></h3>
+  <div class="jumbotron">
+  <h3>Code</h3>
+
+  <p class="lead">If you need a code on the <a href="https://github.com/udacity"
+    target="_blank">https://github.com/udacity</a>. </p>
+
+  </ul>
+</div>
+
+</div>
+<div class="divider"></div>
+          </div>
+
+          <div class="col-12">
+            <p class="text-right">
+              <a href="21. Text Recap &amp; Looking Ahead.html" class="btn btn-outline-primary mt-4" role="button">Next Concept</a>
+            </p>
+          </div>
+        </div>
+      </main>
+
+      <footer class="footer">
+        <div class="container">
+          <div class="row">
+            <div class="col-12">
+              <p class="text-center">
+                <a href="https://us-udacity.github.io/" target="_blank">【udacity2.0 】If you need more courses, please add wechat：udacity6</a>
+              </p>
+            </div>
+          </div>
+        </div>
+      </footer>
+    </div>
+  </div>
+
+
+  <script src="../assets/js/jquery-3.3.1.min.js"></script>
+  <script src="../assets/js/plyr.polyfilled.min.js"></script>
+  <script src="../assets/js/bootstrap.min.js"></script>
+  <script src="../assets/js/jquery.mCustomScrollbar.concat.min.js"></script>
+  <script src="../assets/js/katex.min.js"></script>
+  <script>
+    // Initialize Plyr video players
+    const players = Array.from(document.querySelectorAll('video')).map(p => new Plyr(p));
+
+    // render math equations
+    let elMath = document.getElementsByClassName('mathquill');
+    for (let i = 0, len = elMath.length; i < len; i += 1) {
+      const el = elMath[i];
+
+      katex.render(el.textContent, el, {
+        throwOnError: false
+      });
+    }
+
+    // this hack will make sure Bootstrap tabs work when using Handlebars
+    if ($('#question-tabs').length && $('#user-answer-tabs').length) {
+      $("#question-tabs a.nav-link").on('click', function () {
+        $("#question-tab-contents .tab-pane").hide();
+        $($(this).attr("href")).show();
+      });
+      $("#user-answer-tabs a.nav-link").on('click', function () {
+        $("#user-answer-tab-contents .tab-pane").hide();
+        $($(this).attr("href")).show();
+      });
+    } else {
+      $("a.nav-link").on('click', function () {
+        $(".tab-pane").hide();
+        $($(this).attr("href")).show();
+      });
+    }
+
+    // side bar events
+    $(document).ready(function () {
+      $("#sidebar").mCustomScrollbar({
+        theme: "minimal"
+      });
+
+      $('#sidebarCollapse').on('click', function () {
+        $('#sidebar, #content').toggleClass('active');
+        $('.collapse.in').toggleClass('in');
+        $('a[aria-expanded=true]').attr('aria-expanded', 'false');
+      });
+
+      // scroll to first video on page loading
+      if ($('video').length) {
+        $('html,body').animate({ scrollTop: $('div.plyr').prev().offset().top});
+      }
+
+      // auto play first video: this may not work with chrome/safari due to autoplay policy
+      if (players && players.length > 0) {
+        players[0].play();
+      }
+
+      // scroll sidebar to current concept
+      const currentInSideBar = $( "ul.sidebar-list.components li a:contains('20. Solutions: Last Check')" )
+      currentInSideBar.css( "text-decoration", "underline" );
+      $("#sidebar").mCustomScrollbar('scrollTo', currentInSideBar);
+    });
+  </script>
+</body>
+
+</html>

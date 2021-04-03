@@ -1,0 +1,70 @@
+WEBVTT
+Kind: captions
+Language: uz
+
+00:00:00.000 --> 00:00:03.930
+Ichki qo‘shilmalar bilan ishlashda siz payqagan narsalardan biri shuki, siz qo‘shilgan ma’lumotlar
+
+00:00:03.930 --> 00:00:08.849
+bittasi bittaga yoki bittasi ko‘pga aloqasi bo‘ladi.
+
+00:00:08.849 --> 00:00:11.490
+Boshqacha aytganda, bitta hisob faqat bitta buyurtmani joylashtirishi mumkin
+
+00:00:11.490 --> 00:00:15.859
+boshqa hisob ko‘p buyurtmalarga ega bo‘lib turgan bir paytda.
+
+00:00:15.859 --> 00:00:17.894
+Biz asosan buyurtmalarga e’tibor qaratganimiz uchun,
+
+00:00:17.894 --> 00:00:20.754
+siz ehtimol turli xildagi munosabatlarni o‘tkazib yuborgandirsiz.
+
+00:00:20.754 --> 00:00:23.609
+Bu hisoblarning bir nechtasi Parch va Posy sotuv jamoasi bilan endigina yangi aloqalarni
+
+00:00:23.609 --> 00:00:27.035
+rivojlantirayotganva hali birorta ham buyurtma yo‘q.
+
+00:00:27.035 --> 00:00:28.934
+Demak, biz ushbu jadvallarni qo‘shganimizda,
+
+00:00:28.934 --> 00:00:31.149
+hech qanday buyurtmasiz hisoblarga nima bo‘ladi?
+
+00:00:31.149 --> 00:00:33.060
+Ular qayerga ketadi?
+
+00:00:33.060 --> 00:00:35.729
+Ayonki, siz nima qilmoqchiligingizga bog‘liq holda ularni saqlab qolish
+
+00:00:35.729 --> 00:00:39.390
+yoki natijalar to‘plamidan chiqarib yuborishni xohlashingiz mumkin.
+
+00:00:39.390 --> 00:00:43.244
+Masalan, agar siz oddiygina har bir buyurtmaga hisob nomini biriktirib chiqsangiz,
+
+00:00:43.244 --> 00:00:46.924
+unda buyurtmasiz hisoblarni chiqarib tashlash yaxshi bo‘lishi mumkin.
+
+00:00:46.924 --> 00:00:49.890
+Bu aynan biz avvalroq INNER JOINda bajarganimiz.
+
+00:00:49.890 --> 00:00:51.990
+Agar sizning maqsadingiz sotib olingan qog‘ozlar bilan bir qatorda
+
+00:00:51.990 --> 00:00:54.689
+mintaqadagi barcha hisoblarni hisoblab chiqish bo‘lsa,
+
+00:00:54.689 --> 00:00:57.895
+siz buyurtmasiz hisoblarni ham qamrab olishni xohlashingiz mumkin.
+
+00:00:57.895 --> 00:00:59.744
+Bu OUTER JOINdan foydalanib amalga oshiriladi.
+
+00:00:59.744 --> 00:01:02.340
+Keyingi bo‘limda men sizlarga bir necha turdagi qo‘shilmalarni ko‘rsataman
+
+00:01:02.340 --> 00:01:06.000
+va o‘zingiz yozib amaliy bajarishingizga imkon beraman.
+

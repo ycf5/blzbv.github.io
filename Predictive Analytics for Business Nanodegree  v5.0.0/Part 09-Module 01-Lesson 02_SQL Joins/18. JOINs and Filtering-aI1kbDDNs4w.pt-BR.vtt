@@ -1,0 +1,153 @@
+WEBVTT
+Kind: captions
+Language: pt-BR
+
+00:00:00.067 --> 00:00:05.434
+O complicado dos joins é que eles
+permitem fazer outras análises.
+
+00:00:05.467 --> 00:00:08.434
+A combinação de dados
+é a única função dele.
+
+00:00:08.467 --> 00:00:13.567
+Ele permite filtrar ou agregar
+um conjunto de informações.
+
+00:00:13.601 --> 00:00:17.067
+As consultas que utilizam joins
+podem ser complicadas.
+
+00:00:17.100 --> 00:00:22.567
+Para obter os resultados desejados,
+precisamos saber filtrar os dados.
+
+00:00:22.601 --> 00:00:25.234
+E existem muitas opções.
+
+00:00:25.268 --> 00:00:30.634
+Para ilustrar isso, vejamos
+todos os pedidos de um vendedor.
+
+00:00:30.667 --> 00:00:33.767
+Imagine-se como gerente de vendas
+na Parch &amp; Posey.
+
+00:00:33.801 --> 00:00:36.334
+Ele deseja que os vendedores
+encontrem os pedidos
+
+00:00:36.368 --> 00:00:40.968
+e não precisem procurar
+ou tentar se lembrar de todos.
+
+00:00:41.002 --> 00:00:44.133
+O ID do vendedor
+está na tabela de pedidos,
+
+00:00:44.167 --> 00:00:47.133
+então o join é necessário
+para obter as informações.
+
+00:00:47.167 --> 00:00:50.467
+Começamos filtrando os dados
+com algo que já conhecemos,
+
+00:00:50.501 --> 00:00:52.167
+a expressão "where".
+
+00:00:52.200 --> 00:00:54.968
+Vamos pegar as tabelas
+de pedidos e contas combinadas
+
+00:00:55.002 --> 00:00:57.534
+e filtrar os resultados
+para obter os pedidos
+
+00:00:57.567 --> 00:01:01.534
+do vendedor 321.500.
+
+00:01:01.568 --> 00:01:04.200
+Como vemos,
+as únicas linhas exibidas
+
+00:01:04.234 --> 00:01:07.067
+são as que se encaixam
+no critério da expressão "where",
+
+00:01:07.100 --> 00:01:11.567
+as que possuem
+o ID do vendedor 321.500.
+
+00:01:12.200 --> 00:01:16.601
+E se quisermos
+marcar os pedidos
+
+00:01:16.634 --> 00:01:19.634
+e manter os outros pedidos?
+
+00:01:19.668 --> 00:01:22.634
+Podemos fazer isso
+filtrando com a expressão "on".
+
+00:01:23.267 --> 00:01:25.400
+Ao mudar de "where"
+para "and",
+
+00:01:25.434 --> 00:01:29.100
+incluímos a instrução lógica
+na expressão "on".
+
+00:01:29.133 --> 00:01:32.634
+Isso filtra a tabela da direita
+para incluir somente linhas
+
+00:01:32.668 --> 00:01:38.234
+com ID do vendedor 321.500,
+antes de o join ser executado.
+
+00:01:38.267 --> 00:01:43.434
+É como uma expressão "where"
+aplicada antes do join, não depois.
+
+00:01:43.467 --> 00:01:47.133
+É quase como juntar pedidos
+em outra tabela,
+
+00:01:47.167 --> 00:01:52.434
+uma que só inclua subconjuntos
+das linhas da tabela de contas.
+
+00:01:52.467 --> 00:01:54.267
+Como esse é um left join,
+
+00:01:54.301 --> 00:01:58.200
+o resultado incluirá
+todas as linhas da tabela de pedidos
+
+00:01:58.234 --> 00:02:02.667
+e os dados da tabela pré-filtrada
+que combinam com o ID da conta
+
+00:02:02.701 --> 00:02:04.968
+da tabela de pedidos.
+
+00:02:05.002 --> 00:02:09.767
+Como vemos, o vendedor 321.500
+só possui algumas contas.
+
+00:02:09.801 --> 00:02:12.501
+Muitos pedidos
+não são combinados.
+
+00:02:13.133 --> 00:02:17.367
+Pode parecer bobo deixar
+tantos pedidos sem o nome de conta,
+
+00:02:17.401 --> 00:02:21.133
+mas esse tipo de join será útil
+na agregação de dados
+
+00:02:21.167 --> 00:02:22.467
+da aula seguinte.
+

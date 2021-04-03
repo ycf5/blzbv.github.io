@@ -1,0 +1,100 @@
+WEBVTT
+Kind: captions
+Language: pt-BR
+
+00:00:00.234 --> 00:00:02.934
+Os joins complicam
+um pouco as consultas.
+
+00:00:02.968 --> 00:00:05.934
+Vejamos as partes do join
+para ver o que fazem
+
+00:00:05.968 --> 00:00:07.734
+antes de escrevermos um.
+
+00:00:08.400 --> 00:00:10.434
+Começaremos escrevendo
+um inner join,
+
+00:00:10.467 --> 00:00:13.667
+mas falaremos sobre os outros
+em breve.
+
+00:00:13.701 --> 00:00:17.334
+Para escrever um join, precisamos
+das expressões "select" e "from",
+
+00:00:17.367 --> 00:00:19.100
+como
+qualquer outra consulta.
+
+00:00:19.133 --> 00:00:22.067
+Adicionaremos nomes de conta
+aos pedidos
+
+00:00:22.101 --> 00:00:25.000
+e começaremos
+com a tabela de pedidos.
+
+00:00:25.034 --> 00:00:28.067
+Vou rodar a consulta
+antes mesmo de finalizá-la.
+
+00:00:28.100 --> 00:00:31.234
+Assim garanto
+que não haja nenhum erro
+
+00:00:31.268 --> 00:00:33.067
+na primeira parte
+da consulta.
+
+00:00:33.101 --> 00:00:36.033
+Agora podemos
+escrever o join.
+
+00:00:37.100 --> 00:00:39.634
+Precisamos
+de uma expressão join.
+
+00:00:39.668 --> 00:00:42.334
+É como uma segunda
+expressão "from".
+
+00:00:42.367 --> 00:00:45.601
+Ela identifica a tabela
+na qual os dados estão.
+
+00:00:46.267 --> 00:00:49.200
+Neste caso, os nomes
+estão na tabela Accounts,
+
+00:00:49.234 --> 00:00:51.234
+e é isso que escrevemos.
+
+00:00:52.300 --> 00:00:56.334
+Por fim, especificamos a relação
+entre as duas tabelas.
+
+00:00:56.367 --> 00:01:00.467
+Escrevemos uma instrução lógica
+na expressão "on".
+
+00:01:00.501 --> 00:01:01.934
+Após completar o join,
+
+00:01:01.968 --> 00:01:05.033
+adicionamos as colunas da tabela
+na instrução "select"
+
+00:01:05.067 --> 00:01:07.334
+para completar a consulta.
+
+00:01:07.368 --> 00:01:10.801
+O resultado agora contém
+as informações sobre os pedidos
+
+00:01:10.834 --> 00:01:12.567
+e as contas
+de onde eles vieram.
+

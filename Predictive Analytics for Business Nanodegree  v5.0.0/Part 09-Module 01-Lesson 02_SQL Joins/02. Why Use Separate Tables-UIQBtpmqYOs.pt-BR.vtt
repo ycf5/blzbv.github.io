@@ -1,0 +1,174 @@
+WEBVTT
+Kind: captions
+Language: pt-BR
+
+00:00:00.701 --> 00:00:04.067
+Existem motivos para
+os dados relacionados serem assim.
+
+00:00:04.100 --> 00:00:06.901
+Vejamos os dois
+mais importantes.
+
+00:00:06.935 --> 00:00:10.033
+Primeiro, pedidos e contas
+são tipos diferentes de objetos
+
+00:00:10.067 --> 00:00:12.667
+e ficam melhor organizados
+separadamente.
+
+00:00:12.701 --> 00:00:16.133
+Segundo, a estrutura multitabelas
+permite que as pesquisas
+
+00:00:16.167 --> 00:00:17.868
+executem mais rapidamente.
+
+00:00:17.902 --> 00:00:20.667
+Vejamos cada um desses pontos
+mais de perto.
+
+00:00:22.033 --> 00:00:23.701
+As tabelas
+de contas e pedidos
+
+00:00:23.735 --> 00:00:26.934
+fundamentalmente armazenam
+tipos diferentes de objetos.
+
+00:00:27.667 --> 00:00:32.467
+A Parch &amp; Posey provavelmente
+quer uma conta por empresa
+
+00:00:32.501 --> 00:00:36.033
+e quer estar atualizada
+com informações mais recentes.
+
+00:00:37.801 --> 00:00:39.534
+Os pedidos, por outro lado,
+
+00:00:39.567 --> 00:00:42.267
+permanecem iguais,
+uma vez adicionados
+
+00:00:42.301 --> 00:00:44.367
+e preenchidos.
+
+00:00:44.400 --> 00:00:47.100
+Um mesmo consumidor
+pode fazer vários pedidos.
+
+00:00:47.133 --> 00:00:48.968
+Em vez de alterar
+o último pedido,
+
+00:00:49.002 --> 00:00:51.868
+a Parch &amp; Posey
+adiciona um novo.
+
+00:00:51.901 --> 00:00:54.067
+Como os objetos
+operam de forma diferente,
+
+00:00:54.100 --> 00:00:56.834
+faz sentido que eles fiquem
+em tabelas diferentes.
+
+00:00:58.367 --> 00:01:01.200
+Outra razão para armazenar
+as contas e os pedidos
+
+00:01:01.234 --> 00:01:03.300
+separadamente
+tem a ver com a velocidade
+
+00:01:03.334 --> 00:01:06.067
+com a qual o banco de dados
+pode modificar os dados.
+
+00:01:06.101 --> 00:01:09.501
+A velocidade de uma consulta
+dependerá da quantidade de dados
+
+00:01:09.534 --> 00:01:11.334
+que o banco de dados
+terá que ler
+
+00:01:11.368 --> 00:01:14.667
+e da quantidade e tipo de cálculo
+que pedimos para fazer.
+
+00:01:16.234 --> 00:01:17.501
+Imagine um mundo
+
+00:01:17.534 --> 00:01:19.734
+no qual os nomes das contas
+e os endereços
+
+00:01:19.767 --> 00:01:22.400
+fossem adicionados
+à tabela de pedidos.
+
+00:01:22.434 --> 00:01:25.567
+A tabela teria
+seis colunas a mais:
+
+00:01:25.601 --> 00:01:27.167
+uma para o nome da conta
+
+00:01:27.200 --> 00:01:30.901
+e cinco para o nome da rua,
+a cidade, o estado,
+
+00:01:30.935 --> 00:01:32.901
+o CEP e o país.
+
+00:01:32.934 --> 00:01:35.634
+Digamos que o consumidor
+altere o endereço dele.
+
+00:01:35.668 --> 00:01:40.067
+As cinco colunas de endereço
+precisariam ser atualizadas,
+
+00:01:40.100 --> 00:01:41.934
+para cada pedido.
+
+00:01:41.968 --> 00:01:43.534
+São cinco atualizações
+
+00:01:43.568 --> 00:01:46.033
+multiplicadas pela quantidade
+de pedidos feitos.
+
+00:01:46.067 --> 00:01:47.234
+Por outro lado,
+
+00:01:47.267 --> 00:01:49.834
+manter os detalhes da conta
+em tabelas separadas
+
+00:01:49.868 --> 00:01:52.567
+exigiria apenas
+cinco atualizações.
+
+00:01:52.601 --> 00:01:55.534
+Quanto maior o conjunto de dados,
+mais importante é isso.
+
+00:01:57.434 --> 00:01:59.667
+Há outras razões
+para esse tipo de estrutura,
+
+00:01:59.701 --> 00:02:03.367
+mas agora só precisamos saber
+conectar os dados da conta
+
+00:02:03.400 --> 00:02:04.834
+aos dados do pedido.
+
+00:02:04.868 --> 00:02:07.901
+O mecanismo para isso
+é um join, que veremos a seguir.
+

@@ -1,0 +1,193 @@
+WEBVTT
+Kind: captions
+Language: uz
+
+00:00:00.060 --> 00:00:02.490
+Qo‘shilmalar haqidagi chalg‘ituvchi narsa
+
+00:00:02.490 --> 00:00:04.049
+boshqa turdagi analizni bajarishning turli yo‘llari mavjud.
+
+00:00:04.049 --> 00:00:07.230
+Ma’lumotlarni to‘plash yakun degani emas,
+
+00:00:07.230 --> 00:00:09.900
+bu kengaytirilgan ma’lumotlar to‘plamini
+
+00:00:09.900 --> 00:00:12.000
+filtrlash va biriktirish uchun vositadir.
+
+00:00:12.000 --> 00:00:14.519
+Bu shuni anglatadiki, qo‘shilmalarni
+
+00:00:14.519 --> 00:00:15.990
+taqozo qiluvchi so‘rovlar aniq natijalarni
+
+00:00:15.990 --> 00:00:18.449
+qo‘lga kiritish uchun juda murakkabdir.
+
+00:00:18.449 --> 00:00:19.980
+Keyin siz ma’lumotlarni qanday qilib
+
+00:00:19.980 --> 00:00:21.570
+filtrlash haqida ehtiyot bo‘lishingiz
+
+00:00:21.570 --> 00:00:24.359
+kerak qo‘shilmalar bilan buni ko‘rsatishning
+
+00:00:24.359 --> 00:00:26.910
+bir necha turli usullari bor. Keling
+
+00:00:26.910 --> 00:00:28.349
+bir turdagi sotuv vakiliga berilgan 
+
+00:00:28.349 --> 00:00:31.019
+buyurtmalarga qaraymiz. Tasavvur qiling
+
+00:00:31.019 --> 00:00:32.669
+Parchin poseyda sotuv menejerisiz.
+
+00:00:32.669 --> 00:00:34.920
+Barcha buyurtmalarni ko‘rib chiqish
+
+00:00:34.920 --> 00:00:36.690
+o‘rniga siz sotuv vakiliga o‘z bitimlarini
+
+00:00:36.690 --> 00:00:38.129
+topishni osonlashtirishni xohlaysiz
+
+00:00:38.129 --> 00:00:39.660
+va qaysini uniki ekanligini eslashga harakat
+
+00:00:39.660 --> 00:00:43.230
+qiling. Yodda tutingki, sotuv vakili identifikatsiyasi
+
+00:00:43.230 --> 00:00:45.629
+buyurtmalar jadvalida emas, shuning uchun qo‘shimcha o‘sha ma’lumotni
+
+00:00:45.629 --> 00:00:48.120
+olish uchun zarur  bu ma’lumotni filtrlashning
+
+00:00:48.120 --> 00:00:49.440
+birinchi usuli bilan biz allaqachon
+
+00:00:49.440 --> 00:00:52.500
+WHERE bandida tanishib bo‘lganmiz. Keling
+
+00:00:52.500 --> 00:00:54.090
+birlashtirilgan buyurtma va hisob
+
+00:00:54.090 --> 00:00:56.010
+jadvallarimizni olamiz va faqat sotuv vakili qilgan
+
+00:00:56.010 --> 00:00:57.960
+buyurtmalari qolishi uchun natijalar jamlanmasini
+
+00:00:57.960 --> 00:01:01.770
+filtrlaymiz. Ikki bir besh nol nol... ko‘rib
+
+00:01:01.770 --> 00:01:04.199
+turganingizdek natijalar jamlanmasidagi qatorlar
+
+00:01:04.199 --> 00:01:05.850
+WHERE bandidagi mezonlarga mos tushgan
+
+00:01:05.850 --> 00:01:07.590
+qatorlardir sotuv vakili identifikatsiyasiga ega
+
+00:01:07.590 --> 00:01:10.439
+bo‘lganlari uch ikki bir besh nol nolga teng
+
+00:01:10.439 --> 00:01:13.140
+ammo agar biz barcha vakilga tegishli bo‘lgan
+
+00:01:13.140 --> 00:01:14.850
+buyurtmalarni belgilashni xohlasangizchi?
+
+00:01:14.850 --> 00:01:17.070
+Uch ikki bir besh nol nol va qolgan natijalar jamlanmasidagi
+
+00:01:17.070 --> 00:01:18.689
+barcha buyurtmalarni ham davom ettiring.
+
+00:01:18.689 --> 00:01:21.299
+biz buni WHERE bandini o‘zgartirib va uning
+
+00:01:21.299 --> 00:01:24.890
+mantiqiy bayonotini olib tashlab
+
+00:01:24.890 --> 00:01:27.000
+filtrlash jarayoni orqali amalga oshirishimiz
+
+00:01:27.000 --> 00:01:29.490
+mumkin. Bu samarali ravishda
+
+00:01:29.490 --> 00:01:31.530
+o‘z ichiga faqat sotuv vakili identifikatsiyasi
+
+00:01:31.530 --> 00:01:33.540
+uch ikki bir besh nol nolni olgan to‘g‘ri jadvallarni
+
+00:01:33.540 --> 00:01:36.540
+filtrlab beradi, albatta qo‘shilma 
+
+00:01:36.540 --> 00:01:39.390
+ishga tushurilishidan oldin. Boshqacha qilib aytganda,
+
+00:01:39.390 --> 00:01:41.460
+u WHERE bandi singari qo‘shilmadan keyin emas,
+
+00:01:41.460 --> 00:01:43.770
+oldin ishga tushadi. Siz
+
+00:01:43.770 --> 00:01:45.630
+buni turli jadvallarga buyurtmalarni
+
+00:01:45.630 --> 00:01:47.939
+qo‘shishga o‘xshaydi deb o‘ylaysiz, u
+
+00:01:47.939 --> 00:01:49.890
+haqiqiqiy hisoblar jadvalidagi qatorlar
+
+00:01:49.890 --> 00:01:53.130
+to‘plamini o‘z ichiga oladi.
+
+00:01:53.130 --> 00:01:55.439
+Chap qo‘shilma buyurtmalar jadvalidagi barcha qatorlarni
+
+00:01:55.439 --> 00:01:57.630
+o‘z ichiga olgan natijalar to‘plamini ko‘rsatadi,
+
+00:01:57.630 --> 00:01:59.850
+shuningdek, buyurtmalar jadvalidagi hisob
+
+00:01:59.850 --> 00:02:01.740
+identifikatsiyasi bilan moslashadigan
+
+00:02:01.740 --> 00:02:05.340
+jadvaldagi har qanday ma’lumotni ham,
+
+00:02:05.340 --> 00:02:07.710
+ko‘rib turganingizdek, savdo vakillari uch ikki bir
+
+00:02:07.710 --> 00:02:10.200
+besh non nollarda bir nechta hisob bor, demak
+
+00:02:10.200 --> 00:02:13.310
+ko‘plab buyurtmalar moslanmay qoldi.
+
+00:02:13.310 --> 00:02:14.900
+Natijalar to‘plamida ko‘plab buyurtmalarni
+
+00:02:14.900 --> 00:02:16.220
+hisob nomisiz qoldirish mantiqsiz tuyulishi
+
+00:02:16.220 --> 00:02:18.500
+mumkin, ammo bu turdagi qo‘shilma
+
+00:02:18.500 --> 00:02:20.390
+kelgusi darsda ma’lumot agregatlashga
+
+00:02:20.390 --> 00:02:24.069
+ko‘chganingizda juda foydali bo‘ladi.
+

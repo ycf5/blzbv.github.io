@@ -1,0 +1,91 @@
+WEBVTT
+Kind: captions
+Language: uz
+
+00:00:00.000 --> 00:00:02.070
+Shu paytgacha biz faqatgina
+
+00:00:02.070 --> 00:00:04.350
+bir vaqtda bitta jadval bilan ishladik, ammo haqiqiy
+
+00:00:04.350 --> 00:00:06.089
+natija birdaniga bir necha jadvallar
+
+00:00:06.089 --> 00:00:09.120
+orqali ishlangan ma’lumotdan keladi.
+
+00:00:09.120 --> 00:00:11.219
+Nisbiy ma’lumotlar bazasi atamasi uning
+
+00:00:11.219 --> 00:00:13.320
+ichidagi jadvallar bir-biriga aloqador deganidir.
+
+00:00:13.320 --> 00:00:15.719
+Ular birlashtirilgan ko‘plab jadvallardan
+
+00:00:15.719 --> 00:00:17.880
+axborot olish imkonini beruvchi
+
+00:00:17.880 --> 00:00:21.660
+aniqlovchilardan tashkil topgan. Kompaniyaning
+
+00:00:21.660 --> 00:00:23.609
+barcha ma’lumotlari mahsulotlarni sotishdan
+
+00:00:23.609 --> 00:00:25.560
+ishdan qoniqish kashfiyotigacha - hammasi
+
+00:00:25.560 --> 00:00:27.990
+birgina Excel ma’lumot to‘plamida
+
+00:00:27.990 --> 00:00:29.760
+bo‘lishi unchalik katta ahamiyatga ega emas.
+
+00:00:29.760 --> 00:00:32.040
+Jadval juda ham ko‘p axborotni
+
+00:00:32.040 --> 00:00:33.780
+o‘zida jamlaydi va har xil turda bo‘lgan 
+
+00:00:33.780 --> 00:00:35.700
+ma’lumotlar uchun qator va tuzilmani
+
+00:00:35.700 --> 00:00:38.730
+aniqlash qiyin bo‘ladi. Ma’lumotlar bazasi
+
+00:00:38.730 --> 00:00:40.680
+bizga narsalarni o‘zining alohida jadvalida
+
+00:00:40.680 --> 00:00:43.350
+tartiblangan holda saqlash qulayligini beradi. Shuning uchun
+
+00:00:43.350 --> 00:00:45.149
+ular topishga va ishlashga oson. Ayniqsa
+
+00:00:45.149 --> 00:00:47.340
+bizga kerakligidek turli xil ma’lumotlarni talab
+
+00:00:47.340 --> 00:00:49.050
+qiladigan muammolarni yechishda jadvallarni
+
+00:00:49.050 --> 00:00:52.110
+birlashtirish imkonini berishi bilan.
+
+00:00:52.110 --> 00:00:53.640
+Bu darsda biz qanday qilib jadvallarni
+
+00:00:53.640 --> 00:00:55.199
+bog‘lashda SQLdan foydalanishni ko‘rib chiqamiz.
+
+00:00:55.199 --> 00:00:57.570
+Siz nima uchun SQL ma’lumot bilan
+
+00:00:57.570 --> 00:00:59.280
+ishlashda eng mashxur muhit ekanligi
+
+00:00:59.280 --> 00:01:01.050
+bilish arafasidasiz, chunki biz
+
+00:01:01.050 --> 00:01:04.369
+JOINS deb atalgan iborani yozamiz.
+

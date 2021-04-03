@@ -1,0 +1,112 @@
+WEBVTT
+Kind: captions
+Language: en
+
+00:00:00.000 --> 00:00:04.160
+There are several reasons why relational databases are like this.
+
+00:00:04.160 --> 00:00:06.905
+Let's focus on two of the most important ones.
+
+00:00:06.905 --> 00:00:09.440
+First, orders and accounts are different types
+
+00:00:09.440 --> 00:00:12.975
+of objects and will be easier to organize if kept separate.
+
+00:00:12.975 --> 00:00:18.135
+Second, this multi-table structure allows queries to execute more quickly.
+
+00:00:18.135 --> 00:00:21.070
+Let's look at each of these points more closely.
+
+00:00:21.170 --> 00:00:27.065
+The account and orders tables store fundamentally different types of objects.
+
+00:00:27.065 --> 00:00:32.290
+Parch and Posey probably only wants one account per company,
+
+00:00:32.290 --> 00:00:36.260
+and they wanted to be up-to-date with the latest information.
+
+00:00:36.910 --> 00:00:39.500
+Orders, on the other hand,
+
+00:00:39.500 --> 00:00:42.247
+are likely to stay the same once they are entered,
+
+00:00:42.247 --> 00:00:44.085
+and certainly, once they're filled.
+
+00:00:44.085 --> 00:00:46.940
+A given customer might have multiple orders,
+
+00:00:46.940 --> 00:00:48.925
+and rather than change a past order,
+
+00:00:48.925 --> 00:00:51.430
+Parch and Posey might just add a new one.
+
+00:00:51.430 --> 00:00:53.940
+Because these objects operate differently,
+
+00:00:53.940 --> 00:00:57.470
+it makes sense for them to live in different tables.
+
+00:00:57.650 --> 00:01:01.440
+Another reason accounts and orders might be stored
+
+00:01:01.440 --> 00:01:05.730
+separately has to do with the speed at which databases can modify data.
+
+00:01:05.730 --> 00:01:08.370
+When you write a query, its execution speed
+
+00:01:08.370 --> 00:01:10.830
+depends on the amount of data you're asking the database to
+
+00:01:10.830 --> 00:01:16.400
+read and the number and type of calculations you're asking it to make.
+
+00:01:16.400 --> 00:01:21.990
+Imagine a world where the account names and addresses are added into the orders table.
+
+00:01:21.990 --> 00:01:27.110
+This means, the table would have six additional columns: one for account name,
+
+00:01:27.110 --> 00:01:29.645
+and five that make up the street address,
+
+00:01:29.645 --> 00:01:33.120
+city, state, zip code, and country.
+
+00:01:33.120 --> 00:01:35.435
+Let's say, a customer changes their address.
+
+00:01:35.435 --> 00:01:38.435
+In this world, the five address columns
+
+00:01:38.435 --> 00:01:42.040
+need to be updated retroactively for every single order.
+
+00:01:42.040 --> 00:01:46.235
+This means five updates times the number of orders that they've made.
+
+00:01:46.235 --> 00:01:48.680
+By contrast, keeping account details in
+
+00:01:48.680 --> 00:01:52.715
+a separate table makes this only a total of five updates.
+
+00:01:52.715 --> 00:01:56.130
+The larger the data set, the more that this matters.
+
+00:01:56.560 --> 00:02:00.590
+There are more reasons for this kind of structure but for now,
+
+00:02:00.590 --> 00:02:04.970
+what you really need to know is how to connect the account data and order data.
+
+00:02:04.970 --> 00:02:08.780
+The mechanism for doing that is a JOIN, which you'll learn next.
+

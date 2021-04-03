@@ -1,0 +1,62 @@
+WEBVTT
+Kind: captions
+Language: pt-BR
+
+00:00:00.367 --> 00:00:04.467
+Ao realizar joins,
+dê pseudônimos à tabela.
+
+00:00:04.501 --> 00:00:07.334
+"Orders" é um nome longo
+e chato de digitar.
+
+00:00:07.368 --> 00:00:09.133
+"O" é mais fácil.
+
+00:00:09.167 --> 00:00:13.000
+Dê um pseudônimo à tabela
+adicionando espaço após o nome
+
+00:00:13.034 --> 00:00:15.701
+e digitando o pseudônimo.
+
+00:00:15.734 --> 00:00:19.834
+Para os nomes de colunas,
+utilize letras em minúsculo
+
+00:00:19.868 --> 00:00:22.300
+e sublinhado
+em vez de espaço.
+
+00:00:23.234 --> 00:00:25.067
+Após dar pseudônimos
+à tabela,
+
+00:00:25.100 --> 00:00:27.400
+nos referimos às colunas
+na expressão "select"
+
+00:00:27.434 --> 00:00:29.234
+utilizando
+esses pseudônimos.
+
+00:00:29.267 --> 00:00:31.901
+Podemos fazer o mesmo
+em qualquer lugar da consulta
+
+00:00:31.935 --> 00:00:34.133
+para buscar as colunas
+das tabelas.
+
+00:00:34.167 --> 00:00:37.901
+Neste caso, o único lugar
+é na expressão "on".
+
+00:00:37.934 --> 00:00:40.667
+Como vemos, os resultados
+são exatamente iguais
+
+00:00:40.701 --> 00:00:43.067
+aos da consulta anterior,
+sem os pseudônimos.
+
