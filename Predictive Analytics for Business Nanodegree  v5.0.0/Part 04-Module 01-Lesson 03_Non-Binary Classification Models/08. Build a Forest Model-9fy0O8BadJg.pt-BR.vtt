@@ -1,0 +1,173 @@
+WEBVTT
+Kind: captions
+Language: pt-BR
+
+00:00:00.901 --> 00:00:04.934
+Agora o que vamos fazer é criar
+um modelo de floresta no Alteryx,
+
+00:00:04.968 --> 00:00:08.033
+interpretar o resultado
+e validar o modelo.
+
+00:00:08.067 --> 00:00:12.467
+Já criamos amostras com 70%
+na amostra de estimação
+
+00:00:12.501 --> 00:00:15.033
+e 30% na amostra de validação,
+
+00:00:15.067 --> 00:00:17.567
+então vamos pegar uma ferramenta
+"Forest Model" e configurá-la.
+
+00:00:17.601 --> 00:00:21.968
+Podemos encontrar a ferramenta
+na categoria "Predictive".
+
+00:00:22.667 --> 00:00:25.501
+A 1ª coisa que vamos fazer,
+como nos outros modelos,
+
+00:00:25.534 --> 00:00:27.934
+é dar nome a ele.
+Eu vou chamá-lo
+
+00:00:27.968 --> 00:00:30.067
+de "FM", de "Forest Model",
+
+00:00:30.100 --> 00:00:32.200
+"_Transportation",
+
+00:00:32.234 --> 00:00:34.534
+já que é isso
+que queremos prever.
+
+00:00:34.567 --> 00:00:37.501
+A próxima coisa que vou fazer
+é selecionar a "Target Variable",
+
+00:00:37.534 --> 00:00:39.067
+que será o "Mode".
+
+00:00:39.100 --> 00:00:42.300
+Por fim,
+as possíveis variáveis preditivas.
+
+00:00:42.334 --> 00:00:47.400
+"Gender", "Age", "Marital Status"
+e "DriveDistanceMiles".
+
+00:00:47.434 --> 00:00:50.334
+Até agora foi exatamente isso
+que fizemos
+
+00:00:50.367 --> 00:00:52.734
+em todos os outros modelos
+até agora.
+
+00:00:52.767 --> 00:00:55.434
+Agora, quais são
+as opções diferentes?
+
+00:00:55.467 --> 00:01:00.334
+A 1ª opção é a que aparece abaixo:
+"Number of trees to use".
+
+00:01:00.367 --> 00:01:03.834
+Lembre que temos
+um modelo de floresta aqui,
+
+00:01:03.868 --> 00:01:07.234
+que é um conjunto
+de árvores de decisão.
+
+00:01:07.267 --> 00:01:10.400
+Já no desenho podemos ver
+que são muitas árvores diferentes,
+
+00:01:10.434 --> 00:01:14.167
+se compararmos com uma árvore
+de decisão, que é apenas uma.
+
+00:01:14.200 --> 00:01:19.667
+Esta opção define
+quantas árvores de decisão
+
+00:01:19.701 --> 00:01:23.267
+queremos criar.
+Podem ser 300,
+
+00:01:23.300 --> 00:01:27.966
+podem ser 200, 5 ou 1.000.
+O que você preferir.
+
+00:01:27.999 --> 00:01:31.400
+Normalmente, deixamos
+o número padrão, 500,
+
+00:01:31.434 --> 00:01:33.467
+depois voltamos e mudamos isso
+
+00:01:33.501 --> 00:01:37.334
+com base nos resultados
+que vamos ver depois.
+
+00:01:37.367 --> 00:01:41.901
+As outras opções podem ser vistas
+nas opções de "Model Customization".
+
+00:01:41.934 --> 00:01:45.834
+Qual é o número mínimo
+permitido no "Tree node"?
+
+00:01:45.868 --> 00:01:50.934
+Como antes, quanto menor o número,
+mais divisões vão ocorrer.
+
+00:01:50.968 --> 00:01:54.534
+As duas últimas opções
+de configuração envolvem
+
+00:01:54.567 --> 00:01:57.067
+um conceito chamado
+"bootstraping",
+
+00:01:57.100 --> 00:01:59.767
+sobre o qual você pode ler
+nas anotações.
+
+00:01:59.801 --> 00:02:03.701
+É uma técnica mais avançada
+e, neste curso,
+
+00:02:03.734 --> 00:02:08.667
+vamos manter estes valores
+e opções padrões.
+
+00:02:08.701 --> 00:02:12.567
+Então vou pegar uma ferramenta
+"Browse" e ligá-lo ao output "R".
+
+00:02:12.601 --> 00:02:15.367
+Não há resultado interativo
+neste modelo.
+
+00:02:15.400 --> 00:02:19.267
+Vou ativar isto e depois vou
+permitir que você estude um pouco
+
+00:02:19.300 --> 00:02:22.534
+o que vai procurar nos resultados
+na próxima seção.
+
+00:02:22.567 --> 00:02:26.501
+Depois vamos voltar e ver
+os resultados deste modelo.
+
+00:02:26.534 --> 00:02:27.834
+*END*
+
+00:02:27.867 --> 00:02:29.133
+*CODE*
+

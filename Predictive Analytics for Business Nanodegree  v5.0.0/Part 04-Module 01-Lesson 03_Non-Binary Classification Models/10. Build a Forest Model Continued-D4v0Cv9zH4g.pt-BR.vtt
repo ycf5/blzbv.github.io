@@ -1,0 +1,258 @@
+WEBVTT
+Kind: captions
+Language: pt-BR
+
+00:00:00.367 --> 00:00:04.133
+Agora que ativamos o modelo
+e sabemos o que procurar,
+
+00:00:04.167 --> 00:00:08.567
+vou analisar com vocês
+os pontos principais do output.
+
+00:00:08.601 --> 00:00:11.434
+A 1ª coisa que vou observar
+é o registro nº 3,
+
+00:00:11.467 --> 00:00:14.968
+que vai no mostrar
+que tipo de floresta foi criado:
+
+00:00:15.000 --> 00:00:18.133
+é uma classificação, já que
+estamos tentando classificar
+
+00:00:18.167 --> 00:00:20.534
+dados não binários.
+
+00:00:20.567 --> 00:00:25.234
+"Number of trees", ou seja, quantas
+árvores foram criadas no modelo.
+
+00:00:25.267 --> 00:00:29.167
+O conjunto criado
+contém 500 árvores.
+
+00:00:29.200 --> 00:00:31.601
+A próxima coisa que vou procurar
+é o registro nº 4,
+
+00:00:31.634 --> 00:00:34.934
+"OOB estimate
+of the error rate",
+
+00:00:34.968 --> 00:00:38.167
+ou a taxa de erro
+da estimação out-of-the-bag.
+
+00:00:38.200 --> 00:00:41.934
+Como pode ver,
+ela é muito baixa: 3,5%.
+
+00:00:41.968 --> 00:00:45.567
+Este é o bootstrap
+que mencionei antes.
+
+00:00:45.601 --> 00:00:49.767
+Nas opções 5 e 6, podemos ver
+a classificação
+
+00:00:49.800 --> 00:00:51.868
+ou a matriz de confusão
+que mostra
+
+00:00:51.901 --> 00:00:55.434
+quantos itens foram previstos
+corretamente em cada campo
+
+00:00:55.467 --> 00:00:57.601
+e se há alguma tendência
+ou não.
+
+00:00:57.634 --> 00:01:00.601
+No geral, podemos ver
+que tanto "Bike" quanto "Car"
+
+00:01:00.634 --> 00:01:02.467
+foram previstos muito bem,
+
+00:01:02.501 --> 00:01:06.300
+mas "Public Transportation"
+foi bem pior e tem 9% de erro.
+
+00:01:06.334 --> 00:01:08.734
+Mas, no geral,
+todos estão abaixo de 10%,
+
+00:01:08.767 --> 00:01:11.934
+o que eu consideraria
+bastante bom.
+
+00:01:11.968 --> 00:01:15.000
+Mais uma vez, isso foi feito
+com os dados de estimação,
+
+00:01:15.033 --> 00:01:20.400
+então podemos comparar isto
+aos resultados de validação.
+
+00:01:20.434 --> 00:01:22.334
+O que estou vendo no gráfico 8
+
+00:01:22.367 --> 00:01:25.434
+é a porcentagem de erro
+em relação ao número de árvores.
+
+00:01:25.467 --> 00:01:30.000
+Isto é importante porque
+no eixo "x" temos as várias árvores.
+
+00:01:30.033 --> 00:01:34.000
+Como você se lembra,
+usamos 500 árvores neste modelo.
+
+00:01:34.033 --> 00:01:36.701
+À medida que o número
+de árvores cresce,
+
+00:01:36.734 --> 00:01:40.601
+vamos ver o que acontece com o erro
+em cada uma das opções:
+
+00:01:40.634 --> 00:01:44.167
+"Bike", "Car"
+e "Public Transportation".
+
+00:01:44.200 --> 00:01:47.534
+Como pode ver, com poucas árvores,
+temos taxas de erro muito altas,
+
+00:01:47.567 --> 00:01:51.868
+mas, com mais árvores,
+elas se estabilizam em certo ponto.
+
+00:01:51.901 --> 00:01:53.232
+Sempre que ela se estabiliza,
+
+00:01:53.265 --> 00:01:57.667
+isso indica que o número de árvores
+foi suficiente.
+
+00:01:57.701 --> 00:02:02.033
+Mas ter árvores demais
+num modelo que não são necessárias
+
+00:02:02.067 --> 00:02:05.167
+pode fazer o modelo
+funcionar de forma mais lenta,
+
+00:02:05.200 --> 00:02:08.834
+então é melhor retirar
+o excesso de árvores
+
+00:02:08.868 --> 00:02:11.567
+ou as árvores desnecessárias
+nas novas análises.
+
+00:02:11.601 --> 00:02:15.601
+Então talvez eu possa reduzir isto
+para 200 árvores por garantia.
+
+00:02:15.634 --> 00:02:18.567
+A última coisa que vou observar
+é o "Variable Importance Plot",
+
+00:02:18.601 --> 00:02:22.667
+que é exatamente igual ao que vimos
+nos modelos de árvore de decisão.
+
+00:02:22.701 --> 00:02:27.100
+Podemos ver que as categorias
+"DriveDistanceMiles" e "Age"
+
+00:02:27.133 --> 00:02:30.400
+são muito importantes
+neste modelo de floresta,
+
+00:02:30.434 --> 00:02:34.100
+mas "Marital Status" e "Gender"
+não ajudam em nada
+
+00:02:34.133 --> 00:02:38.767
+a prever que meio de transporte
+estes funcionários vão usar.
+
+00:02:38.801 --> 00:02:41.067
+Como podem ver,
+isso se baseia numa medida
+
+00:02:41.100 --> 00:02:43.734
+chamada "MeanDecreaseGini",
+mas, no geral,
+
+00:02:43.767 --> 00:02:45.601
+não vamos entrar em detalhes
+nessa questão.
+
+00:02:45.634 --> 00:02:48.467
+No entanto, se você quiser
+saber mais, há algumas notas
+
+00:02:48.501 --> 00:02:52.367
+que explicam o que significa
+este coeficiente de Gini.
+
+00:02:52.400 --> 00:02:54.934
+Mas, no geral, a melhor maneira
+de interpretar isso é:
+
+00:02:54.968 --> 00:03:00.901
+quanto maiores os valores
+do eixo "y" e "x",
+
+00:03:00.934 --> 00:03:04.067
+mais importantes as variáveis
+são para o modelo
+
+00:03:04.100 --> 00:03:06.267
+que as que ficam
+na parte de baixo, à esquerda.
+
+00:03:06.300 --> 00:03:11.434
+Estas duas são muito importantes,
+e estas têm pouca importância.
+
+00:03:12.400 --> 00:03:15.601
+Então, com estes resultados,
+vou voltar a subir
+
+00:03:15.634 --> 00:03:19.934
+para a estimação out-of-the-bag
+e para a matriz de confusão.
+
+00:03:19.968 --> 00:03:24.334
+Vejo que a taxa de erro
+foi de apenas 3,5%,
+
+00:03:24.367 --> 00:03:26.234
+então acho que este modelo
+é muito bom,
+
+00:03:26.267 --> 00:03:29.334
+mas, como mencionei antes,
+temos que usar nosso modelo
+
+00:03:29.367 --> 00:03:31.033
+com um conjunto de dados
+de validação
+
+00:03:31.066 --> 00:03:35.334
+para determinar se ele prevê bem
+os dados independentes.
+
+00:03:35.367 --> 00:03:36.667
+*END*
+
+00:03:36.701 --> 00:03:38.033
+*CODE*
+

@@ -1,0 +1,158 @@
+WEBVTT
+Kind: captions
+Language: pt-BR
+
+00:00:00.234 --> 00:00:02.834
+Agora que construímos o modelo,
+vamos validá-lo
+
+00:00:02.868 --> 00:00:05.868
+aplicando o modelo
+ao conjunto de dados de validação
+
+00:00:05.901 --> 00:00:08.534
+e observando a precisão dele.
+
+00:00:08.567 --> 00:00:11.601
+No Alteryx, vamos usar
+a ferramenta "Model Comparison",
+
+00:00:11.634 --> 00:00:15.067
+como fizemos com todos
+os outros modelos até agora.
+
+00:00:15.100 --> 00:00:17.467
+Já temos este modelo
+construído,
+
+00:00:17.501 --> 00:00:20.968
+então temos que pegar
+a ferramenta "Model Comparison".
+
+00:00:21.001 --> 00:00:23.300
+O objeto de modelo
+do modelo boosted
+
+00:00:23.334 --> 00:00:27.033
+se conecta ao input "M"
+da ferramenta "Model Comparison",
+
+00:00:27.067 --> 00:00:30.100
+e a amostra de validação
+se conecta ao input "D"
+
+00:00:30.133 --> 00:00:32.367
+da ferramenta
+"Model Comparison".
+
+00:00:32.400 --> 00:00:34.000
+Agora vou pôr
+uma ferramenta "Browse"
+
+00:00:34.033 --> 00:00:38.501
+depois do output "R"
+e fazer a comparação.
+
+00:00:38.534 --> 00:00:41.501
+Vamos abrir
+os resultados agora.
+
+00:00:42.300 --> 00:00:44.998
+A 1ª coisa que vamos fazer,
+como fizemos com os outros modelos,
+
+00:00:45.031 --> 00:00:48.501
+é olhar a precisão.
+Parece que o modelo boosted
+
+00:00:48.534 --> 00:00:54.067
+que previu o meio de transporte
+conseguiu ser preciso 83% das vezes
+
+00:00:54.100 --> 00:00:58.834
+ao prever o conjunto de dados
+de validação ou independente.
+
+00:00:58.868 --> 00:01:03.567
+Também estou vendo que ele
+previu muito bem quem anda de carro,
+
+00:01:03.601 --> 00:01:08.501
+mas não quem vai de bicicleta
+
+00:01:08.534 --> 00:01:11.033
+ou usa transporte público
+para ir trabalhar.
+
+00:01:11.067 --> 00:01:13.400
+Podemos ver o ponto de rotura
+não em porcentagens,
+
+00:01:13.434 --> 00:01:17.901
+mas nos valores do que foi
+classificado errado
+
+00:01:17.934 --> 00:01:20.601
+na matriz de confusão.
+
+00:01:20.634 --> 00:01:24.000
+Parece que os registros
+previstos incorretamente
+
+00:01:24.033 --> 00:01:26.834
+estavam dentro
+da categoria "Car".
+
+00:01:26.868 --> 00:01:31.534
+Isso costuma acontecer quando temos
+uma categoria muito mais dominante
+
+00:01:31.567 --> 00:01:33.667
+do que as outras categorias.
+
+00:01:33.701 --> 00:01:36.968
+Mas, no geral, segundo o relatório
+de comparações de modelos,
+
+00:01:37.000 --> 00:01:39.934
+parece que temos, mais uma vez,
+um ótimo modelo.
+
+00:01:39.968 --> 00:01:44.234
+Ele tem uma precisão geral
+de 0,8315
+
+00:01:44.267 --> 00:01:47.901
+e uma precisão muito boa
+para a previsão da categoria "Car".
+
+00:01:47.934 --> 00:01:53.167
+Por outro lado, a previsão
+de "Public Transportation" e "Bike"
+
+00:01:53.200 --> 00:01:56.601
+foi realmente um desafio.
+Então foi um resultado similar
+
+00:01:56.634 --> 00:01:59.467
+ao que vimos antes,
+nos dois outros modelos.
+
+00:01:59.501 --> 00:02:01.868
+No geral,
+é um modelo muito bom,
+
+00:02:01.901 --> 00:02:06.133
+mas eu gostaria de compará-los
+com os outros modelos
+
+00:02:06.167 --> 00:02:09.431
+para determinar qual deles
+deveríamos usar no nosso caso.
+
+00:02:09.464 --> 00:02:10.567
+*END*
+
+00:02:10.600 --> 00:02:11.834
+*CODE*
+

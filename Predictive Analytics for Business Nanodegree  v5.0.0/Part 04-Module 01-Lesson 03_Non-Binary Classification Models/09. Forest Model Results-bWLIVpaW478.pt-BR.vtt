@@ -1,0 +1,156 @@
+WEBVTT
+Kind: captions
+Language: pt-BR
+
+00:00:00.234 --> 00:00:01.701
+Quando usarmos
+um modelo de floresta,
+
+00:00:01.734 --> 00:00:04.300
+vamos procurar algumas coisas
+nos resultados.
+
+00:00:04.334 --> 00:00:06.934
+Isso pode nos mostrar
+o quanto o modelo é bom,
+
+00:00:06.968 --> 00:00:08.601
+que fatores
+são mais importantes
+
+00:00:08.634 --> 00:00:12.100
+e as possíveis mudanças
+no modelo.
+
+00:00:12.133 --> 00:00:16.734
+A 1ª coisa que vamos procurar
+é a taxa de erro out-of-the-bag.
+
+00:00:16.767 --> 00:00:21.167
+Ela explica se o modelo funcionou
+bem com os dados de validação
+
+00:00:21.200 --> 00:00:23.167
+e a amostra de estimação.
+
+00:00:23.200 --> 00:00:27.367
+Isso nos dá uma boa noção
+se o modelo funciona bem
+
+00:00:27.400 --> 00:00:29.701
+com apenas os dados
+de estimação.
+
+00:00:29.734 --> 00:00:33.868
+Podemos considerá-lo
+um tipo de valor de "R²".
+
+00:00:34.701 --> 00:00:37.734
+Outra coisa que procuramos
+é a matriz de confusão.
+
+00:00:37.767 --> 00:00:40.033
+Ela também mostra
+se o modelo funcionou bem
+
+00:00:40.067 --> 00:00:42.968
+com os dados originais
+de estimação.
+
+00:00:43.000 --> 00:00:45.033
+Comparada à taxa
+de erro out-of-the-bag,
+
+00:00:45.067 --> 00:00:48.033
+a matriz de confusão
+representa melhor
+
+00:00:48.067 --> 00:00:51.234
+onde os erros ocorreram
+quando classificamos os dados.
+
+00:00:51.267 --> 00:00:53.701
+Como aprendemos, quando temos
+um modelo de floresta,
+
+00:00:53.734 --> 00:00:56.367
+usamos um conjunto
+de árvores de decisão.
+
+00:00:56.400 --> 00:00:59.506
+Isto pode ser
+muito intenso computacionalmente.
+
+00:01:00.100 --> 00:01:02.067
+Então vamos dar uma olhada
+no gráfico
+
+00:01:02.100 --> 00:01:05.334
+com a porcentagem de erro
+em relação ao número de árvores.
+
+00:01:05.367 --> 00:01:06.834
+Podemos usar isto
+para nos ajudar a ver
+
+00:01:06.868 --> 00:01:09.467
+que número de árvores
+devemos usar
+
+00:01:09.501 --> 00:01:12.467
+para poder evitar
+uma sobrecomputação.
+
+00:01:12.501 --> 00:01:15.334
+Estamos procurando o número
+de árvores necessárias
+
+00:01:15.367 --> 00:01:18.801
+para minimizar o erro
+de cada um dos itens.
+
+00:01:18.834 --> 00:01:21.667
+Então, basicamente,
+onde a curva estabiliza.
+
+00:01:21.701 --> 00:01:23.267
+Depois que determinarmos
+esse número,
+
+00:01:23.300 --> 00:01:25.834
+podemos mudar os modelos
+de floresta subsequentes
+
+00:01:25.868 --> 00:01:30.667
+e usar o menor número possível
+de árvores de decisão nos dados.
+
+00:01:30.701 --> 00:01:34.000
+Por fim, temos que procurar
+quais variáveis preditivas
+
+00:01:34.033 --> 00:01:37.167
+vão ser mais importantes
+neste modelo.
+
+00:01:37.200 --> 00:01:39.601
+Isto ajuda muito a determinar
+
+00:01:39.634 --> 00:01:42.901
+que variáveis são
+mais associadas aos dados
+
+00:01:42.934 --> 00:01:46.868
+e podemos nos concentrar nisso
+nas análises seguintes.
+
+00:01:46.901 --> 00:01:49.834
+Vamos examinar essas coisas
+no Alteryx agora.
+
+00:01:49.868 --> 00:01:51.200
+*END*
+
+00:01:51.234 --> 00:01:52.501
+*CODE*
+

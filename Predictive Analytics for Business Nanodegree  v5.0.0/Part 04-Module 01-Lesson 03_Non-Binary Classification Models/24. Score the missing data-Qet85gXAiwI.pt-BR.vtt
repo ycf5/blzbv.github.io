@@ -1,0 +1,286 @@
+WEBVTT
+Kind: captions
+Language: pt-BR
+
+00:00:00.334 --> 00:00:02.934
+Vou mostrar como eu preveria
+
+00:00:02.968 --> 00:00:06.767
+os 40% dos funcionários
+que não responderam à pesquisa.
+
+00:00:06.801 --> 00:00:11.100
+A 1ª coisa que eu faria seria pegar
+o modelo de floresta que vamos usar
+
+00:00:11.133 --> 00:00:12.968
+e exportar o objeto de modelo
+
+00:00:13.001 --> 00:00:15.634
+para poder usá-lo
+em um novo workflow.
+
+00:00:15.667 --> 00:00:17.740
+Vou usar uma ferramenta
+"Output Data",
+
+00:00:18.367 --> 00:00:20.067
+abrir "File Browse"
+
+00:00:20.100 --> 00:00:22.138
+e salvar o arquivo como
+
+00:00:23.300 --> 00:00:25.234
+"Mod", ou modelo,
+
+00:00:25.267 --> 00:00:30.434
+"Obj_FM", de "forest model".
+
+00:00:31.200 --> 00:00:34.801
+Posso ativar o workflow
+para salvar o objeto de modelo
+
+00:00:34.834 --> 00:00:37.434
+do modelo de floresta.
+Como mencionei antes,
+
+00:00:37.467 --> 00:00:40.569
+isso é apenas
+uma preferência pessoal minha.
+
+00:00:40.934 --> 00:00:45.033
+Vou abrir uma tela limpa
+e importar o objeto de modelo
+
+00:00:45.067 --> 00:00:47.501
+que vou usar
+com a ferramenta "Score".
+
+00:00:47.534 --> 00:00:50.300
+Mas, antes de pegar
+a ferramenta "Score",
+
+00:00:50.334 --> 00:00:52.300
+vou importar
+outro conjunto de dados:
+
+00:00:52.334 --> 00:00:56.667
+os 40% dos funcionários
+que não responderam à pesquisa.
+
+00:00:56.701 --> 00:00:59.734
+Ele se chama
+"MissingEmployees".
+
+00:01:00.734 --> 00:01:03.434
+Agora vou pegar
+a ferramenta "Score",
+
+00:01:03.467 --> 00:01:05.901
+trazê-la para a tela
+e conectar
+
+00:01:06.634 --> 00:01:11.000
+os dois arquivos
+à ferramenta "Score".
+
+00:01:11.033 --> 00:01:14.901
+Vou pegar uma ferramenta "Browse"
+e ativar o modelo.
+
+00:01:14.934 --> 00:01:18.100
+Podemos ver agora,
+para cada funcionário
+
+00:01:18.133 --> 00:01:21.834
+incluído no modelo de floresta,
+a probabilidade preditiva
+
+00:01:21.868 --> 00:01:26.534
+de eles irem trabalhar
+de bicicleta, de carro
+
+00:01:26.567 --> 00:01:28.267
+ou pegarem um meio
+de transporte público -
+
+00:01:28.300 --> 00:01:31.801
+ônibus, trem ou o que for -
+para ir ao trabalho.
+
+00:01:31.834 --> 00:01:35.300
+Agora, deveríamos transformar
+essas probabilidades preditivas
+
+00:01:35.334 --> 00:01:39.200
+em "1" e "0"
+para podermos contá-las.
+
+00:01:39.234 --> 00:01:42.667
+Vou fazer isso criando
+um "conditional statement"
+
+00:01:42.701 --> 00:01:45.202
+dizendo que, se a pontuação
+de "Bike"
+
+00:01:45.235 --> 00:01:48.234
+for maior que a de "Car"
+e de "Public Transportation",
+
+00:01:48.267 --> 00:01:51.000
+ele deve virar um "1",
+e os outros, "0".
+
+00:01:51.033 --> 00:01:52.834
+E vice-versa para todos.
+
+00:01:52.868 --> 00:01:58.467
+Então teríamos "1" e "0", e não só
+uma porcentagem de probabilidade.
+
+00:01:58.501 --> 00:02:02.067
+Com isso, poderei agregar os dados
+para contar
+
+00:02:02.100 --> 00:02:04.970
+quantas pessoas realmente
+usam bicicleta,
+
+00:02:05.498 --> 00:02:09.267
+carro ou transporte
+público para ir trabalhar.
+
+00:02:09.300 --> 00:02:12.267
+Então vamos pegar
+uma ferramenta "Formula".
+
+00:02:12.300 --> 00:02:15.434
+Vou substituir o campo
+"Score_Bike"
+
+00:02:15.467 --> 00:02:18.033
+construindo uma condição.
+
+00:02:18.067 --> 00:02:20.067
+Essa condição será:
+
+00:02:20.100 --> 00:02:24.067
+"IF (Score_Bike) &gt;
+
+00:02:24.567 --> 00:02:29.634
+(Score_Car) AND (Score_Bike) &gt;
+
+00:02:30.467 --> 00:02:36.434
+(Score_Public Transportation)
+THEN 1 ELSE 0
+
+00:02:36.968 --> 00:02:38.701
+ENDIF".
+
+00:02:38.734 --> 00:02:41.169
+Se ativar o modelo,
+poderemos ver
+
+00:02:41.500 --> 00:02:44.067
+que "Score_Bike" terá
+valores de "1" ou "0".
+
+00:02:44.100 --> 00:02:48.133
+Mas ainda temos as probabilidades
+preditivas de "Score_Car"
+
+00:02:48.167 --> 00:02:50.539
+e "Score_Public
+Transportation".
+
+00:02:51.100 --> 00:02:56.167
+Então vamos fazer a mesma coisa
+para os outros dois campos.
+
+00:02:56.200 --> 00:02:59.701
+Se eu ativar isto agora,
+o que veremos no relatório
+
+00:02:59.734 --> 00:03:03.166
+é que temos só "1" e "0".
+
+00:03:03.199 --> 00:03:07.231
+Agora, vamos somar
+todos os registros
+
+00:03:07.264 --> 00:03:10.234
+ou todos os valores
+em cada campo.
+
+00:03:10.267 --> 00:03:13.501
+"Score_ Car", "Score_Public
+Transportation" e "Score_Bike"
+
+00:03:13.534 --> 00:03:18.400
+para ter o número total de pessoas
+que usam transporte público,
+
+00:03:18.434 --> 00:03:20.734
+bicicleta ou carro
+para ir ao trabalho.
+
+00:03:20.767 --> 00:03:23.234
+Vamos pegar uma ferramenta
+"Summarize" para fazer isto.
+
+00:03:23.267 --> 00:03:25.367
+Posso simplesmente ir
+até os campos "Score_Bike",
+
+00:03:25.400 --> 00:03:29.767
+"Score_ Car"
+e "Score_Public Transportation"
+
+00:03:29.801 --> 00:03:32.334
+e "Add", "Sum".
+
+00:03:32.367 --> 00:03:35.300
+Isso vai me dar
+a soma de "Bike",
+
+00:03:35.334 --> 00:03:38.701
+"Car"
+e "Public Transportation".
+
+00:03:38.734 --> 00:03:41.501
+Podemos renomear os campos
+se preferirmos.
+
+00:03:41.534 --> 00:03:44.434
+Eu só vou clicar em "Run".
+
+00:03:44.467 --> 00:03:48.300
+Agora o que temos aqui
+são os resultados que esperávamos.
+
+00:03:48.334 --> 00:03:52.868
+Temos o meio de transporte
+para os 40% dos funcionários
+
+00:03:52.901 --> 00:03:55.467
+que não responderam
+à pesquisa.
+
+00:03:55.501 --> 00:03:59.601
+Parece que 913 vão
+de carro para o trabalho,
+
+00:03:59.634 --> 00:04:02.934
+481 pegam transporte público
+
+00:04:02.968 --> 00:04:06.166
+e 141 que vão de bicicleta
+para o trabalho.
+
+00:04:06.199 --> 00:04:07.334
+*END*
+
+00:04:07.367 --> 00:04:08.634
+*CODE*
+

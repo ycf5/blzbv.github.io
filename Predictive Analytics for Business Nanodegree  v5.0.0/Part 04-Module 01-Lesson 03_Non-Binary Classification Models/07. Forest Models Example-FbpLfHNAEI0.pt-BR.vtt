@@ -1,0 +1,169 @@
+WEBVTT
+Kind: captions
+Language: pt-BR
+
+00:00:00.200 --> 00:00:03.133
+Vamos pensar em uma versão
+muito simplificada
+
+00:00:03.167 --> 00:00:05.467
+do exemplo que acabamos
+de mencionar.
+
+00:00:05.501 --> 00:00:08.868
+Geramos um modelo de floresta
+para prever os dados desconhecidos
+
+00:00:08.901 --> 00:00:11.334
+dos funcionários
+que não responderam.
+
+00:00:11.367 --> 00:00:13.934
+Vamos aplicar este modelo
+a uma funcionária específica
+
+00:00:13.968 --> 00:00:16.501
+que mora a 1,5 milha
+do trabalho
+
+00:00:16.534 --> 00:00:19.400
+para ilustrar como o modelo
+vai funcionar.
+
+00:00:19.434 --> 00:00:21.334
+Lembre que as árvores aqui
+foram simplificadas
+
+00:00:21.367 --> 00:00:23.868
+para demonstrar o conceito.
+
+00:00:23.901 --> 00:00:27.267
+Para a 1ª árvore, uma amostra
+aleatória dos dados é obtida
+
+00:00:27.300 --> 00:00:30.501
+e uma árvore é criada com ela.
+Aqui está a árvore.
+
+00:00:30.534 --> 00:00:34.567
+Como a funcionária que queremos
+prever mora a 1,5 milha do trabalho,
+
+00:00:34.601 --> 00:00:39.033
+a árvore preveria que ela tem
+50% de chance de ir de carro,
+
+00:00:39.067 --> 00:00:42.133
+30% de chance
+de pegar transporte público
+
+00:00:42.167 --> 00:00:46.234
+e 20% de chance
+de ir andando ou de bicicleta.
+
+00:00:46.267 --> 00:00:49.501
+Agora outra árvore será gerada
+a partir de outra amostra aleatória.
+
+00:00:49.534 --> 00:00:51.234
+Aqui está a árvore.
+
+00:00:51.267 --> 00:00:55.000
+Nesta árvore, a funcionária
+tem 20% de chance de ir de carro,
+
+00:00:55.033 --> 00:00:57.601
+30% de chance
+de usar transporte público
+
+00:00:57.634 --> 00:01:01.100
+e 50% de chance
+de ir andando ou de bicicleta.
+
+00:01:01.133 --> 00:01:04.567
+Uma 3ª árvore será gerada
+a partir de outra amostra.
+
+00:01:04.601 --> 00:01:08.133
+É esta árvore. Nesta árvore,
+prevê-se que a funcionária
+
+00:01:08.167 --> 00:01:10.734
+tenha 30% de chance
+de ir de carro,
+
+00:01:10.767 --> 00:01:13.767
+20% de chance
+de usar transporte público
+
+00:01:13.801 --> 00:01:16.734
+e 50% de chance
+de andar ou ir de bicicleta.
+
+00:01:16.767 --> 00:01:19.968
+Num modelo de floresta, centenas
+de árvores assim seriam criadas,
+
+00:01:20.000 --> 00:01:24.033
+e o resultado de cada uma formaria
+uma média para gerar uma previsão.
+
+00:01:24.601 --> 00:01:27.434
+Vamos calcular a média
+dessas três árvores
+
+00:01:27.467 --> 00:01:29.267
+para fazer uma previsão.
+
+00:01:29.300 --> 00:01:33.200
+Então, ir de carro tem
+50% + 20% + 30%
+
+00:01:33.234 --> 00:01:37.934
+divididos por 3, então a chance
+de ir de carro é de 33%.
+
+00:01:37.968 --> 00:01:42.734
+Para o transporte público,
+são 30% + 30% + 20%
+
+00:01:42.767 --> 00:01:48.536
+divididos por 3, então a chance
+do transporte público é de 27%.
+
+00:01:48.868 --> 00:01:53.334
+Caminhar e andar de bicicleta
+tinham 20% + 50% + 50%
+
+00:01:53.367 --> 00:01:56.734
+divididos por 3, o que dá 40%.
+
+00:01:56.767 --> 00:01:59.868
+Então, podemos ver que,
+se usássemos apenas a 1ª árvore,
+
+00:01:59.901 --> 00:02:03.634
+por causa do superajuste, ela teria
+gerado uma previsão diferente
+
+00:02:03.667 --> 00:02:05.334
+do que o modelo de floresta,
+
+00:02:05.367 --> 00:02:08.667
+a previsão de que a funcionária
+provavelmente usava o carro.
+
+00:02:08.701 --> 00:02:10.667
+Mas, ao usar a técnica de floresta,
+a previsão
+
+00:02:10.701 --> 00:02:13.198
+é de que ela provavelmente anda
+ou vai de bicicleta.
+
+00:02:13.231 --> 00:02:14.367
+*END*
+
+00:02:14.400 --> 00:02:15.701
+*CODE*
+

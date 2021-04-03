@@ -1,0 +1,50 @@
+WEBVTT
+Kind: captions
+Language: pt-BR
+
+00:00:00.200 --> 00:00:03.534
+Nesta seção, aprendemos
+a usar um modelo boosted
+
+00:00:03.567 --> 00:00:07.434
+para fazer previsões. Nele, usamos
+modelos preditivos sequenciais
+
+00:00:07.467 --> 00:00:09.667
+que aprendem um com o outro
+para classificar
+
+00:00:09.701 --> 00:00:11.868
+como os funcionários
+iam trabalhar.
+
+00:00:11.901 --> 00:00:14.701
+Esse modelo tinha
+uma precisão geral de 83%.
+
+00:00:14.734 --> 00:00:17.767
+Não é uma taxa ruim,
+mas é bem menor
+
+00:00:17.801 --> 00:00:19.634
+do que a que vimos
+no modelo de floresta.
+
+00:00:19.667 --> 00:00:21.599
+Isso não significa que devemos
+jogá-lo fora,
+
+00:00:21.632 --> 00:00:24.267
+pois ainda podemos usar isso
+para comparar os modelos.
+
+00:00:24.300 --> 00:00:26.932
+Que tal passarmos
+para a comparação de modelos agora?
+
+00:00:26.965 --> 00:00:28.100
+*END*
+
+00:00:28.133 --> 00:00:29.434
+*CODE*
+

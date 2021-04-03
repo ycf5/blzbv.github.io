@@ -1,0 +1,190 @@
+WEBVTT
+Kind: captions
+Language: pt-BR
+
+00:00:00.400 --> 00:00:03.067
+Árvores de decisão são uma técnica
+de modelagem poderosa,
+
+00:00:03.100 --> 00:00:06.334
+mas, como toda técnica,
+o algoritmo pode ter problemas.
+
+00:00:06.367 --> 00:00:09.567
+Árvores de decisão tendem a ter
+um erro chamado "superajuste",
+
+00:00:09.601 --> 00:00:12.400
+em que o modelo se ajusta
+aos dados da amostra bem demais
+
+00:00:12.434 --> 00:00:16.601
+e, por causa disso, não prevê
+futuros resultados como deveria.
+
+00:00:16.634 --> 00:00:18.734
+Uma técnica que ajuda
+a eliminar esse problema
+
+00:00:18.767 --> 00:00:20.801
+é o modelo
+de floresta aleatória.
+
+00:00:20.834 --> 00:00:24.668
+Vamos recuar um pouco
+e ver o que é um modelo de floresta.
+
+00:00:24.701 --> 00:00:26.132
+Para criar
+um modelo de floresta,
+
+00:00:26.165 --> 00:00:28.667
+vamos começar construindo
+uma árvore de decisão.
+
+00:00:28.701 --> 00:00:31.501
+Lembre que a árvore de decisão
+é construída
+
+00:00:31.534 --> 00:00:34.701
+a partir de grupos escolhidos
+para dividir os dados.
+
+00:00:34.734 --> 00:00:37.767
+As divisões são feitas em lugares
+que produzem a maior diferença
+
+00:00:37.801 --> 00:00:40.434
+e, neste exemplo,
+a maior diferença
+
+00:00:40.467 --> 00:00:43.501
+na porcentagem
+de meios de transporte.
+
+00:00:43.534 --> 00:00:46.734
+Vamos continuar neste caminho,
+criando divisões nos dados
+
+00:00:46.767 --> 00:00:49.968
+até que adicionar mais divisões
+não acrescente mais valor
+
+00:00:50.001 --> 00:00:53.367
+para prever o meio
+de transporte correto.
+
+00:00:53.400 --> 00:00:56.934
+E se fizéssemos a mesma árvore
+com dados levemente diferentes?
+
+00:00:56.968 --> 00:00:59.133
+Seria exatamente a mesma?
+
+00:00:59.167 --> 00:01:02.567
+Não. Mudanças nos dados
+poderia fazer a árvore
+
+00:01:02.601 --> 00:01:05.534
+se dividir em pontos diferentes
+ou numa ordem diferente.
+
+00:01:05.567 --> 00:01:08.100
+Um modelo de floresta
+cria centenas de árvores.
+
+00:01:08.133 --> 00:01:10.834
+Isto é chamado de conjunto
+de árvores de decisão,
+
+00:01:10.868 --> 00:01:14.868
+já que cada árvore é criada
+por pedaços retirados aleatoriamente
+
+00:01:14.901 --> 00:01:16.400
+dos dados originais.
+
+00:01:16.434 --> 00:01:19.701
+Depois, ele olha para os resultados
+para fazer uma previsão.
+
+00:01:19.734 --> 00:01:22.934
+Bom, como isso resolve
+o problema do superajuste
+
+00:01:22.968 --> 00:01:24.601
+que mencionamos antes?
+
+00:01:24.634 --> 00:01:29.100
+Cada árvore criada ainda terá
+o problema de superajuste,
+
+00:01:29.133 --> 00:01:31.200
+mas, quando olhamos
+o resultado no geral,
+
+00:01:31.234 --> 00:01:35.400
+o superajuste acaba sendo
+nivelado pelas outras árvores.
+
+00:01:35.434 --> 00:01:39.634
+A 1ª árvore de decisão será criada
+com um subconjunto dos dados,
+
+00:01:39.667 --> 00:01:41.901
+e também vamos usar
+uma combinação diferente
+
+00:01:41.934 --> 00:01:46.200
+de variáveis preditivas para ajudar
+a formar as divisões das árvores.
+
+00:01:46.234 --> 00:01:50.167
+A 2ª árvore de decisão
+vai fazer exatamente a mesma coisa
+
+00:01:50.200 --> 00:01:54.234
+com outro subconjunto de dados,
+usando outras variáveis preditivas
+
+00:01:54.267 --> 00:01:56.934
+para ajudar
+nas divisões também.
+
+00:01:56.968 --> 00:01:58.467
+Isso vai continuar ocorrendo
+
+00:01:58.501 --> 00:02:02.033
+até o número de árvores de decisão
+especificado ser criado.
+
+00:02:02.067 --> 00:02:06.100
+O padrão é criar 500
+árvores de decisão.
+
+00:02:06.133 --> 00:02:09.467
+Cada funcionário vai passar
+por cada árvore
+
+00:02:09.501 --> 00:02:11.667
+até chegar a uma folha.
+
+00:02:11.701 --> 00:02:15.200
+Em cada folha, a árvore
+de decisão dá um voto:
+
+00:02:15.234 --> 00:02:18.334
+"Car", "Public Transportation"
+ou "Bike".
+
+00:02:18.367 --> 00:02:21.100
+A folha que aparece
+com mais frequência
+
+00:02:21.133 --> 00:02:25.200
+então é classificada como o grupo
+em que o funcionário é inserido.
+
+00:02:25.234 --> 00:02:26.534
+*END*
+

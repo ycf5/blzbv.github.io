@@ -1,0 +1,130 @@
+WEBVTT
+Kind: captions
+Language: pt-BR
+
+00:00:00.799 --> 00:00:03.901
+No Alteryx, vamos usar
+a mesma ferramenta
+
+00:00:03.934 --> 00:00:07.267
+que usamos para validar
+cada modelo
+
+00:00:07.300 --> 00:00:10.934
+para comparar os três modelos
+lado a lado,
+
+00:00:10.968 --> 00:00:13.234
+a ferramenta
+"Model Comparison".
+
+00:00:13.267 --> 00:00:17.701
+Como vemos na tela,
+temos os três modelos já criados
+
+00:00:17.734 --> 00:00:19.334
+porque já fizemos isso.
+
+00:00:19.367 --> 00:00:23.534
+Agora, vou unir
+os três objetos de modelo
+
+00:00:23.567 --> 00:00:26.267
+e conectá-los à ferramenta
+"Model Comparison"
+
+00:00:26.300 --> 00:00:30.234
+para poder determinar
+que modelo funciona melhor
+
+00:00:30.267 --> 00:00:33.400
+analisando-os
+um ao lado do outro.
+
+00:00:33.434 --> 00:00:35.901
+Vamos pegar
+uma ferramenta "Union"
+
+00:00:35.934 --> 00:00:39.234
+para unir
+os três objetos de modelo.
+
+00:00:39.267 --> 00:00:42.033
+Então vou pegar uma ferramenta
+"Model Comparison"
+
+00:00:42.067 --> 00:00:44.834
+e conectar o resultado da união
+dos objetos de modelo
+
+00:00:44.868 --> 00:00:49.734
+ao input "M", ou modelo,
+da ferramenta "Model Comparison".
+
+00:00:50.167 --> 00:00:53.300
+A amostra de validação vai
+ser conectada ao "D",
+
+00:00:53.334 --> 00:00:55.367
+ou lado dos dados.
+
+00:00:55.400 --> 00:00:59.033
+Vamos colocar um "Browse"
+depois do output "R"
+
+00:00:59.334 --> 00:01:01.339
+e ativar o workflow.
+
+00:01:01.968 --> 00:01:05.868
+Agora que a análise foi feita,
+vamos abrir os resultados
+
+00:01:05.901 --> 00:01:08.172
+para podermos interpretá-los.
+
+00:01:08.933 --> 00:01:11.734
+Podemos ver aqui
+os três modelos lado a lado
+
+00:01:11.767 --> 00:01:13.601
+com suas medidas
+de ajuste e erro.
+
+00:01:13.634 --> 00:01:19.300
+Podemos determinar
+a precisão geral de cada modelo
+
+00:01:19.334 --> 00:01:21.167
+para o conjunto de dados
+de validação
+
+00:01:21.200 --> 00:01:23.968
+e se cada modelo
+funcionou bem
+
+00:01:24.001 --> 00:01:27.334
+ao tentar prever
+o meio de transporte
+
+00:01:27.367 --> 00:01:30.267
+a partir do conjunto
+de dados de validação.
+
+00:01:30.300 --> 00:01:34.234
+Outra coisa que podemos ver
+é a matriz de confusão
+
+00:01:34.267 --> 00:01:37.701
+de cada modelo diferente
+em relação aos dados de validação
+
+00:01:37.734 --> 00:01:41.601
+para ver se há tendências
+ou vieses neste modelo.
+
+00:01:41.634 --> 00:01:42.934
+*END*
+
+00:01:42.968 --> 00:01:44.267
+*CODE*
+

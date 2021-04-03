@@ -1,0 +1,76 @@
+WEBVTT
+Kind: captions
+Language: pt-BR
+
+00:00:00.501 --> 00:00:04.133
+Na seção de classificação binária,
+aprendemos sobre árvores de decisão,
+
+00:00:04.167 --> 00:00:06.434
+que foram usadas para prever
+variáveis binárias.
+
+00:00:06.467 --> 00:00:08.200
+Elas fazem isso
+ao dividir os dados
+
+00:00:08.234 --> 00:00:12.067
+e criar a maior diferença
+de porcentagem entre os grupos-alvo.
+
+00:00:12.100 --> 00:00:13.300
+Bem, adivinhe só?
+
+00:00:13.334 --> 00:00:17.100
+Elas também podem ser usadas
+para prever dados não binários,
+
+00:00:17.133 --> 00:00:20.400
+e vamos usá-la
+no novo problema de negócio.
+
+00:00:20.434 --> 00:00:23.300
+Como já aprendemos o básico
+sobre árvores de decisão,
+
+00:00:23.334 --> 00:00:26.167
+vamos passar para o Alteryx
+para construir o modelo.
+
+00:00:26.601 --> 00:00:30.100
+O que vamos fazer é construir
+uma árvore de decisão no Alteryx,
+
+00:00:30.133 --> 00:00:33.033
+interpretar os resultados
+e validar o modelo.
+
+00:00:33.067 --> 00:00:35.501
+Lembre-se de que o objetivo
+desta análise
+
+00:00:35.534 --> 00:00:38.100
+é prever
+que meio de transporte
+
+00:00:38.133 --> 00:00:42.968
+os 40% de funcionários que não
+responderam à pesquisa usam.
+
+00:00:43.000 --> 00:00:45.467
+Como já construímos
+uma árvore de decisão,
+
+00:00:45.501 --> 00:00:49.267
+você pode importar os dados
+e montar o modelo sozinho.
+
+00:00:49.300 --> 00:00:51.400
+Depois vamos poder validá-lo.
+
+00:00:51.434 --> 00:00:52.734
+*END*
+
+00:00:52.767 --> 00:00:54.100
+*CODE*
+

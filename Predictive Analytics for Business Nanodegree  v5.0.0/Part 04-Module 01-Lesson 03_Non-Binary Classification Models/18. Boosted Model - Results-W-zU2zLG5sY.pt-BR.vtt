@@ -1,0 +1,81 @@
+WEBVTT
+Kind: captions
+Language: pt-BR
+
+00:00:00.000 --> 00:00:02.300
+No modelo boosted,
+não há muitos resultados
+
+00:00:02.334 --> 00:00:06.667
+que possam ser interpretados
+com base na precisão.
+
+00:00:06.701 --> 00:00:10.067
+Para fazer isso,
+é preciso validar o modelo.
+
+00:00:10.100 --> 00:00:12.400
+Vamos chegar nessa parte,
+mas, por enquanto,
+
+00:00:12.434 --> 00:00:16.467
+vamos olhar os dois itens
+importantes que podemos examinar
+
+00:00:16.501 --> 00:00:18.834
+nos resultados
+dos modelos boosted.
+
+00:00:18.868 --> 00:00:23.133
+A 1ª coisa que temos que procurar é
+o "Variable Importance Plot".
+
+00:00:23.167 --> 00:00:25.267
+Como vimos
+no modelo de floresta,
+
+00:00:25.300 --> 00:00:27.434
+ele pode nos ajudar a saber
+que variáveis
+
+00:00:27.467 --> 00:00:31.567
+nos ajudam a prever melhor
+a variável-alvo.
+
+00:00:31.601 --> 00:00:34.067
+O outro item interessante
+dos resultados
+
+00:00:34.100 --> 00:00:37.033
+é o "Number of Iterations
+Assignment Plot".
+
+00:00:37.067 --> 00:00:39.267
+Ele nos ajuda a mostrar
+o tamanho da variância,
+
+00:00:39.300 --> 00:00:44.367
+ou melhor, da desviância obtida
+quando temos mais iterações.
+
+00:00:44.400 --> 00:00:46.400
+A pergunta que ele responde é:
+
+00:00:46.434 --> 00:00:50.238
+quantas árvores são necessárias
+para criar o melhor resultado?
+
+00:00:50.999 --> 00:00:54.200
+Agora que sabemos um pouco
+sobre o que vamos procurar,
+
+00:00:54.234 --> 00:00:58.234
+que tal vermos o resultado
+de um modelo no Alteryx?
+
+00:00:58.267 --> 00:00:59.567
+*END*
+
+00:00:59.601 --> 00:01:00.901
+*CODE*
+

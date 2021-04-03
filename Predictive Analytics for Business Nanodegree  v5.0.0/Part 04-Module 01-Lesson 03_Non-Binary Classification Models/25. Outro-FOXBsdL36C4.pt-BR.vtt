@@ -1,0 +1,59 @@
+WEBVTT
+Kind: captions
+Language: pt-BR
+
+00:00:00.300 --> 00:00:02.934
+Parabéns! Você acabou
+de completar esta aula.
+
+00:00:02.968 --> 00:00:04.901
+Agora vamos retomar
+o que vimos.
+
+00:00:04.934 --> 00:00:08.467
+Nesta seção, tentamos
+classificar dados não binários.
+
+00:00:08.501 --> 00:00:11.133
+Nós usamos uma abordagem
+muito metódica,
+
+00:00:11.167 --> 00:00:14.665
+muito parecida com a que usamos
+para classificar dados binários.
+
+00:00:14.698 --> 00:00:16.400
+Primeiro, examinamos os dados,
+
+00:00:16.434 --> 00:00:18.767
+depois criamos amostras
+dos conjuntos de dados,
+
+00:00:18.801 --> 00:00:21.701
+testamos as amostras
+em três tipos de modelo
+
+00:00:21.734 --> 00:00:25.100
+e comparamos os modelos
+usando os dados de validação.
+
+00:00:25.133 --> 00:00:27.801
+Escolhemos o modelo
+com base no modo que funcionava
+
+00:00:27.834 --> 00:00:29.901
+e na tradicional intuição.
+
+00:00:29.934 --> 00:00:32.634
+Agora você deveria pegar
+o que aprendeu
+
+00:00:32.667 --> 00:00:34.601
+e aplicar no projeto.
+
+00:00:34.634 --> 00:00:35.968
+*END*
+
+00:00:36.001 --> 00:00:37.267
+*CODE*
+

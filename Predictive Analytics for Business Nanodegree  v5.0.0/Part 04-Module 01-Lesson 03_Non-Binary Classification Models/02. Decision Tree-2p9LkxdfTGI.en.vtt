@@ -1,0 +1,55 @@
+WEBVTT
+Kind: captions
+Language: en
+
+00:00:00.000 --> 00:00:02.670
+In the binary classification section,
+
+00:00:02.670 --> 00:00:06.510
+we learned about decision trees which were used to predict binary variables.
+
+00:00:06.510 --> 00:00:09.820
+They do this by splitting the data and creating the largest difference of
+
+00:00:09.820 --> 00:00:13.285
+the percent between the target group. Well, guess what?
+
+00:00:13.285 --> 00:00:17.155
+They can also be used to predict non-binary classification data.
+
+00:00:17.155 --> 00:00:20.295
+We'll be using this for a new business problem.
+
+00:00:20.295 --> 00:00:23.350
+Since we already learned the foundation of decision trees,
+
+00:00:23.350 --> 00:00:26.280
+let's flip over to Alteryx to build this model out.
+
+00:00:26.280 --> 00:00:30.200
+Now, what we're going to do is build a decision tree of an Alteryx,
+
+00:00:30.200 --> 00:00:32.895
+interpret the results, and validate the model.
+
+00:00:32.895 --> 00:00:37.000
+If you recall, the goal of this analysis is to predict what mode of
+
+00:00:37.000 --> 00:00:39.650
+transportation the 40 percent of
+
+00:00:39.650 --> 00:00:43.100
+employees who did not respond to the survey actually use,
+
+00:00:43.100 --> 00:00:45.440
+since we have already built out a decision tree,
+
+00:00:45.440 --> 00:00:47.295
+go ahead and bring in the data,
+
+00:00:47.295 --> 00:00:49.125
+and build this model out yourself.
+
+00:00:49.125 --> 00:00:51.860
+You can then validate the model afterwards.
+

@@ -1,0 +1,50 @@
+WEBVTT
+Kind: captions
+Language: pt-BR
+
+00:00:00.100 --> 00:00:03.300
+Nesta seção, aprendemos o básico
+sobre o modelo de floresta.
+
+00:00:03.334 --> 00:00:06.000
+Este modelo cria um conjunto
+de árvores de decisão
+
+00:00:06.033 --> 00:00:08.501
+para classificar
+que meio de transporte
+
+00:00:08.534 --> 00:00:10.534
+os funcionários pegam
+para ir trabalhar.
+
+00:00:10.567 --> 00:00:12.734
+Como este modelo pareceu
+bastante preciso,
+
+00:00:12.767 --> 00:00:15.501
+estou animado para usá-lo
+nos 40% dos funcionários
+
+00:00:15.534 --> 00:00:18.534
+que não responderam à pesquisa,
+mas vamos primeiro examinar
+
+00:00:18.567 --> 00:00:20.733
+outro tipo de modelo,
+porque... Quem sabe?
+
+00:00:20.766 --> 00:00:24.032
+Ele pode funcionar ainda melhor
+que o modelo de floresta.
+
+00:00:24.065 --> 00:00:26.667
+Vamos falar dele agora:
+o modelo boosted.
+
+00:00:26.701 --> 00:00:28.000
+*END*
+
+00:00:28.033 --> 00:00:29.334
+*CODE*
+

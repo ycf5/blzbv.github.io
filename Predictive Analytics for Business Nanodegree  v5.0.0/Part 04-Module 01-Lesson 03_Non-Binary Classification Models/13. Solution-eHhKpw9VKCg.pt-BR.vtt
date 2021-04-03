@@ -1,0 +1,138 @@
+WEBVTT
+Kind: captions
+Language: pt-BR
+
+00:00:00.534 --> 00:00:02.667
+O modelo de floresta
+funcionou muito bem
+
+00:00:02.701 --> 00:00:06.767
+com os 60% de funcionários
+que responderam à pesquisa.
+
+00:00:06.801 --> 00:00:09.167
+Mas, assim como todos
+os outros modelos
+
+00:00:09.200 --> 00:00:11.968
+apresentados nesta aula
+sobre classificação,
+
+00:00:12.000 --> 00:00:15.667
+temos que testar o modelo
+com a amostra de validação
+
+00:00:15.701 --> 00:00:19.901
+para determinar se o modelo
+de floresta funciona bem
+
+00:00:19.934 --> 00:00:22.234
+com dados independentes.
+
+00:00:22.267 --> 00:00:27.367
+Então o que vamos fazer é continuar
+o workflow que construímos
+
+00:00:27.400 --> 00:00:29.200
+e que contém a ferramenta
+"Input Data",
+
+00:00:29.234 --> 00:00:31.801
+as amostras
+do conjunto de dados,
+
+00:00:31.834 --> 00:00:36.300
+o modelo "Decision Tree",
+ou melhor, o "Forest Model",
+
+00:00:36.334 --> 00:00:39.200
+e agora temos que pegar
+uma ferramenta "Model Comparison"
+
+00:00:39.234 --> 00:00:42.734
+para validar o modelo com
+um conjunto de dados de validação.
+
+00:00:42.767 --> 00:00:45.033
+Mais uma vez, vamos pegar
+o objeto de modelo
+
+00:00:45.067 --> 00:00:47.067
+e conectar ao lado "M",
+do modelo,
+
+00:00:47.100 --> 00:00:51.667
+e o conjunto de dados de validação
+ao lado "D", dos dados.
+
+00:00:51.701 --> 00:00:56.167
+Agora vamos colocar um "Browse"
+depois do "R", ou nó de relatório,
+
+00:00:56.200 --> 00:00:58.734
+e ativar o workflow.
+
+00:00:58.767 --> 00:01:01.534
+Com esta ferramenta, podemos ver
+que a precisão do modelo
+
+00:01:01.567 --> 00:01:05.801
+para a amostra de validação
+é de 85%.
+
+00:01:05.834 --> 00:01:07.767
+Mais uma vez,
+ela é bem mais baixa
+
+00:01:07.801 --> 00:01:11.000
+do que a da amostra de estimação
+que usamos antes -
+
+00:01:11.033 --> 00:01:13.634
+que era bem mais alta.
+
+00:01:13.667 --> 00:01:15.801
+Então, assim como
+o modelo de árvore de decisão,
+
+00:01:15.834 --> 00:01:19.601
+ambos os resultados caíram quando
+previmos a amostra de estimação
+
+00:01:19.634 --> 00:01:22.634
+e depois previmos
+a amostra de validação.
+
+00:01:22.667 --> 00:01:26.434
+Acho que lembro que este resultado
+é um pouco maior
+
+00:01:26.467 --> 00:01:28.133
+que o da árvore de decisão,
+
+00:01:28.167 --> 00:01:30.334
+mas vamos precisar
+compará-los lado a lado
+
+00:01:30.367 --> 00:01:34.267
+para determinar qual é melhor
+para fazer previsões.
+
+00:01:34.300 --> 00:01:37.834
+Além disso, talvez tenhamos
+outro modelo disponível
+
+00:01:37.868 --> 00:01:41.100
+que podemos testar para ver
+se ele funciona melhor
+
+00:01:41.133 --> 00:01:43.734
+do que os dois
+que vimos até agora.
+
+00:01:43.767 --> 00:01:45.067
+*END*
+
+00:01:45.100 --> 00:01:46.400
+*CODE*
+

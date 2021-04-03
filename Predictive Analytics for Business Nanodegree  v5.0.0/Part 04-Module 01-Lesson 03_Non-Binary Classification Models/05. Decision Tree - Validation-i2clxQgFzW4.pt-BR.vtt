@@ -1,0 +1,135 @@
+WEBVTT
+Kind: captions
+Language: pt-BR
+
+00:00:00.467 --> 00:00:02.667
+Como já construímos o modelo,
+
+00:00:02.701 --> 00:00:05.033
+podemos usar a ferramenta
+"Model Comparison"
+
+00:00:05.067 --> 00:00:08.834
+para poder analisar a qualidade
+do modelo de árvore de decisão
+
+00:00:08.868 --> 00:00:11.467
+em uma amostra independente.
+
+00:00:11.501 --> 00:00:14.701
+O que vou fazer é abrir
+a seção "Predictive"
+
+00:00:14.734 --> 00:00:17.504
+e pegar a ferramenta
+"Model Comparison".
+
+00:00:18.000 --> 00:00:22.634
+Vou conectar o objeto de modelo
+da árvore de decisão
+
+00:00:22.667 --> 00:00:27.167
+com a ferramenta "Model Comparison"
+no input "M", de modelo,
+
+00:00:27.200 --> 00:00:30.267
+e a amostra de validação
+da ferramenta "Create Samples"
+
+00:00:30.300 --> 00:00:33.133
+com o lado "D", de dados.
+
+00:00:33.167 --> 00:00:36.868
+A opção "The positive class
+in a target variable"
+
+00:00:36.901 --> 00:00:38.467
+não precisa ser definida,
+
+00:00:38.501 --> 00:00:42.267
+já que não estamos tentando prever
+uma variável de categoria binária,
+
+00:00:42.300 --> 00:00:45.133
+mas dados de categoria
+não binários.
+
+00:00:45.167 --> 00:00:49.667
+Então não existe uma classe
+positiva nem negativa.
+
+00:00:50.501 --> 00:00:53.868
+Em vez disso,
+vou deixar isso vazio
+
+00:00:53.901 --> 00:00:57.033
+e pôr uma ferramenta "Browse"
+depois do output "R".
+
+00:00:57.067 --> 00:01:00.534
+Vamos maximizar o resultado agora
+e interpretá-los.
+
+00:01:00.567 --> 00:01:06.033
+A árvore de decisão tem uma precisão
+de 96% com a amostra de estimação,
+
+00:01:06.067 --> 00:01:08.567
+o que é bem alta. Mas, agora,
+
+00:01:08.601 --> 00:01:12.667
+o modelo não age tão bem
+com a amostra de validação,
+
+00:01:12.701 --> 00:01:17.667
+já que a precisão geral
+ficou mais baixa, 84%.
+
+00:01:17.701 --> 00:01:20.901
+Isso me faz perguntar se não
+podemos criar um modelo melhor
+
+00:01:20.934 --> 00:01:23.133
+que seja um pouco
+mais confiável.
+
+00:01:23.167 --> 00:01:27.100
+Esta não confiabilidade costuma
+ser vista em árvores de decisão
+
+00:01:27.133 --> 00:01:29.467
+devido à sua tendência
+de superajustar o modelo
+
+00:01:29.501 --> 00:01:31.467
+ao conjunto de dados.
+
+00:01:31.501 --> 00:01:33.667
+Os outros tipos de modelo
+que vamos usar
+
+00:01:33.701 --> 00:01:36.400
+são modelos de floresta
+e modelos boosted,
+
+00:01:36.434 --> 00:01:40.033
+e ambos são usados como extensão
+das árvores de decisão.
+
+00:01:40.067 --> 00:01:42.834
+Mas para fazer um bom trabalho
+para combater
+
+00:01:42.868 --> 00:01:45.067
+o problema do superajuste,
+
+00:01:45.100 --> 00:01:49.467
+vamos explorar um novo modelo,
+chamado "modelo de floresta".
+
+00:01:49.501 --> 00:01:50.801
+*END*
+
+00:01:50.834 --> 00:01:52.133
+*CODE*
+

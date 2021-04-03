@@ -1,0 +1,58 @@
+WEBVTT
+Kind: captions
+Language: pt-BR
+
+00:00:00.267 --> 00:00:02.734
+Em vez de criar
+um bando de árvores aleatórias,
+
+00:00:02.767 --> 00:00:05.467
+o modelo boosted
+cria uma árvore.
+
+00:00:05.501 --> 00:00:09.701
+O algoritmo deste modelo
+analisa os erros da árvore
+
+00:00:09.734 --> 00:00:13.100
+para identificar
+a maior fonte de erro.
+
+00:00:13.133 --> 00:00:16.501
+Então ele conserta a árvore
+para reduzir esse erro.
+
+00:00:16.534 --> 00:00:21.367
+E ele volta a fazer a análise
+para encontrar o próximo maior erro.
+
+00:00:21.400 --> 00:00:25.138
+E volta a fazer mudanças
+para reduzi-lo.
+
+00:00:25.601 --> 00:00:30.367
+Ele faz isso muitas vezes,
+até não conseguir melhorar a árvore
+
+00:00:30.400 --> 00:00:33.234
+e nós obtermos
+o modelo boosted completo.
+
+00:00:33.267 --> 00:00:36.467
+Para saber sobre a base
+matemática desse modelo,
+
+00:00:36.501 --> 00:00:39.601
+confira alguns dos links
+nas anotações.
+
+00:00:39.634 --> 00:00:43.567
+Agora vamos construir
+um modelo boosted no Alteryx.
+
+00:00:43.834 --> 00:00:45.133
+*END*
+
+00:00:45.167 --> 00:00:46.467
+*CODE*
+
