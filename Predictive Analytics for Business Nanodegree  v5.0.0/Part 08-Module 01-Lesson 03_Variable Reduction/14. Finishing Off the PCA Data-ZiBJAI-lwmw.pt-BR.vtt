@@ -1,0 +1,138 @@
+WEBVTT
+Kind: captions
+Language: pt-BR
+
+00:00:00.000 --> 00:00:03.067
+Se você completou com sucesso
+o teste anterior,
+
+00:00:03.100 --> 00:00:07.033
+deverá ter agora
+um fluxo de trabalho assim.
+
+00:00:07.067 --> 00:00:10.567
+Você terá usado
+3 ferramentas PCA.
+
+00:00:10.601 --> 00:00:14.901
+Uma para chuva, uma para neve
+e uma para precipitação.
+
+00:00:14.934 --> 00:00:18.100
+Passando rapidamente
+as configurações de cada uma,
+
+00:00:18.133 --> 00:00:20.133
+como veem, para a chuva,
+
+00:00:20.167 --> 00:00:23.400
+devem ter escolhido
+as 12 variáveis de chuva.
+
+00:00:23.434 --> 00:00:28.300
+Eu escolhi anexar
+4 componentes principais.
+
+00:00:28.334 --> 00:00:32.534
+Para neve, devem ter escolhido
+as variáveis de neve.
+
+00:00:32.567 --> 00:00:37.100
+E eu escolhi anexar
+dois componentes principais,
+
+00:00:37.133 --> 00:00:40.701
+porque a maior parte da variância
+foi mantida
+
+00:00:40.734 --> 00:00:43.434
+e captada
+só nos dois primeiros.
+
+00:00:43.467 --> 00:00:47.033
+Algo a se notar
+no processo PCA de neve
+
+00:00:47.067 --> 00:00:49.634
+é que não selecionei
+escalar os dados.
+
+00:00:49.667 --> 00:00:53.067
+Este é um caso onde
+os dados não permitem escalar,
+
+00:00:53.100 --> 00:00:57.367
+porque todos os valores
+para nevasca em julho são 0.
+
+00:00:57.400 --> 00:01:01.467
+O processo de escalação não funciona
+e causaria um erro.
+
+00:01:01.501 --> 00:01:05.200
+Para precipitação,
+escolhi os meses de precipitação
+
+00:01:05.234 --> 00:01:08.901
+e anexei
+4 componentes principais.
+
+00:01:08.934 --> 00:01:12.667
+Agora você deve colocar
+todos os dados necessários
+
+00:01:12.701 --> 00:01:16.968
+em um conjunto de dados para usar
+no processo de análise de grupos.
+
+00:01:17.000 --> 00:01:21.501
+Isto pode ser feito juntando-os
+com uma ferramenta Juntar Múltiplos.
+
+00:01:21.534 --> 00:01:24.300
+Para simplificar a criação
+do resto do fluxo de trabalho,
+
+00:01:24.334 --> 00:01:26.701
+que tem mais a ver
+com o processo Alteryx,
+
+00:01:26.734 --> 00:01:29.033
+eu construí
+um fluxo de trabalho completo
+
+00:01:29.067 --> 00:01:31.334
+que mostra como fazer isto.
+
+00:01:31.367 --> 00:01:35.133
+Você pode baixá-lo
+das notas de aula.
+
+00:01:35.167 --> 00:01:37.734
+Se querem se familiarizar mais
+com o Alteryx,
+
+00:01:37.767 --> 00:01:41.534
+sugiro analisarem a configuração
+de cada ferramenta.
+
+00:01:41.567 --> 00:01:45.567
+Salvei os resultados do processo
+em um arquivo yxdb,
+
+00:01:45.601 --> 00:01:49.734
+um formato do Alteryx que mantém
+os tipos de dados numéricos.
+
+00:01:49.767 --> 00:01:52.267
+Isto também está
+nas notas de aula.
+
+00:01:52.300 --> 00:01:54.834
+Ele pode ser usado
+como ponto inicial
+
+00:01:54.868 --> 00:01:57.033
+para a próxima parte
+do exercício.
+

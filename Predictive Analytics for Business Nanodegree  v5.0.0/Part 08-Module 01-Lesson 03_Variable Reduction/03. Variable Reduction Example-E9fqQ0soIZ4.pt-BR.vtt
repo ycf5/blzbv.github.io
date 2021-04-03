@@ -1,0 +1,150 @@
+WEBVTT
+Kind: captions
+Language: pt-BR
+
+00:00:00.000 --> 00:00:03.567
+Vejamos um exemplo
+de redução de variáveis.
+
+00:00:03.601 --> 00:00:06.367
+Estamos analisando
+um estudo de funcionários
+
+00:00:06.400 --> 00:00:11.601
+onde eles devem avaliar de 1 a 7
+as seguintes perguntas.
+
+00:00:11.634 --> 00:00:15.100
+Meu chefe me trata
+com consideração.
+
+00:00:15.133 --> 00:00:19.200
+Meu chefe reconhece
+quando faço um bom trabalho.
+
+00:00:19.234 --> 00:00:23.968
+Meu chefe me consulta sobre decisões
+quanto ao meu trabalho.
+
+00:00:24.000 --> 00:00:28.834
+As perguntas são parecidas,
+e podem ser caracterizadas
+
+00:00:28.868 --> 00:00:32.834
+como "satisfação do funcionário
+com seu supervisor".
+
+00:00:32.868 --> 00:00:35.667
+Um analista
+pode usar todas,
+
+00:00:35.701 --> 00:00:39.534
+mas se já lidam
+com muitas outras variáveis,
+
+00:00:39.567 --> 00:00:42.968
+pode ser mais simples
+ter uma única variável
+
+00:00:43.000 --> 00:00:47.601
+que capte as variações
+das respostas dessas 3 variáveis.
+
+00:00:47.634 --> 00:00:52.300
+É mais fácil comunicar o conceito
+de satisfação do funcionário
+
+00:00:52.334 --> 00:00:56.601
+do que identificar separadamente
+cada resultado das perguntas.
+
+00:00:56.634 --> 00:00:59.601
+Um aspecto negativo
+da redução de variáveis
+
+00:00:59.634 --> 00:01:03.834
+é que embora ela reduza
+o número de variáveis da análise,
+
+00:01:03.868 --> 00:01:06.467
+dependendo do método
+usado nos dados,
+
+00:01:06.501 --> 00:01:10.200
+pode dificultar
+a interpretação do modelo.
+
+00:01:10.234 --> 00:01:14.701
+Se as variáveis que você combina
+não se relacionam necessariamente,
+
+00:01:14.734 --> 00:01:18.667
+por exemplo, total da população
+e níveis de renda,
+
+00:01:18.701 --> 00:01:21.133
+as variáveis componentes
+que são criadas
+
+00:01:21.167 --> 00:01:23.367
+podem ser difíceis
+de explicar.
+
+00:01:23.400 --> 00:01:26.667
+É uma boa prática tentar usar
+redução de variáveis
+
+00:01:26.701 --> 00:01:29.567
+quando elas são relacionadas
+de alguma forma.
+
+00:01:29.601 --> 00:01:32.467
+Vemos isto nos dados
+do exemplo que construímos
+
+00:01:32.501 --> 00:01:35.033
+no exercício
+da aula anterior.
+
+00:01:35.067 --> 00:01:39.901
+Temos 12 meses com dados
+de temperatura, nevasca, chuva
+
+00:01:39.934 --> 00:01:42.033
+e precipitação.
+
+00:01:42.067 --> 00:01:44.868
+Eu não usaria métodos
+de redução de variáveis
+
+00:01:44.901 --> 00:01:47.801
+para combinar
+as 48 variáveis de uma vez.
+
+00:01:47.834 --> 00:01:51.033
+Mas faria sentido
+criar variáveis componentes
+
+00:01:51.067 --> 00:01:53.634
+para cada
+categoria de clima.
+
+00:01:53.667 --> 00:01:57.734
+Assim, nevasca fica separada
+de temperatura.
+
+00:01:57.767 --> 00:02:00.801
+Como analista,
+você deve pesar o benefício
+
+00:02:00.834 --> 00:02:05.701
+de reduzir seu número de variáveis
+da análise de agrupamento,
+
+00:02:05.734 --> 00:02:09.634
+e o aspecto importante
+de ser capaz de explicar
+
+00:02:09.667 --> 00:02:11.467
+a base dos grupos.
+

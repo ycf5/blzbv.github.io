@@ -1,0 +1,105 @@
+WEBVTT
+Kind: captions
+Language: pt-BR
+
+00:00:00.000 --> 00:00:03.734
+Como nossos dados se relacionam
+a posições geográficas,
+
+00:00:03.767 --> 00:00:07.767
+também podemos vê-los
+como aparecem em um mapa nos EUA.
+
+00:00:07.801 --> 00:00:12.200
+Vamos acrescentar uma nova folha
+com a latitude e a longitude.
+
+00:00:12.234 --> 00:00:16.067
+Lembrem-se, devemos
+desmarcar "Agregar Medidas".
+
+00:00:16.100 --> 00:00:18.667
+Vamos ver aquela amostra
+que trouxemos.
+
+00:00:18.701 --> 00:00:22.501
+Agora podemos arrastar os valores
+de PC1 até a marca da cor,
+
+00:00:22.534 --> 00:00:25.934
+e também arrastaremos
+o PC1 até o rótulo.
+
+00:00:25.968 --> 00:00:29.200
+O interessante é que quando
+olhamos para o mapa dos EUA
+
+00:00:29.234 --> 00:00:32.634
+com os mesmos registros
+que vimos no 1º gráfico,
+
+00:00:32.667 --> 00:00:37.367
+vemos o mesmo padrão esperado
+mas, com o mapa, entendemos melhor.
+
+00:00:37.400 --> 00:00:39.734
+Os estados de baixo
+têm os pontos vermelhos,
+
+00:00:39.767 --> 00:00:42.400
+e correspondem
+aos valores negativos de PC,
+
+00:00:42.434 --> 00:00:44.234
+e temperaturas mais altas.
+
+00:00:44.267 --> 00:00:47.767
+Ao subirmos
+para um clima mais frio,
+
+00:00:47.801 --> 00:00:51.300
+o número fica positivo
+e a cor muda para verde escuro,
+
+00:00:51.334 --> 00:00:53.701
+indicando uma temperatura
+mais baixa.
+
+00:00:53.734 --> 00:00:57.901
+De novo, PC1 capta
+quase 92% da variância,
+
+00:00:57.934 --> 00:01:00.901
+e esperamos
+que faça mais sentido.
+
+00:01:00.934 --> 00:01:03.400
+Agora vamos duplicar
+esta folha
+
+00:01:03.434 --> 00:01:09.234
+e substituir PC1 por PC2
+para cor e rótulo.
+
+00:01:09.267 --> 00:01:12.634
+Se olharmos para
+a visualização do mapa para PC2,
+
+00:01:12.667 --> 00:01:14.667
+ainda vemos
+alguns agrupamentos,
+
+00:01:14.701 --> 00:01:17.801
+com a parte central dos EUA
+se comportando diferente
+
+00:01:17.834 --> 00:01:19.434
+das partes costeiras.
+
+00:01:19.467 --> 00:01:20.501
+Como esperado,
+
+00:01:20.534 --> 00:01:24.167
+esses agrupamentos parecem
+não correlacionados ao 1º mapa.
+

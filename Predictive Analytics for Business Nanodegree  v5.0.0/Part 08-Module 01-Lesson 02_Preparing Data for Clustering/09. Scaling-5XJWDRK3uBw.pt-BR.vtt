@@ -1,0 +1,151 @@
+WEBVTT
+Kind: captions
+Language: pt-BR
+
+00:00:00.000 --> 00:00:04.701
+Isto nos leva ao tópico de escalação,
+ou padronização dos dados.
+
+00:00:04.734 --> 00:00:07.234
+Escalação é
+uma consideração importante
+
+00:00:07.267 --> 00:00:10.567
+ao preparar os seus dados
+para um processo de agrupamento.
+
+00:00:10.601 --> 00:00:14.667
+Como o conceito de distância é
+importante para determinar grupos,
+
+00:00:14.701 --> 00:00:18.534
+o tamanho relativo dos valores
+entre as variáveis usadas
+
+00:00:18.567 --> 00:00:20.601
+torna-se importante também.
+
+00:00:20.634 --> 00:00:24.067
+Como exemplo, suponha que
+estejamos usando duas variáveis
+
+00:00:24.100 --> 00:00:26.033
+para uma análise de grupos.
+
+00:00:26.067 --> 00:00:30.400
+Uma é uma porcentagem
+com uma variação de 0% a 100%.
+
+00:00:30.434 --> 00:00:34.567
+Digamos, de uma demografia,
+a porcentagem de determinada etnia.
+
+00:00:34.601 --> 00:00:38.434
+A outra variável é uma medida
+de algum tipo de dado absoluto,
+
+00:00:38.467 --> 00:00:43.167
+digamos, população,
+que pode ir de 0 a qualquer máximo,
+
+00:00:43.200 --> 00:00:45.767
+mas que pode
+se estender aos milhões.
+
+00:00:45.801 --> 00:00:48.834
+Usar as duas variáveis
+sem nenhum ajuste
+
+00:00:48.868 --> 00:00:52.334
+dará muito mais peso
+à variável da população
+
+00:00:52.367 --> 00:00:54.400
+do que à da porcentagem.
+
+00:00:54.434 --> 00:00:57.267
+Como soluções de agrupamento
+são muito sensíveis
+
+00:00:57.300 --> 00:00:59.434
+a este tipo de diferença
+em escala,
+
+00:00:59.467 --> 00:01:03.534
+muitos algoritmos padronizam
+automaticamente as variáveis
+
+00:01:03.567 --> 00:01:05.667
+a escalas similares.
+
+00:01:05.701 --> 00:01:10.467
+Um método comum é calcular
+o escore Z de cada valor no campo.
+
+00:01:10.501 --> 00:01:13.200
+Também se chama
+escore padrão.
+
+00:01:13.234 --> 00:01:17.634
+Basicamente mede o número
+de desvios padrão de cada valor
+
+00:01:17.667 --> 00:01:19.133
+até a média.
+
+00:01:19.167 --> 00:01:22.567
+Outro método de escalação
+é calcular o intervalo da unidade,
+
+00:01:22.601 --> 00:01:27.567
+que comprime todos os valores
+em um campo de 0 a 1 de variação.
+
+00:01:27.601 --> 00:01:30.968
+Um método comum para isto
+seria mudar as variáveis
+
+00:01:31.000 --> 00:01:33.767
+para que o valor mínimo
+seja 0.
+
+00:01:33.801 --> 00:01:37.434
+Em um caso onde o mínimo
+da variável original é 10,
+
+00:01:37.467 --> 00:01:41.000
+você subtrairia 10
+de cada variável.
+
+00:01:41.033 --> 00:01:44.367
+Depois, você dividiria
+cada fileira neste campo
+
+00:01:44.400 --> 00:01:47.734
+pelo máximo
+do resultado anterior.
+
+00:01:47.767 --> 00:01:50.934
+No nosso exemplo de usar
+uma porcentagem de etnia
+
+00:01:50.968 --> 00:01:53.367
+e um número
+de população absoluto,
+
+00:01:53.400 --> 00:01:56.300
+ao usarmos qualquer
+desses métodos de escalação,
+
+00:01:56.334 --> 00:01:58.968
+os valores resultantes
+podem acabar sendo usados
+
+00:01:59.000 --> 00:02:03.434
+sem sobrecarregar a análise
+com o número maior de população.
+
+00:02:03.467 --> 00:02:08.434
+Isto elimina o viés do algoritmo
+quanto ao grande número de população.
+

@@ -1,0 +1,114 @@
+WEBVTT
+Kind: captions
+Language: pt-BR
+
+00:00:00.000 --> 00:00:03.334
+Entendendo que pode haver
+vários objetivos diferentes
+
+00:00:03.367 --> 00:00:05.300
+por trás
+da criação de segmentos,
+
+00:00:05.334 --> 00:00:09.334
+exploremos alguns exemplos
+de como o objetivo da sua análise
+
+00:00:09.367 --> 00:00:12.734
+ajuda a determinar
+os dados a usar para o seu modelo.
+
+00:00:12.767 --> 00:00:15.701
+Por exemplo, para criar
+um sistema comparativo,
+
+00:00:15.734 --> 00:00:19.834
+precisaríamos de dados
+sobre os atributos da loja.
+
+00:00:19.868 --> 00:00:24.000
+Dados como a metragem da loja,
+as horas que fica aberta,
+
+00:00:24.033 --> 00:00:28.000
+e quanto tempo a gerência
+está na loja específica,
+
+00:00:28.033 --> 00:00:31.400
+são algumas variáveis
+que devemos ter à disposição.
+
+00:00:31.434 --> 00:00:34.834
+Também queremos dados
+sobre acessibilidade de trânsito
+
+00:00:34.868 --> 00:00:37.367
+e quantos funcionários
+há na loja,
+
+00:00:37.400 --> 00:00:39.834
+e as horas que trabalham.
+
+00:00:39.868 --> 00:00:43.033
+A população em torno da loja
+também pode importar,
+
+00:00:43.067 --> 00:00:46.534
+e o número de concorrentes
+da loja.
+
+00:00:46.567 --> 00:00:48.968
+Mas se o objetivo
+para os segmentos
+
+00:00:49.000 --> 00:00:52.133
+é criar regras viáveis de preço
+para os produtos
+
+00:00:52.167 --> 00:00:54.467
+e agrupá-las
+nos segmentos da loja,
+
+00:00:54.501 --> 00:00:58.200
+alguns desses atributos
+para o 1º objetivo de agrupamento
+
+00:00:58.234 --> 00:01:01.400
+podem não importar tanto quanto,
+digamos, renda,
+
+00:01:01.434 --> 00:01:05.300
+demografia da fase de vida
+de quem mora perto da loja,
+
+00:01:05.334 --> 00:01:09.834
+distância dos concorrentes,
+assim como o tipo de concorrência.
+
+00:01:09.868 --> 00:01:13.667
+Também se as lojas
+estão em zonas regulatórias.
+
+00:01:13.701 --> 00:01:17.434
+Finalmente, se o objetivo
+é otimizar alocação de produtos
+
+00:01:17.467 --> 00:01:19.100
+e planejamento de espaço,
+
+00:01:19.133 --> 00:01:23.367
+junto com a demografia da área,
+dados importantes a incluir seriam:
+
+00:01:23.400 --> 00:01:25.701
+história de vendas
+da categoria do produto,
+
+00:01:25.734 --> 00:01:29.767
+vendas diretas, que medem
+a eficácia de alocação e preço,
+
+00:01:29.801 --> 00:01:32.267
+e tendências de desconto
+do produto.
+

@@ -1,0 +1,269 @@
+WEBVTT
+Kind: captions
+Language: pt-BR
+
+00:00:00.000 --> 00:00:05.067
+Agora que entendemos o conceito
+de redução de variáveis,
+
+00:00:05.100 --> 00:00:07.834
+vejamos como se aplicaria
+ao problema
+
+00:00:07.868 --> 00:00:10.734
+em que estamos trabalhando
+nos exercícios.
+
+00:00:10.767 --> 00:00:13.968
+Vamos para o Alteryx,
+para trabalhar um exemplo.
+
+00:00:14.000 --> 00:00:16.801
+Primeiro, vamos trazer
+os dados que preparamos
+
+00:00:16.834 --> 00:00:18.634
+para um exercício anterior.
+
+00:00:18.667 --> 00:00:22.868
+Eu salvei como Resultados do Exercício
+de Preparação de Dados.csv.
+
+00:00:22.901 --> 00:00:25.367
+Juntarei um browse
+à ferramenta de entrada
+
+00:00:25.400 --> 00:00:26.767
+e rodarei o processo.
+
+00:00:26.801 --> 00:00:29.501
+Examinemos, de novo,
+os dados que temos.
+
+00:00:29.534 --> 00:00:32.834
+Temos 59 variáveis
+no nosso conjunto de dados.
+
+00:00:32.868 --> 00:00:35.467
+Talvez demais
+para tentar explicar
+
+00:00:35.501 --> 00:00:38.634
+como cada uma se liga
+aos nossos futuros grupos.
+
+00:00:38.667 --> 00:00:42.033
+Mas podemos ver
+que temos 12 variáveis,
+
+00:00:42.067 --> 00:00:45.667
+uma para cada mês,
+para cada medição do clima:
+
+00:00:45.701 --> 00:00:49.567
+precipitação, chuva,
+neve e temperatura.
+
+00:00:49.601 --> 00:00:52.434
+Não precisamos agrupar
+cada mês individual
+
+00:00:52.467 --> 00:00:54.334
+para cada medição do clima.
+
+00:00:54.367 --> 00:00:58.467
+Só faz sentido agrupar
+os efeitos das 4 medições.
+
+00:00:58.501 --> 00:01:02.067
+Mas porque queremos
+poder captar a variância
+
+00:01:02.100 --> 00:01:04.467
+para todos os meses
+em cada medição,
+
+00:01:04.501 --> 00:01:08.501
+PCA é a ferramente perfeita
+para reduzir o número de variáveis.
+
+00:01:08.534 --> 00:01:13.501
+Como veremos, PCA nos permitirá
+reduzir as 48 variáveis do clima
+
+00:01:13.534 --> 00:01:15.534
+a apenas 10 ou 12.
+
+00:01:15.567 --> 00:01:21.400
+E como essas 10 ou 12 vão
+representar as 4 medições do clima,
+
+00:01:21.434 --> 00:01:24.200
+se tornará
+mais fácil de explicar.
+
+00:01:24.234 --> 00:01:28.133
+Como já disse, às vezes
+uma abordagem híbrida funciona bem.
+
+00:01:28.167 --> 00:01:32.567
+Outras variáveis, como dias
+antes e depois do pico do frio,
+
+00:01:32.601 --> 00:01:36.100
+que criamos em aula anterior,
+ficarão como estão.
+
+00:01:36.133 --> 00:01:39.868
+Mas isso nos levará a um conjunto
+de variáveis mais viáveis
+
+00:01:39.901 --> 00:01:41.534
+e explicáveis no total.
+
+00:01:41.567 --> 00:01:44.767
+Vejamos como o processo funciona
+para uma das medições,
+
+00:01:44.801 --> 00:01:48.701
+e então podemos replicar
+o mesmo processo para as outras 3.
+
+00:01:48.734 --> 00:01:52.601
+Como uma ferramenta de componentes
+principais espera dados numéricos,
+
+00:01:52.634 --> 00:01:55.133
+e como salvamos nossos dados
+como CSV,
+
+00:01:55.167 --> 00:01:58.367
+devemos reconfigurar para
+os tipos de dados corretos.
+
+00:01:58.400 --> 00:02:00.968
+Podemos fazê-lo
+com uma ferramenta Selecionar
+
+00:02:01.000 --> 00:02:02.968
+e, como fizemos antes,
+
+00:02:03.000 --> 00:02:06.234
+podemos usar o arquivo
+Selecionar Configuração da Amostra
+
+00:02:06.267 --> 00:02:08.200
+que usamos em outra aula.
+
+00:02:08.234 --> 00:02:10.534
+Como acrescentamos
+mais duas variáveis,
+
+00:02:10.567 --> 00:02:12.367
+vou mudar isso manualmente.
+
+00:02:12.400 --> 00:02:14.968
+Trazemos uma ferramenta
+de componentes principais,
+
+00:02:15.000 --> 00:02:16.501
+e devemos configurá-la.
+
+00:02:16.534 --> 00:02:20.667
+Primeiro, selecionamos só os campos
+relacionados a uma das medições.
+
+00:02:20.701 --> 00:02:23.133
+Neste caso,
+começaremos com temperatura.
+
+00:02:23.167 --> 00:02:26.367
+Então, devemos configurar
+o processo para escalar os dados.
+
+00:02:26.400 --> 00:02:29.434
+Devem se lembrar
+que escalar é importante
+
+00:02:29.467 --> 00:02:32.934
+pelo efeito que variáveis
+com números grandes podem ter
+
+00:02:32.968 --> 00:02:36.234
+quando combinadas
+com as de números pequenos.
+
+00:02:36.267 --> 00:02:39.067
+Neste caso, a diferença
+na nossa medição de clima
+
+00:02:39.100 --> 00:02:42.000
+pode não ser tão significante
+mas, como regra geral,
+
+00:02:42.033 --> 00:02:45.634
+é melhor escalar variáveis,
+a menos que tenha um bom motivo
+
+00:02:45.667 --> 00:02:48.200
+quanto a um conjunto
+de dados específico
+
+00:02:48.234 --> 00:02:49.601
+para fazer diferente.
+
+00:02:49.634 --> 00:02:53.801
+Selecionar "escalar cada campo
+para ter variância igual a 1"
+
+00:02:53.834 --> 00:02:56.601
+automaticamente
+escalará os dados para você.
+
+00:02:56.634 --> 00:02:59.767
+Nas outras configurações,
+deixaremos os defaults.
+
+00:02:59.801 --> 00:03:01.667
+Acrescentarei
+mais um número
+
+00:03:01.701 --> 00:03:05.200
+ao "nº de componentes principais
+para anexar."
+
+00:03:05.234 --> 00:03:06.734
+Logo falaremos disto.
+
+00:03:06.767 --> 00:03:10.734
+Quando vimos os dados
+em uma aula anterior,
+
+00:03:10.767 --> 00:03:13.734
+uma das lojas tinha
+um valor ausente ou nulo
+
+00:03:13.767 --> 00:03:16.133
+para o campo
+"temperatura em outubro".
+
+00:03:16.167 --> 00:03:21.167
+Para facilitar este exercício,
+eu disse que ignoraria esse valor.
+
+00:03:21.200 --> 00:03:24.501
+Mas para manter a ferramenta
+de componentes principais feliz
+
+00:03:24.534 --> 00:03:27.767
+e evitar um erro,
+precisarei filtrar esse registro.
+
+00:03:27.801 --> 00:03:30.601
+Faço isto facilmente
+com uma ferramenta de filtro.
+
+00:03:30.634 --> 00:03:34.634
+Rodamos o processo e vemos
+o que os resultados nos dizem.
+

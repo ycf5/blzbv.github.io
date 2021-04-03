@@ -1,0 +1,74 @@
+WEBVTT
+Kind: captions
+Language: pt-BR
+
+00:00:00.000 --> 00:00:02.934
+Lembrando,
+o propósito da PCA
+
+00:00:02.968 --> 00:00:06.334
+é reduzir
+um grande número de variáveis
+
+00:00:06.367 --> 00:00:07.734
+a algumas poucas.
+
+00:00:07.767 --> 00:00:11.133
+No caso da temperatura,
+pegamos 12 variáveis
+
+00:00:11.167 --> 00:00:13.367
+e basicamente
+reduzimos a uma,
+
+00:00:13.400 --> 00:00:19.467
+já que ela contém uns 92%
+de toda a variância das 12 variáveis.
+
+00:00:19.501 --> 00:00:22.133
+Podemos escolher
+conservar PC2.
+
+00:00:22.167 --> 00:00:26.868
+Seriam duas variáveis representando
+todos os dados de temperatura.
+
+00:00:26.901 --> 00:00:31.033
+É bom lembrar que,
+como essas variáveis componentes
+
+00:00:31.067 --> 00:00:36.334
+são uma representação espremida
+de todas as variáveis de temperatura,
+
+00:00:36.367 --> 00:00:38.701
+você não pode
+relacionar os valores
+
+00:00:38.734 --> 00:00:41.334
+a temperaturas reais
+diretamente.
+
+00:00:41.367 --> 00:00:45.300
+Mas vimos que, embora não possamos
+interpretar os resultados
+
+00:00:45.334 --> 00:00:47.634
+número a número,
+
+00:00:47.667 --> 00:00:50.367
+como um todo,
+os resultados fazem sentido.
+
+00:00:50.400 --> 00:00:54.300
+PC1, e talvez PC2,
+devem nos permitir
+
+00:00:54.334 --> 00:00:57.968
+incorporar o efeito
+da temperatura do clima
+
+00:00:58.000 --> 00:01:00.467
+ao nosso processo
+de modelagem de grupos.
+

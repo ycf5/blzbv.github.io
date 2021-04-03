@@ -1,0 +1,146 @@
+WEBVTT
+Kind: captions
+Language: pt-BR
+
+00:00:00.000 --> 00:00:04.534
+Podemos usar a maioria dos campos
+sem nenhuma mudança,
+
+00:00:04.567 --> 00:00:07.367
+já que são contínuos
+por natureza.
+
+00:00:07.400 --> 00:00:11.100
+Os dois campos relacionados
+ao 1º e último picos de frio
+
+00:00:11.133 --> 00:00:14.000
+podem ser importantes
+na nossa análise.
+
+00:00:14.033 --> 00:00:17.567
+Mas como são campos de data,
+precisam ser transformados
+
+00:00:17.601 --> 00:00:19.434
+em algo que possamos usar.
+
+00:00:19.467 --> 00:00:22.667
+Como já mencionei
+quanto a transformar datas,
+
+00:00:22.701 --> 00:00:26.167
+como são datas onde
+o ano em si é insignificante,
+
+00:00:26.200 --> 00:00:29.801
+mas só onde caem
+dentro do período anual,
+
+00:00:29.834 --> 00:00:34.334
+podemos calcular
+a média ou mediana dos campos
+
+00:00:34.367 --> 00:00:36.934
+e usar essa data
+como ponto de referência
+
+00:00:36.968 --> 00:00:39.834
+para criar um valor
+de antes e depois
+
+00:00:39.868 --> 00:00:42.400
+ao ponto de referência
+que calculamos.
+
+00:00:42.434 --> 00:00:46.534
+Neste caso, já calculei a mediana
+do último pico de frio
+
+00:00:46.567 --> 00:00:52.601
+como sendo em 23 de abril,
+e a do 1º pico, em 6 de outubro.
+
+00:00:52.634 --> 00:00:55.667
+Com a ferramenta Fórmula,
+posso criar novos campos
+
+00:00:55.701 --> 00:00:59.767
+chamados LastWinterFreezeDiff
+e FirstWinterFreezeDiff.
+
+00:00:59.801 --> 00:01:02.701
+Como veem,
+é basicamente a diferença
+
+00:01:02.734 --> 00:01:07.434
+entre a data mediana calculada
+e a data para cada loja.
+
+00:01:07.467 --> 00:01:10.267
+Vai nos dar um número
+positivo ou negativo
+
+00:01:10.300 --> 00:01:13.534
+que podemos usar
+no processo de agrupamento.
+
+00:01:13.567 --> 00:01:18.534
+Ao rodarmos de novo o processo,
+vemos os campos recém calculados.
+
+00:01:18.567 --> 00:01:21.801
+E como os dados
+são ordenados por latitude,
+
+00:01:21.834 --> 00:01:25.267
+podemos examiná-los
+e ver que faz sentido.
+
+00:01:25.300 --> 00:01:27.801
+Quanto mais perto
+a loja está do equador,
+
+00:01:27.834 --> 00:01:30.667
+mais cedo é o último
+pico de frio,
+
+00:01:30.701 --> 00:01:32.767
+representado
+por um número negativo;
+
+00:01:32.801 --> 00:01:37.701
+e mais tarde o primeiro pico,
+representado por um número positivo.
+
+00:01:37.734 --> 00:01:39.934
+Agora, com os dados
+como queremos,
+
+00:01:39.968 --> 00:01:42.000
+podemos salvá-los
+em um novo arquivo
+
+00:01:42.033 --> 00:01:44.734
+que usaremos
+no próximo passo do processo.
+
+00:01:44.767 --> 00:01:47.400
+Só ponho uma ferramenta
+de Dados de Saída
+
+00:01:47.434 --> 00:01:50.000
+e salvo os resultados
+em um novo arquivo.
+
+00:01:50.033 --> 00:01:51.868
+Vou salvar como CSV,
+
+00:01:51.901 --> 00:01:55.968
+e chamar de Resultados do Exercício
+de Preparação de Dados.
+
+00:01:56.000 --> 00:01:59.100
+Para salvar, devem rodar
+o processo mais uma vez.
+

@@ -1,0 +1,56 @@
+WEBVTT
+Kind: captions
+Language: pt-BR
+
+00:00:00.000 --> 00:00:03.968
+Nesta aula, entraremos
+nos detalhes do que devem fazer
+
+00:00:04.000 --> 00:00:07.067
+para executar
+uma análise de grupos.
+
+00:00:07.100 --> 00:00:10.968
+A primeira coisa é garantir
+termos um bom conjunto de dados
+
+00:00:11.000 --> 00:00:15.400
+que forneça a informação necessária
+para realizar a análise.
+
+00:00:15.434 --> 00:00:18.901
+Tendo isso, olharemos
+o formato dos dados
+
+00:00:18.934 --> 00:00:21.801
+para garantir que
+ele se encaixe no agrupamento.
+
+00:00:21.834 --> 00:00:26.367
+Vou mostrar como fazer o processo
+em um software chamado Alteryx.
+
+00:00:26.400 --> 00:00:28.567
+Mas os princípios
+que aprenderão
+
+00:00:28.601 --> 00:00:31.934
+lhes dará proficiência
+em segmentação e agrupamento,
+
+00:00:31.968 --> 00:00:34.267
+independente
+da ferramenta que usarem.
+
+00:00:34.300 --> 00:00:37.901
+Para se atualizar
+em como limpar um conjunto de dados,
+
+00:00:37.934 --> 00:00:41.200
+vejam o curso vinculado
+nas notas abaixo.
+
+00:00:41.234 --> 00:00:42.834
+Prontos?
+Vamos começar.
+

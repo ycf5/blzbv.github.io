@@ -1,0 +1,354 @@
+<!-- udacity2.0 -->
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Evaluating PCA Results</title>
+  <link rel="stylesheet" href="../assets/css/bootstrap.min.css">
+  <link rel="stylesheet" href="../assets/css/plyr.css">
+  <link rel="stylesheet" href="../assets/css/katex.min.css">
+  <link rel="stylesheet" href="../assets/css/jquery.mCustomScrollbar.min.css">
+  <link rel="stylesheet" href="../assets/css/styles.css">
+  <link rel="shortcut icon" type="image/png" href="../assets/img/udacimak.png" />
+</head>
+
+<body>
+  <div class="wrapper">
+    <nav id="sidebar">
+  <div class="sidebar-header">
+    <h3>Variable Reduction</h3>
+  </div>
+
+  <ul class="sidebar-list list-unstyled CTAs">
+    <li>
+      <a href="../index.html" class="article">Back to Home</a>
+    </li>
+  </ul>
+
+  <ul class="sidebar-list list-unstyled components">
+    <li class="">
+      <a href="01. Lesson Introduction.html">01. Lesson Introduction</a>
+    </li>
+    <li class="">
+      <a href="02. Variable Reduction.html">02. Variable Reduction</a>
+    </li>
+    <li class="">
+      <a href="03. Variable Reduction Example.html">03. Variable Reduction Example</a>
+    </li>
+    <li class="">
+      <a href="04. Factor Analysis and PCA Overview.html">04. Factor Analysis and PCA Overview</a>
+    </li>
+    <li class="">
+      <a href="05. PCA Details.html">05. PCA Details</a>
+    </li>
+    <li class="">
+      <a href="06. PCA Practice.html">06. PCA Practice</a>
+    </li>
+    <li class="">
+      <a href="07. PCA Practice Continued.html">07. PCA Practice Continued</a>
+    </li>
+    <li class="">
+      <a href="08. PCA.html">08. PCA</a>
+    </li>
+    <li class="">
+      <a href="09. PCA Results.html">09. PCA Results</a>
+    </li>
+    <li class="">
+      <a href="10. Visualizing PCA Results.html">10. Visualizing PCA Results</a>
+    </li>
+    <li class="">
+      <a href="11. Visualizing PCA Exercise.html">11. Visualizing PCA Exercise</a>
+    </li>
+    <li class="">
+      <a href="12. PCA Results 2.html">12. PCA Results 2</a>
+    </li>
+    <li class="">
+      <a href="13. Evaluating PCA Results.html">13. Evaluating PCA Results</a>
+    </li>
+    <li class="">
+      <a href="14. Finishing Off the PCA Data.html">14. Finishing Off the PCA Data</a>
+    </li>
+    <li class="">
+      <a href="15. Lesson Summary.html">15. Lesson Summary</a>
+    </li>
+  </ul>
+
+  <ul class="sidebar-list list-unstyled CTAs">
+    <li>
+      <a href="../index.html" class="article">Back to Home</a>
+    </li>
+  </ul>
+</nav>
+
+    <div id="content">
+      <header class="container-fluild header">
+        <div class="container">
+          <div class="row">
+            <div class="col-12">
+              <div class="align-items-middle">
+                <button type="button" id="sidebarCollapse" class="btn btn-toggle-sidebar">
+                  <div></div>
+                  <div></div>
+                  <div></div>
+                </button>
+
+                <h1 style="display: inline-block">13. Evaluating PCA Results</h1>
+              </div>
+            </div>
+          </div>
+        </div>
+      </header>
+
+      <main class="container">
+        <div class="row">
+          <div class="col-12">
+            <div class="ud-atom">
+  <h3></h3>
+  <div>
+  <h1 id="evaluating-pca-results">Evaluating PCA Results</h1>
+<p>Below are a series of quizzes about evaluating the results of PCA. Good luck!</p>
+</div>
+
+</div>
+<div class="divider"></div><div class="ud-atom">
+  <h3></h3>
+  <div>
+  <form>
+    <fieldset>
+      <legend><p>When evaluating how many components to include, a good rule of thumb for the total amount of variance to be captured by the kept components would be…</p></legend>
+    </fieldset>
+
+      <div>
+        <input type="radio" value="a1479515033289" name="215857" id="a1479515033289">
+        <label for="a1479515033289"><p>50%</p></label>
+      </div>
+      <div>
+        <input type="radio" value="a1479515046492" name="215857" id="a1479515046492">
+        <label for="a1479515046492"><p>80%</p></label>
+      </div>
+      <div>
+        <input type="radio" value="a1479515047292" name="215857" id="a1479515047292">
+        <label for="a1479515047292"><p>95%</p></label>
+      </div>
+      <div>
+        <input type="radio" value="a1479515048244" name="215857" id="a1479515048244">
+        <label for="a1479515048244"><p>99%</p></label>
+      </div>
+  </form>
+
+  <details>
+    <summary><strong>SOLUTION:</strong></summary>
+    80%
+  </details>
+</div>
+
+</div>
+<div class="divider"></div><div class="ud-atom">
+  <h3><p>Question 2</p></h3>
+  <div>
+  <form>
+    <fieldset>
+      <legend><p>So now that you have built out the process for the other three climate effects, how many components might best represent the amount of variance that we want in our model for precipitation?</p></legend>
+    </fieldset>
+
+      <div>
+        <input type="radio" value="a1479515125922" name="215860" id="a1479515125922">
+        <label for="a1479515125922"><p>One component</p></label>
+      </div>
+      <div>
+        <input type="radio" value="a1479515158523" name="215860" id="a1479515158523">
+        <label for="a1479515158523"><p>Two or three components</p></label>
+      </div>
+      <div>
+        <input type="radio" value="a1479515164403" name="215860" id="a1479515164403">
+        <label for="a1479515164403"><p>Three or four components</p></label>
+      </div>
+      <div>
+        <input type="radio" value="a1479515236008" name="215860" id="a1479515236008">
+        <label for="a1479515236008"><p>Four or five components</p></label>
+      </div>
+      <div>
+        <input type="radio" value="a1479515236930" name="215860" id="a1479515236930">
+        <label for="a1479515236930"><p>Six components</p></label>
+      </div>
+  </form>
+
+  <details>
+    <summary><strong>SOLUTION:</strong></summary>
+    Three or four components
+  </details>
+</div>
+
+</div>
+<div class="divider"></div><div class="ud-atom">
+  <h3><p>Question 3</p></h3>
+  <div>
+  <form>
+    <fieldset>
+      <legend><p>On the scree plot for the rain effect, at what point would you say is the “elbow” in the plot that indicated how many components to keep?</p></legend>
+    </fieldset>
+
+      <div>
+        <input type="radio" value="a1479515539987" name="215863" id="a1479515539987">
+        <label for="a1479515539987"><p>1-2</p></label>
+      </div>
+      <div>
+        <input type="radio" value="a1479515566662" name="215863" id="a1479515566662">
+        <label for="a1479515566662"><p>2-3</p></label>
+      </div>
+      <div>
+        <input type="radio" value="a1479515568318" name="215863" id="a1479515568318">
+        <label for="a1479515568318"><p>3-4</p></label>
+      </div>
+      <div>
+        <input type="radio" value="a1479515569125" name="215863" id="a1479515569125">
+        <label for="a1479515569125"><p>4-5</p></label>
+      </div>
+      <div>
+        <input type="radio" value="a1479515570137" name="215863" id="a1479515570137">
+        <label for="a1479515570137"><p>5-6</p></label>
+      </div>
+  </form>
+
+  <details>
+    <summary><strong>SOLUTION:</strong></summary>
+    3-4
+  </details>
+</div>
+
+</div>
+<div class="divider"></div><div class="ud-atom">
+  <h3><p>Reflect</p></h3>
+  <div>
+  <p><strong>QUESTION: </strong></p>
+  <p>Could there be an argument for not using all four climate effects? Explain your response.</p>
+
+  <details>
+    <summary><strong>ANSWER:</strong></summary>
+    <p><p>Yes, because precipitation could be considered redundant since it typically is the combination of rain and snow.</p></p>
+  </details>
+</div>
+
+
+</div>
+<div class="divider"></div><div class="ud-atom">
+  <h3></h3>
+  <div>
+  <form>
+    <fieldset>
+      <legend><p>We would also want to apply the principal components process to the following variables: Longitude, Latitude, LastWinterFreezeDiff, and FirstWinterFreezeDiff.</p></legend>
+    </fieldset>
+
+      <div>
+        <input type="radio" value="a1479518115073" name="215868" id="a1479518115073">
+        <label for="a1479518115073"><p>True</p></label>
+      </div>
+      <div>
+        <input type="radio" value="a1479518154584" name="215868" id="a1479518154584">
+        <label for="a1479518154584"><p>False</p></label>
+      </div>
+  </form>
+
+  <details>
+    <summary><strong>SOLUTION:</strong></summary>
+    False
+  </details>
+</div>
+
+</div>
+<div class="divider"></div>
+          </div>
+
+          <div class="col-12">
+            <p class="text-right">
+              <a href="14. Finishing Off the PCA Data.html" class="btn btn-outline-primary mt-4" role="button">Next Concept</a>
+            </p>
+          </div>
+        </div>
+      </main>
+
+      <footer class="footer">
+        <div class="container">
+          <div class="row">
+            <div class="col-12">
+              <p class="text-center">
+                <a href="https://us-udacity.github.io/" target="_blank">【udacity2.0 】If you need more courses, please add wechat：udacity6</a>
+              </p>
+            </div>
+          </div>
+        </div>
+      </footer>
+    </div>
+  </div>
+
+
+  <script src="../assets/js/jquery-3.3.1.min.js"></script>
+  <script src="../assets/js/plyr.polyfilled.min.js"></script>
+  <script src="../assets/js/bootstrap.min.js"></script>
+  <script src="../assets/js/jquery.mCustomScrollbar.concat.min.js"></script>
+  <script src="../assets/js/katex.min.js"></script>
+  <script>
+    // Initialize Plyr video players
+    const players = Array.from(document.querySelectorAll('video')).map(p => new Plyr(p));
+
+    // render math equations
+    let elMath = document.getElementsByClassName('mathquill');
+    for (let i = 0, len = elMath.length; i < len; i += 1) {
+      const el = elMath[i];
+
+      katex.render(el.textContent, el, {
+        throwOnError: false
+      });
+    }
+
+    // this hack will make sure Bootstrap tabs work when using Handlebars
+    if ($('#question-tabs').length && $('#user-answer-tabs').length) {
+      $("#question-tabs a.nav-link").on('click', function () {
+        $("#question-tab-contents .tab-pane").hide();
+        $($(this).attr("href")).show();
+      });
+      $("#user-answer-tabs a.nav-link").on('click', function () {
+        $("#user-answer-tab-contents .tab-pane").hide();
+        $($(this).attr("href")).show();
+      });
+    } else {
+      $("a.nav-link").on('click', function () {
+        $(".tab-pane").hide();
+        $($(this).attr("href")).show();
+      });
+    }
+
+    // side bar events
+    $(document).ready(function () {
+      $("#sidebar").mCustomScrollbar({
+        theme: "minimal"
+      });
+
+      $('#sidebarCollapse').on('click', function () {
+        $('#sidebar, #content').toggleClass('active');
+        $('.collapse.in').toggleClass('in');
+        $('a[aria-expanded=true]').attr('aria-expanded', 'false');
+      });
+
+      // scroll to first video on page loading
+      if ($('video').length) {
+        $('html,body').animate({ scrollTop: $('div.plyr').prev().offset().top});
+      }
+
+      // auto play first video: this may not work with chrome/safari due to autoplay policy
+      if (players && players.length > 0) {
+        players[0].play();
+      }
+
+      // scroll sidebar to current concept
+      const currentInSideBar = $( "ul.sidebar-list.components li a:contains('13. Evaluating PCA Results')" )
+      currentInSideBar.css( "text-decoration", "underline" );
+      $("#sidebar").mCustomScrollbar('scrollTo', currentInSideBar);
+    });
+  </script>
+</body>
+
+</html>

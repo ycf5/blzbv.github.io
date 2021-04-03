@@ -1,0 +1,151 @@
+WEBVTT
+Kind: captions
+Language: pt-BR
+
+00:00:00.000 --> 00:00:05.868
+Tendo visto o processo de coletar
+os dados certos para o agrupamento,
+
+00:00:05.901 --> 00:00:08.734
+devemos garantir
+que temos tipos de dados
+
+00:00:08.767 --> 00:00:11.534
+que se adequarão
+ao algoritmo do agrupamento.
+
+00:00:11.567 --> 00:00:14.701
+Para fazer a matemática
+por trás do algoritmo,
+
+00:00:14.734 --> 00:00:18.167
+variáveis contínuas ou ordinais
+são necessárias.
+
+00:00:18.200 --> 00:00:22.267
+Se não se lembram delas,
+há um link nas notas de aula
+
+00:00:22.300 --> 00:00:24.000
+que pode ajudar.
+
+00:00:24.033 --> 00:00:28.868
+Variáveis com tipos de dados
+categóricos,
+
+00:00:28.901 --> 00:00:32.501
+ou mesmo campos de datas,
+devem ser transformadas
+
+00:00:32.534 --> 00:00:34.601
+para serem usadas
+no agrupamento.
+
+00:00:34.634 --> 00:00:38.434
+Alguns campos de data podem ser
+convertidos quase naturalmente
+
+00:00:38.467 --> 00:00:39.767
+sem se pensar muito.
+
+00:00:39.801 --> 00:00:43.100
+A data de um nascimento,
+da inauguração de uma loja,
+
+00:00:43.133 --> 00:00:46.467
+podem ser facilmente convertidas
+para um campo numérico de idade,
+
+00:00:46.501 --> 00:00:49.000
+ou de anos de inauguração.
+
+00:00:49.033 --> 00:00:53.400
+Outros campos de data podem
+exigir mais antes de serem usados.
+
+00:00:53.434 --> 00:00:57.067
+Por exemplo, se você tem
+um campo de data sazonal,
+
+00:00:57.100 --> 00:01:00.634
+onde o valor tem mais a ver
+com a época do ano,
+
+00:01:00.667 --> 00:01:04.234
+faz mais sentido
+calcular a mediana das datas
+
+00:01:04.267 --> 00:01:07.868
+e transformar as variáveis
+da data para ser um nº de dias
+
+00:01:07.901 --> 00:01:10.801
+antes ou depois
+daquela data mediana.
+
+00:01:10.834 --> 00:01:14.234
+Veremos mais isso
+em um futuro exercício.
+
+00:01:14.267 --> 00:01:18.100
+Dados categóricos
+são mais difíceis de incluir.
+
+00:01:18.133 --> 00:01:21.934
+Se a categoria se relaciona
+a algo que é numérico,
+
+00:01:21.968 --> 00:01:27.000
+por exemplo, o tamanho de algo:
+pequeno, médio, grande,
+
+00:01:27.033 --> 00:01:31.834
+faz sentido designar um número
+para cada um na ordem que ocorrem.
+
+00:01:31.868 --> 00:01:34.267
+Isso nos dá
+um tipo de dado ordinal
+
+00:01:34.300 --> 00:01:37.467
+que pode ser usado
+em um algoritmo de agrupamento.
+
+00:01:37.501 --> 00:01:40.934
+Mas se você tem uma variável
+que descreve cor de olho,
+
+00:01:40.968 --> 00:01:44.467
+como medir a distância
+entre azul, verde e castanho?
+
+00:01:44.501 --> 00:01:47.734
+Não podemos designar números
+arbitrários a cada um:
+
+00:01:47.767 --> 00:01:51.400
+azul, 1, verde, 2
+e castanho, 3.
+
+00:01:51.434 --> 00:01:55.868
+O algoritmo vai pensar
+que azul é mais próximo de verde
+
+00:01:55.901 --> 00:01:58.033
+do que de castanho.
+
+00:01:58.067 --> 00:02:03.167
+Alguns algoritmos tentam
+se ajustar a dados categóricos.
+
+00:02:03.200 --> 00:02:05.601
+Não os veremos nesta aula.
+
+00:02:05.634 --> 00:02:08.734
+Mas acharão links
+nas notas de aula
+
+00:02:08.767 --> 00:02:11.434
+que exploram
+este tipo específico de dados.
+

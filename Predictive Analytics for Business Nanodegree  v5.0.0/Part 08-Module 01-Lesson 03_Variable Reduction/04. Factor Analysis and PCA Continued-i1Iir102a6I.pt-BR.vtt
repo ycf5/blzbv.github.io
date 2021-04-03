@@ -1,0 +1,121 @@
+WEBVTT
+Kind: captions
+Language: pt-BR
+
+00:00:00.000 --> 00:00:04.467
+Como se decidir
+por Análise de Fatores ou PCA?
+
+00:00:04.501 --> 00:00:06.567
+A Análise de Fatores
+é melhor
+
+00:00:06.601 --> 00:00:10.567
+quando você tenta entender
+o fator ou fatores implícitos
+
+00:00:10.601 --> 00:00:13.234
+a partir de um conjunto comum
+de variáveis.
+
+00:00:13.267 --> 00:00:18.834
+Com ela, como você estima a causa
+implícita por trás das variáveis,
+
+00:00:18.868 --> 00:00:22.267
+fica mais fácil conceituar.
+
+00:00:22.300 --> 00:00:27.067
+Com um objetivo de tentar explicar
+as correlações entre as variáveis,
+
+00:00:27.100 --> 00:00:29.501
+a Análise de Fatores
+é melhor.
+
+00:00:29.534 --> 00:00:33.367
+Por exemplo, funciona bem
+com análises de ciência social,
+
+00:00:33.400 --> 00:00:36.501
+como estudos atitudinais
+ou pesquisas,
+
+00:00:36.534 --> 00:00:40.968
+onde você tenta determinar
+a base implícita para as respostas.
+
+00:00:41.000 --> 00:00:43.968
+Para isso, escolha
+a Análise de Fatores.
+
+00:00:44.000 --> 00:00:46.400
+Mas quando usar PCA?
+
+00:00:46.434 --> 00:00:50.801
+Se o objetivo for explicar
+o máximo possível a variância total,
+
+00:00:50.834 --> 00:00:54.133
+ou se você quiser
+o quadro total dos dados,
+
+00:00:54.167 --> 00:00:55.934
+escolha PCA.
+
+00:00:55.968 --> 00:01:00.400
+Mas como já disse, como os componentes
+com que você acaba
+
+00:01:00.434 --> 00:01:03.868
+são mais abstrações
+de todos os dados,
+
+00:01:03.901 --> 00:01:07.501
+eles podem não ser
+fáceis de interpretar ou mapear
+
+00:01:07.534 --> 00:01:10.334
+para um conceito
+fácil de entender.
+
+00:01:10.367 --> 00:01:15.334
+Com PCA, o equilíbrio se torna
+ter um conjunto reduzido de variáveis
+
+00:01:15.367 --> 00:01:19.067
+mais fáceis de se trabalhar,
+e ser capaz de usá-las
+
+00:01:19.100 --> 00:01:22.100
+para contar a história
+ao negócio.
+
+00:01:22.133 --> 00:01:24.234
+Isso não é
+necessariamente fácil,
+
+00:01:24.267 --> 00:01:28.133
+mas mostraremos como poderia
+funcionar no nosso exemplo.
+
+00:01:28.167 --> 00:01:31.400
+É claro que, como veremos
+no próximo exercício,
+
+00:01:31.434 --> 00:01:36.200
+não tem que ser uma ou nenhuma
+abordagem para redução de variáveis.
+
+00:01:36.234 --> 00:01:38.434
+Pode dar certo
+usar um híbrido,
+
+00:01:38.467 --> 00:01:41.868
+onde algumas variáveis
+são consolidadas em componentes
+
+00:01:41.901 --> 00:01:43.567
+e as outras,
+deixadas em paz.
+

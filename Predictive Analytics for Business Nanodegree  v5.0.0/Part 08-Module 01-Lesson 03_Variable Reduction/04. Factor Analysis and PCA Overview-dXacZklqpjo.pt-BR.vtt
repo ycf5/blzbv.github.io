@@ -1,0 +1,118 @@
+WEBVTT
+Kind: captions
+Language: pt-BR
+
+00:00:00.000 --> 00:00:03.801
+Há dois métodos comuns
+para redução de variáveis.
+
+00:00:03.834 --> 00:00:07.667
+São eles: Análise de Fatores
+ou, mais tecnicamente correto,
+
+00:00:07.701 --> 00:00:10.000
+Análise Exploratória
+de Fatores,
+
+00:00:10.033 --> 00:00:12.868
+e Análise
+de Componentes Principais.
+
+00:00:12.901 --> 00:00:18.267
+Vejamos os conceitos e as diferenças
+principais entre eles.
+
+00:00:18.300 --> 00:00:22.934
+Voltemos ao exemplo
+do estudo dos funcionários.
+
+00:00:22.968 --> 00:00:27.234
+Havia 3 perguntas
+relacionadas ao conceito
+
+00:00:27.267 --> 00:00:31.067
+da "satisfação do funcionário
+com o supervisor".
+
+00:00:31.100 --> 00:00:35.734
+A Análise de Fatores presume que há
+uma variável latente ou escondida,
+
+00:00:35.767 --> 00:00:39.601
+chamada de "fator"
+por baixo das 3 perguntas.
+
+00:00:39.634 --> 00:00:44.901
+Este fator é o que causa a forma
+de responder essas perguntas.
+
+00:00:44.934 --> 00:00:49.000
+Ou seja, você estar satisfeito
+com seu supervisor
+
+00:00:49.033 --> 00:00:52.601
+determinará como você
+responderá as perguntas.
+
+00:00:52.634 --> 00:00:54.734
+Se você conhece o fator,
+
+00:00:54.767 --> 00:01:00.534
+neste caso, avaliar a satisfação
+do empregado com o supervisor,
+
+00:01:00.567 --> 00:01:06.400
+você poderá prever
+as respostas às 3 perguntas.
+
+00:01:07.000 --> 00:01:12.100
+A Análise de Componentes Principais,
+chamada de PCA,
+
+00:01:12.133 --> 00:01:17.400
+por outro lado, não presume nada
+sobre um modelo causal implícito.
+
+00:01:17.434 --> 00:01:23.434
+Em vez disso, ela basicamente reduz
+toda a variância dentro das variáveis
+
+00:01:23.467 --> 00:01:28.367
+a menos componentes,
+e reduz o número de variáveis.
+
+00:01:28.400 --> 00:01:32.000
+Então qual é a diferença
+entre os métodos?
+
+00:01:32.033 --> 00:01:38.767
+PCA analisa toda a variância
+dentro das variáveis selecionadas,
+
+00:01:38.801 --> 00:01:42.067
+e a Análise de Fatores
+só analisa
+
+00:01:42.100 --> 00:01:46.234
+as variâncias compartilhadas
+ou comuns dentro das variáveis.
+
+00:01:46.267 --> 00:01:47.767
+Dizendo de outra forma,
+
+00:01:47.801 --> 00:01:52.167
+PCA enfoca explicar
+a variação total,
+
+00:01:52.200 --> 00:01:59.501
+e a Análise de Fatores enfoca explicar
+as correlações entre as variáveis.
+
+00:01:59.534 --> 00:02:05.534
+A Análise de Fatores tenta responder
+o que estaria causando as respostas,
+
+00:02:05.567 --> 00:02:10.567
+e PCA tenta responder
+como reduzir as variáveis.
+

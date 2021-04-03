@@ -1,0 +1,136 @@
+WEBVTT
+Kind: captions
+Language: pt-BR
+
+00:00:00.000 --> 00:00:03.100
+Agora que importei
+o arquivo CSV para o Tableau,
+
+00:00:03.133 --> 00:00:05.701
+vamos brincar
+com como olharmos os dados.
+
+00:00:05.734 --> 00:00:10.033
+Primeiro, trarei as lojas por
+Identidade da Loja como uma coluna
+
+00:00:10.067 --> 00:00:13.067
+e depois trarei PC1
+como uma linha.
+
+00:00:13.100 --> 00:00:15.934
+Como está em ordem
+de loja, basicamente,
+
+00:00:15.968 --> 00:00:20.968
+e de modo aleatório,
+vou ordenar pelo valor de PC1.
+
+00:00:21.000 --> 00:00:24.834
+Trarei, então,
+os rótulos do estado,
+
+00:00:24.868 --> 00:00:26.834
+e vamos ver a tela toda.
+
+00:00:26.868 --> 00:00:30.267
+Se olharmos para os valores
+dos componentes individuais,
+
+00:00:30.300 --> 00:00:32.634
+saberão facilmente,
+pela ordenação,
+
+00:00:32.667 --> 00:00:35.367
+que os componentes
+com valores negativos mais baixos
+
+00:00:35.400 --> 00:00:38.434
+tendem a ser
+os estados mais quentes nos EUA,
+
+00:00:38.467 --> 00:00:41.400
+por exemplo, Flórida,
+Texas e Luisiana.
+
+00:00:41.434 --> 00:00:44.200
+E os componentes
+com valores positivos mais altos
+
+00:00:44.234 --> 00:00:46.100
+tendem a ser
+os estados mais frios.
+
+00:00:46.133 --> 00:00:49.467
+Temos Minnesota,
+Dakota do Norte e Nova York.
+
+00:00:49.501 --> 00:00:54.901
+Se duplicarmos esta folha,
+e trocarmos PC1 por PC2,
+
+00:00:54.934 --> 00:00:57.834
+onde isto é classificado
+na mesma ordem
+
+00:00:57.868 --> 00:01:01.067
+de quando vimos
+o gráfico PC1,
+
+00:01:01.100 --> 00:01:03.501
+vemos que não há
+nenhum padrão.
+
+00:01:03.534 --> 00:01:06.133
+É o que esperaríamos
+porque, se recordam,
+
+00:01:06.167 --> 00:01:10.334
+o 2º componente faz
+um ângulo reto com o primeiro,
+
+00:01:10.367 --> 00:01:13.901
+e não esperaríamos
+nenhuma correlação entre os dois.
+
+00:01:13.934 --> 00:01:18.801
+Mesmo os valores de PC1 não
+se relacionando às temperaturas reais,
+
+00:01:18.834 --> 00:01:20.767
+o que o processo PCA fez
+
+00:01:20.801 --> 00:01:24.868
+foi agregar toda a variância
+que conseguiu para os 12 meses
+
+00:01:24.901 --> 00:01:26.367
+em um componente.
+
+00:01:26.400 --> 00:01:29.734
+Por isso, o gráfico de PC1
+corresponde
+
+00:01:29.767 --> 00:01:32.033
+a padrões reais
+de temperatura.
+
+00:01:32.067 --> 00:01:35.267
+O 2º componente pega
+qualquer variância que sobrou
+
+00:01:35.300 --> 00:01:36.934
+e faz a mesma coisa.
+
+00:01:36.968 --> 00:01:41.267
+Mas, como veem,
+não se correlaciona com temperaturas.
+
+00:01:41.300 --> 00:01:44.734
+Isto acontece até que
+toda a variância seja explicada.
+
+00:01:44.767 --> 00:01:49.100
+Neste caso, acabamos
+com 12 componentes calculados.
+

@@ -1,0 +1,71 @@
+WEBVTT
+Kind: captions
+Language: pt-BR
+
+00:00:00.000 --> 00:00:03.234
+Tendo em mente a estrutura
+de solucionar problemas,
+
+00:00:03.267 --> 00:00:07.501
+vamos começar a trabalhar
+o caso que descrevi na 1ª lição.
+
+00:00:07.534 --> 00:00:12.300
+A cadeia varejista quer segmentar
+suas lojas por estações
+
+00:00:12.334 --> 00:00:17.067
+para optimizar a seleção de produtos
+nas épocas apropriadas do ano.
+
+00:00:17.100 --> 00:00:20.167
+Primeiro, determinaremos
+os dados que queremos,
+
+00:00:20.200 --> 00:00:23.300
+para entrar
+no processo de agrupamento.
+
+00:00:23.334 --> 00:00:27.467
+Neste caso, esses dados
+têm a ver com o clima
+
+00:00:27.501 --> 00:00:29.667
+em torno de cada loja.
+
+00:00:29.701 --> 00:00:31.934
+Como em qualquer
+projeto desses,
+
+00:00:31.968 --> 00:00:35.100
+às vezes não conseguimos
+todos os dados que queremos.
+
+00:00:35.133 --> 00:00:38.400
+Pelo menos, não em um formato
+pronto para se trabalhar.
+
+00:00:38.434 --> 00:00:43.767
+Neste caso, podemos conseguir muito
+no site do Serviço Meteorológico.
+
+00:00:43.801 --> 00:00:48.467
+Para este exercício, já juntamos
+os dados que queremos usar.
+
+00:00:48.501 --> 00:00:50.567
+Ligamos
+a localização da loja
+
+00:00:50.601 --> 00:00:53.868
+aos dados climáticos de uma
+estação meteorológica específica
+
+00:00:53.901 --> 00:00:57.868
+e incluímos dados adicionais
+úteis à nossa análise.
+
+00:00:57.901 --> 00:01:01.901
+Os links dos dados que usaremos
+estão nas notas de aula.
+

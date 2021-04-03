@@ -1,0 +1,56 @@
+WEBVTT
+Kind: captions
+Language: pt-BR
+
+00:00:00.000 --> 00:00:03.667
+Com os dados prontos,
+pode ser útil e interessante
+
+00:00:03.701 --> 00:00:06.167
+visualizar os dados brutos.
+
+00:00:06.200 --> 00:00:08.434
+O Tableau facilita isto.
+
+00:00:08.467 --> 00:00:11.868
+Selecione o arquivo de preparação
+que você salvou.
+
+00:00:11.901 --> 00:00:15.267
+Verá embaixo das medidas
+que há latitude e longitude.
+
+00:00:15.300 --> 00:00:18.734
+Para pô-las na pasta de trabalho,
+clique nelas duas vezes.
+
+00:00:18.767 --> 00:00:23.100
+Então, vá à Analise
+e desligue Medidas Agregadas.
+
+00:00:23.133 --> 00:00:26.100
+As localizações das lojas
+vão aparecer no mapa.
+
+00:00:26.133 --> 00:00:30.000
+Para ver como os dados se alinham
+visualmente com o esperado,
+
+00:00:30.033 --> 00:00:35.501
+selecione algo como Neve em Fevereiro
+e arraste até as marcas de tamanho.
+
+00:00:35.534 --> 00:00:40.534
+Vemos que, como esperado, há muito
+mais neve no Nordeste em fevereiro
+
+00:00:40.567 --> 00:00:42.234
+do que em qualquer lugar.
+
+00:00:42.267 --> 00:00:45.501
+Explore mais
+tirando uma das variáveis
+
+00:00:45.534 --> 00:00:47.133
+e acrescentando outra.
+
