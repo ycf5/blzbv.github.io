@@ -1,0 +1,46 @@
+WEBVTT
+Kind: captions
+Language: pt-BR
+
+00:00:00.367 --> 00:00:02.367
+Agora que conhecemos
+vários modos de calcular
+
+00:00:02.400 --> 00:00:04.100
+o quanto nossos modelos
+são precisos,
+
+00:00:04.133 --> 00:00:06.267
+como podemos escolher
+o melhor modelo?
+
+00:00:06.300 --> 00:00:09.167
+Bem, isso pode não ser
+muito fácil.
+
+00:00:09.200 --> 00:00:13.467
+O método mais comum é usar
+o modelo com o AIC mais baixo.
+
+00:00:13.767 --> 00:00:16.667
+Mas o que acontece se o AIC
+de dois modelos for bem parecido?
+
+00:00:16.701 --> 00:00:19.868
+Ou se tivermos usado
+dois tipos de modelos diferentes?
+
+00:00:19.901 --> 00:00:21.767
+É aí que podemos usar
+os erros calculados
+
+00:00:21.801 --> 00:00:26.434
+para analisar mais profundamente
+os dados disponíveis na análise.
+
+00:00:26.467 --> 00:00:27.767
+*END*
+
+00:00:27.801 --> 00:00:29.100
+*CODE*
+

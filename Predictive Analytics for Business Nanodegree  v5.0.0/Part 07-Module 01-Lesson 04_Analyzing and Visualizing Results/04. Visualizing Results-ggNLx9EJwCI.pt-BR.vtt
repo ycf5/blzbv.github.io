@@ -1,0 +1,113 @@
+WEBVTT
+Kind: captions
+Language: pt-BR
+
+00:00:00.400 --> 00:00:03.333
+Depois que o modelo é selecionado
+com base no AIC e no erro,
+
+00:00:03.367 --> 00:00:06.000
+podemos usar a ferramenta "Time
+Series Forecasting" do Alteryx
+
+00:00:06.033 --> 00:00:09.333
+para fazer a previsão
+e criar um relatório.
+
+00:00:09.367 --> 00:00:12.833
+Se observarmos todos
+os modelos ARIMA e ETS,
+
+00:00:12.867 --> 00:00:15.733
+o ARIMA com dois termos "MA"
+é o que se encaixa melhor.
+
+00:00:16.133 --> 00:00:20.767
+Ele tem o AIC mais baixo e o desvio
+padrão empírico generalizado menor.
+
+00:00:20.800 --> 00:00:23.600
+Um desvio padrão menor
+significa que a previsão
+
+00:00:23.633 --> 00:00:26.400
+tem um limite pequeno
+de possíveis valores.
+
+00:00:26.433 --> 00:00:28.533
+A ferramenta "TS Forecast"
+faz previsões
+
+00:00:28.567 --> 00:00:30.700
+para modelos ARIMA ou ETS
+
+00:00:30.733 --> 00:00:33.667
+para um número de períodos futuros
+especificado pelo usuário.
+
+00:00:33.700 --> 00:00:36.800
+Além disso, os limites superior
+e inferior do intervalo de confiança
+
+00:00:36.833 --> 00:00:38.633
+são fornecidos para duas
+porcentagens diferentes,
+
+00:00:38.667 --> 00:00:41.633
+especificadas pelo usuário,
+de intervalos de confiança.
+
+00:00:41.667 --> 00:00:44.267
+Para cada nível de confiança,
+a probabilidade esperada
+
+00:00:44.300 --> 00:00:46.900
+de que o valor verdadeiro fique
+entre os limites fornecidos
+
+00:00:46.933 --> 00:00:50.166
+corresponde à porcentagem
+de nível de confiança.
+
+00:00:50.199 --> 00:00:53.033
+Os resultados do nó "O"
+da ferramenta "TS Forecast"
+
+00:00:53.067 --> 00:00:54.766
+fornecem uma tabela
+que pode ser exportada
+
+00:00:54.799 --> 00:00:57.133
+em vários formatos
+de arquivos.
+
+00:01:03.133 --> 00:01:05.167
+O nó "R" apresenta
+um gráfico de série temporal
+
+00:01:05.200 --> 00:01:08.667
+dos valores previstos e uma imagem
+da tabela do output.
+
+00:01:12.500 --> 00:01:16.467
+Por fim, o nó interativo nos mostra
+os valores reais e os previstos
+
+00:01:16.500 --> 00:01:18.667
+com os intervalos de confiança
+em que estão inseridos.
+
+00:01:18.700 --> 00:01:21.132
+Podemos dar zoom se clicarmos
+com o botão esquerdo no gráfico
+
+00:01:21.165 --> 00:01:25.000
+e marcar a área a aproximar
+para ver melhor o período previsto.
+
+00:01:25.033 --> 00:01:26.333
+*END*
+
+00:01:26.367 --> 00:01:27.667
+*CODE*
+

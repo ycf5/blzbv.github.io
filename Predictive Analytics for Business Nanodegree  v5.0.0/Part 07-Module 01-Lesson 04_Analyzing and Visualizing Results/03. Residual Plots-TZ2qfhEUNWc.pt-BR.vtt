@@ -1,0 +1,132 @@
+WEBVTT
+Kind: captions
+Language: pt-BR
+
+00:00:00.267 --> 00:00:03.801
+Resíduos, em previsões, são
+a diferença entre um valor observado
+
+00:00:03.834 --> 00:00:05.534
+e o valor previsto.
+
+00:00:05.567 --> 00:00:07.300
+Um bom modelo de previsão
+de série temporal
+
+00:00:07.333 --> 00:00:08.767
+exibirá duas propriedades.
+
+00:00:08.801 --> 00:00:11.767
+Primeiro, os resíduos do modelo
+não são correlacionados.
+
+00:00:11.801 --> 00:00:13.601
+Montar um gráfico de FAC
+com os resíduos
+
+00:00:13.634 --> 00:00:16.200
+vai nos mostrar se usamos
+toda a informação
+
+00:00:16.234 --> 00:00:18.132
+presente na série temporal
+no nosso modelo.
+
+00:00:18.165 --> 00:00:20.267
+Se houver autocorrelações
+nos resíduos,
+
+00:00:20.300 --> 00:00:22.133
+então há informações extras
+que devem ser usadas
+
+00:00:22.167 --> 00:00:24.200
+para apurar
+a construção do modelo.
+
+00:00:24.234 --> 00:00:26.567
+Por exemplo, neste gráfico,
+podemos ver
+
+00:00:26.601 --> 00:00:30.133
+que quase nenhum dos lags
+tem uma correlação significante.
+
+00:00:30.167 --> 00:00:34.200
+No próximo gráfico, podemos ver
+que vários lags têm correlação alta.
+
+00:00:34.234 --> 00:00:37.234
+Teríamos que acrescentar termos
+ao modelo para ajustar isto.
+
+00:00:37.267 --> 00:00:39.934
+Depois, o resíduo
+deve ter média 0
+
+00:00:39.968 --> 00:00:42.834
+ou, pelo menos, um valor
+próximo de 0.
+
+00:00:42.868 --> 00:00:45.033
+Se os resíduos tiverem
+uma média diferente de 0,
+
+00:00:45.067 --> 00:00:47.067
+a previsão ficará enviesada.
+
+00:00:47.100 --> 00:00:48.834
+Ajustar vieses é fácil.
+
+00:00:48.868 --> 00:00:51.467
+Se os resíduos tiverem uma média
+afastada de 0,
+
+00:00:51.501 --> 00:00:53.667
+simplesmente adicione a média
+a todas as previsões
+
+00:00:53.701 --> 00:00:55.467
+e o viés estará resolvido.
+
+00:00:55.501 --> 00:00:59.100
+Modelos que geram resíduos
+que não têm essas características
+
+00:00:59.133 --> 00:01:00.734
+podem ser melhorados.
+
+00:01:00.767 --> 00:01:05.000
+Adicionar termos ao modelo ETS
+ou ARIMA pode reduzir o problema.
+
+00:01:05.033 --> 00:01:07.868
+Ao fazer o gráfico de resíduos
+do modelo ARIMA das reservas,
+
+00:01:07.901 --> 00:01:11.601
+podemos ver que conseguimos
+englobar todos os padrões da série.
+
+00:01:11.634 --> 00:01:15.234
+Só há uma pequena correlação
+no gráfico de FAC no Lag 17,
+
+00:01:15.267 --> 00:01:17.434
+sugerindo que pode haver
+espaço para melhora,
+
+00:01:17.467 --> 00:01:19.534
+mas tentar corrigir
+uma correlação tão pequena
+
+00:01:19.567 --> 00:01:22.231
+não fará tanta diferença
+nos resultados previstos.
+
+00:01:22.264 --> 00:01:23.367
+*END*
+
+00:01:23.400 --> 00:01:24.701
+*CODE*
+

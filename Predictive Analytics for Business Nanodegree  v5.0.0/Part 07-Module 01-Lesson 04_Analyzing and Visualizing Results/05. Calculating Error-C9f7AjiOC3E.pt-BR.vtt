@@ -1,0 +1,46 @@
+WEBVTT
+Kind: captions
+Language: pt-BR
+
+00:00:00.133 --> 00:00:03.370
+Todo mundo quer saber
+se a previsão que fez é precisa.
+
+00:00:03.403 --> 00:00:05.939
+Será que o método que escolheu
+faz boas previsões?
+
+00:00:05.973 --> 00:00:08.408
+É melhor que os outros métodos
+que existem?
+
+00:00:08.442 --> 00:00:11.011
+Há muitas maneiras de medir
+a precisão de previsões,
+
+00:00:11.044 --> 00:00:14.648
+e a resposta para essas perguntas
+depende do que está sendo previsto,
+
+00:00:14.681 --> 00:00:16.617
+de que medida de precisão
+está sendo usada
+
+00:00:16.650 --> 00:00:19.019
+e de que tipo de conjunto
+de dados temos.
+
+00:00:19.052 --> 00:00:22.589
+Vamos ver agora que erros
+de previsão e medidas de precisão
+
+00:00:22.623 --> 00:00:25.724
+podemos usar para julgar o que é
+um bom modelo de previsão.
+
+00:00:25.757 --> 00:00:26.894
+*END*
+
+00:00:26.927 --> 00:00:28.228
+*CODE*
+

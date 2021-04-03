@@ -1,0 +1,72 @@
+WEBVTT
+Kind: captions
+Language: pt-BR
+
+00:00:00.401 --> 00:00:03.002
+O modelo de previsão deve incluir
+características que englobariam
+
+00:00:03.035 --> 00:00:05.372
+todas as propriedades importantes
+da série temporal.
+
+00:00:05.405 --> 00:00:07.541
+Padrões de variação
+de tendência,
+
+00:00:07.574 --> 00:00:11.011
+efeitos da sazonalidade
+e a remoção da autocorrelação.
+
+00:00:11.044 --> 00:00:14.147
+Além disso, as pressuposições
+em que baseamos o modelo escolhido
+
+00:00:14.181 --> 00:00:16.483
+devem seguir sua intuição
+sobre como a série temporal
+
+00:00:16.517 --> 00:00:18.685
+deve se comportar no futuro.
+
+00:00:18.719 --> 00:00:21.722
+Para selecionar um modelo,
+podemos usar vários identificadores
+
+00:00:21.755 --> 00:00:23.724
+que nos ajudam a nos decidir
+pelo melhor modelo.
+
+00:00:23.757 --> 00:00:26.226
+Podemos comparar critérios
+como gráficos de resíduos,
+
+00:00:26.260 --> 00:00:29.396
+erros de previsão e o critério
+de informação de Akaike
+
+00:00:29.429 --> 00:00:31.331
+dos modelos ETS e ARIMA
+
+00:00:31.365 --> 00:00:34.768
+que construímos em aulas
+anteriores, como base.
+
+00:00:34.801 --> 00:00:38.238
+Como podemos comparar
+resultados de previsões e modelos,
+
+00:00:38.272 --> 00:00:41.275
+se as previsões são apenas
+valores teóricos?
+
+00:00:41.308 --> 00:00:44.611
+Bem, isso nos leva à próxima aula,
+sobre amostras holdout.
+
+00:00:44.645 --> 00:00:45.946
+*END*
+
+00:00:45.979 --> 00:00:47.281
+*CODE*
+

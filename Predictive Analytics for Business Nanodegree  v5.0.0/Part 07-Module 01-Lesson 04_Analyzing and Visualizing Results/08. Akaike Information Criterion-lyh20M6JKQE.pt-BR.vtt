@@ -1,0 +1,153 @@
+WEBVTT
+Kind: captions
+Language: pt-BR
+
+00:00:00.100 --> 00:00:02.102
+O critério de informação
+de Akaike
+
+00:00:02.135 --> 00:00:05.105
+mede a qualidade relativa
+de um modelo estatístico.
+
+00:00:05.138 --> 00:00:09.376
+O cálculo do AIC equilibra
+a qualidade de ajustamento do modelo
+
+00:00:09.409 --> 00:00:11.578
+e a complexidade do modelo.
+
+00:00:11.612 --> 00:00:14.882
+O valor do AIC de um único modelo
+não pode nos dizer nada
+
+00:00:14.915 --> 00:00:16.550
+sobre a qualidade do modelo.
+
+00:00:16.583 --> 00:00:18.519
+Ele é usado para comparar
+muitos modelos diferentes
+
+00:00:18.552 --> 00:00:20.554
+produzidos a partir
+da mesma série temporal.
+
+00:00:20.587 --> 00:00:22.723
+Se todos os modelos
+se ajustarem mal,
+
+00:00:22.756 --> 00:00:25.292
+o AIC não vai
+nos chamar atenção para isso.
+
+00:00:25.325 --> 00:00:27.127
+Quando comparamos
+valores de AIC,
+
+00:00:27.160 --> 00:00:30.764
+o menor valor dos modelos
+é considerado o melhor.
+
+00:00:30.964 --> 00:00:35.536
+Vamos abrir os dois workflows
+dos modelos ETS e ARIMA.
+
+00:00:35.569 --> 00:00:39.273
+Vamos começar com o modelo ETS
+e comparar os valores de AIC
+
+00:00:39.306 --> 00:00:41.942
+dos dois tipos de modelo
+que usamos no workflow.
+
+00:00:41.975 --> 00:00:44.611
+Se analisarmos os resultados
+dos modelos ETS,
+
+00:00:44.645 --> 00:00:47.447
+o modelo sem amortecimento
+tem o AIC mais baixo,
+
+00:00:47.481 --> 00:00:50.817
+sugerindo que, daqui em diante, ele
+vai gerar os melhores resultados.
+
+00:00:50.850 --> 00:00:53.387
+Isso também significa que,
+com base neste cálculo,
+
+00:00:53.420 --> 00:00:57.791
+o modelo se ajustou melhor e é menos
+complexo que o modelo amortecido.
+
+00:00:58.325 --> 00:01:00.761
+O modelo ARIMA mostra
+que o termo "MA" adicional
+
+00:01:00.794 --> 00:01:03.430
+se ajustou levemente melhor
+à nossa série.
+
+00:01:03.463 --> 00:01:07.701
+A partir daqui, temos que incluir
+dois termos "MA" na previsão.
+
+00:01:07.734 --> 00:01:09.203
+Com o Alteryx, podemos usar
+
+00:01:09.236 --> 00:01:12.239
+um logaritmo automodelante
+de construção que usa o AIC
+
+00:01:12.272 --> 00:01:14.508
+para determinar
+o melhor modelo.
+
+00:01:14.541 --> 00:01:17.010
+Isso significa que o Alteryx
+vai determinar os termos do modelo
+
+00:01:17.044 --> 00:01:19.780
+e escolher o que tem
+o menor valor de AIC.
+
+00:01:19.813 --> 00:01:22.649
+Legal, não é?
+Para ativar um modelo autoproduzido,
+
+00:01:22.683 --> 00:01:25.953
+basta arrastar uma ferramenta
+"ARIMA" ou "ETS" para a tela,
+
+00:01:25.986 --> 00:01:27.454
+escolher um nome
+para o modelo,
+
+00:01:27.487 --> 00:01:30.591
+estabelecer o "target field"
+e a "target field frequency"
+
+00:01:30.624 --> 00:01:32.059
+e, na aba "Other options",
+
+00:01:32.092 --> 00:01:34.527
+estabelecer "number of periods
+to include in the forecast".
+
+00:01:34.560 --> 00:01:36.430
+Agora clique em "Run".
+
+00:01:36.463 --> 00:01:38.866
+As ferramentas "ETS" e "ARIMA"
+são naturalmente definidas
+
+00:01:38.899 --> 00:01:42.936
+para automaticamente calcular
+o modelo com o menor valor de AIC.
+
+00:01:42.970 --> 00:01:44.304
+*END*
+
+00:01:44.338 --> 00:01:45.639
+*CODE*
+

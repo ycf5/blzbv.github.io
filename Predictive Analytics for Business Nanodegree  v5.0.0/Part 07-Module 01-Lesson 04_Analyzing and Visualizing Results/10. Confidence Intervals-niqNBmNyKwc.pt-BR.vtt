@@ -1,0 +1,69 @@
+WEBVTT
+Kind: captions
+Language: pt-BR
+
+00:00:00.200 --> 00:00:02.434
+Para prever os resultados
+de nosso modelo,
+
+00:00:02.467 --> 00:00:04.567
+temos que especificar
+intervalos de confiança
+
+00:00:04.601 --> 00:00:09.267
+e determinar um limite máximo e
+um mínimo para a previsão do modelo.
+
+00:00:09.300 --> 00:00:12.300
+Um intervalo de confiança
+é o intervalo no qual esperamos
+
+00:00:12.334 --> 00:00:13.968
+que nossa previsão
+esteja inserida.
+
+00:00:14.001 --> 00:00:17.133
+Por exemplo, se os erros de previsão
+não tiverem correlação
+
+00:00:17.167 --> 00:00:18.634
+e forem distribuídos
+normalmente,
+
+00:00:18.667 --> 00:00:21.734
+então um intervalo de confiança
+de 95% para a previsão
+
+00:00:21.767 --> 00:00:24.434
+nos diz que esperamos
+que os resultados dela
+
+00:00:24.467 --> 00:00:28.367
+fiquem dentro do intervalo
+de confiança 95% do tempo.
+
+00:00:28.400 --> 00:00:31.200
+Os modelos de previsão
+não conseguirão prever exatamente
+
+00:00:31.234 --> 00:00:33.701
+qual será o resultado exato
+para cada período.
+
+00:00:33.734 --> 00:00:35.533
+Por isso estabelecemos
+intervalos de confiança
+
+00:00:35.566 --> 00:00:37.834
+para termos uma noção
+de onde os dados podem variar
+
+00:00:37.868 --> 00:00:39.434
+nos períodos previstos.
+
+00:00:39.467 --> 00:00:40.767
+*END*
+
+00:00:40.801 --> 00:00:42.100
+*CODE*
+
