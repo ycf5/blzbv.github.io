@@ -1,0 +1,149 @@
+WEBVTT
+Kind: captions
+Language: pt-BR
+
+00:00:00.500 --> 00:00:03.750
+"Campos Calculados" criam novos
+campos a partir de dados fornecidos,
+
+00:00:03.783 --> 00:00:05.550
+como um novo campo "Lucro"
+
+00:00:05.583 --> 00:00:07.600
+a partir dos valores
+de preço e quantidade.
+
+00:00:07.633 --> 00:00:10.350
+Vamos criar um Campo Calculado.
+
+00:00:10.383 --> 00:00:14.850
+Talvez você queira saber o lucro
+por item em um trimestre.
+
+00:00:14.883 --> 00:00:16.500
+Para criar um campo calculado,
+
+00:00:16.533 --> 00:00:19.350
+abra o menu do campo,
+digamos que "Lucro",
+
+00:00:19.383 --> 00:00:22.500
+e clique em "Criar"
+e "Campo calculado".
+
+00:00:22.533 --> 00:00:23.700
+Você verá o editor.
+
+00:00:23.733 --> 00:00:25.400
+À esquerda,
+você digita a fórmula
+
+00:00:25.433 --> 00:00:27.650
+que gostaria de usar
+para criar o campo.
+
+00:00:27.683 --> 00:00:30.850
+À direita, há fórmulas prontas
+que você pode escolher.
+
+00:00:30.883 --> 00:00:34.550
+Campos no editor aparecem
+entre parênteses, como "Lucro".
+
+00:00:34.583 --> 00:00:36.700
+Você pode fazer
+aritmética simples aqui,
+
+00:00:36.733 --> 00:00:39.500
+como adicionar uma constante
+ou multiplicar por um campo.
+
+00:00:40.750 --> 00:00:43.150
+Você também pode usar funções
+como valor absoluto,
+
+00:00:43.183 --> 00:00:45.350
+seno, raiz quadrada, etc.
+
+00:00:45.383 --> 00:00:46.900
+Há uma lista de funções
+à direita
+
+00:00:46.933 --> 00:00:49.750
+e uma breve documentação
+é exibida ao selecioná-las.
+
+00:00:50.600 --> 00:00:52.400
+Aqui vamos criar
+um novo campo
+
+00:00:52.433 --> 00:00:55.600
+que calcula o lucro por item
+de cada registro.
+
+00:00:55.633 --> 00:00:58.600
+É bem simples:
+lucro dividido por quantidade.
+
+00:00:59.350 --> 00:01:02.000
+Você pode dar nome
+ao campo calculado aqui.
+
+00:01:02.033 --> 00:01:04.100
+Vou chamá-lo
+de "Lucro por Item".
+
+00:01:04.900 --> 00:01:06.250
+Ao clicar em "ok",
+
+00:01:06.283 --> 00:01:09.100
+um novo campo aparecerá
+no painel "Dados".
+
+00:01:09.133 --> 00:01:10.800
+Você pode usá-lo
+como outro qualquer.
+
+00:01:10.833 --> 00:01:13.750
+Por exemplo, posso fazer um gráfico
+do lucro médio por item
+
+00:01:13.783 --> 00:01:15.250
+para cada subcategoria.
+
+00:01:15.283 --> 00:01:18.750
+Veja onde "Lucro por Item"
+aparece no painel.
+
+00:01:18.783 --> 00:01:21.700
+Próximo ao jogo da velha
+há um pequeno "+".
+
+00:01:21.733 --> 00:01:24.400
+Isso indica que é
+um campo calculado.
+
+00:01:25.300 --> 00:01:26.750
+Voltando à pergunta original,
+
+00:01:26.783 --> 00:01:29.350
+queremos saber
+o lucro médio por item.
+
+00:01:29.383 --> 00:01:31.150
+Para mudar de soma para média,
+
+00:01:31.183 --> 00:01:33.950
+clique no menu suspenso,
+vá até "Medida"
+
+00:01:33.983 --> 00:01:35.550
+e mude para "Média".
+
+00:01:35.583 --> 00:01:40.150
+Aqui vemos que o maior lucro
+é o de copiadoras,
+
+00:01:40.183 --> 00:01:41.950
+e o menor é o de mesas.
+

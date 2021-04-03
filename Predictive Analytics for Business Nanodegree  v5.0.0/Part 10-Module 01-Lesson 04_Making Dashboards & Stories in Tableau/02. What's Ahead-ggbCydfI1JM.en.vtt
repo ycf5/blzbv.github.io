@@ -1,0 +1,70 @@
+WEBVTT
+Kind: captions
+Language: en
+
+00:00:00.030 --> 00:00:04.315
+You already can do a ton with Tableau to explore dataset.
+
+00:00:04.315 --> 00:00:07.600
+The ideas in this lesson will help you with tackling a dataset for
+
+00:00:07.599 --> 00:00:11.080
+the first time and putting your final products together.
+
+00:00:11.080 --> 00:00:14.109
+There are five purposes of this lesson before you move on to
+
+00:00:14.109 --> 00:00:18.189
+your project and complete your Tableau journey here at Udacity.
+
+00:00:18.190 --> 00:00:20.284
+We've been working with a single dataset,
+
+00:00:20.283 --> 00:00:23.859
+but it's important that you feel comfortable with lots of different types of data.
+
+00:00:23.859 --> 00:00:27.035
+So you will gain practice with that in this lesson.
+
+00:00:27.035 --> 00:00:29.094
+You will learn about dashboards,
+
+00:00:29.094 --> 00:00:31.750
+which allow you to analyze multiple sheets all at
+
+00:00:31.750 --> 00:00:36.730
+the same time and even build filters that act over all of the sheets at once.
+
+00:00:36.729 --> 00:00:42.734
+You will combine items one and two above to create dashboards for some new datasets.
+
+00:00:42.734 --> 00:00:46.100
+Don't worry, we'll do this together to build your confidence.
+
+00:00:46.100 --> 00:00:49.760
+That way you get some practice before you tackle the project.
+
+00:00:49.759 --> 00:00:51.384
+You will learn about Stories,
+
+00:00:51.384 --> 00:00:55.059
+a feature of Tableau that allows you to link together your worksheets and
+
+00:00:55.060 --> 00:01:00.280
+dashboards to give an audience a well-rounded grasp of your insights.
+
+00:01:00.280 --> 00:01:03.340
+Finally, we will point you some additional resources
+
+00:01:03.340 --> 00:01:07.159
+for you to continue learning and keep your Tableau skills fresh.
+
+00:01:07.159 --> 00:01:11.019
+You will be using a few new datasets to complete the questions in this lesson.
+
+00:01:11.019 --> 00:01:13.959
+So they'll be provided in the Resources tab.
+
+00:01:13.959 --> 00:01:18.369
+A breakdown of the main topics covered in this section are provided below.
+

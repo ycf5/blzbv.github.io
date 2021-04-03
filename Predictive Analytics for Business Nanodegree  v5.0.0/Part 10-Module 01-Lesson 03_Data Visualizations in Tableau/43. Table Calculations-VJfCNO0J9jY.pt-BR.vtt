@@ -1,0 +1,128 @@
+WEBVTT
+Kind: captions
+Language: pt-BR
+
+00:00:00.350 --> 00:00:03.300
+Cálculos de tabela são feitos
+sobre resultados de uma exibição,
+
+00:00:03.333 --> 00:00:06.950
+como a percentagem de vendas
+feitas em determinada região.
+
+00:00:06.983 --> 00:00:08.300
+Vamos usar cálculo de tabela
+
+00:00:08.333 --> 00:00:11.700
+para ver a percentagem de vendas
+proveniente de cada mercado.
+
+00:00:11.733 --> 00:00:15.050
+Primeiro vamos projetar
+a soma de lucro por mercado.
+
+00:00:15.083 --> 00:00:17.150
+Clicando com o botão direito
+em "SOMA(Lucro)"
+
+00:00:17.183 --> 00:00:20.400
+você verá
+"Adicionar cálculo de tabela".
+
+00:00:20.433 --> 00:00:24.050
+Pode determinar o cálculo
+nesta janela manualmente
+
+00:00:24.083 --> 00:00:27.100
+ou escolher, no menu,
+"Cálculo de tabela rápido".
+
+00:00:27.133 --> 00:00:29.150
+Vamos adicionar
+um "Cálculo de tabela rápido"
+
+00:00:29.183 --> 00:00:31.450
+para mostrar
+"Percentual do total".
+
+00:00:31.483 --> 00:00:34.200
+Ao fazê-lo,
+podemos ver que APAC
+
+00:00:34.233 --> 00:00:37.600
+representa quase 30%
+do total de vendas.
+
+00:00:37.633 --> 00:00:38.850
+Mais um exemplo:
+
+00:00:38.883 --> 00:00:41.800
+vamos usar cálculo de tabela
+para mostrar crescimento de vendas.
+
+00:00:41.833 --> 00:00:44.250
+Para começar, vamos criar
+um gráfico linear de vendas
+
+00:00:44.283 --> 00:00:48.350
+adicionando "Vendas" às linhas
+e "Data do pedido" às colunas.
+
+00:00:48.383 --> 00:00:52.250
+E vamos detalhar trimestralmente
+clicando no "+".
+
+00:00:52.283 --> 00:00:55.000
+Veja que isso cria
+quatro gráficos distintos.
+
+00:00:55.033 --> 00:00:58.050
+É porque "Data do pedido"
+é uma variável discreta.
+
+00:00:58.083 --> 00:01:00.500
+Vamos alterar clicando
+com o botão direito nela,
+
+00:01:00.533 --> 00:01:02.350
+selecionando
+"Converter em contínua"
+
+00:01:02.383 --> 00:01:05.650
+e readicionando-a
+à divisória de coluna.
+
+00:01:05.683 --> 00:01:08.050
+Agora podemos
+adicionar cálculo de tabela.
+
+00:01:08.083 --> 00:01:09.950
+Botão direito
+em "SOMA(Vendas)",
+
+00:01:09.983 --> 00:01:14.050
+"Cálculo de tabela rápido",
+e "Diferença de percentual".
+
+00:01:14.083 --> 00:01:17.000
+Agora vemos a diferença
+de um trimestre para o outro.
+
+00:01:17.033 --> 00:01:19.450
+Podemos granular ainda mais
+o gráfico
+
+00:01:19.483 --> 00:01:21.550
+detalhando por semana.
+
+00:01:21.583 --> 00:01:25.400
+Como pode ver, os dados se tornam
+bem erráticos neste nível.
+
+00:01:25.433 --> 00:01:27.200
+Podemos usar cálculo de tabela
+
+00:01:27.233 --> 00:01:30.350
+para usar "Média móvel" e tornar
+o gráfico mais compreensível.
+

@@ -1,0 +1,103 @@
+WEBVTT
+Kind: captions
+Language: en
+
+00:00:00.000 --> 00:00:03.015
+Let's get some practice with marks and filters.
+
+00:00:03.015 --> 00:00:05.910
+Let's say your boss asks you to dig into the data to better
+
+00:00:05.910 --> 00:00:09.945
+understand what regions had the highest profits in 2014.
+
+00:00:09.945 --> 00:00:15.065
+To start, let's drag profit into the row shelf and region into the column shelf.
+
+00:00:15.064 --> 00:00:18.884
+Now we need to filter the data to only include 2014.
+
+00:00:18.885 --> 00:00:23.400
+To do this, let's drag the order date variable into the filters.
+
+00:00:23.399 --> 00:00:26.144
+There are lots of ways to implement a date filter,
+
+00:00:26.144 --> 00:00:30.869
+but in this case, let's select year here and check 2014.
+
+00:00:30.870 --> 00:00:35.770
+To show the filter, let's click the drop down and select show filter.
+
+00:00:35.770 --> 00:00:40.040
+Lastly, let's sort the columns from highest to lowest so that chart is more readable.
+
+00:00:40.039 --> 00:00:43.619
+You can do this with this sort button at the top of the screen.
+
+00:00:43.619 --> 00:00:45.780
+Now let's use some additional variables to help us
+
+00:00:45.780 --> 00:00:48.265
+drill down into the product categories.
+
+00:00:48.265 --> 00:00:50.210
+We start by bringing in the category field.
+
+00:00:50.210 --> 00:00:51.954
+You can encode this in a variety of ways,
+
+00:00:51.954 --> 00:00:56.920
+but the most logical would be to include it in the rows like this,
+
+00:00:56.920 --> 00:00:58.890
+making a separate bar chart for
+
+00:00:58.890 --> 00:01:03.030
+each category or to encode it as color, which we'll do here.
+
+00:01:03.030 --> 00:01:04.784
+When we encode categories color,
+
+00:01:04.784 --> 00:01:07.109
+you can see a legend appears on the right.
+
+00:01:07.109 --> 00:01:09.480
+We can use this legend to apply filters by clicking
+
+00:01:09.480 --> 00:01:13.079
+on them and selecting keep only, like this.
+
+00:01:13.079 --> 00:01:16.039
+Now we only see the profit data for furniture.
+
+00:01:16.040 --> 00:01:18.790
+This adds a category filter to the filter shelf.
+
+00:01:18.790 --> 00:01:20.234
+And if we want to see it,
+
+00:01:20.234 --> 00:01:23.429
+we can click the drop down and select show filter.
+
+00:01:23.430 --> 00:01:28.120
+Now were filtered on furniture and let's add subcategory in as color.
+
+00:01:28.120 --> 00:01:33.245
+Now we can see the profit attributable to each product subcategory by region.
+
+00:01:33.245 --> 00:01:36.945
+You can add additional detail to the chart by encoding data with the tool tip.
+
+00:01:36.944 --> 00:01:38.204
+To finish off this plot,
+
+00:01:38.204 --> 00:01:40.829
+let's add sales data to the tool tip card,
+
+00:01:40.829 --> 00:01:42.465
+so when you hover over each section,
+
+00:01:42.465 --> 00:01:45.000
+you can see both the profit and sales.
+

@@ -1,0 +1,515 @@
+<!-- udacity2.0 -->
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Quiz: Show Me</title>
+  <link rel="stylesheet" href="../assets/css/bootstrap.min.css">
+  <link rel="stylesheet" href="../assets/css/plyr.css">
+  <link rel="stylesheet" href="../assets/css/katex.min.css">
+  <link rel="stylesheet" href="../assets/css/jquery.mCustomScrollbar.min.css">
+  <link rel="stylesheet" href="../assets/css/styles.css">
+  <link rel="shortcut icon" type="image/png" href="../assets/img/udacimak.png" />
+</head>
+
+<body>
+  <div class="wrapper">
+    <nav id="sidebar">
+  <div class="sidebar-header">
+    <h3>Data Visualizations in Tableau</h3>
+  </div>
+
+  <ul class="sidebar-list list-unstyled CTAs">
+    <li>
+      <a href="../index.html" class="article">Back to Home</a>
+    </li>
+  </ul>
+
+  <ul class="sidebar-list list-unstyled components">
+    <li class="">
+      <a href="01. Video What is Tableau.html">01. Video: What is Tableau?</a>
+    </li>
+    <li class="">
+      <a href="02. Text Installing Tableau.html">02. Text: Installing Tableau</a>
+    </li>
+    <li class="">
+      <a href="03. Video How This Lesson Is Structured.html">03. Video: How This Lesson Is Structured?</a>
+    </li>
+    <li class="">
+      <a href="04. Text Outline of Topics Covered.html">04. Text: Outline of Topics Covered</a>
+    </li>
+    <li class="">
+      <a href="05. Commas vs Periods.html">05. Commas vs Periods</a>
+    </li>
+    <li class="">
+      <a href="06. Video Connecting to Data.html">06. Video: Connecting to Data</a>
+    </li>
+    <li class="">
+      <a href="07. Text Connecting to Data Recap.html">07. Text: Connecting to Data Recap</a>
+    </li>
+    <li class="">
+      <a href="08. Quiz Connecting to Data.html">08. Quiz: Connecting to Data</a>
+    </li>
+    <li class="">
+      <a href="09. Video Combining Data.html">09. Video: Combining Data</a>
+    </li>
+    <li class="">
+      <a href="10. Text Combining Data Recap.html">10. Text: Combining Data Recap</a>
+    </li>
+    <li class="">
+      <a href="11. Quiz Combining Data.html">11. Quiz: Combining Data</a>
+    </li>
+    <li class="">
+      <a href="12. Video What Can You Create In Tableau.html">12. Video: What Can You Create In Tableau?</a>
+    </li>
+    <li class="">
+      <a href="13. Video Worksheets.html">13. Video: Worksheets</a>
+    </li>
+    <li class="">
+      <a href="14. Text Worksheets.html">14. Text: Worksheets</a>
+    </li>
+    <li class="">
+      <a href="15. Quiz Worksheets.html">15. Quiz: Worksheets</a>
+    </li>
+    <li class="">
+      <a href="16. Text Saving to Tableau Public.html">16. Text: Saving to Tableau Public</a>
+    </li>
+    <li class="">
+      <a href="17. Video Aggregations.html">17. Video: Aggregations</a>
+    </li>
+    <li class="">
+      <a href="18. Text Aggregations.html">18. Text: Aggregations</a>
+    </li>
+    <li class="">
+      <a href="19. Quiz Aggregations.html">19. Quiz: Aggregations</a>
+    </li>
+    <li class="">
+      <a href="20. Video Hierarchies.html">20. Video: Hierarchies</a>
+    </li>
+    <li class="">
+      <a href="21. Text Hierarchies.html">21. Text: Hierarchies</a>
+    </li>
+    <li class="">
+      <a href="22. Quiz Hierarchies.html">22. Quiz: Hierarchies</a>
+    </li>
+    <li class="">
+      <a href="23. Video Marks &amp; Filters.html">23. Video: Marks &amp; Filters</a>
+    </li>
+    <li class="">
+      <a href="24. Text Marks &amp; Filters I.html">24. Text: Marks &amp; Filters I</a>
+    </li>
+    <li class="">
+      <a href="25. Quiz Marks &amp; Filters I.html">25. Quiz: Marks &amp; Filters I</a>
+    </li>
+    <li class="">
+      <a href="26. Text Marks &amp; Filters II.html">26. Text: Marks &amp; Filters II</a>
+    </li>
+    <li class="">
+      <a href="27. Quiz Marks &amp; Filters II.html">27. Quiz: Marks &amp; Filters II</a>
+    </li>
+    <li class="">
+      <a href="28. Video Show Me.html">28. Video: Show Me</a>
+    </li>
+    <li class="">
+      <a href="29. Text Show Me.html">29. Text: Show Me</a>
+    </li>
+    <li class="">
+      <a href="30. Quiz Show Me.html">30. Quiz: Show Me</a>
+    </li>
+    <li class="">
+      <a href="31. Video Small Multiples &amp; Dual Axis.html">31. Video: Small Multiples &amp; Dual Axis</a>
+    </li>
+    <li class="">
+      <a href="32. Text Small Multiples &amp; Dual Axis.html">32. Text: Small Multiples &amp; Dual Axis</a>
+    </li>
+    <li class="">
+      <a href="33. Text Map Configuration.html">33. Text: Map Configuration</a>
+    </li>
+    <li class="">
+      <a href="34. Quiz Small Multiples.html">34. Quiz: Small Multiples</a>
+    </li>
+    <li class="">
+      <a href="35. Quiz Dual Axis.html">35. Quiz: Dual Axis</a>
+    </li>
+    <li class="">
+      <a href="36. Video Groups &amp; Sets.html">36. Video: Groups &amp; Sets</a>
+    </li>
+    <li class="">
+      <a href="37. Text Groups &amp; Sets.html">37. Text: Groups &amp; Sets</a>
+    </li>
+    <li class="">
+      <a href="38. Quiz Groups.html">38. Quiz: Groups</a>
+    </li>
+    <li class="">
+      <a href="39. Quiz Sets.html">39. Quiz: Sets</a>
+    </li>
+    <li class="">
+      <a href="40. Video Calculated Fields.html">40. Video: Calculated Fields</a>
+    </li>
+    <li class="">
+      <a href="41. Text Calculated Fields.html">41. Text: Calculated Fields</a>
+    </li>
+    <li class="">
+      <a href="42. Quiz Calculated Fields.html">42. Quiz: Calculated Fields</a>
+    </li>
+    <li class="">
+      <a href="43. Video Table Calculations.html">43. Video: Table Calculations</a>
+    </li>
+    <li class="">
+      <a href="44. Text Table Calculations.html">44. Text: Table Calculations</a>
+    </li>
+    <li class="">
+      <a href="45. Quiz Table Calculations.html">45. Quiz: Table Calculations</a>
+    </li>
+    <li class="">
+      <a href="46. Text Recap.html">46. Text: Recap</a>
+    </li>
+    <li class="">
+      <a href="47. Video What&#x27;s Next.html">47. Video: What&#x27;s Next?</a>
+    </li>
+  </ul>
+
+  <ul class="sidebar-list list-unstyled CTAs">
+    <li>
+      <a href="../index.html" class="article">Back to Home</a>
+    </li>
+  </ul>
+</nav>
+
+    <div id="content">
+      <header class="container-fluild header">
+        <div class="container">
+          <div class="row">
+            <div class="col-12">
+              <div class="align-items-middle">
+                <button type="button" id="sidebarCollapse" class="btn btn-toggle-sidebar">
+                  <div></div>
+                  <div></div>
+                  <div></div>
+                </button>
+
+                <h1 style="display: inline-block">30. Quiz: Show Me</h1>
+              </div>
+            </div>
+          </div>
+        </div>
+      </header>
+
+      <main class="container">
+        <div class="row">
+          <div class="col-12">
+            <div class="ud-atom">
+  <h3></h3>
+  <div>
+  <div>
+    <h4>Task Description:</h4>
+    <p>Tasks to complete:</p>
+  </div>
+
+  <form>
+    <fieldset>
+      <legend>Task List:</legend>
+
+      <div>
+        <input type="checkbox" id="fc72fde1-a980-4c6b-a7d0-e4680da25696--0">
+        <label for="fc72fde1-a980-4c6b-a7d0-e4680da25696--0"><p>Assure you are on a new sheet.</p></label>
+      </div>
+      <div>
+        <input type="checkbox" id="fc72fde1-a980-4c6b-a7d0-e4680da25696--1">
+        <label for="fc72fde1-a980-4c6b-a7d0-e4680da25696--1"><p>Simultaneously select <strong>Market</strong>, <strong>Category</strong>, and <strong>Profit</strong>.  Notice the plots available.</p></label>
+      </div>
+      <div>
+        <input type="checkbox" id="fc72fde1-a980-4c6b-a7d0-e4680da25696--2">
+        <label for="fc72fde1-a980-4c6b-a7d0-e4680da25696--2"><p>Select the side by side bar charts.</p></label>
+      </div>
+      <div>
+        <input type="checkbox" id="fc72fde1-a980-4c6b-a7d0-e4680da25696--3">
+        <label for="fc72fde1-a980-4c6b-a7d0-e4680da25696--3"><p>Quiz 1 below.</p></label>
+      </div>
+      <div>
+        <input type="checkbox" id="fc72fde1-a980-4c6b-a7d0-e4680da25696--4">
+        <label for="fc72fde1-a980-4c6b-a7d0-e4680da25696--4"><p>Create a new sheet or clear your current sheet.</p></label>
+      </div>
+      <div>
+        <input type="checkbox" id="fc72fde1-a980-4c6b-a7d0-e4680da25696--5">
+        <label for="fc72fde1-a980-4c6b-a7d0-e4680da25696--5"><p>Simultaneously select <strong>Country</strong> and <strong>Profit</strong>.</p></label>
+      </div>
+      <div>
+        <input type="checkbox" id="fc72fde1-a980-4c6b-a7d0-e4680da25696--6">
+        <label for="fc72fde1-a980-4c6b-a7d0-e4680da25696--6"><p>Select the <code>Map</code> from <code>Show Me</code> that looks shaded (not the one with the circles).</p></label>
+      </div>
+      <div>
+        <input type="checkbox" id="fc72fde1-a980-4c6b-a7d0-e4680da25696--7">
+        <label for="fc72fde1-a980-4c6b-a7d0-e4680da25696--7"><p>Drag <strong>Country</strong> to the <code>Filters</code> table.</p></label>
+      </div>
+      <div>
+        <input type="checkbox" id="fc72fde1-a980-4c6b-a7d0-e4680da25696--8">
+        <label for="fc72fde1-a980-4c6b-a7d0-e4680da25696--8"><p>Select <code>Show Filter</code> from the drop down menu associated with <strong>Country</strong> in the Filters table.</p></label>
+      </div>
+      <div>
+        <input type="checkbox" id="fc72fde1-a980-4c6b-a7d0-e4680da25696--9">
+        <label for="fc72fde1-a980-4c6b-a7d0-e4680da25696--9"><p>Change the Filter to <code>Multiple Values (dropdown)</code></p></label>
+      </div>
+      <div>
+        <input type="checkbox" id="fc72fde1-a980-4c6b-a7d0-e4680da25696--10">
+        <label for="fc72fde1-a980-4c6b-a7d0-e4680da25696--10"><p>Select different countries to see the updates. Cool right!</p></label>
+      </div>
+      <div>
+        <input type="checkbox" id="fc72fde1-a980-4c6b-a7d0-e4680da25696--11">
+        <label for="fc72fde1-a980-4c6b-a7d0-e4680da25696--11"><p>Add a similar filter for <strong>Sub-Category</strong>.</p></label>
+      </div>
+      <div>
+        <input type="checkbox" id="fc72fde1-a980-4c6b-a7d0-e4680da25696--12">
+        <label for="fc72fde1-a980-4c6b-a7d0-e4680da25696--12"><p>Quiz 2 below.</p></label>
+      </div>
+    </fieldset>
+  </form>
+
+  <div>
+    <h4>Task Feedback:</h4>
+
+
+    <p>Nice job!  I love maps and matching quizzes, don't you?</p>
+  </div>
+</div>
+
+
+</div>
+<div class="divider"></div><div class="ud-atom">
+  <h3></h3>
+  <div>
+  <form>
+    <fieldset>
+      <legend><h3 id="quiz-1">Quiz 1</h3>
+<p>How can we improve the default visual? This should match the <strong>Text: Show Me</strong>. (Select all that apply)</p></legend>
+    </fieldset>
+
+    <div>
+      <input type="checkbox" value="a1505015025658" name="394361" id="a1505015025658">
+      <label for="a1505015025658"><p>These colors should be changed, as the current colors are distracting.</p></label>
+    </div>
+    <div>
+      <input type="checkbox" value="a1505015082063" name="394361" id="a1505015082063">
+      <label for="a1505015082063"><p>Change from a bar to a pie chart, because showing area is less deceiving than showing bar length.</p></label>
+    </div>
+    <div>
+      <input type="checkbox" value="a1505015117601" name="394361" id="a1505015117601">
+      <label for="a1505015117601"><p>Provide filters to look into specific markets or categories one at a time.</p></label>
+    </div>
+    <div>
+      <input type="checkbox" value="a1505015174113" name="394361" id="a1505015174113">
+      <label for="a1505015174113"><p>None it is perfect.</p></label>
+    </div>
+  </form>
+
+  <details>
+    <summary><strong>SOLUTION:</strong></summary>
+    <ul>
+      <li>These colors should be changed, as the current colors are distracting.</li>
+      <li>Provide filters to look into specific markets or categories one at a time.</li>
+  </ul>
+  </details>
+</div>
+
+</div>
+<div class="divider"></div><div class="ud-atom">
+  <h3></h3>
+  <div>
+  <p><strong>QUIZ QUESTION:</strong>: <h3 id="quiz-2">Quiz 2</h3>
+<p>Use your new map with the filters to match the description, to their corresponding <strong>Profit</strong>.</p></p>
+  <p><strong>ANSWER CHOICES:</strong></p>
+  <button class="btn btn-primary"><p>887</p></button>
+  <button class="btn btn-primary"><p>1,913</p></button>
+  <button class="btn btn-primary"><p>-3,473</p></button>
+  <button class="btn btn-primary"><p>30,090</p></button>
+  <button class="btn btn-primary"><p>7,780</p></button>
+
+  <br><br>
+
+  <table class="table">
+    <tr class="thead-dark table-hover">
+      <th>
+        <p>Description</p>
+      </th>
+      <th>
+        <p>Country</p>
+      </th>
+    </tr>
+
+    <tr>
+      <td><p>Profit for Bookcases in the United States</p></td>
+      <td></td>
+    </tr>
+    <tr>
+      <td><p>All Profits in Brazil</p></td>
+      <td></td>
+    </tr>
+    <tr>
+      <td><p>Profit for Art in India</p></td>
+      <td></td>
+    </tr>
+    <tr>
+      <td><p>Profit for Binders in Indonesia</p></td>
+      <td></td>
+    </tr>
+    <tr>
+      <td><p>Profit for Phones in France</p></td>
+      <td></td>
+    </tr>
+  </table>
+
+  <details>
+    <summary><strong>SOLUTION:</strong></summary>
+
+    <table class="table">
+      <tr class="thead-dark table-hover">
+        <th>
+          <p>Description</p>
+        </th>
+        <th>
+          <p>Country</p>
+        </th>
+      </tr>
+
+      <tr>
+        <td>
+          <p>Profit for Binders in Indonesia</p>
+        </td>
+        <td>
+            <button class="btn btn-primary"><p>887</p></button>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <p>Profit for Art in India</p>
+        </td>
+        <td>
+            <button class="btn btn-primary"><p>1,913</p></button>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <p>Profit for Bookcases in the United States</p>
+        </td>
+        <td>
+            <button class="btn btn-primary"><p>-3,473</p></button>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <p>All Profits in Brazil</p>
+        </td>
+        <td>
+            <button class="btn btn-primary"><p>30,090</p></button>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <p>Profit for Phones in France</p>
+        </td>
+        <td>
+            <button class="btn btn-primary"><p>7,780</p></button>
+        </td>
+      </tr>
+    </table>
+  </details>
+</div>
+
+
+</div>
+<div class="divider"></div>
+          </div>
+
+          <div class="col-12">
+            <p class="text-right">
+              <a href="31. Video Small Multiples &amp; Dual Axis.html" class="btn btn-outline-primary mt-4" role="button">Next Concept</a>
+            </p>
+          </div>
+        </div>
+      </main>
+
+      <footer class="footer">
+        <div class="container">
+          <div class="row">
+            <div class="col-12">
+              <p class="text-center">
+                <a href="https://us-udacity.github.io/" target="_blank">【udacity2.0 】If you need more courses, please add wechat：udacity6</a>
+              </p>
+            </div>
+          </div>
+        </div>
+      </footer>
+    </div>
+  </div>
+
+
+  <script src="../assets/js/jquery-3.3.1.min.js"></script>
+  <script src="../assets/js/plyr.polyfilled.min.js"></script>
+  <script src="../assets/js/bootstrap.min.js"></script>
+  <script src="../assets/js/jquery.mCustomScrollbar.concat.min.js"></script>
+  <script src="../assets/js/katex.min.js"></script>
+  <script>
+    // Initialize Plyr video players
+    const players = Array.from(document.querySelectorAll('video')).map(p => new Plyr(p));
+
+    // render math equations
+    let elMath = document.getElementsByClassName('mathquill');
+    for (let i = 0, len = elMath.length; i < len; i += 1) {
+      const el = elMath[i];
+
+      katex.render(el.textContent, el, {
+        throwOnError: false
+      });
+    }
+
+    // this hack will make sure Bootstrap tabs work when using Handlebars
+    if ($('#question-tabs').length && $('#user-answer-tabs').length) {
+      $("#question-tabs a.nav-link").on('click', function () {
+        $("#question-tab-contents .tab-pane").hide();
+        $($(this).attr("href")).show();
+      });
+      $("#user-answer-tabs a.nav-link").on('click', function () {
+        $("#user-answer-tab-contents .tab-pane").hide();
+        $($(this).attr("href")).show();
+      });
+    } else {
+      $("a.nav-link").on('click', function () {
+        $(".tab-pane").hide();
+        $($(this).attr("href")).show();
+      });
+    }
+
+    // side bar events
+    $(document).ready(function () {
+      $("#sidebar").mCustomScrollbar({
+        theme: "minimal"
+      });
+
+      $('#sidebarCollapse').on('click', function () {
+        $('#sidebar, #content').toggleClass('active');
+        $('.collapse.in').toggleClass('in');
+        $('a[aria-expanded=true]').attr('aria-expanded', 'false');
+      });
+
+      // scroll to first video on page loading
+      if ($('video').length) {
+        $('html,body').animate({ scrollTop: $('div.plyr').prev().offset().top});
+      }
+
+      // auto play first video: this may not work with chrome/safari due to autoplay policy
+      if (players && players.length > 0) {
+        players[0].play();
+      }
+
+      // scroll sidebar to current concept
+      const currentInSideBar = $( "ul.sidebar-list.components li a:contains('30. Quiz: Show Me')" )
+      currentInSideBar.css( "text-decoration", "underline" );
+      $("#sidebar").mCustomScrollbar('scrollTo', currentInSideBar);
+    });
+  </script>
+</body>
+
+</html>

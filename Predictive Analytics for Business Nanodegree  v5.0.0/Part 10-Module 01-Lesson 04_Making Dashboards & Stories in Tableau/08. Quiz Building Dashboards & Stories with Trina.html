@@ -1,0 +1,877 @@
+<!-- udacity2.0 -->
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Quiz: Building Dashboards &amp; Stories with Trina</title>
+  <link rel="stylesheet" href="../assets/css/bootstrap.min.css">
+  <link rel="stylesheet" href="../assets/css/plyr.css">
+  <link rel="stylesheet" href="../assets/css/katex.min.css">
+  <link rel="stylesheet" href="../assets/css/jquery.mCustomScrollbar.min.css">
+  <link rel="stylesheet" href="../assets/css/styles.css">
+  <link rel="shortcut icon" type="image/png" href="../assets/img/udacimak.png" />
+</head>
+
+<body>
+  <div class="wrapper">
+    <nav id="sidebar">
+  <div class="sidebar-header">
+    <h3>Making Dashboards &amp; Stories in Tableau</h3>
+  </div>
+
+  <ul class="sidebar-list list-unstyled CTAs">
+    <li>
+      <a href="../index.html" class="article">Back to Home</a>
+    </li>
+  </ul>
+
+  <ul class="sidebar-list list-unstyled components">
+    <li class="">
+      <a href="01. Video Communicating With Your Data.html">01. Video: Communicating With Your Data</a>
+    </li>
+    <li class="">
+      <a href="02. Video + Text What&#x27;s Ahead.html">02. Video + Text: What&#x27;s Ahead?</a>
+    </li>
+    <li class="">
+      <a href="03. Video Hierarchies with Trina.html">03. Video: Hierarchies with Trina</a>
+    </li>
+    <li class="">
+      <a href="04. Quiz Hierarchies with Trina.html">04. Quiz: Hierarchies with Trina</a>
+    </li>
+    <li class="">
+      <a href="05. Video Building Dashboards &amp; Stories with Trina.html">05. Video: Building Dashboards &amp; Stories with Trina</a>
+    </li>
+    <li class="">
+      <a href="06. Text General Notes for Building Data Dashboards with Trina.html">06. Text: General Notes for Building Data Dashboards with Trina</a>
+    </li>
+    <li class="">
+      <a href="07. Text General Notes for Building Stories.html">07. Text: General Notes for Building Stories</a>
+    </li>
+    <li class="">
+      <a href="08. Quiz Building Dashboards &amp; Stories with Trina.html">08. Quiz: Building Dashboards &amp; Stories with Trina</a>
+    </li>
+    <li class="">
+      <a href="09. Video Extra Practice with Dashboards.html">09. Video: Extra Practice with Dashboards</a>
+    </li>
+    <li class="">
+      <a href="10. Quiz Extra Practice with Dashboards.html">10. Quiz: Extra Practice with Dashboards</a>
+    </li>
+    <li class="">
+      <a href="11. Text Lesson Recap.html">11. Text: Lesson Recap</a>
+    </li>
+    <li class="">
+      <a href="12. Video Congratulations!.html">12. Video: Congratulations!</a>
+    </li>
+  </ul>
+
+  <ul class="sidebar-list list-unstyled CTAs">
+    <li>
+      <a href="../index.html" class="article">Back to Home</a>
+    </li>
+  </ul>
+</nav>
+
+    <div id="content">
+      <header class="container-fluild header">
+        <div class="container">
+          <div class="row">
+            <div class="col-12">
+              <div class="align-items-middle">
+                <button type="button" id="sidebarCollapse" class="btn btn-toggle-sidebar">
+                  <div></div>
+                  <div></div>
+                  <div></div>
+                </button>
+
+                <h1 style="display: inline-block">08. Quiz: Building Dashboards & Stories with Trina</h1>
+              </div>
+            </div>
+          </div>
+        </div>
+      </header>
+
+      <main class="container">
+        <div class="row">
+          <div class="col-12">
+            <div class="ud-atom">
+  <h3></h3>
+  <div>
+  <div>
+    <h4>Task Description:</h4>
+    <p>Tasks to complete:</p>
+  </div>
+
+  <form>
+    <fieldset>
+      <legend>Task List:</legend>
+
+      <div>
+        <input type="checkbox" id="dcea49cc-d740-48fa-a2f9-f109f334e0c2--0">
+        <label for="dcea49cc-d740-48fa-a2f9-f109f334e0c2--0"><p>Download the <code>asylum_seekers...</code> data.</p></label>
+      </div>
+      <div>
+        <input type="checkbox" id="dcea49cc-d740-48fa-a2f9-f109f334e0c2--1">
+        <label for="dcea49cc-d740-48fa-a2f9-f109f334e0c2--1"><p>Open Tableau.  Connect to the data using the <code>Text file</code> extension.</p></label>
+      </div>
+      <div>
+        <input type="checkbox" id="dcea49cc-d740-48fa-a2f9-f109f334e0c2--2">
+        <label for="dcea49cc-d740-48fa-a2f9-f109f334e0c2--2"><p>Change the <code>Value</code> column to <code>Number of Asylum Seekers</code>.</p></label>
+      </div>
+      <div>
+        <input type="checkbox" id="dcea49cc-d740-48fa-a2f9-f109f334e0c2--3">
+        <label for="dcea49cc-d740-48fa-a2f9-f109f334e0c2--3"><p>Click to a new worksheet.</p></label>
+      </div>
+      <div>
+        <input type="checkbox" id="dcea49cc-d740-48fa-a2f9-f109f334e0c2--4">
+        <label for="dcea49cc-d740-48fa-a2f9-f109f334e0c2--4"><p>Move <strong>Origin</strong> to the Columns.  Move <strong>Number of Asylum Seekers</strong> to the Rows.</p></label>
+      </div>
+      <div>
+        <input type="checkbox" id="dcea49cc-d740-48fa-a2f9-f109f334e0c2--5">
+        <label for="dcea49cc-d740-48fa-a2f9-f109f334e0c2--5"><p>Quiz 1 below.</p></label>
+      </div>
+    </fieldset>
+  </form>
+
+  <div>
+    <h4>Task Feedback:</h4>
+
+
+    <p>Nice job!  You are ready for the next list.</p>
+  </div>
+</div>
+
+
+</div>
+<div class="divider"></div><div class="ud-atom">
+  <h3></h3>
+  <div>
+  <p><strong>QUIZ QUESTION:</strong>: <h3 id="quiz-1">Quiz 1</h3>
+<p>Match each of the descriptions to the correct answer.</p></p>
+  <p><strong>ANSWER CHOICES:</strong></p>
+  <button class="btn btn-primary"><p>Andorra</p></button>
+  <button class="btn btn-primary"><p>123</p></button>
+  <button class="btn btn-primary"><p>Afghanistan</p></button>
+  <button class="btn btn-primary"><p>33961</p></button>
+  <button class="btn btn-primary"><p>312543</p></button>
+  <button class="btn btn-primary"><p>9</p></button>
+  <button class="btn btn-primary"><p>New Caledonia</p></button>
+
+  <br><br>
+
+  <table class="table">
+    <tr class="thead-dark table-hover">
+      <th>
+        <p>Description</p>
+      </th>
+      <th>
+        <p>Answer</p>
+      </th>
+    </tr>
+
+    <tr>
+      <td><p>Most refugees arrived from what country?</p></td>
+      <td></td>
+    </tr>
+    <tr>
+      <td><p>Of the countries that had any refugees, which country had the least?</p></td>
+      <td></td>
+    </tr>
+    <tr>
+      <td><p>The value associated with the number of refugees from Sri Lanka. </p></td>
+      <td></td>
+    </tr>
+    <tr>
+      <td><p>The number of refugees from Switzerland.</p></td>
+      <td></td>
+    </tr>
+  </table>
+
+  <details>
+    <summary><strong>SOLUTION:</strong></summary>
+
+    <table class="table">
+      <tr class="thead-dark table-hover">
+        <th>
+          <p>Description</p>
+        </th>
+        <th>
+          <p>Answer</p>
+        </th>
+      </tr>
+
+      <tr>
+        <td>
+          <p>Most refugees arrived from what country?</p>
+        </td>
+        <td>
+            <button class="btn btn-primary"><p>Afghanistan</p></button>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <p>The value associated with the number of refugees from Sri Lanka. </p>
+        </td>
+        <td>
+            <button class="btn btn-primary"><p>33961</p></button>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <p>The number of refugees from Switzerland.</p>
+        </td>
+        <td>
+            <button class="btn btn-primary"><p>9</p></button>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <p>Of the countries that had any refugees, which country had the least?</p>
+        </td>
+        <td>
+            <button class="btn btn-primary"><p>New Caledonia</p></button>
+        </td>
+      </tr>
+    </table>
+  </details>
+</div>
+
+
+</div>
+<div class="divider"></div><div class="ud-atom">
+  <h3></h3>
+  <div>
+  <div>
+    <h4>Task Description:</h4>
+    <p>Tasks to complete:</p>
+  </div>
+
+  <form>
+    <fieldset>
+      <legend>Task List:</legend>
+
+      <div>
+        <input type="checkbox" id="942f0de3-cb81-4d8a-b785-d7bc7b922387--0">
+        <label for="942f0de3-cb81-4d8a-b785-d7bc7b922387--0"><p>Create a filter for the <strong>Date</strong>, which you can do by dragging to the Filters table</p></label>
+      </div>
+      <div>
+        <input type="checkbox" id="942f0de3-cb81-4d8a-b785-d7bc7b922387--1">
+        <label for="942f0de3-cb81-4d8a-b785-d7bc7b922387--1"><p>In the popup asking how do you want to filter on [Date]? Select Year. Then click ok on the next pop up.</p></label>
+      </div>
+      <div>
+        <input type="checkbox" id="942f0de3-cb81-4d8a-b785-d7bc7b922387--2">
+        <label for="942f0de3-cb81-4d8a-b785-d7bc7b922387--2"><p>Select from the drop down on Date in the filter box <code>Show filter...</code>.</p></label>
+      </div>
+      <div>
+        <input type="checkbox" id="942f0de3-cb81-4d8a-b785-d7bc7b922387--3">
+        <label for="942f0de3-cb81-4d8a-b785-d7bc7b922387--3"><p>Change the filter to a <code>Single Value (list)</code>.</p></label>
+      </div>
+      <div>
+        <input type="checkbox" id="942f0de3-cb81-4d8a-b785-d7bc7b922387--4">
+        <label for="942f0de3-cb81-4d8a-b785-d7bc7b922387--4"><p>Quiz 2 below.</p></label>
+      </div>
+    </fieldset>
+  </form>
+
+  <div>
+    <h4>Task Feedback:</h4>
+
+
+    <p>Nice job!  You're ready to take on the next list.</p>
+  </div>
+</div>
+
+
+</div>
+<div class="divider"></div><div class="ud-atom">
+  <h3></h3>
+  <div>
+  <p><strong>QUIZ QUESTION:</strong>: <h3 id="quiz-2">Quiz 2</h3>
+<p>Match each Country to the correct corresponding description.</p></p>
+  <p><strong>ANSWER CHOICES:</strong></p>
+  <button class="btn btn-primary"><p>Afghanistan.</p></button>
+  <button class="btn btn-primary"><p>Mexico</p></button>
+  <button class="btn btn-primary"><p>Iraq</p></button>
+  <button class="btn btn-primary"><p>Russian Federation</p></button>
+
+  <br><br>
+
+  <table class="table">
+    <tr class="thead-dark table-hover">
+      <th>
+        <p>Description</p>
+      </th>
+      <th>
+        <p>Country</p>
+      </th>
+    </tr>
+
+    <tr>
+      <td><p>This country had the most refugees in 2007.</p></td>
+      <td></td>
+    </tr>
+    <tr>
+      <td><p>This country had the most refugees in 2005.</p></td>
+      <td></td>
+    </tr>
+    <tr>
+      <td><p>This country had the most refugees in 2002.</p></td>
+      <td></td>
+    </tr>
+    <tr>
+      <td><p>This country has the largest number of refugees across all years.</p></td>
+      <td></td>
+    </tr>
+  </table>
+
+  <details>
+    <summary><strong>SOLUTION:</strong></summary>
+
+    <table class="table">
+      <tr class="thead-dark table-hover">
+        <th>
+          <p>Description</p>
+        </th>
+        <th>
+          <p>Country</p>
+        </th>
+      </tr>
+
+      <tr>
+        <td>
+          <p>This country has the largest number of refugees across all years.</p>
+        </td>
+        <td>
+            <button class="btn btn-primary"><p>Afghanistan.</p></button>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <p>This country had the most refugees in 2007.</p>
+        </td>
+        <td>
+            <button class="btn btn-primary"><p>Mexico</p></button>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <p>This country had the most refugees in 2002.</p>
+        </td>
+        <td>
+            <button class="btn btn-primary"><p>Iraq</p></button>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <p>This country had the most refugees in 2005.</p>
+        </td>
+        <td>
+            <button class="btn btn-primary"><p>Russian Federation</p></button>
+        </td>
+      </tr>
+    </table>
+  </details>
+</div>
+
+
+</div>
+<div class="divider"></div><div class="ud-atom">
+  <h3></h3>
+  <div>
+  <div>
+    <h4>Task Description:</h4>
+    <p>Tasks to complete:</p>
+  </div>
+
+  <form>
+    <fieldset>
+      <legend>Task List:</legend>
+
+      <div>
+        <input type="checkbox" id="776220c7-16c2-44e9-a2ca-ac7e7e9993d1--0">
+        <label for="776220c7-16c2-44e9-a2ca-ac7e7e9993d1--0"><p>Create a new worksheet.</p></label>
+      </div>
+      <div>
+        <input type="checkbox" id="776220c7-16c2-44e9-a2ca-ac7e7e9993d1--1">
+        <label for="776220c7-16c2-44e9-a2ca-ac7e7e9993d1--1"><p>Double click <strong>Country</strong> and move <strong>Number of Asylum Seekers</strong> to Color in the Marks table.</p></label>
+      </div>
+      <div>
+        <input type="checkbox" id="776220c7-16c2-44e9-a2ca-ac7e7e9993d1--2">
+        <label for="776220c7-16c2-44e9-a2ca-ac7e7e9993d1--2"><p>Notice our data isn't exactly the same as Trina's data.</p></label>
+      </div>
+      <div>
+        <input type="checkbox" id="776220c7-16c2-44e9-a2ca-ac7e7e9993d1--3">
+        <label for="776220c7-16c2-44e9-a2ca-ac7e7e9993d1--3"><p>Quiz 3 below.</p></label>
+      </div>
+    </fieldset>
+  </form>
+
+  <div>
+    <h4>Task Feedback:</h4>
+
+
+    <p>Nice job!  You are ready for your next set of tasks.</p>
+  </div>
+</div>
+
+
+</div>
+<div class="divider"></div><div class="ud-atom">
+  <h3></h3>
+  <div>
+  <form>
+    <fieldset>
+      <legend><h3 id="quiz-3">Quiz 3</h3>
+<p>Which country took in the most refugees?</p></legend>
+    </fieldset>
+
+      <div>
+        <input type="radio" value="a1505418896226" name="396426" id="a1505418896226">
+        <label for="a1505418896226"><p>Australia</p></label>
+      </div>
+      <div>
+        <input type="radio" value="a1505418951248" name="396426" id="a1505418951248">
+        <label for="a1505418951248"><p>Canada</p></label>
+      </div>
+      <div>
+        <input type="radio" value="a1505418969779" name="396426" id="a1505418969779">
+        <label for="a1505418969779"><p>Belgium</p></label>
+      </div>
+      <div>
+        <input type="radio" value="a1505418973527" name="396426" id="a1505418973527">
+        <label for="a1505418973527"><p>Austria</p></label>
+      </div>
+  </form>
+
+  <details>
+    <summary><strong>SOLUTION:</strong></summary>
+    Canada
+  </details>
+</div>
+
+</div>
+<div class="divider"></div><div class="ud-atom">
+  <h3></h3>
+  <div>
+  <div>
+    <h4>Task Description:</h4>
+    <p>Tasks to complete:</p>
+  </div>
+
+  <form>
+    <fieldset>
+      <legend>Task List:</legend>
+
+      <div>
+        <input type="checkbox" id="9e140b6e-edc6-4c8e-9569-125753f950f3--0">
+        <label for="9e140b6e-edc6-4c8e-9569-125753f950f3--0"><p>Create a new worksheet.</p></label>
+      </div>
+      <div>
+        <input type="checkbox" id="9e140b6e-edc6-4c8e-9569-125753f950f3--1">
+        <label for="9e140b6e-edc6-4c8e-9569-125753f950f3--1"><p>Change the <strong>Date</strong> to continuous.</p></label>
+      </div>
+      <div>
+        <input type="checkbox" id="9e140b6e-edc6-4c8e-9569-125753f950f3--2">
+        <label for="9e140b6e-edc6-4c8e-9569-125753f950f3--2"><p>Move <strong>Date</strong> to the <code>Columns</code> and <strong>Number of Asylum Seekers</strong> to the <code>Rows</code>.</p></label>
+      </div>
+      <div>
+        <input type="checkbox" id="9e140b6e-edc6-4c8e-9569-125753f950f3--3">
+        <label for="9e140b6e-edc6-4c8e-9569-125753f950f3--3"><p>Drill down to the month level.</p></label>
+      </div>
+      <div>
+        <input type="checkbox" id="9e140b6e-edc6-4c8e-9569-125753f950f3--4">
+        <label for="9e140b6e-edc6-4c8e-9569-125753f950f3--4"><p>Quiz 4 below.</p></label>
+      </div>
+    </fieldset>
+  </form>
+
+  <div>
+    <h4>Task Feedback:</h4>
+
+
+    <p>Nice job!  In the next tasks, you will put your worksheets together into a dashboard!</p>
+  </div>
+</div>
+
+
+</div>
+<div class="divider"></div><div class="ud-atom">
+  <h3></h3>
+  <div>
+  <form>
+    <fieldset>
+      <legend><h3 id="quiz-4">Quiz 4</h3>
+<p>Which of these months below had the the largest number of refugees?</p></legend>
+    </fieldset>
+
+      <div>
+        <input type="radio" value="a1505419289658" name="396429" id="a1505419289658">
+        <label for="a1505419289658"><p>September 2015</p></label>
+      </div>
+      <div>
+        <input type="radio" value="a1505419350152" name="396429" id="a1505419350152">
+        <label for="a1505419350152"><p>October 2015</p></label>
+      </div>
+      <div>
+        <input type="radio" value="a1505419359583" name="396429" id="a1505419359583">
+        <label for="a1505419359583"><p>November 2015</p></label>
+      </div>
+      <div>
+        <input type="radio" value="a1505419371158" name="396429" id="a1505419371158">
+        <label for="a1505419371158"><p>December 2015</p></label>
+      </div>
+  </form>
+
+  <details>
+    <summary><strong>SOLUTION:</strong></summary>
+    October 2015
+  </details>
+</div>
+
+</div>
+<div class="divider"></div><div class="ud-atom">
+  <h3></h3>
+  <div>
+  <div>
+    <h4>Task Description:</h4>
+    <p>Tasks to complete:</p>
+  </div>
+
+  <form>
+    <fieldset>
+      <legend>Task List:</legend>
+
+      <div>
+        <input type="checkbox" id="5ac30add-79bf-4ba6-b53c-9a578faaa921--0">
+        <label for="5ac30add-79bf-4ba6-b53c-9a578faaa921--0"><p>Create a new dashboard.</p></label>
+      </div>
+      <div>
+        <input type="checkbox" id="5ac30add-79bf-4ba6-b53c-9a578faaa921--1">
+        <label for="5ac30add-79bf-4ba6-b53c-9a578faaa921--1"><p>Drag each of your worksheets onto the dashboard.</p></label>
+      </div>
+      <div>
+        <input type="checkbox" id="5ac30add-79bf-4ba6-b53c-9a578faaa921--2">
+        <label for="5ac30add-79bf-4ba6-b53c-9a578faaa921--2"><p>Change the size width to fit your screen.</p></label>
+      </div>
+      <div>
+        <input type="checkbox" id="5ac30add-79bf-4ba6-b53c-9a578faaa921--3">
+        <label for="5ac30add-79bf-4ba6-b53c-9a578faaa921--3"><p>Use the drop down in the top right of each of your worksheets to remove all the titles.</p></label>
+      </div>
+      <div>
+        <input type="checkbox" id="5ac30add-79bf-4ba6-b53c-9a578faaa921--4">
+        <label for="5ac30add-79bf-4ba6-b53c-9a578faaa921--4"><p>Click the drop down in the map worksheet to select <code>Use as filter</code>.</p></label>
+      </div>
+      <div>
+        <input type="checkbox" id="5ac30add-79bf-4ba6-b53c-9a578faaa921--5">
+        <label for="5ac30add-79bf-4ba6-b53c-9a578faaa921--5"><p>Click the drop down on your <code>Year of Date</code> filter to select <code>Apply to Worksheets</code> &gt; <code>All Using Related Data Sources</code>.</p></label>
+      </div>
+      <div>
+        <input type="checkbox" id="5ac30add-79bf-4ba6-b53c-9a578faaa921--6">
+        <label for="5ac30add-79bf-4ba6-b53c-9a578faaa921--6"><p>Quiz 5 below.</p></label>
+      </div>
+    </fieldset>
+  </form>
+
+  <div>
+    <h4>Task Feedback:</h4>
+
+
+    <p>Nice job!  You have a really cool dashboard now!  One last set of steps to turn this into a story.</p>
+  </div>
+</div>
+
+
+</div>
+<div class="divider"></div><div class="ud-atom">
+  <h3></h3>
+  <div>
+  <p><strong>QUIZ QUESTION:</strong>: <h3 id="quiz-5">Quiz 5</h3>
+<p>Match each value to the appropriate description.</p></p>
+  <p><strong>ANSWER CHOICES:</strong></p>
+  <button class="btn btn-primary"><p>Mexico</p></button>
+  <button class="btn btn-primary"><p>Afghanistan</p></button>
+  <button class="btn btn-primary"><p>None</p></button>
+  <button class="btn btn-primary"><p>Austria</p></button>
+  <button class="btn btn-primary"><p>Canada</p></button>
+  <button class="btn btn-primary"><p>January</p></button>
+  <button class="btn btn-primary"><p>October</p></button>
+
+  <br><br>
+
+  <table class="table">
+    <tr class="thead-dark table-hover">
+      <th>
+        <p>Description</p>
+      </th>
+      <th>
+        <p>Value</p>
+      </th>
+    </tr>
+
+    <tr>
+      <td><p>The top country seekers traveled to in 2016.</p></td>
+      <td></td>
+    </tr>
+    <tr>
+      <td><p>The top country seekers are moving from in 2016.</p></td>
+      <td></td>
+    </tr>
+    <tr>
+      <td><p>The month for the highest number of refugees in 2001.</p></td>
+      <td></td>
+    </tr>
+    <tr>
+      <td><p>The top country that seekers are moving from in 2006.</p></td>
+      <td></td>
+    </tr>
+    <tr>
+      <td><p>The top country for seekers to travel to in 2006.</p></td>
+      <td></td>
+    </tr>
+  </table>
+
+  <details>
+    <summary><strong>SOLUTION:</strong></summary>
+
+    <table class="table">
+      <tr class="thead-dark table-hover">
+        <th>
+          <p>Description</p>
+        </th>
+        <th>
+          <p>Value</p>
+        </th>
+      </tr>
+
+      <tr>
+        <td>
+          <p>The top country that seekers are moving from in 2006.</p>
+        </td>
+        <td>
+            <button class="btn btn-primary"><p>Mexico</p></button>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <p>The top country seekers are moving from in 2016.</p>
+        </td>
+        <td>
+            <button class="btn btn-primary"><p>Afghanistan</p></button>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <p>The top country seekers traveled to in 2016.</p>
+        </td>
+        <td>
+            <button class="btn btn-primary"><p>Austria</p></button>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <p>The top country for seekers to travel to in 2006.</p>
+        </td>
+        <td>
+            <button class="btn btn-primary"><p>Canada</p></button>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <p>The month for the highest number of refugees in 2001.</p>
+        </td>
+        <td>
+            <button class="btn btn-primary"><p>January</p></button>
+        </td>
+      </tr>
+    </table>
+  </details>
+</div>
+
+
+</div>
+<div class="divider"></div><div class="ud-atom">
+  <h3></h3>
+  <div>
+  <div>
+    <h4>Task Description:</h4>
+    <p>Tasks to complete:</p>
+  </div>
+
+  <form>
+    <fieldset>
+      <legend>Task List:</legend>
+
+      <div>
+        <input type="checkbox" id="d4c4c0ad-b5cc-4594-a87c-2e390fc63ca0--0">
+        <label for="d4c4c0ad-b5cc-4594-a87c-2e390fc63ca0--0"><p>Select the story button at the bottom of Tableau.</p></label>
+      </div>
+      <div>
+        <input type="checkbox" id="d4c4c0ad-b5cc-4594-a87c-2e390fc63ca0--1">
+        <label for="d4c4c0ad-b5cc-4594-a87c-2e390fc63ca0--1"><p>Drag a worksheet into the main screen and add a caption.</p></label>
+      </div>
+      <div>
+        <input type="checkbox" id="d4c4c0ad-b5cc-4594-a87c-2e390fc63ca0--2">
+        <label for="d4c4c0ad-b5cc-4594-a87c-2e390fc63ca0--2"><p>Click and drag an additional worksheet to the right of your first.  Add a second caption.</p></label>
+      </div>
+      <div>
+        <input type="checkbox" id="d4c4c0ad-b5cc-4594-a87c-2e390fc63ca0--3">
+        <label for="d4c4c0ad-b5cc-4594-a87c-2e390fc63ca0--3"><p>Click and drag your dashboard to the right of those two worksheets.</p></label>
+      </div>
+      <div>
+        <input type="checkbox" id="d4c4c0ad-b5cc-4594-a87c-2e390fc63ca0--4">
+        <label for="d4c4c0ad-b5cc-4594-a87c-2e390fc63ca0--4"><p>Click the presentation tool at the top, so you can play your story.</p></label>
+      </div>
+      <div>
+        <input type="checkbox" id="d4c4c0ad-b5cc-4594-a87c-2e390fc63ca0--5">
+        <label for="d4c4c0ad-b5cc-4594-a87c-2e390fc63ca0--5"><p>Here is the story I created from our data here: <a href="https://public.tableau.com/profile/josh2979#!/vizhome/MyFirstTableauStory_0/Story1?publish=yes" rel="noopener noreferrer" target="_blank">https://public.tableau.com/profile/josh2979#!/vizhome/MyFirstTableauStory_0/Story1?publish=yes</a>.</p></label>
+      </div>
+      <div>
+        <input type="checkbox" id="d4c4c0ad-b5cc-4594-a87c-2e390fc63ca0--6">
+        <label for="d4c4c0ad-b5cc-4594-a87c-2e390fc63ca0--6"><p>Quiz 6 below.</p></label>
+      </div>
+    </fieldset>
+  </form>
+
+  <div>
+    <h4>Task Feedback:</h4>
+
+
+    <p>Nice job! You know how to create worksheets, dashboards, and stories in Tableau.  The next sections will just be practice with these new tools, but you know everything you need to build <code>all things Tableau</code>.</p>
+  </div>
+</div>
+
+
+</div>
+<div class="divider"></div><div class="ud-atom">
+  <h3></h3>
+  <div>
+  <form>
+    <fieldset>
+      <legend><h3 id="quiz-6">Quiz 6</h3>
+<p>Select all the below that are true.</p></legend>
+    </fieldset>
+
+    <div>
+      <input type="checkbox" value="a1505424133516" name="396452" id="a1505424133516">
+      <label for="a1505424133516"><p>Tableau stories should be used for all data visualization cases.</p></label>
+    </div>
+    <div>
+      <input type="checkbox" value="a1505424163552" name="396452" id="a1505424163552">
+      <label for="a1505424163552"><p>Stories may <strong>not</strong> be useful if you are creating elements to a presentation outside of Tableau.</p></label>
+    </div>
+    <div>
+      <input type="checkbox" value="a1505424187944" name="396452" id="a1505424187944">
+      <label for="a1505424187944"><p>Stories can incorporate both dashboards and worksheets.</p></label>
+    </div>
+    <div>
+      <input type="checkbox" value="a1505424432512" name="396452" id="a1505424432512">
+      <label for="a1505424432512"><p>You are now capable of building <code>all the things</code> in Tableau.</p></label>
+    </div>
+  </form>
+
+  <details>
+    <summary><strong>SOLUTION:</strong></summary>
+    <ul>
+      <li>Stories may **not** be useful if you are creating elements to a presentation outside of Tableau.</li>
+      <li>Stories can incorporate both dashboards and worksheets.</li>
+      <li>You are now capable of building `all the things` in Tableau.</li>
+  </ul>
+  </details>
+</div>
+
+</div>
+<div class="divider"></div>
+          </div>
+
+          <div class="col-12">
+            <p class="text-right">
+              <a href="09. Video Extra Practice with Dashboards.html" class="btn btn-outline-primary mt-4" role="button">Next Concept</a>
+            </p>
+          </div>
+        </div>
+      </main>
+
+      <footer class="footer">
+        <div class="container">
+          <div class="row">
+            <div class="col-12">
+              <p class="text-center">
+                <a href="https://us-udacity.github.io/" target="_blank">【udacity2.0 】If you need more courses, please add wechat：udacity6</a>
+              </p>
+            </div>
+          </div>
+        </div>
+      </footer>
+    </div>
+  </div>
+
+
+  <script src="../assets/js/jquery-3.3.1.min.js"></script>
+  <script src="../assets/js/plyr.polyfilled.min.js"></script>
+  <script src="../assets/js/bootstrap.min.js"></script>
+  <script src="../assets/js/jquery.mCustomScrollbar.concat.min.js"></script>
+  <script src="../assets/js/katex.min.js"></script>
+  <script>
+    // Initialize Plyr video players
+    const players = Array.from(document.querySelectorAll('video')).map(p => new Plyr(p));
+
+    // render math equations
+    let elMath = document.getElementsByClassName('mathquill');
+    for (let i = 0, len = elMath.length; i < len; i += 1) {
+      const el = elMath[i];
+
+      katex.render(el.textContent, el, {
+        throwOnError: false
+      });
+    }
+
+    // this hack will make sure Bootstrap tabs work when using Handlebars
+    if ($('#question-tabs').length && $('#user-answer-tabs').length) {
+      $("#question-tabs a.nav-link").on('click', function () {
+        $("#question-tab-contents .tab-pane").hide();
+        $($(this).attr("href")).show();
+      });
+      $("#user-answer-tabs a.nav-link").on('click', function () {
+        $("#user-answer-tab-contents .tab-pane").hide();
+        $($(this).attr("href")).show();
+      });
+    } else {
+      $("a.nav-link").on('click', function () {
+        $(".tab-pane").hide();
+        $($(this).attr("href")).show();
+      });
+    }
+
+    // side bar events
+    $(document).ready(function () {
+      $("#sidebar").mCustomScrollbar({
+        theme: "minimal"
+      });
+
+      $('#sidebarCollapse').on('click', function () {
+        $('#sidebar, #content').toggleClass('active');
+        $('.collapse.in').toggleClass('in');
+        $('a[aria-expanded=true]').attr('aria-expanded', 'false');
+      });
+
+      // scroll to first video on page loading
+      if ($('video').length) {
+        $('html,body').animate({ scrollTop: $('div.plyr').prev().offset().top});
+      }
+
+      // auto play first video: this may not work with chrome/safari due to autoplay policy
+      if (players && players.length > 0) {
+        players[0].play();
+      }
+
+      // scroll sidebar to current concept
+      const currentInSideBar = $( "ul.sidebar-list.components li a:contains('08. Quiz: Building Dashboards &amp; Stories with Trina')" )
+      currentInSideBar.css( "text-decoration", "underline" );
+      $("#sidebar").mCustomScrollbar('scrollTo', currentInSideBar);
+    });
+  </script>
+</body>
+
+</html>

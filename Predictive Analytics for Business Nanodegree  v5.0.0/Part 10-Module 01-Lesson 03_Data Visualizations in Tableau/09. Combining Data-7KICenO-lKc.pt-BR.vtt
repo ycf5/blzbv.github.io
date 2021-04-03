@@ -1,0 +1,62 @@
+WEBVTT
+Kind: captions
+Language: pt-BR
+
+00:00:00.200 --> 00:00:01.650
+Agora vejamos os dados.
+
+00:00:01.683 --> 00:00:05.550
+Para começar, vamos unir
+a tabela "Returns" a "Orders".
+
+00:00:05.583 --> 00:00:07.200
+Este ícone...
+
+00:00:07.233 --> 00:00:10.100
+indica que o Tableau uniu
+automaticamente estas tabelas
+
+00:00:10.133 --> 00:00:12.100
+como união interna.
+
+00:00:12.133 --> 00:00:15.400
+Se você clicar no ícone,
+verá as outras opções de união.
+
+00:00:15.433 --> 00:00:17.450
+Você também pode escolher
+"União esquerda",
+
+00:00:17.483 --> 00:00:20.200
+"União direita"
+ou "União externa completa".
+
+00:00:20.233 --> 00:00:25.100
+Vamos escolher "União esquerda"
+e fechar o diálogo.
+
+00:00:25.133 --> 00:00:27.450
+Agora vamos clicar na folha.
+
+00:00:27.483 --> 00:00:30.900
+Agora temos colunas de "Orders"
+e "Returns" na fonte de dados,
+
+00:00:30.933 --> 00:00:34.550
+e podemos ver quais cabeçalhos
+estão sob quais tabelas.
+
+00:00:34.583 --> 00:00:36.050
+Aqui você vê "Orders"...
+
+00:00:37.000 --> 00:00:38.950
+e aqui embaixo vê "Returns".
+
+00:00:38.983 --> 00:00:40.500
+Usar campos
+de uma tabela unida
+
+00:00:40.533 --> 00:00:42.650
+é tão fácil quanto usar
+qualquer outro campo.
+

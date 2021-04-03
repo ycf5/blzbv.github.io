@@ -1,0 +1,95 @@
+WEBVTT
+Kind: captions
+Language: pt-BR
+
+00:00:01.000 --> 00:00:02.534
+Oi, bem-vindos de volta.
+
+00:00:02.567 --> 00:00:06.400
+O Tableau é muito bom
+para agrupar dados
+
+00:00:06.434 --> 00:00:11.400
+e nos deixa investigar a fundo esses
+grupos, chamados de hierarquias.
+
+00:00:11.434 --> 00:00:15.267
+Pode nos mostrar um exemplo
+de hierarquias que já usou
+
+00:00:15.300 --> 00:00:16.901
+em dados que analisou?
+
+00:00:16.934 --> 00:00:20.634
+Claro. Tenho um ótimo exemplo
+de hierarquias aqui.
+
+00:00:20.667 --> 00:00:24.767
+Tenho um banco de dados
+com os filmes de maior bilheteria.
+
+00:00:24.801 --> 00:00:30.634
+Podemos ver os filmes por diretor,
+gênero, várias categorias.
+
+00:00:30.667 --> 00:00:35.300
+Quero saber sobre o gênero,
+
+00:00:35.334 --> 00:00:38.801
+na verdade,
+sobre a renda por gênero.
+
+00:00:38.834 --> 00:00:43.467
+Aqui temos a renda por gênero,
+
+00:00:43.501 --> 00:00:47.901
+e vejo que o gênero "aventura"
+teve maior renda.
+
+00:00:47.934 --> 00:00:50.868
+Mas e essa exploração
+que você mencionou?
+
+00:00:50.901 --> 00:00:53.367
+Que filmes de aventura
+renderam mais?
+
+00:00:53.400 --> 00:00:57.267
+Bem, aqui também temos
+a categoria "Título de Filme",
+
+00:00:57.300 --> 00:01:00.501
+e o que posso fazer é arrastá-la
+para dentro de "Gênero",
+
+00:01:00.534 --> 00:01:03.767
+criando uma hierarquia. Certo?
+
+00:01:03.801 --> 00:01:07.067
+Agora, aqui em cima, vejo
+um "+" ao lado de gênero.
+
+00:01:07.100 --> 00:01:11.601
+Se eu clicar nele, poderei ver
+os títulos dos filmes
+
+00:01:11.634 --> 00:01:14.601
+ao lado do gênero.
+
+00:01:14.634 --> 00:01:18.267
+Então agora posso ver que,
+dentro da categoria "aventura",
+
+00:01:18.300 --> 00:01:21.467
+"Star Wars" foi o filme
+que mais gerou renda.
+
+00:01:21.501 --> 00:01:22.666
+Isso é muito interessante.
+
+00:01:22.701 --> 00:01:24.000
+*END*
+
+00:01:24.033 --> 00:01:25.334
+*CODE*
+

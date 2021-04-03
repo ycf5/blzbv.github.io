@@ -1,0 +1,640 @@
+WEBVTT
+Kind: captions
+Language: pt-BR
+
+00:00:00.067 --> 00:00:01.667
+Oi, bem-vindo de volta.
+
+00:00:01.701 --> 00:00:04.734
+Agora estou interessado
+em saber
+
+00:00:04.767 --> 00:00:06.500
+como você,
+como especialista em Tableau,
+
+00:00:06.533 --> 00:00:08.834
+começa a explorar
+um conjunto de dados.
+
+00:00:08.868 --> 00:00:11.601
+É uma ótima pergunta,
+e a parte divertida do Tableau
+
+00:00:11.634 --> 00:00:14.834
+é que ele oferece 1.001 maneiras
+de explorar os dados.
+
+00:00:14.868 --> 00:00:17.133
+Você pode começar
+com uma pergunta
+
+00:00:17.167 --> 00:00:20.234
+e tentar achar uma resposta
+para essa pergunta com os dados.
+
+00:00:20.267 --> 00:00:25.033
+Ou você pode começar analisando
+as dimensões e medidas que tem,
+
+00:00:25.067 --> 00:00:27.534
+arrastá-las para a tela
+
+00:00:27.567 --> 00:00:31.000
+e então movimentar as coisas,
+mudar a agregação
+
+00:00:31.033 --> 00:00:32.868
+e começar a explorar.
+
+00:00:32.901 --> 00:00:36.701
+Todos têm um processo diferente.
+Você pode inventar o seu.
+
+00:00:36.734 --> 00:00:38.801
+Eu costumo inventar
+novos processos,
+
+00:00:38.834 --> 00:00:40.968
+mas uma das coisas
+que costumo fazer primeiro
+
+00:00:41.001 --> 00:00:43.267
+é observar os dados
+com os quais estou trabalhando.
+
+00:00:43.300 --> 00:00:46.167
+Normalmente não são dados
+coletados por mim.
+
+00:00:46.200 --> 00:00:50.133
+Neste caso, trouxe um conjunto
+de dados coletados pela ONU
+
+00:00:50.167 --> 00:00:51.868
+sobre refugiados.
+
+00:00:51.901 --> 00:00:53.734
+Temos aqui pessoas
+que pediram asilo.
+
+00:00:53.767 --> 00:00:55.801
+A origem delas, o destino,
+
+00:00:55.834 --> 00:01:00.300
+quando foram
+para esses países...
+
+00:01:00.334 --> 00:01:03.968
+Já fiz uma coisa
+para limpar os dados.
+
+00:01:04.000 --> 00:01:07.167
+Normalmente, isso é um passo
+necessário antes de visualizá-los.
+
+00:01:07.200 --> 00:01:08.634
+Neste caso, foi muito fácil.
+
+00:01:08.667 --> 00:01:11.734
+Só marquei esta opção para fazer
+a limpeza com o interpretador
+
+00:01:11.767 --> 00:01:14.067
+e ele, logo de início,
+tirou algumas colunas
+
+00:01:14.100 --> 00:01:17.067
+que não tinham relação
+com o resto do conjunto de dados.
+
+00:01:17.100 --> 00:01:21.000
+Então agora vou abrir uma planilha
+e começar a fazer perguntas.
+
+00:01:21.033 --> 00:01:25.234
+Uma das coisas que quero saber
+é quantas pessoas há nestes dados.
+
+00:01:25.267 --> 00:01:27.267
+De quantas pessoas
+estamos falando?
+
+00:01:27.300 --> 00:01:31.334
+Então vou arrastar isto
+para a tela
+
+00:01:31.367 --> 00:01:35.868
+e ver que estamos falando de pouco
+mais de 8 milhões de refugiados.
+
+00:01:35.901 --> 00:01:37.534
+Certo. Isso é interessante.
+
+00:01:37.567 --> 00:01:40.834
+Agora quero saber
+de onde essas pessoas vêm.
+
+00:01:40.868 --> 00:01:45.667
+Então vou arrastar
+a origem delas
+
+00:01:45.701 --> 00:01:47.667
+para as colunas.
+
+00:01:47.701 --> 00:01:50.701
+Isto está um pouco
+difícil de ver.
+
+00:01:50.734 --> 00:01:52.934
+Seria bom se eu pudesse
+girar isso.
+
+00:01:52.968 --> 00:01:57.267
+Então vou trocar os eixos aqui
+e ordenar os dados.
+
+00:01:57.300 --> 00:01:59.567
+Agora vou começar
+a ver uma história
+
+00:01:59.601 --> 00:02:03.334
+e posso começar a ver
+de onde essas pessoas vieram.
+
+00:02:03.367 --> 00:02:05.334
+É, é interessante.
+
+00:02:05.367 --> 00:02:07.767
+Então, a partir disso,
+
+00:02:07.801 --> 00:02:12.267
+como você usaria filtros para
+continuar analisando os dados?
+
+00:02:12.300 --> 00:02:15.367
+É uma ótima pergunta.
+No Tableau é muito fácil
+
+00:02:15.400 --> 00:02:20.167
+separar, explorar e entender
+os dados em várias perspectivas.
+
+00:02:20.200 --> 00:02:25.467
+Então, neste caso, tenho uma data
+que pode ser interessante.
+
+00:02:25.501 --> 00:02:28.567
+Vou incluir um filtro
+com a data
+
+00:02:28.601 --> 00:02:33.667
+e, em vez de opções,
+criar uma lista de um único valor.
+
+00:02:33.701 --> 00:02:37.501
+Agora posso começar a ver
+tendências e fazer perguntas.
+
+00:02:37.534 --> 00:02:43.267
+Por exemplo, os dados de 1999
+parecem diferentes dos de 2008.
+
+00:02:43.300 --> 00:02:47.567
+Então posso começar a pensar:
+"O que provocou essas mudanças
+
+00:02:47.601 --> 00:02:50.434
+e o que posso aprender
+com este conjunto de dados?"
+
+00:02:50.467 --> 00:02:54.234
+Certo, então, agora
+que estamos indo mais fundo,
+
+00:02:54.267 --> 00:02:59.067
+usando os filtros, como você
+criaria um painel de indicadores
+
+00:02:59.100 --> 00:03:02.400
+para compartilhar essas histórias
+interessantes com outras pessoas?
+
+00:03:02.434 --> 00:03:06.634
+Bom, um painel de indicadores
+é uma série de partes,
+
+00:03:06.667 --> 00:03:09.234
+que, quando reunidas,
+são melhores do que eram sozinhas.
+
+00:03:09.267 --> 00:03:12.901
+Ou seja, são várias visualizações
+que podem ser reunidas
+
+00:03:12.934 --> 00:03:15.200
+para contar uma nova história
+
+00:03:15.234 --> 00:03:17.434
+ou mostrar uma perspectiva nova
+dos dados.
+
+00:03:17.467 --> 00:03:20.234
+Aqui temos
+um gráfico em barras,
+
+00:03:20.267 --> 00:03:22.801
+mas, como são
+dados geográficos,
+
+00:03:22.834 --> 00:03:25.667
+talvez seja interessante
+vê-los num mapa.
+
+00:03:25.701 --> 00:03:28.901
+Aqui tenho uma dimensão
+que mostra os países
+
+00:03:28.934 --> 00:03:34.501
+e vou clicar nesta seção do canto
+que vai sugerir visualizações.
+
+00:03:34.534 --> 00:03:36.200
+Neste caso,
+ele selecionou um mapa.
+
+00:03:36.234 --> 00:03:41.634
+Então, se eu acrescentar este mapa,
+ele vai me mostrar
+
+00:03:41.667 --> 00:03:44.067
+onde os refugiados
+foram morar.
+
+00:03:44.100 --> 00:03:47.367
+Todos os países que receberam
+pedidos de asilo
+
+00:03:47.400 --> 00:03:49.667
+estão representados
+por um único ponto.
+
+00:03:49.701 --> 00:03:54.934
+Mas eu também quero saber quantos
+refugiados foram para cada país,
+
+00:03:54.968 --> 00:03:58.067
+então posso pegar
+o número de refugiados
+
+00:03:58.100 --> 00:04:00.767
+e arrastá-los
+para a opção "cor".
+
+00:04:00.801 --> 00:04:05.400
+Agora podemos ver
+que há alguns centros.
+
+00:04:05.434 --> 00:04:07.234
+Parece que a Alemanha
+é um deles.
+
+00:04:07.267 --> 00:04:09.701
+Na verdade, toda a Europa
+parece interessante,
+
+00:04:09.734 --> 00:04:13.968
+então vou dar um zoom
+na Europa.
+
+00:04:14.000 --> 00:04:17.674
+Agora posso ver
+uma história geográfica surgindo.
+
+00:04:18.400 --> 00:04:21.767
+Bom, também há uma dimensão temporal
+neste conjunto de dados
+
+00:04:21.801 --> 00:04:23.834
+que é interessante
+de explorar.
+
+00:04:23.868 --> 00:04:26.968
+Então uma das coisas
+que eu poderia fazer
+
+00:04:27.000 --> 00:04:31.667
+seria olhar
+o número de refugiados
+
+00:04:31.701 --> 00:04:36.367
+e depois ver a data
+do pedido de asilo. Certo?
+
+00:04:36.400 --> 00:04:39.667
+O Tableau trocou o gráfico
+automaticamente para uma linha
+
+00:04:39.700 --> 00:04:43.067
+porque esta é uma boa maneira
+de explorar datas.
+
+00:04:43.100 --> 00:04:47.000
+Estas datas também contêm
+uma hierarquia anexa.
+
+00:04:47.033 --> 00:04:51.200
+Isso significa que...
+Vemos o botão "+" aqui,
+
+00:04:51.234 --> 00:04:54.000
+e isso significa que posso
+especificar mais os dados
+
+00:04:54.033 --> 00:04:55.400
+e vê-los por trimestre
+
+00:04:55.434 --> 00:04:59.968
+ou, por exemplo, por mês.
+
+00:05:00.001 --> 00:05:04.367
+Posso começar a ver os dados
+de várias maneiras
+
+00:05:04.400 --> 00:05:06.634
+e de perspectivas diferentes.
+
+00:05:06.667 --> 00:05:09.466
+Agora, se eu quisesse transformar
+isto num painel de indicadores,
+
+00:05:09.499 --> 00:05:12.534
+eu clicaria no ícone
+"Novo painel de indicadores".
+
+00:05:12.567 --> 00:05:16.667
+Aqui tenho planilhas
+guardadas para mim.
+
+00:05:16.701 --> 00:05:20.067
+Posso arrastá-las
+para meu painel de indicadores.
+
+00:05:20.100 --> 00:05:22.166
+Se eu passar o mouse por cima,
+verei uma miniatura,
+
+00:05:22.199 --> 00:05:23.834
+que vai me ajudar a ver
+o que é isto.
+
+00:05:23.867 --> 00:05:29.100
+Vou arrastar a planilha para cá,
+vou pôr o mapa em cima
+
+00:05:29.133 --> 00:05:35.033
+e depois vou arrastar
+o gráfico em linha para a lateral.
+
+00:05:35.067 --> 00:05:37.334
+Não estou conseguindo ver
+tudo que há no painel,
+
+00:05:37.367 --> 00:05:42.033
+então vou trocar o tamanho
+de "Fixo" para "Automático"
+
+00:05:42.067 --> 00:05:44.367
+e fazer algumas coisas aqui.
+
+00:05:44.400 --> 00:05:49.000
+Vou tirar os títulos
+porque eles não estão ajudando.
+
+00:05:51.567 --> 00:05:55.968
+Vamos remover isto
+e depois remover isto...
+
+00:05:56.000 --> 00:05:59.200
+Uma das outras coisas legais
+que podemos fazer com o Tableau
+
+00:05:59.234 --> 00:06:02.167
+é usar visualizações
+como filtros.
+
+00:06:02.200 --> 00:06:04.667
+É outra coisa interessante
+que podemos fazer com os filtros.
+
+00:06:04.701 --> 00:06:07.167
+Aqui, temos filtros
+para datas,
+
+00:06:07.200 --> 00:06:09.567
+mas também podemos
+filtrar por país.
+
+00:06:09.601 --> 00:06:15.033
+Então posso clicar neste botão
+para usar isso como filtro
+
+00:06:15.067 --> 00:06:17.901
+e posso...
+
+00:06:19.334 --> 00:06:21.601
+pegar o filtro com as datas
+
+00:06:21.634 --> 00:06:25.434
+e aplicar
+em todas as planilhas,
+
+00:06:25.467 --> 00:06:29.400
+usando esta fonte de dados.
+Certo?
+
+00:06:29.433 --> 00:06:32.801
+Agora vou fazer
+uma customização simples aqui.
+
+00:06:32.834 --> 00:06:37.601
+Também vou transformar
+isto em flutuante,
+
+00:06:37.634 --> 00:06:41.934
+vou mudar o menu
+para drop down
+
+00:06:41.968 --> 00:06:45.367
+e redefinir o tamanho.
+
+00:06:45.400 --> 00:06:51.167
+Vou colocá-lo aqui no mapa
+e tirar isto daqui. Certo.
+
+00:06:51.200 --> 00:06:54.868
+Agora temos uma visualização
+
+00:06:54.901 --> 00:06:57.868
+e, se eu usar
+o modo de tela inteira,
+
+00:06:57.901 --> 00:07:02.467
+vemos este painel lindo,
+em que podemos explorar dados.
+
+00:07:02.501 --> 00:07:07.067
+Então agora posso ver o que estava
+acontecendo na França em 2008
+
+00:07:07.100 --> 00:07:11.133
+e comparar com 2014,
+por exemplo.
+
+00:07:11.167 --> 00:07:14.601
+Podemos começar a investigar,
+a fazer perguntas
+
+00:07:14.634 --> 00:07:17.334
+e a explorar
+de uma maneira muito rica.
+
+00:07:18.000 --> 00:07:20.801
+Ótimo. Ficou ótimo.
+Gostei.
+
+00:07:21.634 --> 00:07:24.033
+Certo, isto é
+um painel de indicadores,
+
+00:07:24.067 --> 00:07:27.000
+mas o Tableau também nos deixa
+criar histórias, não é?
+
+00:07:27.033 --> 00:07:30.300
+Qual é a diferença entre a história
+e o painel de indicadores,
+
+00:07:30.334 --> 00:07:33.200
+e quando você usaria um
+e não o outro?
+
+00:07:33.234 --> 00:07:36.267
+É uma ótima pergunta.
+Eu gosto de definir assim:
+
+00:07:36.300 --> 00:07:39.334
+uma história tem uma narrativa,
+tem uma sequência.
+
+00:07:39.367 --> 00:07:43.234
+Você quer que as pessoas entendam
+os dados numa determinada ordem.
+
+00:07:43.267 --> 00:07:47.100
+O painel de indicadores nos dá
+uma visão geral dos dados.
+
+00:07:47.133 --> 00:07:51.501
+É como se fôssemos a um food truck
+e víssemos o cardápio
+
+00:07:51.534 --> 00:07:54.534
+com uma foto
+de todas as opções diferentes.
+
+00:07:54.567 --> 00:07:57.100
+Talvez você só queira ver
+os aperitivos agora.
+
+00:07:57.133 --> 00:08:01.334
+Fica fácil ver a seção de aperitivos
+e achar uma informação pequena.
+
+00:08:01.901 --> 00:08:04.868
+Por outro lado, uma história
+parece uma história em quadrinhos.
+
+00:08:04.901 --> 00:08:08.534
+Você quer entender o histórico
+e o contexto
+
+00:08:08.567 --> 00:08:11.968
+e entender como chegou
+a uma determinada conclusão.
+
+00:08:12.400 --> 00:08:15.334
+Também é possível construir
+histórias no Tableau,
+
+00:08:15.367 --> 00:08:18.634
+então vou clicar no botão
+"Nova história".
+
+00:08:18.667 --> 00:08:23.567
+Talvez eu queira contar a história
+de como cheguei a uma conclusão.
+
+00:08:23.601 --> 00:08:26.167
+Aqui, posso pegar as planilhas
+e os painéis de indicadores
+
+00:08:26.200 --> 00:08:27.934
+e reuni-los em uma história.
+
+00:08:27.968 --> 00:08:30.667
+Então posso começar
+com esta planilha,
+
+00:08:30.701 --> 00:08:34.200
+acrescentá-la aqui
+e criar uma legenda.
+
+00:08:35.300 --> 00:08:40.734
+"Esta é a 1ª parte
+da minha história."
+
+00:08:40.767 --> 00:08:46.367
+Então posso pegar uma nova planilha
+e acrescentar um trecho à história
+
+00:08:46.400 --> 00:08:48.133
+e uma legenda.
+
+00:08:49.000 --> 00:08:54.934
+"Foi aqui que encontrei
+essa conclusão."
+
+00:08:56.033 --> 00:09:00.200
+E também podemos acrescentar
+painéis de indicadores.
+
+00:09:00.234 --> 00:09:05.067
+Neste caso, também vamos
+mudar isto para "Automático"
+
+00:09:05.100 --> 00:09:09.534
+para podermos ver tudo
+que há na tela e...
+
+00:09:10.133 --> 00:09:12.767
+Quando entrarmos na história,
+podemos começar
+
+00:09:12.801 --> 00:09:14.868
+compartilhando a 1ª parte dela
+
+00:09:14.901 --> 00:09:17.834
+e fazer as pessoas acompanharem
+os dados em sequência
+
+00:09:17.868 --> 00:09:19.399
+para que entendam
+nossas conclusões.
+
+00:09:19.432 --> 00:09:20.601
+*END*
+
+00:09:20.634 --> 00:09:21.934
+*CODE*
+

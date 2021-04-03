@@ -1,0 +1,142 @@
+WEBVTT
+Kind: captions
+Language: en
+
+00:00:00.000 --> 00:00:04.320
+Hierarchies in Tableau give you the ability to drill down into your data.
+
+00:00:04.320 --> 00:00:07.770
+Tableau automatically makes hierarchies for timebase data.
+
+00:00:07.769 --> 00:00:10.484
+So let's start with an example using order date.
+
+00:00:10.484 --> 00:00:13.500
+Create a line chart showing some of profit by order date.
+
+00:00:13.500 --> 00:00:17.115
+A line plot is Tableau as default for time data.
+
+00:00:17.114 --> 00:00:19.589
+There's the little plus symbol on the order date pill now.
+
+00:00:19.589 --> 00:00:22.719
+Let's click it and see what happens.
+
+00:00:22.719 --> 00:00:26.739
+What we've done here is drill down into the hierarchy starting with yearly data,
+
+00:00:26.739 --> 00:00:28.454
+then grouping it by quarter.
+
+00:00:28.454 --> 00:00:30.389
+As you drill down even further,
+
+00:00:30.390 --> 00:00:33.250
+you can see the data in a more granularity.
+
+00:00:33.250 --> 00:00:36.420
+You will notice the pills have a little minus sign in them now.
+
+00:00:36.420 --> 00:00:39.359
+Clicking on it, will go back up the hierarchy.
+
+00:00:39.359 --> 00:00:41.250
+You can also remove levels of the hierarchy from
+
+00:00:41.250 --> 00:00:44.359
+the plot by dragging the pill out of the shelf.
+
+00:00:44.359 --> 00:00:47.054
+If you drill down to month then remove year and quarter,
+
+00:00:47.054 --> 00:00:48.774
+you'll see something like this.
+
+00:00:48.774 --> 00:00:50.585
+It might not be what you expect here.
+
+00:00:50.585 --> 00:00:53.575
+I expect this to show monthly profit over the four years in the data.
+
+00:00:53.575 --> 00:00:56.575
+However, there is only one value for each month.
+
+00:00:56.575 --> 00:01:00.585
+Tableau is doing this because order date has been set to the discrete data type.
+
+00:01:00.585 --> 00:01:03.505
+So it's aggregating the profit values for each month.
+
+00:01:03.505 --> 00:01:05.310
+That is each value,
+
+00:01:05.310 --> 00:01:09.085
+is the sum of profit for that month over the four years in the data.
+
+00:01:09.084 --> 00:01:13.034
+However, I'd typically like to see this as one long line over all four years.
+
+00:01:13.034 --> 00:01:15.287
+To change how this is being plotted,
+
+00:01:15.287 --> 00:01:18.114
+you need to convert order date to continuous data.
+
+00:01:18.114 --> 00:01:21.074
+One way you can do this is by going to the field menu,
+
+00:01:21.075 --> 00:01:25.250
+clicking on the triangle and selecting convert to continuous.
+
+00:01:25.250 --> 00:01:28.155
+Once you add order date back to the visualization,
+
+00:01:28.155 --> 00:01:30.585
+you'll see the plus sign here again.
+
+00:01:30.584 --> 00:01:32.129
+If you click it twice,
+
+00:01:32.129 --> 00:01:35.905
+you'll get right back down to see the order date by month.
+
+00:01:35.905 --> 00:01:39.329
+But this time, you'll see it for every month in the dataset.
+
+00:01:39.329 --> 00:01:42.138
+Tableau created the hierarchy from the date automatically,
+
+00:01:42.138 --> 00:01:43.890
+but you can also create your own hierarchies.
+
+00:01:43.890 --> 00:01:46.409
+For example, each value and subcategory belongs
+
+00:01:46.409 --> 00:01:49.590
+to one category in the superstore dataset.
+
+00:01:49.590 --> 00:01:50.650
+This means that a record with
+
+00:01:50.650 --> 00:01:55.859
+a subcategory value bookcases always has a category value furniture.
+
+00:01:55.859 --> 00:01:59.420
+However, Tableau doesn't recognize this as a hierarchy.
+
+00:01:59.420 --> 00:02:01.674
+So we can make a manual one.
+
+00:02:01.674 --> 00:02:05.444
+You can do this easily by dragging subcategory onto category.
+
+00:02:05.444 --> 00:02:09.000
+Then you can name the hierarchy and I'll name it products.
+
+00:02:09.000 --> 00:02:13.539
+It shows up on the left and you can drag it in the shelves just like a normal field.
+
+00:02:13.539 --> 00:02:18.000
+But now it starts with category with a plus sign and you can drill down to subcategory.
+

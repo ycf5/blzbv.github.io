@@ -1,0 +1,156 @@
+WEBVTT
+Kind: captions
+Language: pt-BR
+
+00:00:00.667 --> 00:00:04.434
+Bem-vindo de volta. Agora é hora
+de começar a construir imagens.
+
+00:00:04.467 --> 00:00:07.199
+Nesta aula, vou ensinar você
+a usar um software chamado Tableau
+
+00:00:07.232 --> 00:00:09.434
+para criar suas visualizações.
+
+00:00:09.467 --> 00:00:12.100
+No Tableau é simples
+importar dados do Excel,
+
+00:00:12.133 --> 00:00:15.234
+de arquivos de texto, bancos
+de dados e muitas outras fontes.
+
+00:00:15.267 --> 00:00:18.300
+Nele, você pode criar
+gráficos interativos facilmente.
+
+00:00:18.334 --> 00:00:21.300
+Ao contrário de softwares
+como o Matplotlib ou o D3,
+
+00:00:21.334 --> 00:00:24.334
+você não precisa saber programar
+para fazer ótimos gráficos.
+
+00:00:24.367 --> 00:00:27.334
+Primeiro, vamos ouvir mais detalhes
+de uma especialista em Tableau.
+
+00:00:27.934 --> 00:00:30.501
+Oi, estou aqui
+com Trina Chiasson.
+
+00:00:30.534 --> 00:00:33.634
+Ela é gerente de produto
+na Tableau.
+
+00:00:33.667 --> 00:00:36.701
+Hoje ela vai conversar
+conosco sobre o Tableau
+
+00:00:36.734 --> 00:00:39.033
+e nos dar alguns exemplos.
+Primeiro, antes de começarmos,
+
+00:00:39.067 --> 00:00:42.267
+você poderia nos falar um pouco
+sobre sua experiência na Tableau?
+
+00:00:42.300 --> 00:00:44.334
+Claro. Obrigada por me chamar.
+
+00:00:44.367 --> 00:00:48.300
+Estou na Tableau há cerca
+de um ano, pouco mais de um ano,
+
+00:00:48.334 --> 00:00:51.567
+e sou gerente de produto
+da empresa.
+
+00:00:51.601 --> 00:00:53.868
+Sou responsável
+pela inovação na empresa,
+
+00:00:53.901 --> 00:00:57.434
+o que significa que trabalho com
+muitas pessoas de toda a companhia.
+
+00:00:57.467 --> 00:01:01.634
+Antes da Tableau, eu trabalhava
+com análise de dados.
+
+00:01:01.667 --> 00:01:03.534
+Ótimo. Legal.
+
+00:01:03.567 --> 00:01:07.300
+Bom, o Tableau é um software
+para criar visualizações de dados.
+
+00:01:07.334 --> 00:01:09.734
+Vamos supor que eu já tenha
+meus dados no Excel
+
+00:01:09.767 --> 00:01:11.801
+e possa fazer visualizações
+no Excel.
+
+00:01:11.834 --> 00:01:15.667
+O que o Tableau tem
+de melhor que o Excel?
+
+00:01:15.701 --> 00:01:17.334
+Por que é melhor
+usar o Tableau?
+
+00:01:17.367 --> 00:01:20.367
+É uma ótima pergunta.
+O Excel é um produto incrível.
+
+00:01:20.400 --> 00:01:22.467
+Ele existe há muito tempo.
+
+00:01:22.501 --> 00:01:26.634
+Na verdade, a 1ª versão dele
+chegou ao mercado em 1985.
+
+00:01:26.667 --> 00:01:30.267
+Então é um pouco difícil
+lembrar coletivamente
+
+00:01:30.300 --> 00:01:33.334
+como a análise de dados
+era 30 anos atrás,
+
+00:01:33.367 --> 00:01:35.834
+mas ela evoluiu muito
+desde então,
+
+00:01:35.868 --> 00:01:38.100
+e o Excel também melhorou
+drasticamente.
+
+00:01:38.133 --> 00:01:41.834
+Mas o Excel foi feito
+para lidar com planilhas,
+
+00:01:41.868 --> 00:01:45.767
+para guardar seus dados
+e fazer cálculos avançados.
+
+00:01:45.801 --> 00:01:49.367
+O Tableau foi criado para ser
+uma ferramenta exploratória,
+
+00:01:49.400 --> 00:01:52.467
+uma maneira de ver e entender
+seus dados rapidamente,
+
+00:01:52.501 --> 00:01:57.701
+fazer análises e realmente
+mexer nas coisas, mudá-las,
+
+00:01:57.734 --> 00:02:01.632
+criar novas versões e questionar
+os dados de maneira mais profunda.
+

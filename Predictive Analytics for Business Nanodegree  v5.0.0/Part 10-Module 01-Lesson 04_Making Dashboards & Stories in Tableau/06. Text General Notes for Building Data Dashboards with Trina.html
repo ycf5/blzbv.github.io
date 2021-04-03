@@ -1,0 +1,255 @@
+<!-- udacity2.0 -->
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Text: General Notes for Building Data Dashboards with Trina</title>
+  <link rel="stylesheet" href="../assets/css/bootstrap.min.css">
+  <link rel="stylesheet" href="../assets/css/plyr.css">
+  <link rel="stylesheet" href="../assets/css/katex.min.css">
+  <link rel="stylesheet" href="../assets/css/jquery.mCustomScrollbar.min.css">
+  <link rel="stylesheet" href="../assets/css/styles.css">
+  <link rel="shortcut icon" type="image/png" href="../assets/img/udacimak.png" />
+</head>
+
+<body>
+  <div class="wrapper">
+    <nav id="sidebar">
+  <div class="sidebar-header">
+    <h3>Making Dashboards &amp; Stories in Tableau</h3>
+  </div>
+
+  <ul class="sidebar-list list-unstyled CTAs">
+    <li>
+      <a href="../index.html" class="article">Back to Home</a>
+    </li>
+  </ul>
+
+  <ul class="sidebar-list list-unstyled components">
+    <li class="">
+      <a href="01. Video Communicating With Your Data.html">01. Video: Communicating With Your Data</a>
+    </li>
+    <li class="">
+      <a href="02. Video + Text What&#x27;s Ahead.html">02. Video + Text: What&#x27;s Ahead?</a>
+    </li>
+    <li class="">
+      <a href="03. Video Hierarchies with Trina.html">03. Video: Hierarchies with Trina</a>
+    </li>
+    <li class="">
+      <a href="04. Quiz Hierarchies with Trina.html">04. Quiz: Hierarchies with Trina</a>
+    </li>
+    <li class="">
+      <a href="05. Video Building Dashboards &amp; Stories with Trina.html">05. Video: Building Dashboards &amp; Stories with Trina</a>
+    </li>
+    <li class="">
+      <a href="06. Text General Notes for Building Data Dashboards with Trina.html">06. Text: General Notes for Building Data Dashboards with Trina</a>
+    </li>
+    <li class="">
+      <a href="07. Text General Notes for Building Stories.html">07. Text: General Notes for Building Stories</a>
+    </li>
+    <li class="">
+      <a href="08. Quiz Building Dashboards &amp; Stories with Trina.html">08. Quiz: Building Dashboards &amp; Stories with Trina</a>
+    </li>
+    <li class="">
+      <a href="09. Video Extra Practice with Dashboards.html">09. Video: Extra Practice with Dashboards</a>
+    </li>
+    <li class="">
+      <a href="10. Quiz Extra Practice with Dashboards.html">10. Quiz: Extra Practice with Dashboards</a>
+    </li>
+    <li class="">
+      <a href="11. Text Lesson Recap.html">11. Text: Lesson Recap</a>
+    </li>
+    <li class="">
+      <a href="12. Video Congratulations!.html">12. Video: Congratulations!</a>
+    </li>
+  </ul>
+
+  <ul class="sidebar-list list-unstyled CTAs">
+    <li>
+      <a href="../index.html" class="article">Back to Home</a>
+    </li>
+  </ul>
+</nav>
+
+    <div id="content">
+      <header class="container-fluild header">
+        <div class="container">
+          <div class="row">
+            <div class="col-12">
+              <div class="align-items-middle">
+                <button type="button" id="sidebarCollapse" class="btn btn-toggle-sidebar">
+                  <div></div>
+                  <div></div>
+                  <div></div>
+                </button>
+
+                <h1 style="display: inline-block">06. Text: General Notes for Building Data Dashboards with Trina</h1>
+              </div>
+            </div>
+          </div>
+        </div>
+      </header>
+
+      <main class="container">
+        <div class="row">
+          <div class="col-12">
+            <div class="ud-atom">
+  <h3></h3>
+  <div>
+  <h3 id="quick-note">Quick Note</h3>
+<p>The notes below are the general workflow for creating a dashboard.  If you are ready to practice for yourself, feel free to skip ahead two concepts to the quiz and simply use this as a reference if you need it.</p>
+</div>
+
+</div>
+<div class="divider"></div><div class="ud-atom">
+  <h3></h3>
+  <div>
+  <h1 id="dashboards">Dashboards</h1>
+<p>Dashboards are used to collect multiple sheets that exhibit one idea. For instance, <a href="http://www.tableau.com/stories/gallery/sales-and-opportunities" rel="noopener noreferrer" target="_blank">here is an example</a> of a dashboard about sales opportunities found in Salesforce data. You can see in the dashboard that clicking on one view filters the data on the other views. This is one of the excellent interactive features you can use to let viewers explore your data. Dashboards are also great for building reports from various views that you want to keep track of every day or week.</p>
+<p>Tableau has a whole set of great dashboards in their <a href="https://public.tableau.com/en-us/s/gallery" rel="noopener noreferrer" target="_blank">gallery</a>. Check them out for inspiration.</p>
+<p>To create a new dashboard, click on the "New Dashboard" button in the bottom bar.</p>
+</div>
+
+</div>
+<div class="divider"></div><div class="ud-atom">
+  <h3></h3>
+  <div>
+  <figure class="figure">
+    <img src="img/new-dashboard-button.png" alt="" class="img img-fluid">
+    <figcaption class="figure-caption">
+      
+    </figcaption>
+  </figure>
+</div>
+
+
+</div>
+<div class="divider"></div><div class="ud-atom">
+  <h3></h3>
+  <div>
+  <p>This brings on the dashboard interface. You create the dashboard by dragging sheets from the left bar into the canvas.</p>
+</div>
+
+</div>
+<div class="divider"></div><div class="ud-atom">
+  <h3></h3>
+  <div>
+  <figure class="figure">
+    <img src="img/dashboard-interface.png" alt="" class="img img-fluid">
+    <figcaption class="figure-caption">
+      
+    </figcaption>
+  </figure>
+</div>
+
+
+</div>
+<div class="divider"></div><div class="ud-atom">
+  <h3></h3>
+  <div>
+  <p>Tableau has a great set of tutorial videos on building dashboards if you want some additional information:</p>
+<ul>
+<li><a href="http://www.tableau.com/learn/tutorials/on-demand/getting-started-dashboards-and-stories" rel="noopener noreferrer" target="_blank">Getting started with dashboards and stories</a></li>
+<li><a href="http://www.tableau.com/learn/tutorials/on-demand/building-dashboard" rel="noopener noreferrer" target="_blank">Building dashboards</a></li>
+<li><a href="http://onlinehelp.tableau.com/current/pro/desktop/en-us/help.htm#dashboards.html%3FTocPath%3DPresent%2520Your%2520Work%7CDashboards%7C_____0" rel="noopener noreferrer" target="_blank">Documentation on dashboards</a> </li>
+</ul>
+<p>In the quiz on the next concept, you will get practice on your own building dashboards.</p>
+</div>
+
+</div>
+<div class="divider"></div>
+          </div>
+
+          <div class="col-12">
+            <p class="text-right">
+              <a href="07. Text General Notes for Building Stories.html" class="btn btn-outline-primary mt-4" role="button">Next Concept</a>
+            </p>
+          </div>
+        </div>
+      </main>
+
+      <footer class="footer">
+        <div class="container">
+          <div class="row">
+            <div class="col-12">
+              <p class="text-center">
+                <a href="https://us-udacity.github.io/" target="_blank">【udacity2.0 】If you need more courses, please add wechat：udacity6</a>
+              </p>
+            </div>
+          </div>
+        </div>
+      </footer>
+    </div>
+  </div>
+
+
+  <script src="../assets/js/jquery-3.3.1.min.js"></script>
+  <script src="../assets/js/plyr.polyfilled.min.js"></script>
+  <script src="../assets/js/bootstrap.min.js"></script>
+  <script src="../assets/js/jquery.mCustomScrollbar.concat.min.js"></script>
+  <script src="../assets/js/katex.min.js"></script>
+  <script>
+    // Initialize Plyr video players
+    const players = Array.from(document.querySelectorAll('video')).map(p => new Plyr(p));
+
+    // render math equations
+    let elMath = document.getElementsByClassName('mathquill');
+    for (let i = 0, len = elMath.length; i < len; i += 1) {
+      const el = elMath[i];
+
+      katex.render(el.textContent, el, {
+        throwOnError: false
+      });
+    }
+
+    // this hack will make sure Bootstrap tabs work when using Handlebars
+    if ($('#question-tabs').length && $('#user-answer-tabs').length) {
+      $("#question-tabs a.nav-link").on('click', function () {
+        $("#question-tab-contents .tab-pane").hide();
+        $($(this).attr("href")).show();
+      });
+      $("#user-answer-tabs a.nav-link").on('click', function () {
+        $("#user-answer-tab-contents .tab-pane").hide();
+        $($(this).attr("href")).show();
+      });
+    } else {
+      $("a.nav-link").on('click', function () {
+        $(".tab-pane").hide();
+        $($(this).attr("href")).show();
+      });
+    }
+
+    // side bar events
+    $(document).ready(function () {
+      $("#sidebar").mCustomScrollbar({
+        theme: "minimal"
+      });
+
+      $('#sidebarCollapse').on('click', function () {
+        $('#sidebar, #content').toggleClass('active');
+        $('.collapse.in').toggleClass('in');
+        $('a[aria-expanded=true]').attr('aria-expanded', 'false');
+      });
+
+      // scroll to first video on page loading
+      if ($('video').length) {
+        $('html,body').animate({ scrollTop: $('div.plyr').prev().offset().top});
+      }
+
+      // auto play first video: this may not work with chrome/safari due to autoplay policy
+      if (players && players.length > 0) {
+        players[0].play();
+      }
+
+      // scroll sidebar to current concept
+      const currentInSideBar = $( "ul.sidebar-list.components li a:contains('06. Text: General Notes for Building Data Dashboards with Trina')" )
+      currentInSideBar.css( "text-decoration", "underline" );
+      $("#sidebar").mCustomScrollbar('scrollTo', currentInSideBar);
+    });
+  </script>
+</body>
+
+</html>

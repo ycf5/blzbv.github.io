@@ -1,0 +1,139 @@
+WEBVTT
+Kind: captions
+Language: pt-BR
+
+00:00:00.000 --> 00:00:02.250
+O Tableau conecta-se
+a várias fontes de dados.
+
+00:00:02.283 --> 00:00:04.650
+Você perceberá aqui,
+no painel "Conectar",
+
+00:00:04.683 --> 00:00:06.400
+que temos uma longa lista
+de conexões
+
+00:00:06.433 --> 00:00:08.400
+a todo tipo de fonte de dados,
+
+00:00:08.433 --> 00:00:10.300
+sejam arquivos locais,
+
+00:00:10.333 --> 00:00:12.900
+bancos de dados offline
+ou da nuvem.
+
+00:00:12.933 --> 00:00:16.250
+Se você usa o Tableau Public,
+tem menos opções de fonte.
+
+00:00:16.283 --> 00:00:19.900
+Hoje usaremos o arquivo
+"global-superloja", do Excel,
+
+00:00:19.933 --> 00:00:22.000
+que você encontra
+nos Resources da aula.
+
+00:00:22.033 --> 00:00:24.050
+"Superloja" é um conjunto
+de dados de vendas
+
+00:00:24.083 --> 00:00:26.700
+de uma varejista multinacional
+que vende móveis,
+
+00:00:26.733 --> 00:00:29.250
+materiais de escritório
+e aparelhos tecnológicos.
+
+00:00:29.283 --> 00:00:32.900
+Cada linha de dado
+é um único item de uma transação.
+
+00:00:32.933 --> 00:00:35.400
+Para conectar ao arquivo
+"Superloja" no Tableau,
+
+00:00:35.433 --> 00:00:40.050
+clique em "Excel"
+e navegue para o local do arquivo.
+
+00:00:40.083 --> 00:00:41.650
+Esta é a página
+da fonte de dados.
+
+00:00:41.683 --> 00:00:45.150
+À esquerda você vê as folhas
+do arquivo Excel.
+
+00:00:45.183 --> 00:00:48.100
+Folhas de Excel são tratadas
+como tabelas em um banco de dados.
+
+00:00:48.133 --> 00:00:49.900
+Podemos nos conectar
+a uma única tabela
+
+00:00:49.933 --> 00:00:52.050
+ou juntar várias tabelas.
+
+00:00:52.083 --> 00:00:54.900
+Basta arrastar uma folha
+para a tela.
+
+00:00:54.933 --> 00:00:58.450
+Tabelas podem ser renomeadas
+clicando duas vezes sobre o nome.
+
+00:00:58.483 --> 00:01:01.000
+Vemos os dados aqui embaixo,
+na grade.
+
+00:01:01.033 --> 00:01:02.850
+Há muito que podemos fazer
+nesta tela.
+
+00:01:02.883 --> 00:01:04.550
+Por exemplo:
+renomear variáveis,
+
+00:01:04.583 --> 00:01:07.150
+clicando duas vezes no título,
+
+00:01:07.183 --> 00:01:10.150
+mudar o tipo de variável,
+clicando neste ícone aqui,
+
+00:01:10.183 --> 00:01:13.400
+e há um menu suspenso
+para opções mais avançadas.
+
+00:01:13.433 --> 00:01:15.750
+Uma pasta de trabalho pode conter
+várias fontes.
+
+00:01:15.783 --> 00:01:18.350
+Clicando em "Adicionar",
+pode adicionar outra fonte
+
+00:01:18.383 --> 00:01:20.500
+como união cruzada
+de banco de dados.
+
+00:01:20.533 --> 00:01:23.850
+Se quiser adicionar
+outra fonte de dados,
+
+00:01:23.883 --> 00:01:27.000
+você pode vir até "Dados"
+e "Nova fonte de dados".
+
+00:01:27.033 --> 00:01:29.350
+Isso permite que você acesse
+várias fontes de dados
+
+00:01:29.383 --> 00:01:31.650
+para criar suas visualizações.
+
