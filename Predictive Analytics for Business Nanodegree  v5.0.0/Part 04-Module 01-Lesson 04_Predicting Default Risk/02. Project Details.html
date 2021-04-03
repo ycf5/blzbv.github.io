@@ -1,0 +1,222 @@
+<!-- udacity2.0 -->
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Project Details</title>
+  <link rel="stylesheet" href="../assets/css/bootstrap.min.css">
+  <link rel="stylesheet" href="../assets/css/plyr.css">
+  <link rel="stylesheet" href="../assets/css/katex.min.css">
+  <link rel="stylesheet" href="../assets/css/jquery.mCustomScrollbar.min.css">
+  <link rel="stylesheet" href="../assets/css/styles.css">
+  <link rel="shortcut icon" type="image/png" href="../assets/img/udacimak.png" />
+</head>
+
+<body>
+  <div class="wrapper">
+    <nav id="sidebar">
+  <div class="sidebar-header">
+    <h3>Predicting Default Risk</h3>
+  </div>
+
+  <ul class="sidebar-list list-unstyled CTAs">
+    <li>
+      <a href="../index.html" class="article">Back to Home</a>
+    </li>
+  </ul>
+
+  <ul class="sidebar-list list-unstyled components">
+    <li class="">
+      <a href="01. Project Overview.html">01. Project Overview</a>
+    </li>
+    <li class="">
+      <a href="02. Project Details.html">02. Project Details</a>
+    </li>
+    <li class="">
+      <a href="03. Supporting Materials.html">03. Supporting Materials</a>
+    </li>
+    <li class="">
+      <a href="04. Tips.html">04. Tips</a>
+    </li>
+    <li class="">
+      <a href="05. Verify Answers for Project.html">05. Verify Answers for Project</a>
+    </li>
+    <li class="">
+      <a href="06. Model Comparison Tool Errors.html">06. Model Comparison Tool Errors</a>
+    </li>
+    <li class="">
+      <a href="Project Description - Predicting Default Risk.html">Project Description - Predicting Default Risk</a>
+    </li>
+    <li class="">
+      <a href="Project Rubric - Predicting Default Risk.html">Project Rubric - Predicting Default Risk</a>
+    </li>
+  </ul>
+
+  <ul class="sidebar-list list-unstyled CTAs">
+    <li>
+      <a href="../index.html" class="article">Back to Home</a>
+    </li>
+  </ul>
+</nav>
+
+    <div id="content">
+      <header class="container-fluild header">
+        <div class="container">
+          <div class="row">
+            <div class="col-12">
+              <div class="align-items-middle">
+                <button type="button" id="sidebarCollapse" class="btn btn-toggle-sidebar">
+                  <div></div>
+                  <div></div>
+                  <div></div>
+                </button>
+
+                <h1 style="display: inline-block">02. Project Details</h1>
+              </div>
+            </div>
+          </div>
+        </div>
+      </header>
+
+      <main class="container">
+        <div class="row">
+          <div class="col-12">
+            <div class="ud-atom">
+  <h3><p>details</p></h3>
+  <div>
+  <h3 id="the-business-problem">The Business Problem</h3>
+<p>You work for a small bank and are responsible for determining if customers are creditworthy to give a loan to. Your team typically gets 200 loan applications per week and approves them by hand. </p>
+<p>Due to a financial scandal that hit a competitive bank last week, you suddenly have an influx of new people applying for loans for your bank instead of the other bank in your city. All of a sudden you have nearly 500 loan applications to process this week!</p>
+<p>Your manager sees this new influx as a great opportunity and wants you to figure out how to process all of these loan applications within one week. </p>
+<p>Fortunately for you, you just completed a course in classification modeling and know how to systematically evaluate the creditworthiness of these new loan applicants.</p>
+<p>For this project, you will analyze the business problem using the Problem Solving Framework and provide a list of creditworthy customers to your manager in the next two days.</p>
+<p>You have the following information to work with:</p>
+<ol>
+<li>Data on all past applications</li>
+<li>The list of customers that need to be processed in the next few days</li>
+</ol>
+<h3 id="steps-to-success">Steps to Success</h3>
+<h4 id="step-1-business-and-data-understanding">Step 1: Business and Data Understanding</h4>
+<p>Your project should include a description of the key business decisions that need to be made.</p>
+<h4 id="step-2-explore-and-cleanup-the-data">Step 2: Explore and Cleanup the Data</h4>
+<p>To properly build the model, and select predictor variables, you need to explore and cleanup your data.</p>
+<p>Here are some guidelines to help you clean up the data:</p>
+<ol>
+<li>Are any of your numerical data fields highly-correlated with each other? The correlation should be at least .70 to be considered “high”.</li>
+<li>Are there any missing data for each of the data fields? Fields with a lot of missing data should be removed</li>
+<li>Are there only a few values in a subset of your data field? Does the data field look very uniform (there is only one value for the entire field?). This is called “low variability” and you should remove fields that have low variability. Refer to the "Tips" section to find examples of data fields with low-variability.</li>
+<li>Your clean data set should have 13 columns where the Average of <code>Age Years</code> should be 36 (rounded up)</li>
+</ol>
+<p><strong>Note:</strong> If you decide to impute any data field, for the sake of consistency in the data cleanup process, impute the data using the median of the entire data field.</p>
+<h4 id="step-3-train-your-classification-models">Step 3. Train your Classification Models</h4>
+<p>You should choose 70% to create the Estimation set and 30% to create the Validation set. Set the Random Seed to 1 if you're using Alteryx.</p>
+<p>Train your dataset using these models:</p>
+<ul>
+<li>Logistic Regression</li>
+<li>Decision Tree</li>
+<li>Forest Model</li>
+<li>Boosted Tree</li>
+</ul>
+<h4 id="step-4-writeup">Step 4. Writeup</h4>
+<p>Compare all of the models’ performance against each other. Decide on the best model and score your new customers. </p>
+<p><strong>Important</strong>: Your manager only cares about how accurate you can identify people who qualify and do not qualify for loans for this problem.</p>
+<p>Write a brief report on how you came up with your classification model and write down how many of the new customers would qualify for a loan.</p>
+</div>
+
+</div>
+<div class="divider"></div>
+          </div>
+
+          <div class="col-12">
+            <p class="text-right">
+              <a href="03. Supporting Materials.html" class="btn btn-outline-primary mt-4" role="button">Next Concept</a>
+            </p>
+          </div>
+        </div>
+      </main>
+
+      <footer class="footer">
+        <div class="container">
+          <div class="row">
+            <div class="col-12">
+              <p class="text-center">
+                <a href="https://us-udacity.github.io/" target="_blank">【udacity2.0 】If you need more courses, please add wechat：udacity6</a>
+              </p>
+            </div>
+          </div>
+        </div>
+      </footer>
+    </div>
+  </div>
+
+
+  <script src="../assets/js/jquery-3.3.1.min.js"></script>
+  <script src="../assets/js/plyr.polyfilled.min.js"></script>
+  <script src="../assets/js/bootstrap.min.js"></script>
+  <script src="../assets/js/jquery.mCustomScrollbar.concat.min.js"></script>
+  <script src="../assets/js/katex.min.js"></script>
+  <script>
+    // Initialize Plyr video players
+    const players = Array.from(document.querySelectorAll('video')).map(p => new Plyr(p));
+
+    // render math equations
+    let elMath = document.getElementsByClassName('mathquill');
+    for (let i = 0, len = elMath.length; i < len; i += 1) {
+      const el = elMath[i];
+
+      katex.render(el.textContent, el, {
+        throwOnError: false
+      });
+    }
+
+    // this hack will make sure Bootstrap tabs work when using Handlebars
+    if ($('#question-tabs').length && $('#user-answer-tabs').length) {
+      $("#question-tabs a.nav-link").on('click', function () {
+        $("#question-tab-contents .tab-pane").hide();
+        $($(this).attr("href")).show();
+      });
+      $("#user-answer-tabs a.nav-link").on('click', function () {
+        $("#user-answer-tab-contents .tab-pane").hide();
+        $($(this).attr("href")).show();
+      });
+    } else {
+      $("a.nav-link").on('click', function () {
+        $(".tab-pane").hide();
+        $($(this).attr("href")).show();
+      });
+    }
+
+    // side bar events
+    $(document).ready(function () {
+      $("#sidebar").mCustomScrollbar({
+        theme: "minimal"
+      });
+
+      $('#sidebarCollapse').on('click', function () {
+        $('#sidebar, #content').toggleClass('active');
+        $('.collapse.in').toggleClass('in');
+        $('a[aria-expanded=true]').attr('aria-expanded', 'false');
+      });
+
+      // scroll to first video on page loading
+      if ($('video').length) {
+        $('html,body').animate({ scrollTop: $('div.plyr').prev().offset().top});
+      }
+
+      // auto play first video: this may not work with chrome/safari due to autoplay policy
+      if (players && players.length > 0) {
+        players[0].play();
+      }
+
+      // scroll sidebar to current concept
+      const currentInSideBar = $( "ul.sidebar-list.components li a:contains('02. Project Details')" )
+      currentInSideBar.css( "text-decoration", "underline" );
+      $("#sidebar").mCustomScrollbar('scrollTo', currentInSideBar);
+    });
+  </script>
+</body>
+
+</html>
