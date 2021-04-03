@@ -1,0 +1,121 @@
+WEBVTT
+Kind: captions
+Language: pt-BR
+
+00:00:00.000 --> 00:00:03.701
+O método hierárquico pode ser
+dividido em duas abordagens.
+
+00:00:03.734 --> 00:00:08.067
+A primeira, chamada
+aglomerativa ou bottom up,
+
+00:00:08.100 --> 00:00:10.434
+é mais simples
+e mais popular.
+
+00:00:10.467 --> 00:00:14.501
+Ela começa o processo com cada
+objeto em seu próprio grupo
+
+00:00:14.534 --> 00:00:19.501
+e, a cada passo, ela funde
+os dois grupos mais semelhantes.
+
+00:00:19.534 --> 00:00:23.501
+Isto é feito por um conceito
+conhecido como ligação.
+
+00:00:23.534 --> 00:00:26.300
+Há vários métodos disponíveis
+para usá-lo
+
+00:00:26.334 --> 00:00:29.400
+e determinar os grupos
+mais semelhantes.
+
+00:00:29.434 --> 00:00:32.834
+Os fundamentais são:
+ligação por vizinho mais próximo,
+
+00:00:32.868 --> 00:00:35.100
+ligação por vizinho mais distante,
+ligação por média
+
+00:00:35.133 --> 00:00:37.400
+e ligação por centroide.
+
+00:00:37.434 --> 00:00:43.133
+A primeira apenas mede a distância
+entre o par de pontos mais próximo.
+
+00:00:43.167 --> 00:00:48.334
+A segunda mede a distância entre
+o par de pontos mais distantes.
+
+00:00:48.367 --> 00:00:53.434
+A ligação por média mede a distância
+média entre todos os pontos
+
+00:00:53.467 --> 00:00:57.000
+e, por último, a ligação
+por centroide mede a distância
+
+00:00:57.033 --> 00:01:01.434
+entre os centroides dos grupos,
+ou pontos centrais.
+
+00:01:01.467 --> 00:01:04.701
+Este último é o mais fácil
+de implementar e de explicar.
+
+00:01:04.734 --> 00:01:08.234
+É o mais popular
+em campos como a biologia.
+
+00:01:08.267 --> 00:01:12.567
+O processo hierárquico para,
+quando todos os objetos
+
+00:01:12.601 --> 00:01:15.767
+estão agregados
+em um único grupo.
+
+00:01:15.801 --> 00:01:20.934
+A segunda abordagem hierárquica
+é a divisiva, ou top down.
+
+00:01:20.968 --> 00:01:24.100
+Ela começa o processo
+com todos os objetos
+
+00:01:24.133 --> 00:01:27.734
+em um único grupo,
+e depois remove os intrusos
+
+00:01:27.767 --> 00:01:30.234
+do grupo menos coeso.
+
+00:01:30.267 --> 00:01:32.968
+Este processo para,
+quando cada objeto
+
+00:01:33.000 --> 00:01:35.267
+está no seu próprio grupo.
+
+00:01:35.300 --> 00:01:40.100
+Nas duas abordagens, algo a se notar
+é que não precisamos predeterminar
+
+00:01:40.133 --> 00:01:42.400
+quantos grupos
+deverá haver.
+
+00:01:42.434 --> 00:01:46.300
+O processo basicamente constrói
+a estrutura da hierarquia,
+
+00:01:46.334 --> 00:01:51.567
+e você decide o número de grupos
+para uma boa solução de agrupamento.
+

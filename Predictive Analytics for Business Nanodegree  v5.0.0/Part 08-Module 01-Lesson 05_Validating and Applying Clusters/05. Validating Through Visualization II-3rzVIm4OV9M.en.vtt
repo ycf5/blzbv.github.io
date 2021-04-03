@@ -1,0 +1,114 @@
+WEBVTT
+Kind: captions
+Language: en
+
+00:00:00.830 --> 00:00:03.730
+But we would also want to
+drill a little further down
+
+00:00:03.730 --> 00:00:07.620
+into the details to confirm
+this reasonableness.
+
+00:00:07.620 --> 00:00:12.490
+Let's take a look at the single variable
+growing season length by cluster.
+
+00:00:12.490 --> 00:00:13.839
+Now as an aside,
+
+00:00:13.839 --> 00:00:18.689
+I previously said it is best validate
+your clusters using variables
+
+00:00:18.690 --> 00:00:23.150
+that were not directly included
+in the cluster modeling process.
+
+00:00:23.149 --> 00:00:28.289
+In some cases though, the best
+variables are the ones that you used.
+
+00:00:28.289 --> 00:00:33.189
+In our example, since climate is really
+built around just a few metrics,
+
+00:00:33.189 --> 00:00:38.030
+we are using some that we have used
+directly in creating the model.
+
+00:00:38.030 --> 00:00:39.600
+Let's add a new sheet to Tableau.
+
+00:00:42.979 --> 00:00:47.049
+And you can create the visualization
+by dropping the cluster ID
+
+00:00:47.049 --> 00:00:47.919
+into the columns.
+
+00:00:51.119 --> 00:00:53.692
+In the growing season
+length into the rows.
+
+00:00:53.692 --> 00:00:57.161
+[BLANK_AUDIO]
+
+00:00:57.161 --> 00:00:59.441
+It will sum these up by default,
+
+00:00:59.441 --> 00:01:04.909
+which seems to show some distinctness
+around a few of the clusters.
+
+00:01:04.909 --> 00:01:06.549
+But since it's a sum,
+
+00:01:06.549 --> 00:01:11.137
+that could be just because of
+the number of stores in a cluster.
+
+00:01:11.137 --> 00:01:17.751
+A better validation visualization would
+be using the box-and-whisker plot type.
+
+00:01:17.751 --> 00:01:22.718
+[BLANK_AUDIO]
+
+00:01:22.718 --> 00:01:27.061
+You'll need to uncheck aggregate
+measures to get it to show the clusters
+
+00:01:27.061 --> 00:01:27.924
+separately.
+
+00:01:27.924 --> 00:01:34.185
+[BLANK_AUDIO]
+
+00:01:34.185 --> 00:01:35.945
+&gt;From this visualization,
+
+00:01:35.944 --> 00:01:41.149
+we can easily see that the behavior
+of the clusters is different.
+
+00:01:41.150 --> 00:01:46.410
+Cluster one obviously has
+the longest growing season.
+
+00:01:46.409 --> 00:01:51.310
+And clusters four, five and
+ten have the shortest.
+
+00:01:51.310 --> 00:01:55.240
+By referring back to our map,
+this makes total sense.
+
+00:01:55.239 --> 00:01:59.554
+Since cluster one is in Florida and
+four,
+
+00:01:59.554 --> 00:02:04.250
+five and
+ten are in the northern most states.
+

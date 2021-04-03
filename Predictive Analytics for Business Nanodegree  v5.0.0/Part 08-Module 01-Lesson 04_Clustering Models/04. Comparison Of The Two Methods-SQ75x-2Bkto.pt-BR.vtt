@@ -1,0 +1,209 @@
+WEBVTT
+Kind: captions
+Language: pt-BR
+
+00:00:00.000 --> 00:00:03.801
+Os dois métodos baseiam-se
+no conceito de distância,
+
+00:00:03.834 --> 00:00:05.367
+que vimos antes,
+
+00:00:05.400 --> 00:00:08.501
+mas abordam "distância"
+de formas diferentes.
+
+00:00:08.534 --> 00:00:13.400
+No método hierárquico, trata-se de
+determinar a distância mais próxima
+
+00:00:13.434 --> 00:00:15.200
+entre entidades.
+
+00:00:15.234 --> 00:00:22.033
+E no K-Centroide, trata-se de achar
+os objetos mais próximos ao centroide.
+
+00:00:22.634 --> 00:00:28.767
+Embora o método hierárquico seja mais
+fácil de explicar com um dendrograma,
+
+00:00:28.801 --> 00:00:32.334
+ele funciona melhor
+com um conjunto pequeno de objetos
+
+00:00:32.367 --> 00:00:35.234
+e pode ser lento
+com um conjunto maior,
+
+00:00:35.267 --> 00:00:40.334
+pelo grande número de fusões
+ou decisões divididas que ele causa.
+
+00:00:40.367 --> 00:00:42.868
+O algoritmos K-Centroide,
+por outro lado,
+
+00:00:42.901 --> 00:00:45.501
+funciona bem com
+um conjunto maior de objetos
+
+00:00:45.534 --> 00:00:49.601
+e tende a ser mais eficiente
+em criar a solução do agrupamento.
+
+00:00:49.634 --> 00:00:54.200
+Ele funciona bem com
+conjuntos de dados arredondados
+
+00:00:54.234 --> 00:00:58.567
+ou quando os grupos são
+do mesmo tamanho em densidades.
+
+00:00:58.601 --> 00:01:02.901
+Ele não funciona bem
+com grupos de formas incomuns
+
+00:01:02.934 --> 00:01:07.100
+ou quando há densidades
+diferentes entre os dados.
+
+00:01:07.701 --> 00:01:11.133
+Como vemos nos exemplos,
+no conjunto de dados de cima,
+
+00:01:11.167 --> 00:01:14.601
+os agrupamentos deveriam ser
+os dois meio-círculos.
+
+00:01:14.634 --> 00:01:18.000
+Mas o processo K-Centroide
+quebraria os meio-círculos
+
+00:01:18.033 --> 00:01:21.601
+e designaria alguns pontos
+ao agrupamento errado.
+
+00:01:21.634 --> 00:01:26.300
+Embaixo, mesmo o conjunto de pontos
+da esquerda sendo pouco denso,
+
+00:01:26.334 --> 00:01:30.100
+parece que devem ser todos
+incluídos no mesmo grupo.
+
+00:01:30.133 --> 00:01:33.667
+O processo K-Centroide aqui
+poderia acabar combinando
+
+00:01:33.701 --> 00:01:37.300
+os dois segmentos da direita
+por serem muito próximos,
+
+00:01:37.334 --> 00:01:41.834
+e dividindo o conjunto de pontos
+da esquerda em dois segmentos.
+
+00:01:41.868 --> 00:01:46.000
+Em modelos K-Centroide,
+a posição dos centroides iniciais,
+
+00:01:46.033 --> 00:01:48.067
+ou centroides sementes,
+
+00:01:48.100 --> 00:01:51.901
+pode ser crítica à qualidade
+dos grupos resultantes.
+
+00:01:51.934 --> 00:01:56.534
+Se a "semeadura" for ruim,
+pode afetar o desempenho do processo
+
+00:01:56.567 --> 00:01:59.834
+e resultar
+em um agrupamento ruim.
+
+00:01:59.868 --> 00:02:04.734
+Softwares de agrupamento costumam
+escolher as semente iniciais.
+
+00:02:04.767 --> 00:02:07.734
+Uma solução de software
+que já usei
+
+00:02:07.767 --> 00:02:12.634
+usava basicamente os primeiros
+objetos no registro como sementes.
+
+00:02:12.667 --> 00:02:16.534
+A solução do agrupamento
+mudava,
+
+00:02:16.567 --> 00:02:20.334
+dependendo de como eu ordenava
+o mesmo conjunto de dados.
+
+00:02:20.367 --> 00:02:23.601
+Uma solução melhor
+é o software fornecer
+
+00:02:23.634 --> 00:02:27.434
+múltiplas sementes iniciais,
+escolhidas ao acaso,
+
+00:02:27.467 --> 00:02:30.834
+e calcular a média
+dos resultados.
+
+00:02:30.868 --> 00:02:33.968
+Outra coisa a saber
+sobre o método K-Centroide.
+
+00:02:34.000 --> 00:02:37.400
+Ele pode ser muito sensível
+a valores discrepantes.
+
+00:02:37.434 --> 00:02:42.767
+Se tivermos um objeto distante
+do resto dos objetos do grupo,
+
+00:02:42.801 --> 00:02:46.968
+mas que deve ser incluído nele,
+por ser o mais próximo,
+
+00:02:47.000 --> 00:02:50.601
+isto afetará onde o centro
+do grupo está,
+
+00:02:50.634 --> 00:02:53.467
+podendo mudar
+uma designação de grupos
+
+00:02:53.501 --> 00:02:57.968
+do outro lado do ponto divisor
+desse grupo.
+
+00:02:58.000 --> 00:03:00.901
+Este é um motivo,
+como já dissemos,
+
+00:03:00.934 --> 00:03:04.701
+de ser melhor padronizar
+ou escalar os campos.
+
+00:03:04.734 --> 00:03:08.667
+Isso ajuda a eliminar
+o efeito de valores discrepantes.
+
+00:03:08.701 --> 00:03:11.200
+E como veremos
+no nosso exercício,
+
+00:03:11.234 --> 00:03:14.534
+há métodos diferentes
+nos processos K-Centroide
+
+00:03:14.567 --> 00:03:17.200
+que podem explicar
+valores discrepantes.
+

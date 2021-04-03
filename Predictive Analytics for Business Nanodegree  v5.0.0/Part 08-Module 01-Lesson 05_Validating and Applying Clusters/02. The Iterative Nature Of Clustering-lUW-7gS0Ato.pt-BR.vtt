@@ -1,0 +1,138 @@
+WEBVTT
+Kind: captions
+Language: pt-BR
+
+00:00:00.000 --> 00:00:05.234
+Passamos pelo processo, e agora
+temos uma solução de agrupamento.
+
+00:00:05.267 --> 00:00:07.467
+Significa,
+no nosso exemplo,
+
+00:00:07.501 --> 00:00:10.300
+que cada loja
+foi designada a um grupo.
+
+00:00:10.334 --> 00:00:14.601
+Ou, em uma perspectiva de negócios,
+cada loja está em um segmento
+
+00:00:14.634 --> 00:00:17.133
+onde todas as outras lojas
+do segmento
+
+00:00:17.167 --> 00:00:19.701
+devem se parecer muito.
+
+00:00:19.734 --> 00:00:22.767
+A palavra "devem", aqui,
+é importante.
+
+00:00:22.801 --> 00:00:26.868
+Como eu já disse,
+agrupamentos não são exatos.
+
+00:00:26.901 --> 00:00:31.434
+Ao trabalhar com múltiplas variáveis
+para determinar a solução de grupos,
+
+00:00:31.467 --> 00:00:34.767
+é muito provável que objetos
+no mesmo grupo
+
+00:00:34.801 --> 00:00:37.267
+se assemelhem
+na maioria das variáveis,
+
+00:00:37.300 --> 00:00:40.200
+mas não necessariamente
+em todas.
+
+00:00:40.234 --> 00:00:44.501
+Voltando um pouco, construir
+um modelo de agrupamento
+
+00:00:44.534 --> 00:00:47.567
+deve ser considerado
+um processo iterativo.
+
+00:00:47.601 --> 00:00:50.434
+Significa que quando
+você passou pelos passos
+
+00:00:50.467 --> 00:00:52.467
+para construir
+um bom modelo,
+
+00:00:52.501 --> 00:00:57.868
+você precisa validar que sua solução
+faz mesmo sentido no mundo real.
+
+00:00:57.901 --> 00:01:02.200
+Vimos que a validação ocorre
+por todo o processo de modelagem
+
+00:01:02.234 --> 00:01:05.934
+e dissemos que há
+várias medições e índices
+
+00:01:05.968 --> 00:01:08.100
+que podem
+ajudar a determinar
+
+00:01:08.133 --> 00:01:11.300
+o melhor número de grupos
+para uma solução.
+
+00:01:11.334 --> 00:01:15.901
+Chamamos isto
+de processo de validação interna.
+
+00:01:15.934 --> 00:01:18.701
+O passo final
+do processo de agrupamento
+
+00:01:18.734 --> 00:01:22.367
+é validar os grupos
+a partir de dados externos.
+
+00:01:22.400 --> 00:01:26.000
+Ou seja, tentar mostrar
+a partir dos dados conhecidos
+
+00:01:26.033 --> 00:01:31.100
+que os grupos realmente indicam
+diferenças em resultados.
+
+00:01:31.133 --> 00:01:33.734
+Esta validação externa
+pode indicar
+
+00:01:33.767 --> 00:01:37.434
+que os grupos não são bons
+o bastante para o caso de uso
+
+00:01:37.467 --> 00:01:42.300
+e é aí que a natureza iterativa
+da modelagem de grupos entra em cena.
+
+00:01:42.334 --> 00:01:46.501
+Um processo típico é rodar
+alguns modelos de grupos iniciais,
+
+00:01:46.534 --> 00:01:49.200
+validar os resultados
+com dados externos
+
+00:01:49.234 --> 00:01:51.667
+e rodar de novo
+o processo de modelagem
+
+00:01:51.701 --> 00:01:53.167
+com variáveis diferentes,
+
+00:01:53.200 --> 00:01:55.834
+para ver
+se pode ser melhorado.
+

@@ -1,0 +1,183 @@
+WEBVTT
+Kind: captions
+Language: pt-BR
+
+00:00:00.000 --> 00:00:02.968
+Estes tipos de visualização
+são bons
+
+00:00:03.000 --> 00:00:06.200
+para comunicar a história
+por trás dos grupos,
+
+00:00:06.234 --> 00:00:09.734
+porque são
+mais compreendidos pela gerência
+
+00:00:09.767 --> 00:00:12.868
+e pelos usuários
+da solução de segmentação.
+
+00:00:12.901 --> 00:00:15.868
+Porque mais usuários de negócios
+da sua solução
+
+00:00:15.901 --> 00:00:20.501
+se interessarão mais por como
+os grupos afetam o seu negócio,
+
+00:00:20.534 --> 00:00:25.000
+facilitar o entendimento
+das diferenças entre os segmentos
+
+00:00:25.033 --> 00:00:28.300
+faz com que
+cheguem lá mais rápido.
+
+00:00:28.334 --> 00:00:32.534
+Pode ser uma boa ideia começar
+o relatório dos resultados
+
+00:00:32.567 --> 00:00:36.667
+com nomes curtos de grupos
+que resumam as descobertas.
+
+00:00:36.701 --> 00:00:41.067
+No nosso exercício,
+podemos descrever o 1º grupo
+
+00:00:41.100 --> 00:00:45.167
+como segmento de lojas "Cultive
+Qualquer coisa a Qualquer Hora",
+
+00:00:45.200 --> 00:00:50.467
+ou o 5º pode ser o segmento
+"Muita Neve Metade do Ano".
+
+00:00:50.501 --> 00:00:55.701
+Bom exemplo disto é como o Experian
+lida com sua segmentação de clientes.
+
+00:00:55.734 --> 00:01:00.100
+Eles dividem os EUA
+em 71 segmentos diferentes,
+
+00:01:00.133 --> 00:01:02.234
+e deram um nome a cada um
+
+00:01:02.267 --> 00:01:05.434
+que fornece ao usuário
+um jeito rápido de entender
+
+00:01:05.467 --> 00:01:07.868
+sua composição básica.
+
+00:01:07.901 --> 00:01:12.467
+Há nomes como "Casais Bem-Sucedidos",
+para recém-casados,
+
+00:01:12.501 --> 00:01:18.000
+e "Acomodados e Sensíveis",
+para os mais perto da aposentadoria.
+
+00:01:18.033 --> 00:01:21.434
+Para entender o que há
+por trás dessas designações,
+
+00:01:21.467 --> 00:01:24.901
+aprofundem-se mais
+nos detalhes.
+
+00:01:24.934 --> 00:01:30.100
+Podem baixar um PDF com os nomes
+nas notas de aula.
+
+00:01:30.701 --> 00:01:34.901
+Após a solução
+ser aceita pela gerência,
+
+00:01:34.934 --> 00:01:39.934
+sua verdadeira validação
+é testá-la no mundo real.
+
+00:01:39.968 --> 00:01:44.901
+No caso do nosso exercício, isto
+se daria pela alocação de produtos
+
+00:01:44.934 --> 00:01:47.234
+usando
+os segmentos criados.
+
+00:01:47.267 --> 00:01:50.033
+Dependendo do negócio
+e do caso de uso,
+
+00:01:50.067 --> 00:01:53.334
+pode ser apropriado,
+ao se começar com segmentação,
+
+00:01:53.367 --> 00:01:56.701
+testar em um número
+limitado dos objetos primeiro,
+
+00:01:56.734 --> 00:01:58.501
+para futura validação.
+
+00:01:58.534 --> 00:02:01.634
+Isto reduz o risco
+de, por algum motivo,
+
+00:02:01.667 --> 00:02:04.234
+se ter errado
+nos segmentos,
+
+00:02:04.267 --> 00:02:07.667
+e cometer o erro de aplicar
+uma solução inválida
+
+00:02:07.701 --> 00:02:09.901
+a todo o negócio.
+
+00:02:09.934 --> 00:02:12.000
+Como foi dito
+anteriormente,
+
+00:02:12.033 --> 00:02:16.667
+podem usar o método Teste A/B
+para este tipo de processo.
+
+00:02:16.701 --> 00:02:21.267
+Isto fornece a forma mais verdadeira
+de validação externa.
+
+00:02:21.300 --> 00:02:26.100
+Mas mesmo assim, agrupamento
+deve permanecer um processo iterativo.
+
+00:02:26.133 --> 00:02:29.567
+Seja qual for o caso de uso
+para segmentação e agrupamento,
+
+00:02:29.601 --> 00:02:32.067
+lembrem-se,
+o que estiverem segmentando
+
+00:02:32.100 --> 00:02:35.133
+e quais sejam as variáveis
+que usar para agrupar,
+
+00:02:35.167 --> 00:02:37.300
+elas vão continuar a mudar.
+
+00:02:37.334 --> 00:02:41.067
+Ou seja, uma solução de agrupamento
+que é boa hoje,
+
+00:02:41.100 --> 00:02:43.734
+pode começar a mudar
+após alguns anos,
+
+00:02:43.767 --> 00:02:47.200
+e deve ser reavaliada
+à medida que o tempo passa.
+

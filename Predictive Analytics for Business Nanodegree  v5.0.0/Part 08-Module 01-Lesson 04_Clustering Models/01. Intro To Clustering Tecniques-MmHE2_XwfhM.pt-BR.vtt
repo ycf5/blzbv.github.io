@@ -1,0 +1,54 @@
+WEBVTT
+Kind: captions
+Language: pt-BR
+
+00:00:00.000 --> 00:00:04.267
+Com nossa Preparação de Dados para ser
+usada em um processo de agrupamento,
+
+00:00:04.300 --> 00:00:09.067
+e sabendo que variáveis e componentes
+principais queremos incorporar,
+
+00:00:09.100 --> 00:00:13.534
+é hora de olhar para o próprio
+processo de agrupamento.
+
+00:00:13.567 --> 00:00:16.567
+É o que faremos nesta aula.
+
+00:00:16.601 --> 00:00:20.534
+Alguns métodos
+foram desenvolvidos recentemente
+
+00:00:20.567 --> 00:00:24.467
+que dividem um número de objetos
+em segmentos ou grupos
+
+00:00:24.501 --> 00:00:27.501
+relativamente
+homogêneos ou semelhantes.
+
+00:00:27.534 --> 00:00:30.534
+Eles caem
+em dois tipos de métodos.
+
+00:00:30.567 --> 00:00:35.901
+Um é o método hierárquico
+e o outro, o método K-Centroide.
+
+00:00:35.934 --> 00:00:39.567
+Falarei sobre
+as características de ambos,
+
+00:00:39.601 --> 00:00:41.767
+e também
+sobre algumas diferenças.
+
+00:00:41.801 --> 00:00:45.934
+Mais tarde, veremos em detalhe
+o método K-Centroide
+
+00:00:45.968 --> 00:00:48.534
+para um exercício prático.
+

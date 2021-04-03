@@ -1,0 +1,51 @@
+WEBVTT
+Kind: captions
+Language: pt-BR
+
+00:00:00.000 --> 00:00:04.234
+Nesta aula, conheceram
+os dois métodos principais
+
+00:00:04.267 --> 00:00:06.067
+para criar grupos.
+
+00:00:06.100 --> 00:00:09.501
+Os métodos hierárquico
+e K-Centroide.
+
+00:00:09.534 --> 00:00:14.634
+Agora podem determinar qual deles
+funcionará melhor na sua solução,
+
+00:00:14.667 --> 00:00:17.701
+dependendo dos dados
+e seu objetivo.
+
+00:00:17.734 --> 00:00:20.834
+Também revisamos
+as questões e subjetividades
+
+00:00:20.868 --> 00:00:24.167
+quanto a escolher
+o melhor número de agrupamentos.
+
+00:00:24.200 --> 00:00:28.534
+Agora podem efetuar o diagnóstico
+do agrupamento K-Centroide
+
+00:00:28.567 --> 00:00:33.067
+e interpretar dois índices
+que podem ajudar nessa escolha.
+
+00:00:33.100 --> 00:00:36.334
+Quando você decidir
+quantos grupos quer,
+
+00:00:36.367 --> 00:00:38.634
+você pode processar
+os dados
+
+00:00:38.667 --> 00:00:41.868
+e designar objetos
+para grupos específicos.
+

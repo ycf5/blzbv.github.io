@@ -1,0 +1,215 @@
+WEBVTT
+Kind: captions
+Language: pt-BR
+
+00:00:00.000 --> 00:00:02.601
+Mesmo com nossos limitados
+dados de clima,
+
+00:00:02.634 --> 00:00:04.701
+podemos ir
+um pouco mais fundo
+
+00:00:04.734 --> 00:00:08.334
+para confirmar mais
+o que já estamos vendo.
+
+00:00:08.367 --> 00:00:12.100
+Lembrem-se, as medições
+neve, chuva,
+
+00:00:12.133 --> 00:00:14.634
+temperatura e precipitação,
+
+00:00:14.667 --> 00:00:17.601
+foram consolidadas
+em poucas variáveis
+
+00:00:17.634 --> 00:00:20.868
+quando fizemos a análise
+de componentes principais.
+
+00:00:20.901 --> 00:00:25.701
+Por exemplo, para neve,
+acabamos usando só duas variáveis
+
+00:00:25.734 --> 00:00:29.601
+que incluíam mais de 97%
+da variância total.
+
+00:00:29.634 --> 00:00:34.033
+Vejamos algumas
+medições individuais de neve,
+
+00:00:34.067 --> 00:00:38.367
+para vermos se isso validará
+nossa solução de agrupamento.
+
+00:00:38.400 --> 00:00:42.100
+Ou seja, como foram os meses
+individualmente?
+
+00:00:42.133 --> 00:00:44.567
+Vamos abrir outra folha
+no Tableau.
+
+00:00:44.601 --> 00:00:47.300
+Construímos isto
+da mesma forma que fizemos
+
+00:00:47.334 --> 00:00:50.167
+o gráfico de duração
+da estação de plantio,
+
+00:00:50.200 --> 00:00:53.667
+mas podemos comparar
+alguns meses no mesmo gráfico.
+
+00:00:53.701 --> 00:00:56.067
+Vamos escolher novembro,
+
+00:00:56.100 --> 00:00:58.234
+janeiro e abril.
+
+00:00:58.267 --> 00:01:03.267
+A ideia é ver se pode haver
+algum tipo de diferenciação.
+
+00:01:03.300 --> 00:01:07.901
+Escolhi esses 3 meses
+para ver se há uma distinção
+
+00:01:07.934 --> 00:01:12.167
+entre os segmentos
+de neve precoce em novembro,
+
+00:01:12.200 --> 00:01:15.067
+neve tardia,
+que poderia ser em abril,
+
+00:01:15.100 --> 00:01:18.767
+e neve normal, que seria
+representada por janeiro.
+
+00:01:18.801 --> 00:01:22.734
+Lembram-se?
+O 4º, o 5º e o 10º grupos
+
+00:01:22.767 --> 00:01:25.801
+tinham a estação de plantio
+mais curta.
+
+00:01:25.834 --> 00:01:29.968
+Mas examinando estes dados,
+vemos algumas nuances,
+
+00:01:30.000 --> 00:01:32.934
+e parece que o 5º grupo
+
+00:01:32.968 --> 00:01:37.434
+tem a maior quantidade
+de neve em janeiro.
+
+00:01:37.467 --> 00:01:41.834
+Mas o 4º grupo
+parece ter neve precoce,
+
+00:01:41.868 --> 00:01:46.067
+e o 10º parece ter neve
+um pouco mais tarde.
+
+00:01:46.100 --> 00:01:48.934
+Não é, necessariamente,
+uma diferença enorme,
+
+00:01:48.968 --> 00:01:51.634
+mas lembrando
+do nosso caso anterior,
+
+00:01:51.667 --> 00:01:54.133
+de tentar agrupar
+as lojas por clima
+
+00:01:54.167 --> 00:01:58.000
+para determinar
+qual produto sazonal deveria estar
+
+00:01:58.033 --> 00:02:01.434
+em lojas
+e épocas específicas,
+
+00:02:01.467 --> 00:02:04.434
+este tipo de visualização,
+e os dados por trás,
+
+00:02:04.467 --> 00:02:07.367
+podem ser benéficos
+para essas decisões.
+
+00:02:07.400 --> 00:02:11.801
+Parece que, no nosso caso,
+a solução do agrupamento faz sentido
+
+00:02:11.834 --> 00:02:14.534
+e pode facilmente
+ser implementada.
+
+00:02:14.567 --> 00:02:17.834
+Por exemplo,
+você pode pegar a data máxima
+
+00:02:17.868 --> 00:02:19.767
+do último pico do inverno
+
+00:02:19.801 --> 00:02:24.601
+e a data mínima do primeiro pico
+em cada grupo,
+
+00:02:24.634 --> 00:02:28.601
+e usar para determinar
+quando começar e parar
+
+00:02:28.634 --> 00:02:31.968
+de armazenar as lojas
+com flores da estação.
+
+00:02:32.000 --> 00:02:36.667
+Eu criei algo assim no Alteryx
+que podem facilmente copiar.
+
+00:02:36.701 --> 00:02:40.367
+Peguei os dados que usamos
+para as visualizações,
+
+00:02:40.400 --> 00:02:44.567
+e pus uma ferramenta de resumo
+onde estamos separando por grupo.
+
+00:02:44.601 --> 00:02:48.067
+Vamos pegar a data máxima
+do último pico de frio
+
+00:02:48.100 --> 00:02:50.767
+e a data mínima
+do primeiro pico.
+
+00:02:50.801 --> 00:02:54.634
+Ordenei por data máxima
+do último pico de frio
+
+00:02:54.667 --> 00:02:56.667
+e podemos ver
+os resultados.
+
+00:02:56.701 --> 00:03:01.701
+Vemos uma boa distinção
+entre o 1º grupo,
+
+00:03:01.734 --> 00:03:06.367
+que tem a estação
+de plantio mais curta,
+
+00:03:06.400 --> 00:03:11.868
+e o 5º, o 4º e o 10º,
+que têm as mais curtas.
+

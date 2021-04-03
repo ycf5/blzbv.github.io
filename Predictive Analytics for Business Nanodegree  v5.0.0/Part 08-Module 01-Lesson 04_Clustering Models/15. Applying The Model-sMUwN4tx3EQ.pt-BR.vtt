@@ -1,0 +1,59 @@
+WEBVTT
+Kind: captions
+Language: pt-BR
+
+00:00:00.000 --> 00:00:02.834
+Agora que o modelo
+de grupo foi criado,
+
+00:00:02.868 --> 00:00:07.968
+é só usá-lo para designar objetos
+com um identificador de grupos.
+
+00:00:08.000 --> 00:00:12.067
+No Alteryx é só acrescentar
+uma ferramenta Anexar Agrupamento
+
+00:00:12.100 --> 00:00:14.534
+ao fluxo de trabalho
+do lado do objeto
+
+00:00:14.567 --> 00:00:16.934
+da ferramenta
+Análise de Agrupamento,
+
+00:00:16.968 --> 00:00:19.367
+e então entrar
+os dados originais.
+
+00:00:19.400 --> 00:00:21.033
+Podemos acrescentar
+uma ferramenta Selecionar
+
+00:00:21.067 --> 00:00:24.400
+ao fim do fluxo de trabalho
+antes de uma ferramenta Saída
+
+00:00:24.434 --> 00:00:27.834
+para gerar a identidade
+da loja e a do agrupamento.
+
+00:00:27.868 --> 00:00:30.467
+Com estes dois campos
+selecionados,
+
+00:00:30.501 --> 00:00:33.000
+colocamos uma ferramenta
+Dados de Saída
+
+00:00:33.033 --> 00:00:35.000
+e salvamos isto
+em um arquivo
+
+00:00:35.033 --> 00:00:37.734
+que então combinaríamos
+com seus dados crus
+
+00:00:37.767 --> 00:00:39.300
+para validação posterior.
+

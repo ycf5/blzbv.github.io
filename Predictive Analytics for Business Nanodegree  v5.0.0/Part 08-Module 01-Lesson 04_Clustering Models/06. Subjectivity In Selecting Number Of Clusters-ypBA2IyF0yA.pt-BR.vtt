@@ -1,0 +1,172 @@
+WEBVTT
+Kind: captions
+Language: pt-BR
+
+00:00:00.000 --> 00:00:05.067
+Como vimos antes, o motivo de
+passar pelo processo de agrupamento
+
+00:00:05.100 --> 00:00:07.701
+é ajudar a simplificar
+uma situação
+
+00:00:07.734 --> 00:00:11.133
+onde você tem muitos objetos
+para lidar individualmente,
+
+00:00:11.167 --> 00:00:16.434
+mas seria problemático lidar
+com todos da mesma forma.
+
+00:00:16.467 --> 00:00:20.000
+Com o agrupamento,
+tentamos chegar a um meio-termo
+
+00:00:20.033 --> 00:00:24.033
+para lidar com todos eles
+de forma mais simples,
+
+00:00:24.067 --> 00:00:26.934
+ainda mantendo a eficácia.
+
+00:00:26.968 --> 00:00:31.400
+Lembrem-se que nem todo objeto
+em um grupo específico
+
+00:00:31.434 --> 00:00:35.534
+combinará perfeitamente
+com todos os objetos desse grupo,
+
+00:00:35.567 --> 00:00:38.300
+principalmente ao lidar
+com muitas variáveis
+
+00:00:38.334 --> 00:00:40.868
+para determinar
+a sua solução.
+
+00:00:40.901 --> 00:00:43.667
+Pode ser que
+para uma variável dada,
+
+00:00:43.701 --> 00:00:48.667
+um objeto combine melhor
+com os objetos em outro grupo.
+
+00:00:48.701 --> 00:00:53.100
+Mas o agrupamento
+considera todas as variáveis
+
+00:00:53.133 --> 00:00:58.200
+e agrupa os objetos onde os similares
+designados ao mesmo grupo
+
+00:00:58.234 --> 00:01:01.734
+têm predominantemente
+as mesmas características.
+
+00:01:01.767 --> 00:01:05.167
+Vejamos o que
+quero dizer com isto.
+
+00:01:05.200 --> 00:01:08.834
+Aqui temos
+dois grupos de lojas.
+
+00:01:08.868 --> 00:01:13.334
+O primeiro é de lojas
+situadas em clima frio,
+
+00:01:13.367 --> 00:01:19.133
+com maior densidade demográfica,
+e que têm um tamanho maior.
+
+00:01:19.901 --> 00:01:25.400
+O segundo está em um clima quente,
+com menor densidade demográfica,
+
+00:01:25.434 --> 00:01:27.968
+tendendo a serem
+lojas menores.
+
+00:01:28.000 --> 00:01:33.467
+Mas como veem, a loja 6 não
+se encaixa bem em todas as descrições.
+
+00:01:33.501 --> 00:01:37.834
+É até maior que uma loja
+do agrupamento 1.
+
+00:01:37.868 --> 00:01:44.434
+Mas, no geral, ela se encaixa melhor
+no grupo 2 do que no 1.
+
+00:01:44.467 --> 00:01:48.367
+Sobre quantos grupos
+devemos ter na nossa solução,
+
+00:01:48.400 --> 00:01:51.067
+devemos considerar
+que menos grupos
+
+00:01:51.100 --> 00:01:54.167
+podem criar mais situações
+desse tipo,
+
+00:01:54.200 --> 00:01:58.901
+mas mais grupos também
+podem não funcionar operacionalmente.
+
+00:01:58.934 --> 00:02:04.100
+Por não haver uma melhor solução
+de agrupamento objetivamente medida,
+
+00:02:04.133 --> 00:02:09.100
+não há um teste objetivo para
+o melhor número de grupos.
+
+00:02:09.133 --> 00:02:11.934
+Estamos tentando
+chegar a uma solução
+
+00:02:11.968 --> 00:02:15.167
+que nos dê
+o melhor resultado geral
+
+00:02:15.200 --> 00:02:19.567
+para o problema
+que queremos resolver.
+
+00:02:19.601 --> 00:02:22.567
+Determinar
+o número de grupos
+
+00:02:22.601 --> 00:02:26.133
+não é sempre a escolha
+mais fácil e aparente.
+
+00:02:26.167 --> 00:02:29.734
+Vamos ver um conjunto
+de dados bem simples.
+
+00:02:30.300 --> 00:02:33.434
+Quantos grupos
+deveria haver?
+
+00:02:33.467 --> 00:02:34.801
+Dois?
+
+00:02:35.667 --> 00:02:37.133
+Quatro?
+
+00:02:37.801 --> 00:02:39.501
+Seis?
+
+00:02:40.200 --> 00:02:44.801
+Às vezes, trata-se
+de equilibrar o que é prático
+
+00:02:44.834 --> 00:02:47.567
+com o que melhor
+se encaixa nos dados.
+

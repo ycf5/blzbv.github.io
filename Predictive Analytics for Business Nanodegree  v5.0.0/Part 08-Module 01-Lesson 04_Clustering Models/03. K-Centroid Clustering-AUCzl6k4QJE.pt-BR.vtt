@@ -1,0 +1,87 @@
+WEBVTT
+Kind: captions
+Language: pt-BR
+
+00:00:00.000 --> 00:00:05.400
+O segundo método de agrupamento
+é o método K-Centroide.
+
+00:00:05.434 --> 00:00:09.534
+Chama-se assim porque,
+ao contrário do método hierárquico,
+
+00:00:09.567 --> 00:00:13.000
+com ele, você deve especificar
+o número de grupos
+
+00:00:13.033 --> 00:00:18.033
+que você quer na solução,
+que é o K, de K-Centroide.
+
+00:00:18.067 --> 00:00:22.434
+Também, a metodologia é construída
+designando um objeto
+
+00:00:22.467 --> 00:00:24.400
+ao centroide mais próximo,
+
+00:00:24.434 --> 00:00:27.801
+basicamente,
+o centro do grupo.
+
+00:00:27.834 --> 00:00:33.567
+O centroide é reposicionado
+após cada mudança dos grupos.
+
+00:00:33.601 --> 00:00:37.200
+Um exemplo básico,
+com duas variáveis
+
+00:00:37.234 --> 00:00:39.734
+dividindo em dois grupos
+
+00:00:39.767 --> 00:00:43.868
+nos ajudará a visualizar
+o que ocorre durante o processo.
+
+00:00:43.901 --> 00:00:48.734
+No processo K-Centroide,
+a posição inicial dos centroides
+
+00:00:48.767 --> 00:00:51.467
+é geralmente escolhida
+ao acaso.
+
+00:00:51.501 --> 00:00:54.934
+Os objetos a serem agrupados
+são, então, designados
+
+00:00:54.968 --> 00:00:56.801
+ao centroide mais próximo.
+
+00:00:56.834 --> 00:01:00.133
+Então o centroide
+é reposicionado
+
+00:01:00.167 --> 00:01:04.801
+para se tornar o novo centro
+do grupo formado.
+
+00:01:04.834 --> 00:01:09.234
+A cada passo, isto ocorre de novo,
+os objetos são designados
+
+00:01:09.267 --> 00:01:11.601
+ao centroide.
+
+00:01:11.634 --> 00:01:14.601
+E o centroide
+se move de novo,
+
+00:01:14.634 --> 00:01:17.534
+até a nova designação
+e a mudança do centroide
+
+00:01:17.567 --> 00:01:19.567
+tornarem-se desprezíveis.
+

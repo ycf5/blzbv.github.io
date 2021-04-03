@@ -1,0 +1,133 @@
+WEBVTT
+Kind: captions
+Language: pt-BR
+
+00:00:00.000 --> 00:00:01.634
+Baixem o conjunto de dados
+
+00:00:01.667 --> 00:00:04.234
+que representa uma possível
+solução de agrupamento
+
+00:00:04.267 --> 00:00:06.701
+para nossa análise
+de lojas por clima
+
+00:00:06.734 --> 00:00:09.434
+usando os links
+nas notas de aula.
+
+00:00:09.467 --> 00:00:13.400
+É o arquivo
+Dados com Identidade de Grupos.
+
+00:00:13.434 --> 00:00:16.901
+É o arquivo de dados
+dos dados originais,
+
+00:00:16.934 --> 00:00:20.467
+mas agora com os números dos grupos
+designados a cada loja,
+
+00:00:20.501 --> 00:00:22.334
+em formato CSV.
+
+00:00:22.367 --> 00:00:24.868
+Levei-os ao Tableau,
+
+00:00:24.901 --> 00:00:28.133
+o que facilitará
+construir uma visualização
+
+00:00:28.167 --> 00:00:31.467
+para vermos se nossa solução
+parece fazer sentido.
+
+00:00:31.501 --> 00:00:36.167
+Primeiro vou converter o grupo
+para uma dimensão,
+
+00:00:36.200 --> 00:00:39.334
+porque ele é uma dimensão,
+não uma medida.
+
+00:00:39.367 --> 00:00:41.834
+Como estamos lidando
+com clima e tempo,
+
+00:00:41.868 --> 00:00:45.400
+faria sentido ver
+se os grupos parecem diferentes
+
+00:00:45.434 --> 00:00:47.801
+quando os vemos em um mapa.
+
+00:00:47.834 --> 00:00:50.968
+Podemos usar os valores
+de latitude e longitude
+
+00:00:51.000 --> 00:00:55.167
+selecionando-os para dimensões
+de uma coluna ou linha.
+
+00:00:57.234 --> 00:01:01.367
+Selecione os valores reais
+de latitude e longitude,
+
+00:01:01.400 --> 00:01:04.501
+não os gerados
+pelo Tableau.
+
+00:01:05.000 --> 00:01:08.834
+Desmarque também
+as medidas agregadas.
+
+00:01:08.868 --> 00:01:11.200
+Agora queremos
+acrescentar os grupos
+
+00:01:11.234 --> 00:01:15.100
+e deixar o Tableau designar
+uma cor aleatória para cada um
+
+00:01:15.133 --> 00:01:17.601
+para visualizarmos
+a diferenciação
+
+00:01:17.634 --> 00:01:19.767
+e onde estão localizados.
+
+00:01:19.801 --> 00:01:24.634
+Fazemos isto arrastando a identidade
+do grupo para a marca da cor.
+
+00:01:27.767 --> 00:01:30.367
+Isto nos dá
+uma boa visualização
+
+00:01:30.400 --> 00:01:34.167
+de onde os grupos estão
+geograficamente localizados.
+
+00:01:34.200 --> 00:01:37.634
+Assim, vemos que o 1º grupo
+
+00:01:37.667 --> 00:01:40.434
+fica principalmente
+no sul da Flórida,
+
+00:01:40.467 --> 00:01:46.067
+e o 5º grupo,
+no nordeste dos EUA.
+
+00:01:46.100 --> 00:01:49.567
+Se vocês conhecem
+os padrões do tempo nos EUA,
+
+00:01:49.601 --> 00:01:52.300
+só ver este mapa indica
+
+00:01:52.334 --> 00:01:56.067
+que a solução criada
+parece razoável.
+

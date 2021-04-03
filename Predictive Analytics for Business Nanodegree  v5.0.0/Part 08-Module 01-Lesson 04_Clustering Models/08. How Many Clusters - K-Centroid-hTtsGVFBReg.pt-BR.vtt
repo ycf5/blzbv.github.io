@@ -1,0 +1,203 @@
+WEBVTT
+Kind: captions
+Language: pt-BR
+
+00:00:00.000 --> 00:00:03.801
+Sobre o método K-Centroide
+de agrupamento,
+
+00:00:03.834 --> 00:00:05.968
+lembremos que,
+com este método,
+
+00:00:06.000 --> 00:00:09.734
+devemos especificar o número
+de grupos que queremos.
+
+00:00:09.767 --> 00:00:13.801
+Antes de rodarmos um processo
+que designe objetos
+
+00:00:13.834 --> 00:00:15.901
+a grupos específicos,
+
+00:00:15.934 --> 00:00:21.367
+devemos considerar quantos grupos
+fornecerão a melhor solução.
+
+00:00:22.601 --> 00:00:26.534
+Isto nos inicia na estrada
+de validação de grupos.
+
+00:00:26.567 --> 00:00:30.767
+Validação de grupos envolve
+testar uma solução de agrupamento
+
+00:00:30.801 --> 00:00:33.267
+para ver se é boa.
+
+00:00:33.300 --> 00:00:37.501
+Podemos validar grupos
+internamente ou externamente.
+
+00:00:37.534 --> 00:00:40.634
+Validação interna
+refere-se a usar os dados
+
+00:00:40.667 --> 00:00:44.667
+usados para criar os grupos,
+para calcular um índice.
+
+00:00:44.701 --> 00:00:48.701
+Validação externa refere-se
+ao uso de dados externos,
+
+00:00:48.734 --> 00:00:53.567
+ou dados fora do conjunto
+usado para criar os grupos.
+
+00:00:53.601 --> 00:00:57.133
+Por agora, vamos nos concentrar
+na validação interna.
+
+00:00:57.167 --> 00:01:02.000
+Veremos um exercício
+sobre validação externa mais tarde.
+
+00:01:02.033 --> 00:01:03.701
+Na validação interna,
+
+00:01:03.734 --> 00:01:07.968
+é melhor avaliar resultados
+do processo de agrupamento
+
+00:01:08.000 --> 00:01:12.601
+que foi completado para uma série
+de possíveis números de grupos.
+
+00:01:12.634 --> 00:01:15.934
+E comparar os resultados
+para cada solução,
+
+00:01:15.968 --> 00:01:20.567
+usando um índice
+baseado nos próprios dados.
+
+00:01:21.968 --> 00:01:24.567
+Devem lembrar,
+de outra aula,
+
+00:01:24.601 --> 00:01:27.767
+que os dois objetivos
+por trás do agrupamento são:
+
+00:01:27.801 --> 00:01:32.734
+1-criar segmentos de objetos
+onde os objetos em cada segmento
+
+00:01:32.767 --> 00:01:35.767
+estejam o mais próximo possível
+entre si.
+
+00:01:35.801 --> 00:01:38.634
+Chamamos isso
+de compacidade.
+
+00:01:38.667 --> 00:01:42.000
+2-Os próprios segmentos
+
+00:01:42.033 --> 00:01:45.434
+estão o mais longe possível
+entre si.
+
+00:01:45.467 --> 00:01:49.133
+Chamamos isso de separação
+ou distinção.
+
+00:01:49.167 --> 00:01:53.234
+Muitos índices usados para medir
+o melhor número de grupos
+
+00:01:53.267 --> 00:01:55.834
+utilizam
+esses dois aspectos,
+
+00:01:55.868 --> 00:01:59.167
+mas podem abordá-los
+de formas diferentes.
+
+00:01:59.701 --> 00:02:03.133
+Há vários índices ligados
+a avaliar grupos
+
+00:02:03.167 --> 00:02:06.434
+sobre os quais podem ler
+nas notas de aula.
+
+00:02:06.467 --> 00:02:10.200
+Cada pacote de software
+tipicamente fornecerá cálculos
+
+00:02:10.234 --> 00:02:12.601
+para um certo
+conjunto de índices.
+
+00:02:12.634 --> 00:02:17.167
+Nesta aula, veremos dois
+dos índices comuns usados,
+
+00:02:17.200 --> 00:02:19.634
+que estão disponíveis
+no Alteryx.
+
+00:02:19.667 --> 00:02:23.234
+Os dois são usados em Estatística
+há algum tempo
+
+00:02:23.267 --> 00:02:27.067
+e foram aceitos
+por seus aspectos de validação.
+
+00:02:27.100 --> 00:02:33.033
+São eles o Índice de Rand Ajustado
+e o Índice Calinski Harabasz
+
+00:02:33.067 --> 00:02:38.000
+que, por motivos óbvios,
+chamarei de Índice CH.
+
+00:02:38.033 --> 00:02:40.834
+O Índice de Rand Ajustado
+é usado para medir
+
+00:02:40.868 --> 00:02:44.133
+a semelhança dos objetos
+dentro do grupo.
+
+00:02:44.167 --> 00:02:47.300
+Chamamos isto
+de estabilidade de grupo.
+
+00:02:47.334 --> 00:02:50.000
+O Índice CH
+é usado para medir
+
+00:02:50.033 --> 00:02:53.434
+a compacidade
+e a distinção ou separação
+
+00:02:53.467 --> 00:02:55.667
+dos próprios grupos.
+
+00:02:55.701 --> 00:03:00.133
+Para os dois índices, o objetivo
+é escolher o número de grupos
+
+00:03:00.167 --> 00:03:03.567
+para uma análise
+onde o índice calculado
+
+00:03:03.601 --> 00:03:05.834
+esteja no seu
+ponto mais alto.
+

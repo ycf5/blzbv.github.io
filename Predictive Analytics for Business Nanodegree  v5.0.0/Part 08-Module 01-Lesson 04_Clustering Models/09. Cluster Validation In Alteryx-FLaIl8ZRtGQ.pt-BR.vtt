@@ -1,0 +1,234 @@
+WEBVTT
+Kind: captions
+Language: pt-BR
+
+00:00:00.000 --> 00:00:03.300
+Primeiro, traremos o último
+conjunto de dados que construímos
+
+00:00:03.334 --> 00:00:06.868
+com os componentes principais para
+os 4 métodos de medição de tempo
+
+00:00:06.901 --> 00:00:09.000
+e outras medidas
+que incluímos.
+
+00:00:09.033 --> 00:00:13.601
+O arquivo se chama PCA
+Resultados Completos do Processo.yxdb.
+
+00:00:13.634 --> 00:00:18.100
+Há um link nas notas de aula
+para baixar o meu conjunto de dados.
+
+00:00:18.133 --> 00:00:22.367
+Depois, conectaremos a ferramenta
+de diagnósticos K-Centroides.
+
+00:00:22.400 --> 00:00:26.367
+O propósito é ajudar a avaliar
+o número certo de grupos
+
+00:00:26.400 --> 00:00:29.033
+a usar para uma
+solução de agrupamento.
+
+00:00:29.067 --> 00:00:32.100
+Vejamos como podemos
+configurar esta ferramenta.
+
+00:00:32.133 --> 00:00:37.033
+Primeiro, seleciono as variáveis
+que quero usar para o meu modelo.
+
+00:00:37.067 --> 00:00:40.601
+Eu incluí alguns
+componentes extras
+
+00:00:40.634 --> 00:00:43.767
+quando rodamos o processo
+de componentes principais.
+
+00:00:43.801 --> 00:00:46.400
+Não significa
+que preciso conservar todos.
+
+00:00:46.434 --> 00:00:51.567
+Neste caso, incluí no processo PC
+PC3 para temperatura,
+
+00:00:51.601 --> 00:00:56.133
+PC4 para chuva
+e PC4 para precipitação.
+
+00:00:56.167 --> 00:01:01.467
+Decidi que não quero usá-los
+para este dignóstico inicial.
+
+00:01:01.501 --> 00:01:05.100
+Só porque tenho
+algumas variáveis nos meus dados
+
+00:01:05.133 --> 00:01:07.801
+não significa
+que devo usá-las.
+
+00:01:07.834 --> 00:01:10.968
+Cono o agrupamento
+é um processo iterativo,
+
+00:01:11.000 --> 00:01:14.834
+você pode querer experimentar
+muitas combinações de variáveis
+
+00:01:14.868 --> 00:01:17.767
+para ver quais darão
+melhores resultados.
+
+00:01:17.801 --> 00:01:20.100
+Mas ao usar PCA,
+
+00:01:20.133 --> 00:01:24.267
+notem que nunca devem pular
+os primeiros componentes
+
+00:01:24.300 --> 00:01:26.067
+e usar os seguintes.
+
+00:01:26.100 --> 00:01:29.200
+Isso porque,
+se lembram como PCA funciona,
+
+00:01:29.234 --> 00:01:32.501
+ele tenta obter mais variância
+no 1º componente
+
+00:01:32.534 --> 00:01:36.133
+com cada componente subsequente
+com menos variância.
+
+00:01:36.167 --> 00:01:40.000
+Se quer excluir componentes,
+exclua os últimos,
+
+00:01:40.033 --> 00:01:41.834
+como mostrei aqui.
+
+00:01:41.868 --> 00:01:44.968
+Depois, verifico
+a padronização dos campos.
+
+00:01:45.000 --> 00:01:48.834
+Como já vimos, algoritmos
+de agrupamento são muito sensíveis
+
+00:01:48.868 --> 00:01:50.300
+a valores discrepantes.
+
+00:01:50.334 --> 00:01:53.567
+Padronizar os campos
+ajuda a eliminar isto.
+
+00:01:53.601 --> 00:01:57.734
+Deixarei o Teste Z selecionado
+como default para padronizar.
+
+00:01:57.767 --> 00:02:00.968
+Depois, no Alteryx,
+temos 3 métodos diferentes
+
+00:02:01.000 --> 00:02:03.567
+que podemos usar
+para criar grupos.
+
+00:02:03.601 --> 00:02:07.133
+K-Média, K-Mediana
+e Gás Neural.
+
+00:02:07.167 --> 00:02:09.801
+Não os detalharei muito.
+
+00:02:09.834 --> 00:02:13.834
+Cada método difere
+quanto à colocação do centroide
+
+00:02:13.868 --> 00:02:16.467
+e quanto à forma
+de medir as distâncias.
+
+00:02:16.501 --> 00:02:20.067
+Para mais detalhes,
+vejam a leitura.
+
+00:02:20.100 --> 00:02:22.667
+Como é fácil fazer,
+minha abordagem típica
+
+00:02:22.701 --> 00:02:27.901
+é testar com os 3 métodos para ver
+se obtenho resultados diferentes.
+
+00:02:27.934 --> 00:02:32.501
+Então escolho aquele que parece
+fornecer melhores resultados.
+
+00:02:32.534 --> 00:02:35.767
+Para o nosso exemplo,
+ficarei com o K-Média.
+
+00:02:35.801 --> 00:02:39.367
+Finalmente, temos opções
+diretamente relacionadas a testar
+
+00:02:39.400 --> 00:02:41.667
+para achar
+o número de grupos.
+
+00:02:41.701 --> 00:02:45.868
+As duas primeiras escolhas
+são para o número máximo e mínimo.
+
+00:02:45.901 --> 00:02:49.767
+Como já disse, você pode ter
+restrições operacionais
+
+00:02:49.801 --> 00:02:54.100
+que não permitam mais do que
+um certo número de segmentos.
+
+00:02:54.133 --> 00:02:57.033
+Ou você pode querer
+limitar o número de grupos
+
+00:02:57.067 --> 00:03:00.367
+para entender
+e agir em cada um.
+
+00:03:00.400 --> 00:03:03.901
+E, claro, o mínimo
+deve ser ao menos dois.
+
+00:03:03.934 --> 00:03:08.868
+Ter só um grupo elimina
+a necessidade deste processo.
+
+00:03:08.901 --> 00:03:12.934
+Para o exercício,
+vamos estabelecer o mínimo em 6
+
+00:03:12.968 --> 00:03:14.968
+e o máximo em 12.
+
+00:03:15.000 --> 00:03:18.901
+Para as duas últimas opções
+relacionadas à replicação Booststrap
+
+00:03:18.934 --> 00:03:22.467
+e sementes iniciais,
+deixaremos no default.
+
+00:03:22.501 --> 00:03:27.000
+Se querem entender os detalhes,
+vejam na leitura.
+

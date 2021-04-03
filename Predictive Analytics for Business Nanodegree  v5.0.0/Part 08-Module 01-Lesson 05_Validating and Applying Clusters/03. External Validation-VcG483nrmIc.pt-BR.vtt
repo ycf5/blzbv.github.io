@@ -1,0 +1,97 @@
+WEBVTT
+Kind: captions
+Language: pt-BR
+
+00:00:00.000 --> 00:00:03.300
+Validar a solução
+a partir de dados externos
+
+00:00:03.334 --> 00:00:07.534
+é melhor quando usamos dados
+não usados como variáveis
+
+00:00:07.567 --> 00:00:11.000
+para criar os grupos
+no processo de modelagem.
+
+00:00:11.033 --> 00:00:14.367
+Um exemplo disto
+pode ser segmentar clientes
+
+00:00:14.400 --> 00:00:16.300
+em uma rede de varejo.
+
+00:00:16.334 --> 00:00:19.801
+Uma das variáveis usadas
+para fazer a solução de grupos
+
+00:00:19.834 --> 00:00:24.734
+pode ser uma demografia relacionada
+ao número de crianças em uma casa.
+
+00:00:24.767 --> 00:00:28.300
+Você pode, então, validar
+externamente esta segmentação,
+
+00:00:28.334 --> 00:00:31.801
+verificando se o comportamento
+de compra desse segmento
+
+00:00:31.834 --> 00:00:35.868
+é evidente na compra de brinquedos
+ou roupas de criança.
+
+00:00:36.467 --> 00:00:41.434
+Neste caso, você pode criar
+estatísticas em torno dos segmentos.
+
+00:00:41.467 --> 00:00:43.868
+Pode pegar as vendas totais
+em brinquedos
+
+00:00:43.901 --> 00:00:46.133
+para cada cliente
+em cada segmento,
+
+00:00:46.167 --> 00:00:49.367
+e calcular a média
+ou o gasto mediano,
+
+00:00:49.400 --> 00:00:53.334
+e depois comparar os segmentos
+por essas estatísticas.
+
+00:00:53.367 --> 00:00:55.934
+Se o processo de agrupamento
+faz sentido,
+
+00:00:55.968 --> 00:01:00.634
+a média gasta por um segmento
+representando famílias com crianças
+
+00:01:00.667 --> 00:01:02.367
+deve ser bem mais alta.
+
+00:01:02.400 --> 00:01:05.200
+Muitas vezes,
+isto é comunicado melhor
+
+00:01:05.234 --> 00:01:07.567
+com uma visualização
+em torno dos dados
+
+00:01:07.601 --> 00:01:11.834
+onde você vê os grupos
+identificados singularmente exibidos,
+
+00:01:11.868 --> 00:01:15.534
+e pode ver se há diferenças
+nos valores que está usando
+
+00:01:15.567 --> 00:01:17.367
+para a validação.
+
+00:01:17.400 --> 00:01:19.868
+Vejamos como isto
+se parece.
+

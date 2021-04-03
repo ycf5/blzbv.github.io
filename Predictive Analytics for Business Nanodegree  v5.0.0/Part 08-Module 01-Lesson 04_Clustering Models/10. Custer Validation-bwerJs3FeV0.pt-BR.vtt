@@ -1,0 +1,298 @@
+WEBVTT
+Kind: captions
+Language: pt-BR
+
+00:00:00.000 --> 00:00:03.167
+Os dois índices
+que o Alteryx produz,
+
+00:00:03.200 --> 00:00:06.467
+o Índice de Rand Ajustado
+e o Índice CH,
+
+00:00:06.501 --> 00:00:09.334
+são calculados para cada
+uma dessas soluções
+
+00:00:09.367 --> 00:00:12.701
+e combinados para formar
+seu próprio conjunto de dados.
+
+00:00:12.734 --> 00:00:16.067
+As médias, medianas,
+mínimos e máximos
+
+00:00:16.100 --> 00:00:19.667
+e amplitudes interquartis
+são todos calculados
+
+00:00:19.701 --> 00:00:23.767
+para que entendamos
+se a solução é boa
+
+00:00:23.801 --> 00:00:27.567
+para cada número
+de agrupamentos testado.
+
+00:00:27.601 --> 00:00:31.067
+O Alterix, então, fornece
+uma visualização desses dados,
+
+00:00:31.100 --> 00:00:34.400
+que é uma boa forma
+de avaliar os resultados.
+
+00:00:34.434 --> 00:00:38.734
+Para vê-la no Alterix,
+acrescente um browse
+
+00:00:38.767 --> 00:00:42.734
+à ferramenta de diagnóstico
+de agrupamento e clique "rodar".
+
+00:00:42.767 --> 00:00:46.200
+Dependendo do método
+que você escolhe,
+
+00:00:46.234 --> 00:00:50.767
+o tempo deste processo,
+por haver tantas iterações,
+
+00:00:50.801 --> 00:00:52.667
+pode variar muito.
+
+00:00:52.701 --> 00:00:57.667
+Nestas tabelas, no eixo y
+está o valor do índice.
+
+00:00:57.701 --> 00:01:01.834
+E o eixo x
+é o número dos grupos.
+
+00:01:01.868 --> 00:01:06.467
+Para cada número, é mostrada
+uma caixa e um diagrama de caixa
+
+00:01:06.501 --> 00:01:08.033
+do valor do índice.
+
+00:01:08.067 --> 00:01:10.667
+A linha preta
+representa a mediana,
+
+00:01:10.701 --> 00:01:15.667
+e a área azul representa a área
+entre o 1º e o 3º quartil.
+
+00:01:15.701 --> 00:01:19.868
+Os diagramas mostram
+a distância de alguns valores.
+
+00:01:19.901 --> 00:01:23.167
+Para o Índice AR,
+quanto mais alto o índice,
+
+00:01:23.200 --> 00:01:25.601
+melhor a estabilidade
+do grupo.
+
+00:01:25.634 --> 00:01:29.334
+Para o Índice CH,
+quanto mais alto o índice,
+
+00:01:29.367 --> 00:01:33.968
+melhor a distinção e compacidade
+dos grupos.
+
+00:01:34.000 --> 00:01:38.601
+O que procuramos é onde
+a mediana do índice é alta
+
+00:01:38.634 --> 00:01:42.234
+e a extensão das várias iterações
+é minimizada.
+
+00:01:42.267 --> 00:01:44.934
+Ou seja,
+onde o mínimo e o máximo
+
+00:01:44.968 --> 00:01:48.133
+e amplitude interquartil
+sejam compactos.
+
+00:01:48.167 --> 00:01:51.400
+Neste exemplo,
+usando o método K-Médias,
+
+00:01:51.434 --> 00:01:54.300
+o Índice de Rand Ajustado
+pode indicar
+
+00:01:54.334 --> 00:01:57.434
+que os agrupamentos 6 e 7
+sejam bons.
+
+00:01:57.467 --> 00:02:00.067
+Com o 7 tendo
+uma mediana mais alta,
+
+00:02:00.100 --> 00:02:03.901
+mas com um pouco mais de extensão
+da amplitude interquartil.
+
+00:02:03.934 --> 00:02:09.133
+O Índice CH indica que os grupos
+de 9 a 12 podem funcionar,
+
+00:02:09.167 --> 00:02:12.300
+sendo talvez o 10
+a melhor solução,
+
+00:02:12.334 --> 00:02:16.634
+com a mediana mais alta
+e uma extensão bem compacta.
+
+00:02:17.434 --> 00:02:20.300
+Esses resultados
+não são muito conclusivos.
+
+00:02:20.334 --> 00:02:23.467
+O próximo passo seria
+rodar o mesmo diagnóstico
+
+00:02:23.501 --> 00:02:26.067
+usando os outros
+dois métodos disponíveis,
+
+00:02:26.100 --> 00:02:28.934
+o K-Mediana
+e o gás neural,
+
+00:02:28.968 --> 00:02:34.534
+e comparar os resultados para ver
+se há uma solução que se destaque.
+
+00:02:34.567 --> 00:02:37.267
+Lembrem-se,
+ao comparar métodos,
+
+00:02:37.300 --> 00:02:41.067
+devemos prestar atenção à escala
+dos resultados do índice.
+
+00:02:41.100 --> 00:02:46.901
+Neste caso, o Índice CH
+varia de uns 4 mil a 5.700.
+
+00:02:46.934 --> 00:02:51.033
+Ao comparar, os diagramas de caixa
+podem parecer iguais,
+
+00:02:51.067 --> 00:02:53.868
+mas podem ser bem mais altos
+ou mais baixos
+
+00:02:53.901 --> 00:02:55.367
+do que outro método.
+
+00:02:55.400 --> 00:02:58.133
+Pode ser onde você
+começa a reconsiderar
+
+00:02:58.167 --> 00:03:02.033
+as variáveis que está usando
+no seu processo de agrupamento.
+
+00:03:02.067 --> 00:03:06.667
+Nosso exemplo trata
+do método de medição do clima,
+
+00:03:06.701 --> 00:03:08.667
+não nos preocupamos
+com isso.
+
+00:03:08.701 --> 00:03:13.501
+Mas em outros casos, como segmentar
+uma população de clientes,
+
+00:03:13.534 --> 00:03:17.634
+você começa a ter mais flexibilidade
+sobre o que quer usar
+
+00:03:17.667 --> 00:03:19.901
+para determinar
+seus grupos.
+
+00:03:19.934 --> 00:03:21.634
+Lembrando de novo,
+
+00:03:21.667 --> 00:03:27.033
+o tipo de dados que usar dependerá
+do objetivo da sua segmentação.
+
+00:03:27.067 --> 00:03:29.934
+Independente da metodologia
+de agrupamento,
+
+00:03:29.968 --> 00:03:32.334
+construir um modelo
+de agrupamento
+
+00:03:32.367 --> 00:03:35.033
+deve ser considerado
+um processo iterativo
+
+00:03:35.067 --> 00:03:38.567
+onde você deve determinar
+quantas e quais variáveis
+
+00:03:38.601 --> 00:03:40.334
+fornecem o melhor modelo,
+
+00:03:40.367 --> 00:03:44.801
+assim como quantos grupos
+também fornecem o melhor modelo.
+
+00:03:44.834 --> 00:03:49.701
+Um processo típico é rodar alguns
+modelos de grupos iniciais,
+
+00:03:49.734 --> 00:03:52.901
+tentar validar os resultados
+com o que é conhecido
+
+00:03:52.934 --> 00:03:56.901
+com métodos internos
+de validação, usando índices,
+
+00:03:56.934 --> 00:04:01.767
+e também com validação externa,
+que veremos mais tarde.
+
+00:04:01.801 --> 00:04:05.901
+Então rodamos o processo de modelagem
+com variáveis diferentes
+
+00:04:05.934 --> 00:04:08.868
+para ver se podem
+ser feitos melhoramentos.
+
+00:04:08.901 --> 00:04:11.501
+E, como mencionei,
+cada pacote de software
+
+00:04:11.534 --> 00:04:13.734
+vai usar
+o seu conjunto de índices.
+
+00:04:13.767 --> 00:04:16.667
+O importante aqui
+é garantir que você entenda
+
+00:04:16.701 --> 00:04:19.267
+o que o índice específico
+está medindo
+
+00:04:19.300 --> 00:04:21.701
+e a forma certa de avaliar.
+
