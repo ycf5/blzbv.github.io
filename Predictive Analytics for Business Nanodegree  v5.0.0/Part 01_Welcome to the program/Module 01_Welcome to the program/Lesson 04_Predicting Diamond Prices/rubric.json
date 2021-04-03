@@ -1,0 +1,95 @@
+{
+  "id": 463,
+  "project_id": 228,
+  "upload_types": [
+    "file"
+  ],
+  "file_filter_regex": "\\A(?!(((.*/)?(__MACOSX|\\.git|node_modules|bower_components|jspm_packages|\\.idea|build|.ipynb_checkpoints|\\.Trash-0|logs)(\\Z|/))))((.*\\.(css|docx|gradle|htm|html|java|js|markdown|md|pdf|py|rmd|rst|sql|swift|txt|xml|yaml|yml)\\Z)|((.*/)?(README|Readme|readme|Makefile)\\Z))",
+  "nomination_eligible": false,
+  "stand_out": "",
+  "hide_criteria": false,
+  "created_at": "2016-10-11T21:17:41.017Z",
+  "updated_at": "2020-12-28T12:29:17.674Z",
+  "hashtag": "",
+  "max_upload_size_mb": 500,
+  "estimated_sla": null,
+  "project_assistant_enabled": false,
+  "available_for_cert_project": false,
+  "language": "en-us",
+  "ndkeys": [
+    "nd008-ent",
+    "nd008t-ent-demo",
+    "nd008t",
+    "nd008-mena-connect",
+    "nd008t-ent",
+    "nd008-connect",
+    "nd008",
+    "nd008-inba1",
+    "nd008-br-ent",
+    "nd008-br",
+    "nd008-connectb2b",
+    "nd008t-connect-stc",
+    "nd008t-connect",
+    "nd008t-ent-pwc-mena",
+    "nd098-mena-fow2",
+    "nd008t-ent-pwc-me"
+  ],
+  "coursekeys": [],
+  "is_career": false,
+  "sections": [
+    {
+      "id": 1398,
+      "name": "Predicting Diamond Prices",
+      "created_at": "2016-10-12T19:57:31.844Z",
+      "updated_at": "2020-04-13T08:27:18.583Z",
+      "deleted_at": null,
+      "position": 0,
+      "rubric_id": 463,
+      "rubric_items": [
+        {
+          "id": 4292,
+          "section_id": 1398,
+          "passed_description": "1. The student has submitted a PDF file for commenting.\n1. The student has answered ***all*** the questions and provided a sufficient explanation of how they arrived at their answer.",
+          "exceeded_description": null,
+          "created_at": "2016-10-12T19:59:01.917Z",
+          "updated_at": "2020-04-13T08:25:07.669Z",
+          "deleted_at": null,
+          "optional": false,
+          "position": 0,
+          "criteria": "Submission file",
+          "exceedable": false
+        },
+        {
+          "id": 17345,
+          "section_id": 1398,
+          "passed_description": "1. The student has provided plots for both old and new diamond prices. The two prices can be plotted in separate plots or a single one.\n1. The student has defined *carat* on X-axis and *price* on the Y-axis.",
+          "exceeded_description": null,
+          "created_at": "2020-04-13T08:25:56.435Z",
+          "updated_at": "2020-04-13T10:57:01.378Z",
+          "deleted_at": null,
+          "optional": false,
+          "position": 1,
+          "criteria": "The plot",
+          "exceedable": false
+        }
+      ]
+    }
+  ],
+  "project": {
+    "id": 228,
+    "name": "Diamond Prices",
+    "nanodegree_key": "nd008",
+    "is_cert_project": false,
+    "audit_project_id": null,
+    "hashtag": null,
+    "audit_rubric_id": 2899,
+    "entitlement_required": null,
+    "is_career": null,
+    "recruitment_family_id": 8,
+    "created_at": "2016-09-27T18:31:33.860Z",
+    "updated_at": "2021-04-02T23:57:15.995Z",
+    "price": "5.0",
+    "ungradeable_price": "3.0",
+    "audit_price": "0.0"
+  }
+}

@@ -1,0 +1,777 @@
+{
+  "data": {
+    "lesson": {
+      "id": 680872,
+      "key": "0a73f028-579b-4b13-a10b-c4f94f20835a",
+      "title": "Orientation",
+      "semantic_type": "Lesson",
+      "is_public": true,
+      "version": "1.0.0",
+      "locale": "en-us",
+      "summary": "Welcome to the Predictive Analytics for Business Nanodegree program! In this lesson, you will learn more about the structure of the program and meet the team.",
+      "lesson_type": "Classroom",
+      "display_workspace_project_only": false,
+      "resources": {
+        "files": [
+          {
+            "name": "Videos Zip File",
+            "uri": "https://zips.udacity-data.com/0a73f028-579b-4b13-a10b-c4f94f20835a/680872/1544455567951/Orientation+Videos.zip"
+          },
+          {
+            "name": "Transcripts Zip File",
+            "uri": "https://zips.udacity-data.com/0a73f028-579b-4b13-a10b-c4f94f20835a/680872/1544455564413/Orientation+Subtitles.zip"
+          }
+        ],
+        "google_plus_link": null,
+        "career_resource_center_link": null,
+        "coaching_appointments_link": null,
+        "office_hours_link": null,
+        "aws_provisioning_link": null
+      },
+      "project": null,
+      "lab": null,
+      "concepts": [
+        {
+          "id": 682669,
+          "key": "b245f9ec-bb93-4716-a027-5ef3ebdc0e85",
+          "title": "Welcome",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "b245f9ec-bb93-4716-a027-5ef3ebdc0e85",
+            "completed_at": null,
+            "last_viewed_at": null,
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 682671,
+              "key": "02f5cd5c-92c3-415e-9c97-acff8055296b",
+              "title": "Intro V1",
+              "semantic_type": "VideoAtom",
+              "is_public": true,
+              "instructor_notes": "",
+              "video": {
+                "youtube_id": "mY5RWwex5U0",
+                "china_cdn_id": "mY5RWwex5U0.mp4"
+              }
+            }
+          ]
+        },
+        {
+          "id": 682672,
+          "key": "40c13119-9dee-4d89-9c9d-d0e1227fe6fc",
+          "title": "Syllabus",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "40c13119-9dee-4d89-9c9d-d0e1227fe6fc",
+            "completed_at": null,
+            "last_viewed_at": null,
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 682673,
+              "key": "c56dc0ec-dcb7-4274-ba45-72e88462281b",
+              "title": null,
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "# Predictive Analytics for Business Nanodegree Program Syllabus\n\nTake a look at the [nanodegree program syllabus](https://d20vrrgs8k4bvw.cloudfront.net/documents/en-US/Predictive+Analytics+for+Business+Nanodegree+Syllabus.pdf) if you'd like to take a deeper look into everything you'll learn and do through the nanodegree program. Keep it as a reference if you'd like, or use it to convince your employer to sponsor your enrollment in the program.\n\nNext you'll meet Miriam, who will take you through a brief orientation.",
+              "instructor_notes": ""
+            }
+          ]
+        },
+        {
+          "id": 682677,
+          "key": "9b7990cf-9936-413b-8c8f-977011360d2d",
+          "title": "Frequently Asked Questions",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "9b7990cf-9936-413b-8c8f-977011360d2d",
+            "completed_at": null,
+            "last_viewed_at": null,
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 682678,
+              "key": "53f12650-47d7-49b9-92a4-9f6dce08ed3d",
+              "title": null,
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "## Frequently asked questions specific to the Predictive Analytics for Business Nanodegree Program\n\n##### What internet browser should I use?\n\nWe highly recommend using **Google Chrome** or **Firefox**, you may experience issues downloading files if you use Internet Explorer or Microsoft Edge \n\n##### When I go to download files, I experience difficulties. How do I resolve this? \n\nPlease make sure you are using the latest version of Google Chrome. Please right click on your mouse and click \"Save As...\". From there you should be able to save your files with the format of your choice. \n\n##### When will I get the Alteryx/Tableau license?\n\nYou will receive your Alteryx and Tableau licenses within a few business days of finishing your free trial. We send out licenses every Monday and Thursday.\n\n##### How long are the Alteryx/Tableau licenses good for?\n\nBoth licenses last for 6 months, which should be plenty of time to finish the program. If the program takes you longer, you may request an extension as long as you’ve demonstrated significant progress in the program. The licenses are educational licenses, so they should not be used for commercial purposes. \n\n##### What if I need technical help with Alteryx or Tableau?\n\nPlease use Student Hub or Knowledge for technical help. Other students have likely had the same questions. If you are unable to get answers, then email bizanalyst-support@udacity.com. Please do not go to the Alteryx or Tableau support websites except as a last resort.\n\n##### Can I use other software besides Alteryx for my analysis?\n\nYou are welcome to use any software you wish, but keep in mind that we won’t be able to provide help with other tools outside the ones used in the Nanodegree program.\n\n##### Do I need a Windows Operating system to take this program? Can I take this program if I have a Macintosh computer?\n\nThe Alteryx software requires a Windows operating system. You are welcome to use other analytical software, but it will not be supported in the program. If you have a Mac, [this video](https://www.youtube.com/watch?v=8Xc29uP7AFw) explains what to do to run Windows on a Mac. So you can then install Alteryx on your computer.",
+              "instructor_notes": ""
+            }
+          ]
+        },
+        {
+          "id": 135208,
+          "key": "95f34444-1fa6-48a5-8d61-fb3a9a17d9c5",
+          "title": "Meet Miriam",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "95f34444-1fa6-48a5-8d61-fb3a9a17d9c5",
+            "completed_at": null,
+            "last_viewed_at": null,
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 199873,
+              "key": "70eceb50-4cfb-43e3-a378-a783ba3b94bb",
+              "title": null,
+              "semantic_type": "ImageAtom",
+              "is_public": true,
+              "url": "https://video.udacity-data.com/topher/2016/November/58199338_br29huz/br29huz.png",
+              "non_google_url": "https://s3.cn-north-1.amazonaws.com.cn/u-img/70eceb50-4cfb-43e3-a378-a783ba3b94bb",
+              "caption": "Miriam",
+              "alt": null,
+              "width": 79,
+              "height": 79,
+              "instructor_notes": null
+            },
+            {
+              "id": 135205,
+              "key": "5f4992d2-037a-4935-8355-db0e401140be",
+              "title": "Meet Miriam",
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "Meet Miriam\n\nHello! My name is Miriam and I'll be here to help guide you in this 10 minute orientation session. I'll go into more details on the Nanodegree structure, tell you how project submissions work, and give you study tips that we've found our most successful students have used.\n\nLet's get started!",
+              "instructor_notes": ""
+            }
+          ]
+        },
+        {
+          "id": 21530,
+          "key": "51445286180923",
+          "title": "Projects and Progress",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "51445286180923",
+            "completed_at": null,
+            "last_viewed_at": null,
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 193487,
+              "key": "1c71b83f-32de-4a01-8324-c8ea2dce20f2",
+              "title": "Projects and Progress",
+              "semantic_type": "VideoAtom",
+              "is_public": true,
+              "instructor_notes": "",
+              "video": {
+                "youtube_id": "imfQrXLhZ5M",
+                "china_cdn_id": "imfQrXLhZ5M.mp4"
+              }
+            },
+            {
+              "id": 193488,
+              "key": "8c27ee0f-e409-43d5-827f-c5d861eb58ed",
+              "title": "Deadlines",
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "To support you in reaching your goals quickly, we've set up some suggested deadlines for each of your Nanodegree projects. The timeline was designed with a commitment of about *10 hours per week* in mind. Come back to the classroom whenever you can, even if it's just for 5 minutes, to keep making progress!\n\nEach of your due dates is shown next to the relevant project in your Udacity Home. You can get there by clicking on the Home icon.",
+              "instructor_notes": ""
+            },
+            {
+              "id": 267001,
+              "key": "adfa0706-1ff6-4ac5-9be3-7848ce3f339b",
+              "title": null,
+              "semantic_type": "ImageAtom",
+              "is_public": true,
+              "url": "https://video.udacity-data.com/topher/2017/February/58a5e1fe_navigate-to-due-date/navigate-to-due-date.gif",
+              "non_google_url": "https://s3.cn-north-1.amazonaws.com.cn/u-img/adfa0706-1ff6-4ac5-9be3-7848ce3f339b",
+              "caption": "",
+              "alt": null,
+              "width": 640,
+              "height": 329,
+              "instructor_notes": null
+            }
+          ]
+        },
+        {
+          "id": 41786,
+          "key": "35511891150923",
+          "title": "How Does Project Submission Work?",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "35511891150923",
+            "completed_at": null,
+            "last_viewed_at": null,
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 22199,
+              "key": "3551189115",
+              "title": "How Does Project Submission Work?",
+              "semantic_type": "VideoAtom",
+              "is_public": true,
+              "instructor_notes": null,
+              "video": {
+                "youtube_id": "jCJa_VP6qgg",
+                "china_cdn_id": "jCJa_VP6qgg.mp4"
+              }
+            }
+          ]
+        },
+        {
+          "id": 44437,
+          "key": "42808922380923",
+          "title": "Integrity and Mindset",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "42808922380923",
+            "completed_at": null,
+            "last_viewed_at": null,
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 301392,
+              "key": "4984f237-e40c-4d03-8809-1286b29bcef7",
+              "title": "Integrity and Mindset",
+              "semantic_type": "VideoAtom",
+              "is_public": true,
+              "instructor_notes": "",
+              "video": {
+                "youtube_id": "zCOr3O50gQM",
+                "china_cdn_id": "zCOr3O50gQM.mp4"
+              }
+            },
+            {
+              "id": 301396,
+              "key": "e6785cd0-8e8e-4d1b-8f59-db02da311a52",
+              "title": null,
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "# The Honor Code\n\nTo remain in good standing with your Nanodegree program, you must abide by the following Honor Code.\n\n> I hereby confirm that all my project submissions consist of my own work. Accordingly, I will document and cite the origins of any part(s) of my project submissions that were taken from websites, books, forums, GitHub repositories, or any other source and explain why I used them for any part of my submission. I understand that I may be asked to explain my work in a video call with a Udacity Mentor before my Nanodegree graduation is conferred.",
+              "instructor_notes": ""
+            },
+            {
+              "id": 301394,
+              "key": "8f614277-30b2-41de-a4d6-b8109951111b",
+              "title": "The Honor Code",
+              "semantic_type": "TaskListAtom",
+              "is_public": true,
+              "instructor_notes": null,
+              "user_state": {
+                "node_key": "8f614277-30b2-41de-a4d6-b8109951111b",
+                "completed_at": null,
+                "last_viewed_at": null,
+                "unstructured": null
+              },
+              "tasks": [
+                "I have read, understood, and promise to uphold the Honor Code."
+              ],
+              "positive_feedback": "Thank you. Integrity in your work is an essential part of your progress.",
+              "video_feedback": null,
+              "description": "Please read the Honor Code above and verify that you understand and will uphold it."
+            }
+          ]
+        },
+        {
+          "id": 16654,
+          "key": "35511891200923",
+          "title": "How Do I Find Time for My Nanodegree?",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "35511891200923",
+            "completed_at": null,
+            "last_viewed_at": null,
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 43970,
+              "key": "3551189120",
+              "title": "How Do I Find Time for My Nanodegree Program?",
+              "semantic_type": "QuizAtom",
+              "is_public": true,
+              "instructor_notes": "",
+              "user_state": {
+                "node_key": "3551189120",
+                "completed_at": null,
+                "last_viewed_at": null,
+                "unstructured": null
+              },
+              "instruction": {
+                "video": {
+                  "youtube_id": "d-VfUw7wNEQ",
+                  "china_cdn_id": "d-VfUw7wNEQ.mp4"
+                },
+                "text": null
+              },
+              "question": {
+                "title": "How Do I Find Time for My Nanodegree?",
+                "alt_text": "",
+                "background_image": "//lh3.googleusercontent.com/8_bzqbO3mopaVit0KlniFiIizMf_-5_J6ohQtwbeIH4Sj8mSWmLvSp2MyoBL7LsUJuCL0PbrRY0Dlzyts6kA=s0#w=960&h=540",
+                "non_google_background_image": "https://s3.cn-north-1.amazonaws.com.cn/u-img/3551189120",
+                "semantic_type": "ImageFormQuestion",
+                "evaluation_id": "3572728559",
+                "widgets": [
+                  {
+                    "group": null,
+                    "initial_value": "false",
+                    "label": null,
+                    "marker": "check1",
+                    "model": "CheckboxWidget",
+                    "is_text_area": null,
+                    "tabindex": null,
+                    "placement": {
+                      "height": 0.05,
+                      "width": 0.05,
+                      "x": 0.1555096633416459,
+                      "y": 0.7496881929046563
+                    }
+                  }
+                ]
+              },
+              "answer": {
+                "text": null,
+                "video": {
+                  "youtube_id": null,
+                  "china_cdn_id": "null.mp4"
+                }
+              }
+            },
+            {
+              "id": 267004,
+              "key": "f1dfe65c-c995-4db8-b3d8-2ca6c21d4119",
+              "title": null,
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "All calendar applications now let you set up a weekly reminder. I have included a screen capture below of how to set one up in Google Calendar. We recommend coming into the classroom at least twice a week. It is a best practice to set up at least one repeating weekly reminder to continue the Nanodegree program.",
+              "instructor_notes": ""
+            },
+            {
+              "id": 267005,
+              "key": "b1ecfa60-62bb-4714-8d71-835042224222",
+              "title": null,
+              "semantic_type": "ImageAtom",
+              "is_public": true,
+              "url": "https://video.udacity-data.com/topher/2017/February/58a5e497_set-up-reminder/set-up-reminder.gif",
+              "non_google_url": "https://s3.cn-north-1.amazonaws.com.cn/u-img/b1ecfa60-62bb-4714-8d71-835042224222",
+              "caption": "",
+              "alt": null,
+              "width": 640,
+              "height": 357,
+              "instructor_notes": null
+            }
+          ]
+        },
+        {
+          "id": 831981,
+          "key": "99232e4b-299c-40f5-a985-3162da96288e",
+          "title": "Career Services",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "99232e4b-299c-40f5-a985-3162da96288e",
+            "completed_at": null,
+            "last_viewed_at": null,
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 831984,
+              "key": "56b803ea-52ec-4803-99d5-41aa3fef76c4",
+              "title": null,
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "You’re probably in this Nanodegree program to advance your career - whether looking for a new job, learning new skills for your current job, or just exploring.\n\nIf you want career support during you program, career coaches provide personalized feedback on your LinkedIn profile and GitHub as optional projects. \n\nIf you are actively looking for a new role, you can also get submit your resume and cover letter in the sidebar under Help > Career Services.\n\nYou'll get honest, concise feedback from career coaches, including industry professionals.\n\nThe Udacity Careers team is here to help you figure out what you're looking for, plan for it, and work with you to move forward in your career. You can always contact us at [career-support@udacity.com](mailto:career-support@udacity.com).\n\n\n",
+              "instructor_notes": ""
+            }
+          ]
+        },
+        {
+          "id": 59299,
+          "key": "43009544110923",
+          "title": "Final Tips",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "43009544110923",
+            "completed_at": null,
+            "last_viewed_at": null,
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 135581,
+              "key": "4300954411",
+              "title": "Final Tips",
+              "semantic_type": "VideoAtom",
+              "is_public": true,
+              "instructor_notes": null,
+              "video": {
+                "youtube_id": "1ZVBvM54hQw",
+                "china_cdn_id": "1ZVBvM54hQw.mp4"
+              }
+            },
+            {
+              "id": 301390,
+              "key": "6fa0b629-8f26-4f30-8595-036424c817ef",
+              "title": null,
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "You now have all the information you need to proceed on your Nanodegree journey! \n\n\n- Remember to put in time consistently, engage with your community, take advantage of the resources available to you, and give us feedback throughout the program.\n\nWe are so glad to have you with us!",
+              "instructor_notes": ""
+            }
+          ]
+        },
+        {
+          "id": 682684,
+          "key": "26e1f5fd-a183-4db5-8bb7-60365444b156",
+          "title": "Software Licenses",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "26e1f5fd-a183-4db5-8bb7-60365444b156",
+            "completed_at": null,
+            "last_viewed_at": null,
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 682686,
+              "key": "9915ea2e-983a-446b-ad58-406cf31afd51",
+              "title": null,
+              "semantic_type": "ImageAtom",
+              "is_public": true,
+              "url": "https://video.udacity-data.com/topher/2017/May/5910bff1_alteryx-tableau/alteryx-tableau.png",
+              "non_google_url": "https://s3.cn-north-1.amazonaws.com.cn/u-img/9915ea2e-983a-446b-ad58-406cf31afd51",
+              "caption": "",
+              "alt": "",
+              "width": 638,
+              "height": 389,
+              "instructor_notes": null
+            },
+            {
+              "id": 682685,
+              "key": "b4cf55b1-3de2-48d4-a332-8c4609f3f8a5",
+              "title": null,
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "# When will I receive my Alteryx and Tableau licenses?\n\nAll students will receive Alteryx and Tableau licenses within a few days of the **END** of their 7-day trial period. Licenses are *generally* sent out every Monday and Thursday. If it's been several days since your trial period ended, please reach out to preanalytics-support@udacity.com.\n\n# Downloading Alteryx \n\nMany students struggle downloading and installing Alteryx. You **DO NOT** need to use Alteryx until about halfway through the **Linear Regression** lesson. In the concept called \"Download Alteryx,\" you'll receive instructions on how to download and install Alteryx. It's important that you refer to those instructions. Please do not email our support team until you do so.\n\nYou will need a Windows OS to install Alteryx on to. If you are using a Mac, you will need to install Parallels or partition your hard drive.\n\nVideo on how to partition your hard drive: https://www.youtube.com/watch?v=8Xc29uP7AFw",
+              "instructor_notes": ""
+            }
+          ]
+        },
+        {
+          "id": 524533,
+          "key": "a739839e-cc6a-486f-b8b2-09e66382e010",
+          "title": "Downloading Alteryx",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "a739839e-cc6a-486f-b8b2-09e66382e010",
+            "completed_at": null,
+            "last_viewed_at": null,
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 570725,
+              "key": "2bd18820-e3e5-4ae4-8d81-443684fdc53b",
+              "title": null,
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "## Links to Download Alteryx\n\nThere are two links available to download Alteryx:\n\n1. Using File Download via [Product Support page](https://www.alteryx.com/resources/product-support/download-alteryx). <br>\n1.1.   Please download Alteryx Designer 2019.x with R-based Predictive Tools (advanced) for 64-bits  (x refers to the latest minor).  Note that Alteryx minor versions may change periodically.<br>\n1.2 .  Please use the Admin or Non-Admin installer based on your account permissions on your laptop. If using a corporate computer, you may need to request temporary Admin permission to install, please contact your IT team to submit that request.<BR>\n",
+              "instructor_notes": ""
+            },
+            {
+              "id": 1003521,
+              "key": "348d95b7-9e88-4a12-a35e-bc78e06ff2df",
+              "title": null,
+              "semantic_type": "ImageAtom",
+              "is_public": true,
+              "url": "https://video.udacity-data.com/topher/2020/March/5e5ef39f_alteryx-screenshot1/alteryx-screenshot1.png",
+              "non_google_url": "https://s3.cn-north-1.amazonaws.com.cn/u-img/348d95b7-9e88-4a12-a35e-bc78e06ff2df",
+              "caption": "",
+              "alt": "",
+              "width": 1600,
+              "height": 689,
+              "instructor_notes": null
+            },
+            {
+              "id": 1003520,
+              "key": "50580fea-3721-4e1a-832c-506902e05d4f",
+              "title": null,
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "\n\n2. Sign in to the Alteryx Downloads and Licenses portal at [licenses.alteryx.com](https://gallery.alteryx.com/?ref=downloads#!account).   \n2.1. Create an account to download Alteryx.\n\n",
+              "instructor_notes": ""
+            },
+            {
+              "id": 1003522,
+              "key": "1fe1252a-da56-4def-b6bb-90c02aa79e90",
+              "title": null,
+              "semantic_type": "ImageAtom",
+              "is_public": true,
+              "url": "https://video.udacity-data.com/topher/2020/March/5e5ef4ac_screen-shot-2020-03-03-at-4.21.24-pm/screen-shot-2020-03-03-at-4.21.24-pm.png",
+              "non_google_url": "https://s3.cn-north-1.amazonaws.com.cn/u-img/1fe1252a-da56-4def-b6bb-90c02aa79e90",
+              "caption": "",
+              "alt": "",
+              "width": 2248,
+              "height": 1338,
+              "instructor_notes": null
+            },
+            {
+              "id": 1003650,
+              "key": "af1c5dc3-c82e-4c22-a453-7acca09225a9",
+              "title": null,
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "2.2 Following this step, please choose Alteryx Designer 2019.x with R-based Predictive Tools (advanced) for 64-bit, where x refers to the minor version. Note that the versions can change periodically.",
+              "instructor_notes": ""
+            },
+            {
+              "id": 1003523,
+              "key": "e052c0ad-b55f-45fa-966f-04d578c9bc3f",
+              "title": null,
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "## Start a Free Trial \n\n3. Once you get to the following screen: __Download My Free Trial__ , fill out the Form to get a free trial and then click Start Now\n\nIf you are not currently working at a company and do not have the following details for the form:\n\nCompany\nBusiness Email Address\nBusiness Phone Number\nYou can use Udacity as the Company name. You can use the email address that you used for registration with Udacity for the business email address field. You can use your personal phone number for the business phone number field. click the version of the product you want to download:                \n",
+              "instructor_notes": ""
+            },
+            {
+              "id": 1003524,
+              "key": "98594e99-b957-4d83-9413-f48cdba7faf8",
+              "title": null,
+              "semantic_type": "ImageAtom",
+              "is_public": true,
+              "url": "https://video.udacity-data.com/topher/2020/March/5e5ef6ca_alyteryx1/alyteryx1.png",
+              "non_google_url": "https://s3.cn-north-1.amazonaws.com.cn/u-img/98594e99-b957-4d83-9413-f48cdba7faf8",
+              "caption": "",
+              "alt": "",
+              "width": 1122,
+              "height": 875,
+              "instructor_notes": null
+            },
+            {
+              "id": 1003525,
+              "key": "dc13b382-2cb6-42aa-bb31-8a8498f5965e",
+              "title": null,
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "### Download Manager\n4. The file will then download, click on the downloaded file to run it. (you may need to double click it.)\nThen you need to select Alteryx Designer 2019.x  with R-based Predictive Tools (advanced) for 64-bit, where x refers to the minor version. Note that the versions can change periodically.\n",
+              "instructor_notes": ""
+            },
+            {
+              "id": 1003526,
+              "key": "b4665a11-4fad-4fe0-b509-f1c7a68cc055",
+              "title": null,
+              "semantic_type": "ImageAtom",
+              "is_public": true,
+              "url": "https://video.udacity-data.com/topher/2020/March/5e5ef741_alteryx-3/alteryx-3.png",
+              "non_google_url": "https://s3.cn-north-1.amazonaws.com.cn/u-img/b4665a11-4fad-4fe0-b509-f1c7a68cc055",
+              "caption": "",
+              "alt": "",
+              "width": 532,
+              "height": 224,
+              "instructor_notes": null
+            },
+            {
+              "id": 1003527,
+              "key": "4decb513-6f0a-41e8-af7c-a3eb18deb729",
+              "title": null,
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "### Install\n5. Check the box to accept the license agreement and click Next. The software will begin installing. Click Ok to any windows that pop up or the predictive tools will not be installed.\n",
+              "instructor_notes": ""
+            },
+            {
+              "id": 1003528,
+              "key": "ac63c20a-06c3-4a8f-bde2-5c8577e314da",
+              "title": null,
+              "semantic_type": "ImageAtom",
+              "is_public": true,
+              "url": "https://video.udacity-data.com/topher/2020/March/5e5ef782_alteryx-5/alteryx-5.png",
+              "non_google_url": "https://s3.cn-north-1.amazonaws.com.cn/u-img/ac63c20a-06c3-4a8f-bde2-5c8577e314da",
+              "caption": "",
+              "alt": "",
+              "width": 493,
+              "height": 331,
+              "instructor_notes": null
+            },
+            {
+              "id": 570731,
+              "key": "4745a428-f628-48e6-8686-4457126c8edd",
+              "title": null,
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "### Download complete\n6. Then click Next through the setup/installation steps for the predictive tools.\n",
+              "instructor_notes": ""
+            },
+            {
+              "id": 1003529,
+              "key": "702d3c77-a169-4c52-8841-150b03411846",
+              "title": null,
+              "semantic_type": "ImageAtom",
+              "is_public": true,
+              "url": "https://video.udacity-data.com/topher/2020/March/5e5ef7c3_alteryx-6/alteryx-6.png",
+              "non_google_url": "https://s3.cn-north-1.amazonaws.com.cn/u-img/702d3c77-a169-4c52-8841-150b03411846",
+              "caption": "",
+              "alt": "",
+              "width": 480,
+              "height": 333,
+              "instructor_notes": null
+            },
+            {
+              "id": 570735,
+              "key": "d9667a9a-8825-4841-9976-9505820c7a3b",
+              "title": null,
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "After it is done downloading the predictive tools you can click Finish to run Alteryx.\n\nIf you run into any issues please email us at preanalytics-support@udacity.com\n\n**NOTE:** If you have any issues with **activating your license** please follow the offline license activation instructions here: https://community.alteryx.com/t5/Alteryx-Knowledge-Base/How-to-License-Alteryx/ta-p/140785",
+              "instructor_notes": ""
+            }
+          ]
+        },
+        {
+          "id": 188272,
+          "key": "e03cb70a-5348-4bb5-9a68-d9d1779441ed",
+          "title": "Text: Installing Tableau",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "e03cb70a-5348-4bb5-9a68-d9d1779441ed",
+            "completed_at": null,
+            "last_viewed_at": null,
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 188284,
+              "key": "80e427ff-150e-41d4-a8db-73d5d2574974",
+              "title": "Installing Tableau",
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "## In the Data Foundations Nanodegree program, Business Analytics Nanodegree program or the Data Analyst Nanodegree program? Then You Can Install Tableau Public - No License Needed\n\nI bet you're pretty excited about Tableau, now you need to install it. You can find it on the Tableau website. \n\nYou can use **Tableau Public** for this course. It's the free version that doesn't connect to as many data sources as the personal or professional versions, but it's more than capable to do most work with. It can read data from text (CSV) files and Excel files which you'll be using in this course. Also, you can't save to workbooks on your computer, but instead save to a public workbook. You can then download the workbook from there, so it isn't much of an issue.\n\n#### Time to install\n\nGo to https://public.tableau.com/s/, should look like this:",
+              "instructor_notes": ""
+            },
+            {
+              "id": 524536,
+              "key": "74aa0813-a9cc-460a-931d-9bc2824c2801",
+              "title": "Download Tableau Public",
+              "semantic_type": "VideoAtom",
+              "is_public": true,
+              "instructor_notes": "",
+              "video": {
+                "youtube_id": "2bXsg6SKHG8",
+                "china_cdn_id": "2bXsg6SKHG8.mp4"
+              }
+            },
+            {
+              "id": 188722,
+              "key": "b91b1a5b-29ec-41ed-ba70-17502623b8bd",
+              "title": "Installing Tableau",
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "Enter your email, then the installer for Tableau Public will download. Follow the installation instructions for your operating system.\n\nOnce it's installed, move on to the next part and we'll get started working with Tableau.",
+              "instructor_notes": ""
+            },
+            {
+              "id": 531162,
+              "key": "1cefce57-7d1c-4682-97c4-869d3ae544c9",
+              "title": null,
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "# Are you in Business Analyst Nanodegree program or Predictive Analytics for Business Nanodegree program?\n\nIf yes, please see the below instructions. You'll need a license key and to use the Tableau Desktop type of Tableau.\n\nIf not, you may skip the rest of this page.",
+              "instructor_notes": ""
+            },
+            {
+              "id": 524537,
+              "key": "bb32db85-1edd-445c-b854-ca92db01d24f",
+              "title": null,
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "## Installing the Desktop version of Tableau.\n\nTableau Desktop allows you to save locally and work with more data sources. You may begin using Tableau with a trial, but you'll need a license key to continue using the program. If you have yet to receive your license key, please email support@udacity.com to receive your license. \n\nhttps://www.tableau.com/products/desktop",
+              "instructor_notes": ""
+            },
+            {
+              "id": 524540,
+              "key": "20ec6c3c-7af2-4d95-88b9-76ab2e2120d3",
+              "title": "Tableau Desktop Download",
+              "semantic_type": "VideoAtom",
+              "is_public": true,
+              "instructor_notes": "",
+              "video": {
+                "youtube_id": "End96VkLQc4",
+                "china_cdn_id": "End96VkLQc4.mp4"
+              }
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "_deprecated": [
+    {
+      "name": "non_google_url",
+      "reason": "(2016/8/18) Not sure, ask i18n team for reason"
+    },
+    {
+      "name": "non_google_url",
+      "reason": "(2016/8/18) Not sure, ask i18n team for reason"
+    },
+    {
+      "name": "non_google_background_image",
+      "reason": "(2016/8/18) Not sure, ask i18n team for alternative"
+    },
+    {
+      "name": "non_google_url",
+      "reason": "(2016/8/18) Not sure, ask i18n team for reason"
+    },
+    {
+      "name": "non_google_url",
+      "reason": "(2016/8/18) Not sure, ask i18n team for reason"
+    },
+    {
+      "name": "non_google_url",
+      "reason": "(2016/8/18) Not sure, ask i18n team for reason"
+    },
+    {
+      "name": "non_google_url",
+      "reason": "(2016/8/18) Not sure, ask i18n team for reason"
+    },
+    {
+      "name": "non_google_url",
+      "reason": "(2016/8/18) Not sure, ask i18n team for reason"
+    },
+    {
+      "name": "non_google_url",
+      "reason": "(2016/8/18) Not sure, ask i18n team for reason"
+    },
+    {
+      "name": "non_google_url",
+      "reason": "(2016/8/18) Not sure, ask i18n team for reason"
+    },
+    {
+      "name": "non_google_url",
+      "reason": "(2016/8/18) Not sure, ask i18n team for reason"
+    }
+  ]
+}
