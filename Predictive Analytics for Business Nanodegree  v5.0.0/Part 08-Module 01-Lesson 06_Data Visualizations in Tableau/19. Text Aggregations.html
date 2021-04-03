@@ -1,0 +1,375 @@
+<!-- udacity2.0 -->
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Text: Aggregations</title>
+  <link rel="stylesheet" href="../assets/css/bootstrap.min.css">
+  <link rel="stylesheet" href="../assets/css/plyr.css">
+  <link rel="stylesheet" href="../assets/css/katex.min.css">
+  <link rel="stylesheet" href="../assets/css/jquery.mCustomScrollbar.min.css">
+  <link rel="stylesheet" href="../assets/css/styles.css">
+  <link rel="shortcut icon" type="image/png" href="../assets/img/udacimak.png" />
+</head>
+
+<body>
+  <div class="wrapper">
+    <nav id="sidebar">
+  <div class="sidebar-header">
+    <h3>Data Visualizations in Tableau</h3>
+  </div>
+
+  <ul class="sidebar-list list-unstyled CTAs">
+    <li>
+      <a href="../index.html" class="article">Back to Home</a>
+    </li>
+  </ul>
+
+  <ul class="sidebar-list list-unstyled components">
+    <li class="">
+      <a href="01. New to Data Viz.html">01. New to Data Viz?</a>
+    </li>
+    <li class="">
+      <a href="02. Video What is Tableau.html">02. Video: What is Tableau?</a>
+    </li>
+    <li class="">
+      <a href="03. Text Installing Tableau.html">03. Text: Installing Tableau</a>
+    </li>
+    <li class="">
+      <a href="04. Video How This Lesson Is Structured.html">04. Video: How This Lesson Is Structured?</a>
+    </li>
+    <li class="">
+      <a href="05. Text Outline of Topics Covered.html">05. Text: Outline of Topics Covered</a>
+    </li>
+    <li class="">
+      <a href="06. Commas vs Periods.html">06. Commas vs Periods</a>
+    </li>
+    <li class="">
+      <a href="07. Video Connecting to Data.html">07. Video: Connecting to Data</a>
+    </li>
+    <li class="">
+      <a href="08. Text Connecting to Data Recap.html">08. Text: Connecting to Data Recap</a>
+    </li>
+    <li class="">
+      <a href="09. Quiz Connecting to Data.html">09. Quiz: Connecting to Data</a>
+    </li>
+    <li class="">
+      <a href="10. Video Combining Data.html">10. Video: Combining Data</a>
+    </li>
+    <li class="">
+      <a href="11. Text Combining Data Recap.html">11. Text: Combining Data Recap</a>
+    </li>
+    <li class="">
+      <a href="12. Quiz Combining Data.html">12. Quiz: Combining Data</a>
+    </li>
+    <li class="">
+      <a href="13. Video What Can You Create In Tableau.html">13. Video: What Can You Create In Tableau?</a>
+    </li>
+    <li class="">
+      <a href="14. Video Worksheets.html">14. Video: Worksheets</a>
+    </li>
+    <li class="">
+      <a href="15. Text Worksheets.html">15. Text: Worksheets</a>
+    </li>
+    <li class="">
+      <a href="16. Quiz Worksheets.html">16. Quiz: Worksheets</a>
+    </li>
+    <li class="">
+      <a href="17. Text Saving to Tableau Public.html">17. Text: Saving to Tableau Public</a>
+    </li>
+    <li class="">
+      <a href="18. Video Aggregations.html">18. Video: Aggregations</a>
+    </li>
+    <li class="">
+      <a href="19. Text Aggregations.html">19. Text: Aggregations</a>
+    </li>
+    <li class="">
+      <a href="20. Quiz Aggregations.html">20. Quiz: Aggregations</a>
+    </li>
+    <li class="">
+      <a href="21. Video Hierarchies.html">21. Video: Hierarchies</a>
+    </li>
+    <li class="">
+      <a href="22. Text Hierarchies.html">22. Text: Hierarchies</a>
+    </li>
+    <li class="">
+      <a href="23. Quiz Hierarchies.html">23. Quiz: Hierarchies</a>
+    </li>
+    <li class="">
+      <a href="24. Video Marks &amp; Filters.html">24. Video: Marks &amp; Filters</a>
+    </li>
+    <li class="">
+      <a href="25. Text Marks &amp; Filters I.html">25. Text: Marks &amp; Filters I</a>
+    </li>
+    <li class="">
+      <a href="26. Quiz Marks &amp; Filters I.html">26. Quiz: Marks &amp; Filters I</a>
+    </li>
+    <li class="">
+      <a href="27. Text Marks &amp; Filters II.html">27. Text: Marks &amp; Filters II</a>
+    </li>
+    <li class="">
+      <a href="28. Quiz Marks &amp; Filters II.html">28. Quiz: Marks &amp; Filters II</a>
+    </li>
+    <li class="">
+      <a href="29. Video Show Me.html">29. Video: Show Me</a>
+    </li>
+    <li class="">
+      <a href="30. Text Show Me.html">30. Text: Show Me</a>
+    </li>
+    <li class="">
+      <a href="31. Quiz Show Me.html">31. Quiz: Show Me</a>
+    </li>
+    <li class="">
+      <a href="32. Video Small Multiples &amp; Dual Axis.html">32. Video: Small Multiples &amp; Dual Axis</a>
+    </li>
+    <li class="">
+      <a href="33. Text Small Multiples &amp; Dual Axis.html">33. Text: Small Multiples &amp; Dual Axis</a>
+    </li>
+    <li class="">
+      <a href="34. Text Map Configuration.html">34. Text: Map Configuration</a>
+    </li>
+    <li class="">
+      <a href="35. Quiz Small Multiples.html">35. Quiz: Small Multiples</a>
+    </li>
+    <li class="">
+      <a href="36. Quiz Dual Axis.html">36. Quiz: Dual Axis</a>
+    </li>
+    <li class="">
+      <a href="37. Video Groups &amp; Sets.html">37. Video: Groups &amp; Sets</a>
+    </li>
+    <li class="">
+      <a href="38. Text Groups &amp; Sets.html">38. Text: Groups &amp; Sets</a>
+    </li>
+    <li class="">
+      <a href="39. Quiz Groups.html">39. Quiz: Groups</a>
+    </li>
+    <li class="">
+      <a href="40. Quiz Sets.html">40. Quiz: Sets</a>
+    </li>
+    <li class="">
+      <a href="41. Video Calculated Fields.html">41. Video: Calculated Fields</a>
+    </li>
+    <li class="">
+      <a href="42. Text Calculated Fields.html">42. Text: Calculated Fields</a>
+    </li>
+    <li class="">
+      <a href="43. Quiz Calculated Fields.html">43. Quiz: Calculated Fields</a>
+    </li>
+    <li class="">
+      <a href="44. Video Table Calculations.html">44. Video: Table Calculations</a>
+    </li>
+    <li class="">
+      <a href="45. Text Table Calculations.html">45. Text: Table Calculations</a>
+    </li>
+    <li class="">
+      <a href="46. Quiz Table Calculations.html">46. Quiz: Table Calculations</a>
+    </li>
+    <li class="">
+      <a href="47. Text Recap.html">47. Text: Recap</a>
+    </li>
+    <li class="">
+      <a href="48. Video What&#x27;s Next.html">48. Video: What&#x27;s Next?</a>
+    </li>
+  </ul>
+
+  <ul class="sidebar-list list-unstyled CTAs">
+    <li>
+      <a href="../index.html" class="article">Back to Home</a>
+    </li>
+  </ul>
+</nav>
+
+    <div id="content">
+      <header class="container-fluild header">
+        <div class="container">
+          <div class="row">
+            <div class="col-12">
+              <div class="align-items-middle">
+                <button type="button" id="sidebarCollapse" class="btn btn-toggle-sidebar">
+                  <div></div>
+                  <div></div>
+                  <div></div>
+                </button>
+
+                <h1 style="display: inline-block">19. Text: Aggregations</h1>
+              </div>
+            </div>
+          </div>
+        </div>
+      </header>
+
+      <main class="container">
+        <div class="row">
+          <div class="col-12">
+            <div class="ud-atom">
+  <h3></h3>
+  <div>
+  <h1 id="text-recap-of-the-previous-video">Text Recap of the Previous Video</h1>
+<h2 id="aggregation-and-granularity">Aggregation and Granularity</h2>
+<p>Let's start making some more complex plots. The first thing we'll do is create a simple scatter plot to see how some measures are related. I expect that the more items sold, the higher the profit will be, so let’s look at profit vs quantity.</p>
+<p>Try it out yourself. You see just one point! What’s going on? Why isn’t there a point for each record in the data set? </p>
+<h2 id="aggregation">Aggregation</h2>
+<p>When I was first learning Tableau, I couldn't understand why I was only seeing one point when I thought I'd see a bunch of points. The answer is how Tableau aggregates the data. You should see in the pills that Tableau is taking the sums of Quantity and Profit. This is called an aggregation. It is summing Quantity and Profit over all records in the data set, this is why you are seeing only one dot. There is one sum over all the records for Quantity and one sum over all the records for Profit.</p>
+<p>The kind of aggregation you're doing can be selected by right clicking on the pill or clicking the triangle. To change the aggregation method, select Measure then Sum, Average, Median, and others.</p>
+</div>
+
+</div>
+<div class="divider"></div><div class="ud-atom">
+  <h3></h3>
+  <div>
+  <figure class="figure">
+    <img src="img/aggregation-menu.png" alt="" class="img img-fluid">
+    <figcaption class="figure-caption">
+      
+    </figcaption>
+  </figure>
+</div>
+
+
+</div>
+<div class="divider"></div><div class="ud-atom">
+  <h3></h3>
+  <div>
+  <h2 id="granularity">Granularity</h2>
+<p>To get more points, you need to increase the granularity. That means you need to aggregate not over all the records, but over something like categories. For instance, you can drag Market to “Detail” in the Marks card.</p>
+<p>You should see seven dots, one for each value in <strong>Market</strong>. You’ve increased the granularity, Tableau is aggregating the data over each market now. You get sums of Quantity and Profit for each one. The aggregation hasn't really changed. It's still the sum of quantity and profit, that sum is just now being calculated at a different granularity.</p>
+</div>
+
+</div>
+<div class="divider"></div><div class="ud-atom">
+  <h3></h3>
+  <div>
+  <figure class="figure">
+    <img src="img/market-granularity.png" alt="" class="img img-fluid">
+    <figcaption class="figure-caption">
+      
+    </figcaption>
+  </figure>
+</div>
+
+
+</div>
+<div class="divider"></div><div class="ud-atom">
+  <h3></h3>
+  <div>
+  <p>You can hover over a point to see which group it belongs to and the data values.</p>
+<p>You can change the level of granularity by dragging dimensions to the boxes in the Marks card. The level of granularity is set by the total number of groups you have in your dimensions. The <strong>Category</strong> field has three items. Drag it to "Color". You should now you see 21 dots. Each record can be in one of 3 categories and in one of 7 markets, so you have 7 x 3 = 21 groups over all.</p>
+</div>
+
+</div>
+<div class="divider"></div><div class="ud-atom">
+  <h3></h3>
+  <div>
+  <figure class="figure">
+    <img src="img/market-and-colors.png" alt="" class="img img-fluid">
+    <figcaption class="figure-caption">
+      
+    </figcaption>
+  </figure>
+</div>
+
+
+</div>
+<div class="divider"></div><div class="ud-atom">
+  <h3></h3>
+  <div>
+  <p>Now remove Market, you should see three dots, one for each item in <strong>Category</strong>. You've changed the level of granularity again, now the sums or Profit and Quantity are being aggregated over values in <strong>Category</strong>.</p>
+</div>
+
+</div>
+<div class="divider"></div>
+          </div>
+
+          <div class="col-12">
+            <p class="text-right">
+              <a href="20. Quiz Aggregations.html" class="btn btn-outline-primary mt-4" role="button">Next Concept</a>
+            </p>
+          </div>
+        </div>
+      </main>
+
+      <footer class="footer">
+        <div class="container">
+          <div class="row">
+            <div class="col-12">
+              <p class="text-center">
+                <a href="https://us-udacity.github.io/" target="_blank">【udacity2.0 】If you need more courses, please add wechat：udacity6</a>
+              </p>
+            </div>
+          </div>
+        </div>
+      </footer>
+    </div>
+  </div>
+
+
+  <script src="../assets/js/jquery-3.3.1.min.js"></script>
+  <script src="../assets/js/plyr.polyfilled.min.js"></script>
+  <script src="../assets/js/bootstrap.min.js"></script>
+  <script src="../assets/js/jquery.mCustomScrollbar.concat.min.js"></script>
+  <script src="../assets/js/katex.min.js"></script>
+  <script>
+    // Initialize Plyr video players
+    const players = Array.from(document.querySelectorAll('video')).map(p => new Plyr(p));
+
+    // render math equations
+    let elMath = document.getElementsByClassName('mathquill');
+    for (let i = 0, len = elMath.length; i < len; i += 1) {
+      const el = elMath[i];
+
+      katex.render(el.textContent, el, {
+        throwOnError: false
+      });
+    }
+
+    // this hack will make sure Bootstrap tabs work when using Handlebars
+    if ($('#question-tabs').length && $('#user-answer-tabs').length) {
+      $("#question-tabs a.nav-link").on('click', function () {
+        $("#question-tab-contents .tab-pane").hide();
+        $($(this).attr("href")).show();
+      });
+      $("#user-answer-tabs a.nav-link").on('click', function () {
+        $("#user-answer-tab-contents .tab-pane").hide();
+        $($(this).attr("href")).show();
+      });
+    } else {
+      $("a.nav-link").on('click', function () {
+        $(".tab-pane").hide();
+        $($(this).attr("href")).show();
+      });
+    }
+
+    // side bar events
+    $(document).ready(function () {
+      $("#sidebar").mCustomScrollbar({
+        theme: "minimal"
+      });
+
+      $('#sidebarCollapse').on('click', function () {
+        $('#sidebar, #content').toggleClass('active');
+        $('.collapse.in').toggleClass('in');
+        $('a[aria-expanded=true]').attr('aria-expanded', 'false');
+      });
+
+      // scroll to first video on page loading
+      if ($('video').length) {
+        $('html,body').animate({ scrollTop: $('div.plyr').prev().offset().top});
+      }
+
+      // auto play first video: this may not work with chrome/safari due to autoplay policy
+      if (players && players.length > 0) {
+        players[0].play();
+      }
+
+      // scroll sidebar to current concept
+      const currentInSideBar = $( "ul.sidebar-list.components li a:contains('19. Text: Aggregations')" )
+      currentInSideBar.css( "text-decoration", "underline" );
+      $("#sidebar").mCustomScrollbar('scrollTo', currentInSideBar);
+    });
+  </script>
+</body>
+
+</html>

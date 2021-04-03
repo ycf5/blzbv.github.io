@@ -1,0 +1,88 @@
+WEBVTT
+Kind: captions
+Language: en
+
+00:00:00.000 --> 00:00:02.950
+Table calculations are performed from the results of a view,
+
+00:00:02.950 --> 00:00:07.070
+like showing the percent of total sales that comes from a particular region.
+
+00:00:07.070 --> 00:00:11.990
+Let's use a table calculation to show the percent of sales that comes from each market.
+
+00:00:11.990 --> 00:00:14.615
+First, let's plot the sum of profit by market.
+
+00:00:14.615 --> 00:00:17.245
+Now by right clicking on sum profit,
+
+00:00:17.245 --> 00:00:19.964
+you can see add table calculation.
+
+00:00:19.964 --> 00:00:22.769
+You can manually set the table calculation from
+
+00:00:22.769 --> 00:00:27.300
+this window or you can use the quick table calculation from the drop down.
+
+00:00:27.300 --> 00:00:31.065
+Let's add a quick table calculation to show the percent of total.
+
+00:00:31.065 --> 00:00:37.859
+When we do so, we can quickly see that APAC represents nearly 30 percent of total sales.
+
+00:00:37.859 --> 00:00:39.079
+Let's try one more example.
+
+00:00:39.079 --> 00:00:41.960
+Let's use a table calculation to show quarterly sales growth.
+
+00:00:41.960 --> 00:00:44.609
+To start, let's create a line plot of sales by
+
+00:00:44.609 --> 00:00:48.579
+adding sales to the rows and order date to the columns.
+
+00:00:48.579 --> 00:00:52.100
+Now let's drill down to quarters by clicking this plus sign.
+
+00:00:52.100 --> 00:00:55.230
+You can see that this creates four different plots.
+
+00:00:55.229 --> 00:00:58.199
+This is because the order date is currently a discrete variable.
+
+00:00:58.200 --> 00:01:00.923
+Let's change this by right clicking on order date,
+
+00:01:00.923 --> 00:01:05.995
+selecting convert to continuous and then re adding it to the column shelf.
+
+00:01:05.995 --> 00:01:08.285
+Now we're ready to add the table calculation.
+
+00:01:08.284 --> 00:01:10.049
+Let's right click on sum of sales,
+
+00:01:10.049 --> 00:01:14.340
+select quick table calculation and click on percent difference.
+
+00:01:14.340 --> 00:01:17.174
+Now we see the percent difference from quarter to quarter.
+
+00:01:17.174 --> 00:01:18.959
+Perhaps, we want to get even more granular
+
+00:01:18.959 --> 00:01:21.614
+with our aligned plot by drilling down to week.
+
+00:01:21.614 --> 00:01:25.530
+As you can see the data gets pretty erratic at that level of granularity.
+
+00:01:25.530 --> 00:01:27.719
+We can use a table calculation to use
+
+00:01:27.719 --> 00:01:30.409
+a moving average to make the graph more comprehensible.
+

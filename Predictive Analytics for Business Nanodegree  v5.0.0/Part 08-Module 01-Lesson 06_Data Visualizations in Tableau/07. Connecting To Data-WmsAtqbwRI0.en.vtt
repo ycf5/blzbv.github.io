@@ -1,0 +1,97 @@
+WEBVTT
+Kind: captions
+Language: en
+
+00:00:00.000 --> 00:00:02.314
+Tableau can connect to many data sources.
+
+00:00:02.314 --> 00:00:04.714
+You will notice here in the connect pane,
+
+00:00:04.714 --> 00:00:08.474
+we have a long list of connections to all sorts of data sources,
+
+00:00:08.474 --> 00:00:10.349
+whether it's local files,
+
+00:00:10.349 --> 00:00:13.084
+databases on-premises, or in the cloud.
+
+00:00:13.085 --> 00:00:14.430
+If you're using Tableau Public,
+
+00:00:14.429 --> 00:00:16.469
+you'll see fewer add source options.
+
+00:00:16.469 --> 00:00:19.960
+Today we'll be using the global superstore excel file,
+
+00:00:19.960 --> 00:00:22.035
+which you can find in the lesson resources.
+
+00:00:22.035 --> 00:00:26.935
+Superstore is a dataset of sales for a global retail chain that sells furniture,
+
+00:00:26.934 --> 00:00:29.434
+office supplies, and technology goods.
+
+00:00:29.434 --> 00:00:32.929
+Each row of data represents a single item in a transaction.
+
+00:00:32.929 --> 00:00:35.539
+To connect to the superstore file in Tableau,
+
+00:00:35.539 --> 00:00:40.200
+click on Excel and navigate to where you downloaded the file.
+
+00:00:40.200 --> 00:00:41.775
+Now you see the data source page.
+
+00:00:41.774 --> 00:00:44.894
+On the left you can see all the sheets in the Excel file.
+
+00:00:44.895 --> 00:00:48.240
+Sheets in Excel are treated the same as tables and database,
+
+00:00:48.240 --> 00:00:52.135
+and we can choose to connect to a single table or join multiple tables.
+
+00:00:52.134 --> 00:00:54.914
+Simply drag a sheet onto the canvas.
+
+00:00:54.914 --> 00:00:58.189
+Tables can be renamed simply by double clicking on the name.
+
+00:00:58.189 --> 00:01:01.030
+And we can see the data down here in the grid.
+
+00:01:01.030 --> 00:01:02.884
+There's a lot we can do on this screen.
+
+00:01:02.884 --> 00:01:07.200
+For example, we can rename variables by double clicking on the titles.
+
+00:01:07.200 --> 00:01:10.225
+We can change the variable types by clicking on this icon here,
+
+00:01:10.224 --> 00:01:13.554
+and there's a drop-down for more advanced options.
+
+00:01:13.555 --> 00:01:15.915
+A workbook can have multiple data sources.
+
+00:01:15.915 --> 00:01:20.570
+If you click Add here, you can add another data source as a cross database joint.
+
+00:01:20.569 --> 00:01:23.984
+If you want to add another data source entirely,
+
+00:01:23.984 --> 00:01:27.239
+you can go up here to Data, New Data Source.
+
+00:01:27.239 --> 00:01:28.619
+This will allow you to access
+
+00:01:28.620 --> 00:01:31.350
+multiple data sources as you're creating your visualizations.
+

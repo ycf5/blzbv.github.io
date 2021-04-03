@@ -1,0 +1,192 @@
+<!-- udacity2.0 -->
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Project Details</title>
+  <link rel="stylesheet" href="../assets/css/bootstrap.min.css">
+  <link rel="stylesheet" href="../assets/css/plyr.css">
+  <link rel="stylesheet" href="../assets/css/katex.min.css">
+  <link rel="stylesheet" href="../assets/css/jquery.mCustomScrollbar.min.css">
+  <link rel="stylesheet" href="../assets/css/styles.css">
+  <link rel="shortcut icon" type="image/png" href="../assets/img/udacimak.png" />
+</head>
+
+<body>
+  <div class="wrapper">
+    <nav id="sidebar">
+  <div class="sidebar-header">
+    <h3>Segmentation Practice Project</h3>
+  </div>
+
+  <ul class="sidebar-list list-unstyled CTAs">
+    <li>
+      <a href="../index.html" class="article">Back to Home</a>
+    </li>
+  </ul>
+
+  <ul class="sidebar-list list-unstyled components">
+    <li class="">
+      <a href="01. Project Details.html">01. Project Details</a>
+    </li>
+    <li class="">
+      <a href="02. Project Solution.html">02. Project Solution</a>
+    </li>
+    <li class="">
+      <a href="03. Supporting Materials.html">03. Supporting Materials</a>
+    </li>
+  </ul>
+
+  <ul class="sidebar-list list-unstyled CTAs">
+    <li>
+      <a href="../index.html" class="article">Back to Home</a>
+    </li>
+  </ul>
+</nav>
+
+    <div id="content">
+      <header class="container-fluild header">
+        <div class="container">
+          <div class="row">
+            <div class="col-12">
+              <div class="align-items-middle">
+                <button type="button" id="sidebarCollapse" class="btn btn-toggle-sidebar">
+                  <div></div>
+                  <div></div>
+                  <div></div>
+                </button>
+
+                <h1 style="display: inline-block">01. Project Details</h1>
+              </div>
+            </div>
+          </div>
+        </div>
+      </header>
+
+      <main class="container">
+        <div class="row">
+          <div class="col-12">
+            <div class="ud-atom">
+  <h3></h3>
+  <div>
+  <h3 id="project-overview">Project Overview</h3>
+<p>You work for a retail store chain in the United States of America. The company is thinking of expanding to other countries and want to figure out which countries are similar economically, demographically, education, and environment to the United States of America. </p>
+<p>Your manager has asked you to segment the countries of the world based on various economic, demographic, education, and environment data. From this you should be able to provide a list of countries that are similar to the United States. This will be the “short list” for further consideration by management.</p>
+<p>You have the following information to work with:</p>
+<p>A set of various data taken from the <a href="http://databank.worldbank.org/data/databases.aspx?qterm=&pagenumber=1" rel="noopener noreferrer" target="_blank">World Bank web site</a>. A clean version of this data is included with the supporting materials.</p>
+<h3 id="steps-to-success">Steps to Success</h3>
+<h4 id="step-1-key-decisions">Step 1. Key Decisions</h4>
+<p>Determine the key business questions and specific types of data you need to look at in order to complete this analysis.</p>
+<h4 id="step-2-explore-and-cleanup-the-data">Step 2. Explore and Cleanup the Data</h4>
+<p>Clean up the data in the provided CSV file. The data contains 215 countries with 77 variables. </p>
+<p>Not all of the countries have complete data and not all of the variables may be applicable for the analysis. Based on the request from your manager, you will need to:</p>
+<ul>
+<li>Remove countries with a high number of missing data points (&gt;25). HINT: There should be 144 countries left.</li>
+<li>Remove variables that are not relevant for the analysis (any variable not under the economic, education, demographic, or environment categories). HINT: You should remove 9 variables.</li>
+</ul>
+<h4 id="step-3-determine-clusters-and-methodology">Step 3. Determine Clusters and Methodology</h4>
+<p>Your manager would like to see four clusters in the results. You also need to determine which clustering method provides the optimal clusters.</p>
+<h4 id="step-4-run-the-data-and-validate">Step 4. Run the Data and Validate</h4>
+<p>After you run the model with the data you’ve decided to use, append the Cluster IDs back to the data in order to visualize the data.</p>
+<p>Feel free to use any visualization software you want, such as Tableau.</p>
+<h4 id="step-5-recommendation">Step 5. Recommendation</h4>
+<p>Provide your recommendations and justify why your countries should considered to be explored first for international expansion.</p>
+</div>
+
+</div>
+<div class="divider"></div>
+          </div>
+
+          <div class="col-12">
+            <p class="text-right">
+              <a href="02. Project Solution.html" class="btn btn-outline-primary mt-4" role="button">Next Concept</a>
+            </p>
+          </div>
+        </div>
+      </main>
+
+      <footer class="footer">
+        <div class="container">
+          <div class="row">
+            <div class="col-12">
+              <p class="text-center">
+                <a href="https://us-udacity.github.io/" target="_blank">【udacity2.0 】If you need more courses, please add wechat：udacity6</a>
+              </p>
+            </div>
+          </div>
+        </div>
+      </footer>
+    </div>
+  </div>
+
+
+  <script src="../assets/js/jquery-3.3.1.min.js"></script>
+  <script src="../assets/js/plyr.polyfilled.min.js"></script>
+  <script src="../assets/js/bootstrap.min.js"></script>
+  <script src="../assets/js/jquery.mCustomScrollbar.concat.min.js"></script>
+  <script src="../assets/js/katex.min.js"></script>
+  <script>
+    // Initialize Plyr video players
+    const players = Array.from(document.querySelectorAll('video')).map(p => new Plyr(p));
+
+    // render math equations
+    let elMath = document.getElementsByClassName('mathquill');
+    for (let i = 0, len = elMath.length; i < len; i += 1) {
+      const el = elMath[i];
+
+      katex.render(el.textContent, el, {
+        throwOnError: false
+      });
+    }
+
+    // this hack will make sure Bootstrap tabs work when using Handlebars
+    if ($('#question-tabs').length && $('#user-answer-tabs').length) {
+      $("#question-tabs a.nav-link").on('click', function () {
+        $("#question-tab-contents .tab-pane").hide();
+        $($(this).attr("href")).show();
+      });
+      $("#user-answer-tabs a.nav-link").on('click', function () {
+        $("#user-answer-tab-contents .tab-pane").hide();
+        $($(this).attr("href")).show();
+      });
+    } else {
+      $("a.nav-link").on('click', function () {
+        $(".tab-pane").hide();
+        $($(this).attr("href")).show();
+      });
+    }
+
+    // side bar events
+    $(document).ready(function () {
+      $("#sidebar").mCustomScrollbar({
+        theme: "minimal"
+      });
+
+      $('#sidebarCollapse').on('click', function () {
+        $('#sidebar, #content').toggleClass('active');
+        $('.collapse.in').toggleClass('in');
+        $('a[aria-expanded=true]').attr('aria-expanded', 'false');
+      });
+
+      // scroll to first video on page loading
+      if ($('video').length) {
+        $('html,body').animate({ scrollTop: $('div.plyr').prev().offset().top});
+      }
+
+      // auto play first video: this may not work with chrome/safari due to autoplay policy
+      if (players && players.length > 0) {
+        players[0].play();
+      }
+
+      // scroll sidebar to current concept
+      const currentInSideBar = $( "ul.sidebar-list.components li a:contains('01. Project Details')" )
+      currentInSideBar.css( "text-decoration", "underline" );
+      $("#sidebar").mCustomScrollbar('scrollTo', currentInSideBar);
+    });
+  </script>
+</body>
+
+</html>

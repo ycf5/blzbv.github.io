@@ -1,0 +1,575 @@
+<!-- udacity2.0 -->
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Quiz: Connecting to Data</title>
+  <link rel="stylesheet" href="../assets/css/bootstrap.min.css">
+  <link rel="stylesheet" href="../assets/css/plyr.css">
+  <link rel="stylesheet" href="../assets/css/katex.min.css">
+  <link rel="stylesheet" href="../assets/css/jquery.mCustomScrollbar.min.css">
+  <link rel="stylesheet" href="../assets/css/styles.css">
+  <link rel="shortcut icon" type="image/png" href="../assets/img/udacimak.png" />
+</head>
+
+<body>
+  <div class="wrapper">
+    <nav id="sidebar">
+  <div class="sidebar-header">
+    <h3>Data Visualizations in Tableau</h3>
+  </div>
+
+  <ul class="sidebar-list list-unstyled CTAs">
+    <li>
+      <a href="../index.html" class="article">Back to Home</a>
+    </li>
+  </ul>
+
+  <ul class="sidebar-list list-unstyled components">
+    <li class="">
+      <a href="01. New to Data Viz.html">01. New to Data Viz?</a>
+    </li>
+    <li class="">
+      <a href="02. Video What is Tableau.html">02. Video: What is Tableau?</a>
+    </li>
+    <li class="">
+      <a href="03. Text Installing Tableau.html">03. Text: Installing Tableau</a>
+    </li>
+    <li class="">
+      <a href="04. Video How This Lesson Is Structured.html">04. Video: How This Lesson Is Structured?</a>
+    </li>
+    <li class="">
+      <a href="05. Text Outline of Topics Covered.html">05. Text: Outline of Topics Covered</a>
+    </li>
+    <li class="">
+      <a href="06. Commas vs Periods.html">06. Commas vs Periods</a>
+    </li>
+    <li class="">
+      <a href="07. Video Connecting to Data.html">07. Video: Connecting to Data</a>
+    </li>
+    <li class="">
+      <a href="08. Text Connecting to Data Recap.html">08. Text: Connecting to Data Recap</a>
+    </li>
+    <li class="">
+      <a href="09. Quiz Connecting to Data.html">09. Quiz: Connecting to Data</a>
+    </li>
+    <li class="">
+      <a href="10. Video Combining Data.html">10. Video: Combining Data</a>
+    </li>
+    <li class="">
+      <a href="11. Text Combining Data Recap.html">11. Text: Combining Data Recap</a>
+    </li>
+    <li class="">
+      <a href="12. Quiz Combining Data.html">12. Quiz: Combining Data</a>
+    </li>
+    <li class="">
+      <a href="13. Video What Can You Create In Tableau.html">13. Video: What Can You Create In Tableau?</a>
+    </li>
+    <li class="">
+      <a href="14. Video Worksheets.html">14. Video: Worksheets</a>
+    </li>
+    <li class="">
+      <a href="15. Text Worksheets.html">15. Text: Worksheets</a>
+    </li>
+    <li class="">
+      <a href="16. Quiz Worksheets.html">16. Quiz: Worksheets</a>
+    </li>
+    <li class="">
+      <a href="17. Text Saving to Tableau Public.html">17. Text: Saving to Tableau Public</a>
+    </li>
+    <li class="">
+      <a href="18. Video Aggregations.html">18. Video: Aggregations</a>
+    </li>
+    <li class="">
+      <a href="19. Text Aggregations.html">19. Text: Aggregations</a>
+    </li>
+    <li class="">
+      <a href="20. Quiz Aggregations.html">20. Quiz: Aggregations</a>
+    </li>
+    <li class="">
+      <a href="21. Video Hierarchies.html">21. Video: Hierarchies</a>
+    </li>
+    <li class="">
+      <a href="22. Text Hierarchies.html">22. Text: Hierarchies</a>
+    </li>
+    <li class="">
+      <a href="23. Quiz Hierarchies.html">23. Quiz: Hierarchies</a>
+    </li>
+    <li class="">
+      <a href="24. Video Marks &amp; Filters.html">24. Video: Marks &amp; Filters</a>
+    </li>
+    <li class="">
+      <a href="25. Text Marks &amp; Filters I.html">25. Text: Marks &amp; Filters I</a>
+    </li>
+    <li class="">
+      <a href="26. Quiz Marks &amp; Filters I.html">26. Quiz: Marks &amp; Filters I</a>
+    </li>
+    <li class="">
+      <a href="27. Text Marks &amp; Filters II.html">27. Text: Marks &amp; Filters II</a>
+    </li>
+    <li class="">
+      <a href="28. Quiz Marks &amp; Filters II.html">28. Quiz: Marks &amp; Filters II</a>
+    </li>
+    <li class="">
+      <a href="29. Video Show Me.html">29. Video: Show Me</a>
+    </li>
+    <li class="">
+      <a href="30. Text Show Me.html">30. Text: Show Me</a>
+    </li>
+    <li class="">
+      <a href="31. Quiz Show Me.html">31. Quiz: Show Me</a>
+    </li>
+    <li class="">
+      <a href="32. Video Small Multiples &amp; Dual Axis.html">32. Video: Small Multiples &amp; Dual Axis</a>
+    </li>
+    <li class="">
+      <a href="33. Text Small Multiples &amp; Dual Axis.html">33. Text: Small Multiples &amp; Dual Axis</a>
+    </li>
+    <li class="">
+      <a href="34. Text Map Configuration.html">34. Text: Map Configuration</a>
+    </li>
+    <li class="">
+      <a href="35. Quiz Small Multiples.html">35. Quiz: Small Multiples</a>
+    </li>
+    <li class="">
+      <a href="36. Quiz Dual Axis.html">36. Quiz: Dual Axis</a>
+    </li>
+    <li class="">
+      <a href="37. Video Groups &amp; Sets.html">37. Video: Groups &amp; Sets</a>
+    </li>
+    <li class="">
+      <a href="38. Text Groups &amp; Sets.html">38. Text: Groups &amp; Sets</a>
+    </li>
+    <li class="">
+      <a href="39. Quiz Groups.html">39. Quiz: Groups</a>
+    </li>
+    <li class="">
+      <a href="40. Quiz Sets.html">40. Quiz: Sets</a>
+    </li>
+    <li class="">
+      <a href="41. Video Calculated Fields.html">41. Video: Calculated Fields</a>
+    </li>
+    <li class="">
+      <a href="42. Text Calculated Fields.html">42. Text: Calculated Fields</a>
+    </li>
+    <li class="">
+      <a href="43. Quiz Calculated Fields.html">43. Quiz: Calculated Fields</a>
+    </li>
+    <li class="">
+      <a href="44. Video Table Calculations.html">44. Video: Table Calculations</a>
+    </li>
+    <li class="">
+      <a href="45. Text Table Calculations.html">45. Text: Table Calculations</a>
+    </li>
+    <li class="">
+      <a href="46. Quiz Table Calculations.html">46. Quiz: Table Calculations</a>
+    </li>
+    <li class="">
+      <a href="47. Text Recap.html">47. Text: Recap</a>
+    </li>
+    <li class="">
+      <a href="48. Video What&#x27;s Next.html">48. Video: What&#x27;s Next?</a>
+    </li>
+  </ul>
+
+  <ul class="sidebar-list list-unstyled CTAs">
+    <li>
+      <a href="../index.html" class="article">Back to Home</a>
+    </li>
+  </ul>
+</nav>
+
+    <div id="content">
+      <header class="container-fluild header">
+        <div class="container">
+          <div class="row">
+            <div class="col-12">
+              <div class="align-items-middle">
+                <button type="button" id="sidebarCollapse" class="btn btn-toggle-sidebar">
+                  <div></div>
+                  <div></div>
+                  <div></div>
+                </button>
+
+                <h1 style="display: inline-block">09. Quiz: Connecting to Data</h1>
+              </div>
+            </div>
+          </div>
+        </div>
+      </header>
+
+      <main class="container">
+        <div class="row">
+          <div class="col-12">
+            <div class="ud-atom">
+  <h3></h3>
+  <div>
+  <h2 id="connecting-to-data">Connecting to data</h2>
+<p>Time to get started using Tableau. The first step is to load some data.</p>
+<p>I’ve provided a data set you'll use for the rest of this lesson. The data set consists of transaction records for the Global Superstore, as well as returns, and a list of the members of the sales team. You can find the Excel file in the Resources, go ahead and download it.</p>
+<p><center><a href="https://d17h27t6h515a5.cloudfront.net/topher/2016/December/5849d710_global-superstore/global-superstore.xlsx" target="_blank"><button style="box-sizing: border-box; border-radius: 4px; background: #02B3E4; border: none; height: 44px; padding: 0 25px; color: white; cursor: pointer; font-family: Open Sans,sans-serif; display: inline-block; border: none; font-size: 12px; letter-spacing: 1px; font-weight: 600; text-transform: uppercase;">Download Data</button></a></center></p>
+<p>Let's get started!</p>
+</div>
+
+</div>
+<div class="divider"></div><div class="ud-atom">
+  <h3></h3>
+  <div>
+  <div>
+    <h4>Task Description:</h4>
+    <p>Tasks to complete:</p>
+  </div>
+
+  <form>
+    <fieldset>
+      <legend>Task List:</legend>
+
+      <div>
+        <input type="checkbox" id="f2806a04-d1ad-4707-851a-c8aec38d5407--0">
+        <label for="f2806a04-d1ad-4707-851a-c8aec38d5407--0"><p>Download the data.</p></label>
+      </div>
+      <div>
+        <input type="checkbox" id="f2806a04-d1ad-4707-851a-c8aec38d5407--1">
+        <label for="f2806a04-d1ad-4707-851a-c8aec38d5407--1"><p>Connect to the dataset in Tableau.</p></label>
+      </div>
+      <div>
+        <input type="checkbox" id="f2806a04-d1ad-4707-851a-c8aec38d5407--2">
+        <label for="f2806a04-d1ad-4707-851a-c8aec38d5407--2"><p>Drag in the <strong>Orders</strong> Table.</p></label>
+      </div>
+      <div>
+        <input type="checkbox" id="f2806a04-d1ad-4707-851a-c8aec38d5407--3">
+        <label for="f2806a04-d1ad-4707-851a-c8aec38d5407--3"><p>Quiz 1 below.</p></label>
+      </div>
+      <div>
+        <input type="checkbox" id="f2806a04-d1ad-4707-851a-c8aec38d5407--4">
+        <label for="f2806a04-d1ad-4707-851a-c8aec38d5407--4"><p>Change <strong>Row ID</strong> to a <code>String</code>.</p></label>
+      </div>
+      <div>
+        <input type="checkbox" id="f2806a04-d1ad-4707-851a-c8aec38d5407--5">
+        <label for="f2806a04-d1ad-4707-851a-c8aec38d5407--5"><p>Split the <strong>Order ID</strong> into three parts.</p></label>
+      </div>
+      <div>
+        <input type="checkbox" id="f2806a04-d1ad-4707-851a-c8aec38d5407--6">
+        <label for="f2806a04-d1ad-4707-851a-c8aec38d5407--6"><p>Quiz 2 below.</p></label>
+      </div>
+      <div>
+        <input type="checkbox" id="f2806a04-d1ad-4707-851a-c8aec38d5407--7">
+        <label for="f2806a04-d1ad-4707-851a-c8aec38d5407--7"><p>Use <code>View Data</code> to look at the <strong>People</strong> and <strong>Returns</strong> tables.</p></label>
+      </div>
+      <div>
+        <input type="checkbox" id="f2806a04-d1ad-4707-851a-c8aec38d5407--8">
+        <label for="f2806a04-d1ad-4707-851a-c8aec38d5407--8"><p>Quiz 3 below.</p></label>
+      </div>
+      <div>
+        <input type="checkbox" id="f2806a04-d1ad-4707-851a-c8aec38d5407--9">
+        <label for="f2806a04-d1ad-4707-851a-c8aec38d5407--9"><p>Quiz 4 below.</p></label>
+      </div>
+    </fieldset>
+  </form>
+
+  <div>
+    <h4>Task Feedback:</h4>
+
+
+    <p>Awesome job!</p>
+  </div>
+</div>
+
+
+</div>
+<div class="divider"></div><div class="ud-atom">
+  <h3></h3>
+  <div>
+  <p>On some operating systems, Tableau will not automatically assign Postal Code to be a String. If it is not a string in your data, please update it to be that.</p>
+</div>
+
+</div>
+<div class="divider"></div><div class="ud-atom">
+  <h3></h3>
+  <div>
+  <p><strong>QUIZ QUESTION:</strong>: <h3 id="quiz-1">Quiz 1</h3>
+<p>Match each of the below columns to the corresponding data type.</p></p>
+  <p><strong>ANSWER CHOICES:</strong></p>
+  <button class="btn btn-primary"><p>Date</p></button>
+  <button class="btn btn-primary"><p>Number (decimal)</p></button>
+  <button class="btn btn-primary"><p>Number (whole)</p></button>
+  <button class="btn btn-primary"><p>String</p></button>
+  <button class="btn btn-primary"><p>Boolean</p></button>
+  <button class="btn btn-primary"><p>Date &amp; Time</p></button>
+
+  <br><br>
+
+  <table class="table">
+    <tr class="thead-dark table-hover">
+      <th>
+        <p>Column Name</p>
+      </th>
+      <th>
+        <p>Data Type</p>
+      </th>
+    </tr>
+
+    <tr>
+      <td><p>Order Date</p></td>
+      <td></td>
+    </tr>
+    <tr>
+      <td><p>Postal Code</p></td>
+      <td></td>
+    </tr>
+    <tr>
+      <td><p>Sales</p></td>
+      <td></td>
+    </tr>
+    <tr>
+      <td><p>Quantity</p></td>
+      <td></td>
+    </tr>
+  </table>
+
+  <details>
+    <summary><strong>SOLUTION:</strong></summary>
+
+    <table class="table">
+      <tr class="thead-dark table-hover">
+        <th>
+          <p>Column Name</p>
+        </th>
+        <th>
+          <p>Data Type</p>
+        </th>
+      </tr>
+
+      <tr>
+        <td>
+          <p>Order Date</p>
+        </td>
+        <td>
+            <button class="btn btn-primary"><p>Date</p></button>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <p>Sales</p>
+        </td>
+        <td>
+            <button class="btn btn-primary"><p>Number (decimal)</p></button>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <p>Quantity</p>
+        </td>
+        <td>
+            <button class="btn btn-primary"><p>Number (whole)</p></button>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <p>Postal Code</p>
+        </td>
+        <td>
+            <button class="btn btn-primary"><p>String</p></button>
+        </td>
+      </tr>
+    </table>
+  </details>
+</div>
+
+
+</div>
+<div class="divider"></div><div class="ud-atom">
+  <h3></h3>
+  <div>
+  <form>
+    <fieldset>
+      <legend><h3 id="quiz-2">Quiz 2</h3>
+<p>What is the difference between <strong>Split</strong> and <strong>Custom Split</strong>?</p></legend>
+    </fieldset>
+
+      <div>
+        <input type="radio" value="a1504733235785" name="393365" id="a1504733235785">
+        <label for="a1504733235785"><p><strong>Split</strong> splits columns, but <strong>Custom Split</strong> can split columns and rows.</p></label>
+      </div>
+      <div>
+        <input type="radio" value="a1504733296659" name="393365" id="a1504733296659">
+        <label for="a1504733296659"><p><strong>Split</strong> splits on a Tableau "guessed" character, but <strong>Custom Split</strong> can split on a value you specify.</p></label>
+      </div>
+      <div>
+        <input type="radio" value="a1504733333683" name="393365" id="a1504733333683">
+        <label for="a1504733333683"><p><strong>Split</strong> splits rows,  but <strong>Custom Split</strong> can split columns and rows.</p></label>
+      </div>
+      <div>
+        <input type="radio" value="a1504733351550" name="393365" id="a1504733351550">
+        <label for="a1504733351550"><p>There is no difference.</p></label>
+      </div>
+  </form>
+
+  <details>
+    <summary><strong>SOLUTION:</strong></summary>
+    **Split** splits on a Tableau "guessed" character, but **Custom Split** can split on a value you specify.
+  </details>
+</div>
+
+</div>
+<div class="divider"></div><div class="ud-atom">
+  <h3></h3>
+  <div>
+  <form>
+    <fieldset>
+      <legend><h3 id="quiz-3">Quiz 3</h3>
+<p>Using the Table View, select the statements below that are true.</p></legend>
+    </fieldset>
+
+    <div>
+      <input type="checkbox" value="a1504733820946" name="393367" id="a1504733820946">
+      <label for="a1504733820946"><p>There are 2 columns in the <strong>People</strong> table.</p></label>
+    </div>
+    <div>
+      <input type="checkbox" value="a1504733893717" name="393367" id="a1504733893717">
+      <label for="a1504733893717"><p>There are 13 rows in the <strong>People</strong> table.</p></label>
+    </div>
+    <div>
+      <input type="checkbox" value="a1504733909873" name="393367" id="a1504733909873">
+      <label for="a1504733909873"><p>There are 1,173 rows in the <strong>Returns</strong> table.</p></label>
+    </div>
+    <div>
+      <input type="checkbox" value="a1504733935802" name="393367" id="a1504733935802">
+      <label for="a1504733935802"><p>There are 3 columns in the <strong>Returns</strong> table.</p></label>
+    </div>
+  </form>
+
+  <details>
+    <summary><strong>SOLUTION:</strong></summary>
+    <ul>
+      <li>There are 2 columns in the **People** table.</li>
+      <li>There are 13 rows in the **People** table.</li>
+      <li>There are 1,173 rows in the **Returns** table.</li>
+      <li>There are 3 columns in the **Returns** table.</li>
+  </ul>
+  </details>
+</div>
+
+</div>
+<div class="divider"></div><div class="ud-atom">
+  <h3></h3>
+  <div>
+  <form>
+    <fieldset>
+      <legend><h3 id="quiz-4">Quiz 4</h3>
+<p>One of the major differences between Tableau Public and a paid Tableau account is that Tableau Public connects to far fewer data sources than a paid account.</p></legend>
+    </fieldset>
+
+      <div>
+        <input type="radio" value="a1504734426247" name="393377" id="a1504734426247">
+        <label for="a1504734426247"><p>True</p></label>
+      </div>
+      <div>
+        <input type="radio" value="a1504734479268" name="393377" id="a1504734479268">
+        <label for="a1504734479268"><p>False</p></label>
+      </div>
+  </form>
+
+  <details>
+    <summary><strong>SOLUTION:</strong></summary>
+    True
+  </details>
+</div>
+
+</div>
+<div class="divider"></div>
+          </div>
+
+          <div class="col-12">
+            <p class="text-right">
+              <a href="10. Video Combining Data.html" class="btn btn-outline-primary mt-4" role="button">Next Concept</a>
+            </p>
+          </div>
+        </div>
+      </main>
+
+      <footer class="footer">
+        <div class="container">
+          <div class="row">
+            <div class="col-12">
+              <p class="text-center">
+                <a href="https://us-udacity.github.io/" target="_blank">【udacity2.0 】If you need more courses, please add wechat：udacity6</a>
+              </p>
+            </div>
+          </div>
+        </div>
+      </footer>
+    </div>
+  </div>
+
+
+  <script src="../assets/js/jquery-3.3.1.min.js"></script>
+  <script src="../assets/js/plyr.polyfilled.min.js"></script>
+  <script src="../assets/js/bootstrap.min.js"></script>
+  <script src="../assets/js/jquery.mCustomScrollbar.concat.min.js"></script>
+  <script src="../assets/js/katex.min.js"></script>
+  <script>
+    // Initialize Plyr video players
+    const players = Array.from(document.querySelectorAll('video')).map(p => new Plyr(p));
+
+    // render math equations
+    let elMath = document.getElementsByClassName('mathquill');
+    for (let i = 0, len = elMath.length; i < len; i += 1) {
+      const el = elMath[i];
+
+      katex.render(el.textContent, el, {
+        throwOnError: false
+      });
+    }
+
+    // this hack will make sure Bootstrap tabs work when using Handlebars
+    if ($('#question-tabs').length && $('#user-answer-tabs').length) {
+      $("#question-tabs a.nav-link").on('click', function () {
+        $("#question-tab-contents .tab-pane").hide();
+        $($(this).attr("href")).show();
+      });
+      $("#user-answer-tabs a.nav-link").on('click', function () {
+        $("#user-answer-tab-contents .tab-pane").hide();
+        $($(this).attr("href")).show();
+      });
+    } else {
+      $("a.nav-link").on('click', function () {
+        $(".tab-pane").hide();
+        $($(this).attr("href")).show();
+      });
+    }
+
+    // side bar events
+    $(document).ready(function () {
+      $("#sidebar").mCustomScrollbar({
+        theme: "minimal"
+      });
+
+      $('#sidebarCollapse').on('click', function () {
+        $('#sidebar, #content').toggleClass('active');
+        $('.collapse.in').toggleClass('in');
+        $('a[aria-expanded=true]').attr('aria-expanded', 'false');
+      });
+
+      // scroll to first video on page loading
+      if ($('video').length) {
+        $('html,body').animate({ scrollTop: $('div.plyr').prev().offset().top});
+      }
+
+      // auto play first video: this may not work with chrome/safari due to autoplay policy
+      if (players && players.length > 0) {
+        players[0].play();
+      }
+
+      // scroll sidebar to current concept
+      const currentInSideBar = $( "ul.sidebar-list.components li a:contains('09. Quiz: Connecting to Data')" )
+      currentInSideBar.css( "text-decoration", "underline" );
+      $("#sidebar").mCustomScrollbar('scrollTo', currentInSideBar);
+    });
+  </script>
+</body>
+
+</html>

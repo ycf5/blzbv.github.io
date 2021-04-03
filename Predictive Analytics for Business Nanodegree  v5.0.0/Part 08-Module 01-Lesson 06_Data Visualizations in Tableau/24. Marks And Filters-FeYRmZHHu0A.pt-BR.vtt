@@ -1,0 +1,150 @@
+WEBVTT
+Kind: captions
+Language: pt-BR
+
+00:00:00.250 --> 00:00:03.000
+Vamos treinar mais
+com marcas e filtros.
+
+00:00:03.033 --> 00:00:05.500
+Digamos que seu chefe
+lhe peça para vasculhar os dados
+
+00:00:05.533 --> 00:00:09.900
+para entender melhor que regiões
+tiverem mais lucro em 2014.
+
+00:00:09.933 --> 00:00:12.550
+Para começar, arrastamos "Lucro"
+para a divisória de linha
+
+00:00:12.583 --> 00:00:14.850
+e "Região" para a de coluna.
+
+00:00:14.883 --> 00:00:18.750
+Agora filtramos os dados
+para só incluir 2014.
+
+00:00:18.783 --> 00:00:22.500
+Para tanto, arrastamos
+"Data do pedido" até os filtros.
+
+00:00:23.250 --> 00:00:26.201
+Há várias formas de implementar
+um filtro de data,
+
+00:00:26.234 --> 00:00:27.350
+mas, neste caso,
+
+00:00:27.383 --> 00:00:30.400
+vamos selecionar "ano"
+e marcar 2014.
+
+00:00:31.300 --> 00:00:35.000
+Para exibir o filtro, selecionamos
+"Mostrar filtro" no menu.
+
+00:00:35.800 --> 00:00:38.550
+Por fim, ordenemos as colunas
+de mais alto para mais baixo
+
+00:00:38.583 --> 00:00:39.800
+para fins de legibilidade.
+
+00:00:39.833 --> 00:00:42.950
+Você pode fazer isso com o botão
+"Classificar" no topo da tela.
+
+00:00:43.700 --> 00:00:45.100
+Vamos usar
+variáveis adicionais
+
+00:00:45.133 --> 00:00:48.000
+para detalhar as categorias
+do produto.
+
+00:00:48.033 --> 00:00:50.000
+Começamos trazendo
+o campo "Categoria".
+
+00:00:50.033 --> 00:00:51.800
+Você pode codificar
+de diversas formas,
+
+00:00:51.833 --> 00:00:56.550
+mas o mais lógico
+seria incluir nas linhas, assim...
+
+00:00:57.450 --> 00:00:59.800
+criando um gráfico
+para cada categoria,
+
+00:00:59.833 --> 00:01:03.200
+ou codificar como cor,
+o que faremos agora.
+
+00:01:03.233 --> 00:01:04.750
+Ao codificar categorias
+como cor,
+
+00:01:04.783 --> 00:01:07.000
+veja que uma legenda
+aparece à direita.
+
+00:01:07.033 --> 00:01:09.700
+Podemos usá-la para aplicar filtros
+clicando neles
+
+00:01:09.733 --> 00:01:12.800
+e selecionando
+"Manter apenas".
+
+00:01:12.833 --> 00:01:15.800
+Agora só vemos os dados de lucro
+dos móveis.
+
+00:01:15.833 --> 00:01:18.600
+Isso adiciona um filtro "Categoria"
+à divisória "Filtro",
+
+00:01:18.633 --> 00:01:20.150
+e, se quisermos vê-lo,
+
+00:01:20.183 --> 00:01:23.300
+podemos clicar no menu suspenso
+e selecionar "Mostrar filtro".
+
+00:01:23.333 --> 00:01:24.950
+Agora filtramos os móveis.
+
+00:01:24.983 --> 00:01:28.050
+Vamos adicionar
+"Sub-categoria" como cor.
+
+00:01:28.083 --> 00:01:30.550
+Agora vemos o lucro atribuível
+
+00:01:30.583 --> 00:01:33.150
+a cada subcategoria
+de produto por região.
+
+00:01:33.183 --> 00:01:35.600
+Você pode adicionar detalhes
+codificando dados
+
+00:01:35.633 --> 00:01:38.050
+com "Dica de ferramenta".
+Para terminar este gráfico,
+
+00:01:38.083 --> 00:01:40.600
+vamos adicionar "Vendas"
+ao cartão "Dica de ferramenta"
+
+00:01:40.633 --> 00:01:42.450
+para, ao passar o mouse
+sobre as seções,
+
+00:01:42.483 --> 00:01:45.100
+vermos tanto o lucro
+quanto as vendas.
+

@@ -1,0 +1,193 @@
+WEBVTT
+Kind: captions
+Language: pt-BR
+
+00:00:00.250 --> 00:00:04.400
+Hierarquias no Tableau permitem
+que você detalhe seus dados.
+
+00:00:04.433 --> 00:00:07.500
+O Tableau hierarquiza
+dados temporais automaticamente.
+
+00:00:07.533 --> 00:00:10.500
+Vamos começar com um exemplo
+usando "Data do pedido".
+
+00:00:10.533 --> 00:00:14.000
+Crie um gráfico linear mostrando
+soma do lucro por data do pedido.
+
+00:00:14.033 --> 00:00:17.000
+Gráficos lineares são o padrão
+do Tableau para dados temporais.
+
+00:00:17.033 --> 00:00:20.500
+Tem um símbolo de "+" ao lado
+da pílula de "Data do pedido".
+
+00:00:20.533 --> 00:00:22.550
+Vamos clicar
+e ver o que acontece.
+
+00:00:22.583 --> 00:00:24.900
+O que fizemos foi detalhar
+a hierarquia,
+
+00:00:24.933 --> 00:00:28.500
+começando com o dado anual
+e agrupando por trimestre.
+
+00:00:28.533 --> 00:00:30.150
+Detalhando ainda mais,
+
+00:00:30.183 --> 00:00:33.500
+vamos os dados
+em mais granularidade.
+
+00:00:33.533 --> 00:00:36.300
+Perceba que as pílulas
+agora têm um símbolo de "-".
+
+00:00:36.333 --> 00:00:39.100
+Clicando nele,
+subimos a hierarquia.
+
+00:00:39.133 --> 00:00:41.450
+Dá para remover
+níveis de hierarquia do gráfico
+
+00:00:41.483 --> 00:00:44.150
+arrastando a pílula
+para fora da divisória.
+
+00:00:44.183 --> 00:00:46.800
+Se você detalhar a mês
+e remover ano e trimestre,
+
+00:00:46.833 --> 00:00:48.500
+terá algo assim.
+
+00:00:48.533 --> 00:00:50.400
+Pode não ser
+o que você pretende.
+
+00:00:50.433 --> 00:00:53.400
+Eu esperava ver o lucro mensal
+ao longo de quatro anos de dados,
+
+00:00:53.433 --> 00:00:56.450
+mas só há um valor por mês.
+
+00:00:56.483 --> 00:00:58.350
+O Tableau fez isso
+pois "Data do pedido"
+
+00:00:58.383 --> 00:01:00.400
+foi configurado
+como tipo discreto de dado,
+
+00:01:00.433 --> 00:01:03.650
+então está agregando
+os valores mensais de lucro.
+
+00:01:03.683 --> 00:01:05.150
+Ou seja, cada valor
+
+00:01:05.183 --> 00:01:08.800
+é a soma do lucro daquele mês
+ao longo de quatro anos de dados.
+
+00:01:08.833 --> 00:01:13.050
+Contudo, eu prefiro ver aqui
+uma linha ao longo de quatro anos.
+
+00:01:13.083 --> 00:01:15.050
+Para mudar como isto
+está sendo exibido,
+
+00:01:15.083 --> 00:01:18.000
+é preciso tornar "Data do pedido"
+um dado contínuo.
+
+00:01:18.033 --> 00:01:21.150
+Uma forma de fazê-lo
+é indo ao menu "Campo",
+
+00:01:21.183 --> 00:01:25.050
+clicando no triângulo e selecionando
+"Converter em contínua".
+
+00:01:25.083 --> 00:01:28.150
+Ao adicionar "Data do pedido"
+de volta à visualização,
+
+00:01:28.183 --> 00:01:30.650
+você verá o "+" novamente.
+
+00:01:30.683 --> 00:01:31.900
+Clicando duas vezes,
+
+00:01:31.933 --> 00:01:35.800
+você voltará a ver
+a data do pedido por mês,
+
+00:01:35.833 --> 00:01:39.350
+mas, agora, por todos os meses
+do conjunto de dados.
+
+00:01:39.383 --> 00:01:41.900
+O Tableau hierarquizou
+por data automaticamente,
+
+00:01:41.933 --> 00:01:43.750
+mas você
+também pode fazê-lo.
+
+00:01:43.783 --> 00:01:45.750
+Por exemplo: cada valor
+e subcategoria
+
+00:01:45.783 --> 00:01:49.350
+pertence a uma categoria
+no conjunto de dados Superloja.
+
+00:01:49.383 --> 00:01:53.150
+Isso significa que um registro
+subcategorizado como "estante"
+
+00:01:53.183 --> 00:01:55.750
+sempre terá "mobília"
+como categoria.
+
+00:01:55.783 --> 00:01:59.300
+Mas o Tableau
+não reconhece isso como hierarquia,
+
+00:01:59.333 --> 00:02:01.550
+então podemos
+criar uma manualmente.
+
+00:02:01.583 --> 00:02:05.750
+Para tanto, é só arrastar
+"Sub-categoria" até "Categoria".
+
+00:02:05.783 --> 00:02:08.800
+Depois você nomeia a hierarquia.
+Será "Produtos".
+
+00:02:08.833 --> 00:02:11.100
+Aparece à esquerda
+e pode ser arrastada
+
+00:02:11.133 --> 00:02:12.600
+como um campo qualquer.
+
+00:02:13.700 --> 00:02:16.200
+Mas agora começar
+com categoria com um "+"
+
+00:02:16.233 --> 00:02:18.100
+e pode ser detalhado
+em "Sub-categoria".
+
