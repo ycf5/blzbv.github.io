@@ -1,0 +1,55 @@
+WEBVTT
+Kind: captions
+Language: en
+
+00:00:00.000 --> 00:00:02.640
+You can think of DISTINCT this way,
+
+00:00:02.640 --> 00:00:05.280
+if you want to group by some columns but you don't
+
+00:00:05.280 --> 00:00:07.830
+necessarily want to include any aggregations,
+
+00:00:07.830 --> 00:00:10.085
+you can use DISTINCT instead.
+
+00:00:10.085 --> 00:00:13.170
+As an example, let's revisit the count of events by
+
+00:00:13.170 --> 00:00:16.665
+channel by account we looked at in the GROUP BY segment.
+
+00:00:16.665 --> 00:00:20.489
+Notice the row count, 1509.
+
+00:00:20.489 --> 00:00:22.575
+If we get rid of the events column,
+
+00:00:22.575 --> 00:00:25.560
+you can see that the resulting query returns basically the same
+
+00:00:25.560 --> 00:00:28.970
+results with the same row count.
+
+00:00:28.970 --> 00:00:32.320
+And if we run that query again with DISTINCT,
+
+00:00:32.320 --> 00:00:41.205
+you can see that the results are the same.
+
+00:00:41.205 --> 00:00:42.988
+Of course, they don't include the COUNT
+
+00:00:42.988 --> 00:00:46.010
+anymore because we've removed it from our select statement.
+
+00:00:46.010 --> 00:00:48.650
+Since it's no longer in our select statement,
+
+00:00:48.650 --> 00:00:51.020
+and since we're no longer doing an aggregation,
+
+00:00:51.020 --> 00:00:53.760
+we don't need the GROUP LIKE clause either.
+

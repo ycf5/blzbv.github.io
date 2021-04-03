@@ -1,0 +1,63 @@
+WEBVTT
+Kind: captions
+Language: uz
+
+00:00:00.000 --> 00:00:05.070
+Agar sizda umumiy jadval ifodasi yoki subquery 
+bo‘lsa, u ishlaganda juda uzoq vaqt talab etadi,
+
+00:00:05.070 --> 00:00:07.710
+shuning uchun siz uni butunlay alohida so‘rov 
+sifatida ishga tushirishingiz va
+
+00:00:07.710 --> 00:00:11.110
+natijani o‘z jadvali sifatida bazaga 
+qaytarishingiz mumkin.
+
+00:00:11.110 --> 00:00:14.460
+Keyin, shu yangi jadvalga boshqa jadvallarga 
+qilingani kabi so‘rov qilishingiz mumkin,
+
+00:00:14.460 --> 00:00:17.100
+siz hisoblamoqchi bo‘lgan narsalarga erishish uchun.
+
+00:00:17.100 --> 00:00:21.935
+Ushbu yondashuvning katta foydasi 
+shundaki, u tezlikni oshirishinga imkon beradi.
+
+00:00:21.935 --> 00:00:25.290
+Aytaylik, sizda yozish uchun bir 
+soat vaqt ketadigan subquery mavjud,
+8
+00:00:25,290 --&gt; 00:00:27 900
+hamda juda tezkor tashqi so‘rov bor.
+
+00:00:27.900 --> 00:00:32.025
+Agar siz har safar ikkalasini ham 
+ishlatsangiz, tashqi so‘rovda kichik 
+o‘zgarish qilishni xohlaganizda,
+
+00:00:32.025 --> 00:00:34.030
+so‘rov sekin bajarilganidan siz 
+haqiqatan ham asabiylashib ketasiz.
+
+00:00:34.030 --> 00:00:38.280
+Buning o‘rniga, siz ichki so‘rovni bir marta 
+ishga tushirib, jadvalga yozishingiz mumkin,
+
+00:00:38.280 --> 00:00:42.040
+keyin tashqi so‘rov bo‘yicha 
+iteratsiya tez va oson bo‘ladi.
+
+00:00:42.040 --> 00:00:45.420
+Keyingi darslarda biz chuqurroq 
+ishlashga kirishamiz.
+
+00:00:45.420 --> 00:00:47.910
+Hozircha, biz siz bilan quyi so‘rovlar 
+va umumiy jadval ifodalarini 
+
+00:00:47.910 --> 00:00:51.000
+yangi jadvallar ko‘rinishida ma’lumotlar 
+bazasiga yozishga e’tibor qaratamiz.
+

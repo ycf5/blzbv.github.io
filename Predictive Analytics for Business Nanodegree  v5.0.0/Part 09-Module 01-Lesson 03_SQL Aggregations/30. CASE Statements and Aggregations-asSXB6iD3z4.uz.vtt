@@ -1,0 +1,67 @@
+WEBVTT
+Kind: captions
+Language: uz
+
+00:00:00.000 --> 00:00:02.910
+Parch &amp; Posey sotuvlar menejeri uchun,
+
+00:00:02.910 --> 00:00:06.674
+buyurtmalarni umumiy guruhlarga ajratish foydali mashqdir.
+
+00:00:06.674 --> 00:00:11.220
+Ammo har bir guruhdagi barcha buyurtmalarni hisoblashga imkon bersangiz yana ham foydaliroq bo‘ladi.
+
+00:00:11.220 --> 00:00:14.474
+Ushbu toifalarga ko‘ra agregatlash kompaniya rahbarlariga
+
+00:00:14.474 --> 00:00:18.695
+qayta ma’lumot yetkazish va chora ko‘rishni osonlashtiradi.
+
+00:00:18.695 --> 00:00:20.429
+Barcha guruh a’zolarini hisoblashning eng oson yo‘li
+
+00:00:20.429 --> 00:00:24.480
+siz xohlaga tarzda guruhlaydigan yangi ustunni yaratishdir,
+
+00:00:24.480 --> 00:00:28.214
+keyin ushbu guruh tomonidan hisoblash uchun boshqa yangi ustun yarating.
+
+00:00:28.214 --> 00:00:35.162
+Bu yerda biz CASE dan 500 dan yuqori, 500 va 500 dan kam miqdorda,
+
+00:00:35.162 --> 00:00:38.960
+buyurtmalarni guruhlash uchun foydalanamiz.
+
+00:00:38.960 --> 00:00:41.225
+Ushbu so‘rov GROUP BY da to‘liq ustunli hisob-kitoblarning
+
+00:00:41.225 --> 00:00:44.210
+o‘rniga raqamlarni ishlatish uchun yaxshi joy,
+
+00:00:44.210 --> 00:00:45.890
+chunki GROUP BY da CASE bayonotini takrorlash
+
+00:00:45.890 --> 00:00:48.935
+so‘rovni juda ham uzoq qilib yuborardi.
+
+00:00:48.935 --> 00:00:50.329
+Hozir, sizz o‘ylayotgan bo‘lishingiz mumkin,
+
+00:00:50.329 --> 00:00:54.770
+Nima uchun men hisoblashni xohlamagan qatorlarni filtrlash uchun WHERE bandidan foydalanmayman?
+
+00:00:54.770 --> 00:00:56.475
+Siz buni amalga oshirishingiz mumkin edi,
+
+00:00:56.475 --> 00:01:08.200
+va u bunday ko‘rinishda bo‘lardi.
+
+00:01:08.200 --> 00:01:14.996
+Afsuski, WHERE bandidan foydalanish bir vaqtda faqat bitta shartni hisoblash imkonini beradi.
+
+00:01:14.996 --> 00:01:17.905
+Agar biz turli xil holatlarga duch kelsak, bu zerikarli bo‘lar edi.
+
+00:01:17.905 --> 00:01:20.000
+Bizga har biri uchun alohida so‘rov kerak bo‘lardi.
+

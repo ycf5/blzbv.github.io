@@ -1,0 +1,73 @@
+WEBVTT
+Kind: captions
+Language: uz
+
+00:00:00.030 --> 00:00:01.709
+Bu yerda o‘tgan oydagi buyurtmalar ro‘yxati,
+
+00:00:01.709 --> 00:00:03.929
+hozirda 2017 yil yanvar deb taxmin qilsak.
+
+00:00:03.929 --> 00:00:06.690
+Men ushbu so‘rovlarni bajarish uchun modedan foydalanyapman.
+
+00:00:06.690 --> 00:00:09.630
+Bu menga mening natijalar to‘plamida 463 qator borligini aytadi.
+
+00:00:09.630 --> 00:00:13.110
+Yani hali ham SQL yordamida 
+
+00:00:13.110 --> 00:00:15.330
+sanashni o‘rganishimiz kerak, chunki 
+
+00:00:15.330 --> 00:00:16.740
+siz yanada ustalik va noziklik bilan barcha satrlarni 
+
+00:00:16.740 --> 00:00:19.020
+shunchaki hisoblashingiz mumkin.
+
+00:00:19.020 --> 00:00:21.779
+Biz qila oladigan natijalar to‘plamidagi barcha qatorlar
+
+00:00:21.779 --> 00:00:23.279
+bu bizning tanlangan bayonotimizni o‘zgartirish orqali
+
+00:00:23.279 --> 00:00:26.580
+COUNT funksiyasidan foydalanish uchun buni ko‘rishingiz mumkin.
+
+00:00:26.580 --> 00:00:28.859
+bu bitta satrli natijani qaytaradi
+
+00:00:28.859 --> 00:00:31.679
+bitta ustun va qiymati aniq
+
+00:00:31.679 --> 00:00:33.800
+oldingi qatorlar hisobi bilan bir xil.
+
+00:00:33.800 --> 00:00:36.540
+Keling, shu ustunga taxallusni beraylik
+
+00:00:36.540 --> 00:00:40.800
+yaxshi va oson o‘qish uchun.
+
+00:00:40.800 --> 00:00:44.190
+yaxshiroq... shuning uchun bu qanday qilib hisoblashni amalga oshiradi
+
+00:00:44.190 --> 00:00:46.500
+funksiya barcha hisob qaydnomasini qaytaradi
+
+00:00:46.500 --> 00:00:49.489
+ba'zi nol bo‘lmagan ma'lumotlarni o‘z ichiga olgan satrlar.
+
+00:00:49.489 --> 00:00:52.320
+faqat nollardan iborat qator bo‘lishi juda g‘ayrioddiy,
+
+00:00:52.320 --> 00:00:55.079
+shuning uchun 
+
+00:00:55.079 --> 00:00:57.719
+COUNT * odatda
+
+00:00:57.719 --> 00:01:00.859
+jadvaldagi qatorlar soniga teng.
+

@@ -1,0 +1,67 @@
+WEBVTT
+Kind: captions
+Language: uz
+
+00:00:00.000 --> 00:00:03.825
+Quyi so‘rovlardan so‘rov ichida bir 
+nechta joyda foydalanish mumkin.
+
+00:00:03.825 --> 00:00:05.880
+Ularni haqiqatan ham 
+
+00:00:05.880 --> 00:00:10.550
+jadval nomi, yoki ustun nomi, yoki hatto alohida 
+qiymat o‘rnida istalgan joyda ishlatish mumkin.
+
+00:00:10.550 --> 00:00:13.095
+Ular ayniqsa shartli mantiqda foydalidir,
+
+00:00:13.095 --> 00:00:15.960
+ with, where yoki joined bilan birgalikda,
+
+00:00:15.960 --> 00:00:18.540
+yoki tasdiqning when qismida.
+
+00:00:18.540 --> 00:00:21.630
+Masalan, siz faqat Parch and Posies da 
+birinchi buyurtma qilingan oyda sodir bo‘lgan 
+
+00:00:21.630 --> 00:00:25.515
+buyurtmalarni qaytarishni xohlashingiz mumkin.
+
+00:00:25.515 --> 00:00:27.720
+Birinchi buyurtma sanasini olish uchun,
+
+00:00:27.720 --> 00:00:30.520
+min funksiyasi bilan subquery yozishingiz mumkin.
+
+00:00:30.520 --> 00:00:48.290
+Oyni olish uchun date_trunc funksiyasini qo‘shamiz.
+
+00:00:48.290 --> 00:00:50.480
+Va nihoyat, bunda buyurtmalar jadvalini 
+
+00:00:50.480 --> 00:01:23.136
+filtrlaydigan va ustunda paydo bo‘lganlarni 
+saralaydigan tashqi so‘rovni yozaylik.
+
+00:01:23.136 --> 00:01:39.225
+Ushbu buyurtmalarning barchasi 2013 yil dekabrda,
+
+00:01:39.225 --> 00:01:41.585
+yani, birinchi buyurtma bilan bir oyda qiliingan.
+
+00:01:41.585 --> 00:01:46.420
+Ushbu so‘rov to‘g‘ri ishlaydi, chunki quyi 
+so‘rov natijasi faqat bitta katakdan iborat.
+
+00:01:46.420 --> 00:01:50.415
+Shartli mantiq aksariyat hollarda bir katakli natijalarni 
+o‘z ichiga olgan quyi so‘rovlar bilan ishlaydi.
+
+00:01:50.415 --> 00:01:53.370
+Ammo IN - ichki so‘rovning natijalar bir nechta bo‘lganda 
+
+00:01:53.370 --> 00:01:57.000
+ishlaydigan shartli mantiqning yagona turi.
+

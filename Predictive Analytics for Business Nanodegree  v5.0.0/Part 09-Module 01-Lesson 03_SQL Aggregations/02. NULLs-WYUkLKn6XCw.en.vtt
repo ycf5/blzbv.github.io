@@ -1,0 +1,46 @@
+WEBVTT
+Kind: captions
+Language: en
+
+00:00:00.000 --> 00:00:02.085
+Before we dive into aggregation,
+
+00:00:02.085 --> 00:00:05.195
+we need to cover one more concept, Nulls.
+
+00:00:05.195 --> 00:00:07.145
+Null means no data.
+
+00:00:07.145 --> 00:00:09.780
+It's different from a zero or a space.
+
+00:00:09.780 --> 00:00:12.795
+And there's a good reason. From a business perspective,
+
+00:00:12.795 --> 00:00:16.185
+for parching Posey a zero means that no paper was sold,
+
+00:00:16.185 --> 00:00:19.020
+which could mean that a sale was attempted but not made.
+
+00:00:19.020 --> 00:00:22.690
+A null could mean no sale was even attempted.
+
+00:00:22.690 --> 00:00:25.640
+And that's a pretty meaningful difference.
+
+00:00:25.640 --> 00:00:27.815
+Those could be the result of any number of things,
+
+00:00:27.815 --> 00:00:30.300
+they can be part of the data design itself or
+
+00:00:30.300 --> 00:00:33.295
+they can simply be the result of poorly locked data.
+
+00:00:33.295 --> 00:00:35.340
+Regardless, it's important to understand
+
+00:00:35.340 --> 00:00:39.140
+what nulls mean and to know how to work with them.
+

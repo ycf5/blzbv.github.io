@@ -1,0 +1,67 @@
+WEBVTT
+Kind: captions
+Language: en
+
+00:00:00.000 --> 00:00:02.910
+As a sales operations manager at Parch and Posey,
+
+00:00:02.910 --> 00:00:06.675
+classifying orders into general groups is a helpful exercise.
+
+00:00:06.675 --> 00:00:11.220
+But it's much more useful if you can let it count up all the orders in each group.
+
+00:00:11.220 --> 00:00:14.475
+Aggregating based on these new categories will make it
+
+00:00:14.475 --> 00:00:18.695
+easier to report back to company leaders and take action.
+
+00:00:18.695 --> 00:00:20.430
+The easiest way to count all the members of
+
+00:00:20.430 --> 00:00:24.480
+a group is to create a column that groups the way you want it to,
+
+00:00:24.480 --> 00:00:28.215
+then create another column to count by that group.
+
+00:00:28.215 --> 00:00:35.163
+Here, we're using CASE to group orders into those with total quantity sold over 500,
+
+00:00:35.163 --> 00:00:38.960
+and those with 500 or less.
+
+00:00:38.960 --> 00:00:41.225
+This query is an excellent place to use numbers
+
+00:00:41.225 --> 00:00:44.210
+instead of full column calculation in the GROUP BY clause,
+
+00:00:44.210 --> 00:00:45.890
+because repeating the CASE statement in
+
+00:00:45.890 --> 00:00:48.935
+the GROUP BY would make the query obnoxiously long.
+
+00:00:48.935 --> 00:00:50.330
+Now, you might be thinking,
+
+00:00:50.330 --> 00:00:54.770
+why wouldn't I just use a WHERE clause to filter out rows I don't want to count?
+
+00:00:54.770 --> 00:00:56.475
+You could do that,
+
+00:00:56.475 --> 00:00:59.030
+and it would look like this.
+
+00:01:09.200 --> 00:01:14.997
+Unfortunately, using the WHERE clause only allows you to count one condition at a time.
+
+00:01:14.997 --> 00:01:17.905
+This would be tedious if we had a number of different cases.
+
+00:01:17.905 --> 00:01:20.700
+We would need a separate query for each one.
+

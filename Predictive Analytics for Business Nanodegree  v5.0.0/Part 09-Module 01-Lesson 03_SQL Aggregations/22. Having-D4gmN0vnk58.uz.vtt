@@ -1,0 +1,81 @@
+WEBVTT
+Kind: captions
+Language: uz
+
+00:00:00.000 --> 00:00:03.720
+O‘zingizni Parchin Posey da 
+kompaniyaning eng yirik hisoblari 
+bilan ishlayotgan hisob menejeri 
+
+00:00:03.720 --> 00:00:06.375
+sifatida tasavvur qiling.
+
+00:00:06.375 --> 00:00:10.230
+250 ming dollardan oshiq savdoli yirik h
+isoblardan keladigan daromad nisbatlarini 
+
+00:00:10.230 --> 00:00:14.396
+yaxshiroq tushunish uchun
+ushbu hisoblardagi savdolarning 
+
+00:00:14.396 --> 00:00:18.760
+umumiy miqdorini AQSh dollarida 
+aniqlashni xohlashingiz mumkin.
+
+00:00:18.760 --> 00:00:20.715
+Ushbu ro‘yxatni hosil qilish uchun,
+
+00:00:20.715 --> 00:00:23.875
+avval har bir hisob uchun savdo summasini topaylik.
+
+00:00:23.875 --> 00:00:26.700
+Barcha eng yuqori qiymat hisoblari ro‘yxatning 
+tepasida joylashishi uchun 
+
+00:00:26.700 --> 00:00:30.865
+descending order kamayish 
+tartibida so‘rov beramiz.
+
+00:00:30.865 --> 00:00:38.170
+Keling endi $250,000 dan ortiq savdo-sotiq 
+bo‘yicha hisoblarni filtrlaylik.
+
+00:00:52.540 --> 00:00:58.015
+Siz WHERE yozuvi aynan bunga 
+moslashtirilmaganligini ko‘rasiz.
+
+00:00:58.015 --> 00:01:00.180
+WHERE buning uchun ishlamaydi, chunki u
+
+00:01:00.180 --> 00:01:03.390
+birlashgan ustunlar bo‘yicha 
+filtrlashga imkon bermaydi.
+
+00:01:03.390 --> 00:01:07.080
+Bu erda HAVING ko‘rsatmasi kerak.
+
+00:01:23.040 --> 00:01:27.635
+U so‘rovni faqat umumiy savdosi 
+$ 250,000 dan ortiq hisoblarni 
+
+00:01:27.635 --> 00:01:32.635
+identifikatorlari bo‘yicha filtrlaydi.
+
+00:01:32.635 --> 00:01:34.850
+Bir narsani yodda tutish kerakki, 
+bu ko‘rsatmani haqiqatan ham
+
+00:01:34.850 --> 00:01:38.090
+faqat bitta yoki bir nechta ustunlar 
+bo‘yicha guruhlashda qo‘llash foydali.
+
+00:01:38.090 --> 00:01:40.495
+Agar siz ma’lumotlarni butun 
+to‘plami bo‘yicha yig‘sangiz,
+
+00:01:40.495 --> 00:01:42.725
+chiqishda baribir bitta satr bo‘ladi,
+
+00:01:42.725 --> 00:01:45.000
+shuning uchun bunda filtrlashning hojati yo‘q.
+

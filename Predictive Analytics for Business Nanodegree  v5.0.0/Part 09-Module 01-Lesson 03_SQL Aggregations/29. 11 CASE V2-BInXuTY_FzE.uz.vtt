@@ -1,0 +1,181 @@
+WEBVTT
+Kind: captions
+Language: uz
+
+00:00:00.000 --> 00:00:03.544
+Tasavvur qiling siz Parch &amp; Poseyning marketing menejerisiz.
+
+00:00:03.544 --> 00:00:08.044
+Siz Facebookni marketing kanali sifatida boshqa kanallar bilan solishtirishni xohlaysiz.
+
+00:00:08.044 --> 00:00:10.695
+Facebook sizning biznesingiz uchun ajoyib kanal deb bilasiz ammo,
+
+00:00:10.695 --> 00:00:12.839
+u qolgan barchasining yig‘ilmasidan yaxshiroqmi?
+
+00:00:12.839 --> 00:00:15.525
+Keling bilib olamiz. Buni amalga oshirish uchun,
+
+00:00:15.525 --> 00:00:17.385
+Siz alohida ajratilgan ustun yaratishingizga to‘g‘ri keladi.
+
+00:00:17.385 --> 00:00:20.684
+Bu shuni anglatadiki, siz ma’lumotlarni mavjud ustundan olasiz va uni o‘zgartirasiz.
+
+00:00:20.684 --> 00:00:23.910
+O‘tgan darsda biz buni arifmetikadan foydalanib bajargandik.
+
+00:00:23.910 --> 00:00:25.710
+Bu so‘rov uchun quyidagilardan foydalanamiz
+
+00:00:25.710 --> 00:00:29.635
+"CASE" bu SQLning "IF" "then" mantig‘i bilan kelishish usuli.
+
+00:00:29.635 --> 00:00:35.189
+Case bayonotidan keyin kamida bir juft  "WHEN" va "THEN" bayonotlari keladi.
+
+00:00:35.189 --> 00:00:38.390
+SQL "IF" "THEN"ning ekvivalenti.
+
+00:00:38.390 --> 00:00:42.704
+U "END" so‘zi bilan tugashi kerak.
+
+00:00:42.704 --> 00:00:48.259
+Ko‘rib turganingizdek, case bayonoti har bir qatorni tekshiradi. Agarda
+
+00:00:48.259 --> 00:00:53.710
+"kanal Facebookga teng" shartli bayonoti to‘g‘ri bo‘lsa,
+
+00:00:53.710 --> 00:01:00.200
+u "is_Facebook" ustuni tarkibiga kiritilgan holda "yes" qiymatida natija ko‘rsatadi.
+
+00:01:00.200 --> 00:01:05.599
+Agar aksincha bo‘lsa, Facebook ustunidagi Rose qiymati "no" holatida qoldiriladi.
+
+00:01:05.599 --> 00:01:08.790
+Bu urinish nima sodir bo‘layotganini ko‘rishni juda ham osonlashtiradi, chunki biz
+
+00:01:08.790 --> 00:01:12.484
+case bayonotini kanalning o‘z ustuni bilan birga qamrab oldik.
+
+00:01:12.484 --> 00:01:14.430
+Siz har bir qatorni tekshira olasiz kanalning
+
+00:01:14.430 --> 00:01:17.239
+"kanal Facebookga teng" shartini qondirishligini ko‘rish uchun,
+
+00:01:17.239 --> 00:01:21.689
+va case bayonotidan foydalangan holda yaratilgan ustunda natijani ko‘rasiz.
+
+00:01:21.689 --> 00:01:26.810
+Hozir, bu urinishdan biz istagan narsa nollarning o‘rnini "no" so‘zi to‘ldirishdir.
+
+00:01:26.810 --> 00:01:30.644
+Biz buni qiymatlarni qo‘lga kiritish usulini ta’minlovchi the L bayonoti bilan bajaramiz
+
+00:01:30.644 --> 00:01:35.545
+"WHEN" "THEN" bayonotlarida ko‘rsatilmagan.
+
+00:01:35.545 --> 00:01:38.040
+Agar biz ushbu yangi ustun bizning faqatgina Facebook kanalimizni emas, balki to‘g‘ridan-to‘g‘ri kanalimizni ham kuzatishini xohlasak,
+
+00:01:38.040 --> 00:01:40.965
+balki to‘g‘ridan-to‘g‘ri kanalimizni ham kuzatishini xohlasak,
+
+00:01:40.965 --> 00:01:48.040
+biz case bayonotinimizni "OR" operatoridan foydalanish uchun o‘zgartirishimiz kerak.
+
+00:01:48.040 --> 00:01:51.060
+"WHEN" bayonoti
+
+00:01:51.060 --> 00:01:54.519
+siz "WHERE" bo‘limida qo‘yganingizga o‘xshagan mantiqiy shartdir.
+
+00:01:54.519 --> 00:02:00.719
+Shuning uchun siz "AND", "LIKE", "IN" yoki oldin ko‘rgan har qanday operatorlardan foydalana olasiz.
+
+00:02:00.719 --> 00:02:03.420
+O‘zingizni Parch&amp;Posey boshqaruvida deb tasavvur qiling.
+
+00:02:03.420 --> 00:02:06.765
+Inventarizatsiyani rejalashtirish haqida ko‘proq ma’lumot olish uchun 
+
+00:02:06.765 --> 00:02:11.000
+buyurtmalar hajmiga qarab buyurtmalarni umumiy guruhlarga ajratishni xohlaysiz.
+
+00:02:11.000 --> 00:02:13.349
+Bir nechta natijalarni aniqlash uchun case bayonotiga istaganingizcha
+
+00:02:13.349 --> 00:02:18.930
+"WHEN" "THEN" bayonotlarini qo‘shishingiz mumkin.
+
+00:02:18.930 --> 00:02:22.740
+Ushbu misolda "WHEN" bayonotlari
+
+00:02:22.740 --> 00:02:25.340
+yozilgan tartibi bo‘yicha aniqlanadi.
+
+00:02:25.340 --> 00:02:28.995
+Demak, agar berilgan qatordagi umumiy ustundagi qiymat 600 bo‘lsa,
+
+00:02:28.995 --> 00:02:32.264
+u bergan natija 500 dan ortiq bo‘ladi.
+
+00:02:32.264 --> 00:02:36.270
+Agar umumiy ustundagi qiymat 169 bo‘lsa,
+
+00:02:36.270 --> 00:02:38.789
+baza dastlab umumiy qiymatning 500 dan kattaligini tekshirib chiqadi
+
+00:02:38.789 --> 00:02:42.240
+bu "WHEN"ning birinchi bayonotidir.
+
+00:02:42.240 --> 00:02:44.930
+169 soni 500 dan katta emas,
+
+00:02:44.930 --> 00:02:47.879
+shuning uchun biz keyingi "WHEN"ni aniqlash uchun davom etamiz.
+
+00:02:47.879 --> 00:02:52.740
+Bu jarayon mantiqiy "WHEN" bayonoti "THEN" bayonotini umumiy guruh 
+
+00:02:52.740 --> 00:02:58.842
+ustuniga yozilishini to‘g‘ri deb baholaguncha davom etadi.
+
+00:02:58.842 --> 00:03:06.569
+169 da bu  "WHEN" bayonoti 101 dan 300 gacha natijani bergandagina sodir bo‘ladi.
+
+00:03:06.569 --> 00:03:11.169
+Yuqoridagilar ishlaganda, bir-biriga mos kelmaydigan "WHEN" bayonotlarini yaratish juda qulay.
+
+00:03:11.169 --> 00:03:16.300
+"umumiysi 500 dan yuqori bo‘lganda" shartli bayonoti
+
+00:03:16.300 --> 00:03:18.639
+"umumiysi 300 dan yuqori" bayonotiga mos keladi
+
+00:03:18.639 --> 00:03:22.889
+har bir qiymat 500 dan yuqori.
+
+00:03:22.889 --> 00:03:25.000
+Yuqoridagilarni yozishning yaxshiroq usuli
+
+00:03:25.000 --> 00:03:28.349
+bir-biriga mos kelmaydigan maxsus guruhlarni aniqlashdan iborat bo‘ladi.
+
+00:03:28.349 --> 00:03:31.495
+Siz buni bir nechta shartli bayonotlarni "AND" va "OR" bilan birgalikda  bog‘lagan holga bajarishingiz mumkin, 
+
+00:03:31.495 --> 00:03:43.580
+xuddi "WHERE" bo‘limida amalga oshirganingiz kabi.
+
+00:03:43.580 --> 00:03:47.219
+Ushbu darsning yakuniy qismida,
+
+00:03:47.219 --> 00:03:49.870
+bir bosqichdan so‘ng ushbu hollarni ilgariroq biz
+
+00:03:49.870 --> 00:03:53.000
+ko‘rib chiqqan to‘plamlar bilan birlashtirgan holda qo‘lga kiritamiz.
+

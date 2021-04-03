@@ -1,0 +1,315 @@
+<!-- udacity2.0 -->
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Solutions: MIN, MAX, &amp; AVG</title>
+  <link rel="stylesheet" href="../assets/css/bootstrap.min.css">
+  <link rel="stylesheet" href="../assets/css/plyr.css">
+  <link rel="stylesheet" href="../assets/css/katex.min.css">
+  <link rel="stylesheet" href="../assets/css/jquery.mCustomScrollbar.min.css">
+  <link rel="stylesheet" href="../assets/css/styles.css">
+  <link rel="shortcut icon" type="image/png" href="../assets/img/udacimak.png" />
+</head>
+
+<body>
+  <div class="wrapper">
+    <nav id="sidebar">
+  <div class="sidebar-header">
+    <h3>SQL Aggregations</h3>
+  </div>
+
+  <ul class="sidebar-list list-unstyled CTAs">
+    <li>
+      <a href="../index.html" class="article">Back to Home</a>
+    </li>
+  </ul>
+
+  <ul class="sidebar-list list-unstyled components">
+    <li class="">
+      <a href="01. Video Introduction to Aggregation.html">01. Video: Introduction to Aggregation</a>
+    </li>
+    <li class="">
+      <a href="02. Video Introduction to NULLs.html">02. Video: Introduction to NULLs</a>
+    </li>
+    <li class="">
+      <a href="03. Video NULLs and Aggregation.html">03. Video: NULLs and Aggregation</a>
+    </li>
+    <li class="">
+      <a href="04. Video + Text First Aggregation - COUNT.html">04. Video + Text: First Aggregation - COUNT</a>
+    </li>
+    <li class="">
+      <a href="05. Video COUNT &amp; NULLs.html">05. Video: COUNT &amp; NULLs</a>
+    </li>
+    <li class="">
+      <a href="06. Video SUM.html">06. Video: SUM</a>
+    </li>
+    <li class="">
+      <a href="07. Quiz SUM.html">07. Quiz: SUM</a>
+    </li>
+    <li class="">
+      <a href="08. Solution SUM.html">08. Solution: SUM</a>
+    </li>
+    <li class="">
+      <a href="09. Video MIN &amp; MAX.html">09. Video: MIN &amp; MAX</a>
+    </li>
+    <li class="">
+      <a href="10. Video AVG.html">10. Video: AVG</a>
+    </li>
+    <li class="">
+      <a href="11. Quiz MIN, MAX, &amp; AVG.html">11. Quiz: MIN, MAX, &amp; AVG</a>
+    </li>
+    <li class="">
+      <a href="12. Solutions MIN, MAX, &amp; AVG.html">12. Solutions: MIN, MAX, &amp; AVG</a>
+    </li>
+    <li class="">
+      <a href="13. Video GROUP BY.html">13. Video: GROUP BY</a>
+    </li>
+    <li class="">
+      <a href="14. Quiz GROUP BY.html">14. Quiz: GROUP BY</a>
+    </li>
+    <li class="">
+      <a href="15. Solutions GROUP BY.html">15. Solutions: GROUP BY</a>
+    </li>
+    <li class="">
+      <a href="16. Video GROUP BY Part II.html">16. Video: GROUP BY Part II</a>
+    </li>
+    <li class="">
+      <a href="17. Quiz GROUP BY Part II.html">17. Quiz: GROUP BY Part II</a>
+    </li>
+    <li class="">
+      <a href="18. Solutions GROUP BY Part II.html">18. Solutions: GROUP BY Part II</a>
+    </li>
+    <li class="">
+      <a href="19. Video DISTINCT.html">19. Video: DISTINCT</a>
+    </li>
+    <li class="">
+      <a href="20. Quiz DISTINCT.html">20. Quiz: DISTINCT</a>
+    </li>
+    <li class="">
+      <a href="21. Solutions DISTINCT.html">21. Solutions: DISTINCT</a>
+    </li>
+    <li class="">
+      <a href="22. Video HAVING.html">22. Video: HAVING</a>
+    </li>
+    <li class="">
+      <a href="23. HAVING.html">23. HAVING</a>
+    </li>
+    <li class="">
+      <a href="24. Solutions HAVING.html">24. Solutions: HAVING</a>
+    </li>
+    <li class="">
+      <a href="25. Video DATE Functions.html">25. Video: DATE Functions</a>
+    </li>
+    <li class="">
+      <a href="26. Video DATE Functions II.html">26. Video: DATE Functions II</a>
+    </li>
+    <li class="">
+      <a href="27. Quiz DATE Functions.html">27. Quiz: DATE Functions</a>
+    </li>
+    <li class="">
+      <a href="28. Solutions DATE Functions.html">28. Solutions: DATE Functions</a>
+    </li>
+    <li class="">
+      <a href="29. Video CASE Statements.html">29. Video: CASE Statements</a>
+    </li>
+    <li class="">
+      <a href="30. Video CASE &amp; Aggregations.html">30. Video: CASE &amp; Aggregations</a>
+    </li>
+    <li class="">
+      <a href="31. Quiz CASE.html">31. Quiz: CASE</a>
+    </li>
+    <li class="">
+      <a href="32. Solutions CASE.html">32. Solutions: CASE</a>
+    </li>
+    <li class="">
+      <a href="33. Text Recap.html">33. Text: Recap</a>
+    </li>
+  </ul>
+
+  <ul class="sidebar-list list-unstyled CTAs">
+    <li>
+      <a href="../index.html" class="article">Back to Home</a>
+    </li>
+  </ul>
+</nav>
+
+    <div id="content">
+      <header class="container-fluild header">
+        <div class="container">
+          <div class="row">
+            <div class="col-12">
+              <div class="align-items-middle">
+                <button type="button" id="sidebarCollapse" class="btn btn-toggle-sidebar">
+                  <div></div>
+                  <div></div>
+                  <div></div>
+                </button>
+
+                <h1 style="display: inline-block">12. Solutions: MIN, MAX, & AVG</h1>
+              </div>
+            </div>
+          </div>
+        </div>
+      </header>
+
+      <main class="container">
+        <div class="row">
+          <div class="col-12">
+            <div class="ud-atom">
+  <h3></h3>
+  <div>
+  <h3 id="solutions-min-max-and-average">Solutions: MIN, MAX, and AVERAGE</h3>
+<ol>
+<li>When was the earliest order ever placed?</li>
+</ol>
+<pre><code>SELECT MIN(occurred_at) 
+FROM orders;</code></pre>
+<ol start="2">
+<li>Try performing the same query as in question 1 without using an aggregation function. <br><br></li>
+</ol>
+<pre><code>SELECT occurred_at 
+FROM orders 
+ORDER BY occurred_at
+LIMIT 1;</code></pre>
+<ol start="3">
+<li>When did the most recent (latest) <strong>web_event</strong> occur?</li>
+</ol>
+<pre><code>SELECT MAX(occurred_at)
+FROM web_events;</code></pre>
+<ol start="4">
+<li>Try to perform the result of the previous query without using an aggregation function.</li>
+</ol>
+<pre><code>SELECT occurred_at
+FROM web_events
+ORDER BY occurred_at DESC
+LIMIT 1;</code></pre>
+<ol start="5">
+<li>Find the mean (<strong>AVERAGE</strong>) amount spent per order on each paper type, as well as the mean amount of each paper type purchased per order.  Your final answer should have 6 values - one for each paper type for the average number of sales, as well as the average amount.</li>
+</ol>
+<pre><code>SELECT AVG(standard_qty) mean_standard, AVG(gloss_qty) mean_gloss, 
+              AVG(poster_qty) mean_poster, AVG(standard_amt_usd) mean_standard_usd, 
+              AVG(gloss_amt_usd) mean_gloss_usd, AVG(poster_amt_usd) mean_poster_usd
+FROM orders;</code></pre>
+<ol start="6">
+<li>Via the video, you might be interested in how to calculate the MEDIAN.  Though this is more advanced than what we have covered so far try finding - what is the MEDIAN <strong>total_usd</strong> spent on all <strong>orders</strong>? Note, this is more advanced than the topics we have covered thus far to build a general solution, but we can hard code a solution in the following way.</li>
+</ol>
+<pre><code>SELECT *
+FROM (SELECT total_amt_usd
+         FROM orders
+         ORDER BY total_amt_usd
+         LIMIT 3457) AS Table1
+ORDER BY total_amt_usd DESC
+LIMIT 2;</code></pre>
+<p>Since there are 6912 orders - we want the average of the 3457 and 3456 order amounts when ordered.  This is the average of 2483.16 and 2482.55.   This gives the median of <strong>2482.855</strong>.  This obviously isn't an ideal way to compute.  If we obtain new orders, we would have to change the limit.  SQL didn't even calculate the median for us.  The above used a SUBQUERY, but you could use any method to find the two necessary values, and then you just need the average of them.</p>
+</div>
+
+</div>
+<div class="divider"></div><div class="ud-atom">
+  <h3></h3>
+  <div class="jumbotron">
+  <h3>Code</h3>
+
+  <p class="lead">If you need a code on the <a href="https://github.com/udacity"
+    target="_blank">https://github.com/udacity</a>. </p>
+
+  </ul>
+</div>
+
+</div>
+<div class="divider"></div>
+          </div>
+
+          <div class="col-12">
+            <p class="text-right">
+              <a href="13. Video GROUP BY.html" class="btn btn-outline-primary mt-4" role="button">Next Concept</a>
+            </p>
+          </div>
+        </div>
+      </main>
+
+      <footer class="footer">
+        <div class="container">
+          <div class="row">
+            <div class="col-12">
+              <p class="text-center">
+                <a href="https://us-udacity.github.io/" target="_blank">【udacity2.0 】If you need more courses, please add wechat：udacity6</a>
+              </p>
+            </div>
+          </div>
+        </div>
+      </footer>
+    </div>
+  </div>
+
+
+  <script src="../assets/js/jquery-3.3.1.min.js"></script>
+  <script src="../assets/js/plyr.polyfilled.min.js"></script>
+  <script src="../assets/js/bootstrap.min.js"></script>
+  <script src="../assets/js/jquery.mCustomScrollbar.concat.min.js"></script>
+  <script src="../assets/js/katex.min.js"></script>
+  <script>
+    // Initialize Plyr video players
+    const players = Array.from(document.querySelectorAll('video')).map(p => new Plyr(p));
+
+    // render math equations
+    let elMath = document.getElementsByClassName('mathquill');
+    for (let i = 0, len = elMath.length; i < len; i += 1) {
+      const el = elMath[i];
+
+      katex.render(el.textContent, el, {
+        throwOnError: false
+      });
+    }
+
+    // this hack will make sure Bootstrap tabs work when using Handlebars
+    if ($('#question-tabs').length && $('#user-answer-tabs').length) {
+      $("#question-tabs a.nav-link").on('click', function () {
+        $("#question-tab-contents .tab-pane").hide();
+        $($(this).attr("href")).show();
+      });
+      $("#user-answer-tabs a.nav-link").on('click', function () {
+        $("#user-answer-tab-contents .tab-pane").hide();
+        $($(this).attr("href")).show();
+      });
+    } else {
+      $("a.nav-link").on('click', function () {
+        $(".tab-pane").hide();
+        $($(this).attr("href")).show();
+      });
+    }
+
+    // side bar events
+    $(document).ready(function () {
+      $("#sidebar").mCustomScrollbar({
+        theme: "minimal"
+      });
+
+      $('#sidebarCollapse').on('click', function () {
+        $('#sidebar, #content').toggleClass('active');
+        $('.collapse.in').toggleClass('in');
+        $('a[aria-expanded=true]').attr('aria-expanded', 'false');
+      });
+
+      // scroll to first video on page loading
+      if ($('video').length) {
+        $('html,body').animate({ scrollTop: $('div.plyr').prev().offset().top});
+      }
+
+      // auto play first video: this may not work with chrome/safari due to autoplay policy
+      if (players && players.length > 0) {
+        players[0].play();
+      }
+
+      // scroll sidebar to current concept
+      const currentInSideBar = $( "ul.sidebar-list.components li a:contains('12. Solutions: MIN, MAX, &amp; AVG')" )
+      currentInSideBar.css( "text-decoration", "underline" );
+      $("#sidebar").mCustomScrollbar('scrollTo', currentInSideBar);
+    });
+  </script>
+</body>
+
+</html>

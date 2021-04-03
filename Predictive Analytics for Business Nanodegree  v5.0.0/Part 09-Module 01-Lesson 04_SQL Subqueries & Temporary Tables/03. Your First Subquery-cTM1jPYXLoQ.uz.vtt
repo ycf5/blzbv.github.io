@@ -1,0 +1,134 @@
+WEBVTT
+Kind: captions
+Language: uz
+
+00:00:00.000 --> 00:00:02.805
+Keling, bu misolni bir necha qadamga ajrataylik.
+
+00:00:02.805 --> 00:00:05.820
+Birinchidan, ma’lumotlar biz nima qilmoqchi 
+ekanligimizga to‘g‘ri kelishiga 
+
+00:00:05.820 --> 00:00:09.051
+ishonch hosil uchun biz quiydagi 
+jadvalga so‘rov berishdan boshlaymiz.
+
+00:00:09.051 --> 00:00:15.620
+Keyin, biz har bir kanalda, har kuni 
+sodir bo‘lgan voqealarni hisoblaymiz.
+
+00:00:51.900 --> 00:00:58.460
+So‘nggi qadam, biz yaratgan voqealar ustuni 
+bo‘yicha o‘rtacha qiymat topishni istaymiz.
+
+00:00:58.460 --> 00:01:03.328
+Buning uchun biz ushbu so‘rov natijalariga 
+qarshi so‘rov o‘tkazishni xohlaymiz.
+
+00:01:03.328 --> 00:01:06.200
+Biz buni so‘rovni qavs ichiga 
+o‘ralgan holda qilishimiz 
+
+00:01:06.200 --> 00:01:11.620
+va uni biz yozgan keyingi so‘rovning 
+FROM jumlasida ishlatishimiz mumkin.
+
+00:01:13.330 --> 00:01:17.520
+Bu so‘rov ichidagi so‘rov,
+
+00:01:17.520 --> 00:01:20.610
+subquery, u quyi so‘rov deb ham ataladi.
+
+00:01:20.610 --> 00:01:22.875
+Quyi so‘rovlarda taxalluslar 
+ega bo‘lishni talab etadi,
+
+00:01:22.875 --> 00:01:24.840
+ular qavslardan keyin qo‘shilida
+
+00:01:24.840 --> 00:01:27.700
+xuddi jadvalga taxallus qo‘shilgani kabi.
+
+00:01:27.700 --> 00:01:32.275
+Bu erda biz barcha ma’lumotlarni 
+faqat quyi so‘rovdan tanlaymiz.
+
+00:01:32.275 --> 00:01:36.037
+Keling ishimizning yakuniy qismiga o‘tib, har 
+bir kanal uchun o‘rtacha voqealarga o‘taylik.
+
+00:01:36.037 --> 00:01:39.645
+Quyi so‘rov FROM jumlasidagi bitta 
+jadval kabi ishlayotganligi sababli,
+
+00:01:39.645 --> 00:01:56.206
+undan keyin GROUP BY gapini 
+joylashtiramiz.
+
+00:01:56.206 --> 00:02:10.670
+Endi biz ma’lumotlarni ushbu yangi to‘plam 
+asosida tartiblashtirganligimiz sababli,
+
+00:02:10.670 --> 00:02:14.000
+bizga ORDER BY ko‘rsatmasi 
+boshqa kerak emas.
+
+00:02:14.000 --> 00:02:18.220
+Shunday qilib, narsalarni toza saqlash 
+uchun buni olib tashlalik.
+
+00:02:19.190 --> 00:02:22.785
+Buni yana ham tushunarliroq qilish uchun,
+
+00:02:22.785 --> 00:02:26.045
+keling, ushbu yangi so‘rov ishlashini 
+qismlarga bo‘lib kuzatamiz.
+
+00:02:26.045 --> 00:02:29.020
+Birinchi bo‘lib ichki so‘rovingiz ishlaydi.
+
+00:02:29.020 --> 00:02:32.260
+Bu axmoqlik kabi tuyilishi 
+mumkin, ammo bu juda muhim.
+
+00:02:32.260 --> 00:02:34.210
+Sizning ichki so‘rovingiz aslida 
+unga asoslangan bo‘lishi kerak
+
+00:02:34.210 --> 00:02:38.200
+Ma’lumotlar bazasi uni mustaqil 
+so‘rov sifatida ko‘rib chiqadi.
+
+00:02:38.200 --> 00:02:40.075
+Ichki so‘rovingiz tugagandan so‘ng,
+
+00:02:40.075 --> 00:02:42.220
+so‘rovning qolgan qismi
+
+00:02:42.220 --> 00:02:48.000
+tashqi so‘rov ichki so‘rov tomonidan 
+yaratilgan natijalar bo‘ylab ishlaydi.
+
+00:02:48.000 --> 00:02:51.340
+Ushbu ajoyib xususiyatga boshqa ko‘plab 
+SQL muharrirlari ham ega -
+
+00:02:51.340 --> 00:02:55.480
+so‘rovning bir qismini ajratish va 
+faqat shu qismni ishlatish qobiliyati.
+
+00:02:55.480 --> 00:02:59.205
+Bu, ayniqsa, ichki so‘rovga o‘zgartirishlar 
+kiritishda foydalidir.
+
+00:02:59.205 --> 00:03:00.256
+Siz ichki so‘rovda o‘zgartirish 
+qilishingiz mumkin,
+
+00:03:00.256 --> 00:03:03.010
+keyin ichki so‘rov natijasini 
+to‘g‘riligiga ishonch hosil qilib,
+
+00:03:03.010 --> 00:03:07.000
+tashqi so‘rovni qayta ishga tushirasiz.
+

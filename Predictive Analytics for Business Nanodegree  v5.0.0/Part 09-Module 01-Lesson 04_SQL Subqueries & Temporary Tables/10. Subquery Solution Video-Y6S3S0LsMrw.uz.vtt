@@ -1,0 +1,551 @@
+WEBVTT
+Kind: captions
+Language: uz
+
+00:00:00.190 --> 00:00:04.310
+Endi biz quyi so‘rovlardan foydalangan holda 
+murakkabroq so‘rovlarga murojaat qilamiz,
+
+00:00:04.310 --> 00:00:07.310
+sinfning ish maydoni biroz tor ko‘rinishi mumkin.
+
+00:00:07.310 --> 00:00:10.505
+Agar siz allaqachon so‘rovingizni muharrirga 
+yozishni boshlamagan bo‘lsangiz,
+
+00:00:10.505 --> 00:00:13.950
+endi boshlash uchun ayni vaqt. Mana mening ishim.
+
+00:00:13.950 --> 00:00:15.545
+Siz bu erda chap tomonda, men muharririmni 
+
+00:00:15.545 --> 00:00:20.580
+subqueries.sql kengaytmasi bilan 
+ochganligimni ko‘rishingiz mumkin.
+
+00:00:20.580 --> 00:00:23.300
+Va o‘ng tomonda, sinfxonam,
+
+00:00:23.300 --> 00:00:26.620
+bu erda savollarni o‘qib, o‘z kodimni bajara olaman.
+
+00:00:26.620 --> 00:00:29.439
+Xullas, endi birinchi savolni ko‘rib chiqaylik.
+
+00:00:29.439 --> 00:00:32.285
+Unda har bir mintaqa bo‘yicha AQSh dollarida 
+eng katta umumiy savdo qilgan 
+
+00:00:32.285 --> 00:00:36.710
+vakillar nomlarini ko‘rsating deyilgan.
+
+00:00:36.710 --> 00:00:38.580
+Ushbu muammoni hal qilish uchun 
+
+00:00:38.580 --> 00:00:41.615
+avval bu ma’lumotlarning bir qismini 
+birlashtirishga harakat qilaylik.
+
+00:00:41.615 --> 00:00:45.375
+Biz ushbu jadvalda savdo haqida ma’lumot 
+mavjudligini ko‘rishimiz mumkin.
+
+00:00:45.375 --> 00:00:47.450
+Viloyat haqida ma’lumot bu erda,
+
+00:00:47.450 --> 00:00:50.780
+va AQSh dollarining umumiy miqdori esa
+buyurtmalar jadvalida.
+
+00:00:50.780 --> 00:00:53.270
+Shuning uchun biz barcha ma’lumotlarni birgalikda to‘plash uchun 
+
+00:00:53.270 --> 00:00:56.949
+ushbu to‘rtta jadvalni qo‘shishimiz kerak.
+
+00:00:56.949 --> 00:00:59.600
+Shunday qilib, keling boshlaymiz.
+
+00:00:59.600 --> 00:01:30.110
+Sharh bilan boshlang.
+
+00:01:30.110 --> 00:01:46.290
+Shunday qilsangiz
+
+00:01:46.290 --> 00:01:49.625
+bunga qaytib kelganingizda bu 
+narsalarni tushunish osonlashadi.
+
+00:01:49.625 --> 00:01:52.425
+Endi keling, muammomizni hal qilishni boshlaymiz.
+
+00:01:52.425 --> 00:01:59.479
+Birinchidan, biz ushbu ma’lumotlarning 
+barchasini birlashtirmoqchimiz.
+
+00:01:59.479 --> 00:02:05.678
+Keling, savdo vakillari 
+jadvalidan boshlaylik.
+
+00:02:05.678 --> 00:02:11.312
+Men uni SR taxallusi bilan belgilayman. 
+Kelinglar viloyat jadvaliga qo‘shilamiz,
+
+00:02:11.312 --> 00:02:13.450
+Men uni R taxallusi bilan belgilayman. 
+
+00:02:13.450 --> 00:02:15.855
+Biz ularni boshlang‘ich va tashqi 
+kalitlar mos keladigan qilib qo‘shamiz,
+
+00:02:15.855 --> 00:02:24.445
+shuning uchun SR mintaqa 
+identifikatori r.id ga teng bo‘ladi.
+
+00:02:24.445 --> 00:02:29.445
+Agar biz hisob ma’lumotlarini tortib olmoqchi bo‘lsak,
+bu jadval menda A taxallusga ega 
+
+00:02:29.445 --> 00:02:38.193
+biz uning savdo vakili ID sini sr.id ga 
+teng bo‘lishini xohlaymiz.
+
+00:02:38.193 --> 00:02:44.950
+Va keyin buyurtmalar jadvali O ga qo‘shilamiz
+
+00:02:44.950 --> 00:02:52.458
+bunda o.account ID hisobning a.id siga teng bo‘ladi.
+
+00:02:52.458 --> 00:02:57.115
+Ajoyib. Shunday qilib, endi biz barcha 
+ma’lumotlarni birlashtirdik.
+
+00:02:57.115 --> 00:03:01.000
+So‘rovdan biz har bir savdo vakili nomini, mintaqasini 
+va, nihoyat, umumiy savdo hajmini 
+
+00:03:01.000 --> 00:03:06.310
+aniqlashimiz kerakligini ko‘rishimiz mumkin.
+
+00:03:06.310 --> 00:03:09.690
+Xo‘sh, keling, shunchaki ba’zi 
+ma’lumotlarni birgalikda yig‘amiz.
+
+00:03:09.690 --> 00:03:13.525
+Shunday qilib, agar biz savdo 
+vakili haqida ma’lumotni olsak,
+
+00:03:13.525 --> 00:03:20.760
+keyin mintaqa ma’lumotlarini tortib olishimiz mumkin,
+
+00:03:20.760 --> 00:03:26.993
+va so‘ng buyurtmalarni ham.
+
+00:03:26.993 --> 00:03:29.615
+BUndan tashqari, har bir savdo vakili
+
+00:03:29.615 --> 00:03:37.275
+uchun savdolarning umumiy hajmi kerak.
+
+00:03:37.275 --> 00:03:42.155
+Buning yig‘indisi ham. Uni shunchaki umumiy 
+savdo total sales deb nomlaylik.
+
+00:03:42.155 --> 00:03:47.981
+Va endi biz taxallusimizga kirmagan 
+narsalarni guruhlarga ajratishni xohlaymiz.
+
+00:03:47.981 --> 00:03:49.590
+Bizning taxallusimiz shu erda,
+
+00:03:49.590 --> 00:03:51.994
+va biz uning tashqarisida ushbu ikkita ustunga egamiz.
+
+00:03:51.994 --> 00:03:54.015
+Men bu yerda bitta sharh ham qo‘shmoqchiman,
+
+00:03:54.015 --> 00:04:02.770
+buyurtmani aytaylik kamayish tartibida 
+uchunchi qilib berishimiz ham mumkin.
+
+00:04:02.770 --> 00:04:04.430
+Keling, davom etaylik,
+
+00:04:04.430 --> 00:04:08.125
+nimaga ega bo‘lganimizni ko‘ring.
+
+00:04:08.125 --> 00:04:10.970
+Zo‘r.
+
+00:04:10.970 --> 00:04:12.803
+Shunday qilib, u bajarilganga o‘xshaydi.
+
+00:04:12.803 --> 00:04:15.515
+Ko‘ryapsizmi, bizda faqat bitta nom ustun bor,
+
+00:04:15.515 --> 00:04:16.850
+va buning sababi, ehtimol,
+
+00:04:16.850 --> 00:04:22.265
+ish maydoni, bu ikki ustunlar bir xil 
+nomga ega bo‘lishi bilan chalkashda.
+
+00:04:22.265 --> 00:04:24.500
+Shunday qilib, keling, yanada aniqlik kiritaylik.
+
+00:04:24.500 --> 00:04:30.695
+Keling, rep, ism va mintaqani chaqiraylik.
+
+00:04:30.695 --> 00:04:37.298
+Yana urinib ko‘ramiz.
+
+00:04:37.298 --> 00:04:38.644
+Ajoyib.
+
+00:04:38.644 --> 00:04:40.475
+Shunday qilib, endi biz ulardan uchtasini oldik.
+
+00:04:40.475 --> 00:04:43.470
+Bizda rep, mintaqa va umumiy savdo mavjud.
+
+00:04:43.470 --> 00:04:44.915
+Ammo bu savol uchun
+
+00:04:44.915 --> 00:04:47.300
+har bir mintaqa uchun eng ko‘p savdo qilgan 
+
+00:04:47.300 --> 00:04:50.210
+savdo vakili nomini ko‘rsatmoqchimiz.
+
+00:04:50.210 --> 00:04:54.410
+Shunday qilib, biz Janubi-Sharqiy mintaqa uchun nimani xohlasak, 
+
+00:04:54.410 --> 00:04:58.737
+shuni shimoliy-sharqiy mintaqa uchun ham xohlaymiz
+
+00:04:58.737 --> 00:04:59.870
+lekin bu erda bizda 
+
+00:04:59.870 --> 00:05:03.700
+Janubi-Sharqiy mintaqadan yana bir vakil bor. 
+Biz bularni jadvalimizda ko‘rsatishini istamaymiz.
+
+00:05:03.700 --> 00:05:05.480
+Bu odam G’arb uchun bo‘lishi kerak,
+
+00:05:05.480 --> 00:05:11.420
+va keyin bizda mavjud bo‘lgan har qanday boshqa mintaqalar uchun ham shunchaki eng ko‘p savdoli vakilni ko‘rishni xohlaymiz.
+
+00:05:11.420 --> 00:05:17.345
+Shunday qilib, buni amalga oshirish uchun
+
+00:05:17.345 --> 00:05:21.095
+biz ayyorroq qo‘shilishni amalga oshirishimiz kerak,
+
+00:05:21.095 --> 00:05:25.360
+bu juda keng tarqalgan usul.
+
+00:05:25.360 --> 00:05:31.335
+Umuman aytganda, biz ushbu jadvaldagi 
+ma’lumotlarga egamiz va bu bizga ma’qul.
+
+00:05:31.335 --> 00:05:52.490
+Demak endi biz quyi so‘rov yaratamiz.
+
+00:05:52.490 --> 00:05:55.050
+Va men bu t1 ni chaqirmoqman.
+
+00:05:55.050 --> 00:05:58.277
+Ehtimol, buning uchun yaxshiroq nomlanish 
+kelishuviga kelishimiz mumkin.
+
+00:05:58.277 --> 00:06:02.040
+Ammo, biz t1 dan olishni istaymiz, 
+keyin esa nima qilishni xohlaymiz?
+
+00:06:02.040 --> 00:06:05.110
+biz mintaqani tanlashni xohlaymizmi?
+
+00:06:05.110 --> 00:06:11.725
+Xo‘sh, har bir mintaqa uchun biz eng 
+ko‘p sotuvni aniqlamoqchimiz.
+81
+00:06:11,725 ​​-&gt; 00:06:21,690
+Biz ko‘rib chiqqan jadvaldan mana bu erda mavjud
+
+00:06:21.690 --> 00:06:27.540
+biz mintaqa bo‘yicha eng ko‘p sotuv 
+bilan birga mintaqani ham chaqirmoqchimiz.
+
+00:06:27.540 --> 00:06:31.035
+Va bu allaqachon guruhlanganligi sababli,
+
+00:06:31.035 --> 00:06:34.740
+biz shunchaki bu erda har bir mintaqa 
+uchun maksimal miqdorni olamiz.
+
+00:06:34.740 --> 00:06:37.650
+Shunday qilib, Janubiy-sharq uchun bu raqamni olish kerak,
+
+00:06:37.650 --> 00:06:40.260
+va shimoli-sharq uchun ham bu raqamni olish kerak.
+
+00:06:40.260 --> 00:06:41.460
+G’arb uchun ham
+
+00:06:41.460 --> 00:06:44.325
+u bu raqamni tortib olishi kerak va shu 
+tarzda qidiruvni davom etadi.
+
+00:06:44.325 --> 00:06:46.350
+Endi biz ushbu shimoliy-sharqiy mintaqaga egamiz,
+
+00:06:46.350 --> 00:06:48.195
+va uning uchun ham shunchaki maksimumni tortishimiz kerak,
+
+00:06:48.195 --> 00:06:50.500
+va qolganlarning barchasiga ham shunday.
+
+00:06:50.500 --> 00:06:53.670
+Afsuski, biz buni birdaniga bajara olmaymiz,
+
+00:06:53.670 --> 00:06:56.995
+chunki biz yana bir kishi tomonidan guruhlasak,
+
+00:06:56.995 --> 00:06:59.610
+shaxs bilan mintaqa hali ham
+
+00:06:59.610 --> 00:07:03.075
+noyob, shuning uchun biz ushbu jadval 
+qiymatlarining barchasini qaytarib olamiz.
+
+00:07:03.075 --> 00:07:06.255
+Agar biz faqat mintaqa bo‘yicha olsak,
+
+00:07:06.255 --> 00:07:11.153
+biz faqat bitta maksimal miqdordagi savdo 
+hajmiga ega savdo vakilini olishimiz kerak.
+
+00:07:11.153 --> 00:07:18.315
+Bu ayni biz ushbu jadvalda xohlaganimiz.
+
+00:07:18.315 --> 00:07:28.480
+Shunday qilib, bu mintaqa uchun eng ko‘p savdo miqdori, 
+lekin bizda yana bitta agregatimiz bor, 
+
+00:07:28.480 --> 00:07:31.570
+chunki biz jamlamagan har qanday 
+narsani guruhlashimiz kerak.
+
+00:07:31.570 --> 00:07:33.298
+Demak bu faqat ushbu birinchi narsa.
+
+00:07:33.298 --> 00:07:37.710
+Xo‘sh, keling, buni ishga tushiraylik, 
+ishlayotganiga ishonch hosil qiling.
+
+00:07:37.910 --> 00:07:43.285
+Ajoyib. Shunday qilib, hozir ko‘rib turganingizdek, 
+bizda to‘rtta viloyat bor,
+
+00:07:43.285 --> 00:07:46.540
+va men ilgari Shimoliy-sharq haqida 
+noto‘g‘ri gap aytdim shekilli.
+
+00:07:46.540 --> 00:07:49.195
+Bizda ushbu to‘rtta mintaqa mavjud, ularning 
+har biri eng ko‘p savdo miqdorlariga ega,
+
+00:07:49.195 --> 00:07:53.290
+va aslida biz qilishni istagan narsa, 
+buni asl jadvalga moslashtirishdir.
+
+00:07:53.290 --> 00:07:55.825
+Biz buni avvalgi jadvalga moslashtirmoqchimiz,
+
+00:07:55.825 --> 00:07:59.665
+viloyatlar mos keladigan mintaqalar, shuningdek, umumiy savdo hajmi,
+
+00:07:59.665 --> 00:08:02.360
+eng ko‘p sotuvga teng.
+
+00:08:02.360 --> 00:08:03.995
+Keling endi, buni davom ettiramiz.
+
+00:08:03.995 --> 00:08:06.070
+Shunday qilib, bizda ushbu jadval
+
+00:08:06.070 --> 00:08:09.965
+o‘ng tomondagi mavjud bo‘lgan mana bu jadval.
+
+00:08:09.965 --> 00:08:12.175
+Shunday qilib, biz buni olamiz va biz shunchaki,
+
+00:08:12.175 --> 00:08:17.912
+yana men uni T2 deb nomlamoqchiman.
+
+00:08:17.912 --> 00:08:23.371
+Keling, bundan tortib olaylik.
+
+00:08:23.371 --> 00:08:28.625
+Va biz quyida ushbu jadvalga qo‘shilishni xohlaymiz.
+
+00:08:28.625 --> 00:08:33.850
+Shunday qilib, biz quyida ushbu jadvalga qo‘shilamiz.
+
+00:08:33.850 --> 00:08:37.615
+Va men uni shunchaki t3 deb belgilayman.
+
+00:08:37.615 --> 00:08:40.878
+Shunday qilib, bu erdagi jadval t2 .
+
+00:08:40.878 --> 00:08:43.525
+t3 biz ilgari bajargan jadval edi,
+
+00:08:43.525 --> 00:08:46.570
+va biz ushbu jadvaldagi eng ko‘p sotuvlar 
+oldingi jadvalda ko‘rgan 
+
+00:08:46.570 --> 00:08:49.420
+savdo bilan teng bo‘lishini xohlaymiz,
+
+00:08:49.420 --> 00:08:51.220
+so‘ng ikkala mintaqani va savdo vakilini
+
+00:08:51.220 --> 00:08:56.530
+tortib olamiz.
+
+00:08:56.530 --> 00:08:58.130
+Shunday qilib, tanlaymiz.
+
+00:08:58.130 --> 00:09:02.004
+Aslida, bu mintaqani qayerdan 
+tortib olishimiz muhim emas
+
+00:09:02.004 --> 00:09:04.895
+yoki biz maksimal darajadagi savdo-sotiqni 
+jalb qilyapmizmi yoki umumiy savdonimi.
+
+00:09:04.895 --> 00:09:08.054
+Bu erda o‘ta muhim qism bu qo‘shilish qismidir.
+
+00:09:08.054 --> 00:09:13.030
+Shunday qilib, t2 dan mintaqa 
+nomini olishimiz mumkin,
+
+00:09:13.030 --> 00:09:18.750
+va t2 dan biz eng ko‘p sotuvni 
+ham olishimiz mumkin,
+
+00:09:18.750 --> 00:09:23.576
+va keyin t3 dan savdo vakili 
+nomini olishimiz kerak.
+
+00:09:23.576 --> 00:09:30.240
+Men buni shunchaki birinchi o‘ringa qo‘ymoqchiman.
+
+00:09:30.240 --> 00:09:32.165
+Xo‘p.
+
+00:09:32.165 --> 00:09:35.390
+Shunday qilib, bu erda biz tortishimiz 
+kerak bo‘lgan uchta qism bor,
+
+00:09:35.390 --> 00:09:42.315
+va keyin bu erda muhim ish - bu 
+ikkita jadvalni birlashtirishimizdir.
+
+00:09:42.315 --> 00:09:45.645
+Shunday qilib, bizda ushbu mintaqa nomi bor jadval mavjud,
+
+00:09:45.645 --> 00:09:50.615
+va ma’lum bir vakil uchun maksimal savdo hajmi bor
+
+00:09:50.615 --> 00:09:54.087
+va hozir biz qilishni xohlagan ish - unga qo‘shilish.
+
+00:09:54.087 --> 00:10:02.695
+Shunday qilib, biz mintaqa nomi bilan boshqa shu
+nomga teng mintaqa nomiga qo‘shilmoqchimiz.
+
+00:10:02.695 --> 00:10:10.005
+Va t2 dagi maksimal sotuv t2 dagi 
+umumiy sotuvlar 
+
+00:10:10.005 --> 00:10:18.033
+hajmiga teng bo‘lishini xohlaymiz.
+
+00:10:18.033 --> 00:10:23.200
+Shunday qilib, agar mintaqalar bir-biriga mos bo‘lsa, 
+biz to‘g‘ri mintaqani ko‘rayotganimizni bilamiz.
+
+00:10:23.200 --> 00:10:25.645
+Va agar maksimal sotuv umumiy savdoga teng bo‘lsa,
+
+00:10:25.645 --> 00:10:29.350
+bu maksimal savdo ushbu birinchi 
+jadvalda ma’lum bir savdo vakili 
+
+00:10:29.350 --> 00:10:34.285
+savdosiga tengligini anglatadi.
+
+00:10:34.285 --> 00:10:37.360
+Shunday qilib, u faqat savdosi 
+
+00:10:37.360 --> 00:10:43.705
+ushbu miqdorlarga teng bo‘lgan savdo vakillarini tortadi
+
+00:10:43.705 --> 00:10:45.810
+va ular ushbu mintaqada joylashgan.
+
+00:10:45.810 --> 00:10:49.690
+Shunday qilib, asosan, o‘zingiz ko‘rib turganingizdek, 
+Janubi-Sharqda eng yuqori ko‘rsatkich mavjud.
+
+00:10:49.690 --> 00:10:52.790
+Ehtimol Janubi-Sharqda buni egasi bor.
+
+00:10:52.790 --> 00:10:55.315
+Agar biz bu mintaqaga mos kelmagan bo‘lsak,
+
+00:10:55.315 --> 00:11:01.453
+bizning O‘rta G’arbdagi eng ko‘p savdo 
+miqdorimiz ko‘proq bo‘lishi mumkin,
+
+00:11:01.453 --> 00:11:03.367
+va bu mintaqa uchun eng ko‘p emas,
+
+00:11:03.367 --> 00:11:04.705
+bu ushbu mintaqa uchun eng yuqori ko‘rsatkich.
+
+00:11:04.705 --> 00:11:08.960
+Shunday qilib, biz mintaqada va savdo 
+hajmida mos kelishimiz mumkin.
+
+00:11:08.960 --> 00:11:15.556
+Ajoyib. Keling endi, buni davom eting.
+
+00:11:15.556 --> 00:11:18.759
+Xo‘p.
+
+00:11:18.759 --> 00:11:21.480
+Shunday qilib, biz to‘rtta natijaga erishganga o‘xshaymiz.
+
+00:11:21.480 --> 00:11:23.700
+Bizda Janubi-Sharq, Shimoli-Sharq,
+
+00:11:23.700 --> 00:11:24.855
+G’arb va O‘rta G’arb
+
+00:11:24.855 --> 00:11:25.980
+va u erda boshqa hech narsa ko‘rsatilmaydi.
+
+00:11:25.980 --> 00:11:27.500
+Shunday qilib, o‘sha to‘rtta mintaqa mavjud.
+
+00:11:27.500 --> 00:11:30.030
+Va bu erda esa ma’lum bir vakil tomonidan sotuvning maksimal hajmi,
+
+00:11:30.030 --> 00:11:33.790
+keyin esa bu vakilning nomi.
+

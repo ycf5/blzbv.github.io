@@ -1,0 +1,82 @@
+WEBVTT
+Kind: captions
+Language: uz
+
+00:00:00.020 --> 00:00:03.330
+Biror ustundagi noldan farqli yozuvlar 
+sonini hisoblash uchun hisoblash 
+
+00:00:03.330 --> 00:00:06.755
+funksiyasidan ham foydalanish mumkin.
+
+00:00:06.755 --> 00:00:10.605
+Buni ko‘rsatish uchun keling, hisoblar 
+jadvalini ko‘rib chiqaylik.
+
+00:00:10.605 --> 00:00:15.560
+Ko‘rib turganingizdek, hisoblar 
+jadvalida 354 qator mavjud.
+
+00:00:15.560 --> 00:00:19.275
+Endi, ID raqamini yulduzga almashtirib,
+
+00:00:19.275 --> 00:00:23.260
+ID ustunida nol bo‘lmagan yozuvlar 
+mavjudligini ko‘rishimiz mumkin.
+
+00:00:23.260 --> 00:00:26.495
+Keling, ustunga yanada 
+tushunarliroq nom beraylik.
+
+00:00:26.495 --> 00:00:29.740
+ID ustunida nol qiymat yo‘qligi sababli,
+
+00:00:29.740 --> 00:00:32.900
+u yulduzlar soni bilan bir xil natijani beradi.
+
+00:00:32.900 --> 00:00:42.860
+Keling, bir nechta nol qiymatlarni o‘z ichiga 
+olgan ustun primary poc bilan sinab ko‘raylik.
+
+00:00:42.860 --> 00:00:47.025
+Bu safar biz oldingi natijadan 
+to‘qqizga kamroq natijani olamiz.
+
+00:00:47.025 --> 00:00:51.390
+Endi primary poc ustunda to‘qqizta 
+nol qiymati borligini tekshirish 
+
+00:00:51.390 --> 00:00:58.194
+uchun tez so‘rovni bajaraylik.
+
+00:00:58.194 --> 00:01:01.440
+Mana, ular
+
+00:01:01.440 --> 00:01:03.595
+null qiymatiga ega to‘qqiz qator.
+
+00:01:03.595 --> 00:01:06.120
+Siz payqagandirsiz, hisoblash funksiyasi
+raqamli bo‘lmagan qiymatlarga ega bo‘lgan
+
+00:01:06.120 --> 00:01:09.000
+ustunlarda ham ishlatilishi mumkin.
+
+00:01:09.000 --> 00:01:12.930
+Bu barcha agregatsiya funksiyalariga to‘g‘ri 
+kelmaydi, ammo mantiqan tushunarli.
+
+00:01:12.930 --> 00:01:17.880
+Hisoblash funksiyasi faqat nolga teng bo‘lmagan 
+ma’lumotni qidiradi, matn esa nolga teng emas.
+
+00:01:17.880 --> 00:01:20.355
+Biz keyinchalik o‘rganadigan yig‘indi va 
+o‘rtachasini topish funksiyalarini 
+
+00:01:20.355 --> 00:01:23.793
+matnlarga qo‘llab bo‘lmaydi. Masalan, 
+
+00:01:23.793 --> 00:01:26.610
+hisoblar nomlar ustunidan qanday o‘rtacha miqdorini topish mumkin?
+

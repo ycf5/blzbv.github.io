@@ -1,0 +1,55 @@
+WEBVTT
+Kind: captions
+Language: uz
+
+00:00:00.000 --> 00:00:03.270
+Shunday qilib, endi biz qaysi qog‘oz turlari eng mashhurligini bilamiz va biz
+
+00:00:03.270 --> 00:00:07.089
+har qanday berilgan vaqtda bajarilishi kerak bo‘lgan eng katta buyurtma hajmini bilamiz.
+
+00:00:07.089 --> 00:00:09.300
+Ammo buyurtmaning o‘rtacha hajmi qancha?
+
+00:00:09.300 --> 00:00:12.000
+Doimiy ravishda nimani ko‘rishimiz kutiladi?
+
+00:00:12.000 --> 00:00:14.244
+Biz AVG sifatida yozilgan va hamma agregatlash funksiyalari uchun
+
+00:00:14.244 --> 00:00:19.339
+bir xil sintaksisga ega bo‘lgan o‘rtacha funksiyadan foydalanamiz.
+
+00:00:19.339 --> 00:00:23.184
+Shunday qilib, katta afisha qog‘oz buyurtmasi asosiy yetkazib beruvchi bo‘lishi kerak edi
+
+00:00:23.184 --> 00:00:25.179
+chunki o‘rtacha afishaning buyurtmasi atigi
+
+00:00:25.179 --> 00:00:27.774
+o‘rtacha standart buyurtmaning uchdan bir qismi hajmiga teng.
+
+00:00:27.774 --> 00:00:30.039
+Siz o‘rtacha funksiyadan foydalanganingizda,
+
+00:00:30.039 --> 00:00:33.850
+u faqat raqamli ustunlarda ishlatilishini yodda tuting.
+
+00:00:33.850 --> 00:00:36.085
+Shuningdek, u nullarni butunlay e’tiborsiz qoldiradi,
+
+00:00:36.085 --> 00:00:38.829
+bu null qiymati bo‘lgan qatorlarni nomeratorda yoki
+
+00:00:38.829 --> 00:00:42.284
+o‘rtachasi hisoblangan paytda maxrajda hisobga olinmasligini anglatadi.
+
+00:00:42.284 --> 00:00:44.170
+Agar siz nullni nol sifatida ko‘rmoqchi bo‘lsangiz,
+
+00:00:44.170 --> 00:00:46.030
+siz o‘rtacha funksiyani ishlatgandan ko‘ra uni hisob orqali
+
+00:00:46.030 --> 00:00:49.000
+yig‘ib olishingiz va ajratishingiz kerak bo‘ladi.
+

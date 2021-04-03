@@ -1,0 +1,115 @@
+WEBVTT
+Kind: captions
+Language: uz
+
+00:00:00.469 --> 00:00:03.570
+NULLlar qanday ishlashini his qilish uchun keling
+
+00:00:03.570 --> 00:00:05.220
+accounts jadvalidan yozuvlar to‘plamini tortib oling
+
+00:00:05.220 --> 00:00:07.770
+ID raqami 1500 tadan
+
+00:00:07.770 --> 00:00:13.830
+1600 gacha bo‘lgan. Biz primary POCni rad etdik
+5
+00:00:13,830 --&gt; 00:00:15 900
+bu point of contact - aloqa nuqtasi degan ma'noni anglatadi
+
+00:00:15.900 --> 00:00:19.109
+Intel hisob qaydnomasi uchun bo‘sh joy
+
+00:00:19.109 --> 00:00:21.689
+shunchaki ma'lumotlardagi xato bo‘lishi mumkin,
+
+00:00:21.689 --> 00:00:23.400
+tasodifan paydo bo‘lgan aloqa nuqtasi
+
+00:00:23.400 --> 00:00:25.590
+biron bir joyda o‘chirilgan yoki bo‘lishi mumkin
+
+00:00:25.590 --> 00:00:27.300
+Parchin Poseyning aloqa nuqtasi
+
+00:00:27.300 --> 00:00:29.039
+kompaniyani tark etdi va ularda
+
+00:00:29.039 --> 00:00:30.720
+ushbu qayd hisobi hali yo‘q, uning uchun yangi aloqa nuqtasi yo‘q.
+
+00:00:30.720 --> 00:00:33.329
+Har qanday holatda ham, bu ma'lumot yo‘q.
+
+00:00:33.329 --> 00:00:36.140
+Bu katakchadagi qiymat NULLga teng.
+
+00:00:36.140 --> 00:00:38.489
+O‘zingizni Parchin poseyni savdo menejeri sifatida tasavvur qiling.
+
+00:00:38.489 --> 00:00:40.649
+Siz primary POC nolga teng bo‘lgan barcha 
+
+00:00:40.649 --> 00:00:42.000
+hisoblarni bilishni xohlashingiz mumkin.
+
+00:00:42.000 --> 00:00:44.910
+Agar sizda POC bo‘lmasa, POC qiymati 
+
+00:00:44.910 --> 00:00:47.100
+nolga teng bo‘lsa - siz o‘sha mijozni 
+
+00:00:47.100 --> 00:00:48.660
+ko‘p ushlab turishni xohlamaysiz. 
+
+00:00:48.660 --> 00:00:50.940
+Bu hisoblarning barchasini topish uchun 
+
+00:00:50.940 --> 00:00:52.649
+biz ba'zi maxsus sintaksis foydalanish kerak bo‘ladi.
+
+00:00:52.649 --> 00:00:58.550
+Bizning where bayonotida.
+
+00:00:58.550 --> 00:01:00.620
+POC null bo‘lgan bir nechta hisoblar mavjud ekan,
+
+00:01:00.620 --> 00:01:03.590
+Sizga kerak bo‘lgan maxsus
+
+00:01:03.590 --> 00:01:05.210
+NULLlar haqida narsa - bu sizga kerak
+
+00:01:05.210 --> 00:01:12.990
+nullga teng o‘rniga IS NULL yozish. 
+
+00:01:12.990 --> 00:01:15.460
+Bu ishlamasligining sababi shundaki
+
+00:01:15.460 --> 00:01:17.650
+null bu qiymat emas, ma'lumot xususiyati. 
+
+00:01:17.650 --> 00:01:20.200
+Bu noldan ham, bo‘sh joydan ham farq qiladi
+
+00:01:20.200 --> 00:01:23.560
+bularning ikkalasi ham qiymat.
+
+00:01:23.560 --> 00:01:24.850
+Agar avvalgilarining teskari natijalar to‘plamini topmoqchi bo‘lsangiz,
+
+00:01:24.850 --> 00:01:27.100
+bu sintaksisdan foydalanishingiz mumkin:
+
+00:01:27.100 --> 00:01:29.570
+NOT NULL
+
+00:01:29.570 --> 00:01:32.570
+ko‘rib turganingizdek, 
+
+00:01:32.570 --> 00:01:34.460
+POC ustunining NULLdan farqli qiymatlari mavjud 
+
+00:01:34.460 --> 00:01:37.419
+barcha satrlarni qaytaradi.
+
