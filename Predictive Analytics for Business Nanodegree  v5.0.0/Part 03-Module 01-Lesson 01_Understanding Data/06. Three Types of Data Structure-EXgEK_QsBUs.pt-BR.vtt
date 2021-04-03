@@ -1,0 +1,127 @@
+WEBVTT
+Kind: captions
+Language: pt-BR
+
+00:00:00.467 --> 00:00:04.167
+Dados estruturados são dados
+muito bem organizados.
+
+00:00:04.200 --> 00:00:06.565
+Eles costumam estar organizados
+em colunas e linhas,
+
+00:00:06.598 --> 00:00:08.700
+como numa planilha.
+
+00:00:08.733 --> 00:00:11.167
+Às vezes colunas também são
+chamadas de campos,
+
+00:00:11.200 --> 00:00:13.467
+e linhas são chamadas
+de registros,
+
+00:00:13.500 --> 00:00:18.400
+e esses termos podem ser usados
+como sinônimos durante o curso.
+
+00:00:18.433 --> 00:00:20.500
+Cada coluna
+representa uma variável
+
+00:00:20.533 --> 00:00:23.800
+e cada linha,
+um registro de dados.
+
+00:00:23.833 --> 00:00:26.999
+Dados estruturados costumam ser
+armazenados em bancos de dados
+
+00:00:27.032 --> 00:00:31.700
+ou arquivos, como planilhas,
+e costumam ser muito acessíveis.
+
+00:00:31.733 --> 00:00:35.133
+Mas o mais importante
+é que são fáceis de usar.
+
+00:00:35.167 --> 00:00:39.433
+No entanto, dados não estruturados
+podem não ter estrutura nenhuma.
+
+00:00:39.467 --> 00:00:44.267
+Como os dados não são organizados
+nas típicas linhas e colunas,
+
+00:00:44.300 --> 00:00:46.499
+eles podem exigir tempo
+para serem trabalhados,
+
+00:00:46.532 --> 00:00:49.300
+já que é preciso extrair
+o que você quer deles.
+
+00:00:49.333 --> 00:00:51.567
+Alguns exemplos
+deste tipo de dado:
+
+00:00:51.600 --> 00:00:55.833
+um currículo, um tuíte
+ou um contrato.
+
+00:00:55.867 --> 00:00:59.600
+Dados semiestruturados são dados
+que têm certa estrutura,
+
+00:00:59.633 --> 00:01:03.465
+mas ainda precisam ser trabalhados
+e postos num formato estruturado
+
+00:01:03.498 --> 00:01:05.167
+de linhas e colunas.
+
+00:01:05.200 --> 00:01:07.800
+Eles podem ser um arquivo
+de log de um sistema,
+
+00:01:07.833 --> 00:01:10.467
+que exige parseamento
+e certa manipulação dos dados
+
+00:01:10.500 --> 00:01:15.267
+para que adquira
+um formato fácil de analisar.
+
+00:01:15.300 --> 00:01:20.033
+Outro exemplo é um catálogo
+de CDs de música em .xml.
+
+00:01:20.067 --> 00:01:22.299
+Nele, podemos
+claramente ver uma estrutura,
+
+00:01:22.332 --> 00:01:26.500
+já que cada CD tem um título,
+um artista, um país,
+
+00:01:26.533 --> 00:01:28.967
+uma gravadora,
+um preço e um ano.
+
+00:01:29.000 --> 00:01:32.000
+Mas ele não está no formato
+normal de linhas e colunas,
+
+00:01:32.033 --> 00:01:34.900
+então ainda precisa ser trabalhado
+para chegar a um formato
+
+00:01:34.933 --> 00:01:36.900
+que pode ser usado facilmente.
+
+00:01:37.267 --> 00:01:38.567
+*END*
+
+00:01:38.600 --> 00:01:39.900
+*CODE*
+

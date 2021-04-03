@@ -1,0 +1,38 @@
+WEBVTT
+Kind: captions
+Language: pt-BR
+
+00:00:00.968 --> 00:00:03.837
+Agora já falamos sobre
+as várias estruturas de dados,
+
+00:00:03.871 --> 00:00:06.540
+fontes de dados
+e os tipos de dados.
+
+00:00:06.573 --> 00:00:08.509
+Agora vamos explorar
+o próximo passo
+
+00:00:08.542 --> 00:00:11.209
+na construção do nosso
+conjunto de dados analíticos.
+
+00:00:11.242 --> 00:00:12.980
+Depois que tivermos
+nossos dados,
+
+00:00:13.013 --> 00:00:15.582
+vamos começar a identificar
+problemas neles
+
+00:00:15.616 --> 00:00:18.485
+e a resolvê-los.
+Vamos começar!
+
+00:00:18.519 --> 00:00:19.786
+*END*
+
+00:00:19.820 --> 00:00:21.188
+*CODE*
+

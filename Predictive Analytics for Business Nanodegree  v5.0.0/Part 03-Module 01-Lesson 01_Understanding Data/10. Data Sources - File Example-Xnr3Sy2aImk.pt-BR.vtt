@@ -1,0 +1,184 @@
+WEBVTT
+Kind: captions
+Language: pt-BR
+
+00:00:00.000 --> 00:00:04.467
+Vamos parar um pouco a aula para
+nos familiarizar mais com o Alteryx.
+
+00:00:04.500 --> 00:00:07.233
+Como vamos usar este software
+em boa parte deste curso
+
+00:00:07.267 --> 00:00:10.533
+para demonstrar como construir
+um conjunto de dados analíticos,
+
+00:00:10.567 --> 00:00:12.933
+vamos explorar
+algumas funções básicas
+
+00:00:12.967 --> 00:00:17.033
+para que, ao usá-lo, você fique
+mais à vontade com a ferramenta.
+
+00:00:17.067 --> 00:00:20.667
+Primeiro, vamos aprender
+a importar dados para o Alteryx.
+
+00:00:20.700 --> 00:00:23.933
+Para começar, vou apenas clicar
+na ferramenta "Input Data"
+
+00:00:23.967 --> 00:00:26.100
+e arrastá-la para a tela.
+
+00:00:26.133 --> 00:00:29.100
+Agora vou clicar na janela
+"Configuration",
+
+00:00:29.133 --> 00:00:32.967
+clicar no menu dropdown
+e escolher "File Browse".
+
+00:00:33.000 --> 00:00:37.667
+Aqui podemos ver os vários tipos de
+arquivo compatíveis com o Alteryx.
+
+00:00:37.700 --> 00:00:42.000
+Agora vou navegar até onde
+as amostras de dados estão,
+
+00:00:42.033 --> 00:00:44.233
+escolher um arquivo,
+clicar em "Open",
+
+00:00:44.267 --> 00:00:49.467
+selecionar a planilha chamada
+"Output$" e clicar em "OK".
+
+00:00:49.500 --> 00:00:52.200
+Podemos ver os dados à esquerda
+na janela de pré-visualização.
+
+00:00:52.233 --> 00:00:54.833
+Agora os dados estão abertos
+no Alteryx.
+
+00:00:54.867 --> 00:00:57.367
+Agora que sabemos como abrir
+um arquivo no Alteryx,
+
+00:00:57.400 --> 00:01:00.200
+vamos conhecer outras funções
+
+00:01:00.233 --> 00:01:03.200
+que vão permitir que exploremos
+os arquivos de dados ainda mais.
+
+00:01:03.233 --> 00:01:05.833
+Vamos tentar criar
+um workflow no Alteryx.
+
+00:01:05.867 --> 00:01:08.167
+Vamos supor que sua chefe
+peça para dizer a ela
+
+00:01:08.200 --> 00:01:11.200
+quantos clientes vocês têm
+na área de Denver.
+
+00:01:11.233 --> 00:01:15.833
+Para começar, é interessante saber
+quantos registros o documento tem.
+
+00:01:15.867 --> 00:01:19.533
+Isso pode ser feito de forma fácil,
+simplesmente ativando o workflow.
+
+00:01:19.567 --> 00:01:22.067
+Você pode fazer isso
+clicando no botão "Play"
+
+00:01:22.100 --> 00:01:24.567
+ou digitando CRTL + R
+no teclado.
+
+00:01:24.600 --> 00:01:26.133
+Depois que o workflow
+é ativado,
+
+00:01:26.167 --> 00:01:28.500
+podemos entrar
+na aba "Results",
+
+00:01:28.533 --> 00:01:30.667
+clicar no ícone "Messages"
+
+00:01:30.700 --> 00:01:35.867
+e ver que 2.669 registros
+foram identificados no arquivo.
+
+00:01:35.900 --> 00:01:38.233
+Ao clicar no ícone "Output",
+
+00:01:38.267 --> 00:01:41.800
+podemos ver os dados
+e os campos presentes no arquivo.
+
+00:01:41.833 --> 00:01:46.533
+Mas nossa chefe só está interessada
+em analisar os clientes de Denver.
+
+00:01:46.567 --> 00:01:49.633
+Podemos usar a ferramenta "Filter"
+para separar esses clientes
+
+00:01:49.667 --> 00:01:51.833
+do conjunto maior de dados.
+
+00:01:51.867 --> 00:01:54.333
+Basta arrastar a ferramenta "Filter"
+para a tela
+
+00:01:54.367 --> 00:01:57.833
+e selecionar o campo "City"
+no filtro básico.
+
+00:01:57.867 --> 00:02:01.700
+Na caixa ao lado de "Equals",
+vamos digitar: "Denver".
+
+00:02:01.733 --> 00:02:03.700
+A ferramenta "Filter"
+tem dois outputs:
+
+00:02:03.733 --> 00:02:08.533
+um "T", ou lado verdadeiro,
+e um F, ou lado falso.
+
+00:02:08.567 --> 00:02:12.767
+O lado verdadeiro mostra registros
+em que a expressão é verdadeira,
+
+00:02:12.800 --> 00:02:15.567
+ou seja, os registros
+em que a cidade é Denver.
+
+00:02:15.600 --> 00:02:19.133
+Existem 1.166 registros assim
+nesta lista.
+
+00:02:19.167 --> 00:02:21.033
+Se você clicar no lado falso,
+
+00:02:21.067 --> 00:02:24.300
+vai ver o resto dos registros
+das outras cidades.
+
+00:02:24.333 --> 00:02:25.667
+*END*
+
+00:02:25.700 --> 00:02:27.000
+*CODE*
+

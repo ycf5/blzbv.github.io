@@ -1,0 +1,95 @@
+WEBVTT
+Kind: captions
+Language: pt-BR
+
+00:00:00.300 --> 00:00:03.133
+Tipos de dados são importantes
+em duas ocasiões:
+
+00:00:03.167 --> 00:00:05.900
+ao fazer cálculos
+com vários campos
+
+00:00:05.933 --> 00:00:08.000
+e ao mesclar
+conjuntos de dados.
+
+00:00:08.033 --> 00:00:11.600
+Primeiro, eles são importantes
+ao fazer qualquer tipo de cálculo.
+
+00:00:11.633 --> 00:00:15.600
+Vamos usar a multiplicação de
+dois campos de dados como exemplo.
+
+00:00:15.633 --> 00:00:19.200
+A multiplicação exige que
+trabalhemos com campos numéricos,
+
+00:00:19.233 --> 00:00:22.200
+então ambos os campos
+têm que ser números.
+
+00:00:22.233 --> 00:00:25.467
+Depois, se quisermos
+mesclar dois conjuntos de dados,
+
+00:00:25.500 --> 00:00:28.600
+precisamos que o campo ou campos
+que vamos mesclar
+
+00:00:28.633 --> 00:00:30.400
+tenham o mesmo tipo de dados.
+
+00:00:30.433 --> 00:00:33.200
+Por exemplo, se tivermos
+um arquivo de clientes
+
+00:00:33.233 --> 00:00:35.100
+e um arquivo de transações,
+
+00:00:35.133 --> 00:00:37.800
+ambos com um campo
+"Identificação do Cliente",
+
+00:00:37.833 --> 00:00:41.467
+podemos reunir os dois arquivos
+usando este campo.
+
+00:00:41.500 --> 00:00:45.433
+Isso faria os campos do arquivo
+de clientes serem adicionados
+
+00:00:45.467 --> 00:00:47.633
+ao registro de transações.
+
+00:00:47.667 --> 00:00:50.667
+No entanto, se o campo
+"Identificação do Cliente"
+
+00:00:50.700 --> 00:00:53.000
+em um arquivo
+for uma string
+
+00:00:53.033 --> 00:00:57.100
+e o campo "Identificação do Cliente"
+no outro arquivo for um número,
+
+00:00:57.133 --> 00:00:59.867
+teremos dificuldades
+para reunir os dados.
+
+00:00:59.900 --> 00:01:03.133
+Dependendo do software que você usar
+para reunir os conjuntos de dados,
+
+00:01:03.167 --> 00:01:05.467
+mensagens de erro
+podem aparecer.
+
+00:01:05.500 --> 00:01:06.833
+*END*
+
+00:01:06.867 --> 00:01:08.167
+*CODE*
+

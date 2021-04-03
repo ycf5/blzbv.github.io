@@ -1,0 +1,53 @@
+WEBVTT
+Kind: captions
+Language: pt-BR
+
+00:00:00.133 --> 00:00:03.600
+Para identificar que lojas
+têm mais de 300 clientes,
+
+00:00:03.633 --> 00:00:06.667
+temos que contar os clientes
+por loja.
+
+00:00:06.700 --> 00:00:09.532
+Para fazer isso, acrescentamos
+a ferramenta "Summarize" à tela,
+
+00:00:09.565 --> 00:00:11.433
+depois de importar o arquivo.
+
+00:00:11.467 --> 00:00:14.200
+Depois vamos clicar
+em "Store Number",
+
+00:00:14.233 --> 00:00:18.500
+em "Add",
+em "Group By" e em "Count".
+
+00:00:18.533 --> 00:00:22.167
+Ao ativar o workflow, um número
+terá sido acrescentado a cada loja.
+
+00:00:22.200 --> 00:00:24.100
+Depois vamos conectar
+a ferramenta "Filter"
+
+00:00:24.133 --> 00:00:28.767
+e estabelecer a expressão como:
+"Count greater than 300".
+
+00:00:28.800 --> 00:00:31.267
+Cinco registros aparecem
+como "True".
+
+00:00:31.300 --> 00:00:34.967
+Então cinco lojas têm
+mais de 300 clientes.
+
+00:00:35.367 --> 00:00:36.667
+*END*
+
+00:00:36.700 --> 00:00:38.000
+*CODE*
+

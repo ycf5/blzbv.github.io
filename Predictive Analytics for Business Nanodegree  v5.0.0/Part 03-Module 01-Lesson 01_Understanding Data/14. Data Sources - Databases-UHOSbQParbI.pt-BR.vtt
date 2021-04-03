@@ -1,0 +1,129 @@
+WEBVTT
+Kind: captions
+Language: pt-BR
+
+00:00:00.500 --> 00:00:03.066
+Para importar dados
+de um banco de dados para o Alteryx,
+
+00:00:03.099 --> 00:00:05.100
+basta clicar na ferramenta
+"Input Data"
+
+00:00:05.133 --> 00:00:07.067
+e arrastá-la até a tela.
+
+00:00:07.100 --> 00:00:10.300
+Depois, vamos até
+a janela "Configuration",
+
+00:00:10.333 --> 00:00:14.333
+clicar no menu drop down e escolher
+"Database Conexion".
+
+00:00:14.367 --> 00:00:17.367
+Vai precisar saber a maneira certa
+de se conectar ao banco de dados,
+
+00:00:17.400 --> 00:00:21.367
+ou seja, se ele tem
+um provedor Ole DB, ODBC
+
+00:00:21.400 --> 00:00:23.967
+ou se é uma conexão direta
+com a Oracle.
+
+00:00:24.000 --> 00:00:27.567
+Neste exemplo,
+vamos conectar o SQL Server
+
+00:00:27.600 --> 00:00:29.800
+com um provedor Ole DB.
+
+00:00:29.833 --> 00:00:32.567
+A 1ª coisa que vou fazer
+é selecionar
+
+00:00:32.600 --> 00:00:35.900
+o provedor Ole DB
+para o SQL Server.
+
+00:00:35.933 --> 00:00:37.900
+Depois vou digitar
+o nome do provedor.
+
+00:00:37.933 --> 00:00:41.400
+Então, vou selecionar a segurança
+usada para logar no provedor.
+
+00:00:41.433 --> 00:00:44.700
+No meu caso, estou usando
+a "Windows Integrated Security",
+
+00:00:44.733 --> 00:00:47.900
+então vou selecioná-la. Depois,
+vou selecionar o banco de dados
+
+00:00:47.933 --> 00:00:49.567
+no menu drop down.
+
+00:00:49.600 --> 00:00:52.533
+Vou selecionar
+o banco de dados "Master"
+
+00:00:52.933 --> 00:00:54.767
+e testar a conexão.
+
+00:00:55.100 --> 00:00:58.633
+A conexão foi feita,
+e estamos prontos para começar.
+
+00:00:58.667 --> 00:01:01.200
+Depois de clicar em "Ok",
+vou importar os dados
+
+00:01:01.233 --> 00:01:04.067
+usando vários métodos comuns.
+
+00:01:04.100 --> 00:01:08.967
+Vou importar todos os dados
+da planilha "Transactions",
+
+00:01:09.333 --> 00:01:12.400
+dar uma olhada na consulta
+e no editor de consultas,
+
+00:01:12.433 --> 00:01:16.033
+testar a consulta
+e clicar em "Ok".
+
+00:01:16.300 --> 00:01:19.800
+Neste momento, a conexão foi feita,
+mas os dados não são mostrados
+
+00:01:19.833 --> 00:01:23.333
+até eu clicar no link
+"Update Sample".
+
+00:01:23.367 --> 00:01:25.967
+Agora os dados estão
+sendo mostrados,
+
+00:01:26.000 --> 00:01:28.833
+ou pelo menos os 100 primeiros
+registros do arquivo.
+
+00:01:28.867 --> 00:01:33.133
+Se quiser ver todos os dados, posso
+arrastar a ferramenta "Browse",
+
+00:01:33.167 --> 00:01:38.833
+ativar o workflow e ver todos
+os dados do meu banco de dados.
+
+00:01:39.233 --> 00:01:40.533
+*END*
+
+00:01:40.567 --> 00:01:41.867
+*CODE*
+

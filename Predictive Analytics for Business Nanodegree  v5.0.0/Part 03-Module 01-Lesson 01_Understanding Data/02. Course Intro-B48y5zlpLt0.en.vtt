@@ -1,0 +1,55 @@
+WEBVTT
+Kind: captions
+Language: en
+
+00:00:00.000 --> 00:00:05.115
+Hi, I'm Maureen and I work as a Solutions Engineer at Alteryx.
+
+00:00:05.115 --> 00:00:07.125
+I'll be your instructor in this course,
+
+00:00:07.125 --> 00:00:11.875
+where you'll learn how to build a really great dataset to fuel your analytics.
+
+00:00:11.875 --> 00:00:16.710
+For years, I've been helping customers create analytic datasets for their analysis,
+
+00:00:16.710 --> 00:00:19.320
+and what I've learned along the way is that you
+
+00:00:19.320 --> 00:00:22.350
+rarely get one dataset that's in perfect shape,
+
+00:00:22.350 --> 00:00:25.015
+totally clean, and has no issues.
+
+00:00:25.015 --> 00:00:28.140
+To be honest, a lot of time can be spent working
+
+00:00:28.140 --> 00:00:31.290
+to get a dataset just right before it's analyzed.
+
+00:00:31.290 --> 00:00:33.170
+But why spend the effort?
+
+00:00:33.170 --> 00:00:36.880
+Well, we've often heard the term garbage in, garbage out,
+
+00:00:36.880 --> 00:00:41.465
+and well, your analytics will only be as good as the data you feed it.
+
+00:00:41.465 --> 00:00:46.545
+In this course, you'll learn techniques used to prepare datasets for analysis.
+
+00:00:46.545 --> 00:00:48.090
+By the end of the course,
+
+00:00:48.090 --> 00:00:52.550
+you'll apply these techniques to produce a robust analytic dataset.
+
+00:00:52.550 --> 00:00:56.060
+These skills will be used throughout the rest of the course and are
+
+00:00:56.060 --> 00:01:00.720
+key skills used by business analysts in their jobs every day.
+

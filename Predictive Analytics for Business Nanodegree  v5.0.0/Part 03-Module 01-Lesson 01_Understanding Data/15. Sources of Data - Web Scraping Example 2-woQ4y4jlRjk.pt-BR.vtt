@@ -1,0 +1,60 @@
+WEBVTT
+Kind: captions
+Language: pt-BR
+
+00:00:00.264 --> 00:00:03.771
+Eis um exemplo de como fazer
+web scraping na lista dos médicos.
+
+00:00:04.101 --> 00:00:07.272
+No Alteryx, vamos chamar
+a ferramenta de entrada de texto
+
+00:00:07.338 --> 00:00:09.935
+e vamos colar o URL
+da lista de médicos.
+
+00:00:10.657 --> 00:00:13.220
+Depois vamos anexar
+a ferramenta de download
+
+00:00:13.650 --> 00:00:15.346
+e uma ferramenta
+de navegação no fim,
+
+00:00:15.412 --> 00:00:17.635
+para ver os dados que saem.
+
+00:00:18.132 --> 00:00:19.552
+Na ferramenta de download,
+
+00:00:19.618 --> 00:00:23.689
+apontamos o campo de URL
+para o campo que contém o URL.
+
+00:00:23.755 --> 00:00:25.465
+Aqui só temos um campo.
+
+00:00:26.155 --> 00:00:27.801
+Depois de rodar o workflow,
+
+00:00:27.867 --> 00:00:30.299
+podemos expandir
+a célula de baixar dados.
+
+00:00:30.934 --> 00:00:34.059
+Assim você pode ver os dados
+que vêm da página.
+
+00:00:34.367 --> 00:00:38.104
+Veja que não precisamos
+dos dados aqui de cima,
+
+00:00:38.947 --> 00:00:40.728
+mas, quando
+rolamos para baixo,
+
+00:00:40.761 --> 00:00:42.527
+vemos os dados
+que queremos.
+

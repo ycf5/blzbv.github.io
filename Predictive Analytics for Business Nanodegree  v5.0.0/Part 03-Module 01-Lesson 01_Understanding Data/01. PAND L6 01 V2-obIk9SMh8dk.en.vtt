@@ -1,0 +1,76 @@
+WEBVTT
+Kind: captions
+Language: en
+
+00:00:00.000 --> 00:00:04.300
+So, now you have some experienced building and using a linear regression model.
+
+00:00:04.300 --> 00:00:05.580
+In your last project,
+
+00:00:05.580 --> 00:00:07.145
+the data was prepared for you.
+
+00:00:07.145 --> 00:00:10.820
+However, there's often a lot of work that goes into gathering,
+
+00:00:10.820 --> 00:00:14.535
+cleaning, and blending data before it's ready for analysis.
+
+00:00:14.535 --> 00:00:18.790
+Data preparation is absolutely crucial for business analysis.
+
+00:00:18.790 --> 00:00:20.165
+Without good data prep,
+
+00:00:20.165 --> 00:00:23.320
+the results of your analysis can be incorrect or misleading.
+
+00:00:23.320 --> 00:00:26.070
+For example, while I was working as a consultant,
+
+00:00:26.070 --> 00:00:28.350
+I was building a model to estimate the price of
+
+00:00:28.350 --> 00:00:31.015
+a stock based on movements in marketing industry indices.
+
+00:00:31.015 --> 00:00:34.820
+It was pretty late in the process when my colleague pointed out that the stock price was
+
+00:00:34.820 --> 00:00:38.930
+listed it as negative on some days which totally threw everything off.
+
+00:00:38.930 --> 00:00:40.445
+After making the changes,
+
+00:00:40.445 --> 00:00:43.365
+the results of my analysis made much more sense.
+
+00:00:43.365 --> 00:00:44.685
+In this next section,
+
+00:00:44.685 --> 00:00:46.820
+we will discuss various aspects of preparing
+
+00:00:46.820 --> 00:00:49.690
+data including how to avoid mistakes like Sam's.
+
+00:00:49.690 --> 00:00:53.510
+You learned about different data sources and data types,
+
+00:00:53.510 --> 00:00:57.045
+how to deal with common data issues like missing data and outliers,
+
+00:00:57.045 --> 00:00:58.730
+how to format data,
+
+00:00:58.730 --> 00:01:01.070
+and how to blend data from different sources.
+
+00:01:01.070 --> 00:01:04.570
+Take a look at the project overview and description before you go through the course.
+
+00:01:04.570 --> 00:01:08.780
+It will give you a good sense of the goal of the course. Good luck.
+

@@ -1,0 +1,102 @@
+WEBVTT
+Kind: captions
+Language: pt-BR
+
+00:00:00.433 --> 00:00:02.366
+Vamos falar sobre os tipos
+de campo mais comuns
+
+00:00:02.399 --> 00:00:06.000
+que costumamos achar nos dados
+e conhecê-los um pouco melhor.
+
+00:00:06.033 --> 00:00:09.133
+Normalmente, eles podem ser
+reunidos em cinco categorias:
+
+00:00:09.167 --> 00:00:13.700
+strings, numéricos,
+data e hora,
+
+00:00:13.733 --> 00:00:17.200
+booleanos
+e objetos especiais.
+
+00:00:17.233 --> 00:00:19.967
+Strings são quaisquer tipos
+de caracteres alfanuméricos,
+
+00:00:20.000 --> 00:00:23.400
+inclusive símbolos.
+Alguns exemplos:
+
+00:00:23.433 --> 00:00:26.400
+um campo para endereços,
+para placa de carros,
+
+00:00:26.433 --> 00:00:30.640
+uma resposta aberta numa pesquisa
+ou a descrição de um produto.
+
+00:00:31.333 --> 00:00:34.367
+Dados numéricos são números
+que podem ser inteiros
+
+00:00:34.400 --> 00:00:38.267
+ou números decimais.
+
+00:00:38.500 --> 00:00:41.367
+Alguns exemplos:
+vendas em dólares,
+
+00:00:41.400 --> 00:00:44.200
+a população na área
+que cerca uma loja
+
+00:00:44.233 --> 00:00:46.133
+ou a idade da pessoa.
+
+00:00:46.167 --> 00:00:49.633
+Dados de data e hora
+podem conter uma data específica
+
+00:00:49.667 --> 00:00:52.667
+ou uma combinação
+de data e hora.
+
+00:00:52.700 --> 00:00:56.367
+Esses dados podem ser muito úteis
+para calcular o número de minutos
+
+00:00:56.400 --> 00:00:58.533
+entre a ligação de alguém
+relatando um problema
+
+00:00:58.567 --> 00:01:00.500
+e sua resolução.
+
+00:01:00.533 --> 00:01:04.333
+O tipo booleano também
+é chamado de "lógico"
+
+00:01:04.367 --> 00:01:09.467
+e é um item condicional
+que representa verdadeiro ou falso.
+
+00:01:09.500 --> 00:01:12.400
+Por fim, temos objetos especiais
+que podem ser objetos
+
+00:01:12.433 --> 00:01:16.800
+como imagens, mapas,
+relatórios ou arquivos de som -
+
+00:01:16.833 --> 00:01:18.933
+para dar alguns exemplos.
+
+00:01:18.966 --> 00:01:20.300
+*END*
+
+00:01:20.333 --> 00:01:21.633
+*CODE*
+

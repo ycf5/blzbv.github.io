@@ -1,0 +1,85 @@
+WEBVTT
+Kind: captions
+Language: pt-BR
+
+00:00:00.233 --> 00:00:03.200
+Importe o arquivo
+"Transactions.xml".
+
+00:00:03.233 --> 00:00:06.100
+Se ativarmos o Alteryx, você vai
+notar que o campo "Sales", vendas,
+
+00:00:06.133 --> 00:00:08.700
+é de strings, e não números.
+
+00:00:08.733 --> 00:00:13.070
+Se olharmos os metadados,
+podemos ver os tipos aqui.
+
+00:00:13.567 --> 00:00:15.700
+Para somar o campo "Sales",
+
+00:00:15.733 --> 00:00:18.233
+ele precisa ter
+um formato numérico.
+
+00:00:18.267 --> 00:00:20.733
+Então, usando
+a ferramenta "Select",
+
+00:00:20.767 --> 00:00:23.900
+vamos mudar o campo "Sales"
+para um formato numérico.
+
+00:00:23.933 --> 00:00:25.171
+"Double", por exemplo.
+
+00:00:25.900 --> 00:00:28.232
+Então vamos acrescentar
+a ferramenta "Summarize",
+
+00:00:28.265 --> 00:00:30.433
+agrupar por "Order_ID",
+
+00:00:30.467 --> 00:00:32.400
+somar o campo "Sales"
+
+00:00:32.433 --> 00:00:36.133
+e, quando ativarmos o programa,
+veremos o resultado.
+
+00:00:36.167 --> 00:00:38.300
+Mas, se quisermos encontrar
+o total em vendas
+
+00:00:38.333 --> 00:00:42.167
+para a ordem número 10080,
+
+00:00:42.200 --> 00:00:45.133
+precisamos acrescentar
+uma ferramenta "Filter".
+
+00:00:45.167 --> 00:00:50.333
+Depois de adicioná-la, vamos
+definir a identificação da ordem
+
+00:00:50.367 --> 00:00:52.433
+de número 10080
+
+00:00:52.467 --> 00:00:54.404
+e ver qual é o resultado.
+
+00:00:55.067 --> 00:00:58.033
+O resultado é 637
+
+00:00:58.600 --> 00:01:04.533
+ou, se você usou um campo "Double"
+ou decimal, 637,04.
+
+00:01:04.967 --> 00:01:06.267
+*END*
+
+00:01:06.300 --> 00:01:07.600
+*CODE*
+

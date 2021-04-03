@@ -1,0 +1,111 @@
+WEBVTT
+Kind: captions
+Language: pt-BR
+
+00:00:00.100 --> 00:00:04.000
+Para extrair dados do site
+do Programa Ace da Alteryx,
+
+00:00:04.033 --> 00:00:06.100
+vamos começar
+com a ferramenta "Text Input",
+
+00:00:06.133 --> 00:00:11.467
+digitar a url da página
+e o campo "Url".
+
+00:00:11.500 --> 00:00:13.600
+Depois vamos conectar
+a ferramenta "Download"
+
+00:00:13.633 --> 00:00:16.267
+e acrescentar uma ferramenta
+"Browse" depois disso.
+
+00:00:16.300 --> 00:00:18.632
+Quando o Alteryx for ativado,
+poderemos ver os resultados
+
+00:00:18.665 --> 00:00:20.867
+na célula "Download Data".
+
+00:00:20.900 --> 00:00:23.067
+Podemos expandir
+o tamanho da janela
+
+00:00:23.100 --> 00:00:26.033
+para ver os dados presentes
+na célula "Download Data".
+
+00:00:26.067 --> 00:00:28.967
+Esta célula contém
+a página inteira.
+
+00:00:29.000 --> 00:00:31.533
+Para exportar isto
+para um arquivo .csv,
+
+00:00:31.567 --> 00:00:34.700
+vamos conectar
+a ferramenta "Select"
+
+00:00:34.733 --> 00:00:36.733
+para remover
+os dois campos irrelevantes
+
+00:00:36.767 --> 00:00:39.700
+que não contêm
+os dados da página:
+
+00:00:39.733 --> 00:00:43.500
+"Url"
+e "Download data headers".
+
+00:00:43.533 --> 00:00:46.700
+Então vamos ligar
+a ferramenta "Output Data",
+
+00:00:46.733 --> 00:00:51.700
+selecionar uma pasta e digitar
+um nome para o arquivo .csv.
+
+00:00:51.733 --> 00:00:57.133
+Clique em "Save" e confira se o tipo
+de arquivo selecionado é o .csv.
+
+00:00:57.167 --> 00:01:02.500
+Então lembre-se de trocar
+o "Delimitor" de vírgula
+
+00:01:02.533 --> 00:01:07.500
+para "\0", o que indica
+que não há delimitadores.
+
+00:01:07.533 --> 00:01:11.700
+Lembre que a opção 4,
+"First Row Contains Field Names",
+
+00:01:11.733 --> 00:01:14.000
+não deve estar marcada.
+
+00:01:14.033 --> 00:01:17.674
+Quando ativarmos o workflow,
+o arquivo será criado.
+
+00:01:20.733 --> 00:01:24.833
+Se clicarmos no arquivo,
+ele será aberto
+
+00:01:25.133 --> 00:01:29.838
+na ferramenta padrão
+que abre arquivos .csv.
+
+00:01:30.500 --> 00:01:32.800
+Então poderemos ver o arquivo.
+
+00:01:32.833 --> 00:01:34.167
+*END*
+
+00:01:34.200 --> 00:01:35.500
+*CODE*
+

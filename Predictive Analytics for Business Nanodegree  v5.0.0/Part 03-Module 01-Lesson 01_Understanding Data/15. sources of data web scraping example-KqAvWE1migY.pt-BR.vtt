@@ -1,0 +1,74 @@
+WEBVTT
+Kind: captions
+Language: pt-BR
+
+00:00:00.316 --> 00:00:04.494
+Extrair dados de um arquivo simples
+da internet é bem fácil.
+
+00:00:04.854 --> 00:00:08.710
+Basta baixar o arquivo e depois
+abri-lo, como qualquer outro.
+
+00:00:09.346 --> 00:00:12.274
+Mas web scraping (raspagem)
+pode ser um pouco mais difícil.
+
+00:00:12.340 --> 00:00:14.689
+Vamos ver um exemplo
+de web scraping.
+
+00:00:15.308 --> 00:00:18.909
+O link que você vê abaixo do vídeo
+leva a um artigo de revista
+
+00:00:18.975 --> 00:00:22.530
+que lista os melhores médicos
+da área metropolitana de Denver.
+
+00:00:22.856 --> 00:00:26.431
+Para pegar os dados
+de cada médico da página,
+
+00:00:26.497 --> 00:00:28.922
+temos que "raspar"
+os dados do site.
+
+00:00:29.460 --> 00:00:32.869
+O web scraping se dá
+fazendo um pedido ao site
+
+00:00:32.935 --> 00:00:34.543
+e recuperando os dados.
+
+00:00:34.609 --> 00:00:37.567
+Ao digitar um URL
+ou endereço de internet,
+
+00:00:37.633 --> 00:00:39.881
+fazemos um pedido
+ao servidor da rede.
+
+00:00:40.490 --> 00:00:45.745
+A resposta é um código web
+que contém dados da página.
+
+00:00:46.325 --> 00:00:50.928
+O código está em HTML,
+ou "HyperText Markup Language",
+
+00:00:50.994 --> 00:00:53.096
+que é o código de internet
+mais comum.
+
+00:00:53.551 --> 00:00:55.837
+Os dados
+que queremos extrair do código
+
+00:00:55.903 --> 00:00:57.593
+estão embutidos no texto
+
+00:00:57.659 --> 00:01:00.487
+e precisam ser organizados
+em linhas e colunas.
+

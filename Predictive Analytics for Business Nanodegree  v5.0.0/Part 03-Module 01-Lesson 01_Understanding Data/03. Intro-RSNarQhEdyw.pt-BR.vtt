@@ -1,0 +1,48 @@
+WEBVTT
+Kind: captions
+Language: pt-BR
+
+00:00:00.801 --> 00:00:04.371
+Talvez você tenha muitos dados
+disponíveis na sua organização.
+
+00:00:04.404 --> 00:00:07.341
+Nesta aula, vamos pensar
+fora da caixa
+
+00:00:07.374 --> 00:00:10.844
+em relação a todos os dados
+que podemos usar para análise.
+
+00:00:10.878 --> 00:00:13.247
+Também vamos analisar
+os formatos dos dados
+
+00:00:13.280 --> 00:00:17.384
+e por que é importante que estejam
+no formato mais eficiente possível.
+
+00:00:18.652 --> 00:00:20.854
+No fim da aula, você saberá
+
+00:00:20.888 --> 00:00:23.390
+como inserir um conjunto de dados
+no Alteryx,
+
+00:00:23.423 --> 00:00:26.093
+reconhecer os problemas estruturais
+dele, caso os tenha,
+
+00:00:26.126 --> 00:00:29.563
+e otimizar os tipos de campos
+mais apropriados para os dados.
+
+00:00:30.497 --> 00:00:32.332
+Vamos começar!
+
+00:00:32.900 --> 00:00:34.201
+*END*
+
+00:00:34.234 --> 00:00:35.536
+*CODE*
+

@@ -1,0 +1,110 @@
+WEBVTT
+Kind: captions
+Language: pt-BR
+
+00:00:00.033 --> 00:00:03.000
+Agora nossa chefe quer saber
+que segmento de clientes
+
+00:00:03.033 --> 00:00:05.967
+representa a maioria
+dos clientes de Denver.
+
+00:00:06.000 --> 00:00:08.767
+Podemos fazer isso facilmente,
+somando os dados
+
+00:00:08.800 --> 00:00:10.833
+do campo "Customer Segment"
+
+00:00:10.867 --> 00:00:13.867
+e contando o número de registros
+em cada segmento.
+
+00:00:13.900 --> 00:00:16.567
+Para fazer isso, vamos usar
+a ferramenta "Summarize"
+
+00:00:16.600 --> 00:00:19.300
+e colocá-la ao lado
+da ferramenta "Filter".
+
+00:00:19.333 --> 00:00:21.867
+Então vamos clicar no campo
+"Customer Segment",
+
+00:00:21.900 --> 00:00:25.067
+ir até "Add"
+e selecionar "Group By".
+
+00:00:25.100 --> 00:00:27.833
+Agora os dados serão
+agrupados por segmento.
+
+00:00:27.867 --> 00:00:30.233
+Depois, para contar
+o número de registros,
+
+00:00:30.267 --> 00:00:33.033
+vamos voltar a "Add",
+selecionar "Count"
+
+00:00:33.067 --> 00:00:35.400
+e ativar o workflow outra vez.
+
+00:00:35.433 --> 00:00:38.567
+A aba "Results" nos mostra quatro
+tipos de segmentos de clientes
+
+00:00:38.600 --> 00:00:41.600
+com o número de clientes
+em cada segmento.
+
+00:00:41.633 --> 00:00:45.733
+Apesar de ser muito fácil ver
+que segmento tem mais clientes,
+
+00:00:45.767 --> 00:00:49.533
+imagine que essa lista
+tenha 10 mil registros.
+
+00:00:49.567 --> 00:00:52.700
+A maneira de encontrar o segmento
+com o maior número de clientes
+
+00:00:52.733 --> 00:00:54.900
+seria ordenar os dados.
+
+00:00:54.933 --> 00:00:57.633
+Para fazer isso, vamos pegar
+a ferramenta "Sort"
+
+00:00:57.667 --> 00:00:59.844
+e ligá-la à ferramenta "Summarize".
+
+00:01:00.933 --> 00:01:03.567
+Então vamos selecionar
+o campo "Count" embaixo de "Name"
+
+00:01:03.600 --> 00:01:06.200
+e estabelecer a ordem
+como "Descending".
+
+00:01:06.233 --> 00:01:07.933
+Quando ativarmos o workflow
+de novo,
+
+00:01:07.967 --> 00:01:10.367
+vamos ver
+que o segmento "Corporate"
+
+00:01:10.400 --> 00:01:13.433
+tem mais clientes,
+com 390 integrantes.
+
+00:01:13.466 --> 00:01:14.800
+*END*
+
+00:01:14.833 --> 00:01:16.133
+*CODE*
+

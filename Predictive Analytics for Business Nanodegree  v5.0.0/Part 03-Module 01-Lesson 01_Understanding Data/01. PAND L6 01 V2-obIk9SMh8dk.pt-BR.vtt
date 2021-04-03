@@ -1,0 +1,106 @@
+WEBVTT
+Kind: captions
+Language: pt-BR
+
+00:00:00.459 --> 00:00:04.125
+Agora você sabe como utilizar
+o modelo de regressão linear.
+
+00:00:04.167 --> 00:00:07.334
+No último projeto, os dados
+estavam prontos para você.
+
+00:00:07.375 --> 00:00:11.375
+Porém, dá muito trabalho
+obter, selecionar
+
+00:00:11.417 --> 00:00:14.459
+e combinar os dados
+antes de analisá-los.
+
+00:00:14.501 --> 00:00:18.709
+A preparação dos dados é crucial
+para a análise do negócio.
+
+00:00:18.751 --> 00:00:21.501
+Sem isso, o resultado
+da sua análise
+
+00:00:21.542 --> 00:00:23.250
+pode ser incorreto
+ou enganoso.
+
+00:00:23.292 --> 00:00:25.918
+Quando eu trabalhava
+como consultor,
+
+00:00:25.959 --> 00:00:28.501
+eu construí um modelo
+para estimar o valor de uma ação
+
+00:00:28.542 --> 00:00:30.959
+baseado nos índices
+das movimentações de mercado.
+
+00:00:31.001 --> 00:00:33.584
+Quando eu já estava terminando,
+meu colega percebeu
+
+00:00:33.626 --> 00:00:36.584
+que os preços apareciam
+negativos em alguns dias,
+
+00:00:36.626 --> 00:00:39.083
+algo que acabou com tudo.
+
+00:00:39.125 --> 00:00:41.167
+Após algumas mudanças,
+os resultados
+
+00:00:41.209 --> 00:00:43.125
+faziam muito mais sentido.
+
+00:00:43.167 --> 00:00:45.959
+Na próxima seção,
+nós discutiremos vários aspectos
+
+00:00:46.000 --> 00:00:47.250
+da preparação dos dados
+
+00:00:47.292 --> 00:00:49.584
+para evitar erros
+como o do Sam.
+
+00:00:49.626 --> 00:00:53.083
+Você verá as diferentes
+fontes e tipos de dados,
+
+00:00:53.125 --> 00:00:55.125
+aprenderá a lidar
+com problemas comuns
+
+00:00:55.167 --> 00:00:57.125
+como a falta de dados
+e de elementos,
+
+00:00:57.167 --> 00:00:58.584
+verá como formatar os dados
+
+00:00:58.626 --> 00:01:00.918
+e como agrupar dados
+de fontes distintas.
+
+00:01:00.959 --> 00:01:03.167
+Leia o resumo
+do projeto e na descrição
+
+00:01:03.201 --> 00:01:04.667
+antes de iniciar o curso.
+
+00:01:04.709 --> 00:01:07.250
+Isso lhe mostrará
+qual é o objetivo do curso.
+
+00:01:07.292 --> 00:01:08.542
+Boa sorte.
+

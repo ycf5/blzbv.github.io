@@ -1,0 +1,105 @@
+WEBVTT
+Kind: captions
+Language: pt-BR
+
+00:00:00.700 --> 00:00:03.533
+A análise e o resultado dela
+
+00:00:03.567 --> 00:00:06.700
+são sempre tão bons quanto os dados
+que temos para trabalhar.
+
+00:00:06.733 --> 00:00:09.267
+Mas nem todos os dados
+que estão disponíveis
+
+00:00:09.300 --> 00:00:11.100
+são fáceis de usar.
+
+00:00:11.133 --> 00:00:13.300
+Dados podem vir
+de muitas fontes:
+
+00:00:13.333 --> 00:00:15.000
+existem dados transacionais,
+
+00:00:15.033 --> 00:00:18.633
+como, por exemplo, os dados gravados
+no mercado a cada compra;
+
+00:00:18.667 --> 00:00:22.133
+dados recolhidos por aparelhos
+que usamos, como nossa TV,
+
+00:00:22.167 --> 00:00:24.400
+decodificadores de TV a cabo
+ou celulares,
+
+00:00:24.433 --> 00:00:28.767
+e dados coletados, como dados
+sobre o clima, o censo ou voos.
+
+00:00:28.800 --> 00:00:31.967
+Quando trabalhar com dados
+para resolver problemas analíticos,
+
+00:00:32.000 --> 00:00:34.933
+você verá que o desafio
+é pensar como você pode usar
+
+00:00:34.967 --> 00:00:36.967
+todos os dados disponíveis
+
+00:00:37.000 --> 00:00:40.767
+para que sua análise seja
+tão rica e forte quanto possível.
+
+00:00:40.800 --> 00:00:42.433
+Mas agora você pode
+estar pensando:
+
+00:00:42.467 --> 00:00:45.133
+"Como posso integrar
+comentários de mídias sociais
+
+00:00:45.167 --> 00:00:47.600
+ou resultados de pesquisas
+em minha análise
+
+00:00:47.633 --> 00:00:50.267
+se eles são apenas
+enormes parágrafos de texto?
+
+00:00:50.300 --> 00:00:53.533
+Como posso organizar
+o caos nos dados?"
+
+00:00:53.567 --> 00:00:55.333
+Para responder
+a essas perguntas,
+
+00:00:55.367 --> 00:00:58.500
+primeiro temos que entender
+a estrutura dos dados.
+
+00:00:58.533 --> 00:01:01.567
+Dados podem se encaixar
+em uma destas três categorias:
+
+00:01:01.600 --> 00:01:05.400
+estruturados, não estruturados
+e semiestruturados.
+
+00:01:05.433 --> 00:01:09.000
+A seguir, vamos analisar
+essas três maneiras
+
+00:01:09.033 --> 00:01:10.967
+de estruturar os dados.
+
+00:01:11.000 --> 00:01:12.333
+*END*
+
+00:01:12.367 --> 00:01:13.667
+*CODE*
+
