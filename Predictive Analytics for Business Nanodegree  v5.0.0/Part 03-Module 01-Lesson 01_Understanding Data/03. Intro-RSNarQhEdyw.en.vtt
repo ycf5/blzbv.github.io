@@ -3,37 +3,37 @@ Kind: captions
 Language: en
 
 00:00:00.990 --> 00:00:04.590
-You may have a lot of data available
-to you in your organization.
+You may have a lot of data available to you in your organization.
+您的组织中可能有大量数据可供您使用 
 
 00:00:04.590 --> 00:00:07.560
-In this lesson,
-we're going to think outside of the box
+In this lesson, we're going to think outside of the box
+在这一课中 我们会在盒子外面思考
 
 00:00:07.560 --> 00:00:11.020
-in terms of all the data that
-we can use in our analytics.
+in terms of all the data that we can use in our analytics.
+在我们的分析中可以使用的所有数据 
 
 00:00:11.020 --> 00:00:14.520
-We'll also look into the format of data,
-and why it's important for
+We'll also look into the format of data, and why it's important for
+我们还会研究数据的格式 以及数据的重要性
 
 00:00:14.520 --> 00:00:17.185
-it to be in the most
-efficient format possible.
+it to be in the most efficient format possible.
+以最有效的格式
 
 00:00:17.185 --> 00:00:22.934
-[SOUND] By the end of a lesson, we'll
-be able to input a data into Alteryx,
+[SOUND] By the end of a lesson, we'll be able to input a data into Alteryx,
+[ SOUND ] 在一课结束后 我们就能将数据输入 Alteryx 
 
 00:00:22.934 --> 00:00:26.330
-recognize its structural
-issues if any and
+recognize its structural issues if any and
+承认其结构问题 ( 如果有的话 )
 
 00:00:26.330 --> 00:00:30.404
-optimize the field types
-to best fit with our data.
+optimize the field types to best fit with our data.
+优化字段类型以最适合我们的数据 
 
 00:00:30.404 --> 00:00:31.490
 Let's dive in.
-
+我们开始吧
