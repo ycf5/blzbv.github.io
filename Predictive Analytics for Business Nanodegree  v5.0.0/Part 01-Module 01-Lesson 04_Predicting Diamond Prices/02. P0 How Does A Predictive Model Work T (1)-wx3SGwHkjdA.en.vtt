@@ -4,88 +4,116 @@ Language: en
 
 00:00:00.000 --> 00:00:01.715
 To build a predictive model,
+要构建预测模型 
 
 00:00:01.715 --> 00:00:05.415
 you first start with a bunch of data where the outcome is already known.
+你先从一些已经知道结果的数据开始
 
 00:00:05.415 --> 00:00:07.760
 This data is called the training set.
+此数据称为训练集 
 
 00:00:07.760 --> 00:00:10.020
 The training set will have several variables,
+训练集有几个变量 
 
 00:00:10.020 --> 00:00:14.065
 called predictor variables, as well as the outcome or target variable.
+称为预测变量 以及结果变量或目标变量 
 
 00:00:14.065 --> 00:00:17.340
 For example, if you want to predict the likelihood that a student
+例如 如果要预测学生的可能性
 
 00:00:17.340 --> 00:00:20.730
 will graduate based on some information you have about them,
+会根据你对他们的一些信息毕业
 
 00:00:20.730 --> 00:00:23.460
 you train your model using historical data on
+使用历史数据对模型进行训练
 
 00:00:23.460 --> 00:00:27.160
 students for whom you already know whether or not they graduated.
+你已经知道他们毕业的学生了
 
 00:00:27.160 --> 00:00:30.240
 The training dataset helps the model understand
+培训数据集有助于模型理解
 
 00:00:30.240 --> 00:00:34.210
 the relationship between predictor variables and the outcome or target variable.
+预测变量与结果或目标变量之间的关系 
 
 00:00:34.210 --> 00:00:39.390
 The model is then applied to a new dataset where the outcomes are not yet known.
+然后 模型将应用于尚未知道结果的新数据集 
 
 00:00:39.390 --> 00:00:42.395
 We call this dataset the Test dataset.
+我们将此数据集称为测试数据集 
 
 00:00:42.395 --> 00:00:43.960
 In the students example,
+在学生中
 
 00:00:43.960 --> 00:00:46.040
 the test data would be new or existing
+测试数据将是新的或现有
 
 00:00:46.040 --> 00:00:49.570
 students for whom we have the predictor variable data,
+我们有预测变量数据的学生
 
 00:00:49.570 --> 00:00:52.660
 but the graduation outcome is not yet known.
+但毕业的结果还不清楚
 
 00:00:52.660 --> 00:00:55.400
 You apply the model to that dataset to get
+将模型应用于该数据集以获取
 
 00:00:55.400 --> 00:00:58.500
 an estimate of the likelihood each student will graduate.
+估计每个学生毕业的可能性 
 
 00:00:58.500 --> 00:01:00.390
 The more training data you have,
+你的训练数据越多
 
 00:01:00.390 --> 00:01:03.150
 the more accurately the model can predict outcomes.
+模型可以更精确地预测结果 
 
 00:01:03.150 --> 00:01:04.545
 In this first project,
+在这个项目中
 
 00:01:04.545 --> 00:01:06.920
 you'll use a predictive model designed to predict
+你会用一个预测模型来预测
 
 00:01:06.920 --> 00:01:10.015
 the price of diamonds based on their various attributtes.
+钻石的价格
 
 00:01:10.015 --> 00:01:12.200
 The model has already been trained using
+模型已使用
 
 00:01:12.200 --> 00:01:15.725
 a large dataset of diamonds where the prices are already known.
+已经知道价格的钻石大数据集
 
 00:01:15.725 --> 00:01:18.950
 You'll be using the results of the model to predict prices for
+您将使用模型的结果来预测价格
 
 00:01:18.950 --> 00:01:22.580
 another set of diamonds for which you will have their attributes,
+你将拥有的另一组钻石
 
 00:01:22.580 --> 00:01:25.890
 but the price is not known. Good luck.
-
+但价格是不知道的 祝你好运
